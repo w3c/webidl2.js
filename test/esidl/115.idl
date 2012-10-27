@@ -1,0 +1,36 @@
+// Test [Supplemental] generation
+
+interface X
+{
+    attribute long a;
+};
+
+[Supplemental]
+interface X
+{
+    attribute long b;
+};
+
+interface Y
+{
+    attribute long b;
+};
+
+[Supplemental, NoInterfaceObject]
+interface Z1 : Y
+{
+    attribute long c;
+};
+
+[Supplemental, NoInterfaceObject]
+interface Z2
+{
+    attribute long d;
+};
+Y implements Z2;
+
+interface Z3
+{
+    attribute long e;
+};
+Y implements Z3;

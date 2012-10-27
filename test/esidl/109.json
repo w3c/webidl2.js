@@ -1,0 +1,85 @@
+[
+  {
+    "type": "interface",
+    "name": "Dictionary",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "unsigned long",
+          "nullable": false
+        },
+        "name": "propertyCount",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "float",
+          "nullable": false
+        },
+        "name": "getProperty",
+        "arguments": [
+          {
+            "name": "propertyName",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "getter": true,
+        "omittable": true
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "setProperty",
+        "arguments": [
+          {
+            "name": "propertyName",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "propertyValue",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "setter": true,
+        "omittable": true
+      }
+    ],
+    "extAttrs": ""
+  }
+]

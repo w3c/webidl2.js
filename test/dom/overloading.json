@@ -1,0 +1,977 @@
+[
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithSameSignature",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "param",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "MyType",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "MyType2",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableSingleParam",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableSingleParam2",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": true
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": true
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableSingleParam3",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": true
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "MyType",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableSingleParam4",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": [
+              {
+                "name": "AllowAny"
+              }
+            ]
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableSingleParam5",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "MyType",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "MyType",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableTwoParams",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "str",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": true
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "t",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "MyType",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableOptionalParam",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "str",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoOperationsWithUndistinguishableVariadicParam",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "str",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "str",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "param",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": true,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "TwoCallersWithUndistinguishableParam",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "foo",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "caller": true,
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "bar",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "caller": true,
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "NamedConstructorWithUndistinguishableParam",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "NamedConstructor",
+        "value": "Right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ]
+      },
+      {
+        "name": "NamedConstructor",
+        "value": "Right",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "ConstructorWithUndistinguishableParam",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "Constructor",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ]
+      },
+      {
+        "name": "Constructor",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "boolean",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "ValidOverloading",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": [
+              {
+                "name": "AllowAny"
+              }
+            ]
+          },
+          {
+            "name": "b",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "c",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": true,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "b",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "c",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          },
+          {
+            "name": "d",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": true,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "object",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "b",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "MyType2",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  }
+]

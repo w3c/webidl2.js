@@ -1,0 +1,47 @@
+[
+  {
+    "type": "module",
+    "name": "A",
+    "definitions": [
+      {
+        "type": "interface",
+        "name": "X",
+        "inheritance": "",
+        "members": [],
+        "extAttrs": ""
+      },
+      {
+        "type": "interface",
+        "name": "Y",
+        "inheritance": "",
+        "members": [
+          {
+            "type": "operation",
+            "idlType": {
+              "sequence": false,
+              "array": false,
+              "idlType": "X",
+              "nullable": false
+            },
+            "name": "op",
+            "arguments": [],
+            "raises": "",
+            "omittable": false
+          }
+        ],
+        "extAttrs": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "Z",
+    "inheritance": [
+      "A::X",
+      "::A::Y"
+    ],
+    "members": [],
+    "extAttrs": ""
+  }
+]

@@ -1,0 +1,11 @@
+module A
+{
+    interface X
+    {
+        long s();
+    };
+    interface Y
+    {
+        long t(in X x);
+    };
+};

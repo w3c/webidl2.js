@@ -1,0 +1,19 @@
+/* Bogus Replaceable on Interface */
+[Replaceable]
+interface BogusReplaceableInterface {};
+
+/* Replaceable doesn't take an argument */
+interface BogusReplaceableWithArgument {
+  [Replaceable=value] readonly attribute Foo foo;
+};
+
+/* Replaceable can only be used on read-only attribute */
+interface BogusReplaceableUsedOnNotReadOnlyAttribute {
+  [Replaceable]  attribute Foo foo;
+};
+
+
+/* Valid Replaceable Usage */
+interface Bar {
+  [Replaceable] readonly attribute Foo foo;
+};

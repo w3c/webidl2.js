@@ -1,0 +1,6 @@
+// Test overloaded operations
+interface A {
+  /* f1 */ void f(in DOMString a);
+  /* f2 */ void f(in DOMString a, in DOMString b, in float... c);
+  /* f3 */ void f(in optional long a, in DOMString b, in optional DOMString c, float... d);
+};

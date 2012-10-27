@@ -1,0 +1,12 @@
+module X
+{
+    typedef sequence<unsigned short> Name;
+
+    interface I
+    {
+        Name getName();
+        long setName(in Name name);
+
+        attribute Name middle;
+    };
+};

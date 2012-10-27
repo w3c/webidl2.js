@@ -1,0 +1,133 @@
+[
+  {
+    "type": "interface",
+    "name": "A",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "b",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "c",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": true,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "f",
+        "arguments": [
+          {
+            "name": "a",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          },
+          {
+            "name": "b",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "c",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          },
+          {
+            "name": "d",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": true,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  }
+]

@@ -1,0 +1,12 @@
+// Test implements as attribute
+
+interface X {
+    void s();
+};
+
+X implements Y;
+
+interface Y {
+    void t();
+    attribute boolean u;
+};

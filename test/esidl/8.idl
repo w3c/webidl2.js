@@ -1,0 +1,4 @@
+interface Y
+{
+    long op(long x, in long y);
+};

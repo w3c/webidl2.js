@@ -1,0 +1,26 @@
+/* constant name clash */
+interface ConstantNameClashWithOperation {
+  const boolean right = false;
+  void right();
+};
+
+interface ConstantNameClashWithAttribute {
+  const boolean right = false;
+  attribute boolean right;
+};
+
+interface ConstantNameClashWithConstant {
+  const boolean right = false;
+  const unsigned long right = 0;
+};
+
+
+/* valid constant name */
+interface ValidConstantName {
+  const boolean DEBUG = false;
+  const octet LF = 10;
+  const unsigned long BIT_MASK = 0x0000fc00;
+  const float AVOGADRO = 6.022e23;
+  attribute boolean foo;
+  void bar();
+};

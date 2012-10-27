@@ -1,0 +1,6 @@
+// Test [NamedConstructor]
+[NamedConstructor=Audio,
+ NamedConstructor=Audio(in DOMString src)]
+interface AudioElement {
+  void play();
+};

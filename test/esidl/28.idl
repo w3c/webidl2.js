@@ -1,0 +1,10 @@
+interface object
+{
+  attribute long x;
+};
+module X
+{
+    interface Y
+    {
+    };
+};

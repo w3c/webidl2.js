@@ -1,0 +1,36 @@
+[
+  {
+    "type": "interface",
+    "name": "Counter",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "Replaceable"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "unsigned long",
+          "nullable": false
+        },
+        "name": "value",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "increment",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  }
+]

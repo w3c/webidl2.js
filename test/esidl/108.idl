@@ -1,0 +1,11 @@
+interface OrderedMap {
+  readonly attribute unsigned long size;
+
+  getter any getByIndex(in unsigned long index);
+  setter void setByIndex(in unsigned long index, in any value);
+  deleter void removeByIndex(in unsigned long index);
+
+  getter any get(in DOMString name);
+  setter creator void set(in DOMString name, in any value);
+  deleter void remove(in DOMString name);
+};

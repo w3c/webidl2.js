@@ -1,0 +1,20 @@
+[
+  {
+    "type": "exception",
+    "name": "E",
+    "members": [
+      {
+        "type": "field",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "unsigned short",
+          "nullable": false
+        },
+        "name": "code"
+      }
+    ],
+    "extAttrs": ""
+  }
+]

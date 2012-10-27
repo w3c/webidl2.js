@@ -1,0 +1,73 @@
+interface TwoOperationsWithSameSignature {
+  boolean right(DOMString arg);
+  boolean right(DOMString param);
+};
+
+interface MyType {};
+interface MyType2 {};
+
+interface TwoOperationsWithUndistinguishableSingleParam {
+  boolean right(float arg);
+  boolean right(boolean arg);
+};
+
+interface TwoOperationsWithUndistinguishableSingleParam2 {
+  boolean right(float? arg);
+  boolean right(DOMString? arg);
+};
+
+interface TwoOperationsWithUndistinguishableSingleParam3 {
+  boolean right(float? arg);
+  boolean right(MyType arg);
+};
+
+
+interface TwoOperationsWithUndistinguishableSingleParam4 {
+  boolean right(float arg);
+  boolean right([AllowAny] DOMString arg);
+};
+
+interface TwoOperationsWithUndistinguishableSingleParam5 {
+  boolean right(MyType arg);
+  boolean right(MyType arg);
+};
+
+
+interface TwoOperationsWithUndistinguishableTwoParams {
+  boolean right(float arg, DOMString? str);
+  boolean right(boolean arg, MyType t);
+};
+
+interface TwoOperationsWithUndistinguishableOptionalParam {
+  boolean right(float arg, optional DOMString str);
+  boolean right(boolean arg);
+};
+
+interface TwoOperationsWithUndistinguishableVariadicParam {
+  boolean right(float arg, optional DOMString str);
+  boolean right(boolean arg, DOMString str, float... param);
+};
+
+interface TwoCallersWithUndistinguishableParam {
+  caller boolean foo(float arg);
+  caller boolean bar(boolean arg);
+};
+
+[NamedConstructor=Right(float arg),
+ NamedConstructor=Right(boolean arg)]
+interface NamedConstructorWithUndistinguishableParam {
+};
+
+[Constructor(float arg),
+ Constructor(boolean arg)]
+interface ConstructorWithUndistinguishableParam {
+};
+
+interface ValidOverloading {
+  /* f1 */ void f(in DOMString a);
+  /* f2 */ void f([AllowAny] in DOMString a, in DOMString b, in float... c);
+  /* f3 */ void f();
+  /* f4 */ void f(in long a, in DOMString b, in optional DOMString c, in float... d);
+  void f(object a, DOMString b);
+  void f(MyType2 a);
+};

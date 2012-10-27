@@ -1,0 +1,10 @@
+// Test [Callback] as attribute
+
+[Callback=FunctionOnly]
+interface Function {
+  any call(in any... arguments);
+};
+
+interface X {
+  attribute Function onchange;
+};

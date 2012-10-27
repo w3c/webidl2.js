@@ -1,0 +1,10 @@
+module X
+{
+    typedef boolean B;
+
+    interface I
+    {
+        attribute boolean on;
+        attribute B off;
+    };
+};

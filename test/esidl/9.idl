@@ -1,0 +1,17 @@
+// Test multiple interface inheritance.
+// Note the use of multiple interface inheritance should be avoided in general.
+
+interface A
+{
+    attribute long a;
+};
+
+interface B
+{
+    attribute long b;
+};
+
+interface X : A, B
+{
+    attribute long x;
+};

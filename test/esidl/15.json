@@ -1,0 +1,78 @@
+[
+  {
+    "type": "interface",
+    "name": "Stream",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": true,
+          "array": false,
+          "idlType": {
+            "sequence": false,
+            "array": false,
+            "idlType": "octet",
+            "nullable": false
+          },
+          "nullable": false
+        },
+        "name": "read",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "write",
+        "arguments": [
+          {
+            "name": "buf",
+            "type": {
+              "sequence": true,
+              "array": false,
+              "idlType": {
+                "sequence": false,
+                "array": false,
+                "idlType": "octet",
+                "nullable": false
+              },
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": true,
+          "array": false,
+          "idlType": {
+            "sequence": false,
+            "array": false,
+            "idlType": "octet",
+            "nullable": false
+          },
+          "nullable": false
+        },
+        "name": "data",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

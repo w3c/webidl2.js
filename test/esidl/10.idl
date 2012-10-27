@@ -1,0 +1,9 @@
+exception E
+{
+    short code;
+};
+
+interface A
+{
+    void op() raises (E);
+};

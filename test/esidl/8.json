@@ -1,0 +1,48 @@
+[
+  {
+    "type": "interface",
+    "name": "Y",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "op",
+        "arguments": [
+          {
+            "name": "x",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "y",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  }
+]

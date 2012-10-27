@@ -1,0 +1,12 @@
+module X
+{
+    interface A
+    {
+        attribute long a;
+    };
+
+    interface B : Y::C
+    {
+        attribute long b;
+    };
+};

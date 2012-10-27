@@ -1,0 +1,8 @@
+module X
+{
+    interface Y
+    {
+        long reset();
+        attribute long size;
+    };
+};

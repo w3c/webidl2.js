@@ -1,0 +1,38 @@
+[
+  {
+    "type": "interface",
+    "name": "object",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "x",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "object",
+          "nullable": false
+        },
+        "name": "_object",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

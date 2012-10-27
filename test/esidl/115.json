@@ -1,0 +1,164 @@
+[
+  {
+    "type": "interface",
+    "name": "X",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "a",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "X",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "b",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Supplemental"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "Y",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "b",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "Z1",
+    "inheritance": [
+      "Y"
+    ],
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "c",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Supplemental"
+      },
+      {
+        "name": "NoInterfaceObject"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "Z2",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "d",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Supplemental"
+      },
+      {
+        "name": "NoInterfaceObject"
+      }
+    ]
+  },
+  {
+    "type": "implements",
+    "target": "Y",
+    "implements": "Z2"
+  },
+  {
+    "type": "interface",
+    "name": "Z3",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "e",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "implements",
+    "target": "Y",
+    "implements": "Z3"
+  }
+]

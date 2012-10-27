@@ -1,0 +1,665 @@
+[
+  {
+    "type": "module",
+    "name": "CallbackUsedOnModule",
+    "definitions": [],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "UnknownCallbackExtendedAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "Unknown"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "InheritedInterface",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedOnInheritingInterface",
+    "inheritance": [
+      "InheritedInterface"
+    ],
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithConstructor",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      },
+      {
+        "name": "Constructor"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithNamedConstructor",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      },
+      {
+        "name": "NamedConstructor",
+        "value": "foo"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithGetter",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "lookup",
+        "arguments": [
+          {
+            "name": "key",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "getter": true,
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithSetter",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "set",
+        "arguments": [
+          {
+            "name": "key",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "value",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "any",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "setter": true,
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithCreator",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "set",
+        "arguments": [
+          {
+            "name": "key",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "value",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "any",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "creator": true,
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithDeleter",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "remove",
+        "arguments": [
+          {
+            "name": "key",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "deleter": true,
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackUsedWithStringifier",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "print",
+        "arguments": [],
+        "raises": "",
+        "stringifier": true
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "PutForwardInterface",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "full",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "CallbackWithPutForwards",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards",
+            "value": "full"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "PutForwardInterface",
+          "nullable": false
+        },
+        "name": "name",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackWithTreatNullAs",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "TreatNullAs",
+            "value": "EmptyString"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "treatNullAsEmptyString",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackWithTreatUndefinedAs",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "TreatUndefinedAs",
+            "value": "Null"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": true
+        },
+        "name": "treatUndefinedAsNull",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "FunctionOnlyCallbackWithAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "forbiddenAttribute",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "FunctionOnly"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "FunctionOnlyCallbackWithoutOperation",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "FunctionOnly"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "PropertyOnlyCallbackWithDifferentOperations",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation1",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation2",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "PropertyOnly"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "CallbackInterfaceWithAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "acceptedAttribute",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "FunctionOnlyCallbackExtendedAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "FunctionOnly"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "PropertyOnlyCallbackExtendedAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "operation",
+        "arguments": [
+          {
+            "name": "arg",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "arg2",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "PropertyOnly"
+      }
+    ]
+  }
+]

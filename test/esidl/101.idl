@@ -1,0 +1,6 @@
+// Test caller
+interface NumberQuadrupler {
+  // This operation simply returns four times the given number x.
+  caller float compute(in float x);
+};
+

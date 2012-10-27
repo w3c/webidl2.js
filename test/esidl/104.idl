@@ -1,0 +1,11 @@
+// Test [PutForwards]
+interface Name {
+  attribute DOMString full;
+  attribute DOMString family;
+  attribute DOMString given;
+};
+
+interface Person {
+  [PutForwards=full] readonly attribute Name name;
+  attribute unsigned short age;
+};

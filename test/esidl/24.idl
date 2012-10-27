@@ -1,0 +1,8 @@
+module A
+{
+    interface I
+    {
+        attribute float attr1;
+        attribute float attr2;
+    };
+};

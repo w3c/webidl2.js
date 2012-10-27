@@ -1,0 +1,24 @@
+/* bogus usage on module */
+[NoInterfaceObject]
+module NoInterfaceObjectUsedOnAModule {
+};
+
+/* bogus usage with argument */
+[NoInterfaceObject=foo]
+interface InvalidNoInterFaceObjectUsageOnInterfaceWithArg {
+};
+
+/* bogus usage with Constructor extended attribute */
+[NoInterfaceObject, Constructor]
+interface InvalidNoInterFaceObjectUsageOnInterfaceWithConstructor {
+};
+
+
+/* Valid usage */
+[NoInterfaceObject]
+interface ValidNoInterFaceObjectUsageOnInterface {
+};
+
+[NoInterfaceObject]
+exception ValidNoInterFaceObjectUsageOnException {
+};

@@ -1,0 +1,6 @@
+interface Dictionary {
+  readonly attribute unsigned long propertyCount;
+
+  omittable getter float getProperty(in DOMString propertyName);
+  omittable setter void setProperty(in DOMString propertyName, in float propertyValue);
+};

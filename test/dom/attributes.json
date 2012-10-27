@@ -1,0 +1,265 @@
+[
+  {
+    "type": "interface",
+    "name": "AttributeNameClashWithConstant",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "const",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "value": "false"
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "AttributeNameClashWithOperation",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "right",
+        "arguments": [],
+        "raises": "",
+        "omittable": false
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "AttributeNameClashWithAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "AttributeGetRaisesUnknown",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": [
+          "GetterException",
+          "UnknownException"
+        ],
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "AttributeSetRaisesUnknown",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": "",
+        "setraises": [
+          "UnknownException"
+        ]
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "exception",
+    "name": "GetterException",
+    "members": [],
+    "extAttrs": ""
+  },
+  {
+    "type": "exception",
+    "name": "SetterException",
+    "members": [],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "ValidAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "right",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "float",
+          "nullable": false
+        },
+        "name": "size",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "name",
+        "readonly": false,
+        "getraises": [
+          "GetterException"
+        ],
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "fullname",
+        "readonly": false,
+        "getraises": "",
+        "setraises": [
+          "SetterException"
+        ]
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "firstname",
+        "readonly": false,
+        "getraises": [
+          "GetterException",
+          "SetterException"
+        ],
+        "setraises": [
+          "SetterException"
+        ]
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "displayName",
+        "readonly": false,
+        "getraises": "",
+        "setraises": "",
+        "stringifier": true
+      }
+    ],
+    "extAttrs": ""
+  }
+]

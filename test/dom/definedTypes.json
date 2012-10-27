@@ -1,0 +1,70 @@
+[
+  {
+    "type": "interface",
+    "name": "UseUndefinedType",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "UndefinedType",
+          "nullable": false
+        },
+        "name": "att",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "typedef",
+    "name": "TypeDefType",
+    "idlType": {
+      "sequence": false,
+      "array": false,
+      "idlType": "UseDefinedType",
+      "nullable": false
+    }
+  },
+  {
+    "type": "interface",
+    "name": "UseDefinedType",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "UseUndefinedType",
+          "nullable": false
+        },
+        "name": "att",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "TypeDefType",
+          "nullable": false
+        },
+        "name": "att2",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

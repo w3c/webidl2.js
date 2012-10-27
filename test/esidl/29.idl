@@ -1,0 +1,13 @@
+module A
+{
+    typedef object DOMObject;
+};
+
+module B
+{
+    typedef A::DOMObject DOMObject;
+
+    interface X
+    {
+    };
+};

@@ -1,0 +1,19 @@
+// cf. 3.20.2 Scoping Rules and Name Resolution
+
+module M
+{
+    interface A
+    {
+    };
+    interface B : A
+    {
+    };
+};
+
+module N
+{
+    interface Y : M::B
+    {
+        void op(in A a);
+    };
+};

@@ -1,0 +1,197 @@
+[
+  {
+    "type": "interface",
+    "name": "BogusPutForwardsInterface",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "PutForwards",
+        "value": "baz"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "Foo",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "baz",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "BogusPutForwardsWithoutArgument",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "Foo",
+          "nullable": false
+        },
+        "name": "foo",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "BogusPutForwardsWithUnknownIdentifier",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards",
+            "value": "quub"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "Foo",
+          "nullable": false
+        },
+        "name": "foo",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "BogusPutForwardsUsedOnNotReadOnlyAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards",
+            "value": "baz"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "Foo",
+          "nullable": false
+        },
+        "name": "foo",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "Bar",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards",
+            "value": "baz"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "Foo",
+          "nullable": false
+        },
+        "name": "foo",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "ChainedPutForward1",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards",
+            "value": "cycle"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "ChainedPutForward2",
+          "nullable": false
+        },
+        "name": "cycle",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "ChainedPutForward2",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "PutForwards",
+            "value": "cycle"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "ChainedPutForward1",
+          "nullable": false
+        },
+        "name": "cycle",
+        "readonly": true,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

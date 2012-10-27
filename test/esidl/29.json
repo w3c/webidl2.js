@@ -1,0 +1,43 @@
+[
+  {
+    "type": "module",
+    "name": "A",
+    "definitions": [
+      {
+        "type": "typedef",
+        "name": "DOMObject",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "object",
+          "nullable": false
+        }
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "module",
+    "name": "B",
+    "definitions": [
+      {
+        "type": "typedef",
+        "name": "DOMObject",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "A::DOMObject",
+          "nullable": false
+        }
+      },
+      {
+        "type": "interface",
+        "name": "X",
+        "inheritance": "",
+        "members": [],
+        "extAttrs": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

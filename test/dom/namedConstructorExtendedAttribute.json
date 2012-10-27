@@ -1,0 +1,101 @@
+[
+  {
+    "type": "interface",
+    "name": "BogusNamedConstructorEAOnAttribute",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "NamedConstructor",
+            "value": "foo"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "float",
+          "nullable": false
+        },
+        "name": "r",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "FooBar",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "NamedConstructor",
+        "value": "Foo"
+      },
+      {
+        "name": "NamedConstructor",
+        "value": "Foo",
+        "arguments": [
+          {
+            "name": "bar",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "FooBar2",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "NamedConstructor",
+        "value": "Foo"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "FooBar3",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "NamedConstructor",
+        "value": "FooBar"
+      }
+    ]
+  },
+  {
+    "type": "exception",
+    "name": "Bar",
+    "members": [],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "FooBar4",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "NamedConstructor",
+        "value": "Bar"
+      }
+    ]
+  }
+]

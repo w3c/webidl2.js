@@ -1,0 +1,38 @@
+[
+  {
+    "type": "interface",
+    "name": "object",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "x",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "module",
+    "name": "X",
+    "definitions": [
+      {
+        "type": "interface",
+        "name": "Y",
+        "inheritance": "",
+        "members": [],
+        "extAttrs": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

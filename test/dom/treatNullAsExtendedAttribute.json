@@ -1,0 +1,183 @@
+[
+  {
+    "type": "interface",
+    "name": "BogusTreatNullAsInterface",
+    "inheritance": "",
+    "members": [],
+    "extAttrs": [
+      {
+        "name": "TreatNullAs"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "BogusTreatNullAsOnNonDOMStringType",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "TreatNullAs",
+            "value": "EmptyString"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "long",
+          "nullable": false
+        },
+        "name": "counter",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "BogusTreatNullAsArgument",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "TreatNullAs"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "name",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "BogusTreatNullAsNoArgument",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "bar",
+        "arguments": [],
+        "raises": "",
+        "omittable": false,
+        "extAttrs": [
+          {
+            "name": "TreatNullAs",
+            "value": "EmptString"
+          }
+        ]
+      }
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "ValidTreatNullAs",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": [
+          {
+            "name": "TreatNullAs",
+            "value": "EmptyString"
+          }
+        ],
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "onAttribute",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "DOMString",
+          "nullable": false
+        },
+        "name": "onOperation",
+        "arguments": [
+          {
+            "name": "bar",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false,
+        "extAttrs": [
+          {
+            "name": "TreatNullAs",
+            "value": "EmptyString"
+          }
+        ]
+      },
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "boolean",
+          "nullable": false
+        },
+        "name": "onOperationArgument",
+        "arguments": [
+          {
+            "name": "bar",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "DOMString",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": [
+              {
+                "name": "TreatNullAs",
+                "value": "EmptyString"
+              }
+            ]
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  }
+]

@@ -1,0 +1,29 @@
+/* bogus usage of NamedConstructor on an attribute */
+interface BogusNamedConstructorEAOnAttribute {
+  [NamedConstructor=foo] attribute float r;
+}; 
+
+
+/* valid NamedConstructor */
+[NamedConstructor=Foo,
+ NamedConstructor=Foo(in DOMString bar)]
+interface FooBar {
+};
+
+/* clash with existing NamedConstructor */
+[NamedConstructor=Foo]
+interface FooBar2 {
+};
+
+/* clash with existing interface identifier */
+[NamedConstructor=FooBar]
+interface FooBar3 {
+};
+
+/* clash with existing exception interface identifier */
+exception Bar {
+};
+
+[NamedConstructor=Bar] 
+interface FooBar4 {
+};

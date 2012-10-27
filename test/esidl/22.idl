@@ -1,0 +1,8 @@
+module A
+{
+    interface B
+    {
+        attribute any C;
+        void D(in any E);
+    };
+};

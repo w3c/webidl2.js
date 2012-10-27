@@ -1,0 +1,63 @@
+[
+  {
+    "type": "interface",
+    "name": "Function",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "any",
+          "nullable": false
+        },
+        "name": "call",
+        "arguments": [
+          {
+            "name": "arguments",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "any",
+              "nullable": false
+            },
+            "variadic": true,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": [
+      {
+        "name": "Callback",
+        "value": "FunctionOnly"
+      }
+    ]
+  },
+  {
+    "type": "interface",
+    "name": "X",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "Function",
+          "nullable": false
+        },
+        "name": "onchange",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

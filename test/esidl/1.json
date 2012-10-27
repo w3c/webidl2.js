@@ -1,0 +1,16 @@
+[
+  {
+    "type": "module",
+    "name": "X",
+    "definitions": [
+      {
+        "type": "interface",
+        "name": "Y",
+        "inheritance": "",
+        "members": [],
+        "extAttrs": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

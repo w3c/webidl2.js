@@ -1,0 +1,15 @@
+{
+    "name":         "webidl2.js"
+,   "description":  "A WebIDL Parser"
+,   "version":      "2.0.0"
+,   "author":       "Robin Berjon <robin@berjon.com>"
+,   "dependencies": {
+    }
+,   "devDependencies": {
+        "mocha":    "*"
+    ,   "should":   "*"
+    ,   "underscore":   "*"
+    }
+,   "repository":   "git://github.com/darobin/webidl2.js"
+,   "main":         "index"
+}

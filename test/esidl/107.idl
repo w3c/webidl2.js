@@ -1,0 +1,7 @@
+// Test variadic operations
+interface IntegerSet {
+  readonly attribute unsigned long cardinality;
+
+  void _union(in long... ints);
+  void intersection(in long... ints);
+};

@@ -1,0 +1,15 @@
+module A
+{
+    interface X
+    {
+    };
+
+    interface Y
+    {
+        X op();
+    };
+};
+
+interface Z : A::X, ::A::Y
+{
+};

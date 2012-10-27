@@ -1,0 +1,36 @@
+/* TreatUndefinedAs only appear on attributes, operations arguments or operations */
+[TreatUndefinedAs]
+interface BogusTreatUndefinedAsInterface {};
+
+/* TreatUndefinedAs requires an argument */
+interface BogusTreatUndefinedAsNoArgument {
+  [TreatUndefinedAs] attribute DOMString? name;
+};
+
+/* TreatUndefinedAs requires EmptyString or Null as argument */
+interface BogusTreatUndefinedAsArgument {
+  [TreatUndefinedAs=EmptString] attribute DOMString? name;
+};
+
+/* TreatUndefinedAs only appear on attributes or operations arguments, or operations with DOMString or DOMString? type */
+interface BogusTreatUndefinedAsOnNonDOMStringType {
+  [TreatUndefinedAs=EmptyString] attribute long counter;
+};
+
+
+/* TreatUndefinedAs=Null only applies to DOMString? type  */
+interface BogusTreatUndefinedAsNullAppliedToDOMString {
+  [TreatUndefinedAs=Null] attribute DOMString name;
+};
+
+
+/* Valid usage of TreatUndefinedAs */
+interface ValidTreatUndefinedAs {
+  [TreatUndefinedAs=EmptyString] attribute DOMString emptyStringOnAttribute;
+  [TreatUndefinedAs=EmptyString] attribute DOMString? emptyStringOnAttribute2;
+  [TreatUndefinedAs=Null] attribute DOMString? nullOnAttribute;
+  [TreatUndefinedAs=EmptyString] DOMString emptyStringOnOperation(long bar);
+  [TreatUndefinedAs=Null] DOMString? nullOnOperation(long bar);
+  boolean emptyStringOnOperationArgument([TreatUndefinedAs=EmptyString] in DOMString bar);
+  boolean nullOnOperationArgument([TreatUndefinedAs=Null] in DOMString? bar);
+};

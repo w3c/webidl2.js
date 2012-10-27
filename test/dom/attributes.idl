@@ -1,0 +1,34 @@
+interface AttributeNameClashWithConstant {
+  const boolean right = false;
+  attribute DOMString right;
+};
+
+interface AttributeNameClashWithOperation {
+  void right();
+  attribute boolean right;
+};
+
+interface AttributeNameClashWithAttribute {
+  attribute boolean right;
+  attribute DOMString right;
+};
+
+interface AttributeGetRaisesUnknown {
+  attribute boolean right getraises(GetterException, UnknownException);
+}; 
+
+interface AttributeSetRaisesUnknown {
+  attribute boolean right setraises(UnknownException);
+}; 
+
+exception GetterException { };
+exception SetterException { };
+
+interface ValidAttribute {
+  attribute boolean right;
+  readonly attribute float size;
+  attribute DOMString name getraises(GetterException);
+  attribute DOMString fullname setraises(SetterException);
+  attribute DOMString firstname getraises(GetterException, SetterException) setraises(SetterException);
+  stringifier attribute DOMString displayName;
+};

@@ -1,0 +1,72 @@
+[
+  {
+    "type": "interface",
+    "name": "ColorCreator",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "operation",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "object",
+          "nullable": false
+        },
+        "name": "createColor",
+        "arguments": [
+          {
+            "name": "v1",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "v2",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          },
+          {
+            "name": "v3",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "alpha",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": true,
+            "extAttrs": ""
+          }
+        ],
+        "raises": "",
+        "omittable": false
+      }
+    ],
+    "extAttrs": ""
+  }
+]

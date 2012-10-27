@@ -1,0 +1,6 @@
+interface Stream
+{
+    sequence<octet> read();
+    long write(in sequence<octet> buf);
+    attribute sequence<octet> data;
+};

@@ -1,0 +1,44 @@
+[
+  {
+    "type": "module",
+    "name": "X",
+    "definitions": [
+      {
+        "type": "interface",
+        "name": "Y",
+        "inheritance": "",
+        "members": [
+          {
+            "type": "operation",
+            "idlType": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "name": "reset",
+            "arguments": [],
+            "raises": "",
+            "omittable": false
+          },
+          {
+            "type": "attribute",
+            "extAttrs": "",
+            "idlType": {
+              "sequence": false,
+              "array": false,
+              "idlType": "long",
+              "nullable": false
+            },
+            "name": "size",
+            "readonly": false,
+            "getraises": "",
+            "setraises": ""
+          }
+        ],
+        "extAttrs": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

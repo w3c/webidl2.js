@@ -1,0 +1,4 @@
+exception E
+{
+    unsigned short   code;
+};
