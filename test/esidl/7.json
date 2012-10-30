@@ -1,20 +1,22 @@
 [
-  {
-    "type": "exception",
-    "name": "E",
-    "members": [
-      {
-        "type": "field",
-        "extAttrs": "",
-        "idlType": {
-          "sequence": false,
-          "array": false,
-          "idlType": "unsigned short",
-          "nullable": false
-        },
-        "name": "code"
-      }
-    ],
-    "extAttrs": ""
-  }
+    {
+        "type": "exception",
+        "name": "E",
+        "members": [
+            {
+                "type": "field",
+                "name": "code",
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "unsigned short"
+                },
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
 ]

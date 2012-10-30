@@ -1,16 +1,10 @@
 [
-  {
-    "type": "module",
-    "name": "X",
-    "definitions": [
-      {
+    {
         "type": "interface",
         "name": "Y",
-        "inheritance": "",
+        "partial": false,
         "members": [],
-        "extAttrs": ""
-      }
-    ],
-    "extAttrs": ""
-  }
+        "inheritance": null,
+        "extAttrs": []
+    }
 ]
