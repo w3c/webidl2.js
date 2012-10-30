@@ -1,38 +1,51 @@
 [
-  {
-    "type": "exception",
-    "name": "E",
-    "members": [
-      {
-        "type": "field",
-        "extAttrs": "",
-        "idlType": {
-          "sequence": false,
-          "array": false,
-          "idlType": "short",
-          "nullable": false
-        },
-        "name": "code"
-      }
-    ],
-    "extAttrs": ""
-  },
-  {
-    "type": "interface",
-    "name": "A",
-    "inheritance": "",
-    "members": [
-      {
-        "type": "operation",
-        "idlType": "void",
-        "name": "op",
-        "arguments": [],
-        "raises": [
-          "E"
+    {
+        "type": "exception",
+        "name": "E",
+        "members": [
+            {
+                "type": "field",
+                "name": "code",
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "short"
+                },
+                "extAttrs": []
+            }
         ],
-        "omittable": false
-      }
-    ],
-    "extAttrs": ""
-  }
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "A",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "name": "op",
+                "arguments": [],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
 ]

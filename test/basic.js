@@ -12,25 +12,17 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
                       .map(function (it) { return pth.join(dir, it); })
         ,   jsons = idls.map(function (it) { return it.replace(/\.idl$/, ".json"); })
         ;
-        var target = 0;
         for (var i = 0, n = idls.length; i < n; i++) {
             var idl = idls[i], json = jsons[i];
-            console.log("I=" + i);
-            if (i === target) {
-                console.log(idl);
-                var jsonView = JSON.parse(fs.readFileSync(json, "utf8"));
-                var idlView = wp.parse(fs.readFileSync(idl, "utf8"));
-                // console.log(JSON.stringify(jsonView, null, 4));
-                // console.log("######");
-                // console.log(JSON.stringify(idlView, null, 4));
-                console.log(JSON.stringify(jdp.diff(jsonView, idlView), null, 4));
-                console.log(JSON.stringify(idlView, null, 4));
-            }
-            it("should produce the same AST for " + idl, function () {
-                _.isEqual(JSON.parse(fs.readFileSync(json, "utf8")),
-                          wp.parse(fs.readFileSync(idl, "utf8"))).should.be.true;
-            });
-            if (i === target) process.exit();
+            var func = (function (idl, json) {
+                return function () {
+                    var diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
+                                        wp.parse(fs.readFileSync(idl, "utf8")));
+                    if (typeof diff === "undefined") true.should.be.true;
+                    else false.should.be.true;
+                };
+            }(idl, json));
+            it("should produce the same AST for " + idl, func);
         }
     });
 });
