@@ -1,0 +1,34 @@
+[
+    {
+        "type": "typedef",
+        "extAttrs": [],
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "object"
+        },
+        "name": "DOMObject"
+    },
+    {
+        "type": "typedef",
+        "extAttrs": [],
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "DOMObject"
+        },
+        "name": "DOMObject"
+    },
+    {
+        "type": "interface",
+        "name": "X",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

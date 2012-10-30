@@ -21,5 +21,5 @@ interface BogusTreatNullAsNoArgument {
 interface ValidTreatNullAs {
   [TreatNullAs=EmptyString] attribute DOMString onAttribute;
   [TreatNullAs=EmptyString] DOMString onOperation(long bar);
-  boolean onOperationArgument([TreatNullAs=EmptyString] in DOMString bar);
+  boolean onOperationArgument([TreatNullAs=EmptyString] DOMString bar);
 };

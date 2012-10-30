@@ -3,7 +3,7 @@ interface X {
   [TreatNullAs=EmptyString] attribute DOMString y;
   [TreatUndefinedAs=Null] attribute DOMString u;
   [TreatUndefinedAs=Empty] attribute DOMString v;
-  void b([TreatNullAs=EmptyString] in DOMString s);
-  void c([TreatUndefinedAs=Null] in DOMString s);
-  void d([TreatUndefinedAs=EmptyString] in DOMString s);
+  void b([TreatNullAs=EmptyString] DOMString s);
+  void c([TreatUndefinedAs=Null] DOMString s);
+  void d([TreatUndefinedAs=EmptyString] DOMString s);
 };

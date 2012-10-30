@@ -1,8 +1,5 @@
-module X
-{
     interface Y
     {
         readonly attribute double X;
         attribute double Y;
     };
-};

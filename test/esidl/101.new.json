@@ -1,0 +1,45 @@
+[
+    {
+        "type": "interface",
+        "name": "NumberQuadrupler",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": true,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "float"
+                },
+                "name": "compute",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "float"
+                        },
+                        "name": "x"
+                    }
+                ],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

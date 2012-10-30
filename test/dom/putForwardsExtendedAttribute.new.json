@@ -1,0 +1,244 @@
+[
+    {
+        "type": "interface",
+        "name": "BogusPutForwardsInterface",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": [
+            {
+                "name": "PutForwards",
+                "arguments": null,
+                "rhs": {
+                    "type": "identifier",
+                    "value": "baz"
+                }
+            }
+        ]
+    },
+    {
+        "type": "interface",
+        "name": "Foo",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "baz",
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusPutForwardsWithoutArgument",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": true,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "Foo"
+                },
+                "name": "foo",
+                "extAttrs": [
+                    {
+                        "name": "PutForwards",
+                        "arguments": null
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusPutForwardsWithUnknownIdentifier",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": true,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "Foo"
+                },
+                "name": "foo",
+                "extAttrs": [
+                    {
+                        "name": "PutForwards",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "quub"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusPutForwardsUsedOnNotReadOnlyAttribute",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "Foo"
+                },
+                "name": "foo",
+                "extAttrs": [
+                    {
+                        "name": "PutForwards",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "baz"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "Bar",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": true,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "Foo"
+                },
+                "name": "foo",
+                "extAttrs": [
+                    {
+                        "name": "PutForwards",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "baz"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "ChainedPutForward1",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": true,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "ChainedPutForward2"
+                },
+                "name": "cycle",
+                "extAttrs": [
+                    {
+                        "name": "PutForwards",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "cycle"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "ChainedPutForward2",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": true,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "ChainedPutForward1"
+                },
+                "name": "cycle",
+                "extAttrs": [
+                    {
+                        "name": "PutForwards",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "cycle"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

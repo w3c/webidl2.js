@@ -1,5 +1,5 @@
 [Constructor,
- Constructor(in float radius)]
+ Constructor(float radius)]
 interface Circle {
   attribute float r;
   attribute float cx;

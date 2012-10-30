@@ -1,5 +1,3 @@
-module X
-{
     exception E
     {
         unsigned short code;
@@ -13,12 +11,11 @@ module X
     interface Y
     {
         readonly attribute double a;
-        readonly attribute double b setraises (F);
-        readonly attribute double c getraises (E);
-        readonly attribute double d getraises (E) setraises (F);
+        readonly attribute double b;
+        readonly attribute double c;
+        readonly attribute double d;
         attribute double s;
-        attribute double t setraises (F);
-        attribute double u getraises (E);
-        attribute double v getraises (E) setraises (F);
+        attribute double t;
+        attribute double u;
+        attribute double v;
     };
-};

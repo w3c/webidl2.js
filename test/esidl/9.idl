@@ -11,7 +11,7 @@ interface B
     attribute long b;
 };
 
-interface X : A, B
+interface X : A
 {
     attribute long x;
 };

@@ -1,0 +1,10 @@
+[
+    {
+        "type": "interface",
+        "name": "Y",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

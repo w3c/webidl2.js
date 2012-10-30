@@ -1,0 +1,403 @@
+[
+    {
+        "type": "interface",
+        "name": "BogusTreatUndefinedAsInterface",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": [
+            {
+                "name": "TreatUndefinedAs",
+                "arguments": null
+            }
+        ]
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatUndefinedAsNoArgument",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "name",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatUndefinedAsArgument",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "name",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptString"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatUndefinedAsOnNonDOMStringType",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "long"
+                },
+                "name": "counter",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatUndefinedAsNullAppliedToDOMString",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "name",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "Null"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "ValidTreatUndefinedAs",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "emptyStringOnAttribute",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "emptyStringOnAttribute2",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "nullOnAttribute",
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "Null"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "emptyStringOnOperation",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "long"
+                        },
+                        "name": "bar"
+                    }
+                ],
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "nullOnOperation",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "long"
+                        },
+                        "name": "bar"
+                    }
+                ],
+                "extAttrs": [
+                    {
+                        "name": "TreatUndefinedAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "Null"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "name": "emptyStringOnOperationArgument",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [
+                            {
+                                "name": "TreatUndefinedAs",
+                                "arguments": null,
+                                "rhs": {
+                                    "type": "identifier",
+                                    "value": "EmptyString"
+                                }
+                            }
+                        ],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "name": "bar"
+                    }
+                ],
+                "extAttrs": []
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "name": "nullOnOperationArgument",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [
+                            {
+                                "name": "TreatUndefinedAs",
+                                "arguments": null,
+                                "rhs": {
+                                    "type": "identifier",
+                                    "value": "Null"
+                                }
+                            }
+                        ],
+                        "type": {
+                            "sequence": false,
+                            "nullable": true,
+                            "array": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "name": "bar"
+                    }
+                ],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

@@ -1,6 +1,3 @@
-module X
-{
   interface Y {
-    setter long item(in DOMString name);
+    setter long item(DOMString name);
   };
-};

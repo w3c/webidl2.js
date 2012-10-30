@@ -49,8 +49,8 @@ interface TwoOperationsWithUndistinguishableVariadicParam {
 };
 
 interface TwoCallersWithUndistinguishableParam {
-  caller boolean foo(float arg);
-  caller boolean bar(boolean arg);
+  legacycaller boolean foo(float arg);
+  legacycaller boolean bar(boolean arg);
 };
 
 [NamedConstructor=Right(float arg),
@@ -64,10 +64,10 @@ interface ConstructorWithUndistinguishableParam {
 };
 
 interface ValidOverloading {
-  /* f1 */ void f(in DOMString a);
-  /* f2 */ void f([AllowAny] in DOMString a, in DOMString b, in float... c);
+  /* f1 */ void f(DOMString a);
+  /* f2 */ void f([AllowAny] DOMString a, DOMString b, float... c);
   /* f3 */ void f();
-  /* f4 */ void f(in long a, in DOMString b, in optional DOMString c, in float... d);
+  /* f4 */ void f(long a, DOMString b, optional DOMString c, float... d);
   void f(object a, DOMString b);
   void f(MyType2 a);
 };

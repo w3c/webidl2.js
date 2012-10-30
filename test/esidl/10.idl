@@ -5,5 +5,5 @@ exception E
 
 interface A
 {
-    void op() raises (E);
+    void op();
 };

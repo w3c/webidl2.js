@@ -1,8 +1,3 @@
-/* bogus usage on module */
-[NoInterfaceObject]
-module NoInterfaceObjectUsedOnAModule {
-};
-
 /* bogus usage with argument */
 [NoInterfaceObject=foo]
 interface InvalidNoInterFaceObjectUsageOnInterfaceWithArg {

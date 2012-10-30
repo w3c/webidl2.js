@@ -1,0 +1,237 @@
+[
+    {
+        "type": "interface",
+        "name": "BogusTreatNullAsInterface",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": [
+            {
+                "name": "TreatNullAs",
+                "arguments": null
+            }
+        ]
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatNullAsOnNonDOMStringType",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "long"
+                },
+                "name": "counter",
+                "extAttrs": [
+                    {
+                        "name": "TreatNullAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatNullAsArgument",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "name",
+                "extAttrs": [
+                    {
+                        "name": "TreatNullAs",
+                        "arguments": null
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "BogusTreatNullAsNoArgument",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "bar",
+                "arguments": [],
+                "extAttrs": [
+                    {
+                        "name": "TreatNullAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptString"
+                        }
+                    }
+                ]
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "ValidTreatNullAs",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "onAttribute",
+                "extAttrs": [
+                    {
+                        "name": "TreatNullAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "onOperation",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "long"
+                        },
+                        "name": "bar"
+                    }
+                ],
+                "extAttrs": [
+                    {
+                        "name": "TreatNullAs",
+                        "arguments": null,
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "EmptyString"
+                        }
+                    }
+                ]
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "name": "onOperationArgument",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [
+                            {
+                                "name": "TreatNullAs",
+                                "arguments": null,
+                                "rhs": {
+                                    "type": "identifier",
+                                    "value": "EmptyString"
+                                }
+                            }
+                        ],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "name": "bar"
+                    }
+                ],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

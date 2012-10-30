@@ -1,6 +1,6 @@
 interface Stream
 {
     sequence<octet> read();
-    long write(in sequence<octet> buf);
+    long write(sequence<octet> buf);
     attribute sequence<octet> data;
 };

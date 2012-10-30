@@ -1,8 +1,3 @@
-//  The "omittable" keyword MUST NOT  appear on an operation that has no identifier. 
-interface ommittableOperationWithNoIdentifier {
-  omittable getter float (in DOMString propertyName);  
-};
-
 // commented out for now - bug in widlproc
 //interface doubleSpecialKeywordOperation {
 //  getter setter getter float (DOMString propertyName);
@@ -16,8 +11,8 @@ interface moreThanOneStringifier {
 
 // there MUST exist at most one of each variety of getter, setter, creator and deleter
 interface moreThanOneNameGetter {
-  getter float getProperty(in DOMString propertyName);
-  getter float getProperty2(in DOMString propertyName);
+  getter float getProperty(DOMString propertyName);
+  getter float getProperty2(DOMString propertyName);
 };
 
 interface moreThanOneIndexSetter {
@@ -89,10 +84,9 @@ interface NameCreatorWithOnlyOneArgument {
 
 interface ValidSpecialOperations {
   readonly attribute unsigned long propertyCount;
-  omittable getter float getPropertyByIndex(unsigned long index);
-  getter float getProperty2(in DOMString propertyName);
-  caller float compute(float x);
-  caller float computeFaster(float x, float speed);
+  getter float getProperty2(DOMString propertyName);
+  legacycaller float compute(float x);
+  legacycaller float computeFaster(float x, float speed);
   stringifier;
   setter creator float setProperty(DOMString name, float value);
   setter creator float setProperty(unsigned long index, float value);

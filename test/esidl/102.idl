@@ -5,5 +5,5 @@ interface Listener {
 };
 
 interface Thing {
-  void addListener(in Listener listener);
+  void addListener(Listener listener);
 };

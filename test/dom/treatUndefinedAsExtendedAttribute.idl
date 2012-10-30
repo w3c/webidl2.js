@@ -31,6 +31,6 @@ interface ValidTreatUndefinedAs {
   [TreatUndefinedAs=Null] attribute DOMString? nullOnAttribute;
   [TreatUndefinedAs=EmptyString] DOMString emptyStringOnOperation(long bar);
   [TreatUndefinedAs=Null] DOMString? nullOnOperation(long bar);
-  boolean emptyStringOnOperationArgument([TreatUndefinedAs=EmptyString] in DOMString bar);
-  boolean nullOnOperationArgument([TreatUndefinedAs=Null] in DOMString? bar);
+  boolean emptyStringOnOperationArgument([TreatUndefinedAs=EmptyString] DOMString bar);
+  boolean nullOnOperationArgument([TreatUndefinedAs=Null] DOMString? bar);
 };

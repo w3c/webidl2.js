@@ -2,7 +2,7 @@
 
 [Callback=FunctionOnly]
 interface Function {
-  any call(in any... arguments);
+  any call(any... arguments);
 };
 
 interface X {

@@ -1,5 +1,3 @@
-module X
-{
     typedef boolean B;
 
     interface I
@@ -7,4 +5,3 @@ module X
         attribute boolean on;
         attribute B off;
     };
-};

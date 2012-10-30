@@ -1,0 +1,15 @@
+[
+    {
+        "type": "interface",
+        "name": "Foo",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": [
+            {
+                "name": "NamespaceObject",
+                "arguments": null
+            }
+        ]
+    }
+]

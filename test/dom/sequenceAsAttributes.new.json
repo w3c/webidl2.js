@@ -1,0 +1,98 @@
+[
+    {
+        "type": "interface",
+        "name": "WithSequenceAttribute",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": true,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": {
+                        "sequence": false,
+                        "nullable": false,
+                        "array": false,
+                        "union": false,
+                        "idlType": "float"
+                    }
+                },
+                "name": "badSequenceAttribute",
+                "extAttrs": []
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "name": "methodWithSequenceParam",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": true,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": {
+                                "sequence": false,
+                                "nullable": false,
+                                "array": false,
+                                "union": false,
+                                "idlType": "float"
+                            }
+                        },
+                        "name": "ok"
+                    }
+                ],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "WithoutSequenceAttribute",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "float"
+                },
+                "name": "normalAttribute",
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

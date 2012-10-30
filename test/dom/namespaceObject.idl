@@ -2,24 +2,3 @@
 [NamespaceObject] 
 interface Foo {
 };
-
-/* bogus argument for NamespaceObject attribute */
-[NamespaceObject=foo]
-module bogus_module {
-};
-
-/* bogus nested  NamespaceObject attribute */
-[NamespaceObject]
-module outer_module {
-  [NamespaceObject]
-  module bogus_inner_module {
-  };
-};
-
-
-/* Valid NamespaceObject usage */
-[NamespaceObject]
-module acme {
-  interface Foo {
-  };
-};

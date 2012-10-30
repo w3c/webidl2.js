@@ -1,0 +1,19 @@
+[
+    {
+        "type": "interface",
+        "name": "UseUnknownExtendedAttribute",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": [
+            {
+                "name": "Unknown",
+                "arguments": null
+            },
+            {
+                "name": "PrototypeRoot",
+                "arguments": null
+            }
+        ]
+    }
+]
