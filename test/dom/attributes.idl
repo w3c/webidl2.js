@@ -14,11 +14,11 @@ interface AttributeNameClashWithAttribute {
 };
 
 interface AttributeGetRaisesUnknown {
-  attribute boolean right getraises(GetterException, UnknownException);
+  attribute boolean right;
 }; 
 
 interface AttributeSetRaisesUnknown {
-  attribute boolean right setraises(UnknownException);
+  attribute boolean right;
 }; 
 
 exception GetterException { };
@@ -27,8 +27,8 @@ exception SetterException { };
 interface ValidAttribute {
   attribute boolean right;
   readonly attribute float size;
-  attribute DOMString name getraises(GetterException);
-  attribute DOMString fullname setraises(SetterException);
-  attribute DOMString firstname getraises(GetterException, SetterException) setraises(SetterException);
+  attribute DOMString name;
+  attribute DOMString fullname;
+  attribute DOMString firstname;
   stringifier attribute DOMString displayName;
 };

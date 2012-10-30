@@ -1,12 +1,13 @@
 [
   {
     "type": "interface",
+    "partial": false,
     "name": "AttributeNameClashWithConstant",
-    "inheritance": "",
+    "inheritance": null,
     "members": [
       {
         "type": "const",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -18,7 +19,7 @@
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -26,29 +27,27 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": "",
-        "setraises": ""
+        "readonly": false
       }
     ],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "interface",
+    "partial": false,
     "name": "AttributeNameClashWithOperation",
-    "inheritance": "",
+    "inheritance": null,
     "members": [
       {
         "type": "operation",
         "idlType": "void",
         "name": "right",
         "arguments": [],
-        "raises": "",
         "omittable": false
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -56,21 +55,20 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": "",
-        "setraises": ""
+        "readonly": false
       }
     ],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "interface",
+    "partial": false,
     "name": "AttributeNameClashWithAttribute",
-    "inheritance": "",
+    "inheritance": null,
     "members": [
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -78,13 +76,11 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": "",
-        "setraises": ""
+        "readonly": false
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -92,21 +88,20 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": "",
-        "setraises": ""
+        "readonly": false
       }
     ],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "interface",
+    "partial": false,
     "name": "AttributeGetRaisesUnknown",
-    "inheritance": "",
+    "inheritance": null,
     "members": [
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -114,24 +109,20 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": [
-          "GetterException",
-          "UnknownException"
-        ],
-        "setraises": ""
+        "readonly": false
       }
     ],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "interface",
+    "partial": false,
     "name": "AttributeSetRaisesUnknown",
-    "inheritance": "",
+    "inheritance": null,
     "members": [
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -139,35 +130,32 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": "",
-        "setraises": [
-          "UnknownException"
-        ]
+        "readonly": false
       }
     ],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "exception",
     "name": "GetterException",
     "members": [],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "exception",
     "name": "SetterException",
     "members": [],
-    "extAttrs": ""
+    "extAttrs": []
   },
   {
     "type": "interface",
+    "partial": false,
     "name": "ValidAttribute",
-    "inheritance": "",
+    "inheritance": null,
     "members": [
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -175,13 +163,11 @@
           "nullable": false
         },
         "name": "right",
-        "readonly": false,
-        "getraises": "",
-        "setraises": ""
+        "readonly": false
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -189,13 +175,11 @@
           "nullable": false
         },
         "name": "size",
-        "readonly": true,
-        "getraises": "",
-        "setraises": ""
+        "readonly": true
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -203,15 +187,11 @@
           "nullable": false
         },
         "name": "name",
-        "readonly": false,
-        "getraises": [
-          "GetterException"
-        ],
-        "setraises": ""
+        "readonly": false
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -219,15 +199,11 @@
           "nullable": false
         },
         "name": "fullname",
-        "readonly": false,
-        "getraises": "",
-        "setraises": [
-          "SetterException"
-        ]
+        "readonly": false
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -235,18 +211,11 @@
           "nullable": false
         },
         "name": "firstname",
-        "readonly": false,
-        "getraises": [
-          "GetterException",
-          "SetterException"
-        ],
-        "setraises": [
-          "SetterException"
-        ]
+        "readonly": false
       },
       {
         "type": "attribute",
-        "extAttrs": "",
+        "extAttrs": [],
         "idlType": {
           "sequence": false,
           "array": false,
@@ -254,12 +223,9 @@
           "nullable": false
         },
         "name": "displayName",
-        "readonly": false,
-        "getraises": "",
-        "setraises": "",
-        "stringifier": true
+        "readonly": false
       }
     ],
-    "extAttrs": ""
+    "extAttrs": []
   }
 ]

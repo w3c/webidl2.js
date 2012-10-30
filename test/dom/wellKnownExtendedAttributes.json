@@ -2,14 +2,16 @@
   {
     "type": "interface",
     "name": "UseUnknownExtendedAttribute",
-    "inheritance": "",
+    "inheritance": null,
     "members": [],
     "extAttrs": [
       {
-        "name": "Unknown"
+        "name": "Unknown",
+        "arguments": null
       },
       {
-        "name": "PrototypeRoot"
+        "name": "PrototypeRoot",
+        "arguments": null
       }
     ]
   }

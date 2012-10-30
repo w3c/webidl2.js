@@ -9,6 +9,7 @@
         "mocha":    "*"
     ,   "should":   "*"
     ,   "underscore":   "*"
+    ,   "jsondiffpatch":    "*"
     }
 ,   "repository":   "git://github.com/darobin/webidl2.js"
 ,   "main":         "index"

@@ -1,6 +1,3 @@
-/* Callback only applies to interfaces */
-[Callback] module CallbackUsedOnModule {
-};
 
 /* Callback can only takes two possible values */
 [Callback=Unknown] interface UnknownCallbackExtendedAttribute {
