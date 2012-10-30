@@ -1,0 +1,80 @@
+[
+  {
+    "type": "enum",
+    "name": "MealType",
+    "values": [
+      "rice",
+      "noodles",
+      "other"
+    ],
+    "extAttrs": ""
+  },
+  {
+    "type": "interface",
+    "name": "Meal",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "MealType",
+          "nullable": false
+        },
+        "name": "type",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "sequence": false,
+          "array": false,
+          "idlType": "float",
+          "nullable": false
+        },
+        "name": "size",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      },
+      {
+        "type": "operation",
+        "idlType": "void",
+        "name": "initialize",
+        "arguments": [
+          {
+            "name": "type",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "MealType",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          },
+          {
+            "name": "size",
+            "type": {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "nullable": false
+            },
+            "variadic": false,
+            "optional": false,
+            "extAttrs": ""
+          }
+        ],
+        "raises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]

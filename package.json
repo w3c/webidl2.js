@@ -1,5 +1,5 @@
 {
-    "name":         "webidl2.js"
+    "name":         "webidl2"
 ,   "description":  "A WebIDL Parser"
 ,   "version":      "2.0.0"
 ,   "author":       "Robin Berjon <robin@berjon.com>"
@@ -10,6 +10,8 @@
     ,   "should":   "*"
     ,   "underscore":   "*"
     ,   "jsondiffpatch":    "*"
+    ,   "benchmark":        "*"
+    ,   "microtime":    "*"
     }
 ,   "repository":   "git://github.com/darobin/webidl2.js"
 ,   "main":         "index"

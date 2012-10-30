@@ -1,0 +1,77 @@
+[
+  {
+    "type": "interface",
+    "name": "Union",
+    "inheritance": "",
+    "members": [
+      {
+        "type": "attribute",
+        "extAttrs": "",
+        "idlType": {
+          "idlType": "union",
+          "members": [
+            {
+              "sequence": false,
+              "array": false,
+              "idlType": "float",
+              "members": [],
+              "nullable": false
+            },
+            {
+              "idlType": "union",
+              "members": [
+                {
+                  "sequence": false,
+                  "array": false,
+                  "idlType": "Date",
+                  "members": [],
+                  "nullable": false
+                },
+                {
+                  "sequence": false,
+                  "array": false,
+                  "idlType": "Event",
+                  "members": [],
+                  "nullable": false
+                }
+              ],
+              "sequence": false,
+              "array": false,
+              "nullable": false
+            },
+            {
+              "idlType": "union",
+              "members": [
+                {
+                  "sequence": false,
+                  "array": false,
+                  "idlType": "Node",
+                  "members": [],
+                  "nullable": false
+                },
+                {
+                  "sequence": false,
+                  "array": false,
+                  "idlType": "DOMString",
+                  "members": [],
+                  "nullable": false
+                }
+              ],
+              "sequence": false,
+              "array": false,
+              "nullable": true
+            }
+          ],
+          "sequence": false,
+          "array": false,
+          "nullable": false
+        },
+        "name": "test",
+        "readonly": false,
+        "getraises": "",
+        "setraises": ""
+      }
+    ],
+    "extAttrs": ""
+  }
+]
