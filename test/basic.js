@@ -1,5 +1,6 @@
 var wp = require("../")
 ,   _  = require("underscore")
+,   expect = require("expect.js")
 ,   pth = require("path")
 ,   fs = require("fs")
 ,   jdp = require("jsondiffpatch")
@@ -22,8 +23,7 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
                 return function () {
                     var diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
                                         wp.parse(fs.readFileSync(idl, "utf8")));
-                    if (typeof diff === "undefined") true.should.be["true"];
-                    else false.should.be["true"];
+                    expect(diff).to.be(undefined);
                 };
             }(idl, json));
             if (okay.indexOf(idl) > -1) it("should produce the same AST for " + idl, func);
