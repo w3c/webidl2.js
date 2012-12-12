@@ -1,5 +1,0 @@
-    interface B
-    {
-        attribute any C;
-        void D(any E);
-    };

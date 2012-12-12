@@ -1,8 +1,0 @@
-[Constructor,
- Constructor(float radius)]
-interface Circle {
-  attribute float r;
-  attribute float cx;
-  attribute float cy;
-  readonly attribute float circumference;
-};

@@ -1,6 +1,0 @@
-// Test [NamedConstructor]
-[NamedConstructor=Audio,
- NamedConstructor=Audio(DOMString src)]
-interface AudioElement {
-  void play();
-};

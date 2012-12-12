@@ -1,6 +1,0 @@
-// Test overloaded operations
-interface A {
-  /* f1 */ void f(DOMString a);
-  /* f2 */ void f(DOMString a, DOMString b, float... c);
-  /* f3 */ void f(optional long a, DOMString b, optional DOMString c, float... d);
-};

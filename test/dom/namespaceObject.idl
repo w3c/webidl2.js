@@ -1,4 +1,0 @@
-/* bogus NamespaceObject on an interface */
-[NamespaceObject] 
-interface Foo {
-};

@@ -1,3 +1,0 @@
-  interface Y {
-    setter long item(DOMString name);
-  };

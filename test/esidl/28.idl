@@ -1,7 +1,0 @@
-interface object
-{
-  attribute long x;
-};
-    interface Y
-    {
-    };

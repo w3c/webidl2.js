@@ -1,8 +1,0 @@
-interface WithSequenceAttribute {
-  attribute sequence<float> badSequenceAttribute; // in most cases, one should not use sequence for attributes definitions
-  void methodWithSequenceParam(sequence<float> ok);
-};
-
-interface WithoutSequenceAttribute {
-  attribute float normalAttribute;
-};

@@ -1,5 +1,0 @@
-// Test [Replaceable]
-interface Counter {
-  [Replaceable] readonly attribute unsigned long value;
-  void increment();
-};

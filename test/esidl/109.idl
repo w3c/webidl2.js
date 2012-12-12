@@ -1,6 +1,0 @@
-interface Dictionary {
-  readonly attribute unsigned long propertyCount;
-
-  getter float getProperty(DOMString propertyName);
-  setter void setProperty(DOMString propertyName, float propertyValue);
-};

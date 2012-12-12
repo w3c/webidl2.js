@@ -1,0 +1,77 @@
+[
+    {
+        "type": "interface",
+        "name": "Canvas",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "name": "drawPolygon",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": true,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": {
+                                "sequence": false,
+                                "nullable": false,
+                                "array": false,
+                                "union": false,
+                                "idlType": "float"
+                            }
+                        },
+                        "name": "coordinates"
+                    }
+                ],
+                "extAttrs": []
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": true,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": {
+                        "sequence": false,
+                        "nullable": false,
+                        "array": false,
+                        "union": false,
+                        "idlType": "float"
+                    }
+                },
+                "name": "getInflectionPoints",
+                "arguments": [],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]

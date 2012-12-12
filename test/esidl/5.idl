@@ -1,5 +1,0 @@
-    interface Y
-    {
-        long reset();
-        attribute long size;
-    };

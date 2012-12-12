@@ -1,5 +1,0 @@
-// Test [Optional]
-interface ColorCreator {
-  object createColor(float v1, optional float v2, float v3,
-                     optional float alpha);
-};

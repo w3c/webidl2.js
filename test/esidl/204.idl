@@ -1,9 +1,0 @@
-    interface A
-    {
-        attribute long a;
-    };
-
-    interface B : Y
-    {
-        attribute long b;
-    };

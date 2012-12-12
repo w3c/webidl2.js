@@ -1,4 +1,0 @@
-interface Y
-{
-    long op(long x, long y);
-};

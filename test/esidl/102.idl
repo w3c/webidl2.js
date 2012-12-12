@@ -1,9 +1,0 @@
-// Test [Callback]
-[Callback]
-interface Listener {
-  void eventOccurred();
-};
-
-interface Thing {
-  void addListener(Listener listener);
-};

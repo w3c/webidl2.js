@@ -1,8 +1,0 @@
-    interface X
-    {
-        long s();
-    };
-    interface Y
-    {
-        long t(X x);
-    };

@@ -1,5 +1,0 @@
-interface object
-{
-  attribute long x;
-  attribute object _object;  // the underscore is not part of the identifier
-};

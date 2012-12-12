@@ -1,7 +1,0 @@
-// Test variadic operations
-interface IntegerSet {
-  readonly attribute unsigned long cardinality;
-
-  void _union(long... ints);
-  void intersection(long... ints);
-};

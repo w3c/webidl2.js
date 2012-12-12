@@ -1,6 +1,0 @@
-// Test caller
-interface NumberQuadrupler {
-  // This operation simply returns four times the given number x.
-  legacycaller float compute(float x);
-};
-

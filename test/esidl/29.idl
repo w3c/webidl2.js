@@ -1,7 +1,0 @@
-    typedef object DOMObject;
-
-    typedef DOMObject DOMObject;
-
-    interface X
-    {
-    };
