@@ -1,5 +1,10 @@
 
+Installation
+============
 
+Just the usual:
+
+    npm install webidl2
 
 
 TODO
@@ -9,6 +14,6 @@ TODO
 * convert the XML from widlproc into JSON ASTs for testing
 * run coverage to see if there's any glaring omission in the tests
 * test in browser
-* release to npm
 * document
+* switch from should to expect
 

@@ -6,12 +6,12 @@
 ,   "dependencies": {
     }
 ,   "devDependencies": {
-        "mocha":    "*"
-    ,   "should":   "*"
-    ,   "underscore":   "*"
+        "mocha":            "1.7.4"
+    ,   "expect":           "0.2.0"
+    ,   "underscore":       "1.4.3"
     ,   "jsondiffpatch":    "*"
     ,   "benchmark":        "*"
-    ,   "microtime":    "*"
+    ,   "microtime":        "*"
     }
 ,   "repository":   "git://github.com/darobin/webidl2.js"
 ,   "main":         "index"
