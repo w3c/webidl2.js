@@ -43,16 +43,6 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
 
 // XXX
 //  the following JSON outputs still need to be validated
-// allowany.json [extattrs]
-// constructor.json [extattrs]
-// namedconstructor.json [extattrs]
-// nointerfaceobject.json [extattrs]
-// overridebuiltins.json [extattrs]
-// prototyperoot.json [extattrs]
-// putforwards.json [extattrs]
-// replaceable.json [extattrs]
-// treatasnull.json [extattrs]
-// treatasundefined.json [extattrs]
 
 // caller.json [operation]
 // equivalent-decl.json [operation]
@@ -66,5 +56,4 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
 // sequence.json [operation]
 // stringifier-custom.json [operation]
 // stringifier.json [operation]
-// typesuffixes.json [operation]
 // variadic-operations.json [operation]

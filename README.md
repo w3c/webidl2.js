@@ -303,7 +303,57 @@ The fields are as follows:
 
 ### Operation Member (Method)
 
-XXX
+An operation looks like this:
+
+    {
+        "type": "operation",
+        "getter": false,
+        "setter": false,
+        "creator": false,
+        "deleter": false,
+        "legacycaller": false,
+        "static": false,
+        "stringifier": false,
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "void"
+        },
+        "name": "intersection",
+        "arguments": [
+            {
+                "optional": false,
+                "variadic": true,
+                "extAttrs": [],
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "long"
+                },
+                "name": "ints"
+            }
+        ],
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "operation".
+* `getter`: True if a getter operation.
+* `setter`: True if a setter operation.
+* `creator`: True if a creator operation.
+* `deleter`: True if a deleter operation.
+* `legacycaller`: True if a legacycaller operation.
+* `static`: True if a static operation.
+* `stringifier`: True if a stringifier operation.
+* `idlType`: An [IDL Type](#idl-type) of what the operation returns.
+* `name`: The name of the operation.
+* `arguments`: An array of [arguments](#arguments) for the operation.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Attribute Member
 
@@ -361,7 +411,6 @@ The fields are as follows:
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
-
 
 ### Serializer Member
 
@@ -422,7 +471,6 @@ examples below that map the IDL to the produced AST.
         "extAttrs": []
     }
 
-
 The common fields are as follows:
 
 * `type`: Always "serializer".
@@ -452,7 +500,59 @@ Finally, if the serializer is a named serializer:
 
 ### Arguments
 
+The arguments (e.g. for an operation) look like this:
+
+    "arguments": [
+        {
+            "optional": false,
+            "variadic": true,
+            "extAttrs": [],
+            "idlType": {
+                "sequence": false,
+                "nullable": false,
+                "array": false,
+                "union": false,
+                "idlType": "long"
+            },
+            "name": "ints"
+        }
+    ]
+
+The fields are as follows:
+
+* `optional`: True if the argument is optional.
+* `variadic`: True if the argument is variadic.
+* `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
+* `name`: The argument's name.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
 ### Extended Attributes
+
+Extended attributes are arrays of items that look like this:
+
+    "extAttrs": [
+        {
+            "name": "TreatNullAs",
+            "arguments": null,
+            "rhs": {
+                "type": "identifier",
+                "value": "EmptyString"
+            }
+        }
+    ]
+
+The fields are as follows:
+
+* `name`: The extended attribute's name.
+* `arguments`: If the extended attribute takes arguments (e.g. `[Foo()]`) or if
+  its right-hand side does (e.g. `[NamedConstructor=Name(DOMString blah)]`) they
+  are listed here. Note that an empty arguments list will produce an empty array,
+  whereas the lack thereof will yield a `null`. If there is an `rhs` field then
+  they are the right-hand side's arguments, otherwise they apply to the extended
+  attribute directly.
+* `rhs`: If there is a right-hand side, this will capture its `type` (always
+  "identifier" in practice, though it may be extended in the future) and its
+  `value`.
 
 ### Default and Const Values
 
