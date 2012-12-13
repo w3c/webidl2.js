@@ -1,10 +1,4 @@
 
-// NOTES:
-//  - there is a skip variable below that's used to skip tests from widlproc
-//    that are known to be faulty. Make sure it's up to date.
-//  - the files in json actually still need to be reviewed to check that they
-//    are fully correct interpretations of the IDLs
-
 var wp = process.env.JSCOV ? require("../lib-cov/webidl2") : require("../lib/webidl2")
 ,   expect = require("expect.js")
 ,   pth = require("path")
@@ -14,7 +8,7 @@ var wp = process.env.JSCOV ? require("../lib-cov/webidl2") : require("../lib/web
 ;
 describe("Parses all of the IDLs to produce the correct ASTs", function () {
     var dir = pth.join(__dirname, "widlproc/test/valid/idl")
-    ,   skip = {}
+    ,   skip = {} // use if we have a broken test
     ,   idls = fs.readdirSync(dir)
                   .filter(function (it) { return (/\.widl$/).test(it) && !skip[it]; })
                   .map(function (it) { return pth.join(dir, it); })
@@ -40,20 +34,3 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
         it("should produce the same AST for " + idl, func);
     }
 });
-
-// XXX
-//  the following JSON outputs still need to be validated
-
-// caller.json [operation]
-// equivalent-decl.json [operation]
-// getter-setter.json [operation]
-// indexed-properties.json [operation]
-// iterator.json [operation]
-// nullableobjects.json [operation]
-// operation-optional-arg.json [operation]
-// overloading.json [operation]
-// reg-operations.json [operation]
-// sequence.json [operation]
-// stringifier-custom.json [operation]
-// stringifier.json [operation]
-// variadic-operations.json [operation]

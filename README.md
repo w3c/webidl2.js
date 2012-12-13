@@ -54,7 +54,7 @@ of the IDL).
 
 ### IDL Type
 
-This structure is used in many other places (method return types, argument types, etc.).
+This structure is used in many other places (operation return types, argument types, etc.).
 It captures a WebIDL type with a number of options. Types look like this and are typically
 attached to a field called `idlType`:
 
@@ -104,7 +104,7 @@ The fields are as follows:
 * `type`: Always "interface".
 * `name`: The name of the interface
 * `partial`: A boolean indicating whether it's a partial interface.
-* `members`: An array of interface members (attributes, methods, etc.). Empty if there are none.
+* `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
   **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
   sense.
@@ -301,7 +301,7 @@ The fields are as follows:
 * `implements`: The interface that is being implemented by the target.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
-### Operation Member (Method)
+### Operation Member
 
 An operation looks like this:
 
@@ -350,8 +350,8 @@ The fields are as follows:
 * `legacycaller`: True if a legacycaller operation.
 * `static`: True if a static operation.
 * `stringifier`: True if a stringifier operation.
-* `idlType`: An [IDL Type](#idl-type) of what the operation returns.
-* `name`: The name of the operation.
+* `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
+* `name`: The name of the operation. If a stringifier, may be `null`.
 * `arguments`: An array of [arguments](#arguments) for the operation.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
@@ -498,6 +498,34 @@ Finally, if the serializer is a named serializer:
 
 * `name`: The serializer's name.
 
+### Iterator Member
+
+Iterator members look like this
+
+    {
+        "type": "iterator",
+        "getter": false,
+        "setter": false,
+        "creator": false,
+        "deleter": false,
+        "legacycaller": false,
+        "static": false,
+        "stringifier": false,
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "Session2"
+        },
+        "iteratorObject": "SessionIterator",
+        "extAttrs": []
+    }
+
+* `type`: Always "iterator".
+* `iteratorObject`: The string on the right-hand side; absent if there isn't one.
+* the rest: same as on [operations](#operation-member).
+
 ### Arguments
 
 The arguments (e.g. for an operation) look like this:
@@ -556,7 +584,7 @@ The fields are as follows:
 
 ### Default and Const Values
 
-Dictionary fields and method arguments can take default values, and constants take
+Dictionary fields and operation arguments can take default values, and constants take
 values, all of which have the following fields:
 
 * `type`: One of string, number, boolean, null, Infinity, or NaN.
@@ -613,5 +641,3 @@ TODO
 ====
 
 * add some tests to address coverage limitations
-* document
-* review the test JSONs to for correctness
