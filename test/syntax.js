@@ -30,8 +30,8 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
                     // the stored JSON ASTs use the same replacement function as is used below
                     // so we compare based on that
                     var replacer = function (key, value) {
-                            if (isNaN(value)) return { isNaN: true };
-                            if (!isFinite(value)) {
+                            if (typeof value === "number" && isNaN(value)) return { isNaN: true };
+                            if (typeof value === "number" && !isFinite(value)) {
                                 if (value < 0) return { isInifinite: true, sign: "-" };
                                 return { isInifinite: true, sign: "+" };
                             }

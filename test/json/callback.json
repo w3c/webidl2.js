@@ -1,3 +1,72 @@
-{
-    "isNaN": true
-}
+[
+    {
+        "type": "callback",
+        "name": "AsyncOperationCallback",
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "void"
+        },
+        "arguments": [
+            {
+                "optional": false,
+                "variadic": false,
+                "extAttrs": [],
+                "type": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "name": "status"
+            }
+        ],
+        "extAttrs": []
+    },
+    {
+        "type": "callback interface",
+        "name": "EventHandler",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "name": "eventOccurred",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "type": {
+                            "sequence": false,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "name": "details"
+                    }
+                ],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]
