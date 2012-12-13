@@ -6,7 +6,6 @@
 //    are fully correct interpretations of the IDLs
 
 var wp = require("../")
-,   _  = require("underscore")
 ,   expect = require("expect.js")
 ,   pth = require("path")
 ,   fs = require("fs")
