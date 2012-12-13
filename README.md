@@ -2,9 +2,13 @@
 Installation
 ============
 
-Just the usual:
+Just the usual. For Node:
 
     npm install webidl2
+    
+In the browser:
+
+    <script src='webidl2.js'></script>
 
 Testing
 =======
@@ -34,11 +38,14 @@ so you might wish to try this instead:
 
     JSCOV=1 mocha  --reporter html-cov | sed "s/&lt;/</g" | sed "s/&gt;/>/g" | sed "s/&quot;/\"/g" > coverage.html
 
+In order to test in the browser, get inside `test/web` and run `make-web-tests.js`. This
+will generate a `browser-tests.html` file that you can open in a browser. As of this
+writing tests pass in the latest Firefox, Chrome, Opera, and Safari. Testing on IE
+and older versions will happen progressively.
 
 TODO
 ====
 
 * add some tests to address coverage limitations
-* test in browser
 * document
 * review the test JSONs to for correctness
