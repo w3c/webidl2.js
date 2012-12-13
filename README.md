@@ -112,7 +112,7 @@ The fields are as follows:
 
 ### Callback Interfaces
 
-These are captured by the same structure as [Interfaces][interfaces] except that
+These are captured by the same structure as [Interfaces](#interfaces) except that
 their `type` field is "callback interface".
 
 ### Callback
@@ -137,9 +137,9 @@ The fields are as follows:
 
 * `type`: Always "callback".
 * `name`: The name of the callback.
-* `idlType`: An [IDL Type][idl-type] describing what the callback returns.
-* `arguments`: A list of [arguments][arguments], as in function paramters.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `idlType`: An [IDL Type](#idl-type) describing what the callback returns.
+* `arguments`: A list of [arguments](#arguments), as in function paramters.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Dictionary
 
@@ -178,15 +178,15 @@ The fields are as follows:
 * `partial`: Boolean indicating whether it's a partial dictionary.
 * `members`: An array of members (see below).
 * `inheritance`: A string indicating which dictionary is being inherited from, `null` otherwise.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 All the members are fields as follows:
 
 * `type`: Always "field".
 * `name`: The name of the field.
-* `idlType`: An [IDL Type][idl-type] describing what field's type.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
-* `default`: A [default value][default-and-const-values], absent if there is none.
+* `idlType`: An [IDL Type](#idl-type) describing what field's type.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+* `default`: A [default value](#default-and-const-values), absent if there is none.
 
 ### Exception
 
@@ -219,14 +219,14 @@ The fields are as follows:
 * `name`: The exception name.
 * `members`: An array of members (constants or fields, where fields are described below).
 * `inheritance`: A string indicating which exception is being inherited from, `null` otherwise.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
-Members that aren't [constants][constants] have the following fields:
+Members that aren't [constants](#constants) have the following fields:
 
 * `type`: Always "field".
 * `name`: The field's name.
-* `idlType`: An [IDL Type][idl-type] describing what field's type.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `idlType`: An [IDL Type](#idl-type) describing what field's type.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Enum
 
@@ -248,7 +248,7 @@ The fields are as follows:
 * `type`: Always "enum".
 * `name`: The enum's name.
 * `value`: An array of values (strings).
-* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Typedef
 
@@ -278,9 +278,9 @@ The fields are as follows:
 
 * `type`: Always "typedef".
 * `name`: The typedef's name.
-* `idlType`: An [IDL Type][idl-type] describing what typedef's type.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
-* `typeExtAttrs`: A list of [extended attributes][extended-attributes] that apply to the 
+* `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+* `typeExtAttrs`: A list of [extended attributes](#extended-attributes) that apply to the 
 type rather than to the typedef as a whole.
 
 ### Implements
