@@ -42,7 +42,7 @@
     },
     {
         "type": "typedef",
-        "extAttrs": [],
+        "typeExtAttrs": [],
         "idlType": {
             "sequence": true,
             "nullable": false,
@@ -56,7 +56,8 @@
                 "idlType": "Point"
             }
         },
-        "name": "PointSequence"
+        "name": "PointSequence",
+        "extAttrs": []
     },
     {
         "type": "interface",
@@ -194,7 +195,12 @@
     },
     {
         "type": "typedef",
-        "extAttrs": [],
+        "typeExtAttrs": [
+            {
+                "name": "Clamp",
+                "arguments": null
+            }
+        ],
         "idlType": {
             "sequence": false,
             "nullable": false,
@@ -202,6 +208,7 @@
             "union": false,
             "idlType": "octet"
         },
-        "name": "value"
+        "name": "value",
+        "extAttrs": []
     }
 ]

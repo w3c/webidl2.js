@@ -142,13 +142,166 @@ The fields are as follows:
 * `extAttrs`: A list of [extended attributes][extended-attributes].
 
 ### Dictionary
+
+A dictionary looks like this:
+
+    {
+        "type": "dictionary",
+        "name": "PaintOptions",
+        "partial": false,
+        "members": [
+            {
+                "type": "field",
+                "name": "fillPattern",
+                "idlType": {
+                    "sequence": false,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "extAttrs": [],
+                "default": {
+                    "type": "string",
+                    "value": "black"
+                }
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "dictionary".
+* `name`: The dictionary name.
+* `partial`: Boolean indicating whether it's a partial dictionary.
+* `members`: An array of members (see below).
+* `inheritance`: A string indicating which dictionary is being inherited from, `null` otherwise.
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+
+All the members are fields as follows:
+
+* `type`: Always "field".
+* `name`: The name of the field.
+* `idlType`: An [IDL Type][idl-type] describing what field's type.
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `default`: A [default value][default-and-const-values], absent if there is none.
+
 ### Exception
+
+An exception looks like this:
+
+    {
+        "type": "exception",
+        "name": "HierarchyRequestError",
+        "members": [
+            {
+                "type": "field",
+                "name": "code",
+                "idlType": {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "unsigned short"
+                },
+                "extAttrs": []
+            }
+        ],
+        "inheritance": "DOMException",
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "exception".
+* `name`: The exception name.
+* `members`: An array of members (constants or fields, where fields are described below).
+* `inheritance`: A string indicating which exception is being inherited from, `null` otherwise.
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+
+Members that aren't [constants][constants] have the following fields:
+
+* `type`: Always "field".
+* `name`: The field's name.
+* `idlType`: An [IDL Type][idl-type] describing what field's type.
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+
 ### Enum
+
+An enum looks like this:
+
+    {
+        "type": "enum",
+        "name": "MealType",
+        "values": [
+            "rice",
+            "noodles",
+            "other"
+        ],
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "enum".
+* `name`: The enum's name.
+* `value`: An array of values (strings).
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+
 ### Typedef
+
+A typedef looks like this:
+
+    {
+        "type": "typedef",
+        "typeExtAttrs": [],
+        "idlType": {
+            "sequence": true,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": {
+                "sequence": false,
+                "nullable": false,
+                "array": false,
+                "union": false,
+                "idlType": "Point"
+            }
+        },
+        "name": "PointSequence",
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "typedef".
+* `name`: The typedef's name.
+* `idlType`: An [IDL Type][idl-type] describing what typedef's type.
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `typeExtAttrs`: A list of [extended attributes][extended-attributes] that apply to the 
+type rather than to the typedef as a whole.
+
 ### Implements
 
 ### Arguments
 ### Extended Attributes
+
+### Default and Const Values
+
+Dictionary fields and method arguments can take default values, and constants take
+values, all of which have the following fields:
+
+* `type`: One of string, number, boolean, null, Infinity, or NaN.
+
+For string, number, and boolean:
+
+* `value`: The value of the given type.
+
+For Infinity:
+
+* `negative`: Boolean indicating whether this is negative Infinity or not.
 
 
 Testing

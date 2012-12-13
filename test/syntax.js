@@ -49,14 +49,7 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
 // caller.json
 // constants.json
 // constructor.json
-// dictionary-inherits.json
-// dictionary.json
-// documentation-dos.json
-// documentation.json
-// enum.json
 // equivalent-decl.json
-// exception-inheritance.json
-// exception.json
 // getter-setter.json
 // identifier-qualified-names.json
 // implements.json
@@ -84,7 +77,6 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
 // stringifier.json
 // treatasnull.json
 // treatasundefined.json
-// typedef.json
 // typesuffixes.json
 // uniontype.json
 // variadic-operations.json
