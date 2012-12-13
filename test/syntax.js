@@ -15,9 +15,7 @@ var wp = require("../")
 ;
 describe("Parses all of the IDLs to produce the correct ASTs", function () {
     var dir = pth.join(__dirname, "widlproc/test/valid/idl")
-    ,   skip = {
-            "typedef.widl": true // currently invalid
-        }
+    ,   skip = {}
     ,   idls = fs.readdirSync(dir)
                   .filter(function (it) { return (/\.widl$/).test(it) && !skip[it]; })
                   .map(function (it) { return pth.join(dir, it); })
@@ -28,8 +26,20 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
         var idl = idls[i], json = jsons[i];
         var func = (function (idl, json) {
             return function () {
-                var diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
-                                    wp.parse(fs.readFileSync(idl, "utf8")));
+                // the AST contains NaN and +/-Infinity that cannot be serialised to JSON
+                // the stored JSON ASTs use the same replacement function as is used below
+                // so we compare based on that
+                var replacer = function (key, value) {
+                        if (isNaN(value)) return { isNaN: true };
+                        if (!isFinite(value)) {
+                            if (value < 0) return { isInifinite: true, sign: "-" };
+                            return { isInifinite: true, sign: "+" };
+                        }
+                        return value;
+                    }
+                ,   parsed = JSON.parse(JSON.stringify(wp.parse(fs.readFileSync(idl, "utf8")), replacer))
+                ,   diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
+                                    parsed);
                 if (diff && debug) console.log(JSON.stringify(diff, null, 4));
                 expect(diff).to.be(undefined);
             };
