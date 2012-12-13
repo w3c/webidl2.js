@@ -3,7 +3,7 @@
 //  - the errors actually still need to be reviewed to check that they
 //    are fully correct interpretations of the IDLs
 
-var wp = require("../")
+var wp = process.env.JSCOV ? require("../lib/webidl2") : require("../lib-cov/webidl2")
 ,   expect = require("expect.js")
 ,   pth = require("path")
 ,   fs = require("fs")
