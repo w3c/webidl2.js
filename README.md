@@ -112,7 +112,7 @@ The fields are as follows:
 
 ### Callback Interfaces
 
-These are captured by the same structure as [Interfaces](#interfaces) except that
+These are captured by the same structure as [Interfaces](#interface) except that
 their `type` field is "callback interface".
 
 ### Callback
@@ -285,7 +285,173 @@ type rather than to the typedef as a whole.
 
 ### Implements
 
+An implements definition looks like this:
+
+    {
+        "type": "implements",
+        "target": "Node",
+        "implements": "EventTarget",
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "implements".
+* `target`: The interface that implements another.
+* `implements`: The interface that is being implemented by the target.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+### Operation Member (Method)
+
+XXX
+
+### Attribute Member
+
+An attribute member looks like this:
+
+    {
+        "type": "attribute",
+        "static": false,
+        "stringifier": false,
+        "inherit": false,
+        "readonly": false,
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "RegExp"
+        },
+        "name": "regexp",
+        "extAttrs": []
+    }
+    
+The fields are as follows:
+
+* `type`: Always "attribute".
+* `name`: The attribute's name.
+* `static`: True if it's a static attribute.
+* `stringifier`: True if it's a stringifier attribute.
+* `inherit`: True if it's an inherit attribute.
+* `readonly`: True if it's a read-only attribute.
+* `idlType`: An [IDL Type](#idl-type) for the attribute.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+### Constant Member
+
+A constant member looks like this:
+
+    {
+        "type": "const",
+        "nullable": false,
+        "idlType": "boolean",
+        "name": "DEBUG",
+        "value": {
+            "type": "boolean",
+            "value": false
+        },
+        "extAttrs": []
+    }
+
+The fields are as follows:
+
+* `type`: Always "const".
+* `nullable`: Whether its type is nullable.
+* `idlType`: The type of the constant (a simple type, the type name).
+* `name`: The name of the constant.
+* `value`: The constant value as described by [Const Values](#default-and-const-values)
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+
+### Serializer Member
+
+Serializers come in many shapes, which are best understood by looking at the
+examples below that map the IDL to the produced AST.
+
+    // serializer;
+    {
+        "type": "serializer",
+        "extAttrs": []
+    }
+
+    // serializer DOMString serialize();
+    {
+        "type": "serializer",
+        "idlType": {
+            "sequence": false,
+            "nullable": false,
+            "array": false,
+            "union": false,
+            "idlType": "DOMString"
+        },
+        "operation": {
+            "name": "serialize",
+            "arguments": []
+        },
+        "extAttrs": []
+    }
+
+    // serializer = { from, to, amount, description };
+    {
+        "type": "serializer",
+        "patternMap": true,
+        "names": [
+            "from",
+            "to",
+            "amount",
+            "description"
+        ],
+        "extAttrs": []
+    }
+
+    // serializer = number;
+    {
+        "type": "serializer",
+        "name": "number",
+        "extAttrs": []
+    }
+
+    // serializer = [ name, number ];
+    {
+        "type": "serializer",
+        "patternList": true,
+        "names": [
+            "name",
+            "number"
+        ],
+        "extAttrs": []
+    }
+
+
+The common fields are as follows:
+
+* `type`: Always "serializer".
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+For a simple serializer, that's all there is. If the serializer is an operation, it will
+have:
+
+* `idlType`: An [IDL Type](#idl-type) describing what the serializer returns.
+* `operation`: An object with the following fields:
+    * `name`: The name of the operation.
+    * `arguments`: An array of [arguments](#arguments) for the operation.
+
+If the serializer is a pattern map:
+
+* `patternMap`: Always true.
+* `names`: An array of names in the pattern map.
+
+If the serializer is a pattern list:
+
+* `patternList`: Always true.
+* `names`: An array of names in the pattern list.
+
+Finally, if the serializer is a named serializer:
+
+* `name`: The serializer's name.
+
 ### Arguments
+
 ### Extended Attributes
 
 ### Default and Const Values

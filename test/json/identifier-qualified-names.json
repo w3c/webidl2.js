@@ -77,7 +77,7 @@
                             "union": false,
                             "idlType": "DOMString"
                         },
-                        "name": "_interface"
+                        "name": "interface"
                     }
                 ],
                 "extAttrs": []
@@ -138,7 +138,7 @@
                     "union": false,
                     "idlType": "boolean"
                 },
-                "name": "_const",
+                "name": "const",
                 "extAttrs": []
             },
             {
@@ -154,7 +154,7 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "name": "_value",
+                "name": "value",
                 "extAttrs": []
             }
         ],

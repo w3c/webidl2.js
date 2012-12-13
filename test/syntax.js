@@ -43,40 +43,28 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
 
 // XXX
 //  the following JSON outputs still need to be validated
-// allowany.json
-// array.json
-// attributes.json
-// caller.json
-// constants.json
-// constructor.json
-// equivalent-decl.json
-// getter-setter.json
-// identifier-qualified-names.json
-// implements.json
-// indexed-properties.json
-// inherits-getter.json
-// iterator.json
-// namedconstructor.json
-// nointerfaceobject.json
-// nullable.json
-// nullableobjects.json
-// operation-optional-arg.json
-// overloading.json
-// overridebuiltins.json
-// partial-interface.json
-// primitives.json
-// prototyperoot.json
-// putforwards.json
-// reg-operations.json
-// replaceable.json
-// sequence.json
-// serializer.json
-// static.json
-// stringifier-attribute.json
-// stringifier-custom.json
-// stringifier.json
-// treatasnull.json
-// treatasundefined.json
-// typesuffixes.json
-// uniontype.json
-// variadic-operations.json
+// allowany.json [extattrs]
+// constructor.json [extattrs]
+// namedconstructor.json [extattrs]
+// nointerfaceobject.json [extattrs]
+// overridebuiltins.json [extattrs]
+// prototyperoot.json [extattrs]
+// putforwards.json [extattrs]
+// replaceable.json [extattrs]
+// treatasnull.json [extattrs]
+// treatasundefined.json [extattrs]
+
+// caller.json [operation]
+// equivalent-decl.json [operation]
+// getter-setter.json [operation]
+// indexed-properties.json [operation]
+// iterator.json [operation]
+// nullableobjects.json [operation]
+// operation-optional-arg.json [operation]
+// overloading.json [operation]
+// reg-operations.json [operation]
+// sequence.json [operation]
+// stringifier-custom.json [operation]
+// stringifier.json [operation]
+// typesuffixes.json [operation]
+// variadic-operations.json [operation]
