@@ -25,22 +25,28 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
         var idl = idls[i], json = jsons[i];
         var func = (function (idl, json) {
             return function () {
-                // the AST contains NaN and +/-Infinity that cannot be serialised to JSON
-                // the stored JSON ASTs use the same replacement function as is used below
-                // so we compare based on that
-                var replacer = function (key, value) {
-                        if (isNaN(value)) return { isNaN: true };
-                        if (!isFinite(value)) {
-                            if (value < 0) return { isInifinite: true, sign: "-" };
-                            return { isInifinite: true, sign: "+" };
+                try {
+                    // the AST contains NaN and +/-Infinity that cannot be serialised to JSON
+                    // the stored JSON ASTs use the same replacement function as is used below
+                    // so we compare based on that
+                    var replacer = function (key, value) {
+                            if (isNaN(value)) return { isNaN: true };
+                            if (!isFinite(value)) {
+                                if (value < 0) return { isInifinite: true, sign: "-" };
+                                return { isInifinite: true, sign: "+" };
+                            }
+                            return value;
                         }
-                        return value;
-                    }
-                ,   parsed = JSON.parse(JSON.stringify(wp.parse(fs.readFileSync(idl, "utf8")), replacer))
-                ,   diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
-                                    parsed);
-                if (diff && debug) console.log(JSON.stringify(diff, null, 4));
-                expect(diff).to.be(undefined);
+                    ,   parsed = JSON.parse(JSON.stringify(wp.parse(fs.readFileSync(idl, "utf8")), replacer))
+                    ,   diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
+                                        parsed);
+                    if (diff && debug) console.log(JSON.stringify(diff, null, 4));
+                    expect(diff).to.be(undefined);
+                }
+                catch (e) {
+                    console.log(e.toString());
+                    throw e;
+                }
             };
         }(idl, json));
         it("should produce the same AST for " + idl, func);
