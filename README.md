@@ -108,7 +108,7 @@ The fields are as follows:
 * `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
   **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
   sense.
-* `extAttrs`: A list of [extended attributes][extended-attributes].
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
 
