@@ -42,7 +42,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -76,7 +76,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -89,7 +89,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -148,7 +148,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -182,7 +182,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -195,7 +195,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -229,7 +229,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -263,7 +263,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -276,7 +276,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,

@@ -9,7 +9,10 @@
                 "nullable": false,
                 "idlType": "boolean",
                 "name": "DEBUG",
-                "value": false,
+                "value": {
+                    "type": "boolean",
+                    "value": false
+                },
                 "extAttrs": []
             },
             {
@@ -17,7 +20,10 @@
                 "nullable": false,
                 "idlType": "short",
                 "name": "negative",
-                "value": -1,
+                "value": {
+                    "type": "number",
+                    "value": -1
+                },
                 "extAttrs": []
             },
             {
@@ -25,7 +31,10 @@
                 "nullable": false,
                 "idlType": "octet",
                 "name": "LF",
-                "value": 10,
+                "value": {
+                    "type": "number",
+                    "value": 10
+                },
                 "extAttrs": []
             },
             {
@@ -33,7 +42,10 @@
                 "nullable": false,
                 "idlType": "unsigned long",
                 "name": "BIT_MASK",
-                "value": 64512,
+                "value": {
+                    "type": "number",
+                    "value": 64512
+                },
                 "extAttrs": []
             },
             {
@@ -41,7 +53,10 @@
                 "nullable": false,
                 "idlType": "float",
                 "name": "AVOGADRO",
-                "value": 6.022e+23,
+                "value": {
+                    "type": "number",
+                    "value": 6.022e+23
+                },
                 "extAttrs": []
             },
             {
@@ -50,8 +65,8 @@
                 "idlType": "unrestricted float",
                 "name": "sobig",
                 "value": {
-                    "isInifinite": true,
-                    "sign": "+"
+                    "type": "Infinity",
+                    "negative": false
                 },
                 "extAttrs": []
             },
@@ -61,8 +76,8 @@
                 "idlType": "unrestricted double",
                 "name": "minusonedividedbyzero",
                 "value": {
-                    "isInifinite": true,
-                    "sign": "-"
+                    "type": "Infinity",
+                    "negative": true
                 },
                 "extAttrs": []
             },
@@ -72,7 +87,7 @@
                 "idlType": "short",
                 "name": "notanumber",
                 "value": {
-                    "isNaN": true
+                    "type": "NaN"
                 },
                 "extAttrs": []
             }
@@ -89,7 +104,10 @@
                 "nullable": false,
                 "idlType": "short",
                 "name": "ERR_UNKNOWN",
-                "value": 0,
+                "value": {
+                    "type": "number",
+                    "value": 0
+                },
                 "extAttrs": []
             },
             {
@@ -97,7 +115,10 @@
                 "nullable": false,
                 "idlType": "short",
                 "name": "ERR_OUT_OF_MEMORY",
-                "value": 1,
+                "value": {
+                    "type": "number",
+                    "value": 1
+                },
                 "extAttrs": []
             },
             {

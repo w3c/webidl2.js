@@ -52,6 +52,33 @@ The root of this object is always an array of definitions (where definitions are
 any of interfaces, exceptions, callbacks, etc. — anything that can occur at the root
 of the IDL).
 
+### IDL Type
+
+This structure is used in many other places (method return types, argument types, etc.).
+It captures a WebIDL type with a number of options. Types look like this and are typically
+attached to a field called `idlType`:
+
+    {
+        "sequence": false,
+        "nullable": false,
+        "array": false,
+        "union": false,
+        "idlType": "void"
+    }
+
+Where the fields are as follows:
+
+* `sequence`: Boolean indicating whether this is a sequence or not.
+* `nullable`: Boolean indicating whether this is nullable or not.
+* `array`: Either `false` to indicate that it is not an array, or a number for the level of
+  array nesting.
+* `union`: Boolean indicating whether this is a union type or not.
+* `idlType`: Can be different things depending on context. In most cases, this will just
+  be a string with the type name. But the reason this field isn't called "typeName" is
+  because it can take more complex values. If the type is a union, then this contains an
+  array of the types it unites. If it is a sequence, it contains an IDL type description
+  for the type in the sequence.
+
 ### Interface
 Interfaces look like this:
 
@@ -70,25 +97,58 @@ Interfaces look like this:
         "members": [...],
         "inheritance": "Animal",
         "extAttrs": [...]
-    },
+    }
 
 The fields are as follows:
 
-* `type`: Always "interface", indicates that this is an interface.
+* `type`: Always "interface".
 * `name`: The name of the interface
 * `partial`: A boolean indicating whether it's a partial interface.
 * `members`: An array of interface members (attributes, methods, etc.). Empty if there are none.
 * `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
   **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
   sense.
-* `extAttrs`: A list of extended attributes (Constructor, etc.)
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+
+### Callback Interfaces
+
+These are captured by the same structure as [Interfaces][interfaces] except that
+their `type` field is "callback interface".
 
 ### Callback
+
+A callback looks like this:
+
+  {
+      "type": "callback",
+      "name": "AsyncOperationCallback",
+      "idlType": {
+          "sequence": false,
+          "nullable": false,
+          "array": false,
+          "union": false,
+          "idlType": "void"
+      },
+      "arguments": [...],
+      "extAttrs": []
+  }
+
+The fields are as follows:
+
+* `type`: Always "callback".
+* `name`: The name of the callback.
+* `idlType`: An [IDL Type][idl-type] describing what the callback returns.
+* `arguments`: A list of [arguments][arguments], as in function paramters.
+* `extAttrs`: A list of [extended attributes][extended-attributes].
+
 ### Dictionary
 ### Exception
 ### Enum
 ### Typedef
 ### Implements
+
+### Arguments
+### Extended Attributes
 
 
 Testing

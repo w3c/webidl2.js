@@ -26,7 +26,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -39,7 +39,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -52,7 +52,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -65,7 +65,7 @@
                         "optional": true,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
@@ -73,7 +73,10 @@
                             "idlType": "float"
                         },
                         "name": "alpha",
-                        "default": 3.5
+                        "default": {
+                            "type": "number",
+                            "value": 3.5
+                        }
                     }
                 ],
                 "extAttrs": []

@@ -8,16 +8,7 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
                     // the AST contains NaN and +/-Infinity that cannot be serialised to JSON
                     // the stored JSON ASTs use the same replacement function as is used below
                     // so we compare based on that
-                    var replacer = function (key, value) {
-                            if (typeof value === "number" && isNaN(value)) return { isNaN: true };
-                            if (typeof value === "number" && !isFinite(value)) {
-                                if (value < 0) return { isInifinite: true, sign: "-" };
-                                return { isInifinite: true, sign: "+" };
-                            }
-                            return value;
-                        }
-                    ,   parsed = JSON.parse(JSON.stringify(WebIDL2.parse(idl), replacer))
-                    ,   diff = jsondiffpatch.diff(json, parsed);
+                    var diff = jsondiffpatch.diff(json, WebIDL2.parse(idl));
                     if (diff && debug) console.log(JSON.stringify(diff, null, 4));
                     expect(diff).to.be(undefined);
                 }

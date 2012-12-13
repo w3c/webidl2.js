@@ -17,7 +17,7 @@
                 "extAttrs": [],
                 "default": {
                     "type": "string",
-                    "value": "\"black\""
+                    "value": "black"
                 }
             },
             {
@@ -31,7 +31,9 @@
                     "idlType": "DOMString"
                 },
                 "extAttrs": [],
-                "default": null
+                "default": {
+                    "type": "null"
+                }
             },
             {
                 "type": "field",

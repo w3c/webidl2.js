@@ -9,7 +9,10 @@
                 "nullable": true,
                 "idlType": "boolean",
                 "name": "ARE_WE_THERE_YET",
-                "value": false,
+                "value": {
+                    "type": "boolean",
+                    "value": false
+                },
                 "extAttrs": []
             }
         ],

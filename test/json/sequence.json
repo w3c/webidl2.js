@@ -26,7 +26,7 @@
                         "optional": false,
                         "variadic": false,
                         "extAttrs": [],
-                        "type": {
+                        "idlType": {
                             "sequence": true,
                             "nullable": false,
                             "array": false,

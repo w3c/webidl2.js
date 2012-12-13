@@ -67,7 +67,7 @@
                                 }
                             }
                         ],
-                        "type": {
+                        "idlType": {
                             "sequence": false,
                             "nullable": false,
                             "array": false,
