@@ -43,6 +43,54 @@ properties:
 The exception also has a `toString()` method that hopefully should produce a decent
 error message.
 
+AST (Abstract Syntax Tree)
+--------------------------
+The `parse()` method returns a tree object representing the parse tree of the IDL.
+Comment and white space are not represented in the AST.
+
+The root of this object is always an array of definitions (where definitions are
+any of interfaces, exceptions, callbacks, etc. — anything that can occur at the root
+of the IDL).
+
+### Interface
+Interfaces look like this:
+
+    {
+        "type": "interface",
+        "name": "Animal",
+        "partial": false,
+        "members": [...],
+        "inheritance": null,
+        "extAttrs": [...]
+    },
+    {
+        "type": "interface",
+        "name": "Human",
+        "partial": false,
+        "members": [...],
+        "inheritance": "Animal",
+        "extAttrs": [...]
+    },
+
+The fields are as follows:
+
+* `type`: Always "interface", indicates that this is an interface.
+* `name`: The name of the interface
+* `partial`: A boolean indicating whether it's a partial interface.
+* `members`: An array of interface members (attributes, methods, etc.). Empty if there are none.
+* `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
+  **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
+  sense.
+* `extAttrs`: A list of extended attributes (Constructor, etc.)
+
+### Callback
+### Dictionary
+### Exception
+### Enum
+### Typedef
+### Implements
+
+
 Testing
 =======
 

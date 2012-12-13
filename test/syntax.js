@@ -52,3 +52,52 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
         it("should produce the same AST for " + idl, func);
     }
 });
+
+// XXX
+//  the following JSON outputs still need to be validated
+// allowany.json
+// array.json
+// attributes.json
+// callback.json
+// caller.json
+// constants.json
+// constructor.json
+// dictionary-inherits.json
+// dictionary.json
+// documentation-dos.json
+// documentation.json
+// enum.json
+// equivalent-decl.json
+// exception-inheritance.json
+// exception.json
+// getter-setter.json
+// identifier-qualified-names.json
+// implements.json
+// indexed-properties.json
+// inherits-getter.json
+// iterator.json
+// namedconstructor.json
+// nointerfaceobject.json
+// nullable.json
+// nullableobjects.json
+// operation-optional-arg.json
+// overloading.json
+// overridebuiltins.json
+// partial-interface.json
+// primitives.json
+// prototyperoot.json
+// putforwards.json
+// reg-operations.json
+// replaceable.json
+// sequence.json
+// serializer.json
+// static.json
+// stringifier-attribute.json
+// stringifier-custom.json
+// stringifier.json
+// treatasnull.json
+// treatasundefined.json
+// typedef.json
+// typesuffixes.json
+// uniontype.json
+// variadic-operations.json
