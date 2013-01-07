@@ -107,6 +107,39 @@ Where the fields are as follows:
   array of the types it unites. If it is a sequence, it contains an IDL type description
   for the type in the sequence.
 
+#### Interactions between `nullable` and `array`
+
+A more complex data model for our AST would likely represent `Foo[][][]` as a series of
+nested types four levels deep with three anonymous array types eventually containing a 
+`Foo` type. But experience shows that such structures are cumbersome to use, and so we
+have a simpler model in which the depth of the array is specified with the `array` field.
+
+This is all fine and well, and in the vast majority of cases is actually simpler. But it
+does run afoul of cases in which it is necessary to distinguish between `Foo[][][]?`,
+`Foo?[][][]`, `Foo[][]?[]`, or even `Foo?[]?[]?[]?`.
+
+For this, when a type is an array type an additional `nullableArray` field is made available
+that captures which of the arrays contain nullable elements. It contains booleans that are
+true if the given array depth contains nullable elements, and false otherwise (mapping that to
+the syntax, and item is true if there is a `?` preceding the `[]`). These examples ought to
+clarify the model:
+
+    Foo[][][]?
+        -> nullable: true
+        -> nullableArray: [false, false, false]
+    Foo?[][][]
+        -> nullable: false
+        -> nullableArray: [true, false, false]
+    Foo[][]?[]
+        -> nullable: false
+        -> nullableArray: [false, false, true]
+    Foo?[]?[]?[]?
+        -> nullable: true
+        -> nullableArray: [true, true, true]
+
+Of particular importance, please note that the overall type is only `nullable` if there is
+a `?` at the end.
+
 ### Interface
 Interfaces look like this:
 

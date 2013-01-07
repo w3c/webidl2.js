@@ -35,6 +35,7 @@
                                 "sequence": false,
                                 "nullable": true,
                                 "array": 1,
+                                "nullableArray": [false],
                                 "union": false,
                                 "idlType": "DOMString"
                             }
