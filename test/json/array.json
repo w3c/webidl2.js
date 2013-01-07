@@ -14,6 +14,7 @@
                     "sequence": false,
                     "nullable": false,
                     "array": 2,
+                    "nullableArray": [false, false],
                     "union": false,
                     "idlType": "unsigned short"
                 },
