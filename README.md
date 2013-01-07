@@ -669,3 +669,4 @@ TODO
 ====
 
 * add some tests to address coverage limitations
+* add a push API for processors that need to process things like comments
