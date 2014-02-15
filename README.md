@@ -1,4 +1,8 @@
 
+# WebIDL 2
+
+[![NPM version](https://badge.fury.io/js/webidl2.png)](http://badge.fury.io/js/webidl2)
+
 Purpose
 =======
 
