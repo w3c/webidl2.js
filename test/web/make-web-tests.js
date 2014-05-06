@@ -19,12 +19,12 @@ var pth = require("path")
     }
 ,   data = {
         valid:  {
-            json:   allFromDir(dir("json"), /\.json$/, true)
-        ,   idl:    allFromDir(dir("widlproc/test/valid/idl"), /\.w?idl$/, false)
+            json:   allFromDir(dir("syntax/json"), /\.json$/, true)
+        ,   idl:    allFromDir(dir("syntax/idl"), /\.w?idl$/, false)
         }
     ,   invalid:{
-            json:   allFromDir(dir("error"), /\.json$/, true)
-        ,   idl:    allFromDir(dir("widlproc/test/invalid/idl"), /\.w?idl$/, false)
+            json:   allFromDir(dir("invalid/json"), /\.json$/, true)
+        ,   idl:    allFromDir(dir("invalid/idl"), /\.w?idl$/, false)
         }
     }
 ,   html = [

@@ -7,12 +7,12 @@ var wp = process.env.JSCOV ? require("../lib-cov/webidl2") : require("../lib/web
 ,   debug = true
 ;
 describe("Parses all of the IDLs to produce the correct ASTs", function () {
-    var dir = pth.join(__dirname, "widlproc/test/valid/idl")
+    var dir = pth.join(__dirname, "syntax/idl")
     ,   skip = {} // use if we have a broken test
     ,   idls = fs.readdirSync(dir)
                   .filter(function (it) { return (/\.widl$/).test(it) && !skip[it]; })
                   .map(function (it) { return pth.join(dir, it); })
-    ,   jsons = idls.map(function (it) { return pth.join(__dirname, "json", pth.basename(it).replace(".widl", ".json")); })
+    ,   jsons = idls.map(function (it) { return pth.join(__dirname, "syntax/json", pth.basename(it).replace(".widl", ".json")); })
     ;
     
     for (var i = 0, n = idls.length; i < n; i++) {

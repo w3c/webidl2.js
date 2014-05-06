@@ -9,12 +9,12 @@ var wp = process.env.JSCOV ? require("../lib-cov/webidl2") : require("../lib/web
 ,   fs = require("fs")
 ;
 describe("Parses all of the invalid IDLs to check that they blow up correctly", function () {
-    var dir = pth.join(__dirname, "widlproc/test/invalid/idl")
+    var dir = pth.join(__dirname, "invalid/idl")
     ,   skip = {}
     ,   idls = fs.readdirSync(dir)
                   .filter(function (it) { return (/\.w?idl$/).test(it) && !skip[it]; })
                   .map(function (it) { return pth.join(dir, it); })
-    ,   errors = idls.map(function (it) { return pth.join(__dirname, "error", pth.basename(it).replace(/\.w?idl/, ".json")); })
+    ,   errors = idls.map(function (it) { return pth.join(__dirname, "invalid", "json", pth.basename(it).replace(/\.w?idl/, ".json")); })
     ;
     
     for (var i = 0, n = idls.length; i < n; i++) {
