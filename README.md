@@ -671,7 +671,6 @@ initialised and up to date:
 
     git submodule init
     git submodule update
-    git pull origin master (in the submodule, once in a while)
 
 Running
 -------
