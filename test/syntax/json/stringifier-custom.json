@@ -12,6 +12,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -28,6 +29,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": true,
                     "array": false,
                     "union": false,
@@ -44,6 +46,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -63,6 +66,7 @@
                 "stringifier": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,

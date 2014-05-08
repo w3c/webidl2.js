@@ -192,6 +192,7 @@ A callback looks like this:
       "name": "AsyncOperationCallback",
       "idlType": {
           "sequence": false,
+          "promise": false,
           "nullable": false,
           "array": false,
           "union": false,
@@ -223,6 +224,7 @@ A dictionary looks like this:
                 "name": "fillPattern",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": true,
                     "array": false,
                     "union": false,
@@ -269,6 +271,7 @@ An exception looks like this:
                 "name": "code",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -327,11 +330,13 @@ A typedef looks like this:
         "typeExtAttrs": [],
         "idlType": {
             "sequence": true,
+            "promise": false,
             "nullable": false,
             "array": false,
             "union": false,
             "idlType": {
                 "sequence": false,
+                "promise": false,
                 "nullable": false,
                 "array": false,
                 "union": false,
@@ -384,6 +389,7 @@ An operation looks like this:
         "stringifier": false,
         "idlType": {
             "sequence": false,
+            "promise": false,
             "nullable": false,
             "array": false,
             "union": false,
@@ -397,6 +403,7 @@ An operation looks like this:
                 "extAttrs": [],
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -435,6 +442,7 @@ An attribute member looks like this:
         "readonly": false,
         "idlType": {
             "sequence": false,
+            "promise": false,
             "nullable": false,
             "array": false,
             "union": false,
@@ -496,6 +504,7 @@ examples below that map the IDL to the produced AST.
         "type": "serializer",
         "idlType": {
             "sequence": false,
+            "promise": false,
             "nullable": false,
             "array": false,
             "union": false,
@@ -581,6 +590,7 @@ Iterator members look like this
         "stringifier": false,
         "idlType": {
             "sequence": false,
+            "promise": false,
             "nullable": false,
             "array": false,
             "union": false,
@@ -605,6 +615,7 @@ The arguments (e.g. for an operation) look like this:
             "extAttrs": [],
             "idlType": {
                 "sequence": false,
+                "promise": false,
                 "nullable": false,
                 "array": false,
                 "union": false,

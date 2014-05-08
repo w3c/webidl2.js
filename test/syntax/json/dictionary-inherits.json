@@ -9,6 +9,7 @@
                 "name": "fillPattern",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": true,
                     "array": false,
                     "union": false,
@@ -25,6 +26,7 @@
                 "name": "strokePattern",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": true,
                     "array": false,
                     "union": false,
@@ -40,6 +42,7 @@
                 "name": "position",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -61,6 +64,7 @@
                 "name": "hydrometry",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,

@@ -15,6 +15,7 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -28,11 +29,13 @@
                         "extAttrs": [],
                         "idlType": {
                             "sequence": true,
+                            "promise": false,
                             "nullable": false,
                             "array": false,
                             "union": false,
                             "idlType": {
                                 "sequence": false,
+                                "promise": false,
                                 "nullable": false,
                                 "array": false,
                                 "union": false,
@@ -55,11 +58,13 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": true,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
                     "idlType": {
                         "sequence": false,
+                        "promise": false,
                         "nullable": false,
                         "array": false,
                         "union": false,

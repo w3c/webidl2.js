@@ -14,13 +14,14 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "promise": true,
                     "sequence": false,
+                    "promise": true,
                     "nullable": false,
                     "array": false,
                     "union": false,
                     "idlType": {
                         "sequence": false,
+                        "promise": false,
                         "nullable": true,
                         "nullableArray": [false],
                         "array": 1,
@@ -42,13 +43,14 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "promise": true,
                     "sequence": false,
+                    "promise": true,
                     "nullable": false,
                     "array": false,
                     "union": false,
                     "idlType": {
                         "sequence": false,
+                        "promise": false,
                         "nullable": false,
                         "array": false,
                         "union": false,

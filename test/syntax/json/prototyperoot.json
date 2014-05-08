@@ -12,6 +12,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
