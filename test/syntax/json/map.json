@@ -1,0 +1,27 @@
+[
+    {
+        "type": "interface",
+        "name": "HeaderMap",
+        "partial": false,
+        "members": [],
+        "inheritance": null,
+        "extAttrs": [{
+            "name": "MapClass",
+            "arguments": null,
+            "typePair": [{
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                {
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "DOMString"
+            }]
+        }]
+    }
+]
