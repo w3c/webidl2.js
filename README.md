@@ -92,6 +92,7 @@ attached to a field called `idlType`:
 
     {
         "sequence": false,
+        "promise": false,
         "nullable": false,
         "array": false,
         "union": false,
@@ -101,6 +102,7 @@ attached to a field called `idlType`:
 Where the fields are as follows:
 
 * `sequence`: Boolean indicating whether this is a sequence or not.
+* `promise`: Boolean indicating whether this is a promise or not.
 * `nullable`: Boolean indicating whether this is nullable or not.
 * `array`: Either `false` to indicate that it is not an array, or a number for the level of
   array nesting.
@@ -108,8 +110,9 @@ Where the fields are as follows:
 * `idlType`: Can be different things depending on context. In most cases, this will just
   be a string with the type name. But the reason this field isn't called "typeName" is
   because it can take more complex values. If the type is a union, then this contains an
-  array of the types it unites. If it is a sequence, it contains an IDL type description
-  for the type in the sequence.
+  array of the types it unites. If it is a sequence or a promise, it contains an IDL
+  type description for the type in the sequence or for the eventual value of the
+  promise.
 
 #### Interactions between `nullable` and `array`
 

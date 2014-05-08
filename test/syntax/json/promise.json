@@ -1,0 +1,66 @@
+[
+    {
+        "type": "interface",
+        "name": "ServiceWorkerClients",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "promise": true,
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": {
+                        "sequence": false,
+                        "nullable": true,
+                        "nullableArray": [false],
+                        "array": 1,
+                        "union": false,
+                        "idlType": "Client"
+                    }
+                },
+                "name": "getServiced",
+                "arguments": [],
+                "extAttrs": []
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "promise": true,
+                    "sequence": false,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": {
+                        "sequence": false,
+                        "nullable": false,
+                        "array": false,
+                        "union": false,
+                        "idlType": "any"
+                    }
+                },
+                "name": "reloadAll",
+                "arguments": [],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
+    }
+]
