@@ -126,6 +126,7 @@
                 "name": "errorCode",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,

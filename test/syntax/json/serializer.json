@@ -12,6 +12,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -28,6 +29,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -44,6 +46,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -60,6 +63,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -76,6 +80,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -105,6 +110,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -121,6 +127,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -133,6 +140,7 @@
                 "type": "serializer",
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -161,6 +169,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -177,6 +186,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -193,6 +203,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -209,6 +220,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -225,6 +237,7 @@
                 "readonly": true,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -261,6 +274,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -277,6 +291,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -307,6 +322,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -323,6 +339,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -359,6 +376,7 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -372,6 +390,7 @@
                         "extAttrs": [],
                         "idlType": {
                             "sequence": false,
+                            "promise": false,
                             "nullable": false,
                             "array": false,
                             "union": false,
@@ -407,6 +426,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -441,6 +461,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -475,6 +496,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -491,6 +513,7 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -528,6 +551,7 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -541,6 +565,7 @@
                         "extAttrs": [],
                         "idlType": {
                             "sequence": false,
+                            "promise": false,
                             "nullable": false,
                             "array": false,
                             "union": false,

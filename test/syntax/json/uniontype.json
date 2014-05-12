@@ -12,12 +12,14 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": true,
                     "idlType": [
                         {
                             "sequence": false,
+                            "promise": false,
                             "nullable": false,
                             "array": false,
                             "union": false,
@@ -25,12 +27,14 @@
                         },
                         {
                             "sequence": false,
+                            "promise": false,
                             "nullable": false,
                             "array": false,
                             "union": true,
                             "idlType": [
                                 {
                                     "sequence": false,
+                                    "promise": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,
@@ -38,6 +42,7 @@
                                 },
                                 {
                                     "sequence": false,
+                                    "promise": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,
@@ -47,12 +52,14 @@
                         },
                         {
                             "sequence": false,
+                            "promise": false,
                             "nullable": true,
                             "array": false,
                             "union": true,
                             "idlType": [
                                 {
                                     "sequence": false,
+                                    "promise": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,
@@ -60,6 +67,7 @@
                                 },
                                 {
                                     "sequence": false,
+                                    "promise": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,

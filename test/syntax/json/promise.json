@@ -1,7 +1,7 @@
 [
     {
         "type": "interface",
-        "name": "Canvas",
+        "name": "ServiceWorkerClients",
         "partial": false,
         "members": [
             {
@@ -15,36 +15,22 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": false,
-                    "promise": false,
+                    "promise": true,
                     "nullable": false,
                     "array": false,
                     "union": false,
-                    "idlType": "void"
-                },
-                "name": "drawPolygon",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "extAttrs": [],
-                        "idlType": {
-                            "sequence": true,
-                            "promise": false,
-                            "nullable": false,
-                            "array": false,
-                            "union": false,
-                            "idlType": {
-                                "sequence": false,
-                                "promise": false,
-                                "nullable": false,
-                                "array": false,
-                                "union": false,
-                                "idlType": "float"
-                            }
-                        },
-                        "name": "coordinates"
+                    "idlType": {
+                        "sequence": false,
+                        "promise": false,
+                        "nullable": true,
+                        "nullableArray": [false],
+                        "array": 1,
+                        "union": false,
+                        "idlType": "Client"
                     }
-                ],
+                },
+                "name": "getServiced",
+                "arguments": [],
                 "extAttrs": []
             },
             {
@@ -57,8 +43,8 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "sequence": true,
-                    "promise": false,
+                    "sequence": false,
+                    "promise": true,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -68,10 +54,10 @@
                         "nullable": false,
                         "array": false,
                         "union": false,
-                        "idlType": "float"
+                        "idlType": "any"
                     }
                 },
-                "name": "getInflectionPoints",
+                "name": "reloadAll",
                 "arguments": [],
                 "extAttrs": []
             }
