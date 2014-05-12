@@ -10,6 +10,7 @@
             "arguments": null,
             "typePair": [{
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -17,6 +18,7 @@
                 },
                 {
                     "sequence": false,
+                    "promise": false,
                     "nullable": false,
                     "array": false,
                     "union": false,
