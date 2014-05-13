@@ -660,6 +660,8 @@ The fields are as follows:
 * `rhs`: If there is a right-hand side, this will capture its `type` (always
   "identifier" in practice, though it may be extended in the future) and its
   `value`.
+* `typePair`: If the extended attribute is a `MapClass` this will capture the
+  map's key type and value type respectively.
 
 ### Default and Const Values
 
