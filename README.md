@@ -101,9 +101,9 @@ attached to a field called `idlType`:
 
 Where the fields are as follows:
 
-* `sequence`: Boolean indicating whether this is a sequence or not.
+* `sequence` [deprecated]: Boolean indicating whether this is a sequence or not.
 * `parametrized`: Boolean indicating whether this type is parametized (mostly used for
-  promises).
+  promises and sequences).
 * `parametrizedType`: String indicating the type of the parameter. Generally sequence or
   Promise.
 * `nullable`: Boolean indicating whether this is nullable or not.
@@ -334,6 +334,7 @@ A typedef looks like this:
         "idlType": {
             "sequence": true,
             "parametrized": true,
+            "parametrizedType": "sequence",
             "nullable": false,
             "array": false,
             "union": false,

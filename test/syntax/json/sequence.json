@@ -29,7 +29,8 @@
                         "extAttrs": [],
                         "idlType": {
                             "sequence": true,
-                            "parametrized": false,
+                            "parametrized": true,
+                            "parametrizedType": "sequence",
                             "nullable": false,
                             "array": false,
                             "union": false,
@@ -58,7 +59,8 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": true,
-                    "parametrized": false,
+                    "parametrized": true,
+                    "parametrizedType": "sequence",
                     "nullable": false,
                     "array": false,
                     "union": false,

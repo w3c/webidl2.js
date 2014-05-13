@@ -47,7 +47,8 @@
         "typeExtAttrs": [],
         "idlType": {
             "sequence": true,
-            "parametrized": false,
+            "parametrized": true,
+            "parametrizedType": "sequence",
             "nullable": false,
             "array": false,
             "union": false,
