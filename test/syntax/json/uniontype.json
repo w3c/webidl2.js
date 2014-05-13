@@ -12,14 +12,14 @@
                 "readonly": false,
                 "idlType": {
                     "sequence": false,
-                    "promise": false,
+                    "parametrized": false,
                     "nullable": false,
                     "array": false,
                     "union": true,
                     "idlType": [
                         {
                             "sequence": false,
-                            "promise": false,
+                            "parametrized": false,
                             "nullable": false,
                             "array": false,
                             "union": false,
@@ -27,14 +27,14 @@
                         },
                         {
                             "sequence": false,
-                            "promise": false,
+                            "parametrized": false,
                             "nullable": false,
                             "array": false,
                             "union": true,
                             "idlType": [
                                 {
                                     "sequence": false,
-                                    "promise": false,
+                                    "parametrized": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,
@@ -42,7 +42,7 @@
                                 },
                                 {
                                     "sequence": false,
-                                    "promise": false,
+                                    "parametrized": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,
@@ -52,14 +52,14 @@
                         },
                         {
                             "sequence": false,
-                            "promise": false,
+                            "parametrized": false,
                             "nullable": true,
                             "array": false,
                             "union": true,
                             "idlType": [
                                 {
                                     "sequence": false,
-                                    "promise": false,
+                                    "parametrized": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,
@@ -67,7 +67,7 @@
                                 },
                                 {
                                     "sequence": false,
-                                    "promise": false,
+                                    "parametrized": false,
                                     "nullable": false,
                                     "array": false,
                                     "union": false,

@@ -15,7 +15,7 @@
                 "stringifier": true,
                 "idlType": {
                     "sequence": false,
-                    "promise": false,
+                    "parametrized": false,
                     "nullable": false,
                     "array": false,
                     "union": false,

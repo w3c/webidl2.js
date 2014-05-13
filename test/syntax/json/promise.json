@@ -15,13 +15,14 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": false,
-                    "promise": true,
+                    "parametrized": true,
+                    "parametrizedType": "Promise",
                     "nullable": false,
                     "array": false,
                     "union": false,
                     "idlType": {
                         "sequence": false,
-                        "promise": false,
+                        "parametrized": false,
                         "nullable": true,
                         "nullableArray": [false],
                         "array": 1,
@@ -44,13 +45,14 @@
                 "stringifier": false,
                 "idlType": {
                     "sequence": false,
-                    "promise": true,
+                    "parametrized": true,
+                    "parametrizedType": "Promise",
                     "nullable": false,
                     "array": false,
                     "union": false,
                     "idlType": {
                         "sequence": false,
-                        "promise": false,
+                        "parametrized": false,
                         "nullable": false,
                         "array": false,
                         "union": false,
@@ -63,6 +65,44 @@
             }
         ],
         "inheritance": null,
+        "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "FetchEvent",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "parametrized": true,
+                    "parametrizedType": "ResponsePromise",
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": {
+                        "sequence": false,
+                        "parametrized": false,
+                        "nullable": false,
+                        "array": false,
+                        "union": false,
+                        "idlType": "any"
+                    }
+                },
+                "name": "default",
+                "arguments": [],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": "Event",
         "extAttrs": []
     }
 ]

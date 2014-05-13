@@ -4,3 +4,9 @@ interface ServiceWorkerClients {
   Promise<Client[]?> getServiced();
   Promise<any> reloadAll();
 };
+
+// Extracted from https://slightlyoff.github.io/ServiceWorker/spec/service_worker/ on 2014-05-13
+
+interface FetchEvent : Event {
+  ResponsePromise<any> default();
+};
