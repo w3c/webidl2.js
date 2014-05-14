@@ -5,3 +5,8 @@ interface Canvas {
   sequence<float> getInflectionPoints();
   // ...
 };
+
+// Make sure sequence can still be registered as a type.
+interface Foo {
+  sequence bar();
+};
