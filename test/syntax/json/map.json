@@ -10,7 +10,7 @@
             "arguments": null,
             "typePair": [{
                     "sequence": false,
-                    "parametrized": false,
+                    "generic": null,
                     "nullable": false,
                     "array": false,
                     "union": false,
@@ -18,7 +18,7 @@
                 },
                 {
                     "sequence": false,
-                    "parametrized": false,
+                    "generic": null,
                     "nullable": false,
                     "array": false,
                     "union": false,

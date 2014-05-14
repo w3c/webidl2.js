@@ -126,7 +126,7 @@
                 "name": "errorCode",
                 "idlType": {
                     "sequence": false,
-                    "parametrized": false,
+                    "generic": null,
                     "nullable": false,
                     "array": false,
                     "union": false,
