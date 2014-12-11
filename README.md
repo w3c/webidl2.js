@@ -669,11 +669,11 @@ The fields are as follows:
 Dictionary fields and operation arguments can take default values, and constants take
 values, all of which have the following fields:
 
-* `type`: One of string, number, boolean, null, Infinity, or NaN.
+* `type`: One of string, number, boolean, null, Infinity, NaN, or sequence.
 
-For string, number, and boolean:
+For string, number, boolean, and sequence:
 
-* `value`: The value of the given type.
+* `value`: The value of the given type. For sequence, the only possible value is `[]`.
 
 For Infinity:
 

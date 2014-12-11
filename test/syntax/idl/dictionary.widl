@@ -3,6 +3,8 @@ dictionary PaintOptions {
   DOMString? fillPattern = "black";
   DOMString? strokePattern = null;
   Point position;
+  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to "[]".
+  sequence<long> seq = [];
 };
 
 partial dictionary A {

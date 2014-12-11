@@ -49,6 +49,30 @@
                     "idlType": "Point"
                 },
                 "extAttrs": []
+            },
+            {
+                "type": "field",
+                "name": "seq",
+                "idlType": {
+                    "sequence": true,
+                    "generic": "sequence",
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": {
+                        "sequence": false,
+                        "generic": null,
+                        "nullable": false,
+                        "array": false,
+                        "union": false,
+                        "idlType": "long"
+                    }
+                },
+                "extAttrs": [],
+                "default": {
+                    "type": "sequence",
+                    "value": []
+                }
             }
         ],
         "inheritance": null,
