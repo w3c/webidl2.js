@@ -7,12 +7,12 @@
 ,   "dependencies": {
     }
 ,   "devDependencies": {
-        "mocha":            "1.7.4"
-    ,   "expect.js":        "0.2.0"
-    ,   "underscore":       "1.4.3"
-    ,   "jsondiffpatch":    "0.0.5"
+        "mocha":            "2.1.0"
+    ,   "expect.js":        "0.3.1"
+    ,   "underscore":       "1.7.0"
+    ,   "jsondiffpatch":    "0.1.27"
     ,   "benchmark":        "*"
-    ,   "microtime":        "*"
+    ,   "microtime":        "1.1.0"
     }
 ,   "scripts": {
         "test": "mocha"
