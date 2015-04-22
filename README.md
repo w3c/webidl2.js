@@ -223,6 +223,7 @@ A dictionary looks like this:
             {
                 "type": "field",
                 "name": "fillPattern",
+                "required": false,
                 "idlType": {
                     "sequence": false,
                     "generic": null,
@@ -255,6 +256,7 @@ All the members are fields as follows:
 
 * `type`: Always "field".
 * `name`: The name of the field.
+* `required`: Boolean indicating whether this is a [required](https://heycam.github.io/webidl/#required-dictionary-member) field.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 * `default`: A [default value](#default-and-const-values), absent if there is none.
