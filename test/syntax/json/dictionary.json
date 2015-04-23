@@ -7,6 +7,7 @@
             {
                 "type": "field",
                 "name": "fillPattern",
+                "required": false,
                 "idlType": {
                     "sequence": false,
                     "generic": null,
@@ -24,6 +25,7 @@
             {
                 "type": "field",
                 "name": "strokePattern",
+                "required": false,
                 "idlType": {
                     "sequence": false,
                     "generic": null,
@@ -40,6 +42,7 @@
             {
                 "type": "field",
                 "name": "position",
+                "required": false,
                 "idlType": {
                     "sequence": false,
                     "generic": null,
@@ -53,6 +56,7 @@
             {
                 "type": "field",
                 "name": "seq",
+                "required": false,
                 "idlType": {
                     "sequence": true,
                     "generic": "sequence",
@@ -73,6 +77,20 @@
                     "type": "sequence",
                     "value": []
                 }
+            },
+            {
+                "type": "field",
+                "name": "reqSeq",
+                "required": true,
+                "idlType": {
+                    "sequence": false,
+                    "generic": null,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "long"
+                },
+                "extAttrs": []
             }
         ],
         "inheritance": null,
@@ -86,6 +104,7 @@
             {
                 "type": "field",
                 "name": "h",
+                "required": false,
                 "idlType": {
                     "sequence": false,
                     "generic": null,
@@ -99,6 +118,7 @@
             {
                 "type": "field",
                 "name": "d",
+                "required": false,
                 "idlType": {
                     "sequence": false,
                     "generic": null,
