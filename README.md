@@ -696,6 +696,24 @@ For Infinity:
 
 * `negative`: Boolean indicating whether this is negative Infinity or not.
 
+### `iterable<>`, `legacyiterable<>`, `maplike<>`, `setlike<>` declarations
+
+These appear as members of interfaces that look like this:
+
+        {
+            "type": "maplike", // or "legacyiterable" / "iterable" / "setlike"
+            "idlType": /* One or two types */,
+            "readonly": false, // only for maplike and setlike
+            "extAttrs": []
+        }
+
+The fields are as follows:
+
+* `type`: Always one of "iterable", "legacyiterable", "maplike" or "setlike".
+* `idlType`: An [IDL Type](#idl-type) (or an array of two types) representing the declared type arguments.
+* `readonly`: Whether the maplike or setlike is declared as read only.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
 
 Testing
 =======
