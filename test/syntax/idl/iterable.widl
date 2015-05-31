@@ -1,0 +1,11 @@
+interface SessionManager {
+  Session getSessionForUser(DOMString username);
+  readonly attribute unsigned long sessionCount;
+
+  iterable<Session>;
+};
+
+interface Session {
+  readonly attribute DOMString username;
+  // ...
+};
