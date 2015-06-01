@@ -76,9 +76,9 @@ The following options are recognized:
 ```
 And their meanings are as follows:
 
-* `allowClass`: Boolean indicating whether the parser should accept `class` definitions (here treated as identical to `interface` in all but name). This is non-standard syntax and therefore the default is `false`, but is based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
+* `allowClass`: Boolean indicating whether the parser should accept `class` definitions (here treated as identical to `interface` in all but name). This is non-standard syntax and therefore the default is `false`, but it's based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
 
-* `allowExtends`: Boolean indicating whether the parser should accept `extends` clauses (here treated as an alternative token to `:`). This is non-standard syntax and therefore the default is `false`, but is based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and which found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
+* `allowExtends`: Boolean indicating whether the parser should accept `extends` clauses (here treated as an alternative token to `:`). This is non-standard syntax and therefore the default is `false`, but it's based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
 
 Errors
 ------
