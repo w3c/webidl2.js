@@ -61,6 +61,25 @@ In the browser:
       var tree = WebIDL2.parse("string of WebIDL");
     </script>
 
+Advanced Parsing
+----------------
+
+`parse()` can optionally accept a second parameter, an options object, which can be used to
+modify parsing behavior.
+
+The following options are recognized:
+```javascript
+{
+    allowClass: false,
+    allowExtends: false
+}
+```
+And their meanings are as follows:
+
+* `allowClass`: Boolean indicating whether the parser should accept `class` definitions (here treated as identical to `interface` in all but name). This is non-standard syntax and therefore the default is `false`, but is based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
+
+* `allowExtends`: Boolean indicating whether the parser should accept `extends` clauses (here treated as an alternative token to `:`). This is non-standard syntax and therefore the default is `false`, but is based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and which found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
+
 Errors
 ------
 When there is a syntax error in the WebIDL, it throws an exception object with the following
@@ -170,7 +189,7 @@ Interfaces look like this:
 
 The fields are as follows:
 
-* `type`: Always "interface".
+* `type`: "interface" (or "class", if parsing classes is enabled)
 * `name`: The name of the interface
 * `partial`: A boolean indicating whether it's a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.

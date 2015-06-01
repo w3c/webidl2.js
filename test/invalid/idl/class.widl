@@ -1,0 +1,5 @@
+// Extracted from https://dom.spec.whatwg.org/ on 2015-06-01
+class Elements extends Array {
+  Element? query(DOMString relativeSelectors);
+  Elements queryAll(DOMString relativeSelectors);
+};
