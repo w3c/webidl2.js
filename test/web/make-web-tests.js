@@ -38,7 +38,7 @@ var pth = require("path")
     ,   "  <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js'></script>"
     ,   "  <script src='../../node_modules/expect/umd/expect.min.js'></script>"
     ,   "  <script src='../../node_modules/mocha/mocha.js'></script>"
-    ,   "  <script src='../../node_modules/jsondiffpatch/jsondiffpatch.min.js'></script>"
+    ,   "  <script src='../../node_modules/jsondiffpatch/public/build/jsondiffpatch.min.js'></script>"
     ,   "  <script src='../../lib/webidl2.js'></script>"
     ,   "  <script>mocha.setup('bdd');</script>"
     ,   "  <script src='run-tests.js'></script>"
