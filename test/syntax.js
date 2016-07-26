@@ -26,7 +26,7 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
                     if (fs.existsSync(optFile))
                         opt = JSON.parse(fs.readFileSync(optFile, "utf8"));
                     var diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
-                                        wp.parse(fs.readFileSync(idl, "utf8"), opt));
+                                        removeAddition(wp.parse(fs.readFileSync(idl, "utf8"), opt)));
                     if (diff && debug) console.log(JSON.stringify(diff, null, 4));
                     expect(diff).to.be(undefined);
                 }
@@ -39,3 +39,15 @@ describe("Parses all of the IDLs to produce the correct ASTs", function () {
         it("should produce the same AST for " + idl, func);
     }
 });
+
+function removeAddition(ob) { // not to affect json diff
+    for (var key in ob) {
+        if (key === "offset" || key === "origin") {
+            delete ob[key];
+        }
+        else if (typeof ob[key] === "object") {
+            removeAddition(ob[key]);
+        }
+    }
+    return ob;
+}
