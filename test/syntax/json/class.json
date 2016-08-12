@@ -1,0 +1,84 @@
+[
+    {
+        "type": "class",
+        "name": "Elements",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "generic": null,
+                    "nullable": true,
+                    "array": false,
+                    "union": false,
+                    "idlType": "Element"
+                },
+                "name": "query",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "idlType": {
+                            "sequence": false,
+                            "generic": null,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "name": "relativeSelectors"
+                    }
+                ],
+                "extAttrs": []
+            },
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "generic": null,
+                    "nullable": false,
+                    "array": false,
+                    "union": false,
+                    "idlType": "Elements"
+                },
+                "name": "queryAll",
+                "arguments": [
+                    {
+                        "optional": false,
+                        "variadic": false,
+                        "extAttrs": [],
+                        "idlType": {
+                            "sequence": false,
+                            "generic": null,
+                            "nullable": false,
+                            "array": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "name": "relativeSelectors"
+                    }
+                ],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": "Array",
+        "extAttrs": []
+    }
+]
+

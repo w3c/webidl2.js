@@ -70,12 +70,18 @@ modify parsing behavior.
 The following options are recognized:
 ```javascript
 {
-    allowNestedTypedefs: false # 
+    allowNestedTypedefs: false,
+    allowClass: false,
+    allowExtends: false
 }
 ```
 And their meanings are as follows:
 
 * `allowNestedTypedefs`: Boolean indicating whether the parser should accept `typedef`s as valid members of `interface`s. This is non-standard syntax and therefore the default is `false`.
+
+* `allowClass`: Boolean indicating whether the parser should accept `class` definitions (here treated as identical to `interface` in all but name). This is non-standard syntax and therefore the default is `false`, but it's based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
+
+* `allowExtends`: Boolean indicating whether the parser should accept `extends` clauses (here treated as an alternative token to `:`). This is non-standard syntax and therefore the default is `false`, but it's based on syntax proposed in [W3C bug 23225](https://www.w3.org/Bugs/Public/show_bug.cgi?id=23225) and found in current use in the [DOM Living Standard](https://dom.spec.whatwg.org/#elements).
 
 Errors
 ------
@@ -186,7 +192,7 @@ Interfaces look like this:
 
 The fields are as follows:
 
-* `type`: Always "interface".
+* `type`: "interface" (or "class", if parsing classes is enabled)
 * `name`: The name of the interface
 * `partial`: A boolean indicating whether it's a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
