@@ -7,11 +7,13 @@
   "dependencies": {},
   "devDependencies": {
     "expect": "1.20.2",
+    "flow-bin": "^0.37.4",
     "jsondiffpatch": "0.1.43",
     "mocha": "3.0.2"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "typecheck": "flow check"
   },
   "repository": "git://github.com/darobin/webidl2.js",
   "main": "index"
