@@ -2,3 +2,4 @@ scratch
 node_modules
 lib-cov
 browser-tests.html
+out

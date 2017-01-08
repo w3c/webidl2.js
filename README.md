@@ -3,7 +3,7 @@
 
 [![NPM version](https://badge.fury.io/js/webidl2.png)](http://badge.fury.io/js/webidl2)
 
-##Purpose
+## Purpose
 
 This is a parser for the [WebIDL](http://dev.w3.org/2006/webapi/WebIDL/) language. If
 you don't know what that is, then you probably don't need it. It is meant to be used
