@@ -1,0 +1,9 @@
+type IDLDefinition
+  = IDLCallback
+  | IDLCallbackInterface
+  | IDLDictionary
+  | IDLEnum
+  | IDLException
+  | IDLImplements
+  | IDLInterface
+  | IDLTypedef;

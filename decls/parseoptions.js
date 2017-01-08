@@ -1,0 +1,3 @@
+type ParseOptions = {
+  allowNestedTypedefs?: boolean
+};

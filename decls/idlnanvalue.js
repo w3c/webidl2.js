@@ -1,0 +1,3 @@
+type IDLNaNValue = {
+  type: 'NaN'
+};

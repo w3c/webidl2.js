@@ -1,0 +1,3 @@
+type IDLNullValue = {
+  type: 'null'
+};

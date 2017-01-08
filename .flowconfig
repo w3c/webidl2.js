@@ -1,5 +1,8 @@
 [include]
 lib/**/*.js
 
+[libs]
+decls
+
 [options]
 suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe

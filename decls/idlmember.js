@@ -1,0 +1,17 @@
+type IDLMember
+  = IDLAttributeMember
+  | IDLConstantMember
+  | IDLDictionaryFieldMember
+  | IDLExceptionFieldMember
+  | IDLIterableMember
+  | IDLIteratorMember
+  | IDLLegacyIterableMember
+  | IDLMaplikeMember
+  | IDLNamedSerializerMember
+  | IDLOperationMember
+  | IDLSerializerMember
+  | IDLSerializerOperationMember
+  | IDLSerializerPatternListMember
+  | IDLSerializerPatternMapMember
+  | IDLSetlikeMember
+  | IDLTypedef;

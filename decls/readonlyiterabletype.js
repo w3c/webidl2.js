@@ -1,0 +1,3 @@
+type ReadonlyIterableType
+  = 'maplike'
+  | 'setlike';
