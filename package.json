@@ -11,7 +11,8 @@
     "flow-bin": "^0.37.4",
     "jsdoc": "^3.4.3",
     "jsondiffpatch": "0.1.43",
-    "mocha": "3.0.2"
+    "mocha": "3.0.2",
+    "typescript": "^2.1.4"
   },
   "scripts": {
     "docs": "jsdoc -p -r lib -t ./node_modules/docdash -R README.md",
@@ -19,5 +20,6 @@
     "typecheck": "flow check"
   },
   "repository": "git://github.com/darobin/webidl2.js",
-  "main": "index"
+  "main": "index",
+  "types": "./index.d.ts"
 }
