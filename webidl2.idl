@@ -1,0 +1,482 @@
+typedef sequence<any> EmptyArray;
+
+enum FloatType {
+  "float",
+  "double",
+  "unrestricted float",
+  "unrestricted double"
+};
+
+dictionary IDLArgument {
+  required boolean optional;
+  required boolean variadic;
+  required sequence<IDLExtendedAttribute> extAttrs;
+  required IDLType idlType;
+  required string name;
+  IDLValue default;
+};
+
+enum IDLAttributeType {
+  "attribute"
+};
+
+dictionary IDLAttributeMember {
+  required IDLAttributeType type;
+  required boolean static;
+  required boolean stringifier;
+  required boolean inherit;
+  required boolean readonly;
+  required IDLType idlType;
+  required string name;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLBooleanType {
+  "boolean"
+};
+
+dictionary IDLBooleanValue {
+  required IDLBooleanType type;
+  required boolean value;
+};
+
+enum IDLByteType {
+  "byte"
+};
+
+dictionary IDLCallback {
+  required IDLCallbackType type;
+  required string name;
+  required (IDLType or IDLVoidType) idlType;
+  required sequence<IDLArgument> arguments;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+dictionary IDLCallbackInterface {
+  required IDLCallbackInterfaceType type;
+  required string name;
+  required boolean partial;
+  required sequence<IDLMember> members;
+  required string? inheritance;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLCallbackInterfaceType {
+  "callback interface"
+};
+
+enum IDLCallbackType {
+  "callback"
+};
+
+dictionary IDLConstantMember {
+  required IDLConstantType type;
+  required boolean nullable;
+  required (PrimitiveType or string) idlType;
+  required IDLValue value;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLConstantType {
+  "const"
+};
+
+typedef (
+  IDLCallback or
+  IDLCallbackInterface or
+  IDLDictionary or
+  IDLEnum or
+  IDLException or
+  IDLImplements or
+  IDLInterface or
+  IDLTypedef
+) IDLDefinition;
+
+dictionary IDLDictionary {
+  required IDLDictionaryType type;
+  required string name;
+  required boolean partial;
+  required sequence<IDLDictionaryFieldMember> members;
+  required string? inheritance;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLDictionaryType {
+  "dictionary"
+};
+
+dictionary IDLDictionaryFieldMember {
+  required IDLFieldType type;
+  required string name;
+  required boolean required;
+  required IDLType idlType;
+  IDLValue default;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLEnumType {
+  "enum"
+};
+
+dictionary IDLEnum {
+  required IDLEnumType type;
+  required string name;
+  required sequence<string> values;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+dictionary IDLException {
+  required IDLExceptionType type;
+  required string name;
+  required sequence<(IDLConstantMember or IDLExceptionFieldMember)> members;
+  required string? inheritance;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+dictionary IDLExceptionFieldMember {
+  required IDLFieldType type;
+  required string name;
+  required IDLType idlType;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLExceptionType {
+  "exception"
+};
+
+dictionary IDLExtendedAttribute {
+  required string name;
+  required sequence<IDLArgument>? arguments;
+  IDLExtendedAttributeRHS rhs;
+};
+
+dictionary IDLExtendedAttributeRHS {
+  required IDLExtendedAttributeRHSType type;
+  required (string or sequence<string>) value;
+};
+
+enum IDLExtendedAttributeRHSType {
+  "identifier",
+  "float",
+  "integer",
+  "string",
+  "identifier-list"
+};
+
+enum IDLFieldType {
+  "field"
+};
+
+dictionary IDLImplements {
+  required IDLImplementsType type;
+  required string target;
+  required string implements;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLImplementsType {
+  "implements"
+};
+
+enum IDLInfinityType {
+  "Infinity"
+};
+
+dictionary IDLInfinityValue {
+  required IDLInfinityType type;
+  required boolean negative;
+};
+
+dictionary IDLInterface {
+  required IDLInterfaceType type;
+  required string name;
+  required boolean partial;
+  required sequence<IDLMember> members;
+  required string? inheritance;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLInterfaceType {
+  "interface"
+};
+
+dictionary IDLIterableMember {
+  required IDLIterableType type;
+  required (IDLType or PairOfIDLTypes) idlType;
+  required boolean readonly;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLIterableType {
+  "iterable"
+};
+
+dictionary IDLIteratorMember {
+  required IDLIteratorType type;
+  required boolean getter;
+  required boolean setter;
+  required boolean creator;
+  required boolean deleter;
+  required boolean legacycaller;
+  required boolean static;
+  required boolean stringifier;
+  required (IDLType or IDLVoidType) idlType;
+  string iteratorObject;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLIteratorType {
+  "iterator"
+};
+
+dictionary IDLLegacyIterableMember {
+  required IDLLegacyIterableType type;
+  required (IDLType or PairOfIDLTypes) idlType;
+  required boolean readonly;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLLegacyIterableType {
+  "legacyiterable"
+};
+
+dictionary IDLMaplikeMember {
+  required IDLMaplikeType type;
+  required (IDLType or PairOfIDLTypes) idlType;
+  required boolean readonly;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLMaplikeType {
+  "maplike"
+};
+
+typedef (
+  IDLAttributeMember or
+  IDLConstantMember or
+  IDLDictionaryFieldMember or
+  IDLExceptionFieldMember or
+  IDLIterableMember or
+  IDLIteratorMember or
+  IDLLegacyIterableMember or
+  IDLMaplikeMember or
+  IDLNamedSerializerMember or
+  IDLOperationMember or
+  IDLSerializerMember or
+  IDLSerializerOperationMember or
+  IDLSerializerPatternListMember or
+  IDLSerializerPatternMapMember or
+  IDLSetlikeMember or
+  IDLTypedef
+) IDLMember;
+
+dictionary IDLNamedSerializerMember {
+  required IDLSerializerType type;
+  required string name;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLNaNType {
+  "NaN"
+};
+
+dictionary IDLNaNValue {
+  required IDLNaNType type;
+};
+
+enum IDLNullType {
+  "null"
+};
+
+dictionary IDLNullValue {
+  required IDLNullType type;
+};
+
+enum IDLNumberType {
+  "number"
+};
+
+dictionary IDLNumberValue {
+  required IDLNumberType type;
+  required number value;
+};
+
+enum IDLOctetType {
+  "octet"
+};
+
+dictionary IDLOperationMember {
+  required IDLOperationType type;
+  required boolean getter;
+  required boolean setter;
+  required boolean creator;
+  required boolean deleter;
+  required boolean legacycaller;
+  required boolean static;
+  required boolean stringifier;
+  (IDLType or IDLVoidType) idlType;
+  required string? name;
+  required sequence<IDLArgument> arguments;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLOperationType {
+  "operation"
+};
+
+enum IDLSequenceType {
+  "sequence"
+};
+
+dictionary IDLSequenceValue {
+  required IDLSequenceType type;
+  required EmptyArray value;
+};
+
+dictionary IDLSerializerMember {
+  required IDLSerializerType type;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+dictionary IDLSerializerOperation {
+  required string name;
+  required sequence<IDLArgument> arguments;
+};
+
+dictionary IDLSerializerOperationMember {
+  required IDLSerializerType type;
+  required IDLType idlType;
+  required IDLSerializerOperation operation;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+dictionary IDLSerializerPatternListMember {
+  required IDLSerializerType type;
+  required true patternList;
+  required sequence<string> names;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+dictionary IDLSerializerPatternMapMember {
+  required IDLSerializerType type;
+  required true patternMap;
+  required sequence<string> names;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLSerializerType {
+  "serializer"
+};
+
+dictionary IDLSetlikeMember {
+  required IDLSetlikeType type;
+  required (IDLType or PairOfIDLTypes) idlType;
+  required boolean readonly;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLSetlikeType {
+  "setlike"
+};
+
+enum IDLStringType {
+  "string"
+};
+
+dictionary IDLStringValue {
+  required IDLStringType type;
+  required string value;
+};
+
+dictionary IDLType {
+  required boolean sequence;
+  required (boolean or number) array;
+  required string? generic;
+  required (IDLType or sequence<IDLType> or PrimitiveType or string) idlType;
+  required boolean nullable;
+  sequence<boolean> nullableArray;
+  required boolean union;
+};
+
+dictionary IDLTypedef {
+  required IDLTypedefType type;
+  required sequence<IDLExtendedAttribute> typeExtAttrs;
+  required IDLType idlType;
+  required string name;
+  required sequence<IDLExtendedAttribute> extAttrs;
+};
+
+enum IDLTypedefType {
+  "typedef"
+};
+
+typedef (
+  IDLBooleanValue or
+  IDLInfinityValue or
+  IDLNaNValue or
+  IDLNullValue or
+  IDLNumberValue or
+  IDLSequenceValue or
+  IDLStringValue
+) IDLValue;
+
+enum IDLVoidType {
+  "void"
+};
+
+enum IntegerType {
+  "short",
+  "long",
+  "long long",
+  "unsigned short",
+  "unsigned long",
+  "unsigned long long"
+};
+
+enum IterableType {
+  "iterable",
+  "legacyiterable",
+  "maplike",
+  "setlike"
+};
+
+typedef sequence<IDLType> PairOfIDLTypes;
+
+dictionary ParseOptions {
+  boolean allowNestedTypedefs;
+};
+
+typedef (
+  IntegerType or
+  FloatType or
+  IDLBooleanType or
+  IDLByteType or
+  IDLOctetType
+) PrimitiveType;
+
+enum ReadonlyIterableType {
+  "maplike",
+  "setlike"
+};
+
+dictionary Token {
+  required TokenType type;
+  required string value;
+};
+
+enum TokenType {
+  "float",
+  "integer",
+  "identifier",
+  "string",
+  "whitespace",
+  "other"
+};
+
+[Constructor(string message, number line, string input, sequence<Token> tokens)]
+interface WebIDLParseError {
+  readonly attribute string message;
+  readonly attribute number line;
+  readonly attribute string input;
+  readonly attribute FrozenArray<Token> tokens;
+};
