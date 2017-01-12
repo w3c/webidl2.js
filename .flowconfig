@@ -1,5 +1,6 @@
 [include]
 lib/**/*.js
+scripts/**/*.js
 
 [libs]
 decls
