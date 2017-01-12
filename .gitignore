@@ -3,5 +3,6 @@ index.d.ts
 scratch
 node_modules
 lib-cov
+lib/types.js
 browser-tests.html
 out
