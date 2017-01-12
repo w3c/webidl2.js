@@ -16,6 +16,7 @@
   },
   "scripts": {
     "docs": "jsdoc -p -r lib -t ./node_modules/docdash -R README.md",
+    "generate-flow": "node scripts/flow.js webidl2.idl decls",
     "generate-typescript": "node scripts/typescript.js webidl2.idl >index.d.ts",
     "test": "mocha",
     "typecheck": "flow check"

@@ -1,3 +1,0 @@
-type IDLNullValue = {
-  type: 'null'
-};
