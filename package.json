@@ -6,16 +6,27 @@
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "3.0.2",
+    "docdash": "^0.4.0",
     "expect": "1.20.2",
-    "underscore": "1.8.3",
+    "flow-bin": "^0.37.4",
+    "jsdoc": "^3.4.3",
     "jsondiffpatch": "0.1.43",
-    "benchmark": "*",
-    "microtime": "2.1.1"
+    "mocha": "3.0.2",
+    "rimraf": "^2.5.4",
+    "typescript": "^2.1.4"
   },
   "scripts": {
-    "test": "mocha"
+    "build": "npm run clean && npm run generate && npm run typecheck && npm test && npm run docs",
+    "clean": "rimraf decls index.d.ts lib/types.js",
+    "docs": "jsdoc -p -r lib -t ./node_modules/docdash -R README.md",
+    "generate": "npm run generate-flow && npm run generate-jsdoc && npm run generate-typescript",
+    "generate-flow": "node scripts/flow.js webidl2.idl decls",
+    "generate-jsdoc": "node scripts/jsdoc.js webidl2.idl >lib/types.js",
+    "generate-typescript": "node scripts/typescript.js webidl2.idl >index.d.ts",
+    "test": "mocha",
+    "typecheck": "flow check"
   },
   "repository": "git://github.com/darobin/webidl2.js",
-  "main": "index"
+  "main": "index",
+  "types": "./index.d.ts"
 }
