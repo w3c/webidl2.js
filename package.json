@@ -1,7 +1,7 @@
 {
   "name": "webidl2",
   "description": "A WebIDL Parser",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "author": "Robin Berjon <robin@berjon.com>",
   "license": "MIT",
   "dependencies": {},
