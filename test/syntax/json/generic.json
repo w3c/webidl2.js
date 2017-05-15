@@ -56,8 +56,7 @@
                     "sequence": false,
                     "generic": "Promise",
                     "nullable": false,
-                    "array": 1,
-                    "nullableArray": [false],
+                    "array": false,
                     "union": false,
                     "idlType": {
                         "sequence": false,
@@ -99,8 +98,7 @@
                         "sequence": false,
                         "generic": null,
                         "nullable": true,
-                        "nullableArray": [false],
-                        "array": 1,
+                        "array": false,
                         "union": false,
                         "idlType": "Client"
                     }

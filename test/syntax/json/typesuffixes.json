@@ -37,8 +37,7 @@
                                 "sequence": false,
                                 "generic": null,
                                 "nullable": true,
-                                "array": 1,
-                                "nullableArray": [false],
+                                "array": false,
                                 "union": false,
                                 "idlType": "DOMString"
                             }
