@@ -5,7 +5,6 @@
             "sequence": false,
             "generic": null,
             "nullable": false,
-            "array": false,
             "union": false,
             "idlType": "float"
         },
@@ -34,7 +33,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "long"
                 },
@@ -62,7 +60,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "object"
                 },
@@ -76,7 +73,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },
@@ -98,7 +94,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -112,7 +107,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },
@@ -140,7 +134,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "boolean"
                 },
@@ -157,7 +150,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": true,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -186,7 +178,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "void"
                 },
@@ -200,7 +191,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "object"
                         },

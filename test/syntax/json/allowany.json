@@ -17,7 +17,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "void"
                 },
@@ -38,7 +37,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "void"
                 },
@@ -52,7 +50,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "B"
                         },
@@ -74,7 +71,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "void"
                 },
@@ -93,7 +89,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },

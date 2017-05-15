@@ -17,7 +17,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Session"
                 },
@@ -31,7 +30,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },
@@ -50,7 +48,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
@@ -70,7 +67,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Session"
                 },
@@ -95,7 +91,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -124,7 +119,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Session2"
                 },
@@ -138,7 +132,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },
@@ -157,7 +150,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
@@ -177,7 +169,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Session2"
                 },
@@ -203,7 +194,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -229,7 +219,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
@@ -258,7 +247,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Node"
                 },
@@ -287,7 +275,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Node"
                 },

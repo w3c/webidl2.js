@@ -14,7 +14,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "Name"
                 },
@@ -40,7 +39,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "unsigned short"
                 },

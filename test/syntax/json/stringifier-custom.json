@@ -14,7 +14,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
@@ -31,7 +30,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": true,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -48,7 +46,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -68,7 +65,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },

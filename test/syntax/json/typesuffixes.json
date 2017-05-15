@@ -17,7 +17,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "void"
                 },
@@ -31,13 +30,11 @@
                             "sequence": true,
                             "generic": "sequence",
                             "nullable": true,
-                            "array": false,
                             "union": false,
                             "idlType": {
                                 "sequence": false,
                                 "generic": null,
                                 "nullable": true,
-                                "array": false,
                                 "union": false,
                                 "idlType": "DOMString"
                             }
