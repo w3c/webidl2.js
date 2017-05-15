@@ -41,13 +41,6 @@
         "extAttrs": []
     },
     {
-        "type": "exception",
-        "name": "NoPointerDevice",
-        "members": [],
-        "inheritance": null,
-        "extAttrs": []
-    },
-    {
         "type": "interface",
         "name": "Button",
         "partial": false,

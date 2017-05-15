@@ -12,37 +12,6 @@
         "extAttrs": []
     },
     {
-        "type": "exception",
-        "name": "FrameworkException",
-        "members": [
-            {
-                "type": "const",
-                "nullable": false,
-                "idlType": "long",
-                "name": "ERR_NOT_FOUND",
-                "value": {
-                    "type": "number",
-                    "value": 1
-                },
-                "extAttrs": []
-            },
-            {
-                "type": "field",
-                "name": "code",
-                "idlType": {
-                    "sequence": false,
-                    "generic": null,
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "long"
-                },
-                "extAttrs": []
-            }
-        ],
-        "inheritance": null,
-        "extAttrs": []
-    },
-    {
         "type": "interface",
         "name": "System",
         "partial": false,
