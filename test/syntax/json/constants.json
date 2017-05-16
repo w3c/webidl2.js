@@ -94,48 +94,5 @@
         ],
         "inheritance": null,
         "extAttrs": []
-    },
-    {
-        "type": "exception",
-        "name": "Error",
-        "members": [
-            {
-                "type": "const",
-                "nullable": false,
-                "idlType": "short",
-                "name": "ERR_UNKNOWN",
-                "value": {
-                    "type": "number",
-                    "value": 0
-                },
-                "extAttrs": []
-            },
-            {
-                "type": "const",
-                "nullable": false,
-                "idlType": "short",
-                "name": "ERR_OUT_OF_MEMORY",
-                "value": {
-                    "type": "number",
-                    "value": 1
-                },
-                "extAttrs": []
-            },
-            {
-                "type": "field",
-                "name": "errorCode",
-                "idlType": {
-                    "sequence": false,
-                    "generic": null,
-                    "nullable": false,
-                    "array": false,
-                    "union": false,
-                    "idlType": "short"
-                },
-                "extAttrs": []
-            }
-        ],
-        "inheritance": null,
-        "extAttrs": []
     }
 ]

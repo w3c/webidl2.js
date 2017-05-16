@@ -10,7 +10,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "long"
                 },
@@ -32,7 +31,6 @@
                         "sequence": false,
                         "generic": null,
                         "nullable": false,
-                        "array": false,
                         "union": false,
                         "idlType": "short"
                     },
@@ -40,7 +38,6 @@
                         "sequence": false,
                         "generic": null,
                         "nullable": true,
-                        "array": false,
                         "union": false,
                         "idlType": "double"
                     }

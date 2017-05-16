@@ -5,43 +5,10 @@
             "sequence": false,
             "generic": null,
             "nullable": false,
-            "array": false,
             "union": false,
             "idlType": "float"
         },
         "name": "number",
-        "extAttrs": []
-    },
-    {
-        "type": "exception",
-        "name": "FrameworkException",
-        "members": [
-            {
-                "type": "const",
-                "nullable": false,
-                "idlType": "long",
-                "name": "ERR_NOT_FOUND",
-                "value": {
-                    "type": "number",
-                    "value": 1
-                },
-                "extAttrs": []
-            },
-            {
-                "type": "field",
-                "name": "code",
-                "idlType": {
-                    "sequence": false,
-                    "generic": null,
-                    "nullable": false,
-                    "array": false,
-                    "union": false,
-                    "idlType": "long"
-                },
-                "extAttrs": []
-            }
-        ],
-        "inheritance": null,
         "extAttrs": []
     },
     {
@@ -62,7 +29,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "object"
                 },
@@ -76,7 +42,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },
@@ -98,7 +63,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -112,7 +76,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "DOMString"
                         },
@@ -140,7 +103,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "boolean"
                 },
@@ -157,7 +119,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": true,
-                    "array": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
@@ -186,7 +147,6 @@
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
-                    "array": false,
                     "union": false,
                     "idlType": "void"
                 },
@@ -200,7 +160,6 @@
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
-                            "array": false,
                             "union": false,
                             "idlType": "object"
                         },
