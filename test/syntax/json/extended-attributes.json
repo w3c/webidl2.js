@@ -59,5 +59,101 @@
           }
         }
       ]
+    },
+    {
+      "type": "interface",
+      "name": "Circle",
+      "partial": false,
+      "members": [
+        {
+          "type": "attribute",
+          "static": false,
+          "stringifier": false,
+          "inherit": false,
+          "readonly": false,
+          "idlType": {
+            "sequence": false,
+            "generic": null,
+            "nullable": false,
+            "union": false,
+            "idlType": "double"
+          },
+          "name": "r",
+          "extAttrs": []
+        },
+        {
+          "type": "attribute",
+          "static": false,
+          "stringifier": false,
+          "inherit": false,
+          "readonly": false,
+          "idlType": {
+            "sequence": false,
+            "generic": null,
+            "nullable": false,
+            "union": false,
+            "idlType": "double"
+          },
+          "name": "cx",
+          "extAttrs": []
+        },
+        {
+          "type": "attribute",
+          "static": false,
+          "stringifier": false,
+          "inherit": false,
+          "readonly": false,
+          "idlType": {
+            "sequence": false,
+            "generic": null,
+            "nullable": false,
+            "union": false,
+            "idlType": "double"
+          },
+          "name": "cy",
+          "extAttrs": []
+        },
+        {
+          "type": "attribute",
+          "static": false,
+          "stringifier": false,
+          "inherit": false,
+          "readonly": true,
+          "idlType": {
+            "sequence": false,
+            "generic": null,
+            "nullable": false,
+            "union": false,
+            "idlType": "double"
+          },
+          "name": "circumference",
+          "extAttrs": []
+        }
+      ],
+      "inheritance": null,
+      "extAttrs": [
+        {
+          "name": "Constructor",
+          "arguments": null
+        },
+        {
+          "name": "Constructor",
+          "arguments": [
+            {
+              "optional": false,
+              "variadic": false,
+              "extAttrs": [],
+              "idlType": {
+                "sequence": false,
+                "generic": null,
+                "nullable": false,
+                "union": false,
+                "idlType": "double"
+              },
+              "name": "radius"
+            }
+          ]
+        }
+      ]
     }
 ]

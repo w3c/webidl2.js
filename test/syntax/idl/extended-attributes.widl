@@ -9,3 +9,15 @@ interface ServiceWorkerGlobalScope : WorkerGlobalScope {
 // Section 3.11
 [IntAttr=0, FloatAttr=3.14, StringAttr="abc"]
 interface IdInterface {};
+
+// Extracted from http://www.w3.org/TR/2016/REC-WebIDL-1-20161215/#Constructor on 2017-5-18 with whitespace differences
+[
+  Constructor,
+  Constructor(double radius)
+]
+interface Circle {
+  attribute double r;
+  attribute double cx;
+  attribute double cy;
+  readonly attribute double circumference;
+};

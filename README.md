@@ -1,7 +1,7 @@
 
 # WebIDL 2
 
-[![NPM version](https://badge.fury.io/js/webidl2.png)](http://badge.fury.io/js/webidl2)
+[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2)
 
 ## Purpose
 
@@ -103,7 +103,7 @@ The `parse()` method returns a tree object representing the parse tree of the ID
 Comment and white space are not represented in the AST.
 
 The root of this object is always an array of definitions (where definitions are
-any of interfaces, exceptions, callbacks, etc. — anything that can occur at the root
+any of interfaces, dictionaries, callbacks, etc. — anything that can occur at the root
 of the IDL).
 
 ### IDL Type
@@ -114,7 +114,6 @@ attached to a field called `idlType`:
 
 ```JS
 {
-  "array": false,
   "generic": null,
   "idlType": "void",
   "nullable": false,
@@ -124,8 +123,6 @@ attached to a field called `idlType`:
 
 Where the fields are as follows:
 
-* `array`: Either `false` to indicate that it is not an array, or a number for the level of
-  array nesting.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
 * `idlType`: Can be different things depending on context. In most cases, this will just
@@ -135,39 +132,6 @@ Where the fields are as follows:
   description for the type in the sequence, the eventual value of the promise, etc.
 * `nullable`: Boolean indicating whether this is nullable or not.
 * `union`: Boolean indicating whether this is a union type or not.
-
-#### Interactions between `nullable` and `array`
-
-A more complex data model for our AST would likely represent `Foo[][][]` as a series of
-nested types four levels deep with three anonymous array types eventually containing a
-`Foo` type. But experience shows that such structures are cumbersome to use, and so we
-have a simpler model in which the depth of the array is specified with the `array` field.
-
-This is all fine and well, and in the vast majority of cases is actually simpler. But it
-does run afoul of cases in which it is necessary to distinguish between `Foo[][][]?`,
-`Foo?[][][]`, `Foo[][]?[]`, or even `Foo?[]?[]?[]?`.
-
-For this, when a type is an array type an additional `nullableArray` field is made available
-that captures which of the arrays contain nullable elements. It contains booleans that are
-true if the given array depth contains nullable elements, and false otherwise (mapping that to
-the syntax, and item is true if there is a `?` preceding the `[]`). These examples ought to
-clarify the model:
-
-    Foo[][][]?
-        -> nullable: true
-        -> nullableArray: [false, false, false]
-    Foo?[][][]
-        -> nullable: false
-        -> nullableArray: [true, false, false]
-    Foo[][]?[]
-        -> nullable: false
-        -> nullableArray: [false, false, true]
-    Foo?[]?[]?[]?
-        -> nullable: true
-        -> nullableArray: [true, true, true]
-
-Of particular importance, please note that the overall type is only `nullable` if there is
-a `?` at the end.
 
 ### Interface
 Interfaces look like this:
@@ -218,7 +182,6 @@ A callback looks like this:
     "sequence": false,
     "generic": null,
     "nullable": false,
-    "array": false,
     "union": false,
     "idlType": "void"
   },
@@ -252,7 +215,6 @@ A dictionary looks like this:
       "sequence": false,
       "generic": null,
       "nullable": true,
-      "array": false,
       "union": false,
       "idlType": "DOMString"
     },
@@ -284,47 +246,6 @@ All the members are fields as follows:
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 * `default`: A [default value](#default-and-const-values), absent if there is none.
-
-### Exception
-
-An exception looks like this:
-
-```JS
-{
-  "type": "exception",
-  "name": "HierarchyRequestError",
-  "members": [{
-    "type": "field",
-    "name": "code",
-    "idlType": {
-      "sequence": false,
-      "generic": null,
-      "nullable": false,
-      "array": false,
-      "union": false,
-      "idlType": "unsigned short"
-    },
-    "extAttrs": []
-  }],
-  "inheritance": "DOMException",
-  "extAttrs": []
-}
-```
-
-The fields are as follows:
-
-* `type`: Always "exception".
-* `name`: The exception name.
-* `members`: An array of members (constants or fields, where fields are described below).
-* `inheritance`: A string indicating which exception is being inherited from, `null` otherwise.
-* `extAttrs`: A list of [extended attributes](#extended-attributes).
-
-Members that aren't [constants](#constants) have the following fields:
-
-* `type`: Always "field".
-* `name`: The field's name.
-* `idlType`: An [IDL Type](#idl-type) describing what field's type.
-* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Enum
 
@@ -362,13 +283,11 @@ A typedef looks like this:
     "sequence": true,
     "generic": "sequence",
     "nullable": false,
-    "array": false,
     "union": false,
     "idlType": {
       "sequence": false,
       "generic": null,
       "nullable": false,
-      "array": false,
       "union": false,
       "idlType": "Point"
     }
@@ -425,7 +344,6 @@ An operation looks like this:
     "sequence": false,
     "generic": null,
     "nullable": false,
-    "array": false,
     "union": false,
     "idlType": "void"
   },
@@ -438,7 +356,6 @@ An operation looks like this:
       "sequence": false,
       "generic": null,
       "nullable": false,
-      "array": false,
       "union": false,
       "idlType": "long"
     },
@@ -478,7 +395,6 @@ An attribute member looks like this:
     "sequence": false,
     "generic": null,
     "nullable": false,
-    "array": false,
     "union": false,
     "idlType": "RegExp"
   },
@@ -544,7 +460,6 @@ examples below that map the IDL to the produced AST.
     "sequence": false,
     "generic": null,
     "nullable": false,
-    "array": false,
     "union": false,
     "idlType": "DOMString"
   },
@@ -633,7 +548,6 @@ Iterator members look like this
     "sequence": false,
     "generic": null,
     "nullable": false,
-    "array": false,
     "union": false,
     "idlType": "Session2"
   },
@@ -660,7 +574,6 @@ The arguments (e.g. for an operation) look like this:
       "sequence": false,
       "generic": null,
       "nullable": false,
-      "array": false,
       "union": false,
       "idlType": "long"
     },
