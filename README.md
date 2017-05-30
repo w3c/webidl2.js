@@ -157,12 +157,33 @@ Interfaces look like this:
 The fields are as follows:
 
 * `type`: Always "interface".
-* `name`: The name of the interface
+* `name`: The name of the interface.
 * `partial`: A boolean indicating whether it's a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
   **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
   sense.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+### Namespace
+Namespaces look like this:
+
+```JS
+{
+  "type": "namespace",
+  "name": "Console",
+  "partial": false,
+  "members": [...],
+  "extAttrs": [...]
+}
+```
+
+The fields are as follows:
+
+* `type`: Always "namespace".
+* `name`: The name of the namespace.
+* `partial`: A boolean indicating whether it's a partial namespace.
+* `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
