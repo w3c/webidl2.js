@@ -47,6 +47,32 @@
         ],
         "inheritance": null,
         "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "IterableThree",
+        "partial": false,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": {
+                    "sequence": false,
+                    "generic": null,
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "long",
+                    "extAttrs": [
+                        {
+                            "name": "XAttr",
+                            "arguments": null
+                        }
+                    ]
+                },
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
     }
 ]
 

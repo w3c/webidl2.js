@@ -166,5 +166,55 @@
                 ]
             }
         ]
+    },
+    {
+        "type": "interface",
+        "name": "Bar",
+        "partial": false,
+        "members": [
+            {
+                "type": "operation",
+                "getter": false,
+                "setter": false,
+                "creator": false,
+                "deleter": false,
+                "legacycaller": false,
+                "static": false,
+                "stringifier": false,
+                "idlType": {
+                    "sequence": false,
+                    "generic": "record",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "sequence": false,
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        {
+                            "sequence": false,
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "float",
+                            "extAttrs": [
+                                {
+                                    "name": "XAttr",
+                                    "arguments": null
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "name": "bar",
+                "arguments": [],
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": []
     }
 ]

@@ -5,3 +5,7 @@ interface IterableOne {
 interface IterableTwo {
 	iterable<short, double?>;
 };
+
+interface IterableThree {
+	iterable<[XAttr] long>;
+};
