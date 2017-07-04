@@ -1,5 +1,16 @@
 # Change Log
 
+## [v4.1.0](https://github.com/w3c/webidl2.js/tree/v4.1.0) (2017-07-04)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v4.0.0...v4.1.0)
+
+**Closed issues:**
+
+- Parsing error for annonated inner types of generic types [\#71](https://github.com/w3c/webidl2.js/issues/71)
+
+**Merged pull requests:**
+
+- Support TypeWithExtendedAttributes on generics [\#75](https://github.com/w3c/webidl2.js/pull/75) ([SaschaNaz](https://github.com/SaschaNaz))
+
 ## [v4.0.0](https://github.com/w3c/webidl2.js/tree/v4.0.0) (2017-06-27)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v3.0.2...v4.0.0)
 
