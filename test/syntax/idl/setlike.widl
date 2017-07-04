@@ -5,3 +5,7 @@ interface SetLike {
 interface ReadOnlySetLike {
 	readonly setlike<long>;
 };
+
+interface SetLikeExt {
+	setlike<[XAttr] long>;
+};
