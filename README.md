@@ -114,6 +114,7 @@ attached to a field called `idlType`:
 
 ```JS
 {
+  "sequence": false,
   "generic": null,
   "idlType": "void",
   "nullable": false,
@@ -123,6 +124,7 @@ attached to a field called `idlType`:
 
 Where the fields are as follows:
 
+* `sequence`: Boolean indicating if it is a sequence. Same as `generic === "sequence"`.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
 * `idlType`: Can be different things depending on context. In most cases, this will just
