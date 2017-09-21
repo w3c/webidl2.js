@@ -107,7 +107,7 @@
     },
     {
         "type": "interface",
-        "name": "Dictionary",
+        "name": "Dictionary2",
         "partial": false,
         "members": [
             {
