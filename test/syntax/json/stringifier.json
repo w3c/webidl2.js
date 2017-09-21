@@ -10,7 +10,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": false,
                 "stringifier": true,
                 "idlType": {
@@ -39,7 +38,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": false,
                 "stringifier": true,
                 "extAttrs": []

@@ -10,7 +10,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": false,
                 "stringifier": false,
                 "idlType": {
@@ -50,7 +49,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": false,
                 "stringifier": false,
                 "idlType": {
@@ -86,7 +84,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": false,
                 "stringifier": false,
                 "idlType": {
@@ -116,7 +113,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": false,
                 "stringifier": false,
                 "idlType": {
