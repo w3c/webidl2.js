@@ -360,7 +360,6 @@ An operation looks like this:
   "setter": false,
   "creator": false,
   "deleter": false,
-  "legacycaller": false,
   "static": false,
   "stringifier": false,
   "idlType": {
@@ -395,7 +394,6 @@ The fields are as follows:
 * `setter`: True if a setter operation.
 * `creator`: True if a creator operation.
 * `deleter`: True if a deleter operation.
-* `legacycaller`: True if a legacycaller operation.
 * `static`: True if a static operation.
 * `stringifier`: True if a stringifier operation.
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
@@ -475,7 +473,6 @@ Iterator members look like this
   "setter": false,
   "creator": false,
   "deleter": false,
-  "legacycaller": false,
   "static": false,
   "stringifier": false,
   "idlType": {

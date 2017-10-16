@@ -82,7 +82,6 @@
                 "setter": false,
                 "creator": false,
                 "deleter": false,
-                "legacycaller": false,
                 "static": true,
                 "stringifier": false,
                 "idlType": {
