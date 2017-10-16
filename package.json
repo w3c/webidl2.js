@@ -9,8 +9,8 @@
   "license": "W3C",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "3.4.1",
-    "expect": "1.20.2",
+    "mocha": "4.0.1",
+    "expect": "21.2.1",
     "jsondiffpatch": "0.2.4"
   },
   "scripts": {
