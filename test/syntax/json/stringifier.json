@@ -29,7 +29,7 @@
     },
     {
         "type": "interface",
-        "name": "A",
+        "name": "B",
         "partial": false,
         "members": [
             {

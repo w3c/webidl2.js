@@ -92,7 +92,7 @@
     },
     {
         "type": "interface",
-        "name": "A",
+        "name": "D",
         "partial": false,
         "members": [
             {
