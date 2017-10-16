@@ -30,7 +30,7 @@ describe("Parses all of the invalid IDLs to check that they blow up correctly", 
                     error = e;
                 }
                 finally {
-                    expect(error).toExist();
+                    expect(error).toBeTruthy();
                     expect(error.message).toEqual(err.message);
                     expect(error.line).toEqual(err.line);
                 }

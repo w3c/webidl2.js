@@ -4,14 +4,15 @@
   "version": "4.2.0",
   "contributors": [
     "Robin Berjon <robin@berjon.com> (https://berjon.com)",
-    "Marcos Caceres <marcos@marcosc.com> (https://marcosc.com)"
+    "Marcos Caceres <marcos@marcosc.com> (https://marcosc.com)",
+    "Kagami Sascha Rosylight <saschaplas@outlook.com>"
   ],
   "license": "W3C",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "4.0.1",
     "expect": "21.2.1",
-    "jsondiffpatch": "0.2.4"
+    "jsondiffpatch": "0.2.4",
+    "mocha": "4.0.1"
   },
   "scripts": {
     "test": "mocha"
