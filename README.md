@@ -279,9 +279,9 @@ An enum looks like this:
   "type": "enum",
   "name": "MealType",
   "values": [
-    "rice",
-    "noodles",
-    "other"
+    { "type": "string", "value": "rice" },
+    { "type": "string", "value": "noodles" },
+    { "type": "string", "value": "other" }
   ],
   "extAttrs": []
 }
@@ -291,7 +291,7 @@ The fields are as follows:
 
 * `type`: Always "enum".
 * `name`: The enum's name.
-* `value`: An array of values (strings).
+* `value`: An array of values.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Typedef
@@ -327,7 +327,7 @@ The fields are as follows:
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
-* `typeExtAttrs`: A list of [extended attributes](#extended-attributes) that apply to the 
+* `typeExtAttrs`: A list of [extended attributes](#extended-attributes) that apply to the
 type rather than to the typedef as a whole.
 
 ### Implements

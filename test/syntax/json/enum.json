@@ -3,9 +3,9 @@
         "type": "enum",
         "name": "MealType",
         "values": [
-            "rice",
-            "noodles",
-            "other"
+            { "type": "string", "value": "rice" },
+            { "type": "string", "value": "noodles" },
+            { "type": "string", "value": "other" }
         ],
         "extAttrs": []
     },
@@ -100,9 +100,9 @@
         "type": "enum",
         "name": "AltMealType",
         "values": [
-            "rice",
-            "noodles",
-            "other"
+            { "type": "string", "value": "rice" },
+            { "type": "string", "value": "noodles" },
+            { "type": "string", "value": "other" }
         ],
         "extAttrs": []
     }
