@@ -1,5 +1,50 @@
 # Change Log
 
+## [Unreleased](https://github.com/w3c/webidl2.js/tree/HEAD)
+
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v6.0.0...HEAD)
+
+**Closed issues:**
+
+- Enum values should be objects [\#86](https://github.com/w3c/webidl2.js/issues/86)
+
+**Merged pull requests:**
+
+- Use ES2015 syntax for tests [\#88](https://github.com/w3c/webidl2.js/pull/88) ([SaschaNaz](https://github.com/SaschaNaz))
+
+## [v6.0.0](https://github.com/w3c/webidl2.js/tree/v6.0.0) (2017-10-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v5.0.0...v6.0.0)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: ret enum value as object [\#87](https://github.com/w3c/webidl2.js/pull/87) ([marcoscaceres](https://github.com/marcoscaceres))
+
+## [v5.0.0](https://github.com/w3c/webidl2.js/tree/v5.0.0) (2017-10-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v4.2.0...v5.0.0)
+
+**Closed issues:**
+
+- Unable to parse annotated types in generics [\#83](https://github.com/w3c/webidl2.js/issues/83)
+- Drop support for Node 4, move to 6 LTS [\#82](https://github.com/w3c/webidl2.js/issues/82)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: Use ES2015 syntax [\#84](https://github.com/w3c/webidl2.js/pull/84) ([SaschaNaz](https://github.com/SaschaNaz))
+
+## [v4.2.0](https://github.com/w3c/webidl2.js/tree/v4.2.0) (2017-10-16)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v4.1.0...v4.2.0)
+
+**Closed issues:**
+
+- Remove legacy caller support [\#78](https://github.com/w3c/webidl2.js/issues/78)
+- Should report error for using duplicate names [\#77](https://github.com/w3c/webidl2.js/issues/77)
+
+**Merged pull requests:**
+
+- Check duplicated names [\#80](https://github.com/w3c/webidl2.js/pull/80) ([SaschaNaz](https://github.com/SaschaNaz))
+- Remove legacycaller [\#79](https://github.com/w3c/webidl2.js/pull/79) ([SaschaNaz](https://github.com/SaschaNaz))
+- Add "sequence" property to IDL Type AST definition [\#76](https://github.com/w3c/webidl2.js/pull/76) ([lerouche](https://github.com/lerouche))
+
 ## [v4.1.0](https://github.com/w3c/webidl2.js/tree/v4.1.0) (2017-07-04)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v4.0.0...v4.1.0)
 
