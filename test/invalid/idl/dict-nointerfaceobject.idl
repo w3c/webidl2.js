@@ -1,0 +1,3 @@
+// NoInterfaceObject can't appear on a Dictionary
+[NoInterfaceObject]
+dictionary Dict {};
