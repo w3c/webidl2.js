@@ -42,7 +42,8 @@
         "extAttrs": [
             {
                 "name": "NoInterfaceObject",
-                "arguments": null
+                "arguments": null,
+                "type": "extended-attribute"
             }
         ]
     }

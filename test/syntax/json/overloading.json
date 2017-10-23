@@ -151,7 +151,8 @@
                         "extAttrs": [
                             {
                                 "name": "AllowAny",
-                                "arguments": null
+                                "arguments": null,
+                                "type": "extended-attribute"
                             }
                         ],
                         "idlType": {

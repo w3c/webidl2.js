@@ -60,6 +60,7 @@
                             {
                                 "name": "TreatNullAs",
                                 "arguments": null,
+                                "type": "extended-attribute",
                                 "rhs": {
                                     "type": "identifier",
                                     "value": "EmptyString"

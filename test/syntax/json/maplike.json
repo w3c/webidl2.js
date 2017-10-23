@@ -76,7 +76,8 @@
                         "extAttrs": [
                             {
                                 "name": "XAttr2",
-                                "arguments": null
+                                "arguments": null,
+                                "type": "extended-attribute"
                             }
                         ]
                     },
@@ -89,7 +90,8 @@
                         "extAttrs": [
                             {
                                 "name": "XAttr3",
-                                "arguments": null
+                                "arguments": null,
+                                "type": "extended-attribute"
                             }
                         ]
                     }

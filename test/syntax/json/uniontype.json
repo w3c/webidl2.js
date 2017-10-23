@@ -83,7 +83,8 @@
                      "extAttrs": [
                         {
                            "name": "EnforceRange",
-                           "arguments": null
+                           "arguments": null,
+                           "type": "extended-attribute"
                         }
                      ],
                      "nullable": false,

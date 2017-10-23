@@ -58,7 +58,8 @@
         "extAttrs": [
             {
                 "name": "OverrideBuiltins",
-                "arguments": null
+                "arguments": null,
+                "type": "extended-attribute"
             }
         ]
     }
