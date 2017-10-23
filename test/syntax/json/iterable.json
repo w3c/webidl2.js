@@ -64,7 +64,8 @@
                     "extAttrs": [
                         {
                             "name": "XAttr",
-                            "arguments": null
+                            "arguments": null,
+                            "type": "extended-attribute"
                         }
                     ]
                 },

@@ -73,7 +73,8 @@
         "extAttrs": [
             {
                 "name": "Constructor",
-                "arguments": null
+                "arguments": null,
+                "type": "extended-attribute"
             },
             {
                 "name": "Constructor",
@@ -91,7 +92,8 @@
                         },
                         "name": "radius"
                     }
-                ]
+                ],
+                "type": "extended-attribute"
             }
         ]
     }

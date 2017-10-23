@@ -9,6 +9,7 @@
             {
                 "name": "NamedConstructor",
                 "arguments": null,
+                "type": "extended-attribute",
                 "rhs": {
                     "type": "identifier",
                     "value": "Audio"
@@ -31,6 +32,7 @@
                         "name": "src"
                     }
                 ],
+                "type": "extended-attribute",
                 "rhs": {
                     "type": "identifier",
                     "value": "Audio"

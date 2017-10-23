@@ -25,7 +25,8 @@
         "extAttrs": [
             {
                 "name": "PrototypeRoot",
-                "arguments": null
+                "arguments": null,
+                "type": "extended-attribute"
             }
         ]
     }

@@ -9,6 +9,7 @@
             {
                 "name": "Global",
                 "arguments": null,
+                "type": "extended-attribute",
                 "rhs": {
                     "type": "identifier-list",
                     "value": [
@@ -20,6 +21,7 @@
             {
                 "name": "Exposed",
                 "arguments": null,
+                "type": "extended-attribute",
                 "rhs": {
                     "type": "identifier",
                     "value": "ServiceWorker"
@@ -37,6 +39,7 @@
         {
           "name": "IntAttr",
           "arguments": null,
+          "type": "extended-attribute",
           "rhs": {
             "type": "integer",
             "value": "0"
@@ -45,6 +48,7 @@
         {
           "name": "FloatAttr",
           "arguments": null,
+          "type": "extended-attribute",
           "rhs": {
             "type": "float",
             "value": "3.14"
@@ -53,6 +57,7 @@
         {
           "name": "StringAttr",
           "arguments": null,
+          "type": "extended-attribute",
           "rhs": {
             "type": "string",
             "value": "\"abc\""
@@ -134,7 +139,8 @@
       "extAttrs": [
         {
           "name": "Constructor",
-          "arguments": null
+          "arguments": null,
+          "type": "extended-attribute"
         },
         {
           "name": "Constructor",
@@ -152,7 +158,8 @@
               },
               "name": "radius"
             }
-          ]
+          ],
+          "type": "extended-attribute"
         }
       ]
     }

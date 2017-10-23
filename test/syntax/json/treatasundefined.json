@@ -60,6 +60,7 @@
                             {
                                 "name": "TreatUndefinedAs",
                                 "arguments": null,
+                                "type": "extended-attribute",
                                 "rhs": {
                                     "type": "identifier",
                                     "value": "EmptyString"

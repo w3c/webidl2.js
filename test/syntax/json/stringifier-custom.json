@@ -76,7 +76,8 @@
         "extAttrs": [
             {
                 "name": "Constructor",
-                "arguments": null
+                "arguments": null,
+                "type": "extended-attribute"
             }
         ]
     }

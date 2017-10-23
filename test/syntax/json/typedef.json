@@ -201,7 +201,8 @@
             "extAttrs": [
                 {
                     "name": "Clamp",
-                    "arguments": null
+                    "arguments": null,
+                    "type": "extended-attribute"
                 }
             ]
         },
