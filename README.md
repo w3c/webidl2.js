@@ -530,6 +530,7 @@ Extended attributes are arrays of items that look like this:
   "extAttrs": [{
     "name": "TreatNullAs",
     "arguments": null,
+    "type": "extended-attribute",
     "rhs": {
       "type": "identifier",
       "value": "EmptyString"
@@ -547,6 +548,7 @@ The fields are as follows:
   whereas the lack thereof will yield a `null`. If there is an `rhs` field then
   they are the right-hand side's arguments, otherwise they apply to the extended
   attribute directly.
+* `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` (which can be
   "identifier" or "identifier-list") and its `value`.
 * `typePair`: If the extended attribute is a `MapClass` this will capture the
