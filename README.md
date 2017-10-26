@@ -563,7 +563,7 @@ values, all of which have the following fields:
 
 For string, number, boolean, and sequence:
 
-* `value`: The value of the given type. For sequence, the only possible value is `[]`.
+* `value`: The value of the given type, as a string. For sequence, the only possible value is `[]`.
 
 For Infinity:
 
