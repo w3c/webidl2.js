@@ -74,7 +74,7 @@
                         "name": "alpha",
                         "default": {
                             "type": "number",
-                            "value": 3.5
+                            "value": "3.5"
                         }
                     }
                 ],
