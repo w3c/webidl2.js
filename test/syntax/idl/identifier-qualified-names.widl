@@ -15,7 +15,7 @@
     getter DOMString (DOMString keyName);
   };
 
-    
+
     // Interface identifier: "TextField"
     // Qualified name:       "::framework::gui::TextField"
     interface TextField {
