@@ -101,7 +101,7 @@
         "inheritance": null,
         "extAttrs": []
     },
-    
+
     {
         "type": "interface",
         "name": "I",
