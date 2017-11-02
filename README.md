@@ -520,33 +520,6 @@ The fields are as follows:
 * `trivia`: A trivia object.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
 
-### Implements
-
-An implements definition looks like this:
-
-```JS
-{
-  "type": "implements",
-  "target": "Node",
-  "implements": "EventTarget",
-  "trivia": {
-    "target": "\n\n  ",
-    "implements": " ",
-    "mixin": " ",
-    "termination": ""
-  },
-  "extAttrs": null
-}
-```
-
-The fields are as follows:
-
-* `type`: Always "implements".
-* `target`: The interface that implements another.
-* `implements`: The interface that is being implemented by the target.
-* `trivia`: A trivia object. The field `target` is for the base interface identifier, `implements` for the `implements` keyword, and `mixin` for the mixin identifier.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
-
 ### Includes
 
 An includes definition looks like this:
