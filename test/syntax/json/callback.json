@@ -35,7 +35,6 @@
                 "type": "operation",
                 "getter": false,
                 "setter": false,
-                "creator": false,
                 "deleter": false,
                 "static": false,
                 "stringifier": false,

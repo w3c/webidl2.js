@@ -358,7 +358,6 @@ An operation looks like this:
   "type": "operation",
   "getter": false,
   "setter": false,
-  "creator": false,
   "deleter": false,
   "static": false,
   "stringifier": false,
@@ -392,7 +391,6 @@ The fields are as follows:
 * `type`: Always "operation".
 * `getter`: True if a getter operation.
 * `setter`: True if a setter operation.
-* `creator`: True if a creator operation.
 * `deleter`: True if a deleter operation.
 * `static`: True if a static operation.
 * `stringifier`: True if a stringifier operation.
@@ -471,7 +469,6 @@ Iterator members look like this
   "type": "iterator",
   "getter": false,
   "setter": false,
-  "creator": false,
   "deleter": false,
   "static": false,
   "stringifier": false,
