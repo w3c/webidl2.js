@@ -80,7 +80,6 @@
                 "type": "operation",
                 "getter": false,
                 "setter": false,
-                "creator": false,
                 "deleter": false,
                 "static": true,
                 "stringifier": false,

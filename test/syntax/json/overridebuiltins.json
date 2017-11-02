@@ -24,7 +24,6 @@
                 "type": "operation",
                 "getter": true,
                 "setter": false,
-                "creator": false,
                 "deleter": false,
                 "static": false,
                 "stringifier": false,
