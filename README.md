@@ -291,7 +291,7 @@ The fields are as follows:
 
 * `type`: Always "enum".
 * `name`: The enum's name.
-* `value`: An array of values.
+* `values`: An array of values.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Typedef
