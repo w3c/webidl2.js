@@ -136,6 +136,7 @@ Where the fields are as follows:
 * `union`: Boolean indicating whether this is a union type or not.
 
 ### Interface
+
 Interfaces look like this:
 
 ```JS
@@ -167,7 +168,36 @@ The fields are as follows:
   sense.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
+### Interface mixins
+
+Interfaces mixins look like this:
+
+```JS
+{
+  "type": "interface-mixin",
+  "name": "Animal",
+  "partial": false,
+  "members": [...],
+  "extAttrs": [...]
+}, {
+  "type": "interface-mixin",
+  "name": "Human",
+  "partial": false,
+  "members": [...],
+  "extAttrs": [...]
+}
+```
+
+The fields are as follows:
+
+* `type`: Always "interface-mixin".
+* `name`: The name of the interface mixin.
+* `partial`: A boolean indicating whether it's a partial interface mixin.
+* `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
 ### Namespace
+
 Namespaces look like this:
 
 ```JS
@@ -348,6 +378,26 @@ The fields are as follows:
 * `type`: Always "implements".
 * `target`: The interface that implements another.
 * `implements`: The interface that is being implemented by the target.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+### Includes
+
+An includes definition looks like this:
+
+```JS
+{
+  "type": "includes",
+  "target": "Node",
+  "includes": "EventTarget",
+  "extAttrs": []
+}
+```
+
+The fields are as follows:
+
+* `type`: Always "includes".
+* `target`: The interface that includes an interface mixin.
+* `includes`: The interface mixin that is being included by the target.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Operation Member
