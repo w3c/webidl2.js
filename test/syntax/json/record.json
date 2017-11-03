@@ -158,7 +158,8 @@
                         "name": "init"
                     }
                 ],
-                "type": "extended-attribute"
+                "type": "extended-attribute",
+                "rhs": null
             }
         ]
     },
@@ -197,7 +198,8 @@
                                 {
                                     "name": "XAttr",
                                     "arguments": null,
-                                    "type": "extended-attribute"
+                                    "type": "extended-attribute",
+                                    "rhs": null
                                 }
                             ]
                         }

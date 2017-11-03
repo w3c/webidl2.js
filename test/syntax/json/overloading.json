@@ -148,7 +148,8 @@
                             {
                                 "name": "AllowAny",
                                 "arguments": null,
-                                "type": "extended-attribute"
+                                "type": "extended-attribute",
+                                "rhs": null
                             }
                         ],
                         "idlType": {

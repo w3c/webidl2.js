@@ -26,7 +26,8 @@
             {
                 "name": "PrototypeRoot",
                 "arguments": null,
-                "type": "extended-attribute"
+                "type": "extended-attribute",
+                "rhs": null
             }
         ]
     }
