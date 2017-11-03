@@ -10,26 +10,6 @@ you don't know what that is, then you probably don't need it. It is meant to be 
 both in Node and in the browser (the parser likely works in other JS environments, but
 not the test suite).
 
-### What of v1?
-
-There was a previous incarnation of this project. I had written it in the most quick
-and dirty manner that was handy because I required it as a dependency in an experiment.
-As these things tend to happen, some people started using that, which then had to be
-maintained. But since it was not built on solid foundations, it was painful to keep
-up to date with the specification, which is a bit of a moving target.
-
-So I started from scratch. Compared to the previous version (which used a parser generator)
-this one is about 6x less code (which translates to 4x smaller minified or 2x smaller
-minizipped) and 4x faster. The test suite is reasonably complete (95% coverage), much more
-than previously. This version is up to date with WebIDL, rather than a couple years' behind.
-It also has *far* better error reporting.
-
-The AST you get from parsing is very similar to the one you got in v1, but some adjustments
-have been made in order to be more systematic, and to map better to what's actually in the spec
-now. If you used v1, you will need to tweak your code but the result ought to be simpler and
-you ought to be able to be a fair bit less defensive against irregularities in the way
-information is represented.
-
 ## Installation
 
 Just the usual. For Node:
@@ -45,7 +25,6 @@ In the browser:
 ```
 
 ## Documentation
-
 
 The API to WebIDL2 is trivial: you parse a string of WebIDL and it returns a syntax tree.
 
@@ -680,8 +659,3 @@ In order to test in the browser, get inside `test/web` and run `make-web-tests.j
 will generate a `browser-tests.html` file that you can open in a browser. As of this
 writing tests pass in the latest Firefox, Chrome, Opera, and Safari. Testing on IE
 and older versions will happen progressively.
-
-## TODO
-
-* add some tests to address coverage limitations
-* add a push API for processors that need to process things like comments
