@@ -26,7 +26,7 @@ describe("Parses all of the IDLs to produce the correct ASTs", () => {
         if (fs.existsSync(optFile))
           opt = JSON.parse(fs.readFileSync(optFile, "utf8"));
         const diff = jdp.diff(JSON.parse(fs.readFileSync(json, "utf8")),
-          wp.parse(fs.readFileSync(idl, "utf8"), opt));
+          wp.parse(fs.readFileSync(idl, "utf8").replace(/\r\n/g, "\n"), opt));
         if (diff && debug) console.log(JSON.stringify(diff, null, 4));
         expect(diff).toBe(undefined);
       }
