@@ -77,7 +77,8 @@
                             {
                                 "name": "XAttr2",
                                 "arguments": null,
-                                "type": "extended-attribute"
+                                "type": "extended-attribute",
+                                "rhs": null
                             }
                         ]
                     },
@@ -91,7 +92,8 @@
                             {
                                 "name": "XAttr3",
                                 "arguments": null,
-                                "type": "extended-attribute"
+                                "type": "extended-attribute",
+                                "rhs": null
                             }
                         ]
                     }

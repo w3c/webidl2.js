@@ -140,7 +140,8 @@
         {
           "name": "Constructor",
           "arguments": null,
-          "type": "extended-attribute"
+          "type": "extended-attribute",
+          "rhs": null
         },
         {
           "name": "Constructor",
@@ -159,7 +160,8 @@
               "name": "radius"
             }
           ],
-          "type": "extended-attribute"
+          "type": "extended-attribute",
+          "rhs": null
         }
       ]
     }
