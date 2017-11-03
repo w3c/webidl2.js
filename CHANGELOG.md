@@ -1,8 +1,52 @@
 # Change Log
 
-## [Unreleased](https://github.com/w3c/webidl2.js/tree/HEAD)
+## [v8.0.1](https://github.com/w3c/webidl2.js/tree/v8.0.1) (2017-11-03)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v8.0.0...v8.0.1)
 
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v6.0.0...HEAD)
+**Fixed bugs:**
+
+- Comment order parsing bug  [\#107](https://github.com/w3c/webidl2.js/issues/107)
+
+**Merged pull requests:**
+
+- Remove m postfix from all\_ws\(\) [\#108](https://github.com/w3c/webidl2.js/pull/108) ([SaschaNaz](https://github.com/SaschaNaz))
+
+## [v8.0.0](https://github.com/w3c/webidl2.js/tree/v8.0.0) (2017-11-03)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v7.0.0...v8.0.0)
+
+**Closed issues:**
+
+- Remove creators support [\#100](https://github.com/w3c/webidl2.js/issues/100)
+- Add mixin support [\#92](https://github.com/w3c/webidl2.js/issues/92)
+
+**Merged pull requests:**
+
+- Support mixins + includes statements [\#105](https://github.com/w3c/webidl2.js/pull/105) ([SaschaNaz](https://github.com/SaschaNaz))
+- chore: drop Node 6 support [\#102](https://github.com/w3c/webidl2.js/pull/102) ([marcoscaceres](https://github.com/marcoscaceres))
+- BREAKING CHANGE: drop creator support [\#101](https://github.com/w3c/webidl2.js/pull/101) ([SaschaNaz](https://github.com/SaschaNaz))
+- Normalize some whitespace to pass wpt's lint [\#99](https://github.com/w3c/webidl2.js/pull/99) ([foolip](https://github.com/foolip))
+
+## [v7.0.0](https://github.com/w3c/webidl2.js/tree/v7.0.0) (2017-10-27)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v6.1.0...v7.0.0)
+
+**Closed issues:**
+
+- Type conversion on default values is destructive  [\#94](https://github.com/w3c/webidl2.js/issues/94)
+- extended attribute structure missing type [\#89](https://github.com/w3c/webidl2.js/issues/89)
+
+**Merged pull requests:**
+
+-  BREAKING CHANGE: argument + default types should be string [\#95](https://github.com/w3c/webidl2.js/pull/95) ([marcoscaceres](https://github.com/marcoscaceres))
+
+## [v6.1.0](https://github.com/w3c/webidl2.js/tree/v6.1.0) (2017-10-23)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v6.0.1...v6.1.0)
+
+**Merged pull requests:**
+
+- feat: give extended attributes a type [\#90](https://github.com/w3c/webidl2.js/pull/90) ([marcoscaceres](https://github.com/marcoscaceres))
+
+## [v6.0.1](https://github.com/w3c/webidl2.js/tree/v6.0.1) (2017-10-18)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v6.0.0...v6.0.1)
 
 **Closed issues:**
 
