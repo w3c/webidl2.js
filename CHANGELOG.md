@@ -1,5 +1,16 @@
 # Change Log
 
+## [v8.1.0](https://github.com/w3c/webidl2.js/tree/v8.1.0) (2017-11-03)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v8.0.1...v8.1.0)
+
+**Closed issues:**
+
+- Extended Attributes `rhs` should always be there [\#96](https://github.com/w3c/webidl2.js/issues/96)
+
+**Merged pull requests:**
+
+- Always add rhs property [\#110](https://github.com/w3c/webidl2.js/pull/110) ([SaschaNaz](https://github.com/SaschaNaz))
+
 ## [v8.0.1](https://github.com/w3c/webidl2.js/tree/v8.0.1) (2017-11-03)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v8.0.0...v8.0.1)
 
