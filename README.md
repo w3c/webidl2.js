@@ -174,13 +174,13 @@ Interfaces mixins look like this:
 
 ```JS
 {
-  "type": "interface-mixin",
+  "type": "interface mixin",
   "name": "Animal",
   "partial": false,
   "members": [...],
   "extAttrs": [...]
 }, {
-  "type": "interface-mixin",
+  "type": "interface mixin",
   "name": "Human",
   "partial": false,
   "members": [...],
@@ -190,7 +190,7 @@ Interfaces mixins look like this:
 
 The fields are as follows:
 
-* `type`: Always "interface-mixin".
+* `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
 * `partial`: A boolean indicating whether it's a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.

@@ -1,6 +1,6 @@
 [
     {
-        "type": "interface-mixin",
+        "type": "interface mixin",
         "name": "GlobalCrypto",
         "partial": false,
         "members": [
@@ -36,7 +36,7 @@
         "extAttrs": []
     },
     {
-        "type": "interface-mixin",
+        "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
         "partial": true,
         "members": [
