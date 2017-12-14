@@ -13,11 +13,9 @@ describe("Parses all of the IDLs to produce the correct ASTs", () => {
   const idls = fs.readdirSync(dir)
     .filter(it => (/\.widl$/).test(it) && !skip[it])
     .map(it => pth.join(dir, it));
-  const jsons = idls.map(it => pth.join(__dirname, "syntax/json", pth.basename(it).replace(".widl", ".json")));
 
-  for (let i = 0, n = idls.length; i < n; i++) {
-    const idl = idls[i];
-    const json = jsons[i];
+  for (const idl of idls) {
+    const json = pth.join(__dirname, "syntax/json", pth.basename(idl).replace(".widl", ".json"));
 
     it(`should produce the same AST for ${idl}`, () => {
       try {
