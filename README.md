@@ -310,7 +310,6 @@ A typedef looks like this:
 ```JS
 {
   "type": "typedef",
-  "typeExtAttrs": [],
   "idlType": {
     "sequence": true,
     "generic": "sequence",
@@ -336,8 +335,6 @@ The fields are as follows:
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
-* `typeExtAttrs`: A list of [extended attributes](#extended-attributes) that apply to the
-type rather than to the typedef as a whole.
 
 ### Implements
 
