@@ -489,34 +489,6 @@ The fields are as follows:
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
-### Iterator Member
-
-Iterator members look like this
-
-```JS
-{
-  "type": "iterator",
-  "getter": false,
-  "setter": false,
-  "deleter": false,
-  "static": false,
-  "stringifier": false,
-  "idlType": {
-    "sequence": false,
-    "generic": null,
-    "nullable": false,
-    "union": false,
-    "idlType": "Session2"
-  },
-  "iteratorObject": "SessionIterator",
-  "extAttrs": []
-}
-```
-
-* `type`: Always "iterator".
-* `iteratorObject`: The string on the right-hand side; absent if there isn't one.
-* the rest: same as on [operations](#operation-member).
-
 ### Arguments
 
 The arguments (e.g. for an operation) look like this:
