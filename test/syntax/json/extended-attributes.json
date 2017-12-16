@@ -164,5 +164,63 @@
           "rhs": null
         }
       ]
+    },
+    {
+        "type": "interface",
+        "name": "I",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": false,
+                "readonly": false,
+                "idlType": {
+                    "sequence": false,
+                    "generic": null,
+                    "nullable": false,
+                    "union": true,
+                    "idlType": [
+                        {
+                            "sequence": false,
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "long"
+                        },
+                        {
+                            "sequence": false,
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "Node"
+                        }
+                    ],
+                    "extAttrs": [
+                        {
+                            "name": "XAttr",
+                            "arguments": null,
+                            "type": "extended-attribute",
+                            "rhs": null
+                        }
+                    ]
+                },
+                "name": "attrib",
+                "extAttrs": []
+            }
+        ],
+        "inheritance": null,
+        "extAttrs": [
+            {
+                "name": "Exposed",
+                "arguments": null,
+                "type": "extended-attribute",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                }
+            }
+        ]
     }
 ]
