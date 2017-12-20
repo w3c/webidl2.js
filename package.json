@@ -11,7 +11,7 @@
   "license": "W3C",
   "dependencies": {},
   "devDependencies": {
-    "expect": "21.2.1",
+    "expect": "22.0.3",
     "jsondiffpatch": "0.2.5",
     "mocha": "4.0.1"
   },
