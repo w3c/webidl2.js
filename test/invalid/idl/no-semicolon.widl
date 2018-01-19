@@ -1,4 +1,4 @@
-interface NoSemicolon {
+partial interface NoSemicolon {
   attribute boolean noSemiColon;
 }
 
