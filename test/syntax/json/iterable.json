@@ -7,7 +7,7 @@
             {
                 "type": "iterable",
                 "idlType": [
-                        {
+                    {
                         "sequence": false,
                         "generic": null,
                         "nullable": false,
@@ -81,4 +81,3 @@
         "extAttrs": []
     }
 ]
-

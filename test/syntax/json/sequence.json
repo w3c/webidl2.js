@@ -75,7 +75,6 @@
         "name": "Foo",
         "partial": false,
         "members": [
-
             {
                 "type": "operation",
                 "getter": false,
@@ -98,7 +97,6 @@
         "inheritance": null,
         "extAttrs": []
     },
-
     {
         "type": "interface",
         "name": "I",
