@@ -8,6 +8,7 @@ const jdp = require("jsondiffpatch");
 /**
  * Collects test items from the specified directory
  * @param {string} base
+ * @param {boolean} [expectError]
  */
 function* collect(base, expectError) {
   base = pth.join(__dirname, "..", base);
@@ -38,9 +39,10 @@ function* collect(base, expectError) {
 };
 
 /**
- * 
- * @param {string} ast 
+ * Creates a test item object
+ * @param {string} ast
  * @param {string} path
+ * @param {Error} [error]
  */
 function createItem(ast, path, error) {
   return {
