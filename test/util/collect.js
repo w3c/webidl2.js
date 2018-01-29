@@ -8,9 +8,8 @@ const jdp = require("jsondiffpatch");
 /**
  * Collects test items from the specified directory
  * @param {string} base
- * @param {boolean} [expectError]
  */
-function* collect(base, expectError) {
+function* collect(base, { expectError } = {}) {
   base = pth.join(__dirname, "..", base);
   const dir = pth.join(base, "idl");
   const idls = fs.readdirSync(dir)
