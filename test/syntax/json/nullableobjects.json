@@ -42,7 +42,7 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
-                            "type": null,
+                            "type": "argument-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": true,
@@ -76,7 +76,7 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
-                            "type": null,
+                            "type": "argument-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": true,

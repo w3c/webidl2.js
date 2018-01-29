@@ -26,20 +26,20 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
-                            "type": null,
+                            "type": "argument-type",
                             "sequence": true,
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": {
-                                "type": null,
+                                "type": "argument-type",
                                 "sequence": false,
                                 "generic": "record",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
-                                        "type": null,
+                                        "type": "argument-type",
                                         "sequence": false,
                                         "generic": null,
                                         "nullable": false,
@@ -47,7 +47,7 @@
                                         "idlType": "ByteString"
                                     },
                                     {
-                                        "type": null,
+                                        "type": "argument-type",
                                         "sequence": false,
                                         "generic": null,
                                         "nullable": false,
@@ -144,14 +144,14 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
-                            "type": null,
+                            "type": "argument-type",
                             "sequence": false,
                             "generic": "record",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "argument-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -159,7 +159,7 @@
                                     "idlType": "USVString"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "argument-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
