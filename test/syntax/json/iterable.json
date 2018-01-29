@@ -8,6 +8,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
+                        "type": null,
                         "sequence": false,
                         "generic": null,
                         "nullable": false,
@@ -30,6 +31,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
+                        "type": null,
                         "sequence": false,
                         "generic": null,
                         "nullable": false,
@@ -37,6 +39,7 @@
                         "idlType": "short"
                     },
                     {
+                        "type": null,
                         "sequence": false,
                         "generic": null,
                         "nullable": true,
@@ -59,6 +62,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
+                        "type": null,
                         "sequence": false,
                         "generic": null,
                         "nullable": false,

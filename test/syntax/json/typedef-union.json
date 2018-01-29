@@ -8,6 +8,7 @@
             "union": true,
             "idlType": [
                 {
+                    "type": null,
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -15,6 +16,7 @@
                     "idlType": "ImageData"
                 },
                 {
+                    "type": null,
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -22,6 +24,7 @@
                     "idlType": "HTMLImageElement"
                 },
                 {
+                    "type": null,
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -29,6 +32,7 @@
                     "idlType": "HTMLCanvasElement"
                 },
                 {
+                    "type": null,
                     "sequence": false,
                     "generic": null,
                     "nullable": false,

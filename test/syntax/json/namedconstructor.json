@@ -23,6 +23,7 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
