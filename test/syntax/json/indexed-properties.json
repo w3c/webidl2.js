@@ -29,7 +29,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -63,7 +63,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -111,7 +111,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -145,7 +145,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -179,7 +179,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -227,7 +227,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,

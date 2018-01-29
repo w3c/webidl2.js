@@ -12,7 +12,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -70,14 +70,14 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": "record",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": null,
+                            "type": "return-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -91,7 +91,7 @@
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "return-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -99,7 +99,7 @@
                                     "idlType": "float"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "return-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -122,7 +122,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -189,14 +189,14 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": "record",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": null,
+                            "type": "return-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -204,7 +204,7 @@
                             "idlType": "DOMString"
                         },
                         {
-                            "type": null,
+                            "type": "return-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
