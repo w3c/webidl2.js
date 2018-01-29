@@ -17,19 +17,19 @@ function* collect(base, expectError) {
     .filter(it => (/\.widl$/).test(it))
     .map(it => pth.join(dir, it));
 
-  for (const idl of idls) {
-    const optFile = pth.join(base, "opt", pth.basename(idl)).replace(".widl", ".json");
-    let opt = undefined;
+  for (const path of idls) {
+    const optFile = pth.join(base, "opt", pth.basename(path)).replace(".widl", ".json");
+    let opt;
     if (fs.existsSync(optFile))
       opt = JSON.parse(fs.readFileSync(optFile, "utf8"));
 
     try {
-      const result = wp.parse(fs.readFileSync(idl, "utf8").replace(/\r\n/g, "\n"), opt);
-      yield createItem(result, idl);
+      const ast = wp.parse(fs.readFileSync(path, "utf8").replace(/\r\n/g, "\n"), opt);
+      yield new TestItem({ ast, path, opt });
     }
-    catch (e) {
+    catch (error) {
       if (expectError) {
-        yield createItem(null, idl, e);
+        yield new TestItem({ path, error });
       }
       else {
         throw e;
@@ -38,23 +38,22 @@ function* collect(base, expectError) {
   }
 };
 
-/**
- * Creates a test item object
- * @param {string} ast
- * @param {string} path
- * @param {Error} [error]
- */
-function createItem(ast, path, error) {
-  return {
-    ast,
-    path,
-    error,
-    jsonPath() {
-      return pth.join(pth.dirname(this.path), "../json", pth.basename(this.path).replace(".widl", ".json"));
-    },
-    diff() {
-      return jdp.diff(JSON.parse(fs.readFileSync(this.jsonPath(), "utf8")), ast);
-    }
+
+class TestItem {
+  constructor({ ast, path, error, opt }) {
+    this.ast = ast;
+    this.path = path;
+    this.error = error;
+    this.opt = opt;
+    this.jsonPath = pth.join(pth.dirname(path), "../json", pth.basename(path).replace(".widl", ".json"));
+  }
+
+  readJSON() {
+    return JSON.parse(fs.readFileSync(this.jsonPath, "utf8"));
+  }
+
+  diff(target = this.readJSON()) {
+    return jdp.diff(target, this.ast);
   }
 }
 
