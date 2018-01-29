@@ -17,6 +17,7 @@
                     "union": true,
                     "idlType": [
                         {
+                            "type": "attribute-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -30,6 +31,7 @@
                             "union": true,
                             "idlType": [
                                 {
+                                    "type": "attribute-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -37,6 +39,7 @@
                                     "idlType": "Date"
                                 },
                                 {
+                                    "type": "attribute-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -52,6 +55,7 @@
                             "union": true,
                             "idlType": [
                                 {
+                                    "type": "attribute-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -59,6 +63,7 @@
                                     "idlType": "Node"
                                 },
                                 {
+                                    "type": "attribute-type",
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -85,6 +90,7 @@
                     "union": true,
                     "idlType": [
                         {
+                            "type": "attribute-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -100,6 +106,7 @@
                             ]
                         },
                         {
+                            "type": "attribute-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,

@@ -30,6 +30,7 @@
                 "inherit": false,
                 "readonly": false,
                 "idlType": {
+                    "type": "attribute-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -46,6 +47,7 @@
                 "inherit": false,
                 "readonly": false,
                 "idlType": {
+                    "type": "attribute-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -63,6 +65,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
+                    "type": null,
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -76,6 +79,7 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -89,6 +93,7 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
