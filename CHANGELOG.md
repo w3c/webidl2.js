@@ -1,13 +1,7 @@
 # Change Log
 
 ## [v10.2.0](https://github.com/w3c/webidl2.js/tree/v10.2.0) (2018-01-30)
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.0.0...v10.2.0)
-
-**Closed issues:**
-
-- Support `raises` and `setraises` [\#128](https://github.com/w3c/webidl2.js/issues/128)
-- Support `legacycaller` [\#127](https://github.com/w3c/webidl2.js/issues/127)
-- Improve "No semicolon after enum" message [\#119](https://github.com/w3c/webidl2.js/issues/119)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.1.0...v10.2.0)
 
 **Merged pull requests:**
 
@@ -17,6 +11,18 @@
 - feat: add const-type for idlTypes  [\#132](https://github.com/w3c/webidl2.js/pull/132) ([saschanaz](https://github.com/saschanaz))
 - feat: add types on idlTypes [\#131](https://github.com/w3c/webidl2.js/pull/131) ([saschanaz](https://github.com/saschanaz))
 - Auto acquisition for parser result changes [\#130](https://github.com/w3c/webidl2.js/pull/130) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.1.0](https://github.com/w3c/webidl2.js/tree/v10.1.0) (2018-01-19)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.0.0...v10.1.0)
+
+**Closed issues:**
+
+- Support `raises` and `setraises` [\#128](https://github.com/w3c/webidl2.js/issues/128)
+- Support `legacycaller` [\#127](https://github.com/w3c/webidl2.js/issues/127)
+- Improve "No semicolon after enum" message [\#119](https://github.com/w3c/webidl2.js/issues/119)
+
+**Merged pull requests:**
+
 - Let error messages include the current definition name [\#129](https://github.com/w3c/webidl2.js/pull/129) ([saschanaz](https://github.com/saschanaz))
 
 ## [v10.0.0](https://github.com/w3c/webidl2.js/tree/v10.0.0) (2017-12-20)
