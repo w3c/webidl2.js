@@ -1,5 +1,42 @@
 # Change Log
 
+## [Unreleased](https://github.com/w3c/webidl2.js/tree/HEAD)
+
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.0.0...HEAD)
+
+**Closed issues:**
+
+- Support `raises` and `setraises` [\#128](https://github.com/w3c/webidl2.js/issues/128)
+- Support `legacycaller` [\#127](https://github.com/w3c/webidl2.js/issues/127)
+- Improve "No semicolon after enum" message [\#119](https://github.com/w3c/webidl2.js/issues/119)
+
+**Merged pull requests:**
+
+- Type on union idlType [\#135](https://github.com/w3c/webidl2.js/pull/135) ([saschanaz](https://github.com/saschanaz))
+- feat: add argument/return type [\#134](https://github.com/w3c/webidl2.js/pull/134) ([saschanaz](https://github.com/saschanaz))
+- feat: add dictionary/typedef-type [\#133](https://github.com/w3c/webidl2.js/pull/133) ([saschanaz](https://github.com/saschanaz))
+- feat: add const-type for idlTypes  [\#132](https://github.com/w3c/webidl2.js/pull/132) ([saschanaz](https://github.com/saschanaz))
+- feat: add types on idlTypes [\#131](https://github.com/w3c/webidl2.js/pull/131) ([saschanaz](https://github.com/saschanaz))
+- Auto acquisition for parser result changes [\#130](https://github.com/w3c/webidl2.js/pull/130) ([saschanaz](https://github.com/saschanaz))
+- Let error messages include the current definition name [\#129](https://github.com/w3c/webidl2.js/pull/129) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.0.0](https://github.com/w3c/webidl2.js/tree/v10.0.0) (2017-12-20)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v9.0.0...v10.0.0)
+
+**Closed issues:**
+
+-  Always return an array for idlType, etc. [\#113](https://github.com/w3c/webidl2.js/issues/113)
+- Maintain writer.js or not? [\#109](https://github.com/w3c/webidl2.js/issues/109)
+
+**Merged pull requests:**
+
+- Remove typeExtAttrs from docs [\#124](https://github.com/w3c/webidl2.js/pull/124) ([saschanaz](https://github.com/saschanaz))
+- Remove iterator documentation [\#123](https://github.com/w3c/webidl2.js/pull/123) ([saschanaz](https://github.com/saschanaz))
+- Maintain writer.js [\#122](https://github.com/w3c/webidl2.js/pull/122) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove deprecated iterator operation [\#121](https://github.com/w3c/webidl2.js/pull/121) ([saschanaz](https://github.com/saschanaz))
+- Use for-of on tests [\#120](https://github.com/w3c/webidl2.js/pull/120) ([saschanaz](https://github.com/saschanaz))
+- docs\(README\): iterables ildType is always array [\#118](https://github.com/w3c/webidl2.js/pull/118) ([marcoscaceres](https://github.com/marcoscaceres))
+
 ## [v9.0.0](https://github.com/w3c/webidl2.js/tree/v9.0.0) (2017-11-30)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v8.1.0...v9.0.0)
 
