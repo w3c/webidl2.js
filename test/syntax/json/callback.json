@@ -3,7 +3,7 @@
         "type": "callback",
         "name": "AsyncOperationCallback",
         "idlType": {
-            "type": null,
+            "type": "return-type",
             "sequence": false,
             "generic": null,
             "nullable": false,
@@ -16,7 +16,7 @@
                 "variadic": false,
                 "extAttrs": [],
                 "idlType": {
-                    "type": null,
+                    "type": "argument-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -41,7 +41,7 @@
                 "static": false,
                 "stringifier": false,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -55,7 +55,7 @@
                         "variadic": false,
                         "extAttrs": [],
                         "idlType": {
-                            "type": null,
+                            "type": "argument-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -75,7 +75,7 @@
         "type": "callback",
         "name": "SortCallback",
         "idlType": {
-            "type": null,
+            "type": "return-type",
             "sequence": false,
             "generic": null,
             "nullable": false,
@@ -88,7 +88,7 @@
                 "variadic": false,
                 "extAttrs": [],
                 "idlType": {
-                    "type": null,
+                    "type": "argument-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -102,7 +102,7 @@
                 "variadic": false,
                 "extAttrs": [],
                 "idlType": {
-                    "type": null,
+                    "type": "argument-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,

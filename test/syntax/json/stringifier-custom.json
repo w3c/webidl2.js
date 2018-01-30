@@ -63,7 +63,7 @@
                 "static": false,
                 "stringifier": true,
                 "idlType": {
-                    "type": null,
+                    "type": "return-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
