@@ -85,14 +85,14 @@
                             "idlType": "DOMString"
                         },
                         {
-                            "type": null,
+                            "type": "return-type",
                             "sequence": false,
                             "generic": null,
                             "nullable": true,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": "return-type",
+                                    "type": null,
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -100,7 +100,7 @@
                                     "idlType": "float"
                                 },
                                 {
-                                    "type": "return-type",
+                                    "type": null,
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
