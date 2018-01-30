@@ -45,13 +45,13 @@
     {
         "type": "typedef",
         "idlType": {
-            "type": null,
+            "type": "typedef-type",
             "sequence": true,
             "generic": "sequence",
             "nullable": false,
             "union": false,
             "idlType": {
-                "type": null,
+                "type": "typedef-type",
                 "sequence": false,
                 "generic": null,
                 "nullable": false,
@@ -202,7 +202,7 @@
     {
         "type": "typedef",
         "idlType": {
-            "type": null,
+            "type": "typedef-type",
             "sequence": false,
             "generic": null,
             "nullable": false,

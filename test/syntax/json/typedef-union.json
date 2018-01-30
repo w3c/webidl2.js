@@ -8,7 +8,7 @@
             "union": true,
             "idlType": [
                 {
-                    "type": null,
+                    "type": "typedef-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -16,7 +16,7 @@
                     "idlType": "ImageData"
                 },
                 {
-                    "type": null,
+                    "type": "typedef-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -24,7 +24,7 @@
                     "idlType": "HTMLImageElement"
                 },
                 {
-                    "type": null,
+                    "type": "typedef-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
@@ -32,7 +32,7 @@
                     "idlType": "HTMLCanvasElement"
                 },
                 {
-                    "type": null,
+                    "type": "typedef-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
