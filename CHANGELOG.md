@@ -1,8 +1,7 @@
 # Change Log
 
-## [Unreleased](https://github.com/w3c/webidl2.js/tree/HEAD)
-
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.0.0...HEAD)
+## [v10.2.0](https://github.com/w3c/webidl2.js/tree/v10.2.0) (2018-01-30)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.0.0...v10.2.0)
 
 **Closed issues:**
 
