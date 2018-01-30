@@ -182,13 +182,14 @@
                 "inherit": false,
                 "readonly": false,
                 "idlType": {
+                    "type": "attribute-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": true,
                     "idlType": [
                         {
-                            "type": "attribute-type",
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -196,7 +197,7 @@
                             "idlType": "long"
                         },
                         {
-                            "type": "attribute-type",
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
