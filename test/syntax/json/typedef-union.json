@@ -2,6 +2,7 @@
     {
         "type": "typedef",
         "idlType": {
+            "type": null,
             "sequence": false,
             "generic": null,
             "nullable": false,

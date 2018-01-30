@@ -11,13 +11,14 @@
                 "inherit": false,
                 "readonly": false,
                 "idlType": {
+                    "type": "attribute-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": true,
                     "idlType": [
                         {
-                            "type": "attribute-type",
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -25,13 +26,14 @@
                             "idlType": "float"
                         },
                         {
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": "attribute-type",
+                                    "type": null,
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -39,7 +41,7 @@
                                     "idlType": "Date"
                                 },
                                 {
-                                    "type": "attribute-type",
+                                    "type": null,
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -49,13 +51,14 @@
                             ]
                         },
                         {
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": true,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": "attribute-type",
+                                    "type": null,
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -63,7 +66,7 @@
                                     "idlType": "Node"
                                 },
                                 {
-                                    "type": "attribute-type",
+                                    "type": null,
                                     "sequence": false,
                                     "generic": null,
                                     "nullable": false,
@@ -84,13 +87,14 @@
                 "inherit": false,
                 "readonly": false,
                 "idlType": {
+                    "type": "attribute-type",
                     "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": true,
                     "idlType": [
                         {
-                            "type": "attribute-type",
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,
@@ -106,7 +110,7 @@
                             ]
                         },
                         {
-                            "type": "attribute-type",
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": false,

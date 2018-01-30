@@ -85,6 +85,7 @@
                             "idlType": "DOMString"
                         },
                         {
+                            "type": null,
                             "sequence": false,
                             "generic": null,
                             "nullable": true,
