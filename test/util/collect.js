@@ -31,7 +31,7 @@ function* collect(base, { expectError } = {}) {
         yield new TestItem({ path, error });
       }
       else {
-        throw e;
+        throw error;
       }
     }
   }
