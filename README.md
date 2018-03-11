@@ -213,6 +213,7 @@ A callback looks like this:
   "type": "callback",
   "name": "AsyncOperationCallback",
   "idlType": {
+    "type": "return-type",
     "sequence": false,
     "generic": null,
     "nullable": false,
@@ -246,6 +247,7 @@ A dictionary looks like this:
     "name": "fillPattern",
     "required": false,
     "idlType": {
+      "type": "dictionary-type",
       "sequence": false,
       "generic": null,
       "nullable": true,
@@ -404,6 +406,7 @@ An operation looks like this:
     "variadic": true,
     "extAttrs": [],
     "idlType": {
+      "type": "argument-type",
       "sequence": false,
       "generic": null,
       "nullable": false,
