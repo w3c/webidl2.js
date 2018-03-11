@@ -93,6 +93,7 @@ attached to a field called `idlType`:
 
 ```JS
 {
+  "type": "return-type",
   "sequence": false,
   "generic": null,
   "idlType": "void",
@@ -103,6 +104,7 @@ attached to a field called `idlType`:
 
 Where the fields are as follows:
 
+* `type`: String indicating where this type is used. Can be `null` if not applicable.
 * `sequence`: Boolean indicating if it is a sequence. Same as `generic === "sequence"`.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
