@@ -93,6 +93,7 @@ attached to a field called `idlType`:
 
 ```JS
 {
+  "type": "return-type",
   "sequence": false,
   "generic": null,
   "idlType": "void",
@@ -103,6 +104,7 @@ attached to a field called `idlType`:
 
 Where the fields are as follows:
 
+* `type`: String indicating where this type is used. Can be `null` if not applicable.
 * `sequence`: Boolean indicating if it is a sequence. Same as `generic === "sequence"`.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
@@ -316,6 +318,7 @@ A typedef looks like this:
     "nullable": false,
     "union": false,
     "idlType": {
+      "type": "typedef-type",
       "sequence": false,
       "generic": null,
       "nullable": false,
@@ -388,6 +391,7 @@ An operation looks like this:
   "static": false,
   "stringifier": false,
   "idlType": {
+    "type": "return-type",
     "sequence": false,
     "generic": null,
     "nullable": false,
@@ -437,6 +441,7 @@ An attribute member looks like this:
   "inherit": false,
   "readonly": false,
   "idlType": {
+    "type": "attribute-type",
     "sequence": false,
     "generic": null,
     "nullable": false,
@@ -467,7 +472,10 @@ A constant member looks like this:
 {
   "type": "const",
   "nullable": false,
-  "idlType": "boolean",
+  "idlType": {
+    "type": "const-type",
+    "idlType": "boolean"
+  },
   "name": "DEBUG",
   "value": {
     "type": "boolean",
@@ -481,7 +489,7 @@ The fields are as follows:
 
 * `type`: Always "const".
 * `nullable`: Whether its type is nullable.
-* `idlType`: The type of the constant (a simple type, the type name).
+* `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -497,6 +505,7 @@ The arguments (e.g. for an operation) look like this:
     "variadic": true,
     "extAttrs": [],
     "idlType": {
+      "type": "argument-type",
       "sequence": false,
       "generic": null,
       "nullable": false,
