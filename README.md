@@ -315,6 +315,7 @@ A typedef looks like this:
 {
   "type": "typedef",
   "idlType": {
+    "type": "typedef-type",
     "sequence": true,
     "generic": "sequence",
     "nullable": false,
