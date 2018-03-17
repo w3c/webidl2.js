@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "id",
                 "extAttrs": []
@@ -33,7 +34,8 @@
                     "generic": null,
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": "familyName",
                 "extAttrs": []
@@ -50,7 +52,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": "givenName",
                 "extAttrs": []
@@ -68,7 +71,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": null,
                 "arguments": [],

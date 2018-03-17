@@ -35,7 +35,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "MealType"
+                    "idlType": "MealType",
+                    "extAttrs": []
                 },
                 "name": "type",
                 "extAttrs": []
@@ -52,7 +53,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "size",
                 "extAttrs": []
@@ -70,7 +72,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "initialize",
                 "arguments": [
@@ -84,7 +87,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "MealType"
+                            "idlType": "MealType",
+                            "extAttrs": []
                         },
                         "name": "type"
                     },
@@ -98,7 +102,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "size"
                     }

@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "value",
                 "extAttrs": [
@@ -41,7 +42,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "increment",
                 "arguments": [],

@@ -93,12 +93,13 @@ attached to a field called `idlType`:
 
 ```JS
 {
-  "type": "return-type",
+  "type": "attribute-type",
   "sequence": false,
   "generic": null,
-  "idlType": "void",
+  "idlType": "unsigned short",
   "nullable": false,
   "union": false,
+  "extAttrs": [...]
 }
 ```
 
@@ -115,6 +116,7 @@ Where the fields are as follows:
   description for the type in the sequence, the eventual value of the promise, etc.
 * `nullable`: Boolean indicating whether this is nullable or not.
 * `union`: Boolean indicating whether this is a union type or not.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Interface
 

@@ -8,7 +8,8 @@
             "generic": null,
             "nullable": false,
             "union": false,
-            "idlType": "void"
+            "idlType": "void",
+            "extAttrs": []
         },
         "arguments": [
             {
@@ -21,7 +22,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": "status"
             }
@@ -46,7 +48,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "eventOccurred",
                 "arguments": [
@@ -60,7 +63,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "details"
                     }
@@ -80,7 +84,8 @@
             "generic": null,
             "nullable": false,
             "union": false,
-            "idlType": "boolean"
+            "idlType": "boolean",
+            "extAttrs": []
         },
         "arguments": [
             {
@@ -93,7 +98,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "any"
+                    "idlType": "any",
+                    "extAttrs": []
                 },
                 "name": "a"
             },
@@ -107,7 +113,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "any"
+                    "idlType": "any",
+                    "extAttrs": []
                 },
                 "name": "b"
             }

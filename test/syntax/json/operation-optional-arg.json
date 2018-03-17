@@ -17,7 +17,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "object"
+                    "idlType": "object",
+                    "extAttrs": []
                 },
                 "name": "createColor",
                 "arguments": [
@@ -31,7 +32,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "v1"
                     },
@@ -45,7 +47,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "v2"
                     },
@@ -59,7 +62,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "v3"
                     },
@@ -73,7 +77,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "alpha",
                         "default": {

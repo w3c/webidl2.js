@@ -23,7 +23,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         {
                             "type": null,
@@ -38,7 +39,8 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "Date"
+                                    "idlType": "Date",
+                                    "extAttrs": []
                                 },
                                 {
                                     "type": null,
@@ -46,9 +48,11 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "Event"
+                                    "idlType": "Event",
+                                    "extAttrs": []
                                 }
-                            ]
+                            ],
+                            "extAttrs": []
                         },
                         {
                             "type": null,
@@ -63,7 +67,8 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "Node"
+                                    "idlType": "Node",
+                                    "extAttrs": []
                                 },
                                 {
                                     "type": null,
@@ -71,11 +76,14 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "DOMString"
+                                    "idlType": "DOMString",
+                                    "extAttrs": []
                                 }
-                            ]
+                            ],
+                            "extAttrs": []
                         }
-                    ]
+                    ],
+                    "extAttrs": []
                 },
                 "name": "test",
                 "extAttrs": []
@@ -115,9 +123,11 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Date"
+                            "idlType": "Date",
+                            "extAttrs": []
                         }
-                    ]
+                    ],
+                    "extAttrs": []
                 },
                 "name": "test2",
                 "extAttrs": []

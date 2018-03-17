@@ -14,7 +14,8 @@
                     "generic": null,
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "extAttrs": [],
                 "default": {
@@ -32,7 +33,8 @@
                     "generic": null,
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "extAttrs": [],
                 "default": {
@@ -49,7 +51,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point"
+                    "idlType": "Point",
+                    "extAttrs": []
                 },
                 "extAttrs": []
             },
@@ -69,8 +72,10 @@
                         "generic": null,
                         "nullable": false,
                         "union": false,
-                        "idlType": "long"
-                    }
+                        "idlType": "long",
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "extAttrs": [],
                 "default": {
@@ -88,7 +93,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "long"
+                    "idlType": "long",
+                    "extAttrs": []
                 },
                 "extAttrs": []
             }
@@ -111,7 +117,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "long"
+                    "idlType": "long",
+                    "extAttrs": []
                 },
                 "extAttrs": []
             },
@@ -125,7 +132,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "long"
+                    "idlType": "long",
+                    "extAttrs": []
                 },
                 "extAttrs": []
             }

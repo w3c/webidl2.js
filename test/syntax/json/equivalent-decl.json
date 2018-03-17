@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "propertyCount",
                 "extAttrs": []
@@ -34,7 +35,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "getProperty",
                 "arguments": [
@@ -48,7 +50,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "propertyName"
                     }
@@ -68,7 +71,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "setProperty",
                 "arguments": [
@@ -82,7 +86,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "propertyName"
                     },
@@ -96,7 +101,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "propertyValue"
                     }
@@ -124,7 +130,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "propertyCount",
                 "extAttrs": []
@@ -142,7 +149,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "getProperty",
                 "arguments": [
@@ -156,7 +164,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "propertyName"
                     }
@@ -176,7 +185,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "setProperty",
                 "arguments": [
@@ -190,7 +200,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "propertyName"
                     },
@@ -204,7 +215,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "propertyValue"
                     }
@@ -224,7 +236,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": null,
                 "arguments": [
@@ -238,7 +251,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "propertyName"
                     }
@@ -258,7 +272,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": null,
                 "arguments": [
@@ -272,7 +287,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "propertyName"
                     },
@@ -286,7 +302,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "propertyValue"
                     }

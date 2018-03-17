@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "cardinality",
                 "extAttrs": []
@@ -34,7 +35,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "union",
                 "arguments": [
@@ -48,7 +50,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "long"
+                            "idlType": "long",
+                            "extAttrs": []
                         },
                         "name": "ints"
                     }
@@ -68,7 +71,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "intersection",
                 "arguments": [
@@ -82,7 +86,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "long"
+                            "idlType": "long",
+                            "extAttrs": []
                         },
                         "name": "ints"
                     }

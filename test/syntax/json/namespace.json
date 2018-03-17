@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Vector"
+                    "idlType": "Vector",
+                    "extAttrs": []
                 },
                 "name": "unit",
                 "extAttrs": []
@@ -34,7 +35,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "double"
+                    "idlType": "double",
+                    "extAttrs": []
                 },
                 "name": "dotProduct",
                 "arguments": [
@@ -48,7 +50,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Vector"
+                            "idlType": "Vector",
+                            "extAttrs": []
                         },
                         "name": "x"
                     },
@@ -62,7 +65,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Vector"
+                            "idlType": "Vector",
+                            "extAttrs": []
                         },
                         "name": "y"
                     }
@@ -82,7 +86,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Vector"
+                    "idlType": "Vector",
+                    "extAttrs": []
                 },
                 "name": "crossProduct",
                 "arguments": [
@@ -96,7 +101,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Vector"
+                            "idlType": "Vector",
+                            "extAttrs": []
                         },
                         "name": "x"
                     },
@@ -110,7 +116,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Vector"
+                            "idlType": "Vector",
+                            "extAttrs": []
                         },
                         "name": "y"
                     }

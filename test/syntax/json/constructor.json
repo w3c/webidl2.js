@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "r",
                 "extAttrs": []
@@ -33,7 +34,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "cx",
                 "extAttrs": []
@@ -50,7 +52,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "cy",
                 "extAttrs": []
@@ -67,7 +70,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "circumference",
                 "extAttrs": []
@@ -94,7 +98,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "float"
+                            "idlType": "float",
+                            "extAttrs": []
                         },
                         "name": "radius"
                     }

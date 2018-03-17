@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "x",
                 "extAttrs": []
@@ -33,7 +34,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "y",
                 "extAttrs": []
@@ -56,8 +58,10 @@
                 "generic": null,
                 "nullable": false,
                 "union": false,
-                "idlType": "Point"
-            }
+                "idlType": "Point",
+                "extAttrs": []
+            },
+            "extAttrs": []
         },
         "name": "PointSequence",
         "extAttrs": []
@@ -79,7 +83,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point"
+                    "idlType": "Point",
+                    "extAttrs": []
                 },
                 "name": "topleft",
                 "extAttrs": []
@@ -96,7 +101,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point"
+                    "idlType": "Point",
+                    "extAttrs": []
                 },
                 "name": "bottomright",
                 "extAttrs": []
@@ -122,7 +128,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Rect"
+                    "idlType": "Rect",
+                    "extAttrs": []
                 },
                 "name": "bounds",
                 "extAttrs": []
@@ -140,7 +147,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean"
+                    "idlType": "boolean",
+                    "extAttrs": []
                 },
                 "name": "pointWithinBounds",
                 "arguments": [
@@ -154,7 +162,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Point"
+                            "idlType": "Point",
+                            "extAttrs": []
                         },
                         "name": "p"
                     }
@@ -174,7 +183,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean"
+                    "idlType": "boolean",
+                    "extAttrs": []
                 },
                 "name": "allPointsWithinBounds",
                 "arguments": [
@@ -188,7 +198,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "PointSequence"
+                            "idlType": "PointSequence",
+                            "extAttrs": []
                         },
                         "name": "ps"
                     }

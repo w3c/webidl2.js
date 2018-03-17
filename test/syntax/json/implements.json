@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short"
+                    "idlType": "unsigned short",
+                    "extAttrs": []
                 },
                 "name": "nodeType",
                 "extAttrs": []
@@ -43,7 +44,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "addEventListener",
                 "arguments": [
@@ -57,7 +59,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "type"
                     },
@@ -71,7 +74,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "EventListener"
+                            "idlType": "EventListener",
+                            "extAttrs": []
                         },
                         "name": "listener"
                     },
@@ -85,7 +89,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "boolean"
+                            "idlType": "boolean",
+                            "extAttrs": []
                         },
                         "name": "useCapture"
                     }

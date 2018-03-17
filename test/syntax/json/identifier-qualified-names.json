@@ -7,7 +7,8 @@
             "generic": null,
             "nullable": false,
             "union": false,
-            "idlType": "float"
+            "idlType": "float",
+            "extAttrs": []
         },
         "name": "number",
         "extAttrs": []
@@ -30,7 +31,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "object"
+                    "idlType": "object",
+                    "extAttrs": []
                 },
                 "name": "createObject",
                 "arguments": [
@@ -44,7 +46,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "interface"
                     }
@@ -64,7 +67,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": null,
                 "arguments": [
@@ -78,7 +82,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "keyName"
                     }
@@ -106,7 +111,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean"
+                    "idlType": "boolean",
+                    "extAttrs": []
                 },
                 "name": "const",
                 "extAttrs": []
@@ -123,7 +129,8 @@
                     "generic": null,
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": "value",
                 "extAttrs": []
@@ -150,7 +157,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "op",
                 "arguments": [
@@ -164,7 +172,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "object"
+                            "idlType": "object",
+                            "extAttrs": []
                         },
                         "name": "interface"
                     }

@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "width",
                 "extAttrs": []
@@ -33,7 +34,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "height",
                 "extAttrs": []
@@ -60,7 +62,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean"
+                    "idlType": "boolean",
+                    "extAttrs": []
                 },
                 "name": "isMouseOver",
                 "arguments": [],
@@ -79,7 +82,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "setDimensions",
                 "arguments": [
@@ -93,7 +97,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Dimensions"
+                            "idlType": "Dimensions",
+                            "extAttrs": []
                         },
                         "name": "size"
                     }
@@ -113,7 +118,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "setDimensions",
                 "arguments": [
@@ -127,7 +133,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "unsigned long"
+                            "idlType": "unsigned long",
+                            "extAttrs": []
                         },
                         "name": "width"
                     },
@@ -141,7 +148,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "unsigned long"
+                            "idlType": "unsigned long",
+                            "extAttrs": []
                         },
                         "name": "height"
                     }
