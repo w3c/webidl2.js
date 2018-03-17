@@ -220,7 +220,8 @@ A callback looks like this:
     "generic": null,
     "nullable": false,
     "union": false,
-    "idlType": "void"
+    "idlType": "void",
+    "extAttrs": []
   },
   "arguments": [...],
   "extAttrs": []
@@ -254,7 +255,8 @@ A dictionary looks like this:
       "generic": null,
       "nullable": true,
       "union": false,
-      "idlType": "DOMString"
+      "idlType": "DOMString",
+      "extAttrs": [...]
     },
     "extAttrs": [],
     "default": {
@@ -328,8 +330,10 @@ A typedef looks like this:
       "generic": null,
       "nullable": false,
       "union": false,
-      "idlType": "Point"
-    }
+      "idlType": "Point",
+      "extAttrs": [...]
+    },
+    "extAttrs": [...]
   },
   "name": "PointSequence",
   "extAttrs": []
@@ -401,7 +405,8 @@ An operation looks like this:
     "generic": null,
     "nullable": false,
     "union": false,
-    "idlType": "void"
+    "idlType": "void",
+    "extAttrs": []
   },
   "name": "intersection",
   "arguments": [{
@@ -414,7 +419,8 @@ An operation looks like this:
       "generic": null,
       "nullable": false,
       "union": false,
-      "idlType": "long"
+      "idlType": "long",
+      "extAttrs": [...]
     },
     "name": "ints"
   }],
@@ -452,7 +458,8 @@ An attribute member looks like this:
     "generic": null,
     "nullable": false,
     "union": false,
-    "idlType": "RegExp"
+    "idlType": "RegExp",
+    "extAttrs": [...]
   },
   "name": "regexp",
   "extAttrs": []
@@ -480,7 +487,12 @@ A constant member looks like this:
   "nullable": false,
   "idlType": {
     "type": "const-type",
+    "sequence": false,
+    "generic": null,
+    "nullable": false,
+    "union": false,
     "idlType": "boolean"
+    "extAttrs": []
   },
   "name": "DEBUG",
   "value": {
@@ -516,7 +528,8 @@ The arguments (e.g. for an operation) look like this:
       "generic": null,
       "nullable": false,
       "union": false,
-      "idlType": "long"
+      "idlType": "long",
+      "extAttrs": [...]
     },
     "name": "ints"
   }]
