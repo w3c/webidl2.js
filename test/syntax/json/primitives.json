@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean"
+                    "idlType": "boolean",
+                    "extAttrs": []
                 },
                 "name": "truth",
                 "extAttrs": []
@@ -33,7 +34,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "byte"
+                    "idlType": "byte",
+                    "extAttrs": []
                 },
                 "name": "character",
                 "extAttrs": []
@@ -50,7 +52,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "octet"
+                    "idlType": "octet",
+                    "extAttrs": []
                 },
                 "name": "value",
                 "extAttrs": []
@@ -67,7 +70,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "short"
+                    "idlType": "short",
+                    "extAttrs": []
                 },
                 "name": "number",
                 "extAttrs": []
@@ -84,7 +88,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short"
+                    "idlType": "unsigned short",
+                    "extAttrs": []
                 },
                 "name": "positive",
                 "extAttrs": []
@@ -101,7 +106,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "long"
+                    "idlType": "long",
+                    "extAttrs": []
                 },
                 "name": "big",
                 "extAttrs": []
@@ -118,7 +124,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "bigpositive",
                 "extAttrs": []
@@ -135,7 +142,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "long long"
+                    "idlType": "long long",
+                    "extAttrs": []
                 },
                 "name": "bigbig",
                 "extAttrs": []
@@ -152,7 +160,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long long"
+                    "idlType": "unsigned long long",
+                    "extAttrs": []
                 },
                 "name": "bigbigpositive",
                 "extAttrs": []
@@ -169,7 +178,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "real",
                 "extAttrs": []
@@ -186,7 +196,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "double"
+                    "idlType": "double",
+                    "extAttrs": []
                 },
                 "name": "bigreal",
                 "extAttrs": []
@@ -203,7 +214,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unrestricted float"
+                    "idlType": "unrestricted float",
+                    "extAttrs": []
                 },
                 "name": "realwithinfinity",
                 "extAttrs": []
@@ -220,7 +232,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unrestricted double"
+                    "idlType": "unrestricted double",
+                    "extAttrs": []
                 },
                 "name": "bigrealwithinfinity",
                 "extAttrs": []
@@ -237,7 +250,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "DOMString"
+                    "idlType": "DOMString",
+                    "extAttrs": []
                 },
                 "name": "string",
                 "extAttrs": []
@@ -254,7 +268,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "ByteString"
+                    "idlType": "ByteString",
+                    "extAttrs": []
                 },
                 "name": "bytes",
                 "extAttrs": []
@@ -271,7 +286,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Date"
+                    "idlType": "Date",
+                    "extAttrs": []
                 },
                 "name": "date",
                 "extAttrs": []
@@ -288,7 +304,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "RegExp"
+                    "idlType": "RegExp",
+                    "extAttrs": []
                 },
                 "name": "regexp",
                 "extAttrs": []

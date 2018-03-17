@@ -35,10 +35,14 @@
                                 "generic": null,
                                 "nullable": true,
                                 "union": false,
-                                "idlType": "DOMString"
-                            }
-                        }
-                    }
+                                "idlType": "DOMString",
+                                "extAttrs": []
+                            },
+                            "extAttrs": []
+                        },
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "name": "bar",
                 "arguments": [],
@@ -62,8 +66,10 @@
                         "generic": null,
                         "nullable": false,
                         "union": false,
-                        "idlType": "DOMString"
-                    }
+                        "idlType": "DOMString",
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "name": "baz",
                 "extAttrs": []
@@ -96,8 +102,10 @@
                         "generic": null,
                         "nullable": true,
                         "union": false,
-                        "idlType": "Client"
-                    }
+                        "idlType": "Client",
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "name": "getServiced",
                 "arguments": [],
@@ -122,8 +130,10 @@
                         "generic": null,
                         "nullable": false,
                         "union": false,
-                        "idlType": "any"
-                    }
+                        "idlType": "any",
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "name": "reloadAll",
                 "arguments": [],
@@ -157,8 +167,10 @@
                         "generic": null,
                         "nullable": false,
                         "union": false,
-                        "idlType": "any"
-                    }
+                        "idlType": "any",
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "name": "default",
                 "arguments": [],

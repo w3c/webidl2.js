@@ -17,7 +17,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "foo",
                 "arguments": [
@@ -44,7 +45,8 @@
                                         "generic": null,
                                         "nullable": false,
                                         "union": false,
-                                        "idlType": "ByteString"
+                                        "idlType": "ByteString",
+                                        "extAttrs": []
                                     },
                                     {
                                         "type": "argument-type",
@@ -52,10 +54,13 @@
                                         "generic": null,
                                         "nullable": false,
                                         "union": false,
-                                        "idlType": "any"
+                                        "idlType": "any",
+                                        "extAttrs": []
                                     }
-                                ]
-                            }
+                                ],
+                                "extAttrs": []
+                            },
+                            "extAttrs": []
                         },
                         "name": "param"
                     }
@@ -82,7 +87,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         {
                             "type": "return-type",
@@ -97,7 +103,8 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "float"
+                                    "idlType": "float",
+                                    "extAttrs": []
                                 },
                                 {
                                     "type": null,
@@ -105,11 +112,14 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "DOMString"
+                                    "idlType": "DOMString",
+                                    "extAttrs": []
                                 }
-                            ]
+                            ],
+                            "extAttrs": []
                         }
-                    ]
+                    ],
+                    "extAttrs": []
                 },
                 "name": "bar",
                 "arguments": [],
@@ -128,7 +138,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "record"
+                    "idlType": "record",
+                    "extAttrs": []
                 },
                 "name": "baz",
                 "arguments": [],
@@ -157,7 +168,8 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "USVString"
+                                    "idlType": "USVString",
+                                    "extAttrs": []
                                 },
                                 {
                                     "type": "argument-type",
@@ -165,9 +177,11 @@
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "USVString"
+                                    "idlType": "USVString",
+                                    "extAttrs": []
                                 }
-                            ]
+                            ],
+                            "extAttrs": []
                         },
                         "name": "init"
                     }
@@ -202,7 +216,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         {
                             "type": "return-type",
@@ -220,7 +235,8 @@
                                 }
                             ]
                         }
-                    ]
+                    ],
+                    "extAttrs": []
                 },
                 "name": "bar",
                 "arguments": [],

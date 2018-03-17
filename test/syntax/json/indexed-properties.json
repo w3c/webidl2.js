@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "unsigned long",
+                    "extAttrs": []
                 },
                 "name": "size",
                 "extAttrs": []
@@ -34,7 +35,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "any"
+                    "idlType": "any",
+                    "extAttrs": []
                 },
                 "name": "getByIndex",
                 "arguments": [
@@ -48,7 +50,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "unsigned long"
+                            "idlType": "unsigned long",
+                            "extAttrs": []
                         },
                         "name": "index"
                     }
@@ -68,7 +71,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "setByIndex",
                 "arguments": [
@@ -82,7 +86,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "unsigned long"
+                            "idlType": "unsigned long",
+                            "extAttrs": []
                         },
                         "name": "index"
                     },
@@ -96,7 +101,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "any"
+                            "idlType": "any",
+                            "extAttrs": []
                         },
                         "name": "value"
                     }
@@ -116,7 +122,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "removeByIndex",
                 "arguments": [
@@ -130,7 +137,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "unsigned long"
+                            "idlType": "unsigned long",
+                            "extAttrs": []
                         },
                         "name": "index"
                     }
@@ -150,7 +158,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "any"
+                    "idlType": "any",
+                    "extAttrs": []
                 },
                 "name": "get",
                 "arguments": [
@@ -164,7 +173,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "name"
                     }
@@ -184,7 +194,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "set",
                 "arguments": [
@@ -198,7 +209,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "name"
                     },
@@ -212,7 +224,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "any"
+                            "idlType": "any",
+                            "extAttrs": []
                         },
                         "name": "value"
                     }
@@ -232,7 +245,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "remove",
                 "arguments": [
@@ -246,7 +260,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "DOMString",
+                            "extAttrs": []
                         },
                         "name": "name"
                     }

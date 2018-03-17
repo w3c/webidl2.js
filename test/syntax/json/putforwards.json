@@ -16,7 +16,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Name"
+                    "idlType": "Name",
+                    "extAttrs": []
                 },
                 "name": "name",
                 "extAttrs": [
@@ -43,7 +44,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short"
+                    "idlType": "unsigned short",
+                    "extAttrs": []
                 },
                 "name": "age",
                 "extAttrs": []

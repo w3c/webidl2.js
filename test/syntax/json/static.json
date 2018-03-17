@@ -24,7 +24,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "cx",
                 "extAttrs": []
@@ -41,7 +42,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "cy",
                 "extAttrs": []
@@ -58,7 +60,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "float"
+                    "idlType": "float",
+                    "extAttrs": []
                 },
                 "name": "radius",
                 "extAttrs": []
@@ -75,7 +78,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "long"
+                    "idlType": "long",
+                    "extAttrs": []
                 },
                 "name": "triangulationCount",
                 "extAttrs": []
@@ -93,7 +97,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point"
+                    "idlType": "Point",
+                    "extAttrs": []
                 },
                 "name": "triangulate",
                 "arguments": [
@@ -107,7 +112,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Circle"
+                            "idlType": "Circle",
+                            "extAttrs": []
                         },
                         "name": "c1"
                     },
@@ -121,7 +127,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Circle"
+                            "idlType": "Circle",
+                            "extAttrs": []
                         },
                         "name": "c2"
                     },
@@ -135,7 +142,8 @@
                             "generic": null,
                             "nullable": false,
                             "union": false,
-                            "idlType": "Circle"
+                            "idlType": "Circle",
+                            "extAttrs": []
                         },
                         "name": "c3"
                     }

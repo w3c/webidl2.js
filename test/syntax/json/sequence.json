@@ -17,7 +17,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "drawPolygon",
                 "arguments": [
@@ -37,8 +38,10 @@
                                 "generic": null,
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float"
-                            }
+                                "idlType": "float",
+                                "extAttrs": []
+                            },
+                            "extAttrs": []
                         },
                         "name": "coordinates"
                     }
@@ -64,8 +67,10 @@
                         "generic": null,
                         "nullable": false,
                         "union": false,
-                        "idlType": "float"
-                    }
+                        "idlType": "float",
+                        "extAttrs": []
+                    },
+                    "extAttrs": []
                 },
                 "name": "getInflectionPoints",
                 "arguments": [],
@@ -93,7 +98,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "sequence"
+                    "idlType": "sequence",
+                    "extAttrs": []
                 },
                 "name": "bar",
                 "arguments": [],
@@ -121,7 +127,8 @@
                     "generic": null,
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "void",
+                    "extAttrs": []
                 },
                 "name": "f1",
                 "arguments": [
@@ -150,7 +157,8 @@
                                         "rhs": null
                                     }
                                 ]
-                            }
+                            },
+                            "extAttrs": []
                         },
                         "name": "arg"
                     }
