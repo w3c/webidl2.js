@@ -1,0 +1,38 @@
+<!DOCTYPE html><html><head><title>WebIDL 2 Checker</title>
+<script src='../lib/webidl2.js'></script>
+<script type='text/javascript'>
+function checkWebIDL() {
+  let output = document.getElementById('webidl-checker-output');
+  try {
+    WebIDL2.parse(document.getElementById('webidl-to-check').value);
+    output.innerText = 'WebIDL parsed successfully!';
+  } catch (e) {
+    output.innerText = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
+    // Pass it along to the JavaScript console.
+    throw e;
+  }
+}
+</script>
+</head>
+<body>
+<h2>
+WebIDL Checker
+</h2>
+<p>
+This is an online checker for WebIDL built on
+the <a href="https://github.com/w3c/webidl2.js">webidl2.js</a>
+project.
+</p>
+<p>
+Enter your WebIDL to check below:
+</p>
+<textarea id='webidl-to-check' rows='20' cols='80'>
+</textarea>
+<br>
+<button onclick='checkWebIDL()'>Check WebIDL</button>
+<p>
+Output:
+</p>
+<textarea id='webidl-checker-output' rows='20' cols='80'>
+</textarea>
+</body>
