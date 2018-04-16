@@ -1,18 +1,38 @@
 <!DOCTYPE html><html><head><title>WebIDL 2 Checker</title>
 <script src='../lib/webidl2.js'></script>
 <script type='text/javascript'>
+let parserResult = undefined;
+
+function formatParserOutput() {
+  let outputEl = document.getElementById('webidl-checker-output');
+  if (parserResult) {
+    let prettyPrintEl = document.getElementById('pretty-print');
+    outputEl.innerText = JSON.stringify(parserResult, null, prettyPrintEl.checked ? 2 : null);
+  } else {
+    outputEl.innerText = '';
+  }
+}
+
 function checkWebIDL() {
-  let output = document.getElementById('webidl-checker-output');
+  let validation = document.getElementById('webidl-checker-validation');
+  parserResult = null;
   try {
-    WebIDL2.parse(document.getElementById('webidl-to-check').value);
-    output.innerText = 'WebIDL parsed successfully!';
+    parserResult = WebIDL2.parse(document.getElementById('webidl-to-check').value);
+    validation.innerText = 'WebIDL parsed successfully!';
   } catch (e) {
-    output.innerText = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
+    validation.innerText = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
     // Pass it along to the JavaScript console.
     throw e;
+  } finally {
+    formatParserOutput();
   }
 }
 </script>
+<style>
+textarea {
+  font-family: monospace;
+}
+</style>
 </head>
 <body>
 <h2>
@@ -31,8 +51,15 @@ Enter your WebIDL to check below:
 <br>
 <button onclick='checkWebIDL()'>Check WebIDL</button>
 <p>
-Output:
+Validation results:
+</p>
+<textarea id='webidl-checker-validation' rows='20' cols='80'>
+</textarea>
+<p>
+Parser output:
 </p>
 <textarea id='webidl-checker-output' rows='20' cols='80'>
 </textarea>
+<br>
+<input type='checkbox' id='pretty-print' checked='true' onchange='formatParserOutput()'>Pretty Print</button>
 </body>
