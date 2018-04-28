@@ -1,5 +1,9 @@
+<!DOCTYPE html>
 <html>
-<head><title>WebIDL 2 Checker</title>
+<head>
+<meta name="generator" content="HTML Tidy for HTML5 for Apple macOS version 5.7.16">
+<title>WebIDL 2 Checker</title>
+
 <script src='../lib/webidl2.js'></script>
 <script>
 let parserResult = undefined;
@@ -36,32 +40,17 @@ textarea {
 </style>
 </head>
 <body>
-<h2>
-WebIDL Checker
-</h2>
-<p>
-This is an online checker for WebIDL built on
-the <a href="https://github.com/w3c/webidl2.js">webidl2.js</a>
-project.
-</p>
-<p>
-Enter your WebIDL to check below:
-</p>
-<textarea id='webidl-to-check' rows='20' cols='80'>
-</textarea>
+<h2>WebIDL Checker</h2>
+<p>This is an online checker for WebIDL built on the <a href="https://github.com/w3c/webidl2.js">webidl2.js</a> project.</p>
+<p>Enter your WebIDL to check below:</p>
+<textarea id='webidl-to-check' rows='20' cols='80'></textarea>
 <br>
-<input type='button' value='Check WebIDL' onclick='checkWebIDL()'></input>
-<p>
-Validation results:
-</p>
-<textarea id='webidl-checker-validation' rows='20' cols='80'>
-</textarea>
-<p>
-Parser output:
-</p>
-<textarea id='webidl-checker-output' rows='20' cols='80'>
-</textarea>
+<input type='button' value='Check WebIDL' onclick='checkWebIDL()'>
+<p>Validation results:</p>
+<textarea id='webidl-checker-validation' rows='20' cols='80'></textarea>
+<p>Parser output:</p>
+<textarea id='webidl-checker-output' rows='20' cols='80'></textarea>
 <br>
-<input type='checkbox' id='pretty-print' checked='true' onchange='formatParserOutput()'>Pretty Print</input>
+<input type='checkbox' id='pretty-print' checked='true' onchange='formatParserOutput()'>Pretty Print
 </body>
 </html>
