@@ -1,12 +1,13 @@
-<!DOCTYPE html><html><head><title>WebIDL 2 Checker</title>
+<html>
+<head><title>WebIDL 2 Checker</title>
 <script src='../lib/webidl2.js'></script>
-<script type='text/javascript'>
+<script>
 let parserResult = undefined;
 
 function formatParserOutput() {
-  let outputEl = document.getElementById('webidl-checker-output');
+  const outputEl = document.getElementById('webidl-checker-output');
   if (parserResult) {
-    let prettyPrintEl = document.getElementById('pretty-print');
+    const prettyPrintEl = document.getElementById('pretty-print');
     outputEl.innerText = JSON.stringify(parserResult, null, prettyPrintEl.checked ? 2 : null);
   } else {
     outputEl.innerText = '';
@@ -14,7 +15,7 @@ function formatParserOutput() {
 }
 
 function checkWebIDL() {
-  let validation = document.getElementById('webidl-checker-validation');
+  const validation = document.getElementById('webidl-checker-validation');
   parserResult = null;
   try {
     parserResult = WebIDL2.parse(document.getElementById('webidl-to-check').value);
@@ -49,7 +50,7 @@ Enter your WebIDL to check below:
 <textarea id='webidl-to-check' rows='20' cols='80'>
 </textarea>
 <br>
-<button onclick='checkWebIDL()'>Check WebIDL</button>
+<input type='button' value='Check WebIDL' onclick='checkWebIDL()'></input>
 <p>
 Validation results:
 </p>
@@ -61,5 +62,6 @@ Parser output:
 <textarea id='webidl-checker-output' rows='20' cols='80'>
 </textarea>
 <br>
-<input type='checkbox' id='pretty-print' checked='true' onchange='formatParserOutput()'>Pretty Print</button>
+<input type='checkbox' id='pretty-print' checked='true' onchange='formatParserOutput()'>Pretty Print</input>
 </body>
+</html>
