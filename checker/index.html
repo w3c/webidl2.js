@@ -18,11 +18,11 @@ function formatParserOutput() {
   }
 }
 
-function checkWebIDL() {
+function checkWebIDL(textToCheck) {
   const validation = document.getElementById('webidl-checker-validation');
   parserResult = null;
   try {
-    parserResult = WebIDL2.parse(document.getElementById('webidl-to-check').value);
+    parserResult = WebIDL2.parse(textToCheck);
     validation.innerText = 'WebIDL parsed successfully!';
   } catch (e) {
     validation.innerText = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
@@ -45,7 +45,7 @@ textarea {
 <p>Enter your WebIDL to check below:</p>
 <textarea id='webidl-to-check' rows='20' cols='80'></textarea>
 <br>
-<input type='button' value='Check WebIDL' onclick='checkWebIDL()'>
+<input type='button' value='Check WebIDL' onclick='checkWebIDL(document.getElementById("webidl-to-check").value)'>
 <p>Validation results:</p>
 <textarea id='webidl-checker-validation' rows='20' cols='80'></textarea>
 <p>Parser output:</p>
