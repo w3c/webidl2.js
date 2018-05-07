@@ -574,8 +574,6 @@ The fields are as follows:
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` (which can be
   "identifier" or "identifier-list") and its `value`.
-* `typePair`: If the extended attribute is a `MapClass` this will capture the
-  map's key type and value type respectively.
 
 ### Default and Const Values
 
