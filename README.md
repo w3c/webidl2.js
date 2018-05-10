@@ -613,14 +613,6 @@ The fields are as follows:
 
 ## Testing
 
-In order to run the tests you need to ensure that the widlproc submodule inside `test` is
-initialized and up to date:
-
-```Bash
-git submodule init
-git submodule update
-```
-
 ### Running
 
 The test runs with mocha and expect.js. Normally, running mocha in the root directory
