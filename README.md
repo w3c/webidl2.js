@@ -45,23 +45,6 @@ In the browser:
 </script>
 ```
 
-### Advanced Parsing
-
-`parse()` can optionally accept a second parameter, an options object, which can be used to
-modify parsing behavior.
-
-The following options are recognized:
-```JS
-{
-  allowNestedTypedefs: false
-}
-```
-
-And their meanings are as follows:
-
-* `allowNestedTypedefs`: Boolean indicating whether the parser should accept `typedef`s as valid members of `interface`s.
-This is non-standard syntax and therefore the default is `false`.
-
 ### Errors
 
 When there is a syntax error in the WebIDL, it throws an exception object with the following
