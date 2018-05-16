@@ -1,3 +1,4 @@
 {
-    "message": "Token stream not progressing"
+    "message": "Got an error before parsing any named definition: No name for interface",
+    "line": 1
 }
