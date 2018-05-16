@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "id",
+                "escapedName": "id",
                 "extAttrs": []
             },
             {
@@ -38,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "familyName",
+                "escapedName": "familyName",
                 "extAttrs": []
             },
             {
@@ -56,6 +58,7 @@
                     "extAttrs": []
                 },
                 "name": "givenName",
+                "escapedName": "givenName",
                 "extAttrs": []
             },
             {
@@ -75,6 +78,7 @@
                     "extAttrs": []
                 },
                 "name": null,
+                "escapedName": null,
                 "arguments": [],
                 "extAttrs": []
             }

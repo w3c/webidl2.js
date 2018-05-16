@@ -28,6 +28,7 @@
                     "extAttrs": []
                 },
                 "name": "cx",
+                "escapedName": "cx",
                 "extAttrs": []
             },
             {
@@ -46,6 +47,7 @@
                     "extAttrs": []
                 },
                 "name": "cy",
+                "escapedName": "cy",
                 "extAttrs": []
             },
             {
@@ -64,6 +66,7 @@
                     "extAttrs": []
                 },
                 "name": "radius",
+                "escapedName": "radius",
                 "extAttrs": []
             },
             {
@@ -82,6 +85,7 @@
                     "extAttrs": []
                 },
                 "name": "triangulationCount",
+                "escapedName": "triangulationCount",
                 "extAttrs": []
             },
             {
@@ -101,6 +105,7 @@
                     "extAttrs": []
                 },
                 "name": "triangulate",
+                "escapedName": "triangulate",
                 "arguments": [
                     {
                         "optional": false,
@@ -115,7 +120,8 @@
                             "idlType": "Circle",
                             "extAttrs": []
                         },
-                        "name": "c1"
+                        "name": "c1",
+                        "escapedName": "c1"
                     },
                     {
                         "optional": false,
@@ -130,7 +136,8 @@
                             "idlType": "Circle",
                             "extAttrs": []
                         },
-                        "name": "c2"
+                        "name": "c2",
+                        "escapedName": "c2"
                     },
                     {
                         "optional": false,
@@ -145,7 +152,8 @@
                             "idlType": "Circle",
                             "extAttrs": []
                         },
-                        "name": "c3"
+                        "name": "c3",
+                        "escapedName": "c3"
                     }
                 ],
                 "extAttrs": []

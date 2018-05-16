@@ -21,6 +21,7 @@
                     "extAttrs": []
                 },
                 "name": "foo",
+                "escapedName": "foo",
                 "arguments": [
                     {
                         "optional": false,
@@ -62,7 +63,8 @@
                             },
                             "extAttrs": []
                         },
-                        "name": "param"
+                        "name": "param",
+                        "escapedName": "param"
                     }
                 ],
                 "extAttrs": []
@@ -122,6 +124,7 @@
                     "extAttrs": []
                 },
                 "name": "bar",
+                "escapedName": "bar",
                 "arguments": [],
                 "extAttrs": []
             },
@@ -142,6 +145,7 @@
                     "extAttrs": []
                 },
                 "name": "baz",
+                "escapedName": "baz",
                 "arguments": [],
                 "extAttrs": []
             }
@@ -183,7 +187,8 @@
                             ],
                             "extAttrs": []
                         },
-                        "name": "init"
+                        "name": "init",
+                        "escapedName": "init"
                     }
                 ],
                 "type": "extended-attribute",
@@ -239,6 +244,7 @@
                     "extAttrs": []
                 },
                 "name": "bar",
+                "escapedName": "bar",
                 "arguments": [],
                 "extAttrs": []
             }

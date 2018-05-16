@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "name",
+                "escapedName": "name",
                 "extAttrs": []
             },
             {
@@ -38,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "owner",
+                "escapedName": "owner",
                 "extAttrs": []
             },
             {
@@ -57,6 +59,7 @@
                     "extAttrs": []
                 },
                 "name": "isMemberOfBreed",
+                "escapedName": "isMemberOfBreed",
                 "arguments": [
                     {
                         "optional": false,
@@ -81,7 +84,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "breedName"
+                        "name": "breedName",
+                        "escapedName": "breedName"
                     }
                 ],
                 "extAttrs": []

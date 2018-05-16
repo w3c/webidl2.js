@@ -39,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "type",
+                "escapedName": "type",
                 "extAttrs": []
             },
             {
@@ -57,6 +58,7 @@
                     "extAttrs": []
                 },
                 "name": "size",
+                "escapedName": "size",
                 "extAttrs": []
             },
             {
@@ -76,6 +78,7 @@
                     "extAttrs": []
                 },
                 "name": "initialize",
+                "escapedName": "initialize",
                 "arguments": [
                     {
                         "optional": false,
@@ -90,7 +93,8 @@
                             "idlType": "MealType",
                             "extAttrs": []
                         },
-                        "name": "type"
+                        "name": "type",
+                        "escapedName": "type"
                     },
                     {
                         "optional": false,
@@ -105,7 +109,8 @@
                             "idlType": "float",
                             "extAttrs": []
                         },
-                        "name": "size"
+                        "name": "size",
+                        "escapedName": "size"
                     }
                 ],
                 "extAttrs": []

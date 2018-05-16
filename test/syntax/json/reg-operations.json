@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "width",
+                "escapedName": "width",
                 "extAttrs": []
             },
             {
@@ -38,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "height",
+                "escapedName": "height",
                 "extAttrs": []
             }
         ],
@@ -66,6 +68,7 @@
                     "extAttrs": []
                 },
                 "name": "isMouseOver",
+                "escapedName": "isMouseOver",
                 "arguments": [],
                 "extAttrs": []
             },
@@ -86,6 +89,7 @@
                     "extAttrs": []
                 },
                 "name": "setDimensions",
+                "escapedName": "setDimensions",
                 "arguments": [
                     {
                         "optional": false,
@@ -100,7 +104,8 @@
                             "idlType": "Dimensions",
                             "extAttrs": []
                         },
-                        "name": "size"
+                        "name": "size",
+                        "escapedName": "size"
                     }
                 ],
                 "extAttrs": []
@@ -122,6 +127,7 @@
                     "extAttrs": []
                 },
                 "name": "setDimensions",
+                "escapedName": "setDimensions",
                 "arguments": [
                     {
                         "optional": false,
@@ -136,7 +142,8 @@
                             "idlType": "unsigned long",
                             "extAttrs": []
                         },
-                        "name": "width"
+                        "name": "width",
+                        "escapedName": "width"
                     },
                     {
                         "optional": false,
@@ -151,7 +158,8 @@
                             "idlType": "unsigned long",
                             "extAttrs": []
                         },
-                        "name": "height"
+                        "name": "height",
+                        "escapedName": "height"
                     }
                 ],
                 "extAttrs": []

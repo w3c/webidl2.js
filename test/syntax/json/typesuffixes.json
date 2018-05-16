@@ -21,6 +21,7 @@
                     "extAttrs": []
                 },
                 "name": "test",
+                "escapedName": "test",
                 "arguments": [
                     {
                         "optional": false,
@@ -43,7 +44,8 @@
                             },
                             "extAttrs": []
                         },
-                        "name": "foo"
+                        "name": "foo",
+                        "escapedName": "foo"
                     }
                 ],
                 "extAttrs": []

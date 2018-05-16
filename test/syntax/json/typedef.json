@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "x",
+                "escapedName": "x",
                 "extAttrs": []
             },
             {
@@ -38,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "y",
+                "escapedName": "y",
                 "extAttrs": []
             }
         ],
@@ -87,6 +89,7 @@
                     "extAttrs": []
                 },
                 "name": "topleft",
+                "escapedName": "topleft",
                 "extAttrs": []
             },
             {
@@ -105,6 +108,7 @@
                     "extAttrs": []
                 },
                 "name": "bottomright",
+                "escapedName": "bottomright",
                 "extAttrs": []
             }
         ],
@@ -132,6 +136,7 @@
                     "extAttrs": []
                 },
                 "name": "bounds",
+                "escapedName": "bounds",
                 "extAttrs": []
             },
             {
@@ -151,6 +156,7 @@
                     "extAttrs": []
                 },
                 "name": "pointWithinBounds",
+                "escapedName": "pointWithinBounds",
                 "arguments": [
                     {
                         "optional": false,
@@ -165,7 +171,8 @@
                             "idlType": "Point",
                             "extAttrs": []
                         },
-                        "name": "p"
+                        "name": "p",
+                        "escapedName": "p"
                     }
                 ],
                 "extAttrs": []
@@ -187,6 +194,7 @@
                     "extAttrs": []
                 },
                 "name": "allPointsWithinBounds",
+                "escapedName": "allPointsWithinBounds",
                 "arguments": [
                     {
                         "optional": false,
@@ -201,7 +209,8 @@
                             "idlType": "PointSequence",
                             "extAttrs": []
                         },
-                        "name": "ps"
+                        "name": "ps",
+                        "escapedName": "ps"
                     }
                 ],
                 "extAttrs": []

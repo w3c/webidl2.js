@@ -25,7 +25,8 @@
                     "idlType": "DOMString",
                     "extAttrs": []
                 },
-                "name": "status"
+                "name": "status",
+                "escapedName": "status"
             }
         ],
         "extAttrs": []
@@ -52,6 +53,7 @@
                     "extAttrs": []
                 },
                 "name": "eventOccurred",
+                "escapedName": "eventOccurred",
                 "arguments": [
                     {
                         "optional": false,
@@ -66,7 +68,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "details"
+                        "name": "details",
+                        "escapedName": "details"
                     }
                 ],
                 "extAttrs": []
@@ -101,7 +104,8 @@
                     "idlType": "any",
                     "extAttrs": []
                 },
-                "name": "a"
+                "name": "a",
+                "escapedName": "a"
             },
             {
                 "optional": false,
@@ -116,7 +120,8 @@
                     "idlType": "any",
                     "extAttrs": []
                 },
-                "name": "b"
+                "name": "b",
+                "escapedName": "b"
             }
         ],
         "extAttrs": []

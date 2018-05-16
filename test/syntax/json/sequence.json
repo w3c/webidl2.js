@@ -21,6 +21,7 @@
                     "extAttrs": []
                 },
                 "name": "drawPolygon",
+                "escapedName": "drawPolygon",
                 "arguments": [
                     {
                         "optional": false,
@@ -43,7 +44,8 @@
                             },
                             "extAttrs": []
                         },
-                        "name": "coordinates"
+                        "name": "coordinates",
+                        "escapedName": "coordinates"
                     }
                 ],
                 "extAttrs": []
@@ -73,6 +75,7 @@
                     "extAttrs": []
                 },
                 "name": "getInflectionPoints",
+                "escapedName": "getInflectionPoints",
                 "arguments": [],
                 "extAttrs": []
             }
@@ -102,6 +105,7 @@
                     "extAttrs": []
                 },
                 "name": "bar",
+                "escapedName": "bar",
                 "arguments": [],
                 "extAttrs": []
             }
@@ -131,6 +135,7 @@
                     "extAttrs": []
                 },
                 "name": "f1",
+                "escapedName": "f1",
                 "arguments": [
                     {
                         "optional": false,
@@ -160,7 +165,8 @@
                             },
                             "extAttrs": []
                         },
-                        "name": "arg"
+                        "name": "arg",
+                        "escapedName": "arg"
                     }
                 ],
                 "extAttrs": []

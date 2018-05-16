@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "value",
+                "escapedName": "value",
                 "extAttrs": [
                     {
                         "name": "Replaceable",
@@ -46,6 +47,7 @@
                     "extAttrs": []
                 },
                 "name": "increment",
+                "escapedName": "increment",
                 "arguments": [],
                 "extAttrs": []
             }

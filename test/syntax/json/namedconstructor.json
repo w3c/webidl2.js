@@ -31,7 +31,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "src"
+                        "name": "src",
+                        "escapedName": "src"
                     }
                 ],
                 "type": "extended-attribute",

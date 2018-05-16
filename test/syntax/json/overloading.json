@@ -37,6 +37,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -51,7 +52,8 @@
                             "idlType": "A",
                             "extAttrs": []
                         },
-                        "name": "x"
+                        "name": "x",
+                        "escapedName": "x"
                     }
                 ],
                 "extAttrs": []
@@ -73,6 +75,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -87,7 +90,8 @@
                             "idlType": "B",
                             "extAttrs": []
                         },
-                        "name": "x"
+                        "name": "x",
+                        "escapedName": "x"
                     }
                 ],
                 "extAttrs": []
@@ -118,6 +122,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -132,7 +137,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "a"
+                        "name": "a",
+                        "escapedName": "a"
                     }
                 ],
                 "extAttrs": []
@@ -154,6 +160,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -175,7 +182,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "a"
+                        "name": "a",
+                        "escapedName": "a"
                     },
                     {
                         "optional": false,
@@ -190,7 +198,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "b"
+                        "name": "b",
+                        "escapedName": "b"
                     },
                     {
                         "optional": false,
@@ -205,7 +214,8 @@
                             "idlType": "float",
                             "extAttrs": []
                         },
-                        "name": "c"
+                        "name": "c",
+                        "escapedName": "c"
                     }
                 ],
                 "extAttrs": []
@@ -227,6 +237,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [],
                 "extAttrs": []
             },
@@ -247,6 +258,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -261,7 +273,8 @@
                             "idlType": "long",
                             "extAttrs": []
                         },
-                        "name": "a"
+                        "name": "a",
+                        "escapedName": "a"
                     },
                     {
                         "optional": false,
@@ -276,7 +289,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "b"
+                        "name": "b",
+                        "escapedName": "b"
                     },
                     {
                         "optional": true,
@@ -291,7 +305,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "c"
+                        "name": "c",
+                        "escapedName": "c"
                     },
                     {
                         "optional": false,
@@ -306,7 +321,8 @@
                             "idlType": "float",
                             "extAttrs": []
                         },
-                        "name": "d"
+                        "name": "d",
+                        "escapedName": "d"
                     }
                 ],
                 "extAttrs": []

@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "id",
+                "escapedName": "id",
                 "extAttrs": []
             },
             {
@@ -38,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "name",
+                "escapedName": "name",
                 "extAttrs": []
             }
         ],
