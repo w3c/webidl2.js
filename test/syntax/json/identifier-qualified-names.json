@@ -138,50 +138,5 @@
         ],
         "inheritance": null,
         "extAttrs": []
-    },
-    {
-        "type": "interface",
-        "name": "Foo",
-        "partial": false,
-        "members": [
-            {
-                "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
-                "idlType": {
-                    "type": "return-type",
-                    "sequence": false,
-                    "generic": null,
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "void",
-                    "extAttrs": []
-                },
-                "name": "op",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "sequence": false,
-                            "generic": null,
-                            "nullable": false,
-                            "union": false,
-                            "idlType": "object",
-                            "extAttrs": []
-                        },
-                        "name": "interface"
-                    }
-                ],
-                "extAttrs": []
-            }
-        ],
-        "inheritance": null,
-        "extAttrs": []
     }
 ]
