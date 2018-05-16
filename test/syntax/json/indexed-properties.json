@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "size",
+                "escapedName": "size",
                 "extAttrs": []
             },
             {
@@ -39,6 +40,7 @@
                     "extAttrs": []
                 },
                 "name": "getByIndex",
+                "escapedName": "getByIndex",
                 "arguments": [
                     {
                         "optional": false,
@@ -53,7 +55,8 @@
                             "idlType": "unsigned long",
                             "extAttrs": []
                         },
-                        "name": "index"
+                        "name": "index",
+                        "escapedName": "index"
                     }
                 ],
                 "extAttrs": []
@@ -75,6 +78,7 @@
                     "extAttrs": []
                 },
                 "name": "setByIndex",
+                "escapedName": "setByIndex",
                 "arguments": [
                     {
                         "optional": false,
@@ -89,7 +93,8 @@
                             "idlType": "unsigned long",
                             "extAttrs": []
                         },
-                        "name": "index"
+                        "name": "index",
+                        "escapedName": "index"
                     },
                     {
                         "optional": false,
@@ -104,7 +109,8 @@
                             "idlType": "any",
                             "extAttrs": []
                         },
-                        "name": "value"
+                        "name": "value",
+                        "escapedName": "value"
                     }
                 ],
                 "extAttrs": []
@@ -126,6 +132,7 @@
                     "extAttrs": []
                 },
                 "name": "removeByIndex",
+                "escapedName": "removeByIndex",
                 "arguments": [
                     {
                         "optional": false,
@@ -140,7 +147,8 @@
                             "idlType": "unsigned long",
                             "extAttrs": []
                         },
-                        "name": "index"
+                        "name": "index",
+                        "escapedName": "index"
                     }
                 ],
                 "extAttrs": []
@@ -162,6 +170,7 @@
                     "extAttrs": []
                 },
                 "name": "get",
+                "escapedName": "get",
                 "arguments": [
                     {
                         "optional": false,
@@ -176,7 +185,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "name"
+                        "name": "name",
+                        "escapedName": "name"
                     }
                 ],
                 "extAttrs": []
@@ -198,6 +208,7 @@
                     "extAttrs": []
                 },
                 "name": "set",
+                "escapedName": "set",
                 "arguments": [
                     {
                         "optional": false,
@@ -212,7 +223,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "name"
+                        "name": "name",
+                        "escapedName": "name"
                     },
                     {
                         "optional": false,
@@ -227,7 +239,8 @@
                             "idlType": "any",
                             "extAttrs": []
                         },
-                        "name": "value"
+                        "name": "value",
+                        "escapedName": "value"
                     }
                 ],
                 "extAttrs": []
@@ -249,6 +262,7 @@
                     "extAttrs": []
                 },
                 "name": "remove",
+                "escapedName": "remove",
                 "arguments": [
                     {
                         "optional": false,
@@ -263,7 +277,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "name"
+                        "name": "name",
+                        "escapedName": "name"
                     }
                 ],
                 "extAttrs": []

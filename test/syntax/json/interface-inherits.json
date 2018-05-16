@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "name",
+                "escapedName": "name",
                 "extAttrs": []
             }
         ],
@@ -47,6 +48,7 @@
                     "extAttrs": []
                 },
                 "name": "pet",
+                "escapedName": "pet",
                 "extAttrs": []
             }
         ],
@@ -74,6 +76,7 @@
                     "extAttrs": []
                 },
                 "name": "owner",
+                "escapedName": "owner",
                 "extAttrs": []
             }
         ],

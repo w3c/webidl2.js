@@ -21,6 +21,7 @@
                     "extAttrs": []
                 },
                 "name": "lookupEntry",
+                "escapedName": "lookupEntry",
                 "arguments": [
                     {
                         "optional": false,
@@ -35,7 +36,8 @@
                             "idlType": "unsigned long",
                             "extAttrs": []
                         },
-                        "name": "key"
+                        "name": "key",
+                        "escapedName": "key"
                     }
                 ],
                 "extAttrs": []

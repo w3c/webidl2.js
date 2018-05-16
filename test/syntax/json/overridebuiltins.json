@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "length",
+                "escapedName": "length",
                 "extAttrs": []
             },
             {
@@ -39,6 +40,7 @@
                     "extAttrs": []
                 },
                 "name": "lookup",
+                "escapedName": "lookup",
                 "arguments": [
                     {
                         "optional": false,
@@ -53,7 +55,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "key"
+                        "name": "key",
+                        "escapedName": "key"
                     }
                 ],
                 "extAttrs": []

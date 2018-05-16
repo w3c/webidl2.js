@@ -7,6 +7,7 @@
             {
                 "type": "field",
                 "name": "fillPattern",
+                "escapedName": "fillPattern",
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
@@ -26,6 +27,7 @@
             {
                 "type": "field",
                 "name": "strokePattern",
+                "escapedName": "strokePattern",
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
@@ -44,6 +46,7 @@
             {
                 "type": "field",
                 "name": "position",
+                "escapedName": "position",
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
@@ -68,6 +71,7 @@
             {
                 "type": "field",
                 "name": "hydrometry",
+                "escapedName": "hydrometry",
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",

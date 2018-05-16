@@ -86,6 +86,7 @@
                     "extAttrs": []
                 },
                 "name": "r",
+                "escapedName": "r",
                 "extAttrs": []
             },
             {
@@ -104,6 +105,7 @@
                     "extAttrs": []
                 },
                 "name": "cx",
+                "escapedName": "cx",
                 "extAttrs": []
             },
             {
@@ -122,6 +124,7 @@
                     "extAttrs": []
                 },
                 "name": "cy",
+                "escapedName": "cy",
                 "extAttrs": []
             },
             {
@@ -140,6 +143,7 @@
                     "extAttrs": []
                 },
                 "name": "circumference",
+                "escapedName": "circumference",
                 "extAttrs": []
             }
         ],
@@ -167,7 +171,8 @@
                             "idlType": "double",
                             "extAttrs": []
                         },
-                        "name": "radius"
+                        "name": "radius",
+                        "escapedName": "radius"
                     }
                 ],
                 "type": "extended-attribute",
@@ -222,6 +227,7 @@
                     ]
                 },
                 "name": "attrib",
+                "escapedName": "attrib",
                 "extAttrs": []
             }
         ],

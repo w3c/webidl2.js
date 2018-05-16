@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "propertyCount",
+                "escapedName": "propertyCount",
                 "extAttrs": []
             },
             {
@@ -39,6 +40,7 @@
                     "extAttrs": []
                 },
                 "name": null,
+                "escapedName": null,
                 "arguments": [
                     {
                         "optional": false,
@@ -53,7 +55,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "propertyName"
+                        "name": "propertyName",
+                        "escapedName": "propertyName"
                     }
                 ],
                 "extAttrs": []
@@ -75,6 +78,7 @@
                     "extAttrs": []
                 },
                 "name": null,
+                "escapedName": null,
                 "arguments": [
                     {
                         "optional": false,
@@ -89,7 +93,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "propertyName"
+                        "name": "propertyName",
+                        "escapedName": "propertyName"
                     },
                     {
                         "optional": false,
@@ -104,7 +109,8 @@
                             "idlType": "float",
                             "extAttrs": []
                         },
-                        "name": "propertyValue"
+                        "name": "propertyValue",
+                        "escapedName": "propertyValue"
                     }
                 ],
                 "extAttrs": []

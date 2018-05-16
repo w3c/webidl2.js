@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "truth",
+                "escapedName": "truth",
                 "extAttrs": []
             },
             {
@@ -38,6 +39,7 @@
                     "extAttrs": []
                 },
                 "name": "character",
+                "escapedName": "character",
                 "extAttrs": []
             },
             {
@@ -56,6 +58,7 @@
                     "extAttrs": []
                 },
                 "name": "value",
+                "escapedName": "value",
                 "extAttrs": []
             },
             {
@@ -74,6 +77,7 @@
                     "extAttrs": []
                 },
                 "name": "number",
+                "escapedName": "number",
                 "extAttrs": []
             },
             {
@@ -92,6 +96,7 @@
                     "extAttrs": []
                 },
                 "name": "positive",
+                "escapedName": "positive",
                 "extAttrs": []
             },
             {
@@ -110,6 +115,7 @@
                     "extAttrs": []
                 },
                 "name": "big",
+                "escapedName": "big",
                 "extAttrs": []
             },
             {
@@ -128,6 +134,7 @@
                     "extAttrs": []
                 },
                 "name": "bigpositive",
+                "escapedName": "bigpositive",
                 "extAttrs": []
             },
             {
@@ -146,6 +153,7 @@
                     "extAttrs": []
                 },
                 "name": "bigbig",
+                "escapedName": "bigbig",
                 "extAttrs": []
             },
             {
@@ -164,6 +172,7 @@
                     "extAttrs": []
                 },
                 "name": "bigbigpositive",
+                "escapedName": "bigbigpositive",
                 "extAttrs": []
             },
             {
@@ -182,6 +191,7 @@
                     "extAttrs": []
                 },
                 "name": "real",
+                "escapedName": "real",
                 "extAttrs": []
             },
             {
@@ -200,6 +210,7 @@
                     "extAttrs": []
                 },
                 "name": "bigreal",
+                "escapedName": "bigreal",
                 "extAttrs": []
             },
             {
@@ -218,6 +229,7 @@
                     "extAttrs": []
                 },
                 "name": "realwithinfinity",
+                "escapedName": "realwithinfinity",
                 "extAttrs": []
             },
             {
@@ -236,6 +248,7 @@
                     "extAttrs": []
                 },
                 "name": "bigrealwithinfinity",
+                "escapedName": "bigrealwithinfinity",
                 "extAttrs": []
             },
             {
@@ -254,6 +267,7 @@
                     "extAttrs": []
                 },
                 "name": "string",
+                "escapedName": "string",
                 "extAttrs": []
             },
             {
@@ -272,6 +286,7 @@
                     "extAttrs": []
                 },
                 "name": "bytes",
+                "escapedName": "bytes",
                 "extAttrs": []
             },
             {
@@ -290,6 +305,7 @@
                     "extAttrs": []
                 },
                 "name": "date",
+                "escapedName": "date",
                 "extAttrs": []
             },
             {
@@ -308,6 +324,7 @@
                     "extAttrs": []
                 },
                 "name": "regexp",
+                "escapedName": "regexp",
                 "extAttrs": []
             }
         ],

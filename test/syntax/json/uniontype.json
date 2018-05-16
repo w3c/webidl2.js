@@ -86,6 +86,7 @@
                     "extAttrs": []
                 },
                 "name": "test",
+                "escapedName": "test",
                 "extAttrs": []
             },
             {
@@ -130,6 +131,7 @@
                     "extAttrs": []
                 },
                 "name": "test2",
+                "escapedName": "test2",
                 "extAttrs": []
             }
         ],

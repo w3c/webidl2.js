@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "unit",
+                "escapedName": "unit",
                 "extAttrs": []
             },
             {
@@ -39,6 +40,7 @@
                     "extAttrs": []
                 },
                 "name": "dotProduct",
+                "escapedName": "dotProduct",
                 "arguments": [
                     {
                         "optional": false,
@@ -53,7 +55,8 @@
                             "idlType": "Vector",
                             "extAttrs": []
                         },
-                        "name": "x"
+                        "name": "x",
+                        "escapedName": "x"
                     },
                     {
                         "optional": false,
@@ -68,7 +71,8 @@
                             "idlType": "Vector",
                             "extAttrs": []
                         },
-                        "name": "y"
+                        "name": "y",
+                        "escapedName": "y"
                     }
                 ],
                 "extAttrs": []
@@ -90,6 +94,7 @@
                     "extAttrs": []
                 },
                 "name": "crossProduct",
+                "escapedName": "crossProduct",
                 "arguments": [
                     {
                         "optional": false,
@@ -104,7 +109,8 @@
                             "idlType": "Vector",
                             "extAttrs": []
                         },
-                        "name": "x"
+                        "name": "x",
+                        "escapedName": "x"
                     },
                     {
                         "optional": false,
@@ -119,7 +125,8 @@
                             "idlType": "Vector",
                             "extAttrs": []
                         },
-                        "name": "y"
+                        "name": "y",
+                        "escapedName": "y"
                     }
                 ],
                 "extAttrs": []

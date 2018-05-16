@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "name",
+                "escapedName": "name",
                 "extAttrs": [
                     {
                         "name": "PutForwards",
@@ -48,6 +49,7 @@
                     "extAttrs": []
                 },
                 "name": "age",
+                "escapedName": "age",
                 "extAttrs": []
             }
         ],

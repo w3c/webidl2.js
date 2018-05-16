@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "nodeType",
+                "escapedName": "nodeType",
                 "extAttrs": []
             }
         ],
@@ -48,6 +49,7 @@
                     "extAttrs": []
                 },
                 "name": "addEventListener",
+                "escapedName": "addEventListener",
                 "arguments": [
                     {
                         "optional": false,
@@ -62,7 +64,8 @@
                             "idlType": "DOMString",
                             "extAttrs": []
                         },
-                        "name": "type"
+                        "name": "type",
+                        "escapedName": "type"
                     },
                     {
                         "optional": false,
@@ -77,7 +80,8 @@
                             "idlType": "EventListener",
                             "extAttrs": []
                         },
-                        "name": "listener"
+                        "name": "listener",
+                        "escapedName": "listener"
                     },
                     {
                         "optional": false,
@@ -92,7 +96,8 @@
                             "idlType": "boolean",
                             "extAttrs": []
                         },
-                        "name": "useCapture"
+                        "name": "useCapture",
+                        "escapedName": "useCapture"
                     }
                 ],
                 "extAttrs": []

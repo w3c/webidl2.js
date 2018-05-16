@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "cardinality",
+                "escapedName": "cardinality",
                 "extAttrs": []
             },
             {
@@ -39,6 +40,7 @@
                     "extAttrs": []
                 },
                 "name": "union",
+                "escapedName": "union",
                 "arguments": [
                     {
                         "optional": false,
@@ -53,7 +55,8 @@
                             "idlType": "long",
                             "extAttrs": []
                         },
-                        "name": "ints"
+                        "name": "ints",
+                        "escapedName": "ints"
                     }
                 ],
                 "extAttrs": []
@@ -75,6 +78,7 @@
                     "extAttrs": []
                 },
                 "name": "intersection",
+                "escapedName": "intersection",
                 "arguments": [
                     {
                         "optional": false,
@@ -89,7 +93,8 @@
                             "idlType": "long",
                             "extAttrs": []
                         },
-                        "name": "ints"
+                        "name": "ints",
+                        "escapedName": "ints"
                     }
                 ],
                 "extAttrs": []

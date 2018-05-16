@@ -48,6 +48,7 @@
                     "extAttrs": []
                 },
                 "name": "namespaceURI",
+                "escapedName": "namespaceURI",
                 "extAttrs": []
             }
         ],

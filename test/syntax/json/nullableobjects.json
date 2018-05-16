@@ -37,6 +37,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -51,7 +52,8 @@
                             "idlType": "A",
                             "extAttrs": []
                         },
-                        "name": "x"
+                        "name": "x",
+                        "escapedName": "x"
                     }
                 ],
                 "extAttrs": []
@@ -73,6 +75,7 @@
                     "extAttrs": []
                 },
                 "name": "f",
+                "escapedName": "f",
                 "arguments": [
                     {
                         "optional": false,
@@ -87,7 +90,8 @@
                             "idlType": "B",
                             "extAttrs": []
                         },
-                        "name": "x"
+                        "name": "x",
+                        "escapedName": "x"
                     }
                 ],
                 "extAttrs": []

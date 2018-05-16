@@ -20,6 +20,7 @@
                     "extAttrs": []
                 },
                 "name": "bar",
+                "escapedName": "bar",
                 "extAttrs": []
             }
         ],
@@ -47,6 +48,7 @@
                     "extAttrs": []
                 },
                 "name": "quux",
+                "escapedName": "quux",
                 "extAttrs": []
             }
         ],
