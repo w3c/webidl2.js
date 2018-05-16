@@ -20,5 +20,8 @@
     "acquire": "node test/util/acquire.js"
   },
   "repository": "git://github.com/w3c/webidl2.js",
-  "main": "index"
+  "main": "index",
+  "files": [
+    "lib/*"
+  ]
 }
