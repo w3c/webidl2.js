@@ -10,7 +10,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
@@ -25,7 +25,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "float",
                         "baseName": "float",
@@ -63,7 +63,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
@@ -78,7 +78,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "float",
                         "baseName": "float",
@@ -116,7 +116,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
@@ -138,7 +138,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",

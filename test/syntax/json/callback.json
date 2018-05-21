@@ -5,7 +5,7 @@
         "idlType": {
             "type": "return-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "void",
             "baseName": null,
@@ -23,7 +23,7 @@
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -56,7 +56,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
                     "baseName": null,
@@ -76,7 +76,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
                             "baseName": "DOMString",
@@ -111,7 +111,7 @@
         "idlType": {
             "type": "return-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "boolean",
             "baseName": "boolean",
@@ -132,7 +132,7 @@
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "any",
                     "baseName": "any",
@@ -155,7 +155,7 @@
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "any",
                     "baseName": "any",

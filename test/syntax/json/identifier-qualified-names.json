@@ -4,7 +4,7 @@
         "idlType": {
             "type": "typedef-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "float",
             "baseName": "float",
@@ -34,7 +34,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "object",
                     "baseName": "object",
@@ -57,7 +57,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
                             "baseName": "DOMString",
@@ -85,7 +85,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -108,7 +108,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
                             "baseName": "DOMString",
@@ -151,7 +151,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
@@ -176,7 +176,9 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -218,7 +220,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
                     "baseName": null,
@@ -238,7 +240,9 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": true,
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": false,
                             "idlType": "EventListener",
                             "baseName": "EventListener",

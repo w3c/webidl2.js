@@ -9,7 +9,9 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
@@ -53,7 +55,9 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",

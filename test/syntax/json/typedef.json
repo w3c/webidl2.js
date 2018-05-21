@@ -13,7 +13,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -38,7 +38,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -76,13 +76,13 @@
                     "close": ""
                 }
             },
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": [
                 {
                     "type": "typedef-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "Point",
                     "baseName": "Point",
@@ -121,7 +121,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "Point",
                     "baseName": "Point",
@@ -146,7 +146,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "Point",
                     "baseName": "Point",
@@ -187,7 +187,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "Rect",
                     "baseName": "Rect",
@@ -213,7 +213,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
@@ -236,7 +236,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "Point",
                             "baseName": "Point",
@@ -264,7 +264,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
@@ -287,7 +287,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "PointSequence",
                             "baseName": "PointSequence",
@@ -321,7 +321,7 @@
         "idlType": {
             "type": "typedef-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "octet",
             "baseName": "octet",

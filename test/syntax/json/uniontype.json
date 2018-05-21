@@ -13,19 +13,22 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": true,
                     "idlType": [
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
                             "baseName": "float",
                             "prefix": null,
                             "postfix": null,
-                            "separator": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
                             "extAttrs": [],
                             "trivia": {
                                 "base": ""
@@ -34,19 +37,22 @@
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": true,
                             "idlType": [
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "Date",
                                     "baseName": "Date",
                                     "prefix": null,
                                     "postfix": null,
-                                    "separator": null,
+                                    "separator": {
+                                        "value": "or",
+                                        "trivia": " "
+                                    },
                                     "extAttrs": [],
                                     "trivia": {
                                         "base": ""
@@ -55,7 +61,7 @@
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "Event",
                                     "baseName": "Event",
@@ -71,25 +77,37 @@
                             "baseName": null,
                             "prefix": null,
                             "postfix": null,
-                            "separator": null,
-                            "extAttrs": []
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
+                            "extAttrs": [],
+                            "trivia": {
+                                "open": " ",
+                                "close": ""
+                            }
                         },
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": true,
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": true,
                             "idlType": [
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "Node",
                                     "baseName": "Node",
                                     "prefix": null,
                                     "postfix": null,
-                                    "separator": null,
+                                    "separator": {
+                                        "value": "or",
+                                        "trivia": " "
+                                    },
                                     "extAttrs": [],
                                     "trivia": {
                                         "base": ""
@@ -98,7 +116,7 @@
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "DOMString",
                                     "baseName": "DOMString",
@@ -115,14 +133,22 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": []
+                            "extAttrs": [],
+                            "trivia": {
+                                "open": " ",
+                                "close": ""
+                            }
                         }
                     ],
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
                 },
                 "name": "test",
                 "escapedName": "test",
@@ -137,19 +163,22 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": true,
                     "idlType": [
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
                             "prefix": null,
                             "postfix": null,
-                            "separator": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
                             "extAttrs": [
                                 {
                                     "name": "EnforceRange",
@@ -165,7 +194,7 @@
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "Date",
                             "baseName": "Date",
@@ -182,7 +211,11 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
                 },
                 "name": "test2",
                 "escapedName": "test2",

@@ -93,7 +93,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -118,7 +118,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -143,7 +143,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -168,7 +168,7 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -211,7 +211,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "double",
                             "baseName": "double",
@@ -246,19 +246,22 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": true,
                     "idlType": [
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
                             "prefix": null,
                             "postfix": null,
-                            "separator": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
                             "extAttrs": [],
                             "trivia": {
                                 "base": ""
@@ -267,7 +270,7 @@
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "Node",
                             "baseName": "Node",
@@ -291,7 +294,11 @@
                             "type": "extended-attribute",
                             "rhs": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
                 },
                 "name": "attrib",
                 "escapedName": "attrib",

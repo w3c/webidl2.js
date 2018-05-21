@@ -4,19 +4,22 @@
         "idlType": {
             "type": "typedef-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": true,
             "idlType": [
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "ImageData",
                     "baseName": "ImageData",
                     "prefix": null,
                     "postfix": null,
-                    "separator": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
                     "extAttrs": [],
                     "trivia": {
                         "base": ""
@@ -25,13 +28,16 @@
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "HTMLImageElement",
                     "baseName": "HTMLImageElement",
                     "prefix": null,
                     "postfix": null,
-                    "separator": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n           "
@@ -40,13 +46,16 @@
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "HTMLCanvasElement",
                     "baseName": "HTMLCanvasElement",
                     "prefix": null,
                     "postfix": null,
-                    "separator": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n           "
@@ -55,7 +64,7 @@
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "HTMLVideoElement",
                     "baseName": "HTMLVideoElement",
@@ -72,7 +81,11 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": []
+            "extAttrs": [],
+            "trivia": {
+                "open": " ",
+                "close": ""
+            }
         },
         "name": "TexImageSource",
         "extAttrs": []

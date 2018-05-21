@@ -14,7 +14,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
                     "baseName": null,
@@ -40,13 +40,13 @@
                                     "close": ""
                                 }
                             },
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "float",
                                     "baseName": "float",
@@ -90,13 +90,13 @@
                             "close": ""
                         }
                     },
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
                             "baseName": "float",
@@ -149,7 +149,7 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
                     "baseName": null,
@@ -175,13 +175,13 @@
                                     "close": ""
                                 }
                             },
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "long",
                                     "baseName": "long",

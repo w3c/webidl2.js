@@ -10,7 +10,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
@@ -47,7 +47,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "short",
                         "baseName": "short",
@@ -62,7 +62,9 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": true,
+                        "nullable": {
+                            "trivia": ""
+                        },
                         "union": false,
                         "idlType": "double",
                         "baseName": "double",
@@ -99,7 +101,7 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",

@@ -9,7 +9,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
@@ -33,7 +33,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "short",
                     "baseName": "short",
@@ -57,7 +57,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "octet",
                     "baseName": "octet",
@@ -81,7 +81,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
@@ -108,7 +108,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -132,7 +132,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unrestricted float",
                     "baseName": "float",
@@ -159,7 +159,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unrestricted double",
                     "baseName": "double",
@@ -186,7 +186,7 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "short",
                     "baseName": "short",

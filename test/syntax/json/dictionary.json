@@ -12,7 +12,9 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -38,7 +40,9 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -63,7 +67,7 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "Point",
                     "baseName": "Point",
@@ -92,13 +96,13 @@
                             "close": ""
                         }
                     },
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": [
                         {
                             "type": "dictionary-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
@@ -134,7 +138,7 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "long",
                     "baseName": "long",
@@ -166,7 +170,7 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "long",
                     "baseName": "long",
@@ -189,7 +193,7 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "long",
                     "baseName": "long",
