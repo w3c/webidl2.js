@@ -12,7 +12,13 @@
                 "readonly": false,
                 "idlType": {
                     "type": "attribute-type",
-                    "generic": "Promise",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -25,13 +31,18 @@
                             "baseName": null,
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": []
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "Promise",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "meow",
                 "escapedName": "meow",

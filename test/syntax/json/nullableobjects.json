@@ -50,6 +50,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "f",
@@ -66,10 +67,14 @@
                             "nullable": true,
                             "union": false,
                             "idlType": "A",
-                            "baseName": null,
+                            "baseName": "A",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "x",
                         "escapedName": "x"
@@ -93,6 +98,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "f",
@@ -109,10 +115,14 @@
                             "nullable": true,
                             "union": false,
                             "idlType": "B",
-                            "baseName": null,
+                            "baseName": "B",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "x",
                         "escapedName": "x"

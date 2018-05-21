@@ -25,6 +25,7 @@
                             "baseName": "float",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": ""
@@ -42,10 +43,14 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Date",
-                                    "baseName": null,
+                                    "baseName": "Date",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 },
                                 {
                                     "type": null,
@@ -53,15 +58,20 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Event",
-                                    "baseName": null,
+                                    "baseName": "Event",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
                             "baseName": null,
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": []
                         },
                         {
@@ -76,10 +86,14 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Node",
-                                    "baseName": null,
+                                    "baseName": "Node",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 },
                                 {
                                     "type": null,
@@ -87,21 +101,27 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
-                                    "baseName": null,
+                                    "baseName": "DOMString",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
                             "baseName": null,
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": []
                         }
                     ],
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "test",
@@ -129,6 +149,7 @@
                             "baseName": "long",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [
                                 {
                                     "name": "EnforceRange",
@@ -147,15 +168,20 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Date",
-                            "baseName": null,
+                            "baseName": "Date",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         }
                     ],
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "test2",

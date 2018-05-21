@@ -13,10 +13,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "ImageData",
-                    "baseName": null,
+                    "baseName": "ImageData",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 },
                 {
                     "type": null,
@@ -24,10 +28,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLImageElement",
-                    "baseName": null,
+                    "baseName": "HTMLImageElement",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n           "
+                    }
                 },
                 {
                     "type": null,
@@ -35,10 +43,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLCanvasElement",
-                    "baseName": null,
+                    "baseName": "HTMLCanvasElement",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n           "
+                    }
                 },
                 {
                     "type": null,
@@ -46,15 +58,20 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLVideoElement",
-                    "baseName": null,
+                    "baseName": "HTMLVideoElement",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n           "
+                    }
                 }
             ],
             "baseName": null,
             "prefix": null,
             "postfix": null,
+            "separator": null,
             "extAttrs": []
         },
         "name": "TexImageSource",

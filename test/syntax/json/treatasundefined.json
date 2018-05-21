@@ -16,10 +16,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "name",
                 "escapedName": "name",
@@ -37,10 +41,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "owner",
                 "escapedName": "owner",
@@ -62,6 +70,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n\n  "
@@ -91,10 +100,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "breedName",
                         "escapedName": "breedName"

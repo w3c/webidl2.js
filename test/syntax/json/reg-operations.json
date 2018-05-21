@@ -22,6 +22,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -49,6 +50,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -90,6 +92,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n\n  // An operation that takes no arguments, returns a boolean\n  "
@@ -116,6 +119,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "setDimensions",
@@ -132,10 +136,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Dimensions",
-                            "baseName": null,
+                            "baseName": "Dimensions",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "size",
                         "escapedName": "size"
@@ -159,6 +167,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "setDimensions",
@@ -181,6 +190,7 @@
                                 "trivia": ""
                             },
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": " "
@@ -206,6 +216,7 @@
                                 "trivia": " "
                             },
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": " "

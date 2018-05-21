@@ -19,6 +19,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -43,6 +44,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -67,7 +69,13 @@
         "type": "typedef",
         "idlType": {
             "type": "typedef-type",
-            "generic": "sequence",
+            "generic": {
+                "value": "sequence",
+                "trivia": {
+                    "open": "",
+                    "close": ""
+                }
+            },
             "nullable": false,
             "union": false,
             "idlType": [
@@ -77,16 +85,24 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": null,
+                    "baseName": "Point",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 }
             ],
-            "baseName": null,
+            "baseName": "sequence",
             "prefix": null,
             "postfix": null,
-            "extAttrs": []
+            "separator": null,
+            "extAttrs": [],
+            "trivia": {
+                "base": " "
+            }
         },
         "name": "PointSequence",
         "extAttrs": []
@@ -108,10 +124,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": null,
+                    "baseName": "Point",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "topleft",
                 "escapedName": "topleft",
@@ -129,10 +149,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": null,
+                    "baseName": "Point",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bottomright",
                 "escapedName": "bottomright",
@@ -166,10 +190,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Rect",
-                    "baseName": null,
+                    "baseName": "Rect",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bounds",
                 "escapedName": "bounds",
@@ -191,6 +219,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n\n    "
@@ -210,10 +239,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Point",
-                            "baseName": null,
+                            "baseName": "Point",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "p",
                         "escapedName": "p"
@@ -237,6 +270,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n    "
@@ -256,10 +290,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "PointSequence",
-                            "baseName": null,
+                            "baseName": "PointSequence",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "ps",
                         "escapedName": "ps"
@@ -289,6 +327,7 @@
             "baseName": "octet",
             "prefix": null,
             "postfix": null,
+            "separator": null,
             "extAttrs": [
                 {
                     "name": "Clamp",

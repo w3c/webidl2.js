@@ -16,10 +16,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Name",
-                    "baseName": null,
+                    "baseName": "Name",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "name",
                 "escapedName": "name",
@@ -53,6 +57,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "

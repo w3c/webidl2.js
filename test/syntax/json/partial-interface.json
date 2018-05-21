@@ -16,10 +16,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bar",
                 "escapedName": "bar",
@@ -53,10 +57,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "quux",
                 "escapedName": "quux",

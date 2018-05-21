@@ -15,6 +15,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -55,10 +56,14 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "namespaceURI",
                 "escapedName": "namespaceURI",

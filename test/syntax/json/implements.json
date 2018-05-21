@@ -22,6 +22,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -63,6 +64,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "addEventListener",
@@ -79,10 +81,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "type",
                         "escapedName": "type"
@@ -98,10 +104,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "EventListener",
-                            "baseName": null,
+                            "baseName": "EventListener",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": "\n                          "
+                            }
                         },
                         "name": "listener",
                         "escapedName": "listener"
@@ -120,6 +130,7 @@
                             "baseName": "boolean",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": "\n                          "

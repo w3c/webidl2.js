@@ -20,6 +20,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "g",
@@ -43,6 +44,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "g",
@@ -59,10 +61,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "B",
-                            "baseName": null,
+                            "baseName": "B",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "b",
                         "escapedName": "b"
@@ -86,6 +92,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "g",
@@ -109,10 +116,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "s",
                         "escapedName": "s"

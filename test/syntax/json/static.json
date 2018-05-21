@@ -34,6 +34,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -58,6 +59,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -82,6 +84,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -106,6 +109,7 @@
                     "baseName": "long",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -128,10 +132,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": null,
+                    "baseName": "Point",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "triangulate",
                 "escapedName": "triangulate",
@@ -147,10 +155,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Circle",
-                            "baseName": null,
+                            "baseName": "Circle",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "c1",
                         "escapedName": "c1"
@@ -166,10 +178,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Circle",
-                            "baseName": null,
+                            "baseName": "Circle",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "c2",
                         "escapedName": "c2"
@@ -185,10 +201,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Circle",
-                            "baseName": null,
+                            "baseName": "Circle",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "c3",
                         "escapedName": "c3"

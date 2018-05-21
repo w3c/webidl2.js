@@ -20,6 +20,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "foo",
@@ -32,13 +33,25 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "generic": "sequence",
+                            "generic": {
+                                "value": "sequence",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
-                                    "generic": "record",
+                                    "generic": {
+                                        "value": "record",
+                                        "trivia": {
+                                            "open": "",
+                                            "close": ""
+                                        }
+                                    },
                                     "nullable": false,
                                     "union": false,
                                     "idlType": [
@@ -48,10 +61,17 @@
                                             "nullable": false,
                                             "union": false,
                                             "idlType": "ByteString",
-                                            "baseName": null,
+                                            "baseName": "ByteString",
                                             "prefix": null,
                                             "postfix": null,
-                                            "extAttrs": []
+                                            "separator": {
+                                                "value": ",",
+                                                "trivia": ""
+                                            },
+                                            "extAttrs": [],
+                                            "trivia": {
+                                                "base": ""
+                                            }
                                         },
                                         {
                                             "type": "argument-type",
@@ -59,22 +79,34 @@
                                             "nullable": false,
                                             "union": false,
                                             "idlType": "any",
-                                            "baseName": null,
+                                            "baseName": "any",
                                             "prefix": null,
                                             "postfix": null,
-                                            "extAttrs": []
+                                            "separator": null,
+                                            "extAttrs": [],
+                                            "trivia": {
+                                                "base": " "
+                                            }
                                         }
                                     ],
-                                    "baseName": null,
+                                    "baseName": "record",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 }
                             ],
-                            "baseName": null,
+                            "baseName": "sequence",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "param",
                         "escapedName": "param"
@@ -91,7 +123,13 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "record",
+                    "generic": {
+                        "value": "record",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -101,10 +139,17 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            },
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         {
                             "type": "return-type",
@@ -121,6 +166,7 @@
                                     "baseName": "float",
                                     "prefix": null,
                                     "postfix": null,
+                                    "separator": null,
                                     "extAttrs": [],
                                     "trivia": {
                                         "base": ""
@@ -132,22 +178,31 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
-                                    "baseName": null,
+                                    "baseName": "DOMString",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
                             "baseName": null,
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": []
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "record",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "bar",
                 "escapedName": "bar",
@@ -174,7 +229,13 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "generic": "record",
+                            "generic": {
+                                "value": "record",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
                             "nullable": false,
                             "union": false,
                             "idlType": [
@@ -184,10 +245,17 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "USVString",
-                                    "baseName": null,
+                                    "baseName": "USVString",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": {
+                                        "value": ",",
+                                        "trivia": ""
+                                    },
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 },
                                 {
                                     "type": "argument-type",
@@ -195,16 +263,24 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "USVString",
-                                    "baseName": null,
+                                    "baseName": "USVString",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
-                            "baseName": null,
+                            "baseName": "record",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "init",
                         "escapedName": "init"
@@ -229,7 +305,13 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "record",
+                    "generic": {
+                        "value": "record",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -239,10 +321,17 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            },
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         {
                             "type": "return-type",
@@ -253,6 +342,7 @@
                             "baseName": "float",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [
                                 {
                                     "name": "XAttr",
@@ -266,10 +356,14 @@
                             }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "record",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "bar",
                 "escapedName": "bar",

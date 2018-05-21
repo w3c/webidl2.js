@@ -22,6 +22,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -47,6 +48,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -66,10 +68,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "propertyName",
                         "escapedName": "propertyName"
@@ -93,6 +99,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "setProperty",
@@ -109,10 +116,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "propertyName",
                         "escapedName": "propertyName"
@@ -131,6 +142,7 @@
                             "baseName": "float",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": " "
@@ -176,6 +188,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -201,6 +214,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n\n  "
@@ -220,10 +234,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "propertyName",
                         "escapedName": "propertyName"
@@ -247,6 +265,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "setProperty",
@@ -263,10 +282,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "propertyName",
                         "escapedName": "propertyName"
@@ -285,6 +308,7 @@
                             "baseName": "float",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": " "
@@ -312,6 +336,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -331,10 +356,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "propertyName",
                         "escapedName": "propertyName"
@@ -358,6 +387,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": null,
@@ -374,10 +404,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "propertyName",
                         "escapedName": "propertyName"
@@ -396,6 +430,7 @@
                             "baseName": "float",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": " "

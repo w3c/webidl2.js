@@ -16,6 +16,7 @@
                         "baseName": "long",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
                         "trivia": {
                             "base": ""

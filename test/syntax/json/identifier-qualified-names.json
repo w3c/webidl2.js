@@ -10,6 +10,7 @@
             "baseName": "float",
             "prefix": null,
             "postfix": null,
+            "separator": null,
             "extAttrs": [],
             "trivia": {
                 "base": " "
@@ -36,10 +37,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "object",
-                    "baseName": null,
+                    "baseName": "object",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
+                    }
                 },
                 "name": "createObject",
                 "escapedName": "createObject",
@@ -55,10 +60,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "interface",
                         "escapedName": "_interface"
@@ -79,10 +88,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": null,
                 "escapedName": null,
@@ -98,10 +111,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "keyName",
                         "escapedName": "keyName"
@@ -140,6 +157,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -161,10 +179,14 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "value",
                 "escapedName": "_value",
@@ -202,6 +224,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "addEventListener",
@@ -218,10 +241,14 @@
                             "nullable": true,
                             "union": false,
                             "idlType": "EventListener",
-                            "baseName": null,
+                            "baseName": "EventListener",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "callback",
                         "escapedName": "callback"

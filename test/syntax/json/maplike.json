@@ -16,6 +16,7 @@
                         "baseName": "long",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
                         "trivia": {
                             "base": ""
@@ -30,6 +31,7 @@
                         "baseName": "float",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
                         "trivia": {
                             "base": " "
@@ -67,6 +69,7 @@
                         "baseName": "long",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
                         "trivia": {
                             "base": ""
@@ -81,6 +84,7 @@
                         "baseName": "float",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
                         "trivia": {
                             "base": " "
@@ -115,9 +119,10 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
-                        "baseName": null,
+                        "baseName": "DOMString",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [
                             {
                                 "name": "XAttr2",
@@ -125,7 +130,10 @@
                                 "type": "extended-attribute",
                                 "rhs": null
                             }
-                        ]
+                        ],
+                        "trivia": {
+                            "base": " "
+                        }
                     },
                     {
                         "type": null,
@@ -136,6 +144,7 @@
                         "baseName": "long",
                         "prefix": null,
                         "postfix": null,
+                        "separator": null,
                         "extAttrs": [
                             {
                                 "name": "XAttr3",

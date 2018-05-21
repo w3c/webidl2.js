@@ -11,6 +11,7 @@
             "baseName": null,
             "prefix": null,
             "postfix": null,
+            "separator": null,
             "extAttrs": []
         },
         "arguments": [
@@ -25,10 +26,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 },
                 "name": "status",
                 "escapedName": "status"
@@ -57,6 +62,7 @@
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": []
                 },
                 "name": "eventOccurred",
@@ -73,10 +79,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "details",
                         "escapedName": "details"
@@ -107,6 +117,7 @@
             "baseName": "boolean",
             "prefix": null,
             "postfix": null,
+            "separator": null,
             "extAttrs": [],
             "trivia": {
                 "base": " "
@@ -124,10 +135,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
-                    "baseName": null,
+                    "baseName": "any",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 },
                 "name": "a",
                 "escapedName": "a"
@@ -143,10 +158,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
-                    "baseName": null,
+                    "baseName": "any",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "b",
                 "escapedName": "b"

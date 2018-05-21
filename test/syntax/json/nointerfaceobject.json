@@ -17,10 +17,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
-                    "baseName": null,
+                    "baseName": "any",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "lookupEntry",
                 "escapedName": "lookupEntry",
@@ -42,6 +46,7 @@
                                 "trivia": ""
                             },
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": " "

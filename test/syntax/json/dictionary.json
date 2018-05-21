@@ -15,10 +15,14 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": {
@@ -37,10 +41,14 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": {
@@ -58,10 +66,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": null,
+                    "baseName": "Point",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": null
@@ -73,7 +85,13 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "generic": "sequence",
+                    "generic": {
+                        "value": "sequence",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -86,16 +104,21 @@
                             "baseName": "long",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": ""
                             }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "sequence",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to \"[]\".\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": {
@@ -117,6 +140,7 @@
                     "baseName": "long",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -148,6 +172,7 @@
                     "baseName": "long",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n  "
@@ -170,6 +195,7 @@
                     "baseName": "long",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n  "

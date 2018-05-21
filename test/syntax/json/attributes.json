@@ -22,6 +22,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -43,10 +44,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
-                    "baseName": null,
+                    "baseName": "any",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "required",
                 "escapedName": "required",

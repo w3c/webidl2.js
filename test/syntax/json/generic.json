@@ -13,19 +13,37 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "Promise",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
-                            "generic": "Promise",
+                            "generic": {
+                                "value": "Promise",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "return-type",
-                                    "generic": "sequence",
+                                    "generic": {
+                                        "value": "sequence",
+                                        "trivia": {
+                                            "open": "",
+                                            "close": ""
+                                        }
+                                    },
                                     "nullable": false,
                                     "union": false,
                                     "idlType": [
@@ -35,28 +53,44 @@
                                             "nullable": true,
                                             "union": false,
                                             "idlType": "DOMString",
-                                            "baseName": null,
+                                            "baseName": "DOMString",
                                             "prefix": null,
                                             "postfix": null,
-                                            "extAttrs": []
+                                            "separator": null,
+                                            "extAttrs": [],
+                                            "trivia": {
+                                                "base": ""
+                                            }
                                         }
                                     ],
-                                    "baseName": null,
+                                    "baseName": "sequence",
                                     "prefix": null,
                                     "postfix": null,
-                                    "extAttrs": []
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 }
                             ],
-                            "baseName": null,
+                            "baseName": "Promise",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "Promise",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "bar",
                 "escapedName": "bar",
@@ -71,7 +105,13 @@
                 "readonly": true,
                 "idlType": {
                     "type": "attribute-type",
-                    "generic": "Promise",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -81,16 +121,24 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": null,
+                            "baseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "Promise",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "baz",
                 "escapedName": "baz",
@@ -121,7 +169,13 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "Promise",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -131,16 +185,24 @@
                             "nullable": true,
                             "union": false,
                             "idlType": "Client",
-                            "baseName": null,
+                            "baseName": "Client",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "Promise",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "getServiced",
                 "escapedName": "getServiced",
@@ -156,7 +218,13 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "Promise",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -166,16 +234,24 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "any",
-                            "baseName": null,
+                            "baseName": "any",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "Promise",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "reloadAll",
                 "escapedName": "reloadAll",
@@ -207,7 +283,13 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "Promise",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -217,16 +299,24 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "any",
-                            "baseName": null,
+                            "baseName": "any",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "baseName": null,
+                    "baseName": "Promise",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "default",
                 "escapedName": "default",

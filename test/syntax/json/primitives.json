@@ -19,6 +19,7 @@
                     "baseName": "boolean",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -43,6 +44,7 @@
                     "baseName": "byte",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -67,6 +69,7 @@
                     "baseName": "octet",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -91,6 +94,7 @@
                     "baseName": "short",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -118,6 +122,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -142,6 +147,7 @@
                     "baseName": "long",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -169,6 +175,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -196,6 +203,7 @@
                         "value": "long",
                         "trivia": " "
                     },
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -226,6 +234,7 @@
                         "value": "long",
                         "trivia": " "
                     },
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -250,6 +259,7 @@
                     "baseName": "float",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -274,6 +284,7 @@
                     "baseName": "double",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -301,6 +312,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -328,6 +340,7 @@
                         "trivia": " "
                     },
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -349,10 +362,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "string",
                 "escapedName": "string",
@@ -370,10 +387,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "ByteString",
-                    "baseName": null,
+                    "baseName": "ByteString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bytes",
                 "escapedName": "bytes",
@@ -391,10 +412,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Date",
-                    "baseName": null,
+                    "baseName": "Date",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "date",
                 "escapedName": "date",
@@ -412,10 +437,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "RegExp",
-                    "baseName": null,
+                    "baseName": "RegExp",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "regexp",
                 "escapedName": "regexp",

@@ -16,10 +16,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
-                    "baseName": null,
+                    "baseName": "Crypto",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "crypto",
                 "escapedName": "crypto",
@@ -61,10 +65,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
-                    "baseName": null,
+                    "baseName": "Crypto",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "crypto",
                 "escapedName": "crypto",

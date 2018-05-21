@@ -16,10 +16,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Vector",
-                    "baseName": null,
+                    "baseName": "Vector",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "unit",
                 "escapedName": "unit",
@@ -41,6 +45,7 @@
                     "baseName": "double",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": "\n  "
@@ -60,10 +65,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
-                            "baseName": null,
+                            "baseName": "Vector",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "x",
                         "escapedName": "x"
@@ -79,10 +88,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
-                            "baseName": null,
+                            "baseName": "Vector",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "y",
                         "escapedName": "y"
@@ -103,10 +116,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Vector",
-                    "baseName": null,
+                    "baseName": "Vector",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "crossProduct",
                 "escapedName": "crossProduct",
@@ -122,10 +139,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
-                            "baseName": null,
+                            "baseName": "Vector",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "x",
                         "escapedName": "x"
@@ -141,10 +162,14 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
-                            "baseName": null,
+                            "baseName": "Vector",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "y",
                         "escapedName": "y"

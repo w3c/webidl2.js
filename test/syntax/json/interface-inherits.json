@@ -16,10 +16,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": null,
+                    "baseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "name",
                 "escapedName": "name",
@@ -53,10 +57,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Dog",
-                    "baseName": null,
+                    "baseName": "Dog",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "pet",
                 "escapedName": "pet",
@@ -90,10 +98,14 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Human",
-                    "baseName": null,
+                    "baseName": "Human",
                     "prefix": null,
                     "postfix": null,
-                    "extAttrs": []
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "owner",
                 "escapedName": "owner",

@@ -99,6 +99,7 @@
                     "baseName": "double",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -123,6 +124,7 @@
                     "baseName": "double",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -147,6 +149,7 @@
                     "baseName": "double",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -171,6 +174,7 @@
                     "baseName": "double",
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [],
                     "trivia": {
                         "base": " "
@@ -213,6 +217,7 @@
                             "baseName": "double",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": ""
@@ -253,6 +258,7 @@
                             "baseName": "long",
                             "prefix": null,
                             "postfix": null,
+                            "separator": null,
                             "extAttrs": [],
                             "trivia": {
                                 "base": ""
@@ -264,15 +270,20 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Node",
-                            "baseName": null,
+                            "baseName": "Node",
                             "prefix": null,
                             "postfix": null,
-                            "extAttrs": []
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         }
                     ],
                     "baseName": null,
                     "prefix": null,
                     "postfix": null,
+                    "separator": null,
                     "extAttrs": [
                         {
                             "name": "XAttr",
