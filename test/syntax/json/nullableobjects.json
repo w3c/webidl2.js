@@ -4,6 +4,13 @@
         "name": "A",
         "partial": false,
         "members": [],
+        "trivia": {
+            "base": "// Extracted from WebIDL spec 2011-05-23\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n  // ...\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": []
     },
@@ -12,6 +19,13 @@
         "name": "B",
         "partial": false,
         "members": [],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n  // ...\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": []
     },
@@ -95,6 +109,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": []
     }

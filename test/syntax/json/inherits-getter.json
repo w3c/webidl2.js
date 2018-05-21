@@ -23,6 +23,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": []
     },
@@ -68,6 +75,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": "Animal",
         "extAttrs": []
     },
@@ -95,6 +109,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": "Person",
         "extAttrs": []
     }

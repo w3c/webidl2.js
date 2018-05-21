@@ -41,6 +41,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": [
             {
