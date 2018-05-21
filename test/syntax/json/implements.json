@@ -16,7 +16,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "nodeType",
                 "escapedName": "nodeType",
@@ -51,6 +60,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "addEventListener",
@@ -67,6 +79,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "type",
@@ -83,6 +98,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "EventListener",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "listener",
@@ -99,7 +117,13 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "boolean",
-                            "extAttrs": []
+                            "baseName": "boolean",
+                            "prefix": null,
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": "\n                          "
+                            }
                         },
                         "name": "useCapture",
                         "escapedName": "useCapture"

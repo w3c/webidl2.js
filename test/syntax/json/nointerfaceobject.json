@@ -17,6 +17,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "lookupEntry",
@@ -33,7 +36,16 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "unsigned long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": {
+                                "value": "unsigned",
+                                "trivia": ""
+                            },
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "key",
                         "escapedName": "key"

@@ -16,6 +16,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "crypto",
@@ -58,6 +61,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "crypto",

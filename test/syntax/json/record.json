@@ -17,6 +17,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "foo",
@@ -45,6 +48,9 @@
                                             "nullable": false,
                                             "union": false,
                                             "idlType": "ByteString",
+                                            "baseName": null,
+                                            "prefix": null,
+                                            "postfix": null,
                                             "extAttrs": []
                                         },
                                         {
@@ -53,12 +59,21 @@
                                             "nullable": false,
                                             "union": false,
                                             "idlType": "any",
+                                            "baseName": null,
+                                            "prefix": null,
+                                            "postfix": null,
                                             "extAttrs": []
                                         }
                                     ],
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "param",
@@ -86,6 +101,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         {
@@ -100,7 +118,13 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "float",
-                                    "extAttrs": []
+                                    "baseName": "float",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 },
                                 {
                                     "type": null,
@@ -108,12 +132,21 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "bar",
@@ -151,6 +184,9 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "USVString",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 },
                                 {
@@ -159,9 +195,15 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "USVString",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "init",
@@ -197,6 +239,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         {
@@ -205,6 +250,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "float",
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": [
                                 {
                                     "name": "XAttr",
@@ -212,9 +260,15 @@
                                     "type": "extended-attribute",
                                     "rhs": null
                                 }
-                            ]
+                            ],
+                            "trivia": {
+                                "base": " "
+                            }
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "bar",

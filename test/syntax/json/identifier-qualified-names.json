@@ -7,7 +7,13 @@
             "nullable": false,
             "union": false,
             "idlType": "float",
-            "extAttrs": []
+            "baseName": "float",
+            "prefix": null,
+            "postfix": null,
+            "extAttrs": [],
+            "trivia": {
+                "base": " "
+            }
         },
         "name": "number",
         "extAttrs": []
@@ -30,6 +36,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "object",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "createObject",
@@ -46,6 +55,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "interface",
@@ -67,6 +79,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": null,
@@ -83,6 +98,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "keyName",
@@ -119,7 +137,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "const",
                 "escapedName": "_const",
@@ -137,6 +161,9 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "value",
@@ -172,6 +199,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "addEventListener",
@@ -188,6 +218,9 @@
                             "nullable": true,
                             "union": false,
                             "idlType": "EventListener",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "callback",

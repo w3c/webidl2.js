@@ -31,7 +31,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cx",
                 "escapedName": "cx",
@@ -49,7 +55,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cy",
                 "escapedName": "cy",
@@ -67,7 +79,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "radius",
                 "escapedName": "radius",
@@ -85,7 +103,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "triangulationCount",
                 "escapedName": "triangulationCount",
@@ -104,6 +128,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "triangulate",
@@ -120,6 +147,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Circle",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "c1",
@@ -136,6 +166,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Circle",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "c2",
@@ -152,6 +185,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Circle",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "c3",

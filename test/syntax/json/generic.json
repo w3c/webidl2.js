@@ -35,15 +35,27 @@
                                             "nullable": true,
                                             "union": false,
                                             "idlType": "DOMString",
+                                            "baseName": null,
+                                            "prefix": null,
+                                            "postfix": null,
                                             "extAttrs": []
                                         }
                                     ],
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "bar",
@@ -69,9 +81,15 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "baz",
@@ -113,9 +131,15 @@
                             "nullable": true,
                             "union": false,
                             "idlType": "Client",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "getServiced",
@@ -142,9 +166,15 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "any",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "reloadAll",
@@ -187,9 +217,15 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "any",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "default",

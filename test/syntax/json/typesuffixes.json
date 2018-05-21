@@ -17,6 +17,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "test",
@@ -39,9 +42,15 @@
                                     "nullable": true,
                                     "union": false,
                                     "idlType": "DOMString",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "foo",

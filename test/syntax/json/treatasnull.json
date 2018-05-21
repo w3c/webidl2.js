@@ -16,6 +16,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "name",
@@ -34,6 +37,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "owner",
@@ -53,7 +59,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n\n  "
+                    }
                 },
                 "name": "isMemberOfBreed",
                 "escapedName": "isMemberOfBreed",
@@ -79,6 +91,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "breedName",

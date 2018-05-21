@@ -17,6 +17,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "g",
@@ -37,6 +40,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "g",
@@ -53,6 +59,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "B",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "b",
@@ -74,6 +83,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "g",
@@ -97,6 +109,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "s",

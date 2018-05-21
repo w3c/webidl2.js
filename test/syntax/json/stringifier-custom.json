@@ -16,7 +16,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "id",
                 "escapedName": "id",
@@ -34,6 +43,9 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "familyName",
@@ -52,6 +64,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "givenName",
@@ -71,6 +86,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": null,

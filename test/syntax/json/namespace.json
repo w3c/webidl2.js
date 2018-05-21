@@ -16,6 +16,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Vector",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "unit",
@@ -35,7 +38,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "dotProduct",
                 "escapedName": "dotProduct",
@@ -51,6 +60,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "x",
@@ -67,6 +79,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "y",
@@ -88,6 +103,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Vector",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "crossProduct",
@@ -104,6 +122,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "x",
@@ -120,6 +141,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Vector",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "y",

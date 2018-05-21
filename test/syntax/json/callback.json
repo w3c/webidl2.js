@@ -8,6 +8,9 @@
             "nullable": false,
             "union": false,
             "idlType": "void",
+            "baseName": null,
+            "prefix": null,
+            "postfix": null,
             "extAttrs": []
         },
         "arguments": [
@@ -22,6 +25,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "status",
@@ -48,6 +54,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "eventOccurred",
@@ -64,6 +73,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "details",
@@ -92,7 +104,13 @@
             "nullable": false,
             "union": false,
             "idlType": "boolean",
-            "extAttrs": []
+            "baseName": "boolean",
+            "prefix": null,
+            "postfix": null,
+            "extAttrs": [],
+            "trivia": {
+                "base": " "
+            }
         },
         "arguments": [
             {
@@ -106,6 +124,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "a",
@@ -122,6 +143,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "b",

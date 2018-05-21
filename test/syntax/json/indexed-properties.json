@@ -16,7 +16,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "size",
                 "escapedName": "size",
@@ -35,6 +44,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "getByIndex",
@@ -51,7 +63,16 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "unsigned long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": {
+                                "value": "unsigned",
+                                "trivia": ""
+                            },
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "index",
                         "escapedName": "index"
@@ -72,6 +93,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "setByIndex",
@@ -88,7 +112,16 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "unsigned long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": {
+                                "value": "unsigned",
+                                "trivia": ""
+                            },
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "index",
                         "escapedName": "index"
@@ -104,6 +137,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "any",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "value",
@@ -125,6 +161,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "removeByIndex",
@@ -141,7 +180,16 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "unsigned long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": {
+                                "value": "unsigned",
+                                "trivia": ""
+                            },
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "index",
                         "escapedName": "index"
@@ -162,6 +210,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "get",
@@ -178,6 +229,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "name",
@@ -199,6 +253,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "set",
@@ -215,6 +272,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "name",
@@ -231,6 +291,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "any",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "value",
@@ -252,6 +315,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "remove",
@@ -268,6 +334,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "name",

@@ -12,7 +12,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "DEBUG",
                 "value": {
@@ -29,7 +35,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "negative",
                 "value": {
@@ -46,7 +58,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "octet",
-                    "extAttrs": []
+                    "baseName": "octet",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "LF",
                 "value": {
@@ -63,7 +81,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "BIT_MASK",
                 "value": {
@@ -80,7 +107,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "AVOGADRO",
                 "value": {
@@ -97,7 +130,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "sobig",
                 "value": {
@@ -114,7 +156,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "minusonedividedbyzero",
                 "value": {
@@ -131,7 +182,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "notanumber",
                 "value": {

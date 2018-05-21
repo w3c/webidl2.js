@@ -16,7 +16,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cardinality",
                 "escapedName": "cardinality",
@@ -35,6 +44,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "union",
@@ -51,7 +63,13 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": null,
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "ints",
                         "escapedName": "ints"
@@ -72,6 +90,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "intersection",
@@ -88,7 +109,13 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": null,
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "ints",
                         "escapedName": "ints"

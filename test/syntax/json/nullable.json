@@ -12,7 +12,13 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "ARE_WE_THERE_YET",
                 "value": {
@@ -49,6 +55,9 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "namespaceURI",

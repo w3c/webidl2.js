@@ -35,6 +35,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "MealType",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "type",
@@ -53,7 +56,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "size",
                 "escapedName": "size",
@@ -72,6 +81,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "void",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "initialize",
@@ -88,6 +100,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "MealType",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "type",
@@ -104,7 +119,13 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "size",
                         "escapedName": "size"

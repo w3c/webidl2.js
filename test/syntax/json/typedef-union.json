@@ -13,6 +13,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "ImageData",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 {
@@ -21,6 +24,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLImageElement",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 {
@@ -29,6 +35,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLCanvasElement",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 {
@@ -37,9 +46,15 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLVideoElement",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 }
             ],
+            "baseName": null,
+            "prefix": null,
+            "postfix": null,
             "extAttrs": []
         },
         "name": "TexImageSource",

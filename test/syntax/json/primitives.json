@@ -16,7 +16,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "truth",
                 "escapedName": "truth",
@@ -34,7 +40,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "byte",
-                    "extAttrs": []
+                    "baseName": "byte",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "character",
                 "escapedName": "character",
@@ -52,7 +64,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "octet",
-                    "extAttrs": []
+                    "baseName": "octet",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "value",
                 "escapedName": "value",
@@ -70,7 +88,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "number",
                 "escapedName": "number",
@@ -88,7 +112,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "positive",
                 "escapedName": "positive",
@@ -106,7 +139,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "big",
                 "escapedName": "big",
@@ -124,7 +163,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bigpositive",
                 "escapedName": "bigpositive",
@@ -142,7 +190,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": null,
+                    "postfix": {
+                        "value": "long",
+                        "trivia": " "
+                    },
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bigbig",
                 "escapedName": "bigbig",
@@ -160,7 +217,19 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": "  "
+                    },
+                    "postfix": {
+                        "value": "long",
+                        "trivia": " "
+                    },
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bigbigpositive",
                 "escapedName": "bigbigpositive",
@@ -178,7 +247,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "real",
                 "escapedName": "real",
@@ -196,7 +271,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bigreal",
                 "escapedName": "bigreal",
@@ -214,7 +295,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "realwithinfinity",
                 "escapedName": "realwithinfinity",
@@ -232,7 +322,16 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "bigrealwithinfinity",
                 "escapedName": "bigrealwithinfinity",
@@ -250,6 +349,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "string",
@@ -268,6 +370,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "ByteString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "bytes",
@@ -286,6 +391,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Date",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "date",
@@ -304,6 +412,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "RegExp",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "regexp",

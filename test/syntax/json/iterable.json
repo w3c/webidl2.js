@@ -13,7 +13,13 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "extAttrs": []
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": ""
+                        }
                     }
                 ],
                 "extAttrs": []
@@ -43,7 +49,13 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "short",
-                        "extAttrs": []
+                        "baseName": "short",
+                        "prefix": null,
+                        "postfix": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": ""
+                        }
                     },
                     {
                         "type": null,
@@ -51,7 +63,13 @@
                         "nullable": true,
                         "union": false,
                         "idlType": "double",
-                        "extAttrs": []
+                        "baseName": "double",
+                        "prefix": null,
+                        "postfix": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": " "
+                        }
                     }
                 ],
                 "extAttrs": []
@@ -81,6 +99,9 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
                         "extAttrs": [
                             {
                                 "name": "XAttr",
@@ -88,7 +109,10 @@
                                 "type": "extended-attribute",
                                 "rhs": null
                             }
-                        ]
+                        ],
+                        "trivia": {
+                            "base": " "
+                        }
                     }
                 ],
                 "extAttrs": []

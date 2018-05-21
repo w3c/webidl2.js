@@ -22,7 +22,13 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         {
                             "type": null,
@@ -36,6 +42,9 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Date",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 },
                                 {
@@ -44,9 +53,15 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Event",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         {
@@ -61,6 +76,9 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Node",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 },
                                 {
@@ -69,12 +87,21 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
+                                    "baseName": null,
+                                    "prefix": null,
+                                    "postfix": null,
                                     "extAttrs": []
                                 }
                             ],
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "test",
@@ -99,6 +126,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "long",
+                            "baseName": "long",
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": [
                                 {
                                     "name": "EnforceRange",
@@ -106,7 +136,10 @@
                                     "type": "extended-attribute",
                                     "rhs": null
                                 }
-                            ]
+                            ],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         {
                             "type": null,
@@ -114,9 +147,15 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Date",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "test2",

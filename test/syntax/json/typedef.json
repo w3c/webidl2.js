@@ -16,7 +16,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "x",
                 "escapedName": "x",
@@ -34,7 +40,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "y",
                 "escapedName": "y",
@@ -65,9 +77,15 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 }
             ],
+            "baseName": null,
+            "prefix": null,
+            "postfix": null,
             "extAttrs": []
         },
         "name": "PointSequence",
@@ -90,6 +108,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "topleft",
@@ -108,6 +129,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "bottomright",
@@ -142,6 +166,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Rect",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "bounds",
@@ -161,7 +188,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n\n    "
+                    }
                 },
                 "name": "pointWithinBounds",
                 "escapedName": "pointWithinBounds",
@@ -177,6 +210,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Point",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "p",
@@ -198,7 +234,13 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n    "
+                    }
                 },
                 "name": "allPointsWithinBounds",
                 "escapedName": "allPointsWithinBounds",
@@ -214,6 +256,9 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "PointSequence",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         },
                         "name": "ps",
@@ -241,6 +286,9 @@
             "nullable": false,
             "union": false,
             "idlType": "octet",
+            "baseName": "octet",
+            "prefix": null,
+            "postfix": null,
             "extAttrs": [
                 {
                     "name": "Clamp",
@@ -248,7 +296,10 @@
                     "type": "extended-attribute",
                     "rhs": null
                 }
-            ]
+            ],
+            "trivia": {
+                "base": " "
+            }
         },
         "name": "value",
         "extAttrs": []

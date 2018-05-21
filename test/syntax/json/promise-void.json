@@ -22,9 +22,15 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "void",
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
                             "extAttrs": []
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "meow",

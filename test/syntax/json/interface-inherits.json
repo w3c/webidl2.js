@@ -16,6 +16,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "name",
@@ -50,6 +53,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Dog",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "pet",
@@ -84,6 +90,9 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Human",
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
                     "extAttrs": []
                 },
                 "name": "owner",
