@@ -26,3 +26,8 @@
       // Attribute identifier: "value"
       attribute DOMString? _value;
     };
+
+interface FooEventTarget {
+  // Argument names allow some selected keywords
+  void addEventListener(EventListener? callback);
+};
