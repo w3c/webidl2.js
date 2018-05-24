@@ -73,5 +73,33 @@
         ],
         "inheritance": "Animal",
         "extAttrs": []
+    },
+    {
+        "type": "interface",
+        "name": "Ghost",
+        "partial": false,
+        "members": [
+            {
+                "type": "attribute",
+                "static": false,
+                "stringifier": false,
+                "inherit": true,
+                "readonly": true,
+                "idlType": {
+                    "type": "attribute-type",
+                    "sequence": false,
+                    "generic": null,
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "DOMString",
+                    "extAttrs": []
+                },
+                "name": "name",
+                "escapedName": "name",
+                "extAttrs": []
+            }
+        ],
+        "inheritance": "Person",
+        "extAttrs": []
     }
 ]
