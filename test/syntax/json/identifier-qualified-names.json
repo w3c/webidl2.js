@@ -147,7 +147,7 @@
     },
     {
         "type": "interface",
-        "name": "Foo",
+        "name": "FooEventTarget",
         "partial": false,
         "members": [
             {
@@ -166,8 +166,8 @@
                     "idlType": "void",
                     "extAttrs": []
                 },
-                "name": "op",
-                "escapedName": "op",
+                "name": "addEventListener",
+                "escapedName": "addEventListener",
                 "arguments": [
                     {
                         "optional": false,
@@ -177,13 +177,13 @@
                             "type": "argument-type",
                             "sequence": false,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": true,
                             "union": false,
-                            "idlType": "object",
+                            "idlType": "EventListener",
                             "extAttrs": []
                         },
-                        "name": "interface",
-                        "escapedName": "interface"
+                        "name": "callback",
+                        "escapedName": "callback"
                     }
                 ],
                 "extAttrs": []
