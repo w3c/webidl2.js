@@ -11,7 +11,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": true,
                     "union": false,
@@ -31,7 +30,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": true,
                     "union": false,
@@ -50,7 +48,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -75,7 +72,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,

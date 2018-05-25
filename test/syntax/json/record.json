@@ -13,7 +13,6 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -29,20 +28,17 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "sequence": true,
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": {
                                 "type": "argument-type",
-                                "sequence": false,
                                 "generic": "record",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
-                                        "sequence": false,
                                         "generic": null,
                                         "nullable": false,
                                         "union": false,
@@ -51,7 +47,6 @@
                                     },
                                     {
                                         "type": "argument-type",
-                                        "sequence": false,
                                         "generic": null,
                                         "nullable": false,
                                         "union": false,
@@ -78,14 +73,12 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": "record",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": false,
                             "union": false,
@@ -94,14 +87,12 @@
                         },
                         {
                             "type": "return-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": true,
                             "union": true,
                             "idlType": [
                                 {
                                     "type": null,
-                                    "sequence": false,
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
@@ -110,7 +101,6 @@
                                 },
                                 {
                                     "type": null,
-                                    "sequence": false,
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
@@ -137,7 +127,6 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -161,14 +150,12 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "sequence": false,
                             "generic": "record",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
-                                    "sequence": false,
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
@@ -177,7 +164,6 @@
                                 },
                                 {
                                     "type": "argument-type",
-                                    "sequence": false,
                                     "generic": null,
                                     "nullable": false,
                                     "union": false,
@@ -210,14 +196,12 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": "record",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": false,
                             "union": false,
@@ -226,7 +210,6 @@
                         },
                         {
                             "type": "return-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": false,
                             "union": false,

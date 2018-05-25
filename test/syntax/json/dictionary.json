@@ -11,7 +11,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": true,
                     "union": false,
@@ -31,7 +30,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": true,
                     "union": false,
@@ -50,7 +48,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -66,13 +63,11 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": true,
                     "generic": "sequence",
                     "nullable": false,
                     "union": false,
                     "idlType": {
                         "type": "dictionary-type",
-                        "sequence": false,
                         "generic": null,
                         "nullable": false,
                         "union": false,
@@ -94,7 +89,6 @@
                 "required": true,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -119,7 +113,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -135,7 +128,6 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
