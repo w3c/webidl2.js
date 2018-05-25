@@ -12,7 +12,6 @@
                 "readonly": true,
                 "idlType": {
                     "type": "attribute-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -39,7 +38,6 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,

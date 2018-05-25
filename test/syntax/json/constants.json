@@ -9,7 +9,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -28,7 +27,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -47,7 +45,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -66,7 +63,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -85,7 +81,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -104,7 +99,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -123,7 +117,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -142,7 +135,6 @@
                 "nullable": false,
                 "idlType": {
                     "type": "const-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,

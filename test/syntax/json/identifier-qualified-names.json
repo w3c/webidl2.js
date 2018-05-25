@@ -3,7 +3,6 @@
         "type": "typedef",
         "idlType": {
             "type": "typedef-type",
-            "sequence": false,
             "generic": null,
             "nullable": false,
             "union": false,
@@ -27,7 +26,6 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -43,7 +41,6 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": false,
                             "union": false,
@@ -65,7 +62,6 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -81,7 +77,6 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": false,
                             "union": false,
@@ -111,7 +106,6 @@
                 "readonly": false,
                 "idlType": {
                     "type": "attribute-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -130,7 +124,6 @@
                 "readonly": false,
                 "idlType": {
                     "type": "attribute-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": true,
                     "union": false,
@@ -159,7 +152,6 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "sequence": false,
                     "generic": null,
                     "nullable": false,
                     "union": false,
@@ -175,7 +167,6 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "sequence": false,
                             "generic": null,
                             "nullable": true,
                             "union": false,

@@ -9,7 +9,6 @@
                 "idlType": [
                     {
                         "type": null,
-                        "sequence": false,
                         "generic": null,
                         "nullable": false,
                         "union": false,
@@ -33,7 +32,6 @@
                 "idlType": [
                     {
                         "type": null,
-                        "sequence": false,
                         "generic": null,
                         "nullable": false,
                         "union": false,
@@ -42,7 +40,6 @@
                     },
                     {
                         "type": null,
-                        "sequence": false,
                         "generic": null,
                         "nullable": true,
                         "union": false,
@@ -66,7 +63,6 @@
                 "idlType": [
                     {
                         "type": null,
-                        "sequence": false,
                         "generic": null,
                         "nullable": false,
                         "union": false,
