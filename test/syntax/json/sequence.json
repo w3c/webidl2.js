@@ -80,35 +80,6 @@
     },
     {
         "type": "interface",
-        "name": "Foo",
-        "partial": false,
-        "members": [
-            {
-                "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "sequence",
-                    "extAttrs": []
-                },
-                "name": "bar",
-                "escapedName": "bar",
-                "arguments": [],
-                "extAttrs": []
-            }
-        ],
-        "inheritance": null,
-        "extAttrs": []
-    },
-    {
-        "type": "interface",
         "name": "I",
         "partial": false,
         "members": [
