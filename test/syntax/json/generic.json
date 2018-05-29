@@ -18,7 +18,7 @@
                     "union": false,
                     "idlType": {
                         "type": "return-type",
-                        "generic": "ResponsePromise",
+                        "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": {
@@ -151,7 +151,7 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "ResponsePromise",
+                    "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": {

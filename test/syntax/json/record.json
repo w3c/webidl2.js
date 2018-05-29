@@ -117,26 +117,6 @@
                 "escapedName": "bar",
                 "arguments": [],
                 "extAttrs": []
-            },
-            {
-                "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "record",
-                    "extAttrs": []
-                },
-                "name": "baz",
-                "escapedName": "baz",
-                "arguments": [],
-                "extAttrs": []
             }
         ],
         "inheritance": null,
