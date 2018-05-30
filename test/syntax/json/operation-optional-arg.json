@@ -25,6 +25,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -40,6 +41,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -55,6 +57,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -70,6 +73,10 @@
                     {
                         "optional": true,
                         "variadic": false,
+                        "default": {
+                            "type": "number",
+                            "value": "3.5"
+                        },
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -80,11 +87,7 @@
                             "extAttrs": []
                         },
                         "name": "alpha",
-                        "escapedName": "alpha",
-                        "default": {
-                            "type": "number",
-                            "value": "3.5"
-                        }
+                        "escapedName": "alpha"
                     }
                 ],
                 "extAttrs": []

@@ -21,6 +21,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
