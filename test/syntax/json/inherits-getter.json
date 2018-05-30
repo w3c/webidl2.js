@@ -8,8 +8,15 @@
                 "type": "attribute",
                 "static": false,
                 "stringifier": false,
-                "inherit": false,
-                "readonly": true,
+                "inherit": null,
+                "readonly": {
+                    "trivia": "\n\n  // A simple attribute that can be set to any string value.\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -49,8 +56,15 @@
                 "type": "attribute",
                 "static": false,
                 "stringifier": false,
-                "inherit": false,
-                "readonly": true,
+                "inherit": null,
+                "readonly": {
+                    "trivia": "\n\n  // An attribute whose value cannot be assigned to.\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -77,8 +91,15 @@
                 "type": "attribute",
                 "static": false,
                 "stringifier": false,
-                "inherit": true,
-                "readonly": false,
+                "inherit": {
+                    "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
+                },
+                "readonly": null,
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -118,8 +139,17 @@
                 "type": "attribute",
                 "static": false,
                 "stringifier": false,
-                "inherit": true,
-                "readonly": true,
+                "inherit": {
+                    "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
+                },
+                "readonly": {
+                    "trivia": " "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
