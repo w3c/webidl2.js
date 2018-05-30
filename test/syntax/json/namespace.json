@@ -43,6 +43,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -58,6 +59,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -94,6 +96,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -109,6 +112,7 @@
                     {
                         "optional": false,
                         "variadic": false,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",

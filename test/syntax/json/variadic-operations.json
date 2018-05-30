@@ -43,6 +43,7 @@
                     {
                         "optional": false,
                         "variadic": true,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -79,6 +80,7 @@
                     {
                         "optional": false,
                         "variadic": true,
+                        "default": null,
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
