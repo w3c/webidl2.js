@@ -127,7 +127,13 @@
             "close": "\n",
             "termination": ""
         },
-        "inheritance": "Animal",
+        "inheritance": {
+            "name": "Animal",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "extAttrs": []
     },
     {
@@ -177,7 +183,13 @@
             "close": "\n",
             "termination": ""
         },
-        "inheritance": "Person",
+        "inheritance": {
+            "name": "Person",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "extAttrs": []
     }
 ]

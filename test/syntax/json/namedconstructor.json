@@ -11,7 +11,13 @@
             "close": "\n  // ...\n",
             "termination": ""
         },
-        "inheritance": "HTMLMediaElement",
+        "inheritance": {
+            "name": "HTMLMediaElement",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "extAttrs": [
             {
                 "name": "NamedConstructor",
