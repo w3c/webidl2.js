@@ -13,24 +13,32 @@
                 "stringifier": {
                     "trivia": "\n  "
                 },
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "DOMString",
+                        "baseName": "DOMString",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": " "
+                        }
+                    },
                     "trivia": {
-                        "base": " "
-                    }
+                        "open": " ",
+                        "close": ""
+                    },
+                    "name": null,
+                    "arguments": []
                 },
-                "name": null,
-                "escapedName": null,
-                "arguments": [],
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
@@ -57,6 +65,10 @@
                 "static": null,
                 "stringifier": {
                     "trivia": "\n  "
+                },
+                "body": null,
+                "trivia": {
+                    "termination": ""
                 },
                 "extAttrs": []
             }

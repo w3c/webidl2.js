@@ -53,24 +53,36 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "void",
-                    "baseName": "void",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": "\n  "
+                        }
+                    },
                     "trivia": {
-                        "base": "\n  "
-                    }
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "increment",
+                        "escaped": "increment",
+                        "trivia": " "
+                    },
+                    "arguments": []
                 },
-                "name": "increment",
-                "escapedName": "increment",
-                "arguments": [],
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
