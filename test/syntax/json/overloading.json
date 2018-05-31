@@ -47,11 +47,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -95,11 +98,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -159,11 +165,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  /* f1 */ "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -207,11 +216,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  /* f2 */ "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -308,11 +320,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  /* f3 */ "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -332,11 +347,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  /* f4 */ "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",

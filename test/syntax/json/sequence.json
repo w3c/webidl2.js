@@ -17,11 +17,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "drawPolygon",
                 "escapedName": "drawPolygon",
@@ -152,11 +155,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n    "
+                    }
                 },
                 "name": "f1",
                 "escapedName": "f1",

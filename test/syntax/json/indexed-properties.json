@@ -99,11 +99,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "setByIndex",
                 "escapedName": "setByIndex",
@@ -173,11 +176,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "removeByIndex",
                 "escapedName": "removeByIndex",
@@ -275,11 +281,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "set",
                 "escapedName": "set",
@@ -346,11 +355,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "remove",
                 "escapedName": "remove",

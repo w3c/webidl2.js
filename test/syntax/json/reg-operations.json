@@ -116,11 +116,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n\n  // Overloaded operations.\n  "
+                    }
                 },
                 "name": "setDimensions",
                 "escapedName": "setDimensions",
@@ -164,11 +167,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "setDimensions",
                 "escapedName": "setDimensions",

@@ -17,11 +17,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "g",
                 "escapedName": "g",
@@ -41,11 +44,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "g",
                 "escapedName": "g",
@@ -89,11 +95,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "g",
                 "escapedName": "g",

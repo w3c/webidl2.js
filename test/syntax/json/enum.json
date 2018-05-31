@@ -86,11 +86,14 @@
                     "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "baseName": null,
+                    "baseName": "void",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": []
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "     // in grams\n\n  "
+                    }
                 },
                 "name": "initialize",
                 "escapedName": "initialize",
