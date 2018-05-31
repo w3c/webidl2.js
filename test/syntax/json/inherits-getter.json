@@ -6,8 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": {
                     "trivia": "\n\n  // A simple attribute that can be set to any string value.\n  "
@@ -54,8 +54,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": {
                     "trivia": "\n\n  // An attribute whose value cannot be assigned to.\n  "
@@ -89,8 +89,8 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": {
                     "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
                 },
@@ -137,8 +137,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": {
                     "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
                 },

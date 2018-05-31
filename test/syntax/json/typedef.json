@@ -6,8 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": null,
                 "trivia": {
@@ -36,8 +36,8 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": null,
                 "trivia": {
@@ -124,8 +124,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": null,
                 "trivia": {
@@ -154,8 +154,8 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": null,
                 "trivia": {
@@ -200,8 +200,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": {
                     "trivia": "\n\n    "
@@ -232,11 +232,11 @@
             },
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
@@ -283,11 +283,11 @@
             },
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,

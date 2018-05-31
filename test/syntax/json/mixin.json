@@ -6,8 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": {
                     "trivia": "\n  "
@@ -62,8 +62,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": {
                     "trivia": "\n  "

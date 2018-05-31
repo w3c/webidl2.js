@@ -6,8 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
+                "static": null,
+                "stringifier": null,
                 "inherit": null,
                 "readonly": {
                     "trivia": "\n  "
@@ -41,11 +41,13 @@
             },
             {
                 "type": "operation",
-                "getter": true,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
+                "getter": {
+                    "trivia": "\n  "
+                },
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
