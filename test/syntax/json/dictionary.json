@@ -29,7 +29,11 @@
                 "extAttrs": [],
                 "default": {
                     "type": "string",
-                    "value": "black"
+                    "value": "black",
+                    "trivia": {
+                        "assign": " ",
+                        "value": " "
+                    }
                 }
             },
             {
@@ -56,7 +60,11 @@
                 },
                 "extAttrs": [],
                 "default": {
-                    "type": "null"
+                    "type": "null",
+                    "trivia": {
+                        "assign": " ",
+                        "value": " "
+                    }
                 }
             },
             {
@@ -127,7 +135,12 @@
                 "extAttrs": [],
                 "default": {
                     "type": "sequence",
-                    "value": []
+                    "value": [],
+                    "trivia": {
+                        "assign": " ",
+                        "open": " ",
+                        "close": ""
+                    }
                 }
             },
             {
