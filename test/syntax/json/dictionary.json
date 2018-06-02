@@ -8,7 +8,7 @@
                 "type": "field",
                 "name": "fillPattern",
                 "escapedName": "fillPattern",
-                "required": false,
+                "required": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -34,13 +34,17 @@
                         "assign": " ",
                         "value": " "
                     }
+                },
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
                 }
             },
             {
                 "type": "field",
                 "name": "strokePattern",
                 "escapedName": "strokePattern",
-                "required": false,
+                "required": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -65,13 +69,17 @@
                         "assign": " ",
                         "value": " "
                     }
+                },
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
                 }
             },
             {
                 "type": "field",
                 "name": "position",
                 "escapedName": "position",
-                "required": false,
+                "required": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -88,13 +96,17 @@
                     }
                 },
                 "extAttrs": null,
-                "default": null
+                "default": null,
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "field",
                 "name": "seq",
                 "escapedName": "seq",
-                "required": false,
+                "required": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": {
@@ -141,13 +153,19 @@
                         "open": " ",
                         "close": ""
                     }
+                },
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
                 }
             },
             {
                 "type": "field",
                 "name": "reqSeq",
                 "escapedName": "reqSeq",
-                "required": true,
+                "required": {
+                    "trivia": "\n  // https://heycam.github.io/webidl/#required-dictionary-member\n  "
+                },
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -164,9 +182,20 @@
                     }
                 },
                 "extAttrs": null,
-                "default": null
+                "default": null,
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
+        "trivia": {
+            "base": "// Extracted from Web IDL editors draft May 31 2011\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": null
     },
@@ -179,7 +208,7 @@
                 "type": "field",
                 "name": "h",
                 "escapedName": "h",
-                "required": false,
+                "required": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -196,13 +225,17 @@
                     }
                 },
                 "extAttrs": null,
-                "default": null
+                "default": null,
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "field",
                 "name": "d",
                 "escapedName": "d",
-                "required": false,
+                "required": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -219,9 +252,20 @@
                     }
                 },
                 "extAttrs": null,
-                "default": null
+                "default": null,
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
+        "trivia": {
+            "base": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "extAttrs": null
     }
 ]
