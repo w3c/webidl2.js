@@ -37,7 +37,7 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -47,14 +47,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "meow",
                 "escapedName": "meow",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -65,6 +65,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

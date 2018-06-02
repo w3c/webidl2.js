@@ -17,7 +17,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": ""
                         }
@@ -29,7 +29,7 @@
                     "close": "",
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -40,7 +40,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -63,7 +63,7 @@
                             "value": ",",
                             "trivia": ""
                         },
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": ""
                         }
@@ -80,7 +80,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": " "
                         }
@@ -92,7 +92,7 @@
                     "close": "",
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -103,7 +103,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -123,14 +123,24 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [
-                            {
-                                "name": "XAttr",
-                                "arguments": null,
-                                "type": "extended-attribute",
-                                "rhs": null
-                            }
-                        ],
+                        "extAttrs": {
+                            "trivia": {
+                                "open": "",
+                                "close": ""
+                            },
+                            "items": [
+                                {
+                                    "name": "XAttr",
+                                    "signature": null,
+                                    "type": "extended-attribute",
+                                    "rhs": null,
+                                    "trivia": {
+                                        "name": ""
+                                    },
+                                    "separator": null
+                                }
+                            ]
+                        },
                         "trivia": {
                             "base": " "
                         }
@@ -142,7 +152,7 @@
                     "close": "",
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -153,6 +163,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

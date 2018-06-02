@@ -25,14 +25,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "name",
                 "escapedName": "name",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -43,7 +43,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -71,14 +71,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "pet",
                 "escapedName": "pet",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -95,7 +95,7 @@
                 "name": " "
             }
         },
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -123,14 +123,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "owner",
                 "escapedName": "owner",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -147,6 +147,6 @@
                 "name": " "
             }
         },
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

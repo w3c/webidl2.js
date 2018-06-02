@@ -21,12 +21,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": {
                     "type": "string",
                     "value": "black",
@@ -53,12 +53,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": {
                     "type": "null",
                     "trivia": {
@@ -82,17 +82,17 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": null
             }
         ],
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "dictionary",
@@ -114,12 +114,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": null
             }
         ],
@@ -130,6 +130,6 @@
                 "name": " "
             }
         },
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

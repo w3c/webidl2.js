@@ -34,7 +34,7 @@
                                 "value": "or",
                                 "trivia": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -58,7 +58,7 @@
                                         "value": "or",
                                         "trivia": " "
                                     },
-                                    "extAttrs": [],
+                                    "extAttrs": null,
                                     "trivia": {
                                         "base": ""
                                     }
@@ -73,7 +73,7 @@
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
-                                    "extAttrs": [],
+                                    "extAttrs": null,
                                     "trivia": {
                                         "base": " "
                                     }
@@ -86,7 +86,7 @@
                                 "value": "or",
                                 "trivia": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "open": " ",
                                 "close": ""
@@ -113,7 +113,7 @@
                                         "value": "or",
                                         "trivia": " "
                                     },
-                                    "extAttrs": [],
+                                    "extAttrs": null,
                                     "trivia": {
                                         "base": ""
                                     }
@@ -128,7 +128,7 @@
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
-                                    "extAttrs": [],
+                                    "extAttrs": null,
                                     "trivia": {
                                         "base": " "
                                     }
@@ -138,7 +138,7 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "open": " ",
                                 "close": ""
@@ -149,7 +149,7 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
@@ -157,7 +157,7 @@
                 },
                 "name": "test",
                 "escapedName": "test",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -189,14 +189,24 @@
                                 "value": "or",
                                 "trivia": " "
                             },
-                            "extAttrs": [
-                                {
-                                    "name": "EnforceRange",
-                                    "arguments": null,
-                                    "type": "extended-attribute",
-                                    "rhs": null
-                                }
-                            ],
+                            "extAttrs": {
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                },
+                                "items": [
+                                    {
+                                        "name": "EnforceRange",
+                                        "signature": null,
+                                        "type": "extended-attribute",
+                                        "rhs": null,
+                                        "trivia": {
+                                            "name": ""
+                                        },
+                                        "separator": null
+                                    }
+                                ]
+                            },
                             "trivia": {
                                 "base": " "
                             }
@@ -211,7 +221,7 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "base": " "
                             }
@@ -221,7 +231,7 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
@@ -229,7 +239,7 @@
                 },
                 "name": "test2",
                 "escapedName": "test2",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -240,6 +250,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

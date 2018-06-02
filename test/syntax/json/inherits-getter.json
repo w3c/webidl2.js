@@ -27,14 +27,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "name",
                 "escapedName": "name",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -45,7 +45,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -78,14 +78,14 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "age",
                 "escapedName": "age",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -110,14 +110,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "name",
                 "escapedName": "name",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -134,7 +134,7 @@
                 "name": " "
             }
         },
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -166,14 +166,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "name",
                 "escapedName": "name",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -190,6 +190,6 @@
                 "name": " "
             }
         },
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

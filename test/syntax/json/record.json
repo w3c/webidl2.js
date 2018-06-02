@@ -22,7 +22,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -44,7 +44,7 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": {
@@ -82,7 +82,7 @@
                                                     "value": ",",
                                                     "trivia": ""
                                                 },
-                                                "extAttrs": [],
+                                                "extAttrs": null,
                                                 "trivia": {
                                                     "base": ""
                                                 }
@@ -97,7 +97,7 @@
                                                 "prefix": null,
                                                 "postfix": null,
                                                 "separator": null,
-                                                "extAttrs": [],
+                                                "extAttrs": null,
                                                 "trivia": {
                                                     "base": " "
                                                 }
@@ -107,7 +107,7 @@
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": null,
-                                        "extAttrs": [],
+                                        "extAttrs": null,
                                         "trivia": {
                                             "base": ""
                                         }
@@ -117,7 +117,7 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -131,7 +131,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "operation",
@@ -166,7 +166,7 @@
                                     "value": ",",
                                     "trivia": ""
                                 },
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -192,7 +192,7 @@
                                             "value": "or",
                                             "trivia": " "
                                         },
-                                        "extAttrs": [],
+                                        "extAttrs": null,
                                         "trivia": {
                                             "base": ""
                                         }
@@ -207,7 +207,7 @@
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": null,
-                                        "extAttrs": [],
+                                        "extAttrs": null,
                                         "trivia": {
                                             "base": " "
                                         }
@@ -217,7 +217,7 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "open": " ",
                                     "close": ""
@@ -228,7 +228,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -247,7 +247,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -258,82 +258,98 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "Constructor",
-                "arguments": [
-                    {
-                        "optional": null,
-                        "variadic": null,
-                        "default": null,
-                        "trivia": {
-                            "name": " "
-                        },
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": {
-                                "value": "record",
+        "extAttrs": {
+            "trivia": {
+                "open": "",
+                "close": ""
+            },
+            "items": [
+                {
+                    "name": "Constructor",
+                    "signature": {
+                        "arguments": [
+                            {
+                                "optional": null,
+                                "variadic": null,
+                                "default": null,
                                 "trivia": {
-                                    "open": "",
-                                    "close": ""
-                                }
-                            },
-                            "nullable": null,
-                            "union": false,
-                            "idlType": [
-                                {
+                                    "name": " "
+                                },
+                                "extAttrs": null,
+                                "idlType": {
                                     "type": "argument-type",
-                                    "generic": null,
+                                    "generic": {
+                                        "value": "record",
+                                        "trivia": {
+                                            "open": "",
+                                            "close": ""
+                                        }
+                                    },
                                     "nullable": null,
                                     "union": false,
-                                    "idlType": "USVString",
-                                    "baseName": "USVString",
+                                    "idlType": [
+                                        {
+                                            "type": "argument-type",
+                                            "generic": null,
+                                            "nullable": null,
+                                            "union": false,
+                                            "idlType": "USVString",
+                                            "baseName": "USVString",
+                                            "prefix": null,
+                                            "postfix": null,
+                                            "separator": {
+                                                "value": ",",
+                                                "trivia": ""
+                                            },
+                                            "extAttrs": null,
+                                            "trivia": {
+                                                "base": ""
+                                            }
+                                        },
+                                        {
+                                            "type": "argument-type",
+                                            "generic": null,
+                                            "nullable": null,
+                                            "union": false,
+                                            "idlType": "USVString",
+                                            "baseName": "USVString",
+                                            "prefix": null,
+                                            "postfix": null,
+                                            "separator": null,
+                                            "extAttrs": null,
+                                            "trivia": {
+                                                "base": " "
+                                            }
+                                        }
+                                    ],
+                                    "baseName": "record",
                                     "prefix": null,
                                     "postfix": null,
-                                    "separator": {
-                                        "value": ",",
-                                        "trivia": ""
-                                    },
-                                    "extAttrs": [],
+                                    "separator": null,
+                                    "extAttrs": null,
                                     "trivia": {
                                         "base": ""
                                     }
                                 },
-                                {
-                                    "type": "argument-type",
-                                    "generic": null,
-                                    "nullable": null,
-                                    "union": false,
-                                    "idlType": "USVString",
-                                    "baseName": "USVString",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
-                                    "extAttrs": [],
-                                    "trivia": {
-                                        "base": " "
-                                    }
-                                }
-                            ],
-                            "baseName": "record",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
+                                "name": "init",
+                                "escapedName": "init",
+                                "separator": null
                             }
-                        },
-                        "name": "init",
-                        "escapedName": "init",
-                        "separator": null
-                    }
-                ],
-                "type": "extended-attribute",
-                "rhs": null
-            }
-        ]
+                        ],
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": null
+                }
+            ]
+        }
     },
     {
         "type": "interface",
@@ -373,7 +389,7 @@
                                     "value": ",",
                                     "trivia": ""
                                 },
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -388,14 +404,24 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [
-                                    {
-                                        "name": "XAttr",
-                                        "arguments": null,
-                                        "type": "extended-attribute",
-                                        "rhs": null
-                                    }
-                                ],
+                                "extAttrs": {
+                                    "trivia": {
+                                        "open": " ",
+                                        "close": ""
+                                    },
+                                    "items": [
+                                        {
+                                            "name": "XAttr",
+                                            "signature": null,
+                                            "type": "extended-attribute",
+                                            "rhs": null,
+                                            "trivia": {
+                                                "name": ""
+                                            },
+                                            "separator": null
+                                        }
+                                    ]
+                                },
                                 "trivia": {
                                     "base": " "
                                 }
@@ -405,7 +431,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -424,7 +450,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -435,6 +461,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

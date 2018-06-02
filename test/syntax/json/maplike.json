@@ -20,7 +20,7 @@
                             "value": ",",
                             "trivia": ""
                         },
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": ""
                         }
@@ -35,7 +35,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": " "
                         }
@@ -48,7 +48,7 @@
                     "close": "",
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -59,7 +59,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -82,7 +82,7 @@
                             "value": ",",
                             "trivia": ""
                         },
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": ""
                         }
@@ -97,7 +97,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": " "
                         }
@@ -112,7 +112,7 @@
                     "close": "",
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -123,7 +123,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -146,14 +146,24 @@
                             "value": ",",
                             "trivia": ""
                         },
-                        "extAttrs": [
-                            {
-                                "name": "XAttr2",
-                                "arguments": null,
-                                "type": "extended-attribute",
-                                "rhs": null
-                            }
-                        ],
+                        "extAttrs": {
+                            "trivia": {
+                                "open": "",
+                                "close": ""
+                            },
+                            "items": [
+                                {
+                                    "name": "XAttr2",
+                                    "signature": null,
+                                    "type": "extended-attribute",
+                                    "rhs": null,
+                                    "trivia": {
+                                        "name": ""
+                                    },
+                                    "separator": null
+                                }
+                            ]
+                        },
                         "trivia": {
                             "base": " "
                         }
@@ -168,14 +178,24 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [
-                            {
-                                "name": "XAttr3",
-                                "arguments": null,
-                                "type": "extended-attribute",
-                                "rhs": null
-                            }
-                        ],
+                        "extAttrs": {
+                            "trivia": {
+                                "open": " ",
+                                "close": ""
+                            },
+                            "items": [
+                                {
+                                    "name": "XAttr3",
+                                    "signature": null,
+                                    "type": "extended-attribute",
+                                    "rhs": null,
+                                    "trivia": {
+                                        "name": ""
+                                    },
+                                    "separator": null
+                                }
+                            ]
+                        },
                         "trivia": {
                             "base": " "
                         }
@@ -188,7 +208,7 @@
                     "close": "",
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -199,6 +219,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

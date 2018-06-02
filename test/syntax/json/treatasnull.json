@@ -25,14 +25,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "name",
                 "escapedName": "name",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -55,14 +55,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "owner",
                 "escapedName": "owner",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "operation",
@@ -82,7 +82,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n\n  "
                         }
@@ -104,17 +104,31 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [
-                                {
-                                    "name": "TreatNullAs",
-                                    "arguments": null,
-                                    "type": "extended-attribute",
-                                    "rhs": {
-                                        "type": "identifier",
-                                        "value": "EmptyString"
+                            "extAttrs": {
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                },
+                                "items": [
+                                    {
+                                        "name": "TreatNullAs",
+                                        "signature": null,
+                                        "type": "extended-attribute",
+                                        "rhs": {
+                                            "type": "identifier",
+                                            "value": "EmptyString",
+                                            "trivia": {
+                                                "assign": "",
+                                                "value": ""
+                                            }
+                                        },
+                                        "trivia": {
+                                            "name": ""
+                                        },
+                                        "separator": null
                                     }
-                                }
-                            ],
+                                ]
+                            },
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -125,7 +139,7 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -139,7 +153,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -150,6 +164,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

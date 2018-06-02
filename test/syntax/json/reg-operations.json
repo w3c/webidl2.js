@@ -28,14 +28,14 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "width",
                 "escapedName": "width",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -61,14 +61,14 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "height",
                 "escapedName": "height",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -79,7 +79,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -104,7 +104,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n\n  // An operation that takes no arguments, returns a boolean\n  "
                         }
@@ -123,7 +123,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "operation",
@@ -143,7 +143,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n\n  // Overloaded operations.\n  "
                         }
@@ -165,7 +165,7 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -176,7 +176,7 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -190,7 +190,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "operation",
@@ -210,7 +210,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -232,7 +232,7 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -246,7 +246,7 @@
                                 },
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -265,7 +265,7 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -279,7 +279,7 @@
                                 },
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -293,7 +293,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -304,6 +304,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

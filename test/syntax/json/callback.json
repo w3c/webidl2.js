@@ -12,7 +12,7 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": [],
+            "extAttrs": null,
             "trivia": {
                 "base": " "
             }
@@ -25,7 +25,7 @@
                 "trivia": {
                     "name": " "
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
@@ -36,7 +36,7 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": ""
                     }
@@ -46,7 +46,7 @@
                 "separator": null
             }
         ],
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "callback interface",
@@ -71,7 +71,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -93,7 +93,7 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -104,7 +104,7 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -118,7 +118,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -129,7 +129,7 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "callback",
@@ -144,7 +144,7 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": [],
+            "extAttrs": null,
             "trivia": {
                 "base": " "
             }
@@ -157,7 +157,7 @@
                 "trivia": {
                     "name": " "
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
@@ -168,7 +168,7 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": ""
                     }
@@ -187,7 +187,7 @@
                 "trivia": {
                     "name": " "
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
@@ -198,7 +198,7 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -208,6 +208,6 @@
                 "separator": null
             }
         ],
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

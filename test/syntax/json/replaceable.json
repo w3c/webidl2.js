@@ -30,21 +30,31 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "value",
                 "escapedName": "value",
-                "extAttrs": [
-                    {
-                        "name": "Replaceable",
-                        "arguments": null,
-                        "type": "extended-attribute",
-                        "rhs": null
-                    }
-                ]
+                "extAttrs": {
+                    "trivia": {
+                        "open": "\n  ",
+                        "close": ""
+                    },
+                    "items": [
+                        {
+                            "name": "Replaceable",
+                            "signature": null,
+                            "type": "extended-attribute",
+                            "rhs": null,
+                            "trivia": {
+                                "name": ""
+                            },
+                            "separator": null
+                        }
+                    ]
+                }
             },
             {
                 "type": "operation",
@@ -64,7 +74,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -83,7 +93,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -94,6 +104,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

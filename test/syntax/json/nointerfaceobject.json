@@ -22,7 +22,7 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": [],
+                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -44,7 +44,7 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -58,7 +58,7 @@
                                 },
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": [],
+                                "extAttrs": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -72,7 +72,7 @@
                 "trivia": {
                     "termination": ""
                 },
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -83,13 +83,23 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "NoInterfaceObject",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": null
-            }
-        ]
+        "extAttrs": {
+            "trivia": {
+                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+                "close": ""
+            },
+            "items": [
+                {
+                    "name": "NoInterfaceObject",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": null
+                }
+            ]
+        }
     }
 ]
