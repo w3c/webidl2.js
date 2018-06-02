@@ -231,6 +231,13 @@
                 "extAttrs": null
             }
         ],
+        "trivia": {
+            "base": "// Extracted from Web IDL editors draft March 27 2017\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {
@@ -238,6 +245,13 @@
         "name": "SomeNamespace",
         "partial": true,
         "members": [],
+        "trivia": {
+            "base": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\n  /* namespace_members... */\n",
+            "termination": ""
+        },
         "extAttrs": null
     }
 ]
