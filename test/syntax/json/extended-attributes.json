@@ -232,9 +232,12 @@
                 "name": "Constructor",
                 "arguments": [
                     {
-                        "optional": false,
-                        "variadic": false,
+                        "optional": null,
+                        "variadic": null,
                         "default": null,
+                        "trivia": {
+                            "name": " "
+                        },
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -252,7 +255,8 @@
                             }
                         },
                         "name": "radius",
-                        "escapedName": "radius"
+                        "escapedName": "radius",
+                        "separator": null
                     }
                 ],
                 "type": "extended-attribute",

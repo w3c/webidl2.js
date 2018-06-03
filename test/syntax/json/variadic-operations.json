@@ -73,9 +73,14 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": true,
+                            "optional": null,
+                            "variadic": {
+                                "trivia": ""
+                            },
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -93,7 +98,8 @@
                                 }
                             },
                             "name": "ints",
-                            "escapedName": "ints"
+                            "escapedName": "ints",
+                            "separator": null
                         }
                     ]
                 },
@@ -136,9 +142,14 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": true,
+                            "optional": null,
+                            "variadic": {
+                                "trivia": ""
+                            },
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -156,7 +167,8 @@
                                 }
                             },
                             "name": "ints",
-                            "escapedName": "ints"
+                            "escapedName": "ints",
+                            "separator": null
                         }
                     ]
                 },

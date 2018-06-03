@@ -75,9 +75,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -95,7 +98,8 @@
                                 }
                             },
                             "name": "propertyName",
-                            "escapedName": "propertyName"
+                            "escapedName": "propertyName",
+                            "separator": null
                         }
                     ]
                 },
@@ -140,9 +144,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -160,12 +167,19 @@
                                 }
                             },
                             "name": "propertyName",
-                            "escapedName": "propertyName"
+                            "escapedName": "propertyName",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
                         },
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -183,7 +197,8 @@
                                 }
                             },
                             "name": "propertyValue",
-                            "escapedName": "propertyValue"
+                            "escapedName": "propertyValue",
+                            "separator": null
                         }
                     ]
                 },
@@ -277,9 +292,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -297,7 +315,8 @@
                                 }
                             },
                             "name": "propertyName",
-                            "escapedName": "propertyName"
+                            "escapedName": "propertyName",
+                            "separator": null
                         }
                     ]
                 },
@@ -340,9 +359,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -360,12 +382,19 @@
                                 }
                             },
                             "name": "propertyName",
-                            "escapedName": "propertyName"
+                            "escapedName": "propertyName",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
                         },
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -383,7 +412,8 @@
                                 }
                             },
                             "name": "propertyValue",
-                            "escapedName": "propertyValue"
+                            "escapedName": "propertyValue",
+                            "separator": null
                         }
                     ]
                 },
@@ -424,9 +454,12 @@
                     "name": null,
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -444,7 +477,8 @@
                                 }
                             },
                             "name": "propertyName",
-                            "escapedName": "propertyName"
+                            "escapedName": "propertyName",
+                            "separator": null
                         }
                     ]
                 },
@@ -485,9 +519,12 @@
                     "name": null,
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -505,12 +542,19 @@
                                 }
                             },
                             "name": "propertyName",
-                            "escapedName": "propertyName"
+                            "escapedName": "propertyName",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
                         },
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -528,7 +572,8 @@
                                 }
                             },
                             "name": "propertyValue",
-                            "escapedName": "propertyValue"
+                            "escapedName": "propertyValue",
+                            "separator": null
                         }
                     ]
                 },
