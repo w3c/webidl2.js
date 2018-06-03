@@ -46,6 +46,14 @@
                 "separator": null
             }
         ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "assign": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {
@@ -126,7 +134,8 @@
             "name": " ",
             "open": " ",
             "close": "\n",
-            "termination": ""
+            "termination": "",
+            "callback": "\n\n"
         },
         "inheritance": null,
         "extAttrs": null
@@ -208,6 +217,14 @@
                 "separator": null
             }
         ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "assign": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
         "extAttrs": null
     }
 ]
