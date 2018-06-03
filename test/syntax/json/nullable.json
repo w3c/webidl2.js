@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "MyConstants",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "const",
@@ -51,7 +51,7 @@
     {
         "type": "interface",
         "name": "Node",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

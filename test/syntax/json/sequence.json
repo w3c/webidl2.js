@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Canvas",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",
@@ -168,7 +168,7 @@
     {
         "type": "interface",
         "name": "I",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

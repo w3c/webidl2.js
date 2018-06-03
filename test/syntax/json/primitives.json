@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Primitives",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

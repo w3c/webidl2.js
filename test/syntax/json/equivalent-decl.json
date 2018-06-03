@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Dictionary",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
@@ -221,7 +221,7 @@
     {
         "type": "interface",
         "name": "Dictionary2",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

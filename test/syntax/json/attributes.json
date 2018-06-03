@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Person",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

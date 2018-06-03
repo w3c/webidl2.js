@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "A",
-        "partial": false,
+        "partial": null,
         "members": [],
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
@@ -17,7 +17,7 @@
     {
         "type": "interface",
         "name": "B",
-        "partial": false,
+        "partial": null,
         "members": [],
         "trivia": {
             "base": "\n\n",
@@ -32,7 +32,7 @@
     {
         "type": "interface",
         "name": "C",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",
@@ -182,7 +182,7 @@
     {
         "type": "interface",
         "name": "D",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

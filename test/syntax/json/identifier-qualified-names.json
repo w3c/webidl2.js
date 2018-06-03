@@ -22,7 +22,7 @@
     {
         "type": "interface",
         "name": "System",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",
@@ -170,7 +170,7 @@
     {
         "type": "interface",
         "name": "TextField",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
@@ -248,7 +248,7 @@
     {
         "type": "interface",
         "name": "FooEventTarget",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

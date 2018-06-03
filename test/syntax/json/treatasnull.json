@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Dog",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

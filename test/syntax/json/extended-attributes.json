@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "ServiceWorkerGlobalScope",
-        "partial": false,
+        "partial": null,
         "members": [],
         "trivia": {
             "base": "\n",
@@ -82,7 +82,7 @@
     {
         "type": "interface",
         "name": "IdInterface",
-        "partial": false,
+        "partial": null,
         "members": [],
         "trivia": {
             "base": "\n",
@@ -161,7 +161,7 @@
     {
         "type": "interface",
         "name": "Circle",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
@@ -363,7 +363,7 @@
     {
         "type": "interface",
         "name": "I",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
