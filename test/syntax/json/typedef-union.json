@@ -88,6 +88,11 @@
             }
         },
         "name": "TexImageSource",
+        "trivia": {
+            "base": "  ",
+            "name": " ",
+            "termination": ""
+        },
         "extAttrs": null
     }
 ]
