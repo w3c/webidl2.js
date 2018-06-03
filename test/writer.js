@@ -2,7 +2,6 @@
 
 const { collect } = require("./util/collect");
 const wp = require("../lib/webidl2");
-const writer = require("../lib/writer");
 const expect = require("expect");
 const path = require("path");
 
@@ -13,7 +12,7 @@ describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
   ];
   for (const test of collect("syntax")) {
     it(`should produce the same AST for ${test.path}`, () => {
-      const rewritten = writer.write(test.ast);
+      const rewritten = wp.write(test.ast);
       if (whitelist.includes(path.basename(test.path).slice(0, -5))) {
         expect(rewritten).toEqual(test.text.trim());
       }

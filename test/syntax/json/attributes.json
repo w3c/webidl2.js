@@ -77,5 +77,9 @@
         },
         "inheritance": null,
         "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "trivia": "\n"
     }
 ]
