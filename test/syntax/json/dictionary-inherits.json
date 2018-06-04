@@ -54,7 +54,8 @@
                     "idlType": "Point",
                     "extAttrs": []
                 },
-                "extAttrs": []
+                "extAttrs": [],
+                "default": null
             }
         ],
         "inheritance": null,
@@ -78,7 +79,8 @@
                     "idlType": "float",
                     "extAttrs": []
                 },
-                "extAttrs": []
+                "extAttrs": [],
+                "default": null
             }
         ],
         "inheritance": "PaintOptions",

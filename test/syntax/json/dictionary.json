@@ -54,7 +54,8 @@
                     "idlType": "Point",
                     "extAttrs": []
                 },
-                "extAttrs": []
+                "extAttrs": [],
+                "default": null
             },
             {
                 "type": "field",
@@ -95,7 +96,8 @@
                     "idlType": "long",
                     "extAttrs": []
                 },
-                "extAttrs": []
+                "extAttrs": [],
+                "default": null
             }
         ],
         "inheritance": null,
@@ -119,7 +121,8 @@
                     "idlType": "long",
                     "extAttrs": []
                 },
-                "extAttrs": []
+                "extAttrs": [],
+                "default": null
             },
             {
                 "type": "field",
@@ -134,7 +137,8 @@
                     "idlType": "long",
                     "extAttrs": []
                 },
-                "extAttrs": []
+                "extAttrs": [],
+                "default": null
             }
         ],
         "extAttrs": []
