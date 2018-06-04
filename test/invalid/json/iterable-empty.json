@@ -1,0 +1,4 @@
+{
+    "message": "Got an error during or right after parsing `interface X`: Error parsing iterable declaration",
+    "line": 2
+}
