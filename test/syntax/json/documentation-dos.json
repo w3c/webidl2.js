@@ -4,6 +4,13 @@
         "name": "Documentation",
         "partial": false,
         "members": [],
+        "trivia": {
+            "base": "/**\n* \\brief Testing documentation features\n*\n* This is a\n* single paragraph\n*\n* <p>This is valid.</p>\n* <p>This is <em>valid</em>.</p>\n* <p>This is <b>valid</b>.</p>\n* <p>This is <a href=''>valid</a>.</p>\n* <ul>\n* <li>This</li>\n* <li>is</li>\n* <li>valid</li>\n* </ul>\n* <dl>\n* <dt>This</dt>\n* <dd>valid</dd>\n* </dl>\n* <table>\n* <tr>\n* <td>this</td>\n* <td>is</td>\n* </tr>\n* <tr>\n* <td>valid</td>\n* </tr>\n* </table>\n* <p>This is <br> valid.</p>\n* <p>This is <br /> valid.</p>\n* <p>This is <br/> valid.</p>\n*/\n",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": []
     }

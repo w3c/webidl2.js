@@ -23,8 +23,9 @@ function* collect(base, { expectError } = {}) {
       opt = JSON.parse(fs.readFileSync(optFile, "utf8"));
 
     try {
-      const ast = wp.parse(fs.readFileSync(path, "utf8").replace(/\r\n/g, "\n"), opt);
-      yield new TestItem({ ast, path, opt });
+      const text = fs.readFileSync(path, "utf8").replace(/\r\n/g, "\n");
+      const ast = wp.parse(text, opt);
+      yield new TestItem({ text, ast, path, opt });
     }
     catch (error) {
       if (expectError) {
@@ -39,7 +40,8 @@ function* collect(base, { expectError } = {}) {
 
 
 class TestItem {
-  constructor({ ast, path, error, opt }) {
+  constructor({ text, ast, path, error, opt }) {
+    this.text = text;
     this.ast = ast;
     this.path = path;
     this.error = error;

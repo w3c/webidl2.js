@@ -4,20 +4,23 @@ const { collect } = require("./util/collect");
 const wp = require("../lib/webidl2");
 const writer = require("../lib/writer");
 const expect = require("expect");
+const path = require("path");
 const debug = true;
 
 describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
+  const whitelist = [
+    "documentation",
+    "documentation-dos"
+  ];
   for (const test of collect("syntax")) {
     it(`should produce the same AST for ${test.path}`, () => {
-      try {
-        const diff = test.diff(wp.parse(writer.write(test.ast), test.opt));
-        if (diff && debug) console.log(JSON.stringify(diff, null, 4));
-        expect(diff).toBe(undefined);
+      const rewritten = writer.write(test.ast);
+      if (whitelist.includes(path.basename(test.path).slice(0, -5))) {
+        expect(rewritten).toEqual(test.text.trim());
       }
-      catch (e) {
-        console.log(e.toString());
-        throw e;
-      }
+      const diff = test.diff(wp.parse(rewritten, test.opt));
+      if (diff && debug) console.log(JSON.stringify(diff, null, 4));
+      expect(diff).toBe(undefined);
     });
   }
 });

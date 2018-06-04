@@ -4,6 +4,13 @@
         "name": "ServiceWorkerGlobalScope",
         "partial": false,
         "members": [],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n\n",
+            "termination": ""
+        },
         "inheritance": "WorkerGlobalScope",
         "extAttrs": [
             {
@@ -34,6 +41,13 @@
         "name": "IdInterface",
         "partial": false,
         "members": [],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": [
             {
@@ -143,6 +157,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": [
             {
@@ -224,6 +245,13 @@
                 "extAttrs": []
             }
         ],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
         "inheritance": null,
         "extAttrs": [
             {
