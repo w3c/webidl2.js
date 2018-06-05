@@ -15,14 +15,16 @@
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "return-type",
-                        "generic": null,
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "void",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "meow",

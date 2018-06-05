@@ -67,14 +67,16 @@
                     "generic": "sequence",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "dictionary-type",
-                        "generic": null,
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "long",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "dictionary-type",
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "long",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "extAttrs": [],
