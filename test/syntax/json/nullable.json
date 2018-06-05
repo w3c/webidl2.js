@@ -6,11 +6,10 @@
         "members": [
             {
                 "type": "const",
-                "nullable": true,
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": true,
                     "union": false,
                     "idlType": "boolean",
                     "extAttrs": []
