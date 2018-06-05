@@ -32,14 +32,16 @@
                             "generic": "sequence",
                             "nullable": true,
                             "union": false,
-                            "idlType": {
-                                "type": "argument-type",
-                                "generic": null,
-                                "nullable": true,
-                                "union": false,
-                                "idlType": "DOMString",
-                                "extAttrs": []
-                            },
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": true,
+                                    "union": false,
+                                    "idlType": "DOMString",
+                                    "extAttrs": []
+                                }
+                            ],
                             "extAttrs": []
                         },
                         "name": "foo",

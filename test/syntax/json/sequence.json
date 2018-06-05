@@ -32,14 +32,16 @@
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
-                            "idlType": {
-                                "type": "argument-type",
-                                "generic": null,
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "float",
-                                "extAttrs": []
-                            },
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "float",
+                                    "extAttrs": []
+                                }
+                            ],
                             "extAttrs": []
                         },
                         "name": "coordinates",
@@ -60,14 +62,16 @@
                     "generic": "sequence",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "return-type",
-                        "generic": null,
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "float",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "float",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "getInflectionPoints",
@@ -119,21 +123,23 @@
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
-                            "idlType": {
-                                "type": "argument-type",
-                                "generic": null,
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "long",
-                                "extAttrs": [
-                                    {
-                                        "name": "XAttr",
-                                        "arguments": null,
-                                        "type": "extended-attribute",
-                                        "rhs": null
-                                    }
-                                ]
-                            },
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "long",
+                                    "extAttrs": [
+                                        {
+                                            "name": "XAttr",
+                                            "arguments": null,
+                                            "type": "extended-attribute",
+                                            "rhs": null
+                                        }
+                                    ]
+                                }
+                            ],
                             "extAttrs": []
                         },
                         "name": "arg",

@@ -16,28 +16,34 @@
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "return-type",
-                        "generic": "Promise",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": {
+                    "idlType": [
+                        {
                             "type": "return-type",
-                            "generic": "sequence",
+                            "generic": "Promise",
                             "nullable": false,
                             "union": false,
-                            "idlType": {
-                                "type": "return-type",
-                                "generic": null,
-                                "nullable": true,
-                                "union": false,
-                                "idlType": "DOMString",
-                                "extAttrs": []
-                            },
+                            "idlType": [
+                                {
+                                    "type": "return-type",
+                                    "generic": "sequence",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": [
+                                        {
+                                            "type": "return-type",
+                                            "generic": null,
+                                            "nullable": true,
+                                            "union": false,
+                                            "idlType": "DOMString",
+                                            "extAttrs": []
+                                        }
+                                    ],
+                                    "extAttrs": []
+                                }
+                            ],
                             "extAttrs": []
-                        },
-                        "extAttrs": []
-                    },
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "bar",
@@ -56,14 +62,16 @@
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "attribute-type",
-                        "generic": null,
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "DOMString",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "attribute-type",
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "baz",
@@ -98,14 +106,16 @@
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "return-type",
-                        "generic": null,
-                        "nullable": true,
-                        "union": false,
-                        "idlType": "Client",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "generic": null,
+                            "nullable": true,
+                            "union": false,
+                            "idlType": "Client",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "getServiced",
@@ -125,14 +135,16 @@
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "return-type",
-                        "generic": null,
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "any",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "any",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "reloadAll",
@@ -168,14 +180,16 @@
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
-                    "idlType": {
-                        "type": "return-type",
-                        "generic": null,
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "any",
-                        "extAttrs": []
-                    },
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "generic": null,
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "any",
+                            "extAttrs": []
+                        }
+                    ],
                     "extAttrs": []
                 },
                 "name": "default",

@@ -32,31 +32,33 @@
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
-                            "idlType": {
-                                "type": "argument-type",
-                                "generic": "record",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": [
-                                    {
-                                        "type": "argument-type",
-                                        "generic": null,
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": "ByteString",
-                                        "extAttrs": []
-                                    },
-                                    {
-                                        "type": "argument-type",
-                                        "generic": null,
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": "any",
-                                        "extAttrs": []
-                                    }
-                                ],
-                                "extAttrs": []
-                            },
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "generic": "record",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": [
+                                        {
+                                            "type": "argument-type",
+                                            "generic": null,
+                                            "nullable": false,
+                                            "union": false,
+                                            "idlType": "ByteString",
+                                            "extAttrs": []
+                                        },
+                                        {
+                                            "type": "argument-type",
+                                            "generic": null,
+                                            "nullable": false,
+                                            "union": false,
+                                            "idlType": "any",
+                                            "extAttrs": []
+                                        }
+                                    ],
+                                    "extAttrs": []
+                                }
+                            ],
                             "extAttrs": []
                         },
                         "name": "param",
