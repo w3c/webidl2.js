@@ -32,10 +32,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "MealType",
-                    "extAttrs": []
+                    "baseName": "MealType",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "type",
                 "escapedName": "type",
@@ -50,10 +57,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "size",
                 "escapedName": "size",
@@ -69,10 +83,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "     // in grams\n\n  "
+                    }
                 },
                 "name": "initialize",
                 "escapedName": "initialize",
@@ -85,10 +106,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "MealType",
-                            "extAttrs": []
+                            "baseName": "MealType",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "type",
                         "escapedName": "type"
@@ -101,10 +129,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "size",
                         "escapedName": "size"

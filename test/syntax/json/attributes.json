@@ -13,10 +13,20 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unsigned short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "age",
                 "escapedName": "age",
@@ -31,10 +41,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "any",
-                    "extAttrs": []
+                    "baseName": "any",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "required",
                 "escapedName": "required",

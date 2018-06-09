@@ -12,10 +12,19 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
-                    "extAttrs": []
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": {
@@ -31,10 +40,19 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
-                    "extAttrs": []
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": {
@@ -49,10 +67,17 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "Point",
-                    "extAttrs": []
+                    "baseName": "Point",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": null
@@ -64,20 +89,40 @@
                 "required": false,
                 "idlType": {
                     "type": "dictionary-type",
-                    "generic": "sequence",
-                    "nullable": false,
+                    "generic": {
+                        "value": "sequence",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "nullable": null,
                     "union": false,
                     "idlType": [
                         {
                             "type": "dictionary-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "extAttrs": []
+                    "baseName": "sequence",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to \"[]\".\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": {
@@ -93,10 +138,17 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "extAttrs": [],
                 "default": null
@@ -118,10 +170,17 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": null
@@ -134,10 +193,17 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "extAttrs": [],
                 "default": null

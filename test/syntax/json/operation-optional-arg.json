@@ -14,10 +14,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "object",
-                    "extAttrs": []
+                    "baseName": "object",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "createColor",
                 "escapedName": "createColor",
@@ -30,10 +37,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "v1",
                         "escapedName": "v1"
@@ -46,10 +60,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "v2",
                         "escapedName": "v2"
@@ -62,10 +83,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "v3",
                         "escapedName": "v3"
@@ -81,10 +109,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "alpha",
                         "escapedName": "alpha"

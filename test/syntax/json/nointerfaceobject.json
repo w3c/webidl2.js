@@ -14,10 +14,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "any",
-                    "extAttrs": []
+                    "baseName": "any",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "lookupEntry",
                 "escapedName": "lookupEntry",
@@ -30,10 +37,20 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "unsigned long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": {
+                                "value": "unsigned",
+                                "trivia": ""
+                            },
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "key",
                         "escapedName": "key"

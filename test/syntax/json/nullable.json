@@ -9,10 +9,19 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "ARE_WE_THERE_YET",
                 "value": {
@@ -46,10 +55,19 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
-                    "extAttrs": []
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "namespaceURI",
                 "escapedName": "namespaceURI",

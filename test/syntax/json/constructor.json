@@ -13,10 +13,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "r",
                 "escapedName": "r",
@@ -31,10 +38,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cx",
                 "escapedName": "cx",
@@ -49,10 +63,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cy",
                 "escapedName": "cy",
@@ -67,10 +88,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "circumference",
                 "escapedName": "circumference",
@@ -103,10 +131,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "radius",
                         "escapedName": "radius"

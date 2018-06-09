@@ -14,10 +14,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "g",
                 "escapedName": "g",
@@ -34,10 +41,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "g",
                 "escapedName": "g",
@@ -50,10 +64,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "B",
-                            "extAttrs": []
+                            "baseName": "B",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "b",
                         "escapedName": "b"
@@ -71,10 +92,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "g",
                 "escapedName": "g",
@@ -94,10 +122,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
-                            "extAttrs": []
+                            "baseName": "DOMString",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         "name": "s",
                         "escapedName": "s"

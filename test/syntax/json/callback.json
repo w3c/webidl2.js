@@ -5,10 +5,17 @@
         "idlType": {
             "type": "return-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "void",
-            "extAttrs": []
+            "baseName": "void",
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": [],
+            "trivia": {
+                "base": " "
+            }
         },
         "arguments": [
             {
@@ -19,10 +26,17 @@
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "DOMString",
-                    "extAttrs": []
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 },
                 "name": "status",
                 "escapedName": "status"
@@ -45,10 +59,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "eventOccurred",
                 "escapedName": "eventOccurred",
@@ -61,10 +82,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
-                            "extAttrs": []
+                            "baseName": "DOMString",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "details",
                         "escapedName": "details"
@@ -89,10 +117,17 @@
         "idlType": {
             "type": "return-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "boolean",
-            "extAttrs": []
+            "baseName": "boolean",
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": [],
+            "trivia": {
+                "base": " "
+            }
         },
         "arguments": [
             {
@@ -103,10 +138,17 @@
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "any",
-                    "extAttrs": []
+                    "baseName": "any",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 },
                 "name": "a",
                 "escapedName": "a"
@@ -119,10 +161,17 @@
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "any",
-                    "extAttrs": []
+                    "baseName": "any",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "b",
                 "escapedName": "b"

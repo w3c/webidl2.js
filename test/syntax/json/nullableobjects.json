@@ -44,10 +44,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -60,10 +67,19 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": true,
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": false,
                             "idlType": "A",
-                            "extAttrs": []
+                            "baseName": "A",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "x",
                         "escapedName": "x"
@@ -81,10 +97,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "f",
                 "escapedName": "f",
@@ -97,10 +120,19 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": true,
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": false,
                             "idlType": "B",
-                            "extAttrs": []
+                            "baseName": "B",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "x",
                         "escapedName": "x"

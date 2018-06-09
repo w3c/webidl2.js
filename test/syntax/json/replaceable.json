@@ -13,10 +13,20 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "value",
                 "escapedName": "value",
@@ -39,10 +49,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "increment",
                 "escapedName": "increment",

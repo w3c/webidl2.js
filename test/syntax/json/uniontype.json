@@ -13,69 +13,142 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": true,
                     "idlType": [
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": true,
                             "idlType": [
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "Date",
-                                    "extAttrs": []
+                                    "baseName": "Date",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": {
+                                        "value": "or",
+                                        "trivia": " "
+                                    },
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 },
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "Event",
-                                    "extAttrs": []
+                                    "baseName": "Event",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
-                            "extAttrs": []
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
+                            "extAttrs": [],
+                            "trivia": {
+                                "open": " ",
+                                "close": ""
+                            }
                         },
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": true,
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": true,
                             "idlType": [
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "Node",
-                                    "extAttrs": []
+                                    "baseName": "Node",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": {
+                                        "value": "or",
+                                        "trivia": " "
+                                    },
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 },
                                 {
                                     "type": null,
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "DOMString",
-                                    "extAttrs": []
+                                    "baseName": "DOMString",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
-                            "extAttrs": []
+                            "baseName": null,
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "open": " ",
+                                "close": ""
+                            }
                         }
                     ],
-                    "extAttrs": []
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
                 },
                 "name": "test",
                 "escapedName": "test",
@@ -90,15 +163,22 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": true,
                     "idlType": [
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "long",
+                            "baseName": "long",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
                             "extAttrs": [
                                 {
                                     "name": "EnforceRange",
@@ -106,18 +186,36 @@
                                     "type": "extended-attribute",
                                     "rhs": null
                                 }
-                            ]
+                            ],
+                            "trivia": {
+                                "base": " "
+                            }
                         },
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "Date",
-                            "extAttrs": []
+                            "baseName": "Date",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         }
                     ],
-                    "extAttrs": []
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
                 },
                 "name": "test2",
                 "escapedName": "test2",

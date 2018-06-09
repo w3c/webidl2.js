@@ -14,10 +14,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "test",
                 "escapedName": "test",
@@ -29,20 +36,44 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "generic": "sequence",
-                            "nullable": true,
+                            "generic": {
+                                "value": "sequence",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
                                     "generic": null,
-                                    "nullable": true,
+                                    "nullable": {
+                                        "trivia": ""
+                                    },
                                     "union": false,
                                     "idlType": "DOMString",
-                                    "extAttrs": []
+                                    "baseName": "DOMString",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 }
                             ],
-                            "extAttrs": []
+                            "baseName": "sequence",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "foo",
                         "escapedName": "foo"

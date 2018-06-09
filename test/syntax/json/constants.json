@@ -9,10 +9,17 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "DEBUG",
                 "value": {
@@ -26,10 +33,17 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "negative",
                 "value": {
@@ -43,10 +57,17 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "octet",
-                    "extAttrs": []
+                    "baseName": "octet",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "LF",
                 "value": {
@@ -60,10 +81,20 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unsigned long",
-                    "extAttrs": []
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "BIT_MASK",
                 "value": {
@@ -77,10 +108,17 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "AVOGADRO",
                 "value": {
@@ -94,10 +132,20 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unrestricted float",
-                    "extAttrs": []
+                    "baseName": "float",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "sobig",
                 "value": {
@@ -111,10 +159,20 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "unrestricted double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "minusonedividedbyzero",
                 "value": {
@@ -128,10 +186,17 @@
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "short",
-                    "extAttrs": []
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "notanumber",
                 "value": {

@@ -93,10 +93,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "r",
                 "escapedName": "r",
@@ -111,10 +118,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cx",
                 "escapedName": "cx",
@@ -129,10 +143,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "cy",
                 "escapedName": "cy",
@@ -147,10 +168,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "double",
-                    "extAttrs": []
+                    "baseName": "double",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "circumference",
                 "escapedName": "circumference",
@@ -183,10 +211,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "double",
-                            "extAttrs": []
+                            "baseName": "double",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "radius",
                         "escapedName": "radius"
@@ -211,26 +246,47 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": true,
                     "idlType": [
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "long",
-                            "extAttrs": []
+                            "baseName": "long",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": {
+                                "value": "or",
+                                "trivia": " "
+                            },
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         {
                             "type": null,
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "Node",
-                            "extAttrs": []
+                            "baseName": "Node",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": " "
+                            }
                         }
                     ],
+                    "baseName": null,
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
                     "extAttrs": [
                         {
                             "name": "XAttr",
@@ -238,7 +294,11 @@
                             "type": "extended-attribute",
                             "rhs": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
                 },
                 "name": "attrib",
                 "escapedName": "attrib",

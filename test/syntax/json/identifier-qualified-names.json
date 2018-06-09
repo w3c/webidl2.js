@@ -4,10 +4,17 @@
         "idlType": {
             "type": "typedef-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": false,
             "idlType": "float",
-            "extAttrs": []
+            "baseName": "float",
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": [],
+            "trivia": {
+                "base": " "
+            }
         },
         "name": "number",
         "extAttrs": []
@@ -27,10 +34,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "object",
-                    "extAttrs": []
+                    "baseName": "object",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
+                    }
                 },
                 "name": "createObject",
                 "escapedName": "createObject",
@@ -43,10 +57,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
-                            "extAttrs": []
+                            "baseName": "DOMString",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "interface",
                         "escapedName": "_interface"
@@ -64,10 +85,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "DOMString",
-                    "extAttrs": []
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": null,
                 "escapedName": null,
@@ -80,10 +108,17 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "DOMString",
-                            "extAttrs": []
+                            "baseName": "DOMString",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "keyName",
                         "escapedName": "keyName"
@@ -116,10 +151,17 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "boolean",
-                    "extAttrs": []
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "const",
                 "escapedName": "_const",
@@ -134,10 +176,19 @@
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
-                    "nullable": true,
+                    "nullable": {
+                        "trivia": ""
+                    },
                     "union": false,
                     "idlType": "DOMString",
-                    "extAttrs": []
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": " "
+                    }
                 },
                 "name": "value",
                 "escapedName": "_value",
@@ -169,10 +220,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  // Argument names allow some selected keywords\n  "
+                    }
                 },
                 "name": "addEventListener",
                 "escapedName": "addEventListener",
@@ -185,10 +243,19 @@
                         "idlType": {
                             "type": "argument-type",
                             "generic": null,
-                            "nullable": true,
+                            "nullable": {
+                                "trivia": ""
+                            },
                             "union": false,
                             "idlType": "EventListener",
-                            "extAttrs": []
+                            "baseName": "EventListener",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "callback",
                         "escapedName": "callback"

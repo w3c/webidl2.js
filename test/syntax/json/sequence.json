@@ -14,10 +14,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "drawPolygon",
                 "escapedName": "drawPolygon",
@@ -29,20 +36,40 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "generic": "sequence",
-                            "nullable": false,
+                            "generic": {
+                                "value": "sequence",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
+                            "nullable": null,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "float",
-                                    "extAttrs": []
+                                    "baseName": "float",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": [],
+                                    "trivia": {
+                                        "base": ""
+                                    }
                                 }
                             ],
-                            "extAttrs": []
+                            "baseName": "sequence",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "coordinates",
                         "escapedName": "coordinates"
@@ -59,20 +86,40 @@
                 "stringifier": false,
                 "idlType": {
                     "type": "return-type",
-                    "generic": "sequence",
-                    "nullable": false,
+                    "generic": {
+                        "value": "sequence",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "nullable": null,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
                             "generic": null,
-                            "nullable": false,
+                            "nullable": null,
                             "union": false,
                             "idlType": "float",
-                            "extAttrs": []
+                            "baseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         }
                     ],
-                    "extAttrs": []
+                    "baseName": "sequence",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n  "
+                    }
                 },
                 "name": "getInflectionPoints",
                 "escapedName": "getInflectionPoints",
@@ -105,10 +152,17 @@
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "void",
-                    "extAttrs": []
+                    "baseName": "void",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n    "
+                    }
                 },
                 "name": "f1",
                 "escapedName": "f1",
@@ -120,16 +174,26 @@
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "generic": "sequence",
-                            "nullable": false,
+                            "generic": {
+                                "value": "sequence",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
+                            "nullable": null,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
                                     "generic": null,
-                                    "nullable": false,
+                                    "nullable": null,
                                     "union": false,
                                     "idlType": "long",
+                                    "baseName": "long",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
                                     "extAttrs": [
                                         {
                                             "name": "XAttr",
@@ -137,10 +201,20 @@
                                             "type": "extended-attribute",
                                             "rhs": null
                                         }
-                                    ]
+                                    ],
+                                    "trivia": {
+                                        "base": " "
+                                    }
                                 }
                             ],
-                            "extAttrs": []
+                            "baseName": "sequence",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": [],
+                            "trivia": {
+                                "base": ""
+                            }
                         },
                         "name": "arg",
                         "escapedName": "arg"

@@ -10,10 +10,17 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
-                        "extAttrs": []
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": ""
+                        }
                     }
                 ],
                 "readonly": false,
@@ -41,10 +48,17 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
-                        "extAttrs": []
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": ""
+                        }
                     }
                 ],
                 "readonly": true,
@@ -72,9 +86,13 @@
                     {
                         "type": null,
                         "generic": null,
-                        "nullable": false,
+                        "nullable": null,
                         "union": false,
                         "idlType": "long",
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [
                             {
                                 "name": "XAttr",
@@ -82,7 +100,10 @@
                                 "type": "extended-attribute",
                                 "rhs": null
                             }
-                        ]
+                        ],
+                        "trivia": {
+                            "base": " "
+                        }
                     }
                 ],
                 "readonly": false,

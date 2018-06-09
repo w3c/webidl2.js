@@ -4,43 +4,88 @@
         "idlType": {
             "type": "typedef-type",
             "generic": null,
-            "nullable": false,
+            "nullable": null,
             "union": true,
             "idlType": [
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "ImageData",
-                    "extAttrs": []
+                    "baseName": "ImageData",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": ""
+                    }
                 },
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "HTMLImageElement",
-                    "extAttrs": []
+                    "baseName": "HTMLImageElement",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n           "
+                    }
                 },
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "HTMLCanvasElement",
-                    "extAttrs": []
+                    "baseName": "HTMLCanvasElement",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n           "
+                    }
                 },
                 {
                     "type": null,
                     "generic": null,
-                    "nullable": false,
+                    "nullable": null,
                     "union": false,
                     "idlType": "HTMLVideoElement",
-                    "extAttrs": []
+                    "baseName": "HTMLVideoElement",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": [],
+                    "trivia": {
+                        "base": "\n           "
+                    }
                 }
             ],
-            "extAttrs": []
+            "baseName": null,
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": [],
+            "trivia": {
+                "open": " ",
+                "close": ""
+            }
         },
         "name": "TexImageSource",
         "extAttrs": []
