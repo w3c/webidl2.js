@@ -71,58 +71,70 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "boolean",
-                    "baseName": "boolean",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "boolean",
+                        "baseName": "boolean",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": "\n\n  "
+                        }
+                    },
                     "trivia": {
-                        "base": "\n\n  "
-                    }
-                },
-                "name": "isMemberOfBreed",
-                "escapedName": "isMemberOfBreed",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [
-                            {
-                                "name": "TreatNullAs",
-                                "arguments": null,
-                                "type": "extended-attribute",
-                                "rhs": {
-                                    "type": "identifier",
-                                    "value": "EmptyString"
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "isMemberOfBreed",
+                        "escaped": "isMemberOfBreed",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [
+                                {
+                                    "name": "TreatNullAs",
+                                    "arguments": null,
+                                    "type": "extended-attribute",
+                                    "rhs": {
+                                        "type": "identifier",
+                                        "value": "EmptyString"
+                                    }
                                 }
-                            }
-                        ],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
-                        },
-                        "name": "breedName",
-                        "escapedName": "breedName"
-                    }
-                ],
+                            ],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "breedName",
+                            "escapedName": "breedName"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],

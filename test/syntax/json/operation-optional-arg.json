@@ -11,120 +11,132 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "object",
-                    "baseName": "object",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "object",
+                        "baseName": "object",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
+                        "trivia": {
+                            "base": "\n  "
+                        }
+                    },
                     "trivia": {
-                        "base": "\n  "
-                    }
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "createColor",
+                        "escaped": "createColor",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "v1",
+                            "escapedName": "v1"
+                        },
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "v2",
+                            "escapedName": "v2"
+                        },
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "v3",
+                            "escapedName": "v3"
+                        },
+                        {
+                            "optional": true,
+                            "variadic": false,
+                            "default": {
+                                "type": "number",
+                                "value": "3.5"
+                            },
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "alpha",
+                            "escapedName": "alpha"
+                        }
+                    ]
                 },
-                "name": "createColor",
-                "escapedName": "createColor",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "v1",
-                        "escapedName": "v1"
-                    },
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
-                        },
-                        "name": "v2",
-                        "escapedName": "v2"
-                    },
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
-                        },
-                        "name": "v3",
-                        "escapedName": "v3"
-                    },
-                    {
-                        "optional": true,
-                        "variadic": false,
-                        "default": {
-                            "type": "number",
-                            "value": "3.5"
-                        },
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
-                        },
-                        "name": "alpha",
-                        "escapedName": "alpha"
-                    }
-                ],
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
