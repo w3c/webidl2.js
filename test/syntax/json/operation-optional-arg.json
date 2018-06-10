@@ -38,9 +38,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -58,12 +61,19 @@
                                 }
                             },
                             "name": "v1",
-                            "escapedName": "v1"
+                            "escapedName": "v1",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
                         },
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -81,12 +91,19 @@
                                 }
                             },
                             "name": "v2",
-                            "escapedName": "v2"
+                            "escapedName": "v2",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
                         },
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -104,14 +121,23 @@
                                 }
                             },
                             "name": "v3",
-                            "escapedName": "v3"
+                            "escapedName": "v3",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
                         },
                         {
-                            "optional": true,
-                            "variadic": false,
+                            "optional": {
+                                "trivia": " "
+                            },
+                            "variadic": null,
                             "default": {
                                 "type": "number",
                                 "value": "3.5"
+                            },
+                            "trivia": {
+                                "name": " "
                             },
                             "extAttrs": [],
                             "idlType": {
@@ -130,7 +156,8 @@
                                 }
                             },
                             "name": "alpha",
-                            "escapedName": "alpha"
+                            "escapedName": "alpha",
+                            "separator": null
                         }
                     ]
                 },

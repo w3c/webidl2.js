@@ -38,9 +38,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
@@ -84,7 +87,8 @@
                                 }
                             },
                             "name": "foo",
-                            "escapedName": "foo"
+                            "escapedName": "foo",
+                            "separator": null
                         }
                     ]
                 },

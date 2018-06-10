@@ -98,9 +98,12 @@
                     },
                     "arguments": [
                         {
-                            "optional": false,
-                            "variadic": false,
+                            "optional": null,
+                            "variadic": null,
                             "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
                             "extAttrs": [
                                 {
                                     "name": "TreatUndefinedAs",
@@ -128,7 +131,8 @@
                                 }
                             },
                             "name": "breedName",
-                            "escapedName": "breedName"
+                            "escapedName": "breedName",
+                            "separator": null
                         }
                     ]
                 },
