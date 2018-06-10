@@ -5,7 +5,6 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const fs = require("fs");
 const expect = require("expect");
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
