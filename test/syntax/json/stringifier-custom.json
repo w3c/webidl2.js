@@ -6,10 +6,15 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -34,10 +39,15 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -61,10 +71,15 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -86,11 +101,13 @@
             },
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": true,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": {
+                    "trivia": "\n\n  "
+                },
                 "idlType": {
                     "type": "return-type",
                     "generic": null,

@@ -21,10 +21,15 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -46,10 +51,15 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -71,10 +81,15 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -96,10 +111,19 @@
             },
             {
                 "type": "attribute",
-                "static": true,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": true,
+                "static": {
+                    "trivia": "\n\n  "
+                },
+                "stringifier": null,
+                "inherit": null,
+                "readonly": {
+                    "trivia": " "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -121,11 +145,13 @@
             },
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": true,
-                "stringifier": false,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": {
+                    "trivia": "\n  "
+                },
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,

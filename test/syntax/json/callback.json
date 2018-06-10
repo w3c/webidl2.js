@@ -51,11 +51,11 @@
         "members": [
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,

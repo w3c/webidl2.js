@@ -6,10 +6,17 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": true,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -34,11 +41,11 @@
             },
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,
@@ -85,11 +92,11 @@
             },
             {
                 "type": "operation",
-                "getter": false,
-                "setter": false,
-                "deleter": false,
-                "static": false,
-                "stringifier": false,
+                "getter": null,
+                "setter": null,
+                "deleter": null,
+                "static": null,
+                "stringifier": null,
                 "idlType": {
                     "type": "return-type",
                     "generic": null,

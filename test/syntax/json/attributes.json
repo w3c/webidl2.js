@@ -6,10 +6,15 @@
         "members": [
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n  // A simple attribute that can be set to any value the range an unsigned\n  // short can take.\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -34,10 +39,15 @@
             },
             {
                 "type": "attribute",
-                "static": false,
-                "stringifier": false,
-                "inherit": false,
-                "readonly": false,
+                "static": null,
+                "stringifier": null,
+                "inherit": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n  // required is an allowed attribute name\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
