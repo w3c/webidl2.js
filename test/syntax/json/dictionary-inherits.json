@@ -115,7 +115,13 @@
                 "default": null
             }
         ],
-        "inheritance": "PaintOptions",
+        "inheritance": {
+            "name": "PaintOptions",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "extAttrs": []
     }
 ]

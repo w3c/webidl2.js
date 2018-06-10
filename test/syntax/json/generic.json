@@ -342,7 +342,13 @@
             "close": "\n",
             "termination": ""
         },
-        "inheritance": "Event",
+        "inheritance": {
+            "name": "Event",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "extAttrs": []
     }
 ]
