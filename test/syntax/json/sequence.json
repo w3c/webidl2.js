@@ -11,70 +11,82 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "void",
-                    "baseName": "void",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": "\n  "
-                    }
-                },
-                "name": "drawPolygon",
-                "escapedName": "drawPolygon",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": {
-                                "value": "sequence",
+                        "trivia": {
+                            "base": "\n  "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "drawPolygon",
+                        "escaped": "drawPolygon",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": {
+                                    "value": "sequence",
+                                    "trivia": {
+                                        "open": "",
+                                        "close": ""
+                                    }
+                                },
+                                "nullable": null,
+                                "union": false,
+                                "idlType": [
+                                    {
+                                        "type": "argument-type",
+                                        "generic": null,
+                                        "nullable": null,
+                                        "union": false,
+                                        "idlType": "float",
+                                        "baseName": "float",
+                                        "prefix": null,
+                                        "postfix": null,
+                                        "separator": null,
+                                        "extAttrs": [],
+                                        "trivia": {
+                                            "base": ""
+                                        }
+                                    }
+                                ],
+                                "baseName": "sequence",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
                                 "trivia": {
-                                    "open": "",
-                                    "close": ""
+                                    "base": ""
                                 }
                             },
-                            "nullable": null,
-                            "union": false,
-                            "idlType": [
-                                {
-                                    "type": "argument-type",
-                                    "generic": null,
-                                    "nullable": null,
-                                    "union": false,
-                                    "idlType": "float",
-                                    "baseName": "float",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
-                                    "extAttrs": [],
-                                    "trivia": {
-                                        "base": ""
-                                    }
-                                }
-                            ],
-                            "baseName": "sequence",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "coordinates",
-                        "escapedName": "coordinates"
-                    }
-                ],
+                            "name": "coordinates",
+                            "escapedName": "coordinates"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             },
             {
@@ -84,46 +96,58 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": {
-                        "value": "sequence",
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": {
+                            "value": "sequence",
+                            "trivia": {
+                                "open": "",
+                                "close": ""
+                            }
+                        },
+                        "nullable": null,
+                        "union": false,
+                        "idlType": [
+                            {
+                                "type": "return-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            }
+                        ],
+                        "baseName": "sequence",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": [],
                         "trivia": {
-                            "open": "",
-                            "close": ""
+                            "base": "\n  "
                         }
                     },
-                    "nullable": null,
-                    "union": false,
-                    "idlType": [
-                        {
-                            "type": "return-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        }
-                    ],
-                    "baseName": "sequence",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
                     "trivia": {
-                        "base": "\n  "
-                    }
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "getInflectionPoints",
+                        "escaped": "getInflectionPoints",
+                        "trivia": " "
+                    },
+                    "arguments": []
                 },
-                "name": "getInflectionPoints",
-                "escapedName": "getInflectionPoints",
-                "arguments": [],
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
@@ -149,77 +173,89 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "void",
-                    "baseName": "void",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": "\n    "
-                    }
-                },
-                "name": "f1",
-                "escapedName": "f1",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": {
-                                "value": "sequence",
+                        "trivia": {
+                            "base": "\n    "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "f1",
+                        "escaped": "f1",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": {
+                                    "value": "sequence",
+                                    "trivia": {
+                                        "open": "",
+                                        "close": ""
+                                    }
+                                },
+                                "nullable": null,
+                                "union": false,
+                                "idlType": [
+                                    {
+                                        "type": "argument-type",
+                                        "generic": null,
+                                        "nullable": null,
+                                        "union": false,
+                                        "idlType": "long",
+                                        "baseName": "long",
+                                        "prefix": null,
+                                        "postfix": null,
+                                        "separator": null,
+                                        "extAttrs": [
+                                            {
+                                                "name": "XAttr",
+                                                "arguments": null,
+                                                "type": "extended-attribute",
+                                                "rhs": null
+                                            }
+                                        ],
+                                        "trivia": {
+                                            "base": " "
+                                        }
+                                    }
+                                ],
+                                "baseName": "sequence",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
                                 "trivia": {
-                                    "open": "",
-                                    "close": ""
+                                    "base": ""
                                 }
                             },
-                            "nullable": null,
-                            "union": false,
-                            "idlType": [
-                                {
-                                    "type": "argument-type",
-                                    "generic": null,
-                                    "nullable": null,
-                                    "union": false,
-                                    "idlType": "long",
-                                    "baseName": "long",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
-                                    "extAttrs": [
-                                        {
-                                            "name": "XAttr",
-                                            "arguments": null,
-                                            "type": "extended-attribute",
-                                            "rhs": null
-                                        }
-                                    ],
-                                    "trivia": {
-                                        "base": " "
-                                    }
-                                }
-                            ],
-                            "baseName": "sequence",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "arg",
-                        "escapedName": "arg"
-                    }
-                ],
+                            "name": "arg",
+                            "escapedName": "arg"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],

@@ -48,48 +48,60 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": " "
-                    }
-                },
-                "name": "getProperty",
-                "escapedName": "getProperty",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "float",
+                        "baseName": "float",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
+                        "trivia": {
+                            "base": " "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "getProperty",
+                        "escaped": "getProperty",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
                             "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "propertyName",
-                        "escapedName": "propertyName"
-                    }
-                ],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             },
             {
@@ -101,71 +113,83 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "void",
-                    "baseName": "void",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": " "
-                    }
-                },
-                "name": "setProperty",
-                "escapedName": "setProperty",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "propertyName",
-                        "escapedName": "propertyName"
+                        "trivia": {
+                            "base": " "
+                        }
                     },
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "setProperty",
+                        "escaped": "setProperty",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
                             "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName"
                         },
-                        "name": "propertyValue",
-                        "escapedName": "propertyValue"
-                    }
-                ],
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "propertyValue",
+                            "escapedName": "propertyValue"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
@@ -226,48 +250,60 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": "\n\n  "
-                    }
-                },
-                "name": "getProperty",
-                "escapedName": "getProperty",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "float",
+                        "baseName": "float",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
+                        "trivia": {
+                            "base": "\n\n  "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "getProperty",
+                        "escaped": "getProperty",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
                             "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "propertyName",
-                        "escapedName": "propertyName"
-                    }
-                ],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             },
             {
@@ -277,71 +313,83 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "void",
-                    "baseName": "void",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": "\n  "
-                    }
-                },
-                "name": "setProperty",
-                "escapedName": "setProperty",
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "propertyName",
-                        "escapedName": "propertyName"
+                        "trivia": {
+                            "base": "\n  "
+                        }
                     },
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "setProperty",
+                        "escaped": "setProperty",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
                             "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName"
                         },
-                        "name": "propertyValue",
-                        "escapedName": "propertyValue"
-                    }
-                ],
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "propertyValue",
+                            "escapedName": "propertyValue"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             },
             {
@@ -353,48 +401,56 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": " "
-                    }
-                },
-                "name": null,
-                "escapedName": null,
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "float",
+                        "baseName": "float",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
+                        "trivia": {
+                            "base": " "
+                        }
+                    },
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    },
+                    "name": null,
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
                             "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "propertyName",
-                        "escapedName": "propertyName"
-                    }
-                ],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             },
             {
@@ -406,71 +462,79 @@
                 "deleter": null,
                 "static": null,
                 "stringifier": null,
-                "idlType": {
-                    "type": "return-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "void",
-                    "baseName": "void",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": [],
-                    "trivia": {
-                        "base": " "
-                    }
-                },
-                "name": null,
-                "escapedName": null,
-                "arguments": [
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "propertyName",
-                        "escapedName": "propertyName"
+                        "trivia": {
+                            "base": " "
+                        }
                     },
-                    {
-                        "optional": false,
-                        "variadic": false,
-                        "default": null,
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    },
+                    "name": null,
+                    "arguments": [
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
                             "extAttrs": [],
-                            "trivia": {
-                                "base": " "
-                            }
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName"
                         },
-                        "name": "propertyValue",
-                        "escapedName": "propertyValue"
-                    }
-                ],
+                        {
+                            "optional": false,
+                            "variadic": false,
+                            "default": null,
+                            "extAttrs": [],
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": [],
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "propertyValue",
+                            "escapedName": "propertyValue"
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
