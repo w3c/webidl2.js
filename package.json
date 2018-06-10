@@ -18,7 +18,7 @@
   },
   "scripts": {
     "lint": "eslint lib/*.js test/*.js",
-    "test": "lint && mocha",
+    "test": "npm run lint && mocha",
     "acquire": "node test/util/acquire.js"
   },
   "repository": "git://github.com/w3c/webidl2.js",
