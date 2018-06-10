@@ -23,7 +23,13 @@
                         }
                     }
                 ],
-                "readonly": false,
+                "readonly": null,
+                "trivia": {
+                    "type": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
@@ -61,7 +67,15 @@
                         }
                     }
                 ],
-                "readonly": true,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "type": " ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
@@ -106,7 +120,13 @@
                         }
                     }
                 ],
-                "readonly": false,
+                "readonly": null,
+                "trivia": {
+                    "type": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
