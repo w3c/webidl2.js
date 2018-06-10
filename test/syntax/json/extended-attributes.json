@@ -11,7 +11,13 @@
             "close": "\n\n",
             "termination": ""
         },
-        "inheritance": "WorkerGlobalScope",
+        "inheritance": {
+            "name": "WorkerGlobalScope",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "extAttrs": [
             {
                 "name": "Global",
