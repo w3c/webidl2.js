@@ -134,7 +134,11 @@
                             "variadic": null,
                             "default": {
                                 "type": "number",
-                                "value": "3.5"
+                                "value": "3.5",
+                                "trivia": {
+                                    "assign": " ",
+                                    "value": " "
+                                }
                             },
                             "trivia": {
                                 "name": " "

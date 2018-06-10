@@ -28,6 +28,13 @@
                     "type": "boolean",
                     "value": false
                 },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
