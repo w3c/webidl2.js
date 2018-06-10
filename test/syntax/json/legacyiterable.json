@@ -23,6 +23,12 @@
                         }
                     }
                 ],
+                "trivia": {
+                    "type": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
                 "extAttrs": []
             }
         ],
