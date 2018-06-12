@@ -9,6 +9,7 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-        "no-constant-condition": "off"
+        "no-constant-condition": "off",
+        "prefer-const": "error"
     }
 }
