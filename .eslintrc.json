@@ -10,6 +10,7 @@
     "extends": "eslint:recommended",
     "rules": {
         "no-constant-condition": "off",
-        "prefer-const": "error"
+        "prefer-const": "error",
+        "semi": "error"
     }
 }
