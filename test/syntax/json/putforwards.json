@@ -27,24 +27,38 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "name",
                 "escapedName": "name",
-                "extAttrs": [
-                    {
-                        "name": "PutForwards",
-                        "arguments": null,
-                        "type": "extended-attribute",
-                        "rhs": {
-                            "type": "identifier",
-                            "value": "full"
+                "extAttrs": {
+                    "trivia": {
+                        "open": "\n  ",
+                        "close": ""
+                    },
+                    "items": [
+                        {
+                            "name": "PutForwards",
+                            "signature": null,
+                            "type": "extended-attribute",
+                            "rhs": {
+                                "type": "identifier",
+                                "value": "full",
+                                "trivia": {
+                                    "assign": "",
+                                    "value": ""
+                                }
+                            },
+                            "trivia": {
+                                "name": ""
+                            },
+                            "separator": null
                         }
-                    }
-                ]
+                    ]
+                }
             },
             {
                 "type": "attribute",
@@ -70,14 +84,14 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "age",
                 "escapedName": "age",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -88,6 +102,6 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

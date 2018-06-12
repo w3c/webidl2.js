@@ -25,14 +25,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "r",
                 "escapedName": "r",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -55,14 +55,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "cx",
                 "escapedName": "cx",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -85,14 +85,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "cy",
                 "escapedName": "cy",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -117,14 +117,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "circumference",
                 "escapedName": "circumference",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -135,47 +135,70 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "Constructor",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": null
+        "extAttrs": {
+            "trivia": {
+                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+                "close": ""
             },
-            {
-                "name": "Constructor",
-                "arguments": [
-                    {
-                        "optional": null,
-                        "variadic": null,
-                        "default": null,
-                        "trivia": {
-                            "name": " "
-                        },
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "float",
-                            "baseName": "float",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "radius",
-                        "escapedName": "radius",
-                        "separator": null
+            "items": [
+                {
+                    "name": "Constructor",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
                     }
-                ],
-                "type": "extended-attribute",
-                "rhs": null
-            }
-        ]
+                },
+                {
+                    "name": "Constructor",
+                    "signature": {
+                        "arguments": [
+                            {
+                                "optional": null,
+                                "variadic": null,
+                                "default": null,
+                                "trivia": {
+                                    "name": " "
+                                },
+                                "extAttrs": null,
+                                "idlType": {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "float",
+                                    "baseName": "float",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": null,
+                                    "trivia": {
+                                        "base": ""
+                                    }
+                                },
+                                "name": "radius",
+                                "escapedName": "radius",
+                                "separator": null
+                            }
+                        ],
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": "\n "
+                    },
+                    "separator": null
+                }
+            ]
+        }
     }
 ]

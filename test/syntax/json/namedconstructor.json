@@ -18,53 +18,84 @@
                 "name": " "
             }
         },
-        "extAttrs": [
-            {
-                "name": "NamedConstructor",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Audio"
-                }
+        "extAttrs": {
+            "trivia": {
+                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+                "close": ""
             },
-            {
-                "name": "NamedConstructor",
-                "arguments": [
-                    {
-                        "optional": null,
-                        "variadic": null,
-                        "default": null,
+            "items": [
+                {
+                    "name": "NamedConstructor",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "identifier",
+                        "value": "Audio",
                         "trivia": {
-                            "name": " "
-                        },
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "src",
-                        "escapedName": "src",
-                        "separator": null
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
                     }
-                ],
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Audio"
+                },
+                {
+                    "name": "NamedConstructor",
+                    "signature": {
+                        "arguments": [
+                            {
+                                "optional": null,
+                                "variadic": null,
+                                "default": null,
+                                "trivia": {
+                                    "name": " "
+                                },
+                                "extAttrs": null,
+                                "idlType": {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "DOMString",
+                                    "baseName": "DOMString",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": null,
+                                    "trivia": {
+                                        "base": ""
+                                    }
+                                },
+                                "name": "src",
+                                "escapedName": "src",
+                                "separator": null
+                            }
+                        ],
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "identifier",
+                        "value": "Audio",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": "\n "
+                    },
+                    "separator": null
                 }
-            }
-        ]
+            ]
+        }
     }
 ]

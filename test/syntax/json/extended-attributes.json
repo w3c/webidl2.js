@@ -18,40 +18,66 @@
                 "name": " "
             }
         },
-        "extAttrs": [
-            {
-                "name": "Global",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "identifier-list",
-                    "value": [
-                        {
-                            "value": "Worker",
-                            "trivia": "",
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            }
-                        },
-                        {
-                            "value": "ServiceWorker",
-                            "trivia": "",
-                            "separator": null
-                        }
-                    ]
-                }
+        "extAttrs": {
+            "trivia": {
+                "open": "// Extracted from http://www.w3.org/TR/2015/WD-service-workers-20150205/\n\n",
+                "close": ""
             },
-            {
-                "name": "Exposed",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "ServiceWorker"
+            "items": [
+                {
+                    "name": "Global",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "identifier-list",
+                        "value": [
+                            {
+                                "value": "Worker",
+                                "trivia": "",
+                                "separator": {
+                                    "value": ",",
+                                    "trivia": ""
+                                }
+                            },
+                            {
+                                "value": "ServiceWorker",
+                                "trivia": "",
+                                "separator": null
+                            }
+                        ],
+                        "trivia": {
+                            "open": "",
+                            "assign": "",
+                            "close": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
+                    }
+                },
+                {
+                    "name": "Exposed",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "identifier",
+                        "value": "ServiceWorker",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": " "
+                    },
+                    "separator": null
                 }
-            }
-        ]
+            ]
+        }
     },
     {
         "type": "interface",
@@ -66,35 +92,71 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "IntAttr",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "integer",
-                    "value": "0"
-                }
+        "extAttrs": {
+            "trivia": {
+                "open": "\n\n// Conformance with ExtendedAttributeList grammar in http://www.w3.org/TR/WebIDL/#idl-extended-attributes\n// Section 3.11\n",
+                "close": ""
             },
-            {
-                "name": "FloatAttr",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "float",
-                    "value": "3.14"
+            "items": [
+                {
+                    "name": "IntAttr",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "integer",
+                        "value": "0",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
+                    }
+                },
+                {
+                    "name": "FloatAttr",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "float",
+                        "value": "3.14",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": " "
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
+                    }
+                },
+                {
+                    "name": "StringAttr",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "string",
+                        "value": "\"abc\"",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": " "
+                    },
+                    "separator": null
                 }
-            },
-            {
-                "name": "StringAttr",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "string",
-                    "value": "\"abc\""
-                }
-            }
-        ]
+            ]
+        }
     },
     {
         "type": "interface",
@@ -122,14 +184,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "r",
                 "escapedName": "r",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -152,14 +214,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "cx",
                 "escapedName": "cx",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -182,14 +244,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "cy",
                 "escapedName": "cy",
-                "extAttrs": []
+                "extAttrs": null
             },
             {
                 "type": "attribute",
@@ -214,14 +276,14 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "circumference",
                 "escapedName": "circumference",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -232,48 +294,71 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "Constructor",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": null
+        "extAttrs": {
+            "trivia": {
+                "open": "\n\n// Extracted from http://www.w3.org/TR/2016/REC-WebIDL-1-20161215/#Constructor on 2017-5-18 with whitespace differences\n",
+                "close": "\n"
             },
-            {
-                "name": "Constructor",
-                "arguments": [
-                    {
-                        "optional": null,
-                        "variadic": null,
-                        "default": null,
-                        "trivia": {
-                            "name": " "
-                        },
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "generic": null,
-                            "nullable": null,
-                            "union": false,
-                            "idlType": "double",
-                            "baseName": "double",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "extAttrs": [],
-                            "trivia": {
-                                "base": ""
-                            }
-                        },
-                        "name": "radius",
-                        "escapedName": "radius",
-                        "separator": null
+            "items": [
+                {
+                    "name": "Constructor",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": "\n  "
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
                     }
-                ],
-                "type": "extended-attribute",
-                "rhs": null
-            }
-        ]
+                },
+                {
+                    "name": "Constructor",
+                    "signature": {
+                        "arguments": [
+                            {
+                                "optional": null,
+                                "variadic": null,
+                                "default": null,
+                                "trivia": {
+                                    "name": " "
+                                },
+                                "extAttrs": null,
+                                "idlType": {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "double",
+                                    "baseName": "double",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": null,
+                                    "trivia": {
+                                        "base": ""
+                                    }
+                                },
+                                "name": "radius",
+                                "escapedName": "radius",
+                                "separator": null
+                            }
+                        ],
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": "\n  "
+                    },
+                    "separator": null
+                }
+            ]
+        }
     },
     {
         "type": "interface",
@@ -310,7 +395,7 @@
                                 "value": "or",
                                 "trivia": " "
                             },
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -325,7 +410,7 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "base": " "
                             }
@@ -335,14 +420,24 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [
-                        {
-                            "name": "XAttr",
-                            "arguments": null,
-                            "type": "extended-attribute",
-                            "rhs": null
-                        }
-                    ],
+                    "extAttrs": {
+                        "trivia": {
+                            "open": " ",
+                            "close": ""
+                        },
+                        "items": [
+                            {
+                                "name": "XAttr",
+                                "signature": null,
+                                "type": "extended-attribute",
+                                "rhs": null,
+                                "trivia": {
+                                    "name": ""
+                                },
+                                "separator": null
+                            }
+                        ]
+                    },
                     "trivia": {
                         "open": " ",
                         "close": ""
@@ -350,7 +445,7 @@
                 },
                 "name": "attrib",
                 "escapedName": "attrib",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -361,16 +456,30 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "Exposed",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Window"
+        "extAttrs": {
+            "trivia": {
+                "open": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-annotated-types on 2017-12-15\n",
+                "close": ""
+            },
+            "items": [
+                {
+                    "name": "Exposed",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": {
+                        "type": "identifier",
+                        "value": "Window",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": null
                 }
-            }
-        ]
+            ]
+        }
     }
 ]

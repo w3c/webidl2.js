@@ -27,33 +27,33 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "crypto",
                 "escapedName": "crypto",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
             "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
             "mixin": " "
         },
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "includes",
         "target": "Window",
         "includes": "GlobalCrypto",
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "includes",
         "target": "WorkerGlobalScope",
         "includes": "GlobalCrypto",
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "interface mixin",
@@ -83,20 +83,20 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "crypto",
                 "escapedName": "crypto",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
             "base": " ",
             "mixin": " "
         },
-        "extAttrs": []
+        "extAttrs": null
     }
 ]

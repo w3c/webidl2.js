@@ -30,14 +30,14 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "name": "nodeType",
                 "escapedName": "nodeType",
-                "extAttrs": []
+                "extAttrs": null
             }
         ],
         "trivia": {
@@ -48,13 +48,23 @@
             "termination": ""
         },
         "inheritance": null,
-        "extAttrs": [
-            {
-                "name": "PrototypeRoot",
-                "arguments": null,
-                "type": "extended-attribute",
-                "rhs": null
-            }
-        ]
+        "extAttrs": {
+            "trivia": {
+                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+                "close": ""
+            },
+            "items": [
+                {
+                    "name": "PrototypeRoot",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": null
+                }
+            ]
+        }
     }
 ]

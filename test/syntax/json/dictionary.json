@@ -21,12 +21,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": {
                     "type": "string",
                     "value": "black",
@@ -53,12 +53,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": {
                     "type": "null",
                     "trivia": {
@@ -82,12 +82,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": null
             },
             {
@@ -117,7 +117,7 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": [],
+                            "extAttrs": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -127,12 +127,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to \"[]\".\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": {
                     "type": "sequence",
                     "value": [],
@@ -158,17 +158,17 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": null
             }
         ],
         "inheritance": null,
-        "extAttrs": []
+        "extAttrs": null
     },
     {
         "type": "dictionary",
@@ -190,12 +190,12 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": null
             },
             {
@@ -213,15 +213,15 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": [],
+                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
                 },
-                "extAttrs": [],
+                "extAttrs": null,
                 "default": null
             }
         ],
-        "extAttrs": []
+        "extAttrs": null
     }
 ]
