@@ -5,7 +5,6 @@ const wp = require("../lib/webidl2");
 const writer = require("../lib/writer");
 const expect = require("expect");
 const path = require("path");
-const debug = true;
 
 describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
   const whitelist = [
@@ -19,7 +18,6 @@ describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
         expect(rewritten).toEqual(test.text.trim());
       }
       const diff = test.diff(wp.parse(rewritten, test.opt));
-      if (diff && debug) console.log(JSON.stringify(diff, null, 4));
       expect(diff).toBe(undefined);
     });
   }
