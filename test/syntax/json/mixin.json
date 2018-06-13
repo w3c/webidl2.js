@@ -39,7 +39,11 @@
         ],
         "trivia": {
             "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
-            "mixin": " "
+            "mixin": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
         },
         "extAttrs": null
     },
@@ -95,7 +99,11 @@
         ],
         "trivia": {
             "base": " ",
-            "mixin": " "
+            "mixin": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
         },
         "extAttrs": null
     }
