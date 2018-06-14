@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Foo",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",
@@ -354,7 +354,7 @@
     {
         "type": "interface",
         "name": "Bar",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "IntegerSet",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

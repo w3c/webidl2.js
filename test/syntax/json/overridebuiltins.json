@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "StringMap2",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

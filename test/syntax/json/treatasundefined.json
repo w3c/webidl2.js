@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Cat",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

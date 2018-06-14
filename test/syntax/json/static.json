@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Point",
-        "partial": false,
+        "partial": null,
         "members": [],
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
@@ -17,7 +17,7 @@
     {
         "type": "interface",
         "name": "Circle",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

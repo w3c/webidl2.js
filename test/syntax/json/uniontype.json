@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Union",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",

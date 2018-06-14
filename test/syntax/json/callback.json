@@ -51,7 +51,7 @@
     {
         "type": "callback interface",
         "name": "EventHandler",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

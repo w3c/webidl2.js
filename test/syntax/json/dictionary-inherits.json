@@ -2,7 +2,7 @@
     {
         "type": "dictionary",
         "name": "PaintOptions",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "field",
@@ -116,7 +116,7 @@
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "field",

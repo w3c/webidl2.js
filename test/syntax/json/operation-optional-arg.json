@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "ColorCreator",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

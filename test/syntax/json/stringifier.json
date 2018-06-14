@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "A",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",
@@ -55,7 +55,7 @@
     {
         "type": "interface",
         "name": "B",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "operation",

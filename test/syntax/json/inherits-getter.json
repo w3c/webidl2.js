@@ -2,7 +2,7 @@
     {
         "type": "interface",
         "name": "Animal",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
@@ -50,7 +50,7 @@
     {
         "type": "interface",
         "name": "Person",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
@@ -139,7 +139,7 @@
     {
         "type": "interface",
         "name": "Ghost",
-        "partial": false,
+        "partial": null,
         "members": [
             {
                 "type": "attribute",
