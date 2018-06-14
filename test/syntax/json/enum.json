@@ -5,17 +5,35 @@
         "values": [
             {
                 "type": "string",
-                "value": "rice"
+                "value": "rice",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
             },
             {
                 "type": "string",
-                "value": "noodles"
+                "value": "noodles",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
             },
             {
                 "type": "string",
-                "value": "other"
+                "value": "other",
+                "trivia": " "
             }
         ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": " ",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {
@@ -197,17 +215,39 @@
         "values": [
             {
                 "type": "string",
-                "value": "rice"
+                "value": "rice",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
             },
             {
                 "type": "string",
-                "value": "noodles"
+                "value": "noodles",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
             },
             {
                 "type": "string",
-                "value": "other"
+                "value": "other",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
             }
         ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": " ",
+            "termination": ""
+        },
         "extAttrs": null
     }
 ]

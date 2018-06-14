@@ -115,6 +115,11 @@
             }
         },
         "name": "PointSequence",
+        "trivia": {
+            "base": "\n\n      ",
+            "name": " ",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {
@@ -410,6 +415,11 @@
             }
         },
         "name": "value",
+        "trivia": {
+            "base": "\n\n  ",
+            "name": " ",
+            "termination": ""
+        },
         "extAttrs": null
     }
 ]
