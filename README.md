@@ -172,14 +172,30 @@ Interfaces mixins look like this:
 {
   "type": "interface mixin",
   "name": "Animal",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+      "base": "",
+      "mixin": " ",
+      "name": " ",
+      "open": " ",
+      "close": "\n",
+      "termination": ""
+  },
   "extAttrs": [...]
 }, {
   "type": "interface mixin",
   "name": "Human",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+      "base": "",
+      "mixin": " ",
+      "name": " ",
+      "open": " ",
+      "close": "\n",
+      "termination": ""
+  },
   "extAttrs": [...]
 }
 ```
@@ -188,8 +204,9 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
-* `partial`: A boolean indicating whether it's a partial interface mixin.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Namespace
@@ -200,8 +217,15 @@ Namespaces look like this:
 {
   "type": "namespace",
   "name": "Console",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
   "extAttrs": [...]
 }
 ```
@@ -210,8 +234,9 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
-* `partial`: A boolean indicating whether it's a partial namespace.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial namespace.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
@@ -256,7 +281,7 @@ A dictionary looks like this:
 {
   "type": "dictionary",
   "name": "PaintOptions",
-  "partial": false,
+  "partial": null,
   "members": [{
     "type": "field",
     "name": "fillPattern",
