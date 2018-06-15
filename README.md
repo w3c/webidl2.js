@@ -90,7 +90,8 @@ Where the fields are as follows:
 * `type`: String indicating where this type is used. Can be `null` if not applicable.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
-* `idlType`: String indicating the type name, or array of subtypes if the type is generic or a union.
+* `idlType`: String indicating the type name, or array of subtypes if the type is
+  generic or a union.
 * `nullable`: Boolean indicating whether this is nullable or not.
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
