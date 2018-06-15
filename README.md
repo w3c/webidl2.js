@@ -120,16 +120,36 @@ Interfaces look like this:
 {
   "type": "interface",
   "name": "Animal",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
   "inheritance": null,
   "extAttrs": [...]
 }, {
   "type": "interface",
   "name": "Human",
-  "partial": false,
+  "partial": null,
   "members": [...],
-  "inheritance": "Animal",
+  "trivia": {
+    "base": "\n\n",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
+  "inheritance": {
+    "name": "Animal",
+    "trivia": {
+      "colon": " ",
+      "name": " "
+    }
+  },
   "extAttrs": [...]
 }
 ```
@@ -138,11 +158,10 @@ The fields are as follows:
 
 * `type`: Always "interface".
 * `name`: The name of the interface.
-* `partial`: A boolean indicating whether it's a partial interface.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
-* `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
-  **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
-  sense.
+* `trivia`: A trivia object.
+* `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Interface mixins
