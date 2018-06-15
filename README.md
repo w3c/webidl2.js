@@ -158,7 +158,7 @@ The fields are as follows:
 
 * `type`: Always "interface".
 * `name`: The name of the interface.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface.
+* `partial`: An object with a string type field `trivia` if a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
@@ -204,7 +204,7 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface mixin.
+* `partial`: An object with a string type field `trivia` if a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -234,7 +234,7 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial namespace.
+* `partial`: An object with a string type field `trivia` if a partial namespace.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
