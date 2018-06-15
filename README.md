@@ -395,6 +395,12 @@ An implements definition looks like this:
   "type": "implements",
   "target": "Node",
   "implements": "EventTarget",
+  "trivia": {
+    "target": "\n\n  ",
+    "implements": " ",
+    "mixin": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -404,6 +410,7 @@ The fields are as follows:
 * `type`: Always "implements".
 * `target`: The interface that implements another.
 * `implements`: The interface that is being implemented by the target.
+* `trivia`: A trivia object. The field `target` is for the base interface identifier, `implements` for the `implements` keyword, and `mixin` for the mixin identifier.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Includes
@@ -424,6 +431,7 @@ The fields are as follows:
 * `type`: Always "includes".
 * `target`: The interface that includes an interface mixin.
 * `includes`: The interface mixin that is being included by the target.
+* `trivia`: A trivia object. The field `target` is for the base interface identifier, `includes` for the `includes` keyword, and `mixin` for the mixin identifier.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Operation Member
