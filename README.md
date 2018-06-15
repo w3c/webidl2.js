@@ -224,6 +224,7 @@ A dictionary looks like this:
   "members": [{
     "type": "field",
     "name": "fillPattern",
+    "escapedName": "fillPattern",
     "required": false,
     "idlType": {
       "type": "dictionary-type",
@@ -248,6 +249,7 @@ The fields are as follows:
 
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
+* `escapedName`: The dictionary name including possible escaping underscore.
 * `partial`: Boolean indicating whether it's a partial dictionary.
 * `members`: An array of members (see below).
 * `inheritance`: A string indicating which dictionary is being inherited from, `null` otherwise.
@@ -434,6 +436,7 @@ An attribute member looks like this:
     "extAttrs": [...]
   },
   "name": "regexp",
+  "escapedName": "regexp",
   "extAttrs": []
 }
 ```
@@ -442,6 +445,7 @@ The fields are as follows:
 
 * `type`: Always "attribute".
 * `name`: The attribute's name.
+* `escapedName`: The attribute's name including possible escaping underscore.
 * `static`: True if it's a static attribute.
 * `stringifier`: True if it's a stringifier attribute.
 * `inherit`: True if it's an inherit attribute.
@@ -501,7 +505,8 @@ The arguments (e.g. for an operation) look like this:
       "idlType": "long",
       "extAttrs": [...]
     },
-    "name": "ints"
+    "name": "ints",
+    "escapedName": "ints"
   }]
 }
 ```
@@ -512,6 +517,7 @@ The fields are as follows:
 * `variadic`: True if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
+* `escapedName`: The argument's name including possible escaping underscore.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Extended Attributes
