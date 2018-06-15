@@ -424,6 +424,11 @@ A typedef looks like this:
     "extAttrs": [...]
   },
   "name": "PointSequence",
+  "trivia": {
+    "base": "\n\n      ",
+    "name": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -434,6 +439,7 @@ The fields are as follows:
 * `type`: Always "typedef".
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Implements
