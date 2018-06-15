@@ -496,34 +496,47 @@ An operation looks like this:
 ```JS
 {
   "type": "operation",
-  "getter": false,
-  "setter": false,
-  "deleter": false,
-  "static": false,
-  "stringifier": false,
-  "idlType": {
-    "type": "return-type",
-    "generic": null,
-    "nullable": false,
-    "union": false,
-    "idlType": "void",
-    "extAttrs": []
-  },
-  "name": "intersection",
-  "arguments": [{
-    "optional": false,
-    "variadic": true,
-    "extAttrs": [],
+  "getter": null,
+  "setter": null,
+  "deleter": null,
+  "static": null,
+  "stringifier": null,
+  "body": {
     "idlType": {
-      "type": "argument-type",
+      "type": "return-type",
       "generic": null,
       "nullable": false,
       "union": false,
-      "idlType": "long",
-      "extAttrs": [...]
+      "idlType": "void",
+      "extAttrs": []
     },
-    "name": "ints"
-  }],
+    "trivia": {
+      "open": "",
+      "close": ""
+    },
+    "name": {
+      "value": "intersection",
+      "escaped": "intersection",
+      "trivia": " "
+    },
+    "arguments": [{
+      "optional": false,
+      "variadic": true,
+      "extAttrs": [],
+      "idlType": {
+        "type": "argument-type",
+        "generic": null,
+        "nullable": false,
+        "union": false,
+        "idlType": "long",
+        "extAttrs": [...]
+      },
+      "name": "ints"
+    }],
+  },
+  "trivia": {
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -531,15 +544,19 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `getter`: True if a getter operation.
-* `setter`: True if a setter operation.
-* `deleter`: True if a deleter operation.
-* `static`: True if a static operation.
-* `stringifier`: True if a stringifier operation.
+* `getter`: An object with a string type field `trivia` if a getter operation.
+* `setter`: An object with a string type field `trivia` if a setter operation.
+* `deleter`: An object with a string type field `trivia` if a deleter operation.
+* `static`: An object with a string type field `trivia` if a static operation.
+* `stringifier`: An object with a string type field `trivia` if a stringifier operation.
+* `body`: The operation body. Can be null if bodyless `stringifier`.
+* `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+The operation body fields are as follows:
+
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
 * `name`: The name of the operation. If a stringifier, may be `null`.
 * `arguments`: An array of [arguments](#arguments) for the operation.
-* `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Attribute Member
 
