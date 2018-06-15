@@ -242,7 +242,8 @@ The fields are as follows:
 ### Callback Interfaces
 
 These are captured by the same structure as [Interfaces](#interface) except that
-their `type` field is "callback interface".
+their `type` field is "callback interface". Its trivia object additionally
+includes a new field `callback`.
 
 ### Callback
 
@@ -261,6 +262,14 @@ A callback looks like this:
     "extAttrs": []
   },
   "arguments": [...],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "assign": " ",
+    "open": " ",
+    "close": "",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -271,6 +280,7 @@ The fields are as follows:
 * `name`: The name of the callback.
 * `idlType`: An [IDL Type](#idl-type) describing what the callback returns.
 * `arguments`: A list of [arguments](#arguments), as in function paramters.
+* `trivia`: A trivia object. The field `assign` is for the equal sign token.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Dictionary
