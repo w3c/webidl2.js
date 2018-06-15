@@ -356,10 +356,37 @@ An enum looks like this:
   "type": "enum",
   "name": "MealType",
   "values": [
-    { "type": "string", "value": "rice" },
-    { "type": "string", "value": "noodles" },
-    { "type": "string", "value": "other" }
+    {
+      "type": "string",
+      "value": "rice",
+      "trivia": " ",
+      "separator": {
+        "value": ",",
+        "trivia": ""
+      }
+    },
+    {
+      "type": "string",
+      "value": "noodles",
+      "trivia": " ",
+      "separator": {
+        "value": ",",
+        "trivia": ""
+      }
+    },
+    {
+      "type": "string",
+      "value": "other",
+      "trivia": " "
+    }
   ],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "open": " ",
+    "close": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -368,7 +395,8 @@ The fields are as follows:
 
 * `type`: Always "enum".
 * `name`: The enum's name.
-* `values`: An array of values.
+* `values`: An array of values, which may include a field `separator` for proceding commas.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Typedef
