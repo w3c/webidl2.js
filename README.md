@@ -197,7 +197,6 @@ A callback looks like this:
   "name": "AsyncOperationCallback",
   "idlType": {
     "type": "return-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -232,7 +231,6 @@ A dictionary looks like this:
     "required": false,
     "idlType": {
       "type": "dictionary-type",
-      "sequence": false,
       "generic": null,
       "nullable": true,
       "union": false,
@@ -301,19 +299,19 @@ A typedef looks like this:
   "type": "typedef",
   "idlType": {
     "type": "typedef-type",
-    "sequence": true,
     "generic": "sequence",
     "nullable": false,
     "union": false,
-    "idlType": {
-      "type": "typedef-type",
-      "sequence": false,
-      "generic": null,
-      "nullable": false,
-      "union": false,
-      "idlType": "Point",
-      "extAttrs": [...]
-    },
+    "idlType": [
+      {
+        "type": "typedef-type",
+        "generic": null,
+        "nullable": false,
+        "union": false,
+        "idlType": "Point",
+        "extAttrs": [...]
+      }
+    ],
     "extAttrs": [...]
   },
   "name": "PointSequence",
@@ -382,7 +380,6 @@ An operation looks like this:
   "stringifier": false,
   "idlType": {
     "type": "return-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -396,7 +393,6 @@ An operation looks like this:
     "extAttrs": [],
     "idlType": {
       "type": "argument-type",
-      "sequence": false,
       "generic": null,
       "nullable": false,
       "union": false,
@@ -435,7 +431,6 @@ An attribute member looks like this:
   "readonly": false,
   "idlType": {
     "type": "attribute-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -468,7 +463,6 @@ A constant member looks like this:
   "nullable": false,
   "idlType": {
     "type": "const-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -505,7 +499,6 @@ The arguments (e.g. for an operation) look like this:
     "extAttrs": [],
     "idlType": {
       "type": "argument-type",
-      "sequence": false,
       "generic": null,
       "nullable": false,
       "union": false,
