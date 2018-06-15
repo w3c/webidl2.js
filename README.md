@@ -549,13 +549,15 @@ The fields are as follows:
 * `deleter`: An object with a string type field `trivia` if a deleter operation.
 * `static`: An object with a string type field `trivia` if a static operation.
 * `stringifier`: An object with a string type field `trivia` if a stringifier operation.
+* `trivia`: A trivia object.
 * `body`: The operation body. Can be null if bodyless `stringifier`.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 The operation body fields are as follows:
 
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
-* `name`: The name of the operation. If a stringifier, may be `null`.
+* `trivia`: A trivia object.
+* `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
 
 ### Attribute Member
@@ -565,10 +567,15 @@ An attribute member looks like this:
 ```JS
 {
   "type": "attribute",
-  "static": false,
-  "stringifier": false,
-  "inherit": false,
-  "readonly": false,
+  "static": null,
+  "stringifier": null,
+  "inherit": null,
+  "readonly": null,
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "termination": ""
+  },
   "idlType": {
     "type": "attribute-type",
     "generic": null,
@@ -588,10 +595,11 @@ The fields are as follows:
 * `type`: Always "attribute".
 * `name`: The attribute's name.
 * `escapedName`: The attribute's name including possible escaping underscore.
-* `static`: True if it's a static attribute.
-* `stringifier`: True if it's a stringifier attribute.
-* `inherit`: True if it's an inherit attribute.
-* `readonly`: True if it's a read-only attribute.
+* `static`: An object with a string type field `trivia` if it's a static attribute.
+* `stringifier`: An object with a string type field `trivia` if it's a stringifier attribute.
+* `inherit`: An object with a string type field `trivia` if it's an inherit attribute.
+* `readonly`: An object with a string type field `trivia` if it's a read-only attribute.
+* `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
