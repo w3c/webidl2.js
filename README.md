@@ -90,11 +90,7 @@ Where the fields are as follows:
 * `type`: String indicating where this type is used. Can be `null` if not applicable.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
-* `idlType`: Can be different things depending on context. In most cases, this will just
-  be a string with the type name. But the reason this field isn't called "typeName" is
-  because it can take more complex values. If the type is a union, then this contains an
-  array of the types it unites. If it is a generic type, it contains the IDL type
-  description for the type in the sequence, the eventual value of the promise, etc.
+* `idlType`: String indicating the type name, or array of subtypes if the type is generic or a union.
 * `nullable`: Boolean indicating whether this is nullable or not.
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
