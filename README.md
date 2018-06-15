@@ -296,7 +296,7 @@ A dictionary looks like this:
     "type": "field",
     "name": "fillPattern",
     "escapedName": "fillPattern",
-    "required": false,
+    "required": null,
     "idlType": {
       "type": "dictionary-type",
       "generic": null,
@@ -308,9 +308,20 @@ A dictionary looks like this:
     "extAttrs": [],
     "default": {
       "type": "string",
-      "value": "black"
+      "value": "black",
+      "trivia": {
+        "assign": " ",
+        "value": " "
+      }
     }
   }],
+  "trivia": {
+    "base": "// Extracted from Web IDL editors draft May 31 2011\n",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
   "inheritance": null,
   "extAttrs": []
 }
@@ -321,16 +332,17 @@ The fields are as follows:
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
 * `escapedName`: The dictionary name including possible escaping underscore.
-* `partial`: Boolean indicating whether it's a partial dictionary.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial dictionary.
 * `members`: An array of members (see below).
-* `inheritance`: A string indicating which dictionary is being inherited from, `null` otherwise.
+* `trivia`: A trivia object.
+* `inheritance`: An object indicating which dictionary is being inherited from, `null` otherwise.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 All the members are fields as follows:
 
 * `type`: Always "field".
 * `name`: The name of the field.
-* `required`: Boolean indicating whether this is a [required](https://heycam.github.io/webidl/#required-dictionary-member) field.
+* `required`: An object with a string type field `trivia` for [`required`](https://heycam.github.io/webidl/#required-dictionary-member) field modifier. `null` if the field is not required.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 * `default`: A [default value](#default-and-const-values), absent if there is none.
