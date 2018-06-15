@@ -204,5 +204,9 @@
             "termination": ""
         },
         "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "trivia": "\n"
     }
 ]
