@@ -51,12 +51,24 @@
         "type": "includes",
         "target": "Window",
         "includes": "GlobalCrypto",
+        "trivia": {
+            "target": "\n\n",
+            "includes": " ",
+            "mixin": " ",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {
         "type": "includes",
         "target": "WorkerGlobalScope",
         "includes": "GlobalCrypto",
+        "trivia": {
+            "target": "\n",
+            "includes": " ",
+            "mixin": " ",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {
