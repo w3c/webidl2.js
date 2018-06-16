@@ -90,11 +90,8 @@ Where the fields are as follows:
 * `type`: String indicating where this type is used. Can be `null` if not applicable.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
   otherwise.
-* `idlType`: Can be different things depending on context. In most cases, this will just
-  be a string with the type name. But the reason this field isn't called "typeName" is
-  because it can take more complex values. If the type is a union, then this contains an
-  array of the types it unites. If it is a generic type, it contains the IDL type
-  description for the type in the sequence, the eventual value of the promise, etc.
+* `idlType`: String indicating the type name, or array of subtypes if the type is
+  generic or a union.
 * `nullable`: Boolean indicating whether this is nullable or not.
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -197,7 +194,6 @@ A callback looks like this:
   "name": "AsyncOperationCallback",
   "idlType": {
     "type": "return-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -229,10 +225,10 @@ A dictionary looks like this:
   "members": [{
     "type": "field",
     "name": "fillPattern",
+    "escapedName": "fillPattern",
     "required": false,
     "idlType": {
       "type": "dictionary-type",
-      "sequence": false,
       "generic": null,
       "nullable": true,
       "union": false,
@@ -254,6 +250,7 @@ The fields are as follows:
 
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
+* `escapedName`: The dictionary name including possible escaping underscore.
 * `partial`: Boolean indicating whether it's a partial dictionary.
 * `members`: An array of members (see below).
 * `inheritance`: A string indicating which dictionary is being inherited from, `null` otherwise.
@@ -301,19 +298,19 @@ A typedef looks like this:
   "type": "typedef",
   "idlType": {
     "type": "typedef-type",
-    "sequence": true,
     "generic": "sequence",
     "nullable": false,
     "union": false,
-    "idlType": {
-      "type": "typedef-type",
-      "sequence": false,
-      "generic": null,
-      "nullable": false,
-      "union": false,
-      "idlType": "Point",
-      "extAttrs": [...]
-    },
+    "idlType": [
+      {
+        "type": "typedef-type",
+        "generic": null,
+        "nullable": false,
+        "union": false,
+        "idlType": "Point",
+        "extAttrs": [...]
+      }
+    ],
     "extAttrs": [...]
   },
   "name": "PointSequence",
@@ -382,7 +379,6 @@ An operation looks like this:
   "stringifier": false,
   "idlType": {
     "type": "return-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -396,7 +392,6 @@ An operation looks like this:
     "extAttrs": [],
     "idlType": {
       "type": "argument-type",
-      "sequence": false,
       "generic": null,
       "nullable": false,
       "union": false,
@@ -435,7 +430,6 @@ An attribute member looks like this:
   "readonly": false,
   "idlType": {
     "type": "attribute-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -443,6 +437,7 @@ An attribute member looks like this:
     "extAttrs": [...]
   },
   "name": "regexp",
+  "escapedName": "regexp",
   "extAttrs": []
 }
 ```
@@ -451,6 +446,7 @@ The fields are as follows:
 
 * `type`: Always "attribute".
 * `name`: The attribute's name.
+* `escapedName`: The attribute's name including possible escaping underscore.
 * `static`: True if it's a static attribute.
 * `stringifier`: True if it's a stringifier attribute.
 * `inherit`: True if it's an inherit attribute.
@@ -468,7 +464,6 @@ A constant member looks like this:
   "nullable": false,
   "idlType": {
     "type": "const-type",
-    "sequence": false,
     "generic": null,
     "nullable": false,
     "union": false,
@@ -505,14 +500,14 @@ The arguments (e.g. for an operation) look like this:
     "extAttrs": [],
     "idlType": {
       "type": "argument-type",
-      "sequence": false,
       "generic": null,
       "nullable": false,
       "union": false,
       "idlType": "long",
       "extAttrs": [...]
     },
-    "name": "ints"
+    "name": "ints",
+    "escapedName": "ints"
   }]
 }
 ```
@@ -523,6 +518,7 @@ The fields are as follows:
 * `variadic`: True if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
+* `escapedName`: The argument's name including possible escaping underscore.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Extended Attributes
