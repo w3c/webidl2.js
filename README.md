@@ -650,9 +650,14 @@ The arguments (e.g. for an operation) look like this:
 ```JS
 {
   "arguments": [{
-    "optional": false,
-    "variadic": true,
+    "optional": null,
+    "variadic": {
+      "trivia": ""
+    },
     "extAttrs": [],
+    "trivia": {
+      "name": " "
+    },
     "idlType": {
       "type": "argument-type",
       "generic": null,
@@ -669,11 +674,12 @@ The arguments (e.g. for an operation) look like this:
 
 The fields are as follows:
 
-* `optional`: True if the argument is optional.
-* `variadic`: True if the argument is variadic.
+* `optional`: An object with a string type field `trivia` if the argument is optional.
+* `variadic`: An object with a string type field `trivia` if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `escapedName`: The argument's name including possible escaping underscore.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Extended Attributes
