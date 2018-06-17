@@ -641,7 +641,13 @@ These appear as members of interfaces that look like this:
 {
   "type": "maplike", // or "legacyiterable" / "iterable" / "setlike"
   "idlType": /* One or two types */ ,
-  "readonly": false, // only for maplike and setlike
+  "readonly": null, // only for maplike and setlike
+  "trivia": {
+    "base": " ",
+    "open": "",
+    "close": "",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -650,7 +656,8 @@ The fields are as follows:
 
 * `type`: Always one of "iterable", "legacyiterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
-* `readonly`: Whether the maplike or setlike is declared as read only.
+* `readonly`: An object with a string type field `trivia` if the maplike or setlike is declared as read only.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 

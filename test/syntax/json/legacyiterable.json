@@ -24,7 +24,7 @@
                     }
                 ],
                 "trivia": {
-                    "type": "\n  ",
+                    "base": "\n  ",
                     "open": "",
                     "close": "",
                     "termination": ""

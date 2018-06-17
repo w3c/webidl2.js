@@ -25,7 +25,7 @@
                 ],
                 "readonly": null,
                 "trivia": {
-                    "type": "\n  ",
+                    "base": "\n  ",
                     "open": "",
                     "close": "",
                     "termination": ""
@@ -71,7 +71,7 @@
                     "trivia": "\n  "
                 },
                 "trivia": {
-                    "type": " ",
+                    "base": " ",
                     "open": "",
                     "close": "",
                     "termination": ""
@@ -132,7 +132,7 @@
                 ],
                 "readonly": null,
                 "trivia": {
-                    "type": "\n  ",
+                    "base": "\n  ",
                     "open": "",
                     "close": "",
                     "termination": ""
