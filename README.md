@@ -96,6 +96,22 @@ Where the fields are as follows:
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
+### Trivia
+
+Structures often have `trivia` field that represents whitespaces and comments before tokens. It gives a string if the syntatic component is made of a single token or an object with multiple string type fields.
+
+A trivia object looks like the following example:
+
+```JS
+{
+  "base": "\n",
+  "name": " ",
+  "...": "..."
+}
+```
+
+Frequently, `base` is for type keywords, `name` is for identifiers, `open`/`close` are for brackets, and `termination` for semicolons.
+
 ### Interface
 
 Interfaces look like this:
@@ -104,16 +120,36 @@ Interfaces look like this:
 {
   "type": "interface",
   "name": "Animal",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
   "inheritance": null,
   "extAttrs": [...]
 }, {
   "type": "interface",
   "name": "Human",
-  "partial": false,
+  "partial": null,
   "members": [...],
-  "inheritance": "Animal",
+  "trivia": {
+    "base": "\n\n",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
+  "inheritance": {
+    "name": "Animal",
+    "trivia": {
+      "colon": " ",
+      "name": " "
+    }
+  },
   "extAttrs": [...]
 }
 ```
@@ -122,11 +158,10 @@ The fields are as follows:
 
 * `type`: Always "interface".
 * `name`: The name of the interface.
-* `partial`: A boolean indicating whether it's a partial interface.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
-* `inheritance`: A string giving the name of an interface this one inherits from, `null` otherwise.
-  **NOTE**: In v1 this was an array, but multiple inheritance is no longer supported so this didn't make
-  sense.
+* `trivia`: A trivia object.
+* `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Interface mixins
@@ -137,14 +172,30 @@ Interfaces mixins look like this:
 {
   "type": "interface mixin",
   "name": "Animal",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+      "base": "",
+      "mixin": " ",
+      "name": " ",
+      "open": " ",
+      "close": "\n",
+      "termination": ""
+  },
   "extAttrs": [...]
 }, {
   "type": "interface mixin",
   "name": "Human",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+      "base": "",
+      "mixin": " ",
+      "name": " ",
+      "open": " ",
+      "close": "\n",
+      "termination": ""
+  },
   "extAttrs": [...]
 }
 ```
@@ -153,8 +204,9 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
-* `partial`: A boolean indicating whether it's a partial interface mixin.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Namespace
@@ -165,8 +217,15 @@ Namespaces look like this:
 {
   "type": "namespace",
   "name": "Console",
-  "partial": false,
+  "partial": null,
   "members": [...],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
   "extAttrs": [...]
 }
 ```
@@ -175,8 +234,9 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
-* `partial`: A boolean indicating whether it's a partial namespace.
+* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial namespace.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
@@ -221,7 +281,7 @@ A dictionary looks like this:
 {
   "type": "dictionary",
   "name": "PaintOptions",
-  "partial": false,
+  "partial": null,
   "members": [{
     "type": "field",
     "name": "fillPattern",
@@ -335,6 +395,12 @@ An implements definition looks like this:
   "type": "implements",
   "target": "Node",
   "implements": "EventTarget",
+  "trivia": {
+    "target": "\n\n  ",
+    "implements": " ",
+    "mixin": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -344,6 +410,7 @@ The fields are as follows:
 * `type`: Always "implements".
 * `target`: The interface that implements another.
 * `implements`: The interface that is being implemented by the target.
+* `trivia`: A trivia object. The field `target` is for the base interface identifier, `implements` for the `implements` keyword, and `mixin` for the mixin identifier.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Includes
@@ -364,6 +431,7 @@ The fields are as follows:
 * `type`: Always "includes".
 * `target`: The interface that includes an interface mixin.
 * `includes`: The interface mixin that is being included by the target.
+* `trivia`: A trivia object. The field `target` is for the base interface identifier, `includes` for the `includes` keyword, and `mixin` for the mixin identifier.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Operation Member
@@ -461,7 +529,6 @@ A constant member looks like this:
 ```JS
 {
   "type": "const",
-  "nullable": false,
   "idlType": {
     "type": "const-type",
     "generic": null,
@@ -482,7 +549,6 @@ A constant member looks like this:
 The fields are as follows:
 
 * `type`: Always "const".
-* `nullable`: Whether its type is nullable.
 * `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
