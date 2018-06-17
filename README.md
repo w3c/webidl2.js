@@ -623,6 +623,13 @@ A constant member looks like this:
     "type": "boolean",
     "value": false
   },
+  "trivia": {
+    "base": "\n  ",
+    "name": " ",
+    "assign": " ",
+    "value": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -633,6 +640,7 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
+* `trivia`: A trivia object. The field `assign` is for the equal sign token.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Arguments
