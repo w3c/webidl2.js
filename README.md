@@ -529,7 +529,6 @@ A constant member looks like this:
 ```JS
 {
   "type": "const",
-  "nullable": false,
   "idlType": {
     "type": "const-type",
     "generic": null,
@@ -550,7 +549,6 @@ A constant member looks like this:
 The fields are as follows:
 
 * `type`: Always "const".
-* `nullable`: Whether its type is nullable.
 * `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
