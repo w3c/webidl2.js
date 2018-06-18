@@ -79,8 +79,18 @@ attached to a field called `idlType`:
   "type": "attribute-type",
   "generic": null,
   "idlType": "unsigned short",
-  "nullable": false,
+  "nullable": null,
   "union": false,
+  "baseName": "short",
+  "prefix": {
+    "value": "unsigned",
+    "trivia": " "
+  },
+  "postfix": null,
+  "separator": null,
+  "trivia": {
+    "base": " "
+  },
   "extAttrs": {
     "trivia": {
       "open": "\n",
@@ -94,11 +104,23 @@ attached to a field called `idlType`:
 Where the fields are as follows:
 
 * `type`: String indicating where this type is used. Can be `null` if not applicable.
-* `generic`: String indicating the generic type (e.g. "Promise", "sequence"). `null`
-  otherwise.
+* `generic`: An object with the following fields if the type is generic:
+  * `value`: String indicating the generic type (e.g. "Promise", "sequence").
+  * `trivia`: Whitespaces or comments preceding genenic type name token.
 * `idlType`: String indicating the type name, or array of subtypes if the type is
   generic or a union.
-* `nullable`: Boolean indicating whether this is nullable or not.
+* `baseName`: String indicating the base type name, e.g. "float" for "unrestricted
+  float".
+* `prefix`: An object with the following fields if a prefix exists:
+  * `value`: String indicating the prefix name ("unsigned" or "unrestricted").
+  * `trivia`: Whitespaces or comments preceding prefix token.
+* `postfix`: An object with the following fields if a postfix exists:
+  * `value`: String indicating the prefix name, currently only for "unsigned long long".
+  * `trivia`: Whitespaces or comments preceding postfix token.
+* `separator`: An object with the following fields if a separator follows:
+  * `value`: String indicating the separator token value, e.g. "," or "or".
+  * `trivia`: Whitespaces or comments preceding separator token.
+* `nullable`: An object with a string type field `trivia` if the type is nullable.
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: An object containing [extended attributes](#extended-attributes).
 
