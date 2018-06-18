@@ -377,7 +377,8 @@ An enum looks like this:
     {
       "type": "string",
       "value": "other",
-      "trivia": " "
+      "trivia": " ",
+      "separator": null
     }
   ],
   "trivia": {
