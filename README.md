@@ -736,13 +736,13 @@ For Infinity:
 
 * `negative`: Boolean indicating whether this is negative Infinity or not.
 
-### `iterable<>`, `legacyiterable<>`, `maplike<>`, `setlike<>` declarations
+### `iterable<>`, `maplike<>`, `setlike<>` declarations
 
 These appear as members of interfaces that look like this:
 
 ```JS
 {
-  "type": "maplike", // or "legacyiterable" / "iterable" / "setlike"
+  "type": "maplike", // or "iterable" / "setlike"
   "idlType": /* One or two types */ ,
   "readonly": null, // only for maplike and setlike
   "trivia": {
@@ -757,7 +757,7 @@ These appear as members of interfaces that look like this:
 
 The fields are as follows:
 
-* `type`: Always one of "iterable", "legacyiterable", "maplike" or "setlike".
+* `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: An object with a string type field `trivia` if the maplike or setlike is declared as read only.
 * `trivia`: A trivia object.
