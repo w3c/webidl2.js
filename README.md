@@ -714,11 +714,8 @@ The arguments (e.g. for an operation) look like this:
       "extAttrs": [...]
     },
     "name": "ints",
-    "escapedName": "ints"
-    "separator": {
-      "value": ",",
-      "trivia": ""
-    }
+    "escapedName": "ints",
+    "separator": null,
   }]
 }
 ```
@@ -759,8 +756,16 @@ Extended attribute container look like this:
       "type": "extended-attribute",
       "rhs": {
         "type": "identifier",
-        "value": "EmptyString"
-      }
+        "value": "EmptyString",
+        "trivia": {
+          "assign": "",
+          "value": ""
+        }
+      },
+      "trivia": {
+        "name": ""
+      },
+      "separator": null
     }]
   }
 }
@@ -779,7 +784,11 @@ Extended attributes look like this:
   `[NamedConstructor=Name(DOMString blah)]`).
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` (which can be
-  "identifier" or "identifier-list") and its `value`.
+  "identifier" or "identifier-list"), its `value`, and its preceding trivia.
+* `trivia`: A trivia object.
+* `separator`: An object with the following fields if a separator follows:
+  * `value`: Always ",".
+  * `trivia`: Whitespaces or comments preceding separator token.
 
 ### Default and Const Values
 
