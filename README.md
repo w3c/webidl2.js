@@ -302,10 +302,17 @@ A callback looks like this:
   "idlType": {
     "type": "return-type",
     "generic": null,
-    "nullable": false,
+    "nullable": null,
     "union": false,
     "idlType": "void",
-    "extAttrs": null
+    "baseName": "void",
+    "prefix": null,
+    "postfix": null,
+    "separator": null,
+    "extAttrs": null,
+    "trivia": {
+      "base": " "
+    }
   },
   "arguments": [...],
   "trivia": {
@@ -346,10 +353,19 @@ A dictionary looks like this:
     "idlType": {
       "type": "dictionary-type",
       "generic": null,
-      "nullable": true,
+      "nullable": {
+        "trivia": ""
+      },
       "union": false,
       "idlType": "DOMString",
-      "extAttrs": [...]
+      "baseName": "DOMString",
+      "prefix": null,
+      "postfix": null,
+      "separator": null,
+      "extAttrs": [...],
+      "trivia": {
+        "base": "\n  "
+      }
     },
     "extAttrs": null,
     "default": {
@@ -462,10 +478,17 @@ A typedef looks like this:
       {
         "type": "typedef-type",
         "generic": null,
-        "nullable": false,
+        "nullable": null,
         "union": false,
         "idlType": "Point",
+        "baseName": "Point",
+        "prefix": null,
+        "postfix": null,
+        "separator": null,
         "extAttrs": [...]
+        "trivia": {
+            "base": ""
+        }
       }
     ],
     "extAttrs": [...]
@@ -552,10 +575,17 @@ An operation looks like this:
     "idlType": {
       "type": "return-type",
       "generic": null,
-      "nullable": false,
+      "nullable": null,
       "union": false,
       "idlType": "void",
-      "extAttrs": null
+      "baseName": "void",
+      "prefix": null,
+      "postfix": null,
+      "separator": null,
+      "extAttrs": null,
+      "trivia": {
+        "base": "\n  "
+      }
     },
     "trivia": {
       "open": "",
@@ -626,10 +656,17 @@ An attribute member looks like this:
   "idlType": {
     "type": "attribute-type",
     "generic": null,
-    "nullable": false,
+    "nullable": null,
     "union": false,
-    "idlType": "RegExp",
-    "extAttrs": [...]
+    "idlType": "any",
+    "baseName": "any",
+    "prefix": null,
+    "postfix": null,
+    "separator": null,
+    "extAttrs": [...],
+    "trivia": {
+      "base": " "
+    }
   },
   "name": "regexp",
   "escapedName": "regexp",
@@ -660,10 +697,17 @@ A constant member looks like this:
   "idlType": {
     "type": "const-type",
     "generic": null,
-    "nullable": false,
+    "nullable": null,
     "union": false,
-    "idlType": "boolean"
-    "extAttrs": null
+    "idlType": "boolean",
+    "baseName": "boolean",
+    "prefix": null,
+    "postfix": null,
+    "separator": null,
+    "extAttrs": null,
+    "trivia": {
+      "base": " "
+    }
   },
   "name": "DEBUG",
   "value": {
@@ -708,10 +752,17 @@ The arguments (e.g. for an operation) look like this:
     "idlType": {
       "type": "argument-type",
       "generic": null,
-      "nullable": false,
+      "nullable": null,
       "union": false,
-      "idlType": "long",
-      "extAttrs": [...]
+      "idlType": "float",
+      "baseName": "float",
+      "prefix": null,
+      "postfix": null,
+      "separator": null,
+      "extAttrs": [...],
+      "trivia": {
+        "base": " "
+      }
     },
     "name": "ints",
     "escapedName": "ints",
