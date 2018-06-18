@@ -175,12 +175,12 @@ Interfaces mixins look like this:
   "partial": null,
   "members": [...],
   "trivia": {
-      "base": "",
-      "mixin": " ",
-      "name": " ",
-      "open": " ",
-      "close": "\n",
-      "termination": ""
+    "base": "",
+    "mixin": " ",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
   },
   "extAttrs": [...]
 }, {
@@ -189,12 +189,12 @@ Interfaces mixins look like this:
   "partial": null,
   "members": [...],
   "trivia": {
-      "base": "",
-      "mixin": " ",
-      "name": " ",
-      "open": " ",
-      "close": "\n",
-      "termination": ""
+    "base": "",
+    "mixin": " ",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
   },
   "extAttrs": [...]
 }
@@ -668,6 +668,10 @@ The arguments (e.g. for an operation) look like this:
     },
     "name": "ints",
     "escapedName": "ints"
+    "separator": {
+      "value": ",",
+      "trivia": ""
+    }
   }]
 }
 ```
@@ -679,6 +683,9 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `escapedName`: The argument's name including possible escaping underscore.
+* `separator`: An object with the following fields if a separator follows:
+  * `value`: Always ",".
+  * `trivia`: Whitespaces or comments preceding separator token.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
