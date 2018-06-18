@@ -158,7 +158,7 @@ The fields are as follows:
 
 * `type`: Always "interface".
 * `name`: The name of the interface.
-* `partial`: An object with a string type field `trivia` if a partial interface.
+* `partial`: If a partial interface, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
@@ -204,7 +204,7 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
-* `partial`: An object with a string type field `trivia` if a partial interface mixin.
+* `partial`: If a partial interface mixin, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -234,7 +234,7 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
-* `partial`: An object with a string type field `trivia` if a partial namespace.
+* `partial`: If a partial namespace, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -332,7 +332,7 @@ The fields are as follows:
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
 * `escapedName`: The dictionary name including possible escaping underscore.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial dictionary.
+* `partial`: If the type is a partial dictionary, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of members (see below).
 * `trivia`: A trivia object.
 * `inheritance`: An object indicating which dictionary is being inherited from, `null` otherwise.
@@ -342,7 +342,7 @@ All the members are fields as follows:
 
 * `type`: Always "field".
 * `name`: The name of the field.
-* `required`: An object with a string type field `trivia` for [`required`](https://heycam.github.io/webidl/#required-dictionary-member) field modifier. `null` if the field is not required.
+* `required`: If the field is required, an object with a string type field `trivia`. Otherwise, `null`.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 * `default`: A [default value](#default-and-const-values), absent if there is none.
@@ -545,11 +545,11 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `getter`: An object with a string type field `trivia` if a getter operation.
-* `setter`: An object with a string type field `trivia` if a setter operation.
-* `deleter`: An object with a string type field `trivia` if a deleter operation.
-* `static`: An object with a string type field `trivia` if a static operation.
-* `stringifier`: An object with a string type field `trivia` if a stringifier operation.
+* `getter`: If a getter operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `setter`: If a setter operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `deleter`: If a deleter operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `static`: If a static operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `stringifier`: If a stringifier operation, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `body`: The operation body. Can be null if bodyless `stringifier`.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -596,10 +596,10 @@ The fields are as follows:
 * `type`: Always "attribute".
 * `name`: The attribute's name.
 * `escapedName`: The attribute's name including possible escaping underscore.
-* `static`: An object with a string type field `trivia` if it's a static attribute.
-* `stringifier`: An object with a string type field `trivia` if it's a stringifier attribute.
-* `inherit`: An object with a string type field `trivia` if it's an inherit attribute.
-* `readonly`: An object with a string type field `trivia` if it's a read-only attribute.
+* `static`: If it's a static attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `stringifier`: If it's a stringifier attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `inherit`: If it's an inherit attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `readonly`: If it's a read-only attribute, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -679,8 +679,8 @@ The arguments (e.g. for an operation) look like this:
 
 The fields are as follows:
 
-* `optional`: An object with a string type field `trivia` if the argument is optional.
-* `variadic`: An object with a string type field `trivia` if the argument is variadic.
+* `optional`: If the argument is optional, an object with a string type field `trivia`. Otherwise, `null`.
+* `variadic`: If the argument is variadic, an object with a string type field `trivia`. Otherwise, `null`.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `escapedName`: The argument's name including possible escaping underscore.
@@ -759,7 +759,7 @@ The fields are as follows:
 
 * `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
-* `readonly`: An object with a string type field `trivia` if the maplike or setlike is declared as read only.
+* `readonly`: If the maplike or setlike is declared as read only, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
