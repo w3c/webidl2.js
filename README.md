@@ -766,7 +766,10 @@ The arguments (e.g. for an operation) look like this:
     },
     "name": "ints",
     "escapedName": "ints",
-    "separator": null,
+    "separator": {
+      "value": ",",
+      "trivia": ""
+    }
   }]
 }
 ```
