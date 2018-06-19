@@ -24,7 +24,8 @@
             {
                 "type": "string",
                 "value": "other",
-                "trivia": " "
+                "trivia": " ",
+                "separator": null
             }
         ],
         "trivia": {

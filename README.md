@@ -158,7 +158,7 @@ The fields are as follows:
 
 * `type`: Always "interface".
 * `name`: The name of the interface.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface.
+* `partial`: If a partial interface, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
@@ -175,12 +175,12 @@ Interfaces mixins look like this:
   "partial": null,
   "members": [...],
   "trivia": {
-      "base": "",
-      "mixin": " ",
-      "name": " ",
-      "open": " ",
-      "close": "\n",
-      "termination": ""
+    "base": "",
+    "mixin": " ",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
   },
   "extAttrs": [...]
 }, {
@@ -189,12 +189,12 @@ Interfaces mixins look like this:
   "partial": null,
   "members": [...],
   "trivia": {
-      "base": "",
-      "mixin": " ",
-      "name": " ",
-      "open": " ",
-      "close": "\n",
-      "termination": ""
+    "base": "",
+    "mixin": " ",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
   },
   "extAttrs": [...]
 }
@@ -204,7 +204,7 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial interface mixin.
+* `partial`: If a partial interface mixin, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -234,7 +234,7 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
-* `partial`: An object with a string type field `trivia` for `partial` interface modifier. `null` if the type is not a partial namespace.
+* `partial`: If a partial namespace, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
@@ -242,7 +242,8 @@ The fields are as follows:
 ### Callback Interfaces
 
 These are captured by the same structure as [Interfaces](#interface) except that
-their `type` field is "callback interface".
+their `type` field is "callback interface". Its trivia object additionally
+includes a new field `callback`.
 
 ### Callback
 
@@ -261,6 +262,14 @@ A callback looks like this:
     "extAttrs": []
   },
   "arguments": [...],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "assign": " ",
+    "open": " ",
+    "close": "",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -271,6 +280,7 @@ The fields are as follows:
 * `name`: The name of the callback.
 * `idlType`: An [IDL Type](#idl-type) describing what the callback returns.
 * `arguments`: A list of [arguments](#arguments), as in function paramters.
+* `trivia`: A trivia object. The field `assign` is for the equal sign token.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Dictionary
@@ -286,7 +296,7 @@ A dictionary looks like this:
     "type": "field",
     "name": "fillPattern",
     "escapedName": "fillPattern",
-    "required": false,
+    "required": null,
     "idlType": {
       "type": "dictionary-type",
       "generic": null,
@@ -298,9 +308,20 @@ A dictionary looks like this:
     "extAttrs": [],
     "default": {
       "type": "string",
-      "value": "black"
+      "value": "black",
+      "trivia": {
+        "assign": " ",
+        "value": " "
+      }
     }
   }],
+  "trivia": {
+    "base": "// Extracted from Web IDL editors draft May 31 2011\n",
+    "name": " ",
+    "open": " ",
+    "close": "\n",
+    "termination": ""
+  },
   "inheritance": null,
   "extAttrs": []
 }
@@ -311,16 +332,17 @@ The fields are as follows:
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
 * `escapedName`: The dictionary name including possible escaping underscore.
-* `partial`: Boolean indicating whether it's a partial dictionary.
+* `partial`: If the type is a partial dictionary, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of members (see below).
-* `inheritance`: A string indicating which dictionary is being inherited from, `null` otherwise.
+* `trivia`: A trivia object.
+* `inheritance`: An object indicating which dictionary is being inherited from, `null` otherwise.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 All the members are fields as follows:
 
 * `type`: Always "field".
 * `name`: The name of the field.
-* `required`: Boolean indicating whether this is a [required](https://heycam.github.io/webidl/#required-dictionary-member) field.
+* `required`: If the field is required, an object with a string type field `trivia`. Otherwise, `null`.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 * `default`: A [default value](#default-and-const-values), absent if there is none.
@@ -334,10 +356,38 @@ An enum looks like this:
   "type": "enum",
   "name": "MealType",
   "values": [
-    { "type": "string", "value": "rice" },
-    { "type": "string", "value": "noodles" },
-    { "type": "string", "value": "other" }
+    {
+      "type": "string",
+      "value": "rice",
+      "trivia": " ",
+      "separator": {
+        "value": ",",
+        "trivia": ""
+      }
+    },
+    {
+      "type": "string",
+      "value": "noodles",
+      "trivia": " ",
+      "separator": {
+        "value": ",",
+        "trivia": ""
+      }
+    },
+    {
+      "type": "string",
+      "value": "other",
+      "trivia": " ",
+      "separator": null
+    }
   ],
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "open": " ",
+    "close": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -346,7 +396,8 @@ The fields are as follows:
 
 * `type`: Always "enum".
 * `name`: The enum's name.
-* `values`: An array of values.
+* `values`: An array of values, which may include a field `separator` for proceding commas.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Typedef
@@ -374,6 +425,11 @@ A typedef looks like this:
     "extAttrs": [...]
   },
   "name": "PointSequence",
+  "trivia": {
+    "base": "\n\n      ",
+    "name": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -384,6 +440,7 @@ The fields are as follows:
 * `type`: Always "typedef".
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Implements
@@ -440,34 +497,47 @@ An operation looks like this:
 ```JS
 {
   "type": "operation",
-  "getter": false,
-  "setter": false,
-  "deleter": false,
-  "static": false,
-  "stringifier": false,
-  "idlType": {
-    "type": "return-type",
-    "generic": null,
-    "nullable": false,
-    "union": false,
-    "idlType": "void",
-    "extAttrs": []
-  },
-  "name": "intersection",
-  "arguments": [{
-    "optional": false,
-    "variadic": true,
-    "extAttrs": [],
+  "getter": null,
+  "setter": null,
+  "deleter": null,
+  "static": null,
+  "stringifier": null,
+  "body": {
     "idlType": {
-      "type": "argument-type",
+      "type": "return-type",
       "generic": null,
       "nullable": false,
       "union": false,
-      "idlType": "long",
-      "extAttrs": [...]
+      "idlType": "void",
+      "extAttrs": []
     },
-    "name": "ints"
-  }],
+    "trivia": {
+      "open": "",
+      "close": ""
+    },
+    "name": {
+      "value": "intersection",
+      "escaped": "intersection",
+      "trivia": " "
+    },
+    "arguments": [{
+      "optional": false,
+      "variadic": true,
+      "extAttrs": [],
+      "idlType": {
+        "type": "argument-type",
+        "generic": null,
+        "nullable": false,
+        "union": false,
+        "idlType": "long",
+        "extAttrs": [...]
+      },
+      "name": "ints"
+    }],
+  },
+  "trivia": {
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -475,15 +545,21 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `getter`: True if a getter operation.
-* `setter`: True if a setter operation.
-* `deleter`: True if a deleter operation.
-* `static`: True if a static operation.
-* `stringifier`: True if a stringifier operation.
-* `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
-* `name`: The name of the operation. If a stringifier, may be `null`.
-* `arguments`: An array of [arguments](#arguments) for the operation.
+* `getter`: If a getter operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `setter`: If a setter operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `deleter`: If a deleter operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `static`: If a static operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `stringifier`: If a stringifier operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `trivia`: A trivia object.
+* `body`: The operation body. Can be null if bodyless `stringifier`.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
+
+The operation body fields are as follows:
+
+* `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
+* `trivia`: A trivia object.
+* `name`: The name of the operation if exists.
+* `arguments`: An array of [arguments](#arguments) for the operation.
 
 ### Attribute Member
 
@@ -492,10 +568,15 @@ An attribute member looks like this:
 ```JS
 {
   "type": "attribute",
-  "static": false,
-  "stringifier": false,
-  "inherit": false,
-  "readonly": false,
+  "static": null,
+  "stringifier": null,
+  "inherit": null,
+  "readonly": null,
+  "trivia": {
+    "base": "",
+    "name": " ",
+    "termination": ""
+  },
   "idlType": {
     "type": "attribute-type",
     "generic": null,
@@ -515,10 +596,11 @@ The fields are as follows:
 * `type`: Always "attribute".
 * `name`: The attribute's name.
 * `escapedName`: The attribute's name including possible escaping underscore.
-* `static`: True if it's a static attribute.
-* `stringifier`: True if it's a stringifier attribute.
-* `inherit`: True if it's an inherit attribute.
-* `readonly`: True if it's a read-only attribute.
+* `static`: If it's a static attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `stringifier`: If it's a stringifier attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `inherit`: If it's an inherit attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `readonly`: If it's a read-only attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
@@ -542,6 +624,13 @@ A constant member looks like this:
     "type": "boolean",
     "value": false
   },
+  "trivia": {
+    "base": "\n  ",
+    "name": " ",
+    "assign": " ",
+    "value": " ",
+    "termination": ""
+  },
   "extAttrs": []
 }
 ```
@@ -552,6 +641,7 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
+* `trivia`: A trivia object. The field `assign` is for the equal sign token.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Arguments
@@ -561,9 +651,14 @@ The arguments (e.g. for an operation) look like this:
 ```JS
 {
   "arguments": [{
-    "optional": false,
-    "variadic": true,
+    "optional": null,
+    "variadic": {
+      "trivia": ""
+    },
     "extAttrs": [],
+    "trivia": {
+      "name": " "
+    },
     "idlType": {
       "type": "argument-type",
       "generic": null,
@@ -574,17 +669,25 @@ The arguments (e.g. for an operation) look like this:
     },
     "name": "ints",
     "escapedName": "ints"
+    "separator": {
+      "value": ",",
+      "trivia": ""
+    }
   }]
 }
 ```
 
 The fields are as follows:
 
-* `optional`: True if the argument is optional.
-* `variadic`: True if the argument is variadic.
+* `optional`: If the argument is optional, an object with a string type field `trivia`. Otherwise, `null`.
+* `variadic`: If the argument is variadic, an object with a string type field `trivia`. Otherwise, `null`.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `escapedName`: The argument's name including possible escaping underscore.
+* `separator`: An object with the following fields if a separator follows:
+  * `value`: Always ",".
+  * `trivia`: Whitespaces or comments preceding separator token.
+* `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
 ### Extended Attributes
@@ -656,7 +759,7 @@ The fields are as follows:
 
 * `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
-* `readonly`: An object with a string type field `trivia` if the maplike or setlike is declared as read only.
+* `readonly`: If the maplike or setlike is declared as read only, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `extAttrs`: A list of [extended attributes](#extended-attributes).
 
