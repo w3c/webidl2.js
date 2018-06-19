@@ -122,7 +122,7 @@ Where the fields are as follows:
   * `trivia`: Whitespaces or comments preceding separator token.
 * `nullable`: An object with a string type field `trivia` if the type is nullable.
 * `union`: Boolean indicating whether this is a union type or not.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Trivia
 
@@ -196,7 +196,7 @@ The fields are as follows:
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Interface mixins
 
@@ -247,7 +247,7 @@ The fields are as follows:
 * `partial`: If a partial interface mixin, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Namespace
 
@@ -283,7 +283,7 @@ The fields are as follows:
 * `partial`: If a partial namespace, an object with a string type field `trivia`. Otherwise, `null`.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `trivia`: A trivia object.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Callback Interfaces
 
@@ -334,7 +334,7 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) describing what the callback returns.
 * `arguments`: A list of [arguments](#arguments), as in function paramters.
 * `trivia`: A trivia object. The field `assign` is for the equal sign token.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Dictionary
 
@@ -398,7 +398,7 @@ The fields are as follows:
 * `members`: An array of members (see below).
 * `trivia`: A trivia object.
 * `inheritance`: An object indicating which dictionary is being inherited from, `null` otherwise.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 All the members are fields as follows:
 
@@ -406,7 +406,7 @@ All the members are fields as follows:
 * `name`: The name of the field.
 * `required`: If the field is required, an object with a string type field `trivia`. Otherwise, `null`.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 * `default`: A [default value](#default-and-const-values), absent if there is none.
 
 ### Enum
@@ -460,7 +460,7 @@ The fields are as follows:
 * `name`: The enum's name.
 * `values`: An array of values, which may include a field `separator` for proceding commas.
 * `trivia`: A trivia object.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Typedef
 
@@ -510,7 +510,7 @@ The fields are as follows:
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
 * `trivia`: A trivia object.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Implements
 
@@ -537,7 +537,7 @@ The fields are as follows:
 * `target`: The interface that implements another.
 * `implements`: The interface that is being implemented by the target.
 * `trivia`: A trivia object. The field `target` is for the base interface identifier, `implements` for the `implements` keyword, and `mixin` for the mixin identifier.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Includes
 
@@ -558,7 +558,7 @@ The fields are as follows:
 * `target`: The interface that includes an interface mixin.
 * `includes`: The interface mixin that is being included by the target.
 * `trivia`: A trivia object. The field `target` is for the base interface identifier, `includes` for the `includes` keyword, and `mixin` for the mixin identifier.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Operation Member
 
@@ -628,7 +628,7 @@ The fields are as follows:
 * `stringifier`: If a stringifier operation, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `body`: The operation body. Can be null if bodyless `stringifier`.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 The operation body fields are as follows:
 
@@ -685,7 +685,7 @@ The fields are as follows:
 * `readonly`: If it's a read-only attribute, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Constant Member
 
@@ -732,7 +732,7 @@ The fields are as follows:
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
 * `trivia`: A trivia object. The field `assign` is for the equal sign token.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Arguments
 
@@ -782,7 +782,7 @@ The fields are as follows:
   * `value`: Always ",".
   * `trivia`: Whitespaces or comments preceding separator token.
 * `trivia`: A trivia object.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Extended Attributes
 
@@ -881,7 +881,7 @@ The fields are as follows:
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: If the maplike or setlike is declared as read only, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
-* `extAttrs`: An object containing [extended attributes](#extended-attributes).
+* `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 
 ## Testing
