@@ -1,5 +1,182 @@
 # Change Log
 
+## [v14.0.0](https://github.com/w3c/webidl2.js/tree/v14.0.0) (2018-06-19)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v13.0.3...v14.0.0)
+
+**Closed issues:**
+
+- Use ESLint \(with Travis\) [\#167](https://github.com/w3c/webidl2.js/issues/167)
+- Support full whitespace conservation [\#125](https://github.com/w3c/webidl2.js/issues/125)
+
+**Merged pull requests:**
+
+- Document changes for idlType and extAttrs [\#217](https://github.com/w3c/webidl2.js/pull/217) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove support for legacyiterable [\#216](https://github.com/w3c/webidl2.js/pull/216) ([saschanaz](https://github.com/saschanaz))
+- Document trivia for root type declarations/members [\#214](https://github.com/w3c/webidl2.js/pull/214) ([saschanaz](https://github.com/saschanaz))
+- Document trivia for iterable-likes [\#213](https://github.com/w3c/webidl2.js/pull/213) ([saschanaz](https://github.com/saschanaz))
+- Document trivia for interfaces/mixins/namespaces [\#212](https://github.com/w3c/webidl2.js/pull/212) ([saschanaz](https://github.com/saschanaz))
+- Document generic array, escapedName and removal of sequence [\#211](https://github.com/w3c/webidl2.js/pull/211) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for implements/includes [\#209](https://github.com/w3c/webidl2.js/pull/209) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for enums and typedefs [\#207](https://github.com/w3c/webidl2.js/pull/207) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for callbacks [\#206](https://github.com/w3c/webidl2.js/pull/206) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for partial types [\#205](https://github.com/w3c/webidl2.js/pull/205) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for dictionaries [\#204](https://github.com/w3c/webidl2.js/pull/204) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for mixins and namespaces [\#203](https://github.com/w3c/webidl2.js/pull/203) ([saschanaz](https://github.com/saschanaz))
+- Use eslint minimally [\#202](https://github.com/w3c/webidl2.js/pull/202) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for extended attribute identifiers [\#200](https://github.com/w3c/webidl2.js/pull/200) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for const member type [\#199](https://github.com/w3c/webidl2.js/pull/199) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for arguments [\#198](https://github.com/w3c/webidl2.js/pull/198) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for operation [\#197](https://github.com/w3c/webidl2.js/pull/197) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for inheritance [\#195](https://github.com/w3c/webidl2.js/pull/195) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for iterable declarations [\#194](https://github.com/w3c/webidl2.js/pull/194) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for modifiers [\#193](https://github.com/w3c/webidl2.js/pull/193) ([saschanaz](https://github.com/saschanaz))
+- Add trivia for idlTypes [\#192](https://github.com/w3c/webidl2.js/pull/192) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: move nullable field from const type to .idlType [\#189](https://github.com/w3c/webidl2.js/pull/189) ([saschanaz](https://github.com/saschanaz))
+- Generics always as an array [\#188](https://github.com/w3c/webidl2.js/pull/188) ([saschanaz](https://github.com/saschanaz))
+- fix: prevent empty iterable declaration [\#187](https://github.com/w3c/webidl2.js/pull/187) ([saschanaz](https://github.com/saschanaz))
+- Add trivia field for interfaces/mixins [\#186](https://github.com/w3c/webidl2.js/pull/186) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: support full whitespace conservation [\#185](https://github.com/w3c/webidl2.js/pull/185) ([saschanaz](https://github.com/saschanaz))
+
+## [v13.0.3](https://github.com/w3c/webidl2.js/tree/v13.0.3) (2018-06-04)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v13.0.2...v13.0.3)
+
+**Merged pull requests:**
+
+- refactor\(lib/writer\): remove args\(\) [\#184](https://github.com/w3c/webidl2.js/pull/184) ([saschanaz](https://github.com/saschanaz))
+- refactor: consume argument name in object spread way [\#183](https://github.com/w3c/webidl2.js/pull/183) ([saschanaz](https://github.com/saschanaz))
+
+## [v13.0.2](https://github.com/w3c/webidl2.js/tree/v13.0.2) (2018-05-30)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v13.0.1...v13.0.2)
+
+**Closed issues:**
+
+- Issue with parsing attribute identifiers [\#181](https://github.com/w3c/webidl2.js/issues/181)
+
+**Merged pull requests:**
+
+- fix: allow required for an attribute name [\#182](https://github.com/w3c/webidl2.js/pull/182) ([saschanaz](https://github.com/saschanaz))
+
+## [v13.0.1](https://github.com/w3c/webidl2.js/tree/v13.0.1) (2018-05-30)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v13.0.0...v13.0.1)
+
+**Closed issues:**
+
+- No opening bracket after sequence [\#178](https://github.com/w3c/webidl2.js/issues/178)
+
+**Merged pull requests:**
+
+- refactor: unconsume by position [\#179](https://github.com/w3c/webidl2.js/pull/179) ([saschanaz](https://github.com/saschanaz))
+
+## [v13.0.0](https://github.com/w3c/webidl2.js/tree/v13.0.0) (2018-05-29)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v12.1.4...v13.0.0)
+
+**Fixed bugs:**
+
+- Trailing comma in arguments list with valid IDL [\#169](https://github.com/w3c/webidl2.js/issues/169)
+- Error parsing generic type with Promise\<void\> [\#168](https://github.com/w3c/webidl2.js/issues/168)
+
+**Closed issues:**
+
+- Do we want idlType.sequence? [\#174](https://github.com/w3c/webidl2.js/issues/174)
+- Spaced three-dot shouldn't recognized as a variadic mark [\#162](https://github.com/w3c/webidl2.js/issues/162)
+
+**Merged pull requests:**
+
+- fix: consume return type for promise subtype [\#177](https://github.com/w3c/webidl2.js/pull/177) ([saschanaz](https://github.com/saschanaz))
+- Add probe\(\) function [\#176](https://github.com/w3c/webidl2.js/pull/176) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove idlType.sequence [\#175](https://github.com/w3c/webidl2.js/pull/175) ([saschanaz](https://github.com/saschanaz))
+- fix: prevent incorrect spaced negative infinity and variadic marks [\#173](https://github.com/w3c/webidl2.js/pull/173) ([saschanaz](https://github.com/saschanaz))
+- refactor: merge operation functions [\#172](https://github.com/w3c/webidl2.js/pull/172) ([saschanaz](https://github.com/saschanaz))
+- fix: allow selected keywords in argument name [\#171](https://github.com/w3c/webidl2.js/pull/171) ([saschanaz](https://github.com/saschanaz))
+- fix: write inherit readonly attribute in proper order [\#170](https://github.com/w3c/webidl2.js/pull/170) ([saschanaz](https://github.com/saschanaz))
+- refactor: merge attribute functions [\#166](https://github.com/w3c/webidl2.js/pull/166) ([saschanaz](https://github.com/saschanaz))
+
+## [v12.1.4](https://github.com/w3c/webidl2.js/tree/v12.1.4) (2018-05-23)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v12.1.3...v12.1.4)
+
+**Merged pull requests:**
+
+- fix: prevent readwrite attributes on namespaces  [\#165](https://github.com/w3c/webidl2.js/pull/165) ([saschanaz](https://github.com/saschanaz))
+
+## [v12.1.3](https://github.com/w3c/webidl2.js/tree/v12.1.3) (2018-05-20)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v12.1.2...v12.1.3)
+
+**Merged pull requests:**
+
+- fix: prevent incorrect union types [\#163](https://github.com/w3c/webidl2.js/pull/163) ([saschanaz](https://github.com/saschanaz))
+
+## [v12.1.2](https://github.com/w3c/webidl2.js/tree/v12.1.2) (2018-05-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v12.1.1...v12.1.2)
+
+## [v12.1.1](https://github.com/w3c/webidl2.js/tree/v12.1.1) (2018-05-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v12.1.0...v12.1.1)
+
+**Closed issues:**
+
+- Request: tag releases [\#159](https://github.com/w3c/webidl2.js/issues/159)
+- Remove test/\* things from npm [\#158](https://github.com/w3c/webidl2.js/issues/158)
+
+**Merged pull requests:**
+
+- fix: prevent tokeniser error when it meets \_0 [\#161](https://github.com/w3c/webidl2.js/pull/161) ([saschanaz](https://github.com/saschanaz))
+- Add files field to package.json [\#160](https://github.com/w3c/webidl2.js/pull/160) ([saschanaz](https://github.com/saschanaz))
+
+## [v12.1.0](https://github.com/w3c/webidl2.js/tree/v12.1.0) (2018-05-16)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v12.0.0...v12.1.0)
+
+**Closed issues:**
+
+- Named terminal symbols cannot be identifiers [\#156](https://github.com/w3c/webidl2.js/issues/156)
+
+**Merged pull requests:**
+
+- Prevent keywords from being identifiers [\#157](https://github.com/w3c/webidl2.js/pull/157) ([saschanaz](https://github.com/saschanaz))
+
+## [v12.0.0](https://github.com/w3c/webidl2.js/tree/v12.0.0) (2018-05-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v11.0.0...v12.0.0)
+
+**Closed issues:**
+
+- Reduce release size [\#152](https://github.com/w3c/webidl2.js/issues/152)
+- Keep supporting allowNestedTypedefs or not? [\#104](https://github.com/w3c/webidl2.js/issues/104)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: remove allowNestedTypedefs [\#155](https://github.com/w3c/webidl2.js/pull/155) ([saschanaz](https://github.com/saschanaz))
+- Remove all\_ws\(\) and gather trivia implicitly [\#154](https://github.com/w3c/webidl2.js/pull/154) ([saschanaz](https://github.com/saschanaz))
+- tests: Remove test/widlproc [\#153](https://github.com/w3c/webidl2.js/pull/153) ([marcoscaceres](https://github.com/marcoscaceres))
+
+## [v11.0.0](https://github.com/w3c/webidl2.js/tree/v11.0.0) (2018-05-10)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.3.3...v11.0.0)
+
+**Merged pull requests:**
+
+- Prevent incorrect enums [\#151](https://github.com/w3c/webidl2.js/pull/151) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove opt.ws [\#150](https://github.com/w3c/webidl2.js/pull/150) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): bump version number to 10.3.3 [\#149](https://github.com/w3c/webidl2.js/pull/149) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.3.3](https://github.com/w3c/webidl2.js/tree/v10.3.3) (2018-05-07)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.3.2...v10.3.3)
+
+**Merged pull requests:**
+
+- Refactor simple\_extended\_attr\(\); [\#148](https://github.com/w3c/webidl2.js/pull/148) ([saschanaz](https://github.com/saschanaz))
+- Remove description about typePair [\#147](https://github.com/w3c/webidl2.js/pull/147) ([saschanaz](https://github.com/saschanaz))
+- Add a web page implementing a simple WebIDL checker. [\#146](https://github.com/w3c/webidl2.js/pull/146) ([kenrussell](https://github.com/kenrussell))
+
+## [v10.3.2](https://github.com/w3c/webidl2.js/tree/v10.3.2) (2018-04-16)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.2.1...v10.3.2)
+
+**Merged pull requests:**
+
+- Fix whitespace handling of implements and includes. [\#145](https://github.com/w3c/webidl2.js/pull/145) ([kenrussell](https://github.com/kenrussell))
+- refactor: remove eas.length check [\#144](https://github.com/w3c/webidl2.js/pull/144) ([saschanaz](https://github.com/saschanaz))
+- refactor: one-to-one match for token matcher [\#143](https://github.com/w3c/webidl2.js/pull/143) ([saschanaz](https://github.com/saschanaz))
+- const-type as full IDL Type [\#142](https://github.com/w3c/webidl2.js/pull/142) ([saschanaz](https://github.com/saschanaz))
+- Always add extAttrs for .idlType [\#141](https://github.com/w3c/webidl2.js/pull/141) ([saschanaz](https://github.com/saschanaz))
+- docs\(README\): add types of types \[ci skip\] [\#140](https://github.com/w3c/webidl2.js/pull/140) ([saschanaz](https://github.com/saschanaz))
+
 ## [v10.2.1](https://github.com/w3c/webidl2.js/tree/v10.2.1) (2018-03-09)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.2.0...v10.2.1)
 
@@ -163,7 +340,7 @@
 
 - Check duplicated names [\#80](https://github.com/w3c/webidl2.js/pull/80) ([saschanaz](https://github.com/saschanaz))
 - Remove legacycaller [\#79](https://github.com/w3c/webidl2.js/pull/79) ([saschanaz](https://github.com/saschanaz))
-- Add "sequence" property to IDL Type AST definition [\#76](https://github.com/w3c/webidl2.js/pull/76) ([lerouche](https://github.com/lerouche))
+- Add "sequence" property to IDL Type AST definition [\#76](https://github.com/w3c/webidl2.js/pull/76) ([wilsonzlin](https://github.com/wilsonzlin))
 
 ## [v4.1.0](https://github.com/w3c/webidl2.js/tree/v4.1.0) (2017-07-04)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v4.0.0...v4.1.0)
