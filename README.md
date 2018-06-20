@@ -26,15 +26,18 @@ In the browser:
 
 ## Documentation
 
-The API to WebIDL2 is trivial: you parse a string of WebIDL and it returns a syntax tree.
+WebIDL2 provides two functions: `parse` and `write`.
 
-### Parsing
+* `parse`: Converts a WebIDL string into a syntax tree.
+* `write`: Converts a syntax tree into a WebIDL string. Useful for programmatic code
+  modification.
 
 In Node, that happens with:
 
 ```JS
 var WebIDL2 = require("webidl2");
 var tree = WebIDL2.parse("string of WebIDL");
+var text = WebIDL2.write(tree);
 ```
 
 In the browser:
@@ -42,6 +45,11 @@ In the browser:
 <script src='webidl2.js'></script>
 <script>
   var tree = WebIDL2.parse("string of WebIDL");
+</script>
+
+<script src='writer.js'></script>
+<script>
+  var text = WebIDL2Writer.write(tree);
 </script>
 ```
 
