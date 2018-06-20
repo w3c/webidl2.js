@@ -1,7 +1,7 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const wp = require("../lib/webidl2");
+const wp = require("..");
 const expect = require("expect");
 
 describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
