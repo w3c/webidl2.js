@@ -640,7 +640,7 @@ The fields are as follows:
 
 The operation body fields are as follows:
 
-* `idlType`: An [IDL Type](#idl-type) of what the operation returns. If a stringifier, may be absent.
+* `idlType`: An [IDL Type](#idl-type) of what the operation returns.
 * `trivia`: A trivia object.
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
