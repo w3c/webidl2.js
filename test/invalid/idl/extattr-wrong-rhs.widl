@@ -1,0 +1,2 @@
+[IntAttr=0, FloatAttr=3.14, StringAttr="abc"]
+interface IdInterface {};
