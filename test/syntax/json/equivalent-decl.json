@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Dictionary",
+        "escapedName": "Dictionary",
         "partial": null,
         "members": [
             {
@@ -221,6 +222,7 @@
     {
         "type": "interface",
         "name": "Dictionary2",
+        "escapedName": "Dictionary2",
         "partial": null,
         "members": [
             {

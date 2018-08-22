@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Animal",
+        "escapedName": "Animal",
         "partial": null,
         "members": [
             {
@@ -50,6 +51,7 @@
     {
         "type": "interface",
         "name": "Person",
+        "escapedName": "Person",
         "partial": null,
         "members": [
             {
@@ -139,6 +141,7 @@
     {
         "type": "interface",
         "name": "Ghost",
+        "escapedName": "Ghost",
         "partial": null,
         "members": [
             {

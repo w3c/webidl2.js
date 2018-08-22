@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Foo",
+        "escapedName": "Foo",
         "partial": null,
         "members": [
             {
@@ -48,6 +49,7 @@
     {
         "type": "interface",
         "name": "Foo",
+        "escapedName": "Foo",
         "partial": {
             "trivia": "\n\n"
         },

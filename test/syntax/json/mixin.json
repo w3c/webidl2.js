@@ -2,6 +2,7 @@
     {
         "type": "interface mixin",
         "name": "GlobalCrypto",
+        "escapedName": "GlobalCrypto",
         "partial": null,
         "members": [
             {
@@ -74,6 +75,7 @@
     {
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
+        "escapedName": "WindowOrWorkerGlobalScope",
         "partial": {
             "trivia": "\n\n"
         },
@@ -117,6 +119,22 @@
             "name": " ",
             "open": " ",
             "close": "\n",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface mixin",
+        "name": "LocalCrypto",
+        "escapedName": "_LocalCrypto",
+        "partial": null,
+        "members": [],
+        "trivia": {
+            "base": "\n\n",
+            "mixin": " ",
+            "name": " ",
+            "open": " ",
+            "close": "",
             "termination": ""
         },
         "extAttrs": null

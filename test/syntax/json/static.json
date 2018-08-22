@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Point",
+        "escapedName": "Point",
         "partial": null,
         "members": [],
         "trivia": {
@@ -17,6 +18,7 @@
     {
         "type": "interface",
         "name": "Circle",
+        "escapedName": "Circle",
         "partial": null,
         "members": [
             {

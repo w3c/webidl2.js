@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Node",
+        "escapedName": "Node",
         "partial": null,
         "members": [
             {

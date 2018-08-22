@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Foo",
+        "escapedName": "Foo",
         "partial": null,
         "members": [
             {
@@ -179,6 +180,7 @@
     {
         "type": "interface",
         "name": "ServiceWorkerClients",
+        "escapedName": "ServiceWorkerClients",
         "partial": null,
         "members": [
             {
@@ -319,6 +321,7 @@
     {
         "type": "interface",
         "name": "FetchEvent",
+        "escapedName": "FetchEvent",
         "partial": null,
         "members": [
             {

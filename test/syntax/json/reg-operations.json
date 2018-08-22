@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Dimensions",
+        "escapedName": "Dimensions",
         "partial": null,
         "members": [
             {
@@ -84,6 +85,7 @@
     {
         "type": "interface",
         "name": "Button",
+        "escapedName": "Button",
         "partial": null,
         "members": [
             {

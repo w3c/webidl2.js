@@ -88,6 +88,7 @@
             }
         },
         "name": "TexImageSource",
+        "escapedName": "TexImageSource",
         "trivia": {
             "base": "  ",
             "name": " ",

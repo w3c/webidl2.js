@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Circle",
+        "escapedName": "Circle",
         "partial": null,
         "members": [
             {

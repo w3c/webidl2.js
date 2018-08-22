@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Canvas",
+        "escapedName": "Canvas",
         "partial": null,
         "members": [
             {
@@ -168,6 +169,7 @@
     {
         "type": "interface",
         "name": "I",
+        "escapedName": "I",
         "partial": null,
         "members": [
             {

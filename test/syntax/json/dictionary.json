@@ -2,6 +2,7 @@
     {
         "type": "dictionary",
         "name": "PaintOptions",
+        "escapedName": "PaintOptions",
         "partial": null,
         "members": [
             {
@@ -201,7 +202,8 @@
     },
     {
         "type": "dictionary",
-        "name": "A",
+        "name": "_A",
+        "escapedName": "_A",
         "partial": {
             "trivia": "\n\n"
         },
@@ -272,6 +274,6 @@
     },
     {
         "type": "eof",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]

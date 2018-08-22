@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "MyConstants",
+        "escapedName": "MyConstants",
         "partial": null,
         "members": [
             {
@@ -51,6 +52,7 @@
     {
         "type": "interface",
         "name": "Node",
+        "escapedName": "Node",
         "partial": null,
         "members": [
             {
