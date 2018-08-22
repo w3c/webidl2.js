@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Cat",
+        "escapedName": "Cat",
         "partial": null,
         "members": [
             {

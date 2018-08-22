@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "IntegerSet",
+        "escapedName": "IntegerSet",
         "partial": null,
         "members": [
             {

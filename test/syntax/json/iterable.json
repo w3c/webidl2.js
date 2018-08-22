@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "IterableOne",
+        "escapedName": "IterableOne",
         "partial": null,
         "members": [
             {
@@ -45,6 +46,7 @@
     {
         "type": "interface",
         "name": "IterableTwo",
+        "escapedName": "IterableTwo",
         "partial": null,
         "members": [
             {
@@ -108,6 +110,7 @@
     {
         "type": "interface",
         "name": "IterableThree",
+        "escapedName": "IterableThree",
         "partial": null,
         "members": [
             {

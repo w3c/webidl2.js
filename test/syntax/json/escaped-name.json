@@ -1,0 +1,22 @@
+[
+    {
+        "type": "interface",
+        "name": "Iroha",
+        "escapedName": "_Iroha",
+        "partial": null,
+        "members": [],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "trivia": "\n"
+    }
+]

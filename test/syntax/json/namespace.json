@@ -2,6 +2,7 @@
     {
         "type": "namespace",
         "name": "VectorUtils",
+        "escapedName": "VectorUtils",
         "partial": null,
         "members": [
             {
@@ -243,6 +244,7 @@
     {
         "type": "namespace",
         "name": "SomeNamespace",
+        "escapedName": "SomeNamespace",
         "partial": {
             "trivia": "\n\n"
         },
@@ -257,7 +259,22 @@
         "extAttrs": null
     },
     {
+        "type": "namespace",
+        "name": "ScalarUtils",
+        "escapedName": "_ScalarUtils",
+        "partial": null,
+        "members": [],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
         "type": "eof",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]

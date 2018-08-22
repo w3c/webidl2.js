@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Union",
+        "escapedName": "Union",
         "partial": null,
         "members": [
             {

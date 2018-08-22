@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "SetLike",
+        "escapedName": "SetLike",
         "partial": null,
         "members": [
             {
@@ -46,6 +47,7 @@
     {
         "type": "interface",
         "name": "ReadOnlySetLike",
+        "escapedName": "ReadOnlySetLike",
         "partial": null,
         "members": [
             {
@@ -92,6 +94,7 @@
     {
         "type": "interface",
         "name": "SetLikeExt",
+        "escapedName": "SetLikeExt",
         "partial": null,
         "members": [
             {

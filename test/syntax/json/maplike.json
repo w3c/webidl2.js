@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "MapLike",
+        "escapedName": "MapLike",
         "partial": null,
         "members": [
             {
@@ -64,6 +65,7 @@
     {
         "type": "interface",
         "name": "ReadOnlyMapLike",
+        "escapedName": "ReadOnlyMapLike",
         "partial": null,
         "members": [
             {
@@ -128,6 +130,7 @@
     {
         "type": "interface",
         "name": "I",
+        "escapedName": "I",
         "partial": null,
         "members": [
             {

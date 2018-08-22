@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Util",
+        "escapedName": "Util",
         "partial": null,
         "members": [
             {

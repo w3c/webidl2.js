@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "StringMap2",
+        "escapedName": "StringMap2",
         "partial": null,
         "members": [
             {

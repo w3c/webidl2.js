@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Suffixes",
+        "escapedName": "Suffixes",
         "partial": null,
         "members": [
             {

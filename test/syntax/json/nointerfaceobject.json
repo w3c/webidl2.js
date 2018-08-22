@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Query",
+        "escapedName": "Query",
         "partial": null,
         "members": [
             {

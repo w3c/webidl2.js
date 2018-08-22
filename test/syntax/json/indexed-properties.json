@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "OrderedMap",
+        "escapedName": "OrderedMap",
         "partial": null,
         "members": [
             {

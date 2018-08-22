@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Documentation",
+        "escapedName": "Documentation",
         "partial": null,
         "members": [],
         "trivia": {

@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "Point",
+        "escapedName": "Point",
         "partial": null,
         "members": [
             {
@@ -115,6 +116,7 @@
             }
         },
         "name": "PointSequence",
+        "escapedName": "PointSequence",
         "trivia": {
             "base": "\n\n      ",
             "name": " ",
@@ -125,6 +127,7 @@
     {
         "type": "interface",
         "name": "Rect",
+        "escapedName": "Rect",
         "partial": null,
         "members": [
             {
@@ -201,6 +204,7 @@
     {
         "type": "interface",
         "name": "Widget",
+        "escapedName": "Widget",
         "partial": null,
         "members": [
             {
@@ -415,6 +419,7 @@
             }
         },
         "name": "value",
+        "escapedName": "_value",
         "trivia": {
             "base": "\n\n  ",
             "name": " ",
@@ -424,6 +429,6 @@
     },
     {
         "type": "eof",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]

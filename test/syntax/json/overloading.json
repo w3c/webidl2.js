@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "A",
+        "escapedName": "A",
         "partial": null,
         "members": [],
         "trivia": {
@@ -17,6 +18,7 @@
     {
         "type": "interface",
         "name": "B",
+        "escapedName": "B",
         "partial": null,
         "members": [],
         "trivia": {
@@ -32,6 +34,7 @@
     {
         "type": "interface",
         "name": "C",
+        "escapedName": "C",
         "partial": null,
         "members": [
             {
@@ -182,6 +185,7 @@
     {
         "type": "interface",
         "name": "D",
+        "escapedName": "D",
         "partial": null,
         "members": [
             {
