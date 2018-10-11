@@ -5,7 +5,7 @@
         "escapedName": "MealType",
         "values": [
             {
-                "type": "string",
+                "type": "enum-value",
                 "value": "rice",
                 "trivia": " ",
                 "separator": {
@@ -14,7 +14,7 @@
                 }
             },
             {
-                "type": "string",
+                "type": "enum-value",
                 "value": "noodles",
                 "trivia": " ",
                 "separator": {
@@ -23,7 +23,7 @@
                 }
             },
             {
-                "type": "string",
+                "type": "enum-value",
                 "value": "other",
                 "trivia": " ",
                 "separator": null
@@ -218,7 +218,7 @@
         "escapedName": "_AltMealType",
         "values": [
             {
-                "type": "string",
+                "type": "enum-value",
                 "value": "rice",
                 "trivia": " ",
                 "separator": {
@@ -227,7 +227,7 @@
                 }
             },
             {
-                "type": "string",
+                "type": "enum-value",
                 "value": "noodles",
                 "trivia": " ",
                 "separator": {
@@ -236,7 +236,7 @@
                 }
             },
             {
-                "type": "string",
+                "type": "enum-value",
                 "value": "other",
                 "trivia": " ",
                 "separator": {
