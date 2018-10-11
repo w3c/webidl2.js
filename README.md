@@ -427,7 +427,7 @@ An enum looks like this:
   "name": "MealType",
   "values": [
     {
-      "type": "string",
+      "type": "enum-value",
       "value": "rice",
       "trivia": " ",
       "separator": {
@@ -436,7 +436,7 @@ An enum looks like this:
       }
     },
     {
-      "type": "string",
+      "type": "enum-value",
       "value": "noodles",
       "trivia": " ",
       "separator": {
@@ -445,7 +445,7 @@ An enum looks like this:
       }
     },
     {
-      "type": "string",
+      "type": "enum-value",
       "value": "other",
       "trivia": " ",
       "separator": null
@@ -466,7 +466,7 @@ The fields are as follows:
 
 * `type`: Always "enum".
 * `name`: The enum's name.
-* `values`: An array of values, which may include a field `separator` for proceding commas.
+* `values`: An array of values, which may include a field `separator` for proceding commas. The type of value is "enum-value".
 * `trivia`: A trivia object.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
 
