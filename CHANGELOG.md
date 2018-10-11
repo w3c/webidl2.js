@@ -1,5 +1,38 @@
 # Change Log
 
+## [v15.0.0](https://github.com/w3c/webidl2.js/tree/v15.0.0) (2018-10-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v14.0.1...v15.0.0)
+
+**Fixed bugs:**
+
+- Some leading underscores are no longer removed [\#228](https://github.com/w3c/webidl2.js/issues/228)
+
+**Closed issues:**
+
+- Enum value type should be "enum-value" not "string" [\#231](https://github.com/w3c/webidl2.js/issues/231)
+- \[ExtendedAttribute=null\] no longer parses [\#227](https://github.com/w3c/webidl2.js/issues/227)
+- Promise\<void\> doesn't parse [\#226](https://github.com/w3c/webidl2.js/issues/226)
+- Extended attributes parser is too permissive [\#222](https://github.com/w3c/webidl2.js/issues/222)
+- Update changelog [\#215](https://github.com/w3c/webidl2.js/issues/215)
+- Remove implements statement support [\#98](https://github.com/w3c/webidl2.js/issues/98)
+
+**Merged pull requests:**
+
+- docs\(README\): enum value's type is now enum-value [\#233](https://github.com/w3c/webidl2.js/pull/233) ([marcoscaceres](https://github.com/marcoscaceres))
+- fix: enum values should be of type enum-value [\#232](https://github.com/w3c/webidl2.js/pull/232) ([marcoscaceres](https://github.com/marcoscaceres))
+- fix: escape non-member top identifiers [\#229](https://github.com/w3c/webidl2.js/pull/229) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl\): disallow multiple special keywords [\#224](https://github.com/w3c/webidl2.js/pull/224) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): horizontally shorter type\(\) [\#221](https://github.com/w3c/webidl2.js/pull/221) ([saschanaz](https://github.com/saschanaz))
+- chore\(README\): operation body always has idlType [\#218](https://github.com/w3c/webidl2.js/pull/218) ([saschanaz](https://github.com/saschanaz))
+- DO NOT MERGE YET: Drop support for implements statement [\#106](https://github.com/w3c/webidl2.js/pull/106) ([saschanaz](https://github.com/saschanaz))
+
+## [v14.0.1](https://github.com/w3c/webidl2.js/tree/v14.0.1) (2018-06-20)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v14.0.0...v14.0.1)
+
+**Merged pull requests:**
+
+- fix\(index\): import writer from index [\#219](https://github.com/w3c/webidl2.js/pull/219) ([saschanaz](https://github.com/saschanaz))
+
 ## [v14.0.0](https://github.com/w3c/webidl2.js/tree/v14.0.0) (2018-06-19)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v13.0.3...v14.0.0)
 
