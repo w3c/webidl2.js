@@ -11,6 +11,8 @@
     "rules": {
         "no-constant-condition": "off",
         "prefer-const": "error",
-        "semi": "error"
+        "semi": "error",
+        "no-eval": "error",
+        "no-implied-eval": "error"
     }
 }
