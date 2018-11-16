@@ -872,31 +872,9 @@ The fields are as follows:
 
 ### Running
 
-The test runs with mocha and expect.js. Normally, running mocha in the root directory
+The test runs with mocha and expect.js. Normally, running `npm test` in the root directory
 should be enough once you're set up.
 
-### Coverage
-
-Current test coverage, as documented in `coverage.html`, is 95%. You can run your own
-coverage analysis with:
-
-```Bash
-jscoverage lib lib-cov
-```
-
-That will create the lib-cov directory with instrumented code; the test suite knows
-to use that if needed. You can then run the tests with:
-
-```Bash
-JSCOV=1 mocha --reporter html-cov > coverage.html
-```
-
-Note that I've been getting weirdly overescaped results from the html-cov reporter,
-so you might wish to try this instead:
-
-```Bash
-JSCOV=1 mocha  --reporter html-cov | sed "s/&lt;/</g" | sed "s/&gt;/>/g" | sed "s/&quot;/\"/g" > coverage.html
-```
 ### Browser tests
 
 In order to test in the browser, get inside `test/web` and run `make-web-tests.js`. This
