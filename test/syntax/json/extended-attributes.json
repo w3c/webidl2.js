@@ -168,9 +168,7 @@
         "members": [
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
@@ -198,9 +196,7 @@
             },
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
@@ -228,9 +224,7 @@
             },
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
@@ -258,9 +252,7 @@
             },
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": {
                     "trivia": "\n  "
                 },
@@ -371,9 +363,7 @@
         "members": [
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n    ",

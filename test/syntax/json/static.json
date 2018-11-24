@@ -23,9 +23,7 @@
         "members": [
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
@@ -53,9 +51,7 @@
             },
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
@@ -83,9 +79,7 @@
             },
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
@@ -113,11 +107,10 @@
             },
             {
                 "type": "attribute",
-                "static": {
+                "special": {
+                    "value": "static",
                     "trivia": "\n\n  "
                 },
-                "stringifier": null,
-                "inherit": null,
                 "readonly": {
                     "trivia": " "
                 },
@@ -147,13 +140,10 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": {
+                "special": {
+                    "value": "static",
                     "trivia": "\n  "
                 },
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
