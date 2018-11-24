@@ -7,9 +7,7 @@
         "members": [
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": {
                     "trivia": "\n  "
                 },
@@ -42,11 +40,7 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
+                "special": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -111,11 +105,7 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
+                "special": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",

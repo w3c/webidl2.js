@@ -7,11 +7,7 @@
         "members": [
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
+                "special": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -96,11 +92,7 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
+                "special": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -174,11 +166,7 @@
         "members": [
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
+                "special": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",

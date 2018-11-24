@@ -7,11 +7,8 @@
         "members": [
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": {
+                "special": {
+                    "value": "stringifier",
                     "trivia": "\n  "
                 },
                 "body": {
@@ -61,11 +58,8 @@
         "members": [
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": {
+                "special": {
+                    "value": "stringifier",
                     "trivia": "\n  "
                 },
                 "body": null,

@@ -7,9 +7,7 @@
         "members": [
             {
                 "type": "attribute",
-                "static": null,
-                "stringifier": null,
-                "inherit": null,
+                "special": null,
                 "readonly": {
                     "trivia": "\n  "
                 },
@@ -42,13 +40,10 @@
             },
             {
                 "type": "operation",
-                "getter": {
+                "special": {
+                    "value": "getter",
                     "trivia": "\n\n  "
                 },
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -114,13 +109,10 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": {
+                "special": {
+                    "value": "setter",
                     "trivia": "\n  "
                 },
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -216,13 +208,10 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": {
+                "special": {
+                    "value": "deleter",
                     "trivia": "\n  "
                 },
-                "static": null,
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -288,13 +277,10 @@
             },
             {
                 "type": "operation",
-                "getter": {
+                "special": {
+                    "value": "getter",
                     "trivia": "\n\n  "
                 },
-                "setter": null,
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -357,13 +343,10 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": {
+                "special": {
+                    "value": "setter",
                     "trivia": "\n  "
                 },
-                "deleter": null,
-                "static": null,
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
@@ -456,13 +439,10 @@
             },
             {
                 "type": "operation",
-                "getter": null,
-                "setter": null,
-                "deleter": {
+                "special": {
+                    "value": "deleter",
                     "trivia": "\n  "
                 },
-                "static": null,
-                "stringifier": null,
                 "body": {
                     "idlType": {
                         "type": "return-type",
