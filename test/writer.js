@@ -24,9 +24,10 @@ const templates = {
   valueLiteral: c => [c],
   inheritance: c => [c],
   definition(contents, { data }) { 
-    return Object.assign({
+    return { 
+      ...data,
       stringify: () => contents.map(stringify).join("")
-    }, data);
+    };
   },
   extendedAttribute: contents => contents.join(""),
   extendedAttributeReference: t => [t]
