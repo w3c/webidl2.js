@@ -43,7 +43,7 @@
                 "trivia": {
                     "base": "\n\n  // required is an allowed attribute name\n  ",
                     "name": " ",
-                    "termination": ""
+                    "termination": " "
                 },
                 "idlType": {
                     "type": "attribute-type",
