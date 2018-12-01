@@ -53,6 +53,73 @@ In the browser:
 </script>
 ```
 
+`write()` optionally supports templates, where every callback is optional:
+
+```js
+var result = WebIDL2.write(tree, {
+  templates: {
+    /**
+     * A callback that receives syntax strings plus anything the templates returned.
+     * The items are guaranteed to be ordered.
+     * The returned value may be again passed to any template callbacks,
+     * or it may also be the final return value of `write()`.
+     * @param {any[]} items
+     */
+    wrap: items => items.join(""),
+    /**
+     * @param {string} t A trivia string, which includes whitespaces and comments.
+     */
+    trivia: t => t,
+    /**
+     * The `Foo` part of `interface Foo {};`.
+     * @param {string} escaped The escaped raw name of the definition.
+     * @param data The definition with the name
+     * @param parent The parent of the definition, undefined if absent
+     */
+    name: (escaped, { data, parent }) => escaped,
+    /**
+     * Called for each type referece, e.g. `Window`, `Promise`, or `unsigned long`.
+     * @param ref The referenced name. Typically string, but may also be the return
+     *            value of `wrap()` if the name contains whitespace.
+     */
+    reference: ref => ref,
+    /**
+     * Called only once for each types, e.g. `Document`, `Promise<DOMString>`, or `sequence<long>`.
+     * @param type The `wrap()`ed result of references and syntatic bracket strings.
+     */
+    type: type => type,
+    /**
+     * Called for each value literals, e.g. `"string"` or `3.12`.
+     * @param {string} lit The raw literal string.
+     */
+    valueLiteral: lit => lit,
+    /**
+     * Receives the return value of `reference()`. String if it's absent.
+     */
+    inheritance: inh => inh,
+    /**
+     * Called for each IDL type definition, e.g. an interface, an operation, or a typedef.
+     * @param content The wrapped value of everything the definition contains.
+     * @param data The original definition object
+     * @param parent The parent of the definition, undefined if absent
+     */
+    definition: (content, { data, parent }) => content,
+    /**
+     * Called for each extended attribute annotation.
+     * @param content The wrapped value of everything the annotation contains.
+     */
+    extendedAttribute: content => contents.join(""),
+    /**
+     * The `Foo` part of `[Foo=Whatever]`.
+     * @param content The name of the referenced extended attribute name.
+     */
+    extendedAttributeReference: t => [t]
+  }
+});
+```
+
+
+
 ### Errors
 
 When there is a syntax error in the WebIDL, it throws an exception object with the following
@@ -866,7 +933,6 @@ The fields are as follows:
 * `readonly`: If the maplike or setlike is declared as read only, an object with a string type field `trivia`. Otherwise, `null`.
 * `trivia`: A trivia object.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
-
 
 ## Testing
 
