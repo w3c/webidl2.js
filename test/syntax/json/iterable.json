@@ -170,6 +170,7 @@
     },
     {
         "type": "eof",
+        "value": "",
         "trivia": ""
     }
 ]

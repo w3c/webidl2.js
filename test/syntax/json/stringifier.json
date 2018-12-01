@@ -81,6 +81,7 @@
     },
     {
         "type": "eof",
+        "value": "",
         "trivia": ""
     }
 ]

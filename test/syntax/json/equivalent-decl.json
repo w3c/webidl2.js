@@ -573,6 +573,7 @@
     },
     {
         "type": "eof",
+        "value": "",
         "trivia": ""
     }
 ]

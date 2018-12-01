@@ -265,6 +265,7 @@
     },
     {
         "type": "eof",
+        "value": "",
         "trivia": "\n"
     }
 ]
