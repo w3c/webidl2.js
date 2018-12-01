@@ -17,15 +17,10 @@ function* collect(base, { expectError } = {}) {
     .map(it => pth.join(dir, it));
 
   for (const path of idls) {
-    const optFile = pth.join(base, "opt", pth.basename(path)).replace(".widl", ".json");
-    let opt;
-    if (fs.existsSync(optFile))
-      opt = JSON.parse(fs.readFileSync(optFile, "utf8"));
-
     try {
       const text = fs.readFileSync(path, "utf8").replace(/\r\n/g, "\n");
-      const ast = wp.parse(text, opt);
-      yield new TestItem({ text, ast, path, opt });
+      const ast = wp.parse(text);
+      yield new TestItem({ text, ast, path });
     }
     catch (error) {
       if (expectError) {
@@ -40,12 +35,11 @@ function* collect(base, { expectError } = {}) {
 
 
 class TestItem {
-  constructor({ text, ast, path, error, opt }) {
+  constructor({ text, ast, path, error }) {
     this.text = text;
     this.ast = ast;
     this.path = path;
     this.error = error;
-    this.opt = opt;
     this.jsonPath = pth.join(pth.dirname(path), "../json", pth.basename(path).replace(".widl", ".json"));
   }
 
