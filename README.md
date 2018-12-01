@@ -111,14 +111,14 @@ var result = WebIDL2.write(tree, {
     extendedAttribute: content => contents.join(""),
     /**
      * The `Foo` part of `[Foo=Whatever]`.
-     * @param content The name of the referenced extended attribute name.
+     * @param ref The name of the referenced extended attribute name.
      */
-    extendedAttributeReference: t => [t]
+    extendedAttributeReference: ref => ref
   }
 });
 ```
 
-
+"Wrapped value" here will all be raw strings when the `wrap()` callback is absent.
 
 ### Errors
 
