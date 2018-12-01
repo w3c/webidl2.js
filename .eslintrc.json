@@ -8,9 +8,6 @@
         "mocha": true
     },
     "extends": "eslint:recommended",
-    "parserOptions": {
-        "ecmaVersion": 2018
-    },
     "rules": {
         "no-constant-condition": "off",
         "prefer-const": "error",
