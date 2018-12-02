@@ -9,7 +9,7 @@ const jdp = require("jsondiffpatch");
  * Collects test items from the specified directory
  * @param {string} base
  */
-function* collect(base, { expectError } = {}) {
+function* collect(base, { expectError, raw } = {}) {
   base = pth.join(__dirname, "..", base);
   const dir = pth.join(base, "idl");
   const idls = fs.readdirSync(dir)
@@ -17,40 +17,43 @@ function* collect(base, { expectError } = {}) {
     .map(it => pth.join(dir, it));
 
   for (const path of idls) {
-    const optFile = pth.join(base, "opt", pth.basename(path)).replace(".widl", ".json");
-    let opt;
-    if (fs.existsSync(optFile))
-      opt = JSON.parse(fs.readFileSync(optFile, "utf8"));
-
     try {
       const text = fs.readFileSync(path, "utf8").replace(/\r\n/g, "\n");
-      const ast = wp.parse(text, opt);
-      yield new TestItem({ text, ast, path, opt });
+      const ast = wp.parse(text);
+      yield new TestItem({ text, ast, path, raw });
     }
     catch (error) {
       if (expectError) {
-        yield new TestItem({ path, error });
+        yield new TestItem({ path, error, raw });
       }
       else {
         throw error;
       }
     }
   }
-};
+}
 
 
 class TestItem {
-  constructor({ text, ast, path, error, opt }) {
+  constructor({ text, ast, path, error, raw }) {
     this.text = text;
     this.ast = ast;
     this.path = path;
     this.error = error;
-    this.opt = opt;
-    this.jsonPath = pth.join(pth.dirname(path), "../json", pth.basename(path).replace(".widl", ".json"));
+    const fileExtension = raw ? ".txt" : ".json";
+    this.baselinePath = pth.join(
+      pth.dirname(path),
+      "../baseline",
+      pth.basename(path).replace(".widl", fileExtension)
+    );
   }
 
   readJSON() {
-    return JSON.parse(fs.readFileSync(this.jsonPath, "utf8"));
+    return JSON.parse(this.readText());
+  }
+
+  readText() {
+    return fs.readFileSync(this.baselinePath, "utf8").replace(/\r/g, "");
   }
 
   diff(target = this.readJSON()) {

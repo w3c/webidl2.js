@@ -1,0 +1,87 @@
+[
+    {
+        "type": "interface",
+        "name": "A",
+        "escapedName": "A",
+        "partial": null,
+        "members": [
+            {
+                "type": "operation",
+                "special": {
+                    "value": "stringifier",
+                    "trivia": "\n  "
+                },
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "DOMString",
+                        "baseName": "DOMString",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": " "
+                        }
+                    },
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    },
+                    "name": null,
+                    "arguments": []
+                },
+                "trivia": {
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "B",
+        "escapedName": "B",
+        "partial": null,
+        "members": [
+            {
+                "type": "operation",
+                "special": {
+                    "value": "stringifier",
+                    "trivia": "\n  "
+                },
+                "body": null,
+                "trivia": {
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": ""
+    }
+]

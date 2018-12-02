@@ -1,0 +1,197 @@
+[
+    {
+        "type": "interface",
+        "name": "Animal",
+        "escapedName": "Animal",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": {
+                    "trivia": "\n\n  // A simple attribute that can be set to any string value.\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "name",
+                "escapedName": "name",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "Person",
+        "escapedName": "Person",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": {
+                    "trivia": "\n\n  // An attribute whose value cannot be assigned to.\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "unsigned short",
+                    "baseName": "short",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "age",
+                "escapedName": "age",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": {
+                    "value": "inherit",
+                    "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
+                },
+                "readonly": null,
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "name",
+                "escapedName": "name",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": {
+            "name": "Animal",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "Ghost",
+        "escapedName": "Ghost",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": {
+                    "value": "inherit",
+                    "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
+                },
+                "readonly": {
+                    "trivia": " "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "name",
+                "escapedName": "name",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": {
+            "name": "Person",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

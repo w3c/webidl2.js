@@ -1,0 +1,172 @@
+[
+    {
+        "type": "dictionary",
+        "name": "PaintOptions",
+        "escapedName": "PaintOptions",
+        "partial": null,
+        "members": [
+            {
+                "type": "field",
+                "name": "fillPattern",
+                "escapedName": "fillPattern",
+                "required": null,
+                "idlType": {
+                    "type": "dictionary-type",
+                    "generic": null,
+                    "nullable": {
+                        "trivia": ""
+                    },
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n  "
+                    }
+                },
+                "extAttrs": null,
+                "default": {
+                    "type": "string",
+                    "value": "black",
+                    "trivia": {
+                        "assign": " ",
+                        "value": " "
+                    }
+                },
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "field",
+                "name": "strokePattern",
+                "escapedName": "strokePattern",
+                "required": null,
+                "idlType": {
+                    "type": "dictionary-type",
+                    "generic": null,
+                    "nullable": {
+                        "trivia": ""
+                    },
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n  "
+                    }
+                },
+                "extAttrs": null,
+                "default": {
+                    "type": "null",
+                    "trivia": {
+                        "assign": " ",
+                        "value": " "
+                    }
+                },
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "field",
+                "name": "position",
+                "escapedName": "position",
+                "required": null,
+                "idlType": {
+                    "type": "dictionary-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "Point",
+                    "baseName": "Point",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n  "
+                    }
+                },
+                "extAttrs": null,
+                "default": null,
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
+            }
+        ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "dictionary",
+        "name": "WetPaintOptions",
+        "escapedName": "WetPaintOptions",
+        "partial": null,
+        "members": [
+            {
+                "type": "field",
+                "name": "hydrometry",
+                "escapedName": "hydrometry",
+                "required": null,
+                "idlType": {
+                    "type": "dictionary-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n  "
+                    }
+                },
+                "extAttrs": null,
+                "default": null,
+                "trivia": {
+                    "name": " ",
+                    "termination": ""
+                }
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": {
+            "name": "PaintOptions",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": ""
+    }
+]

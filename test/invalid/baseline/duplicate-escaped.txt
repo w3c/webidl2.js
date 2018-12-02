@@ -1,0 +1,3 @@
+Syntax error at line 2, since `interface Iroha`:
+interface _Iroha {};
+                 ^ The name "Iroha" of type "interface" was already seen

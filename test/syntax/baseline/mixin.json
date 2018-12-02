@@ -1,0 +1,143 @@
+[
+    {
+        "type": "interface mixin",
+        "name": "GlobalCrypto",
+        "escapedName": "GlobalCrypto",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "Crypto",
+                    "baseName": "Crypto",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "crypto",
+                "escapedName": "crypto",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
+            "mixin": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "includes",
+        "target": "Window",
+        "includes": "GlobalCrypto",
+        "trivia": {
+            "target": "\n\n",
+            "includes": " ",
+            "mixin": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "includes",
+        "target": "WorkerGlobalScope",
+        "includes": "GlobalCrypto",
+        "trivia": {
+            "target": "\n",
+            "includes": " ",
+            "mixin": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface mixin",
+        "name": "WindowOrWorkerGlobalScope",
+        "escapedName": "WindowOrWorkerGlobalScope",
+        "partial": {
+            "trivia": "\n\n"
+        },
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "Crypto",
+                    "baseName": "Crypto",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "crypto",
+                "escapedName": "crypto",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": " ",
+            "mixin": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface mixin",
+        "name": "LocalCrypto",
+        "escapedName": "_LocalCrypto",
+        "partial": null,
+        "members": [],
+        "trivia": {
+            "base": "\n\n",
+            "mixin": " ",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

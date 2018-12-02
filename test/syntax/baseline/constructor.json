@@ -1,0 +1,202 @@
+[
+    {
+        "type": "interface",
+        "name": "Circle",
+        "escapedName": "Circle",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "r",
+                "escapedName": "r",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "cx",
+                "escapedName": "cx",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "cy",
+                "escapedName": "cy",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "circumference",
+                "escapedName": "circumference",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": {
+            "trivia": {
+                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+                "close": ""
+            },
+            "items": [
+                {
+                    "name": "Constructor",
+                    "signature": null,
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": ""
+                    },
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
+                    }
+                },
+                {
+                    "name": "Constructor",
+                    "signature": {
+                        "arguments": [
+                            {
+                                "optional": null,
+                                "variadic": null,
+                                "default": null,
+                                "trivia": {
+                                    "name": " "
+                                },
+                                "extAttrs": null,
+                                "idlType": {
+                                    "type": "argument-type",
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "float",
+                                    "baseName": "float",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "extAttrs": null,
+                                    "trivia": {
+                                        "base": ""
+                                    }
+                                },
+                                "name": "radius",
+                                "escapedName": "radius",
+                                "separator": null
+                            }
+                        ],
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "type": "extended-attribute",
+                    "rhs": null,
+                    "trivia": {
+                        "name": "\n "
+                    },
+                    "separator": null
+                }
+            ]
+        }
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": ""
+    }
+]

@@ -1,0 +1,104 @@
+[
+    {
+        "type": "typedef",
+        "idlType": {
+            "type": "typedef-type",
+            "generic": null,
+            "nullable": null,
+            "union": true,
+            "idlType": [
+                {
+                    "type": null,
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "ImageData",
+                    "baseName": "ImageData",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": ""
+                    }
+                },
+                {
+                    "type": null,
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "HTMLImageElement",
+                    "baseName": "HTMLImageElement",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n           "
+                    }
+                },
+                {
+                    "type": null,
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "HTMLCanvasElement",
+                    "baseName": "HTMLCanvasElement",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": {
+                        "value": "or",
+                        "trivia": " "
+                    },
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n           "
+                    }
+                },
+                {
+                    "type": null,
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "HTMLVideoElement",
+                    "baseName": "HTMLVideoElement",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": "\n           "
+                    }
+                }
+            ],
+            "baseName": null,
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": null,
+            "trivia": {
+                "open": " ",
+                "close": ""
+            }
+        },
+        "name": "TexImageSource",
+        "escapedName": "TexImageSource",
+        "trivia": {
+            "base": "  ",
+            "name": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

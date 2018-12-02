@@ -17,7 +17,7 @@
     "mocha": "5.2.0"
   },
   "scripts": {
-    "lint": "eslint lib/*.js test/*.js",
+    "lint": "eslint lib/*.js test/*.js test/util/*.js",
     "test": "npm run lint && mocha",
     "acquire": "node test/util/acquire.js"
   },
