@@ -53,7 +53,7 @@ In the browser:
 </script>
 ```
 
-`write()` optionally supports templates, where every callback is optional:
+`write()` optionally takes a "templates" object, whose properties are functions that process input in different ways (depending on what is needed for output). Every property is optional. Each property is documented below:
 
 ```js
 var result = WebIDL2.write(tree, {
