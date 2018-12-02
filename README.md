@@ -61,7 +61,7 @@ var result = WebIDL2.write(tree, {
     /**
      * A callback that receives syntax strings plus anything the templates returned.
      * The items are guaranteed to be ordered.
-     * The returned value may be again passed to any template callbacks,
+     * The returned value may be again passed to any template functions,
      * or it may also be the final return value of `write()`.
      * @param {any[]} items
      */
