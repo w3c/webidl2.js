@@ -1,4 +1,0 @@
-{
-    "message": "Got an error during or right after parsing `interface Iroha`: The name \"Iroha\" of type \"interface\" was already seen",
-    "line": 2
-}
