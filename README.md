@@ -71,7 +71,7 @@ var result = WebIDL2.write(tree, {
      */
     trivia: t => t,
     /**
-     * The `Foo` part of `interface Foo {};`.
+     * The identifier for a container type. For example, the `Foo` part of `interface Foo {};`.
      * @param {string} escaped The escaped raw name of the definition.
      * @param data The definition with the name
      * @param parent The parent of the definition, undefined if absent
