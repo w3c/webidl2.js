@@ -59,7 +59,7 @@ In the browser:
 var result = WebIDL2.write(tree, {
   templates: {
     /**
-     * A callback that receives syntax strings plus anything the templates returned.
+     * A function that receives syntax strings plus anything the templates returned.
      * The items are guaranteed to be ordered.
      * The returned value may be again passed to any template functions,
      * or it may also be the final return value of `write()`.
