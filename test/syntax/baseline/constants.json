@@ -1,0 +1,280 @@
+[
+    {
+        "type": "interface",
+        "name": "Util",
+        "escapedName": "Util",
+        "partial": null,
+        "members": [
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "boolean",
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "DEBUG",
+                "value": {
+                    "type": "boolean",
+                    "value": false
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "short",
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "negative",
+                "value": {
+                    "type": "number",
+                    "value": "-1"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "octet",
+                    "baseName": "octet",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "LF",
+                "value": {
+                    "type": "number",
+                    "value": "10"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "unsigned long",
+                    "baseName": "long",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "BIT_MASK",
+                "value": {
+                    "type": "number",
+                    "value": "0x0000fc00"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "AVOGADRO",
+                "value": {
+                    "type": "number",
+                    "value": "6.022e23"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "unrestricted float",
+                    "baseName": "float",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "sobig",
+                "value": {
+                    "type": "Infinity",
+                    "negative": false
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "unrestricted double",
+                    "baseName": "double",
+                    "prefix": {
+                        "value": "unrestricted",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "minusonedividedbyzero",
+                "value": {
+                    "type": "Infinity",
+                    "negative": true
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "short",
+                    "baseName": "short",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "notanumber",
+                "value": {
+                    "type": "NaN"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": ""
+    }
+]

@@ -1,0 +1,83 @@
+[
+    {
+        "type": "interface",
+        "name": "Person",
+        "escapedName": "Person",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n  // A simple attribute that can be set to any value the range an unsigned\n  // short can take.\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "unsigned short",
+                    "baseName": "short",
+                    "prefix": {
+                        "value": "unsigned",
+                        "trivia": " "
+                    },
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "age",
+                "escapedName": "age",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n  // required is an allowed attribute name\n  ",
+                    "name": " ",
+                    "termination": " "
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "any",
+                    "baseName": "any",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "required",
+                "escapedName": "required",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

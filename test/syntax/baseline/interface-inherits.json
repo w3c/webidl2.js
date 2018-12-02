@@ -1,0 +1,154 @@
+[
+    {
+        "type": "interface",
+        "name": "Animal",
+        "escapedName": "Animal",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "name",
+                "escapedName": "name",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "Human",
+        "escapedName": "Human",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "Dog",
+                    "baseName": "Dog",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "pet",
+                "escapedName": "pet",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": {
+            "name": "Animal",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "Dog",
+        "escapedName": "Dog",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "Human",
+                    "baseName": "Human",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "owner",
+                "escapedName": "owner",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": {
+            "name": "Animal",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": ""
+    }
+]

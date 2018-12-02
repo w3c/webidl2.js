@@ -1,0 +1,74 @@
+[
+    {
+        "type": "interface",
+        "name": "Cat",
+        "escapedName": "Cat",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n    ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": {
+                        "value": "Promise",
+                        "trivia": {
+                            "open": "",
+                            "close": ""
+                        }
+                    },
+                    "nullable": null,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "generic": null,
+                            "nullable": null,
+                            "union": false,
+                            "idlType": "void",
+                            "baseName": "void",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "extAttrs": null,
+                            "trivia": {
+                                "base": ""
+                            }
+                        }
+                    ],
+                    "baseName": "Promise",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "meow",
+                "escapedName": "meow",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

@@ -1,0 +1,332 @@
+[
+    {
+        "type": "typedef",
+        "idlType": {
+            "type": "typedef-type",
+            "generic": null,
+            "nullable": null,
+            "union": false,
+            "idlType": "float",
+            "baseName": "float",
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": null,
+            "trivia": {
+                "base": " "
+            }
+        },
+        "name": "number",
+        "escapedName": "number",
+        "trivia": {
+            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n  // Typedef identifier: \"number\"\n  // Qualified name:    \"::framework::number\"\n  ",
+            "name": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "System",
+        "escapedName": "System",
+        "partial": null,
+        "members": [
+            {
+                "type": "operation",
+                "special": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "object",
+                        "baseName": "object",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "createObject",
+                        "escaped": "createObject",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": null,
+                            "variadic": null,
+                            "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
+                            "extAttrs": null,
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": null,
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "interface",
+                            "escapedName": "_interface",
+                            "separator": null
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
+                "extAttrs": null
+            },
+            {
+                "type": "operation",
+                "special": {
+                    "value": "getter",
+                    "trivia": "\n\n    // Operation has no identifier; it declares a getter.\n    "
+                },
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "DOMString",
+                        "baseName": "DOMString",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": " "
+                        }
+                    },
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    },
+                    "name": null,
+                    "arguments": [
+                        {
+                            "optional": null,
+                            "variadic": null,
+                            "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
+                            "extAttrs": null,
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": null,
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "keyName",
+                            "escapedName": "keyName",
+                            "separator": null
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n  // Interface identifier: \"System\"\n  // Qualified name:       \"::framework::System\"\n  ",
+            "name": " ",
+            "open": " ",
+            "close": "\n  ",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "TextField",
+        "escapedName": "TextField",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n      // Attribute identifier: \"const\"\n      ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "boolean",
+                    "baseName": "boolean",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "const",
+                "escapedName": "_const",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n      // Attribute identifier: \"value\"\n      ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": {
+                        "trivia": ""
+                    },
+                    "union": false,
+                    "idlType": "DOMString",
+                    "baseName": "DOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "value",
+                "escapedName": "_value",
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n\n    // Interface identifier: \"TextField\"\n    // Qualified name:       \"::framework::gui::TextField\"\n    ",
+            "name": " ",
+            "open": " ",
+            "close": "\n    ",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "FooEventTarget",
+        "escapedName": "FooEventTarget",
+        "partial": null,
+        "members": [
+            {
+                "type": "operation",
+                "special": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": "\n  // Argument names allow some selected keywords\n  "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "addEventListener",
+                        "escaped": "addEventListener",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": null,
+                            "variadic": null,
+                            "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
+                            "extAttrs": null,
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": {
+                                    "trivia": ""
+                                },
+                                "union": false,
+                                "idlType": "EventListener",
+                                "baseName": "EventListener",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": null,
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "callback",
+                            "escapedName": "callback",
+                            "separator": null
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

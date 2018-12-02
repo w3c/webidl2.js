@@ -1,0 +1,254 @@
+[
+    {
+        "type": "enum",
+        "name": "MealType",
+        "escapedName": "MealType",
+        "values": [
+            {
+                "type": "enum-value",
+                "value": "rice",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
+            },
+            {
+                "type": "enum-value",
+                "value": "noodles",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
+            },
+            {
+                "type": "enum-value",
+                "value": "other",
+                "trivia": " ",
+                "separator": null
+            }
+        ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "Meal",
+        "escapedName": "Meal",
+        "partial": null,
+        "members": [
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "MealType",
+                    "baseName": "MealType",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "type",
+                "escapedName": "type",
+                "extAttrs": null
+            },
+            {
+                "type": "attribute",
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                },
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "size",
+                "escapedName": "size",
+                "extAttrs": null
+            },
+            {
+                "type": "operation",
+                "special": null,
+                "body": {
+                    "idlType": {
+                        "type": "return-type",
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "void",
+                        "baseName": "void",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": "     // in grams\n\n  "
+                        }
+                    },
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    },
+                    "name": {
+                        "value": "initialize",
+                        "escaped": "initialize",
+                        "trivia": " "
+                    },
+                    "arguments": [
+                        {
+                            "optional": null,
+                            "variadic": null,
+                            "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
+                            "extAttrs": null,
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "MealType",
+                                "baseName": "MealType",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": null,
+                                "trivia": {
+                                    "base": ""
+                                }
+                            },
+                            "name": "type",
+                            "escapedName": "type",
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            }
+                        },
+                        {
+                            "optional": null,
+                            "variadic": null,
+                            "default": null,
+                            "trivia": {
+                                "name": " "
+                            },
+                            "extAttrs": null,
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "float",
+                                "baseName": "float",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": null,
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "name": "size",
+                            "escapedName": "size",
+                            "separator": null
+                        }
+                    ]
+                },
+                "trivia": {
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "enum",
+        "name": "AltMealType",
+        "escapedName": "_AltMealType",
+        "values": [
+            {
+                "type": "enum-value",
+                "value": "rice",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
+            },
+            {
+                "type": "enum-value",
+                "value": "noodles",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
+            },
+            {
+                "type": "enum-value",
+                "value": "other",
+                "trivia": " ",
+                "separator": {
+                    "value": ",",
+                    "trivia": ""
+                }
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

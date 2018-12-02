@@ -1,0 +1,161 @@
+[
+    {
+        "type": "interface",
+        "name": "SetLike",
+        "escapedName": "SetLike",
+        "partial": null,
+        "members": [
+            {
+                "type": "setlike",
+                "idlType": [
+                    {
+                        "type": null,
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "long",
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": ""
+                        }
+                    }
+                ],
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "ReadOnlySetLike",
+        "escapedName": "ReadOnlySetLike",
+        "partial": null,
+        "members": [
+            {
+                "type": "setlike",
+                "idlType": [
+                    {
+                        "type": null,
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "long",
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": null,
+                        "trivia": {
+                            "base": ""
+                        }
+                    }
+                ],
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "interface",
+        "name": "SetLikeExt",
+        "escapedName": "SetLikeExt",
+        "partial": null,
+        "members": [
+            {
+                "type": "setlike",
+                "idlType": [
+                    {
+                        "type": null,
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "long",
+                        "baseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "extAttrs": {
+                            "trivia": {
+                                "open": "",
+                                "close": ""
+                            },
+                            "items": [
+                                {
+                                    "name": "XAttr",
+                                    "signature": null,
+                                    "type": "extended-attribute",
+                                    "rhs": null,
+                                    "trivia": {
+                                        "name": ""
+                                    },
+                                    "separator": null
+                                }
+                            ]
+                        },
+                        "trivia": {
+                            "base": " "
+                        }
+                    }
+                ],
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                },
+                "extAttrs": null
+            }
+        ],
+        "trivia": {
+            "base": "\n\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
+        },
+        "inheritance": null,
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]
