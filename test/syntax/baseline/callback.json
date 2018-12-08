@@ -25,7 +25,6 @@
                 "trivia": {
                     "name": " "
                 },
-                "extAttrs": null,
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
@@ -98,7 +97,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -163,7 +161,6 @@
                 "trivia": {
                     "name": " "
                 },
-                "extAttrs": null,
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,
@@ -193,7 +190,6 @@
                 "trivia": {
                     "name": " "
                 },
-                "extAttrs": null,
                 "idlType": {
                     "type": "argument-type",
                     "generic": null,

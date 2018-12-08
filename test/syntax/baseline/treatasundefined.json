@@ -97,31 +97,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": {
-                                "trivia": {
-                                    "open": "",
-                                    "close": ""
-                                },
-                                "items": [
-                                    {
-                                        "name": "TreatUndefinedAs",
-                                        "signature": null,
-                                        "type": "extended-attribute",
-                                        "rhs": {
-                                            "type": "identifier",
-                                            "value": "EmptyString",
-                                            "trivia": {
-                                                "assign": "",
-                                                "value": ""
-                                            }
-                                        },
-                                        "trivia": {
-                                            "name": ""
-                                        },
-                                        "separator": null
-                                    }
-                                ]
-                            },
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -132,7 +107,31 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
+                                "extAttrs": {
+                                    "trivia": {
+                                        "open": "",
+                                        "close": ""
+                                    },
+                                    "items": [
+                                        {
+                                            "name": "TreatUndefinedAs",
+                                            "signature": null,
+                                            "type": "extended-attribute",
+                                            "rhs": {
+                                                "type": "identifier",
+                                                "value": "EmptyString",
+                                                "trivia": {
+                                                    "assign": "",
+                                                    "value": ""
+                                                }
+                                            },
+                                            "trivia": {
+                                                "name": ""
+                                            },
+                                            "separator": null
+                                        }
+                                    ]
+                                },
                                 "trivia": {
                                     "base": " "
                                 }

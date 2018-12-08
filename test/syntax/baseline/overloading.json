@@ -73,7 +73,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -136,7 +135,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -216,7 +214,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -279,24 +276,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": {
-                                "trivia": {
-                                    "open": "",
-                                    "close": ""
-                                },
-                                "items": [
-                                    {
-                                        "name": "AllowAny",
-                                        "signature": null,
-                                        "type": "extended-attribute",
-                                        "rhs": null,
-                                        "trivia": {
-                                            "name": ""
-                                        },
-                                        "separator": null
-                                    }
-                                ]
-                            },
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -307,7 +286,24 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
+                                "extAttrs": {
+                                    "trivia": {
+                                        "open": "",
+                                        "close": ""
+                                    },
+                                    "items": [
+                                        {
+                                            "name": "AllowAny",
+                                            "signature": null,
+                                            "type": "extended-attribute",
+                                            "rhs": null,
+                                            "trivia": {
+                                                "name": ""
+                                            },
+                                            "separator": null
+                                        }
+                                    ]
+                                },
                                 "trivia": {
                                     "base": " "
                                 }
@@ -326,7 +322,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -358,7 +353,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -456,7 +450,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -486,7 +479,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -518,7 +510,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -550,7 +541,6 @@
                             "trivia": {
                                 "name": " "
                             },
-                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
