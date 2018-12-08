@@ -1,5 +1,53 @@
 # Change Log
 
+## [v17.0.0](https://github.com/w3c/webidl2.js/tree/v17.0.0) (2018-12-08)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v16.1.0...v17.0.0)
+
+**Closed issues:**
+
+- Arguments shouldn't get its own extended attributes [\#246](https://github.com/w3c/webidl2.js/issues/246)
+- Modify writer to be ReSpec compatible [\#210](https://github.com/w3c/webidl2.js/issues/210)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: remove .extAttrs from arguments [\#248](https://github.com/w3c/webidl2.js/pull/248) ([saschanaz](https://github.com/saschanaz))
+
+## [v16.1.0](https://github.com/w3c/webidl2.js/tree/v16.1.0) (2018-12-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v16.0.0...v16.1.0)
+
+**Closed issues:**
+
+- Emit preceding tokens for error messages [\#180](https://github.com/w3c/webidl2.js/issues/180)
+
+**Merged pull requests:**
+
+- Add unit tests for writer template functions [\#245](https://github.com/w3c/webidl2.js/pull/245) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/webidl2\): better error messages  [\#244](https://github.com/w3c/webidl2.js/pull/244) ([saschanaz](https://github.com/saschanaz))
+- Add docs for template feature [\#243](https://github.com/w3c/webidl2.js/pull/243) ([saschanaz](https://github.com/saschanaz))
+- \[WIP\] write\(\) with optional templates [\#241](https://github.com/w3c/webidl2.js/pull/241) ([saschanaz](https://github.com/saschanaz))
+
+## [v16.0.0](https://github.com/w3c/webidl2.js/tree/v16.0.0) (2018-11-24)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v15.0.0...v16.0.0)
+
+**Implemented enhancements:**
+
+- eslint: prevent eval\(\) [\#234](https://github.com/w3c/webidl2.js/pull/234) ([tripu](https://github.com/tripu))
+
+**Closed issues:**
+
+- Revise README document about testing [\#164](https://github.com/w3c/webidl2.js/issues/164)
+- document white space [\#97](https://github.com/w3c/webidl2.js/issues/97)
+- types of types [\#93](https://github.com/w3c/webidl2.js/issues/93)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: merge modifier fields [\#240](https://github.com/w3c/webidl2.js/pull/240) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): use interface\_like\(\) [\#239](https://github.com/w3c/webidl2.js/pull/239) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): use token\(\) [\#238](https://github.com/w3c/webidl2.js/pull/238) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): reduce conditional constructs [\#237](https://github.com/w3c/webidl2.js/pull/237) ([saschanaz](https://github.com/saschanaz))
+- Remove jscoverage file and guide [\#236](https://github.com/w3c/webidl2.js/pull/236) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): update eslint [\#235](https://github.com/w3c/webidl2.js/pull/235) ([saschanaz](https://github.com/saschanaz))
+
 ## [v15.0.0](https://github.com/w3c/webidl2.js/tree/v15.0.0) (2018-10-11)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v14.0.1...v15.0.0)
 
@@ -199,14 +247,26 @@
 - Add a web page implementing a simple WebIDL checker. [\#146](https://github.com/w3c/webidl2.js/pull/146) ([kenrussell](https://github.com/kenrussell))
 
 ## [v10.3.2](https://github.com/w3c/webidl2.js/tree/v10.3.2) (2018-04-16)
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.2.1...v10.3.2)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.3.1...v10.3.2)
 
 **Merged pull requests:**
 
 - Fix whitespace handling of implements and includes. [\#145](https://github.com/w3c/webidl2.js/pull/145) ([kenrussell](https://github.com/kenrussell))
 - refactor: remove eas.length check [\#144](https://github.com/w3c/webidl2.js/pull/144) ([saschanaz](https://github.com/saschanaz))
 - refactor: one-to-one match for token matcher [\#143](https://github.com/w3c/webidl2.js/pull/143) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.3.1](https://github.com/w3c/webidl2.js/tree/v10.3.1) (2018-03-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.3.0...v10.3.1)
+
+**Merged pull requests:**
+
 - const-type as full IDL Type [\#142](https://github.com/w3c/webidl2.js/pull/142) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.3.0](https://github.com/w3c/webidl2.js/tree/v10.3.0) (2018-03-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.2.1...v10.3.0)
+
+**Merged pull requests:**
+
 - Always add extAttrs for .idlType [\#141](https://github.com/w3c/webidl2.js/pull/141) ([saschanaz](https://github.com/saschanaz))
 - docs\(README\): add types of types \[ci skip\] [\#140](https://github.com/w3c/webidl2.js/pull/140) ([saschanaz](https://github.com/saschanaz))
 
