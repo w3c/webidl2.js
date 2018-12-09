@@ -33,6 +33,7 @@
                             "union": false,
                             "idlType": "void",
                             "baseName": "void",
+                            "escapedBaseName": "void",
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
@@ -43,6 +44,7 @@
                         }
                     ],
                     "baseName": "Promise",
+                    "escapedBaseName": "Promise",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,

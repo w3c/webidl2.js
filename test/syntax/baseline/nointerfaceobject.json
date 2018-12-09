@@ -16,6 +16,7 @@
                         "union": false,
                         "idlType": "any",
                         "baseName": "any",
+                        "escapedBaseName": "any",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -48,6 +49,7 @@
                                 "union": false,
                                 "idlType": "unsigned long",
                                 "baseName": "long",
+                                "escapedBaseName": "long",
                                 "prefix": {
                                     "value": "unsigned",
                                     "trivia": ""

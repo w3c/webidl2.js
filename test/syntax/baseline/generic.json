@@ -54,6 +54,7 @@
                                                 "union": false,
                                                 "idlType": "DOMString",
                                                 "baseName": "DOMString",
+                                                "escapedBaseName": "DOMString",
                                                 "prefix": null,
                                                 "postfix": null,
                                                 "separator": null,
@@ -64,6 +65,7 @@
                                             }
                                         ],
                                         "baseName": "sequence",
+                                        "escapedBaseName": "sequence",
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": null,
@@ -74,6 +76,7 @@
                                     }
                                 ],
                                 "baseName": "Promise",
+                                "escapedBaseName": "Promise",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -84,6 +87,7 @@
                             }
                         ],
                         "baseName": "Promise",
+                        "escapedBaseName": "Promise",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -138,6 +142,7 @@
                             "union": false,
                             "idlType": "DOMString",
                             "baseName": "DOMString",
+                            "escapedBaseName": "DOMString",
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
@@ -148,6 +153,7 @@
                         }
                     ],
                     "baseName": "Promise",
+                    "escapedBaseName": "Promise",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -202,6 +208,7 @@
                                 "union": false,
                                 "idlType": "Client",
                                 "baseName": "Client",
+                                "escapedBaseName": "Client",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -212,6 +219,7 @@
                             }
                         ],
                         "baseName": "Promise",
+                        "escapedBaseName": "Promise",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -259,6 +267,7 @@
                                 "union": false,
                                 "idlType": "any",
                                 "baseName": "any",
+                                "escapedBaseName": "any",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -269,6 +278,7 @@
                             }
                         ],
                         "baseName": "Promise",
+                        "escapedBaseName": "Promise",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -333,6 +343,7 @@
                                 "union": false,
                                 "idlType": "any",
                                 "baseName": "any",
+                                "escapedBaseName": "any",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -343,6 +354,7 @@
                             }
                         ],
                         "baseName": "Promise",
+                        "escapedBaseName": "Promise",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -377,6 +389,7 @@
         },
         "inheritance": {
             "name": "Event",
+            "escapedName": "Event",
             "trivia": {
                 "colon": " ",
                 "name": " "

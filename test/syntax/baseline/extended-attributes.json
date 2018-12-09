@@ -14,6 +14,7 @@
         },
         "inheritance": {
             "name": "WorkerGlobalScope",
+            "escapedName": "WorkerGlobalScope",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -182,6 +183,7 @@
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
+                    "escapedBaseName": "double",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -210,6 +212,7 @@
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
+                    "escapedBaseName": "double",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -238,6 +241,7 @@
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
+                    "escapedBaseName": "double",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -268,6 +272,7 @@
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
+                    "escapedBaseName": "double",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -326,6 +331,7 @@
                                     "union": false,
                                     "idlType": "double",
                                     "baseName": "double",
+                                    "escapedBaseName": "double",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
@@ -382,6 +388,7 @@
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
+                            "escapedBaseName": "long",
                             "prefix": null,
                             "postfix": null,
                             "separator": {
@@ -400,6 +407,7 @@
                             "union": false,
                             "idlType": "Node",
                             "baseName": "Node",
+                            "escapedBaseName": "Node",
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
@@ -410,6 +418,7 @@
                         }
                     ],
                     "baseName": null,
+                    "escapedBaseName": null,
                     "prefix": null,
                     "postfix": null,
                     "separator": null,

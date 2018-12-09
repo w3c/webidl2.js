@@ -23,6 +23,7 @@
                     "union": false,
                     "idlType": "Crypto",
                     "baseName": "Crypto",
+                    "escapedBaseName": "Crypto",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -49,7 +50,9 @@
     {
         "type": "includes",
         "target": "Window",
+        "escapedTarget": "Window",
         "includes": "GlobalCrypto",
+        "escapedIncludes": "GlobalCrypto",
         "trivia": {
             "target": "\n\n",
             "includes": " ",
@@ -61,7 +64,9 @@
     {
         "type": "includes",
         "target": "WorkerGlobalScope",
+        "escapedTarget": "WorkerGlobalScope",
         "includes": "GlobalCrypto",
+        "escapedIncludes": "GlobalCrypto",
         "trivia": {
             "target": "\n",
             "includes": " ",
@@ -96,6 +101,7 @@
                     "union": false,
                     "idlType": "Crypto",
                     "baseName": "Crypto",
+                    "escapedBaseName": "Crypto",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,

@@ -21,6 +21,7 @@
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
+                    "escapedBaseName": "long",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "
@@ -52,6 +53,7 @@
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
+                    "escapedBaseName": "long",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "
@@ -95,6 +97,7 @@
                         "union": false,
                         "idlType": "boolean",
                         "baseName": "boolean",
+                        "escapedBaseName": "boolean",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -130,6 +133,7 @@
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
+                        "escapedBaseName": "void",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -162,6 +166,7 @@
                                 "union": false,
                                 "idlType": "Dimensions",
                                 "baseName": "Dimensions",
+                                "escapedBaseName": "Dimensions",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -192,6 +197,7 @@
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
+                        "escapedBaseName": "void",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -224,6 +230,7 @@
                                 "union": false,
                                 "idlType": "unsigned long",
                                 "baseName": "long",
+                                "escapedBaseName": "long",
                                 "prefix": {
                                     "value": "unsigned",
                                     "trivia": ""
@@ -256,6 +263,7 @@
                                 "union": false,
                                 "idlType": "unsigned long",
                                 "baseName": "long",
+                                "escapedBaseName": "long",
                                 "prefix": {
                                     "value": "unsigned",
                                     "trivia": " "

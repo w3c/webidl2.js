@@ -16,6 +16,7 @@
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
+                        "escapedBaseName": "void",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -72,6 +73,7 @@
                                                 "union": false,
                                                 "idlType": "ByteString",
                                                 "baseName": "ByteString",
+                                                "escapedBaseName": "ByteString",
                                                 "prefix": null,
                                                 "postfix": null,
                                                 "separator": {
@@ -90,6 +92,7 @@
                                                 "union": false,
                                                 "idlType": "any",
                                                 "baseName": "any",
+                                                "escapedBaseName": "any",
                                                 "prefix": null,
                                                 "postfix": null,
                                                 "separator": null,
@@ -100,6 +103,7 @@
                                             }
                                         ],
                                         "baseName": "record",
+                                        "escapedBaseName": "record",
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": null,
@@ -110,6 +114,7 @@
                                     }
                                 ],
                                 "baseName": "sequence",
+                                "escapedBaseName": "sequence",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -152,6 +157,7 @@
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
+                                "escapedBaseName": "DOMString",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": {
@@ -178,6 +184,7 @@
                                         "union": false,
                                         "idlType": "float",
                                         "baseName": "float",
+                                        "escapedBaseName": "float",
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": {
@@ -196,6 +203,7 @@
                                         "union": false,
                                         "idlType": "DOMString",
                                         "baseName": "DOMString",
+                                        "escapedBaseName": "DOMString",
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": null,
@@ -206,6 +214,7 @@
                                     }
                                 ],
                                 "baseName": null,
+                                "escapedBaseName": null,
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -217,6 +226,7 @@
                             }
                         ],
                         "baseName": "record",
+                        "escapedBaseName": "record",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -286,6 +296,7 @@
                                             "union": false,
                                             "idlType": "USVString",
                                             "baseName": "USVString",
+                                            "escapedBaseName": "USVString",
                                             "prefix": null,
                                             "postfix": null,
                                             "separator": {
@@ -304,6 +315,7 @@
                                             "union": false,
                                             "idlType": "USVString",
                                             "baseName": "USVString",
+                                            "escapedBaseName": "USVString",
                                             "prefix": null,
                                             "postfix": null,
                                             "separator": null,
@@ -314,6 +326,7 @@
                                         }
                                     ],
                                     "baseName": "record",
+                                    "escapedBaseName": "record",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
@@ -371,6 +384,7 @@
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
+                                "escapedBaseName": "DOMString",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": {
@@ -389,6 +403,7 @@
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
+                                "escapedBaseName": "float",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
@@ -416,6 +431,7 @@
                             }
                         ],
                         "baseName": "record",
+                        "escapedBaseName": "record",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,

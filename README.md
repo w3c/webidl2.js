@@ -79,10 +79,11 @@ var result = WebIDL2.write(tree, {
     name: (escaped, { data, parent }) => escaped,
     /**
      * Called for each type referece, e.g. `Window`, `Promise`, or `unsigned long`.
-     * @param ref The referenced name. Typically string, but may also be the return
+     * @param escaped The referenced name. Typically string, but may also be the return
      *            value of `wrap()` if the name contains whitespace.
+     * @param unescaped Unescaped reference.
      */
-    reference: ref => ref,
+    reference: (escaped, unescaped) => escaped,
     /**
      * Called only once for each types, e.g. `Document`, `Promise<DOMString>`, or `sequence<long>`.
      * @param type The `wrap()`ed result of references and syntatic bracket strings.

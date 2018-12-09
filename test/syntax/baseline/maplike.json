@@ -15,6 +15,7 @@
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
+                        "escapedBaseName": "long",
                         "prefix": null,
                         "postfix": null,
                         "separator": {
@@ -33,6 +34,7 @@
                         "union": false,
                         "idlType": "float",
                         "baseName": "float",
+                        "escapedBaseName": "float",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -78,6 +80,7 @@
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
+                        "escapedBaseName": "long",
                         "prefix": null,
                         "postfix": null,
                         "separator": {
@@ -96,6 +99,7 @@
                         "union": false,
                         "idlType": "float",
                         "baseName": "float",
+                        "escapedBaseName": "float",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -143,6 +147,7 @@
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
+                        "escapedBaseName": "DOMString",
                         "prefix": null,
                         "postfix": null,
                         "separator": {
@@ -178,6 +183,7 @@
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
+                        "escapedBaseName": "long",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,

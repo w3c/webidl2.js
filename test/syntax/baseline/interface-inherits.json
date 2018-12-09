@@ -21,6 +21,7 @@
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
+                    "escapedBaseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -66,6 +67,7 @@
                     "union": false,
                     "idlType": "Dog",
                     "baseName": "Dog",
+                    "escapedBaseName": "Dog",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -88,6 +90,7 @@
         },
         "inheritance": {
             "name": "Animal",
+            "escapedName": "Animal",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -117,6 +120,7 @@
                     "union": false,
                     "idlType": "Human",
                     "baseName": "Human",
+                    "escapedBaseName": "Human",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -139,6 +143,7 @@
         },
         "inheritance": {
             "name": "Animal",
+            "escapedName": "Animal",
             "trivia": {
                 "colon": " ",
                 "name": " "

@@ -14,6 +14,7 @@
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
+                    "escapedBaseName": "boolean",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -45,6 +46,7 @@
                     "union": false,
                     "idlType": "short",
                     "baseName": "short",
+                    "escapedBaseName": "short",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -76,6 +78,7 @@
                     "union": false,
                     "idlType": "octet",
                     "baseName": "octet",
+                    "escapedBaseName": "octet",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -107,6 +110,7 @@
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
+                    "escapedBaseName": "long",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "
@@ -141,6 +145,7 @@
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
+                    "escapedBaseName": "float",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -172,6 +177,7 @@
                     "union": false,
                     "idlType": "unrestricted float",
                     "baseName": "float",
+                    "escapedBaseName": "float",
                     "prefix": {
                         "value": "unrestricted",
                         "trivia": " "
@@ -206,6 +212,7 @@
                     "union": false,
                     "idlType": "unrestricted double",
                     "baseName": "double",
+                    "escapedBaseName": "double",
                     "prefix": {
                         "value": "unrestricted",
                         "trivia": " "
@@ -240,6 +247,7 @@
                     "union": false,
                     "idlType": "short",
                     "baseName": "short",
+                    "escapedBaseName": "short",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,

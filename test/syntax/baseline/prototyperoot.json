@@ -23,6 +23,7 @@
                     "union": false,
                     "idlType": "unsigned short",
                     "baseName": "short",
+                    "escapedBaseName": "short",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "

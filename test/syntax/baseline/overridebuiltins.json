@@ -23,6 +23,7 @@
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
+                    "escapedBaseName": "long",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "
@@ -52,6 +53,7 @@
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
+                        "escapedBaseName": "DOMString",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -84,6 +86,7 @@
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
+                                "escapedBaseName": "DOMString",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
