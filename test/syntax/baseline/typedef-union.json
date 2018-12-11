@@ -14,6 +14,7 @@
                     "union": false,
                     "idlType": "ImageData",
                     "baseName": "ImageData",
+                    "escapedBaseName": "ImageData",
                     "prefix": null,
                     "postfix": null,
                     "separator": {
@@ -32,6 +33,7 @@
                     "union": false,
                     "idlType": "HTMLImageElement",
                     "baseName": "HTMLImageElement",
+                    "escapedBaseName": "HTMLImageElement",
                     "prefix": null,
                     "postfix": null,
                     "separator": {
@@ -50,6 +52,7 @@
                     "union": false,
                     "idlType": "HTMLCanvasElement",
                     "baseName": "HTMLCanvasElement",
+                    "escapedBaseName": "HTMLCanvasElement",
                     "prefix": null,
                     "postfix": null,
                     "separator": {
@@ -68,6 +71,7 @@
                     "union": false,
                     "idlType": "HTMLVideoElement",
                     "baseName": "HTMLVideoElement",
+                    "escapedBaseName": "HTMLVideoElement",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -78,6 +82,7 @@
                 }
             ],
             "baseName": null,
+            "escapedBaseName": null,
             "prefix": null,
             "postfix": null,
             "separator": null,

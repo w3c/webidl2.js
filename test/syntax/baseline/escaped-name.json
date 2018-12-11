@@ -12,7 +12,28 @@
             "close": "",
             "termination": ""
         },
-        "inheritance": null,
+        "inheritance": {
+            "name": "Magic",
+            "escapedName": "_Magic",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "includes",
+        "target": "Iroha",
+        "escapedTarget": "_Iroha",
+        "includes": "Color",
+        "escapedIncludes": "_Color",
+        "trivia": {
+            "target": "\n",
+            "includes": " ",
+            "mixin": " ",
+            "termination": ""
+        },
         "extAttrs": null
     },
     {

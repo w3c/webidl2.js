@@ -23,6 +23,7 @@
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
+                    "escapedBaseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -70,6 +71,7 @@
                     "union": false,
                     "idlType": "unsigned short",
                     "baseName": "short",
+                    "escapedBaseName": "short",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "
@@ -104,6 +106,7 @@
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
+                    "escapedBaseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -126,6 +129,7 @@
         },
         "inheritance": {
             "name": "Animal",
+            "escapedName": "Animal",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -160,6 +164,7 @@
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
+                    "escapedBaseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -182,6 +187,7 @@
         },
         "inheritance": {
             "name": "Person",
+            "escapedName": "Person",
             "trivia": {
                 "colon": " ",
                 "name": " "

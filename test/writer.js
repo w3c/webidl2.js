@@ -55,6 +55,13 @@ describe("Writer template functions", () => {
     expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<unsigned long>> iro; };");
   });
 
+  it("catches references as unescaped", () => {
+    const result = rewrite("[Exposed=Window] interface Momo : _Kudamono { attribute Promise<_Type> iro; attribute _Type sugar; };", {
+      reference: (_, unescaped) => bracket(unescaped)
+    });
+    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<Type>> iro; attribute <Type> sugar; };");
+  });
+
   it("catches types", () => {
     const result = rewrite("interface Momo { attribute Promise<unsigned long> iro; };", {
       type: bracket

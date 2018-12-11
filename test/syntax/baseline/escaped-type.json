@@ -1,0 +1,84 @@
+[
+    {
+        "type": "typedef",
+        "idlType": {
+            "type": "typedef-type",
+            "generic": null,
+            "nullable": null,
+            "union": false,
+            "idlType": "Type",
+            "baseName": "Type",
+            "escapedBaseName": "_Type",
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": null,
+            "trivia": {
+                "base": " "
+            }
+        },
+        "name": "EscapedType",
+        "escapedName": "EscapedType",
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "typedef",
+        "idlType": {
+            "type": "typedef-type",
+            "generic": {
+                "value": "sequence",
+                "trivia": {
+                    "open": "",
+                    "close": ""
+                }
+            },
+            "nullable": null,
+            "union": false,
+            "idlType": [
+                {
+                    "type": "typedef-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "Type",
+                    "baseName": "Type",
+                    "escapedBaseName": "_Type",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": ""
+                    }
+                }
+            ],
+            "baseName": "sequence",
+            "escapedBaseName": "sequence",
+            "prefix": null,
+            "postfix": null,
+            "separator": null,
+            "extAttrs": null,
+            "trivia": {
+                "base": " "
+            }
+        },
+        "name": "EscapedSequence",
+        "escapedName": "EscapedSequence",
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "termination": ""
+        },
+        "extAttrs": null
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

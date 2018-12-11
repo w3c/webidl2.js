@@ -23,6 +23,7 @@
                     "union": false,
                     "idlType": "Name",
                     "baseName": "Name",
+                    "escapedBaseName": "Name",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -75,6 +76,7 @@
                     "union": false,
                     "idlType": "unsigned short",
                     "baseName": "short",
+                    "escapedBaseName": "short",
                     "prefix": {
                         "value": "unsigned",
                         "trivia": " "

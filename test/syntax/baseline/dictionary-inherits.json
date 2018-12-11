@@ -19,6 +19,7 @@
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
+                    "escapedBaseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -55,6 +56,7 @@
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
+                    "escapedBaseName": "DOMString",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -88,6 +90,7 @@
                     "union": false,
                     "idlType": "Point",
                     "baseName": "Point",
+                    "escapedBaseName": "Point",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -132,6 +135,7 @@
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
+                    "escapedBaseName": "float",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -157,6 +161,7 @@
         },
         "inheritance": {
             "name": "PaintOptions",
+            "escapedName": "PaintOptions",
             "trivia": {
                 "colon": " ",
                 "name": " "

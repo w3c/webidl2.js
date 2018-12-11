@@ -16,6 +16,7 @@
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
+                        "escapedBaseName": "void",
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
@@ -64,6 +65,7 @@
                                         "union": false,
                                         "idlType": "DOMString",
                                         "baseName": "DOMString",
+                                        "escapedBaseName": "DOMString",
                                         "prefix": null,
                                         "postfix": null,
                                         "separator": null,
@@ -74,6 +76,7 @@
                                     }
                                 ],
                                 "baseName": "sequence",
+                                "escapedBaseName": "sequence",
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,

@@ -27,6 +27,7 @@
                             "union": false,
                             "idlType": "float",
                             "baseName": "float",
+                            "escapedBaseName": "float",
                             "prefix": null,
                             "postfix": null,
                             "separator": {
@@ -51,6 +52,7 @@
                                     "union": false,
                                     "idlType": "Date",
                                     "baseName": "Date",
+                                    "escapedBaseName": "Date",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": {
@@ -69,6 +71,7 @@
                                     "union": false,
                                     "idlType": "Event",
                                     "baseName": "Event",
+                                    "escapedBaseName": "Event",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
@@ -79,6 +82,7 @@
                                 }
                             ],
                             "baseName": null,
+                            "escapedBaseName": null,
                             "prefix": null,
                             "postfix": null,
                             "separator": {
@@ -106,6 +110,7 @@
                                     "union": false,
                                     "idlType": "Node",
                                     "baseName": "Node",
+                                    "escapedBaseName": "Node",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": {
@@ -124,6 +129,7 @@
                                     "union": false,
                                     "idlType": "DOMString",
                                     "baseName": "DOMString",
+                                    "escapedBaseName": "DOMString",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
@@ -134,6 +140,7 @@
                                 }
                             ],
                             "baseName": null,
+                            "escapedBaseName": null,
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
@@ -145,6 +152,7 @@
                         }
                     ],
                     "baseName": null,
+                    "escapedBaseName": null,
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -180,6 +188,7 @@
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
+                            "escapedBaseName": "long",
                             "prefix": null,
                             "postfix": null,
                             "separator": {
@@ -215,6 +224,7 @@
                             "union": false,
                             "idlType": "Date",
                             "baseName": "Date",
+                            "escapedBaseName": "Date",
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
@@ -225,6 +235,7 @@
                         }
                     ],
                     "baseName": null,
+                    "escapedBaseName": null,
                     "prefix": null,
                     "postfix": null,
                     "separator": null,

@@ -14,6 +14,7 @@
         },
         "inheritance": {
             "name": "HTMLMediaElement",
+            "escapedName": "HTMLMediaElement",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -63,6 +64,7 @@
                                     "union": false,
                                     "idlType": "DOMString",
                                     "baseName": "DOMString",
+                                    "escapedBaseName": "DOMString",
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
