@@ -1,7 +1,7 @@
 {
   "name": "webidl2",
   "description": "A WebIDL Parser",
-  "version": "17.0.0",
+  "version": "17.0.1",
   "contributors": [
     "Robin Berjon <robin@berjon.com> (https://berjon.com)",
     "Marcos Caceres <marcos@marcosc.com> (https://marcosc.com)",
