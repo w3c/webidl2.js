@@ -1,5 +1,20 @@
 # Change Log
 
+## [v17.0.1](https://github.com/w3c/webidl2.js/tree/v17.0.1) (2018-12-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v17.0.0...v17.0.1)
+
+**Closed issues:**
+
+- idlTypes should unescape type name [\#252](https://github.com/w3c/webidl2.js/issues/252)
+- Union type must not allow `any` type [\#250](https://github.com/w3c/webidl2.js/issues/250)
+- Include statements do not unescape type names [\#249](https://github.com/w3c/webidl2.js/issues/249)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): prevent any in a union type [\#254](https://github.com/w3c/webidl2.js/pull/254) ([saschanaz](https://github.com/saschanaz))
+- fix: unescape includes/idlTypes/inheritances [\#253](https://github.com/w3c/webidl2.js/pull/253) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/webidl\): subclass standard error [\#247](https://github.com/w3c/webidl2.js/pull/247) ([saschanaz](https://github.com/saschanaz))
+
 ## [v17.0.0](https://github.com/w3c/webidl2.js/tree/v17.0.0) (2018-12-08)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v16.1.0...v17.0.0)
 
