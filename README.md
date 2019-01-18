@@ -332,7 +332,7 @@ Namespaces look like this:
 ```JS
 {
   "type": "namespace",
-  "name": "Console",
+  "name": "console",
   "partial": null,
   "members": [...],
   "trivia": {
