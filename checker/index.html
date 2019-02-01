@@ -11,9 +11,9 @@ function formatParserOutput() {
   const outputEl = document.getElementById('webidl-checker-output');
   if (parserResult) {
     const prettyPrintEl = document.getElementById('pretty-print');
-    outputEl.innerText = JSON.stringify(parserResult, null, prettyPrintEl.checked ? 2 : null);
+    outputEl.textContent = JSON.stringify(parserResult, null, prettyPrintEl.checked ? 2 : null);
   } else {
-    outputEl.innerText = '';
+    outputEl.textContent = '';
   }
 }
 
@@ -22,9 +22,9 @@ function checkWebIDL(textToCheck) {
   parserResult = null;
   try {
     parserResult = WebIDL2.parse(textToCheck);
-    validation.innerText = 'WebIDL parsed successfully!';
+    validation.textContent = 'WebIDL parsed successfully!';
   } catch (e) {
-    validation.innerText = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
+    validation.textContent = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
     // Pass it along to the JavaScript console.
     throw e;
   } finally {
