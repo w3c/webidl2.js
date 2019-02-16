@@ -9,10 +9,11 @@
     },
     "extends": "eslint:recommended",
     "rules": {
-        "no-constant-condition": "off",
-        "prefer-const": "error",
-        "semi": "error",
+        "no-constant-condition": ["error", { "checkLoops": false }],
         "no-eval": "error",
-        "no-implied-eval": "error"
+        "no-implied-eval": "error",
+        "no-trailing-spaces": "error",
+        "prefer-const": "error",
+        "semi": "error"
     }
 }
