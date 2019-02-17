@@ -208,7 +208,7 @@
     },
     {
         "type": "dictionary",
-        "name": "_A",
+        "name": "A",
         "escapedName": "_A",
         "partial": {
             "trivia": "\n\n"
