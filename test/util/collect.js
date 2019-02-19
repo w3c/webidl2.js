@@ -18,7 +18,7 @@ function* collect(base, { expectError, raw } = {}) {
 
   for (const path of idls) {
     try {
-      const text = fs.readFileSync(path, "utf8").replace(/\r\n/g, "\n");
+      const text = fs.readFileSync(path, "utf8");
       const ast = wp.parse(text);
       yield new TestItem({ text, ast, path, raw });
     }
@@ -53,7 +53,7 @@ class TestItem {
   }
 
   readText() {
-    return fs.readFileSync(this.baselinePath, "utf8").replace(/\r/g, "");
+    return fs.readFileSync(this.baselinePath, "utf8");
   }
 
   diff(target = this.readJSON()) {
