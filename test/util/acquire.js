@@ -8,5 +8,5 @@ for (const test of collect("syntax")) {
 }
 
 for (const test of collect("invalid", { expectError: true, raw: true })) {
-  fs.writeFileSync(test.baselinePath, `${test.error.message}\n`);
+  fs.writeFileSync(test.baselinePath, test.error ? `${test.error.message}\n` : "\n");
 }
