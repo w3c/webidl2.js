@@ -129,12 +129,12 @@
             }
         ],
         "trivia": {
+            "callback": "\n\n",
             "base": " ",
             "name": " ",
             "open": " ",
             "close": "\n",
-            "termination": "",
-            "callback": "\n\n"
+            "termination": ""
         },
         "inheritance": null,
         "extAttrs": null
