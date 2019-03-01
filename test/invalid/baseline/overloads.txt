@@ -1,0 +1,6 @@
+Validation error at line 7, inside `partial interface Base`:
+  void unique(short num)
+       ^ The operation "unique" has already been defined in the base interface "Base"
+Validation error at line 11, inside `interface mixin Extension`:
+  void unique(string str)
+       ^ The operation "unique" has already been defined in the base interface "Base"
