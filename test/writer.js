@@ -53,6 +53,11 @@ describe("Writer template functions", () => {
       reference: bracket
     });
     expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<unsigned long>> iro; };");
+
+    const includes = rewrite("A includes B;", {
+      reference: bracket
+    });
+    expect(includes).toBe("<A> includes <B>;");
   });
 
   it("catches references as unescaped", () => {
