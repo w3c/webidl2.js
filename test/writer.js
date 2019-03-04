@@ -51,6 +51,11 @@ describe("Writer template functions", () => {
       name: bracket
     });
     expect(typedef).toBe("typedef float <Float>;");
+
+    const enumeration = rewrite('enum Enum { "item", };', {
+      name: bracket
+    });
+    expect(enumeration).toBe('enum <Enum> { "<item>", };');
   });
 
   it("catches references", () => {
