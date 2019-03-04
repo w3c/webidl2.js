@@ -46,6 +46,11 @@ describe("Writer template functions", () => {
       name: bracket
     });
     expect(result).toBe("interface <Momo> { attribute long <iro>; };");
+
+    const typedef = rewrite("typedef float Float;", {
+      name: bracket
+    });
+    expect(typedef).toBe("typedef float <Float>;");
   });
 
   it("catches references", () => {
