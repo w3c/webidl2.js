@@ -1,5 +1,6 @@
 [
     {
+        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -17,7 +18,6 @@
             }
         },
         "extAttrs": null,
-        "type": "typedef",
         "name": "number",
         "escapedName": "number",
         "trivia": {

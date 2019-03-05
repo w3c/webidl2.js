@@ -23,8 +23,8 @@
         "extAttrs": null
     },
     {
-        "extAttrs": null,
         "type": "includes",
+        "extAttrs": null,
         "target": "Iroha",
         "escapedTarget": "_Iroha",
         "includes": "Color",

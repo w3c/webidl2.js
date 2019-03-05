@@ -1,5 +1,6 @@
 [
     {
+        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -92,7 +93,6 @@
             }
         },
         "extAttrs": null,
-        "type": "typedef",
         "name": "TexImageSource",
         "escapedName": "TexImageSource",
         "trivia": {

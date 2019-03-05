@@ -1,5 +1,6 @@
 [
     {
+        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -17,7 +18,6 @@
             }
         },
         "extAttrs": null,
-        "type": "typedef",
         "name": "EscapedType",
         "escapedName": "EscapedType",
         "trivia": {
@@ -27,6 +27,7 @@
         }
     },
     {
+        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": {
@@ -67,7 +68,6 @@
             }
         },
         "extAttrs": null,
-        "type": "typedef",
         "name": "EscapedSequence",
         "escapedName": "EscapedSequence",
         "trivia": {

@@ -75,6 +75,7 @@
         "extAttrs": null
     },
     {
+        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": {
@@ -115,7 +116,6 @@
             }
         },
         "extAttrs": null,
-        "type": "typedef",
         "name": "PointSequence",
         "escapedName": "PointSequence",
         "trivia": {
@@ -376,6 +376,7 @@
         "extAttrs": null
     },
     {
+        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -410,7 +411,6 @@
             }
         },
         "extAttrs": null,
-        "type": "typedef",
         "name": "value",
         "escapedName": "_value",
         "trivia": {

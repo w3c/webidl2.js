@@ -48,8 +48,8 @@
         "extAttrs": null
     },
     {
-        "extAttrs": null,
         "type": "includes",
+        "extAttrs": null,
         "target": "Window",
         "escapedTarget": "Window",
         "includes": "GlobalCrypto",
@@ -62,8 +62,8 @@
         }
     },
     {
-        "extAttrs": null,
         "type": "includes",
+        "extAttrs": null,
         "target": "WorkerGlobalScope",
         "escapedTarget": "WorkerGlobalScope",
         "includes": "GlobalCrypto",
