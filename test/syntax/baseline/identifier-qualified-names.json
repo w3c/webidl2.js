@@ -17,14 +17,14 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
         "name": "number",
         "escapedName": "number",
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n  // Typedef identifier: \"number\"\n  // Qualified name:    \"::framework::number\"\n  ",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",

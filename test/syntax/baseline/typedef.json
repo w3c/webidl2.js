@@ -115,14 +115,14 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
         "name": "PointSequence",
         "escapedName": "PointSequence",
         "trivia": {
             "base": "\n\n      ",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
@@ -410,14 +410,14 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
         "name": "value",
         "escapedName": "_value",
         "trivia": {
             "base": "\n\n  ",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
