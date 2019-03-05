@@ -17,14 +17,14 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
         "name": "EscapedType",
         "escapedName": "EscapedType",
         "trivia": {
             "base": "",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "typedef",
@@ -67,14 +67,14 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
         "name": "EscapedSequence",
         "escapedName": "EscapedSequence",
         "trivia": {
             "base": "\n",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

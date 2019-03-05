@@ -92,14 +92,14 @@
                 "close": ""
             }
         },
+        "extAttrs": null,
         "name": "TexImageSource",
         "escapedName": "TexImageSource",
         "trivia": {
             "base": "  ",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
