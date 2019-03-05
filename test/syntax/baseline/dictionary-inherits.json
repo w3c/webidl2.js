@@ -9,7 +9,7 @@
                 "type": "field",
                 "name": "fillPattern",
                 "escapedName": "fillPattern",
-                "required": null,
+                "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -28,7 +28,6 @@
                         "base": "\n  "
                     }
                 },
-                "extAttrs": null,
                 "default": {
                     "type": "string",
                     "value": "black",
@@ -37,6 +36,7 @@
                         "value": " "
                     }
                 },
+                "required": null,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -46,7 +46,7 @@
                 "type": "field",
                 "name": "strokePattern",
                 "escapedName": "strokePattern",
-                "required": null,
+                "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -65,7 +65,6 @@
                         "base": "\n  "
                     }
                 },
-                "extAttrs": null,
                 "default": {
                     "type": "null",
                     "trivia": {
@@ -73,6 +72,7 @@
                         "value": " "
                     }
                 },
+                "required": null,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -82,7 +82,7 @@
                 "type": "field",
                 "name": "position",
                 "escapedName": "position",
-                "required": null,
+                "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -99,8 +99,8 @@
                         "base": "\n  "
                     }
                 },
-                "extAttrs": null,
                 "default": null,
+                "required": null,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -127,7 +127,7 @@
                 "type": "field",
                 "name": "hydrometry",
                 "escapedName": "hydrometry",
-                "required": null,
+                "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "generic": null,
@@ -144,8 +144,8 @@
                         "base": "\n  "
                     }
                 },
-                "extAttrs": null,
                 "default": null,
+                "required": null,
                 "trivia": {
                     "name": " ",
                     "termination": ""

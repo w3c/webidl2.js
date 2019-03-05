@@ -1,6 +1,8 @@
 [
     {
         "type": "typedef",
+        "name": "EscapedType",
+        "escapedName": "EscapedType",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -18,8 +20,6 @@
             }
         },
         "extAttrs": null,
-        "name": "EscapedType",
-        "escapedName": "EscapedType",
         "trivia": {
             "base": "",
             "name": " ",
@@ -28,6 +28,8 @@
     },
     {
         "type": "typedef",
+        "name": "EscapedSequence",
+        "escapedName": "EscapedSequence",
         "idlType": {
             "type": "typedef-type",
             "generic": {
@@ -68,8 +70,6 @@
             }
         },
         "extAttrs": null,
-        "name": "EscapedSequence",
-        "escapedName": "EscapedSequence",
         "trivia": {
             "base": "\n",
             "name": " ",

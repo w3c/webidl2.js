@@ -29,14 +29,14 @@
                 "separator": null
             }
         ],
+        "extAttrs": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
@@ -240,14 +240,14 @@
                 }
             }
         ],
+        "extAttrs": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
