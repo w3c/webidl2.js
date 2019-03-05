@@ -48,6 +48,7 @@
         "extAttrs": null
     },
     {
+        "extAttrs": null,
         "type": "includes",
         "target": "Window",
         "escapedTarget": "Window",
@@ -58,10 +59,10 @@
             "includes": " ",
             "mixin": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
+        "extAttrs": null,
         "type": "includes",
         "target": "WorkerGlobalScope",
         "escapedTarget": "WorkerGlobalScope",
@@ -72,8 +73,7 @@
             "includes": " ",
             "mixin": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface mixin",

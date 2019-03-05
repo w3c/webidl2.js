@@ -75,7 +75,6 @@
         "extAttrs": null
     },
     {
-        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": {
@@ -115,14 +114,15 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
+        "type": "typedef",
         "name": "PointSequence",
         "escapedName": "PointSequence",
         "trivia": {
             "base": "\n\n      ",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
@@ -376,7 +376,6 @@
         "extAttrs": null
     },
     {
-        "type": "typedef",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -410,14 +409,15 @@
                 "base": " "
             }
         },
+        "extAttrs": null,
+        "type": "typedef",
         "name": "value",
         "escapedName": "_value",
         "trivia": {
             "base": "\n\n  ",
             "name": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

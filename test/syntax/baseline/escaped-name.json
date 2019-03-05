@@ -23,6 +23,7 @@
         "extAttrs": null
     },
     {
+        "extAttrs": null,
         "type": "includes",
         "target": "Iroha",
         "escapedTarget": "_Iroha",
@@ -33,8 +34,7 @@
             "includes": " ",
             "mixin": " ",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
