@@ -60,22 +60,27 @@ describe("Writer template functions", () => {
   });
 
   it("catches references", () => {
-    const result = rewrite("[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned long> iro; };", {
-      reference: bracket
-    });
+    function rewriteReference(text) {
+      return rewrite(text, { reference: bracket });
+    }
+
+    const result = rewriteReference("[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned long> iro; };");
     expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<unsigned long>> iro; };");
 
-    const includes = rewrite("A includes B;", {
-      reference: bracket
-    });
-    expect(includes).toBe("<A> includes <B>;");
+    const includes = rewriteReference("_A includes _B;");
+    expect(includes).toBe("<_A> includes <_B>;");
   });
 
   it("catches references as unescaped", () => {
-    const result = rewrite("[Exposed=Window] interface Momo : _Kudamono { attribute Promise<_Type> iro; attribute _Type sugar; };", {
-      reference: (_, unescaped) => bracket(unescaped)
-    });
+    function rewriteReference(text) {
+      return rewrite(text, { reference: (_, unescaped) => bracket(unescaped) });
+    }
+
+    const result = rewriteReference("[Exposed=Window] interface Momo : _Kudamono { attribute Promise<_Type> iro; attribute _Type sugar; };");
     expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<Type>> iro; attribute <Type> sugar; };");
+
+    const includes = rewriteReference("_A includes _B;");
+    expect(includes).toBe("<A> includes <B>;");
   });
 
   it("catches types", () => {
