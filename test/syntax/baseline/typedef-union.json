@@ -1,6 +1,8 @@
 [
     {
         "type": "typedef",
+        "name": "TexImageSource",
+        "escapedName": "TexImageSource",
         "idlType": {
             "type": "typedef-type",
             "generic": null,
@@ -93,8 +95,6 @@
             }
         },
         "extAttrs": null,
-        "name": "TexImageSource",
-        "escapedName": "TexImageSource",
         "trivia": {
             "base": "  ",
             "name": " ",

@@ -42,20 +42,21 @@ describe("Writer template functions", () => {
   });
 
   it("catches names", () => {
-    const result = rewrite("interface Momo { attribute long iro; };", {
-      name: bracket
-    });
+    function rewriteName(text) {
+      return rewrite(text, { name: bracket });
+    }
+
+    const result = rewriteName("interface Momo { attribute long iro; };");
     expect(result).toBe("interface <Momo> { attribute long <iro>; };");
 
-    const typedef = rewrite("typedef float Float;", {
-      name: bracket
-    });
+    const typedef = rewriteName("typedef float Float;");
     expect(typedef).toBe("typedef float <Float>;");
 
-    const enumeration = rewrite('enum Enum { "item", };', {
-      name: bracket
-    });
+    const enumeration = rewriteName('enum Enum { "item", };');
     expect(enumeration).toBe('enum <Enum> { "<item>", };');
+
+    const dictionary = rewriteName("dictionary Dict { required short field; };");
+    expect(dictionary).toBe("dictionary <Dict> { required short <field>; };");
   });
 
   it("catches references", () => {
