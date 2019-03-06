@@ -3,7 +3,7 @@
         "type": "dictionary",
         "name": "PaintOptions",
         "escapedName": "PaintOptions",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "field",
@@ -107,21 +107,28 @@
                 }
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
         "escapedName": "WetPaintOptions",
-        "partial": null,
+        "inheritance": {
+            "name": "PaintOptions",
+            "escapedName": "PaintOptions",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "members": [
             {
                 "type": "field",
@@ -152,22 +159,15 @@
                 }
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": {
-            "name": "PaintOptions",
-            "escapedName": "PaintOptions",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

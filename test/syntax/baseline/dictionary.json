@@ -3,7 +3,7 @@
         "type": "dictionary",
         "name": "PaintOptions",
         "escapedName": "PaintOptions",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "field",
@@ -196,23 +196,20 @@
                 }
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "// Extracted from Web IDL editors draft May 31 2011\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "dictionary",
-        "name": "_A",
+        "name": "A",
         "escapedName": "_A",
-        "partial": {
-            "trivia": "\n\n"
-        },
         "members": [
             {
                 "type": "field",
@@ -271,14 +268,17 @@
                 }
             }
         ],
+        "extAttrs": null,
+        "partial": {
+            "trivia": "\n\n"
+        },
         "trivia": {
             "base": " ",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
