@@ -124,4 +124,30 @@ describe("Writer template functions", () => {
     });
     expect(result).toBe("[<Exposed>=Window, <Constructor>] interface EagleJump { void aoba([<Clamp>] long work); };");
   });
+
+  it("gives definition object", () => {
+    function rewriteDefinition(text) {
+      return rewrite(text, {
+        definition: (def, { data, parent }) => {
+          const parentType = parent ? `${parent.type}:` : "";
+          return `${parentType}${data.type}[${def}]`;
+        }
+      });
+    }
+
+    const includes = rewriteDefinition("A includes B;");
+    expect(includes).toBe("includes[A includes B;]");
+
+    const typedef = rewriteDefinition("typedef A B;");
+    expect(typedef).toBe("typedef[typedef A B;]");
+
+    const enumeration = rewriteDefinition('enum A { "b", "c" };');
+    expect(enumeration).toBe('enum[enum A { enum:enum-value["b"], enum:enum-value["c"] };]');
+
+    const dictionary = rewriteDefinition("dictionary X { required DOMString str; };");
+    expect(dictionary).toBe("dictionary[dictionary X {dictionary:field[ required DOMString str;] };]");
+
+    const interface_ = rewriteDefinition("interface X { iterable<DOMString>; };");
+    expect(interface_).toBe("interface[interface X {interface:iterable[ iterable<DOMString>;] };]");
+  });
 });
