@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "Animal",
         "escapedName": "Animal",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -37,21 +37,28 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "Person",
         "escapedName": "Person",
-        "partial": null,
+        "inheritance": {
+            "name": "Animal",
+            "escapedName": "Animal",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "members": [
             {
                 "type": "attribute",
@@ -120,28 +127,28 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": {
-            "name": "Animal",
-            "escapedName": "Animal",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "Ghost",
         "escapedName": "Ghost",
-        "partial": null,
+        "inheritance": {
+            "name": "Person",
+            "escapedName": "Person",
+            "trivia": {
+                "colon": " ",
+                "name": " "
+            }
+        },
         "members": [
             {
                 "type": "attribute",
@@ -178,22 +185,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": {
-            "name": "Person",
-            "escapedName": "Person",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

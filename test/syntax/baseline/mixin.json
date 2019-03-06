@@ -3,7 +3,6 @@
         "type": "interface mixin",
         "name": "GlobalCrypto",
         "escapedName": "GlobalCrypto",
-        "partial": null,
         "members": [
             {
                 "type": "attribute",
@@ -37,6 +36,8 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
             "mixin": " ",
@@ -44,8 +45,7 @@
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "includes",
@@ -79,9 +79,6 @@
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
         "escapedName": "WindowOrWorkerGlobalScope",
-        "partial": {
-            "trivia": "\n\n"
-        },
         "members": [
             {
                 "type": "attribute",
@@ -115,6 +112,10 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": {
+            "trivia": "\n\n"
+        },
         "trivia": {
             "base": " ",
             "mixin": " ",
@@ -122,15 +123,15 @@
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
         "escapedName": "_LocalCrypto",
-        "partial": null,
         "members": [],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "mixin": " ",
@@ -138,8 +139,7 @@
             "open": " ",
             "close": "",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

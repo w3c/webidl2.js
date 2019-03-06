@@ -3,9 +3,6 @@
         "type": "interface",
         "name": "CSSStyleDeclaration",
         "escapedName": "CSSStyleDeclaration",
-        "partial": {
-            "trivia": ""
-        },
         "members": [
             {
                 "type": "attribute",
@@ -78,14 +75,17 @@
                 }
             }
         ],
+        "extAttrs": null,
+        "partial": {
+            "trivia": ""
+        },
         "trivia": {
             "base": " ",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
