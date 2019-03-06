@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "IterableOne",
         "escapedName": "IterableOne",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "iterable",
@@ -35,21 +35,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "IterableTwo",
         "escapedName": "IterableTwo",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "iterable",
@@ -102,21 +102,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "IterableThree",
         "escapedName": "IterableThree",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "iterable",
@@ -165,15 +165,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

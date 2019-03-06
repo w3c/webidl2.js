@@ -3,15 +3,6 @@
         "type": "interface",
         "name": "Iroha",
         "escapedName": "_Iroha",
-        "partial": null,
-        "members": [],
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        },
         "inheritance": {
             "name": "Magic",
             "escapedName": "_Magic",
@@ -20,7 +11,16 @@
                 "name": " "
             }
         },
-        "extAttrs": null
+        "members": [],
+        "extAttrs": null,
+        "partial": null,
+        "trivia": {
+            "base": "",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
+        }
     },
     {
         "type": "includes",

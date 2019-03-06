@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "Query",
         "escapedName": "Query",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -73,14 +73,6 @@
                 "extAttrs": null
             }
         ],
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        },
-        "inheritance": null,
         "extAttrs": {
             "trivia": {
                 "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
@@ -98,6 +90,14 @@
                     "separator": null
                 }
             ]
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
         }
     },
     {

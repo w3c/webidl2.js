@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "Point",
         "escapedName": "Point",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -64,15 +64,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n      ",
             "name": " ",
             "open": " ",
             "close": "\n      ",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "typedef",
@@ -128,7 +128,7 @@
         "type": "interface",
         "name": "Rect",
         "escapedName": "Rect",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -189,21 +189,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n      ",
             "name": " ",
             "open": " ",
             "close": "\n      ",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "Widget",
         "escapedName": "Widget",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -365,15 +365,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n  ",
             "name": " ",
             "open": " ",
             "close": "\n  ",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "typedef",

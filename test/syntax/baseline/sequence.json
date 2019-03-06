@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "Canvas",
         "escapedName": "Canvas",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -152,21 +152,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n// edited to remove sequence as attributes, now invalid\n",
             "name": " ",
             "open": " ",
             "close": "\n  // ...\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "I",
         "escapedName": "I",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -273,15 +273,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

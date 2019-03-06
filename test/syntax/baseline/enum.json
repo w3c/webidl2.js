@@ -42,7 +42,7 @@
         "type": "interface",
         "name": "Meal",
         "escapedName": "Meal",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -197,15 +197,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "enum",

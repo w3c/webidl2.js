@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "Foo",
         "escapedName": "Foo",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -35,23 +35,20 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "Foo",
         "escapedName": "Foo",
-        "partial": {
-            "trivia": "\n\n"
-        },
         "members": [
             {
                 "type": "attribute",
@@ -83,14 +80,17 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": {
+            "trivia": "\n\n"
+        },
         "trivia": {
             "base": " ",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

@@ -3,39 +3,39 @@
         "type": "interface",
         "name": "A",
         "escapedName": "A",
-        "partial": null,
+        "inheritance": null,
         "members": [],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "// Extracted from WebIDL spec 2011-05-23\n\n",
             "name": " ",
             "open": " ",
             "close": "\n  // ...\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "B",
         "escapedName": "B",
-        "partial": null,
+        "inheritance": null,
         "members": [],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n",
             "name": " ",
             "open": " ",
             "close": "\n  // ...\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "C",
         "escapedName": "C",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -170,15 +170,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n",
             "name": " ",
             "open": " ",
             "close": "\n\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

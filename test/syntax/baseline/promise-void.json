@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "Cat",
         "escapedName": "Cat",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -58,15 +58,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

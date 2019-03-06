@@ -3,15 +3,6 @@
         "type": "interface",
         "name": "ServiceWorkerGlobalScope",
         "escapedName": "ServiceWorkerGlobalScope",
-        "partial": null,
-        "members": [],
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n\n",
-            "termination": ""
-        },
         "inheritance": {
             "name": "WorkerGlobalScope",
             "escapedName": "WorkerGlobalScope",
@@ -20,6 +11,7 @@
                 "name": " "
             }
         },
+        "members": [],
         "extAttrs": {
             "trivia": {
                 "open": "// Extracted from http://www.w3.org/TR/2015/WD-service-workers-20150205/\n\n",
@@ -79,22 +71,22 @@
                     "separator": null
                 }
             ]
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n\n",
+            "termination": ""
         }
     },
     {
         "type": "interface",
         "name": "IdInterface",
         "escapedName": "IdInterface",
-        "partial": null,
-        "members": [],
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        },
         "inheritance": null,
+        "members": [],
         "extAttrs": {
             "trivia": {
                 "open": "\n\n// Conformance with ExtendedAttributeList grammar in http://www.w3.org/TR/WebIDL/#idl-extended-attributes\n// Section 3.11\n",
@@ -159,13 +151,21 @@
                     "separator": null
                 }
             ]
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "",
+            "termination": ""
         }
     },
     {
         "type": "interface",
         "name": "Circle",
         "escapedName": "Circle",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -286,14 +286,6 @@
                 "extAttrs": null
             }
         ],
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        },
-        "inheritance": null,
         "extAttrs": {
             "trivia": {
                 "open": "\n\n// Extracted from http://www.w3.org/TR/2016/REC-WebIDL-1-20161215/#Constructor on 2017-5-18 with whitespace differences\n",
@@ -358,13 +350,21 @@
                     "separator": null
                 }
             ]
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
         }
     },
     {
         "type": "interface",
         "name": "I",
         "escapedName": "I",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -450,14 +450,6 @@
                 "extAttrs": null
             }
         ],
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        },
-        "inheritance": null,
         "extAttrs": {
             "trivia": {
                 "open": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-annotated-types on 2017-12-15\n",
@@ -482,6 +474,14 @@
                     "separator": null
                 }
             ]
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n",
+            "termination": ""
         }
     },
     {

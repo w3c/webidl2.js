@@ -61,7 +61,7 @@
         "type": "callback interface",
         "name": "EventHandler",
         "escapedName": "EventHandler",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -128,6 +128,8 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "callback": "\n\n",
             "base": " ",
@@ -135,9 +137,7 @@
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "callback",
