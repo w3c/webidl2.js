@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "SetLike",
         "escapedName": "SetLike",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "setlike",
@@ -35,21 +35,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "ReadOnlySetLike",
         "escapedName": "ReadOnlySetLike",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "setlike",
@@ -83,21 +83,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "SetLikeExt",
         "escapedName": "SetLikeExt",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "setlike",
@@ -146,15 +146,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

@@ -30,7 +30,7 @@
         "type": "interface",
         "name": "System",
         "escapedName": "System",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -160,21 +160,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n  // Interface identifier: \"System\"\n  // Qualified name:       \"::framework::System\"\n  ",
             "name": " ",
             "open": " ",
             "close": "\n  ",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "TextField",
         "escapedName": "TextField",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -237,21 +237,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n\n    // Interface identifier: \"TextField\"\n    // Qualified name:       \"::framework::gui::TextField\"\n    ",
             "name": " ",
             "open": " ",
             "close": "\n    ",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "FooEventTarget",
         "escapedName": "FooEventTarget",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "operation",
@@ -320,15 +320,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

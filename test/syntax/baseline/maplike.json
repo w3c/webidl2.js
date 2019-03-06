@@ -3,7 +3,7 @@
         "type": "interface",
         "name": "MapLike",
         "escapedName": "MapLike",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "maplike",
@@ -54,21 +54,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "ReadOnlyMapLike",
         "escapedName": "ReadOnlyMapLike",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "maplike",
@@ -121,21 +121,21 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "interface",
         "name": "I",
         "escapedName": "I",
-        "partial": null,
+        "inheritance": null,
         "members": [
             {
                 "type": "maplike",
@@ -220,15 +220,15 @@
                 "extAttrs": null
             }
         ],
+        "extAttrs": null,
+        "partial": null,
         "trivia": {
             "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
             "name": " ",
             "open": " ",
             "close": "\n",
             "termination": ""
-        },
-        "inheritance": null,
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",

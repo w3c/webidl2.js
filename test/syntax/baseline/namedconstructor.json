@@ -3,15 +3,6 @@
         "type": "interface",
         "name": "HTMLAudioElement",
         "escapedName": "HTMLAudioElement",
-        "partial": null,
-        "members": [],
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n  // ...\n",
-            "termination": ""
-        },
         "inheritance": {
             "name": "HTMLMediaElement",
             "escapedName": "HTMLMediaElement",
@@ -20,6 +11,7 @@
                 "name": " "
             }
         },
+        "members": [],
         "extAttrs": {
             "trivia": {
                 "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
@@ -98,6 +90,14 @@
                     "separator": null
                 }
             ]
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\n",
+            "name": " ",
+            "open": " ",
+            "close": "\n  // ...\n",
+            "termination": ""
         }
     },
     {
