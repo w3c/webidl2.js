@@ -25,13 +25,14 @@
                         }
                     }
                 ],
+                "extAttrs": null,
+                "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "open": "",
                     "close": "",
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
@@ -91,13 +92,14 @@
                         }
                     }
                 ],
+                "extAttrs": null,
+                "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "open": "",
                     "close": "",
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
@@ -153,13 +155,14 @@
                         }
                     }
                 ],
+                "extAttrs": null,
+                "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "open": "",
                     "close": "",
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
