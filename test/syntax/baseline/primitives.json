@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "truth",
+                "escapedName": "truth",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -30,19 +25,19 @@
                         "base": " "
                     }
                 },
-                "name": "truth",
-                "escapedName": "truth",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "character",
+                "escapedName": "character",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -59,19 +54,19 @@
                         "base": " "
                     }
                 },
-                "name": "character",
-                "escapedName": "character",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "value",
+                "escapedName": "value",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -88,19 +83,19 @@
                         "base": " "
                     }
                 },
-                "name": "value",
-                "escapedName": "value",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "number",
+                "escapedName": "number",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -117,19 +112,19 @@
                         "base": " "
                     }
                 },
-                "name": "number",
-                "escapedName": "number",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "positive",
+                "escapedName": "positive",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -149,19 +144,19 @@
                         "base": " "
                     }
                 },
-                "name": "positive",
-                "escapedName": "positive",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "big",
+                "escapedName": "big",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -178,19 +173,19 @@
                         "base": " "
                     }
                 },
-                "name": "big",
-                "escapedName": "big",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "bigpositive",
+                "escapedName": "bigpositive",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -210,19 +205,19 @@
                         "base": " "
                     }
                 },
-                "name": "bigpositive",
-                "escapedName": "bigpositive",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "bigbig",
+                "escapedName": "bigbig",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -242,19 +237,19 @@
                         "base": " "
                     }
                 },
-                "name": "bigbig",
-                "escapedName": "bigbig",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "bigbigpositive",
+                "escapedName": "bigbigpositive",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -277,19 +272,19 @@
                         "base": " "
                     }
                 },
-                "name": "bigbigpositive",
-                "escapedName": "bigbigpositive",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "real",
+                "escapedName": "real",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -306,19 +301,19 @@
                         "base": " "
                     }
                 },
-                "name": "real",
-                "escapedName": "real",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "bigreal",
+                "escapedName": "bigreal",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -335,19 +330,19 @@
                         "base": " "
                     }
                 },
-                "name": "bigreal",
-                "escapedName": "bigreal",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "realwithinfinity",
+                "escapedName": "realwithinfinity",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -367,19 +362,19 @@
                         "base": " "
                     }
                 },
-                "name": "realwithinfinity",
-                "escapedName": "realwithinfinity",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "bigrealwithinfinity",
+                "escapedName": "bigrealwithinfinity",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -399,19 +394,19 @@
                         "base": " "
                     }
                 },
-                "name": "bigrealwithinfinity",
-                "escapedName": "bigrealwithinfinity",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "string",
+                "escapedName": "string",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -428,19 +423,19 @@
                         "base": " "
                     }
                 },
-                "name": "string",
-                "escapedName": "string",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "bytes",
+                "escapedName": "bytes",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -457,19 +452,19 @@
                         "base": " "
                     }
                 },
-                "name": "bytes",
-                "escapedName": "bytes",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "date",
+                "escapedName": "date",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -486,19 +481,19 @@
                         "base": " "
                     }
                 },
-                "name": "date",
-                "escapedName": "date",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "regexp",
+                "escapedName": "regexp",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -515,9 +510,14 @@
                         "base": " "
                     }
                 },
-                "name": "regexp",
-                "escapedName": "regexp",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

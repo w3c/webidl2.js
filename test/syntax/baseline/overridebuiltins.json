@@ -7,15 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "length",
+                "escapedName": "length",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -35,9 +28,16 @@
                         "base": " "
                     }
                 },
-                "name": "length",
-                "escapedName": "length",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",

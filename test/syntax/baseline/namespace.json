@@ -6,15 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "unit",
+                "escapedName": "unit",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -31,9 +24,16 @@
                         "base": " "
                     }
                 },
-                "name": "unit",
-                "escapedName": "unit",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",

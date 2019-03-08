@@ -178,13 +178,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n\n      // Attribute identifier: \"const\"\n      ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "const",
+                "escapedName": "_const",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -201,19 +196,19 @@
                         "base": " "
                     }
                 },
-                "name": "const",
-                "escapedName": "_const",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
-                    "base": "\n\n      // Attribute identifier: \"value\"\n      ",
+                    "base": "\n\n      // Attribute identifier: \"const\"\n      ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "value",
+                "escapedName": "_value",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -232,9 +227,14 @@
                         "base": " "
                     }
                 },
-                "name": "value",
-                "escapedName": "_value",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n      // Attribute identifier: \"value\"\n      ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

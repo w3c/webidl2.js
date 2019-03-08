@@ -114,15 +114,8 @@
             },
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "baz",
+                "escapedName": "baz",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": {
@@ -162,9 +155,16 @@
                         "base": " "
                     }
                 },
-                "name": "baz",
-                "escapedName": "baz",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "test",
+                "escapedName": "test",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -162,19 +157,19 @@
                         "close": ""
                     }
                 },
-                "name": "test",
-                "escapedName": "test",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "test2",
+                "escapedName": "test2",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -245,9 +240,14 @@
                         "close": ""
                     }
                 },
-                "name": "test2",
-                "escapedName": "test2",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
