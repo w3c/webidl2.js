@@ -41,11 +41,12 @@
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "getter",
-                    "trivia": "\n  "
-                },
                 "body": {
+                    "name": {
+                        "value": "lookup",
+                        "escaped": "lookup",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -61,15 +62,6 @@
                         "trivia": {
                             "base": " "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "lookup",
-                        "escaped": "lookup",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -99,12 +91,20 @@
                             "escapedName": "key",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "getter",
+                    "trivia": "\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": {

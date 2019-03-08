@@ -37,8 +37,12 @@
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "dotProduct",
+                        "escaped": "dotProduct",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -55,15 +59,6 @@
                             "base": "\n  "
                         }
                     },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "dotProduct",
-                        "escaped": "dotProduct",
-                        "trivia": " "
-                    },
                     "arguments": [
                         {
                             "optional": null,
@@ -122,17 +117,26 @@
                             "escapedName": "y",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "crossProduct",
+                        "escaped": "crossProduct",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -149,15 +153,6 @@
                             "base": "\n  "
                         }
                     },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "crossProduct",
-                        "escaped": "crossProduct",
-                        "trivia": " "
-                    },
                     "arguments": [
                         {
                             "optional": null,
@@ -216,12 +211,17 @@
                             "escapedName": "y",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
