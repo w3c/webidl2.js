@@ -149,5 +149,8 @@ describe("Writer template functions", () => {
 
     const interface_ = rewriteDefinition("interface X { iterable<DOMString>; };");
     expect(interface_).toBe("interface[interface X {interface:iterable[ iterable<DOMString>;] };]");
+
+    const attribute = rewriteDefinition("interface X { attribute short x; };");
+    expect(attribute).toBe("interface[interface X {interface:attribute[ attribute short x;] };]");
   });
 });
