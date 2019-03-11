@@ -38,6 +38,39 @@
                     "termination": ""
                 },
                 "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": {
+                        "trivia": ""
+                    },
+                    "union": false,
+                    "idlType": "MyObject",
+                    "baseName": "MyObject",
+                    "escapedBaseName": "MyObject",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "MY_OBJECT",
+                "value": {
+                    "type": "null"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
             }
         ],
         "extAttrs": null,
@@ -103,6 +136,6 @@
     {
         "type": "eof",
         "value": "",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]
