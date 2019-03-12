@@ -48,9 +48,9 @@
                         "trivia": ""
                     },
                     "union": false,
-                    "idlType": "MyObject",
-                    "baseName": "MyObject",
-                    "escapedBaseName": "MyObject",
+                    "idlType": "MyPrimitive",
+                    "baseName": "MyPrimitive",
+                    "escapedBaseName": "MyPrimitive",
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
@@ -59,7 +59,7 @@
                         "base": " "
                     }
                 },
-                "name": "MY_OBJECT",
+                "name": "MY_NULL",
                 "value": {
                     "type": "null"
                 },
