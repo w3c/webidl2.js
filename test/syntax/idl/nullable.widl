@@ -1,7 +1,7 @@
 // Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06
 interface MyConstants {
   const boolean? ARE_WE_THERE_YET = false;
-  const MyObject? MY_OBJECT = null;
+  const MyPrimitive? MY_NULL = null;
 };
 
 interface Node {
