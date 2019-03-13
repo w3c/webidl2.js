@@ -238,8 +238,12 @@
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "pointWithinBounds",
+                        "escaped": "pointWithinBounds",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -255,15 +259,6 @@
                         "trivia": {
                             "base": "\n\n    "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "pointWithinBounds",
-                        "escaped": "pointWithinBounds",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -293,17 +288,26 @@
                             "escapedName": "p",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "allPointsWithinBounds",
+                        "escaped": "allPointsWithinBounds",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -319,15 +323,6 @@
                         "trivia": {
                             "base": "\n    "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "allPointsWithinBounds",
-                        "escaped": "allPointsWithinBounds",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -357,12 +352,17 @@
                             "escapedName": "ps",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

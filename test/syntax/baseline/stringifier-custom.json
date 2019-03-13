@@ -99,11 +99,8 @@
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n\n  "
-                },
                 "body": {
+                    "name": null,
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -120,17 +117,20 @@
                             "base": " "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": " ",
                         "close": ""
-                    },
-                    "name": null,
-                    "arguments": []
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "stringifier",
+                    "trivia": "\n\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": {

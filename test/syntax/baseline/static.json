@@ -144,11 +144,12 @@
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "static",
-                    "trivia": "\n  "
-                },
                 "body": {
+                    "name": {
+                        "value": "triangulate",
+                        "escaped": "triangulate",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -164,15 +165,6 @@
                         "trivia": {
                             "base": " "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "triangulate",
-                        "escaped": "triangulate",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -262,12 +254,20 @@
                             "escapedName": "c3",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "static",
+                    "trivia": "\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

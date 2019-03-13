@@ -41,8 +41,12 @@
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "union",
+                        "escaped": "union",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -59,15 +63,6 @@
                             "base": "\n\n  "
                         }
                     },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "union",
-                        "escaped": "union",
-                        "trivia": " "
-                    },
                     "arguments": [
                         {
                             "optional": null,
@@ -98,17 +93,26 @@
                             "escapedName": "ints",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "intersection",
+                        "escaped": "intersection",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -125,15 +129,6 @@
                             "base": "\n  "
                         }
                     },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "intersection",
-                        "escaped": "intersection",
-                        "trivia": " "
-                    },
                     "arguments": [
                         {
                             "optional": null,
@@ -164,12 +159,17 @@
                             "escapedName": "ints",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
