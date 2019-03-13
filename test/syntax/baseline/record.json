@@ -7,8 +7,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "foo",
+                        "escaped": "foo",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -24,15 +28,6 @@
                         "trivia": {
                             "base": "\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "foo",
-                        "escaped": "foo",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -127,17 +122,26 @@
                             "escapedName": "param",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "bar",
+                        "escaped": "bar",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": {
@@ -235,21 +239,17 @@
                             "base": "\n  "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": "",
                         "close": ""
-                    },
-                    "name": {
-                        "value": "bar",
-                        "escaped": "bar",
-                        "trivia": " "
-                    },
-                    "arguments": []
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": {
@@ -363,8 +363,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "bar",
+                        "escaped": "bar",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": {
@@ -440,21 +444,17 @@
                             "base": "\n  "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": "",
                         "close": ""
-                    },
-                    "name": {
-                        "value": "bar",
-                        "escaped": "bar",
-                        "trivia": " "
-                    },
-                    "arguments": []
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

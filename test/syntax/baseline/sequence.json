@@ -7,8 +7,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "drawPolygon",
+                        "escaped": "drawPolygon",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -24,15 +28,6 @@
                         "trivia": {
                             "base": "\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "drawPolygon",
-                        "escaped": "drawPolygon",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -85,17 +80,26 @@
                             "escapedName": "coordinates",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "getInflectionPoints",
+                        "escaped": "getInflectionPoints",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": {
@@ -135,21 +139,17 @@
                             "base": "\n  "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": "",
                         "close": ""
-                    },
-                    "name": {
-                        "value": "getInflectionPoints",
-                        "escaped": "getInflectionPoints",
-                        "trivia": " "
-                    },
-                    "arguments": []
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
@@ -170,8 +170,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "f1",
+                        "escaped": "f1",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -187,15 +191,6 @@
                         "trivia": {
                             "base": "\n    "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "f1",
-                        "escaped": "f1",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -265,12 +260,17 @@
                             "escapedName": "arg",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
