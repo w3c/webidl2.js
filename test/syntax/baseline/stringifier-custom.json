@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "id",
+                "escapedName": "id",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -33,19 +28,19 @@
                         "base": " "
                     }
                 },
-                "name": "id",
-                "escapedName": "id",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "familyName",
+                "escapedName": "familyName",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -64,19 +59,19 @@
                         "base": " "
                     }
                 },
-                "name": "familyName",
-                "escapedName": "familyName",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "givenName",
+                "escapedName": "givenName",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -93,9 +88,14 @@
                         "base": " "
                     }
                 },
-                "name": "givenName",
-                "escapedName": "givenName",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",

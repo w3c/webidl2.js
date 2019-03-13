@@ -7,15 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n\n  // A simple attribute that can be set to any string value.\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "name",
+                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -32,9 +25,16 @@
                         "base": " "
                     }
                 },
-                "name": "name",
-                "escapedName": "name",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n\n  // A simple attribute that can be set to any string value.\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -62,15 +62,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n\n  // An attribute whose value cannot be assigned to.\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "age",
+                "escapedName": "age",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -90,22 +83,21 @@
                         "base": " "
                     }
                 },
-                "name": "age",
-                "escapedName": "age",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
-                "special": {
-                    "value": "inherit",
-                    "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n\n  // An attribute whose value cannot be assigned to.\n  "
                 },
-                "readonly": null,
                 "trivia": {
                     "base": " ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "name",
+                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -122,9 +114,17 @@
                         "base": " "
                     }
                 },
-                "name": "name",
-                "escapedName": "name",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": {
+                    "value": "inherit",
+                    "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
+                },
+                "readonly": null,
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -152,18 +152,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": {
-                    "value": "inherit",
-                    "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
-                },
-                "readonly": {
-                    "trivia": " "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "name",
+                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -180,9 +170,19 @@
                         "base": " "
                     }
                 },
-                "name": "name",
-                "escapedName": "name",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": {
+                    "value": "inherit",
+                    "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
+                },
+                "readonly": {
+                    "trivia": " "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

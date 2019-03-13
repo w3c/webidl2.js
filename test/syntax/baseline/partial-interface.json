@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "bar",
+                "escapedName": "bar",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -30,9 +25,14 @@
                         "base": " "
                     }
                 },
-                "name": "bar",
-                "escapedName": "bar",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -52,13 +52,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "quux",
+                "escapedName": "quux",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -75,9 +70,14 @@
                         "base": " "
                     }
                 },
-                "name": "quux",
-                "escapedName": "quux",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

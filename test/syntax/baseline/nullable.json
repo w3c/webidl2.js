@@ -91,15 +91,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "namespaceURI",
+                "escapedName": "namespaceURI",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -118,9 +111,16 @@
                         "base": " "
                     }
                 },
-                "name": "namespaceURI",
-                "escapedName": "namespaceURI",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

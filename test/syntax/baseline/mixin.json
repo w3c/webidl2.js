@@ -6,15 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "crypto",
+                "escapedName": "crypto",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -31,9 +24,16 @@
                         "base": " "
                     }
                 },
-                "name": "crypto",
-                "escapedName": "crypto",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -82,15 +82,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "crypto",
+                "escapedName": "crypto",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -107,9 +100,16 @@
                         "base": " "
                     }
                 },
-                "name": "crypto",
-                "escapedName": "crypto",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

@@ -155,5 +155,8 @@ describe("Writer template functions", () => {
 
     const operation = rewriteDefinition("namespace X { void log(); };");
     expect(operation).toBe("namespace[namespace X {namespace:operation[ void log();] };]");
+
+    const attribute = rewriteDefinition("interface X { attribute short x; };");
+    expect(attribute).toBe("interface[interface X {interface:attribute[ attribute short x;] };]");
   });
 });

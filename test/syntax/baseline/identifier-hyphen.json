@@ -6,13 +6,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "-will-change",
+                "escapedName": "-will-change",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -53,8 +48,6 @@
                         "base": " "
                     }
                 },
-                "name": "-will-change",
-                "escapedName": "-will-change",
                 "extAttrs": {
                     "trivia": {
                         "open": "\n  ",
@@ -72,6 +65,13 @@
                             "separator": null
                         }
                     ]
+                },
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
                 }
             }
         ],
