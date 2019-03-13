@@ -7,11 +7,8 @@
         "members": [
             {
                 "type": "operation",
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
                 "body": {
+                    "name": null,
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -28,17 +25,20 @@
                             "base": " "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": " ",
                         "close": ""
-                    },
-                    "name": null,
-                    "arguments": []
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "stringifier",
+                    "trivia": "\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
@@ -59,15 +59,15 @@
         "members": [
             {
                 "type": "operation",
+                "body": null,
+                "extAttrs": null,
                 "special": {
                     "value": "stringifier",
                     "trivia": "\n  "
                 },
-                "body": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

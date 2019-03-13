@@ -47,6 +47,7 @@
                 "separator": null
             }
         ],
+        "extAttrs": null,
         "trivia": {
             "base": "",
             "name": " ",
@@ -54,8 +55,7 @@
             "open": " ",
             "close": "",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "callback interface",
@@ -65,8 +65,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "eventOccurred",
+                        "escaped": "eventOccurred",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -82,15 +86,6 @@
                         "trivia": {
                             "base": "\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "eventOccurred",
-                        "escaped": "eventOccurred",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -120,12 +115,17 @@
                             "escapedName": "details",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
@@ -217,6 +217,7 @@
                 "separator": null
             }
         ],
+        "extAttrs": null,
         "trivia": {
             "base": "\n\n",
             "name": " ",
@@ -224,8 +225,7 @@
             "open": " ",
             "close": "",
             "termination": ""
-        },
-        "extAttrs": null
+        }
     },
     {
         "type": "eof",
