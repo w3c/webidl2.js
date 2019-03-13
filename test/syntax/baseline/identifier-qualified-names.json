@@ -34,8 +34,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "createObject",
+                        "escaped": "createObject",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -51,15 +55,6 @@
                         "trivia": {
                             "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "createObject",
-                        "escaped": "createObject",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -89,20 +84,22 @@
                             "escapedName": "_interface",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "getter",
-                    "trivia": "\n\n    // Operation has no identifier; it declares a getter.\n    "
-                },
                 "body": {
+                    "name": null,
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -119,11 +116,6 @@
                             "base": " "
                         }
                     },
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    },
-                    "name": null,
                     "arguments": [
                         {
                             "optional": null,
@@ -152,12 +144,20 @@
                             "escapedName": "keyName",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "getter",
+                    "trivia": "\n\n    // Operation has no identifier; it declares a getter.\n    "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
@@ -178,13 +178,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n\n      // Attribute identifier: \"const\"\n      ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "const",
+                "escapedName": "_const",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -201,19 +196,19 @@
                         "base": " "
                     }
                 },
-                "name": "const",
-                "escapedName": "_const",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
-                    "base": "\n\n      // Attribute identifier: \"value\"\n      ",
+                    "base": "\n\n      // Attribute identifier: \"const\"\n      ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "value",
+                "escapedName": "_value",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -232,9 +227,14 @@
                         "base": " "
                     }
                 },
-                "name": "value",
-                "escapedName": "_value",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n      // Attribute identifier: \"value\"\n      ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -255,8 +255,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "addEventListener",
+                        "escaped": "addEventListener",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -272,15 +276,6 @@
                         "trivia": {
                             "base": "\n  // Argument names allow some selected keywords\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "addEventListener",
-                        "escaped": "addEventListener",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -312,12 +307,17 @@
                             "escapedName": "callback",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

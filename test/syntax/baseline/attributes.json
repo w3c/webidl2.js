@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n\n  // A simple attribute that can be set to any value the range an unsigned\n  // short can take.\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "age",
+                "escapedName": "age",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -33,19 +28,19 @@
                         "base": " "
                     }
                 },
-                "name": "age",
-                "escapedName": "age",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
+                "extAttrs": null,
                 "special": null,
                 "readonly": null,
                 "trivia": {
-                    "base": "\n\n  // required is an allowed attribute name\n  ",
+                    "base": "\n\n  // A simple attribute that can be set to any value the range an unsigned\n  // short can take.\n  ",
                     "name": " ",
-                    "termination": " "
-                },
+                    "termination": ""
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "required",
+                "escapedName": "required",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -62,9 +57,14 @@
                         "base": " "
                     }
                 },
-                "name": "required",
-                "escapedName": "required",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n\n  // required is an allowed attribute name\n  ",
+                    "name": " ",
+                    "termination": " "
+                }
             }
         ],
         "extAttrs": null,

@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "name",
+                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -30,19 +25,19 @@
                         "base": " "
                     }
                 },
-                "name": "name",
-                "escapedName": "name",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "owner",
+                "escapedName": "owner",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -59,14 +54,23 @@
                         "base": " "
                     }
                 },
-                "name": "owner",
-                "escapedName": "owner",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "isMemberOfBreed",
+                        "escaped": "isMemberOfBreed",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -82,15 +86,6 @@
                         "trivia": {
                             "base": "\n\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "isMemberOfBreed",
-                        "escaped": "isMemberOfBreed",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -144,12 +139,17 @@
                             "escapedName": "breedName",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

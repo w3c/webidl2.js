@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "x",
+                "escapedName": "x",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -30,19 +25,19 @@
                         "base": " "
                     }
                 },
-                "name": "x",
-                "escapedName": "x",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n        ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "y",
+                "escapedName": "y",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -59,9 +54,14 @@
                         "base": " "
                     }
                 },
-                "name": "y",
-                "escapedName": "y",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n        ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -132,13 +132,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "topleft",
+                "escapedName": "topleft",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -155,19 +150,19 @@
                         "base": " "
                     }
                 },
-                "name": "topleft",
-                "escapedName": "topleft",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n        ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "bottomright",
+                "escapedName": "bottomright",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -184,9 +179,14 @@
                         "base": " "
                     }
                 },
-                "name": "bottomright",
-                "escapedName": "bottomright",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n        ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -207,15 +207,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n\n    "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "bounds",
+                "escapedName": "bounds",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -232,14 +225,25 @@
                         "base": " "
                     }
                 },
-                "name": "bounds",
-                "escapedName": "bounds",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n\n    "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "pointWithinBounds",
+                        "escaped": "pointWithinBounds",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -255,15 +259,6 @@
                         "trivia": {
                             "base": "\n\n    "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "pointWithinBounds",
-                        "escaped": "pointWithinBounds",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -293,17 +288,26 @@
                             "escapedName": "p",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "allPointsWithinBounds",
+                        "escaped": "allPointsWithinBounds",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -319,15 +323,6 @@
                         "trivia": {
                             "base": "\n    "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "allPointsWithinBounds",
-                        "escaped": "allPointsWithinBounds",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -357,12 +352,17 @@
                             "escapedName": "ps",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

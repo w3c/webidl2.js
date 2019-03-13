@@ -23,42 +23,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
-                "idlType": {
-                    "type": "attribute-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": null,
-                    "trivia": {
-                        "base": " "
-                    }
-                },
                 "name": "cx",
                 "escapedName": "cx",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -75,19 +41,19 @@
                         "base": " "
                     }
                 },
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "attribute",
                 "name": "cy",
                 "escapedName": "cy",
-                "extAttrs": null
-            },
-            {
-                "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -104,24 +70,48 @@
                         "base": " "
                     }
                 },
-                "name": "radius",
-                "escapedName": "radius",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "attribute",
-                "special": {
-                    "value": "static",
-                    "trivia": "\n\n  "
+                "name": "radius",
+                "escapedName": "radius",
+                "idlType": {
+                    "type": "attribute-type",
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "float",
+                    "baseName": "float",
+                    "escapedBaseName": "float",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
                 },
-                "readonly": {
-                    "trivia": " "
-                },
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
                 "trivia": {
-                    "base": " ",
+                    "base": "\n  ",
                     "name": " ",
                     "termination": ""
-                },
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "triangulationCount",
+                "escapedName": "triangulationCount",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -138,17 +128,28 @@
                         "base": " "
                     }
                 },
-                "name": "triangulationCount",
-                "escapedName": "triangulationCount",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": {
+                    "value": "static",
+                    "trivia": "\n\n  "
+                },
+                "readonly": {
+                    "trivia": " "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "static",
-                    "trivia": "\n  "
-                },
                 "body": {
+                    "name": {
+                        "value": "triangulate",
+                        "escaped": "triangulate",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -164,15 +165,6 @@
                         "trivia": {
                             "base": " "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "triangulate",
-                        "escaped": "triangulate",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -262,12 +254,20 @@
                             "escapedName": "c3",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "static",
+                    "trivia": "\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
