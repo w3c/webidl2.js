@@ -38,6 +38,39 @@
                     "termination": ""
                 },
                 "extAttrs": null
+            },
+            {
+                "type": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "generic": null,
+                    "nullable": {
+                        "trivia": ""
+                    },
+                    "union": false,
+                    "idlType": "MyPrimitive",
+                    "baseName": "MyPrimitive",
+                    "escapedBaseName": "MyPrimitive",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "extAttrs": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "name": "MY_NULL",
+                "value": {
+                    "type": "null"
+                },
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "assign": " ",
+                    "value": " ",
+                    "termination": ""
+                },
+                "extAttrs": null
             }
         ],
         "extAttrs": null,
@@ -58,15 +91,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "namespaceURI",
+                "escapedName": "namespaceURI",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -85,9 +111,16 @@
                         "base": " "
                     }
                 },
-                "name": "namespaceURI",
-                "escapedName": "namespaceURI",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,
@@ -103,6 +136,6 @@
     {
         "type": "eof",
         "value": "",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]

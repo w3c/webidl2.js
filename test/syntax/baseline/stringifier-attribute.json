@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "id",
+                "escapedName": "id",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -33,22 +28,19 @@
                         "base": " "
                     }
                 },
-                "name": "id",
-                "escapedName": "id",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "attribute",
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
-                "readonly": null,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "name",
+                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -65,9 +57,17 @@
                         "base": " "
                     }
                 },
-                "name": "name",
-                "escapedName": "name",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": {
+                    "value": "stringifier",
+                    "trivia": "\n  "
+                },
+                "readonly": null,
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": {

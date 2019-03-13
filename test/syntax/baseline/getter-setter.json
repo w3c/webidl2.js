@@ -7,15 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "propertyCount",
+                "escapedName": "propertyCount",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -35,17 +28,21 @@
                         "base": " "
                     }
                 },
-                "name": "propertyCount",
-                "escapedName": "propertyCount",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "getter",
-                    "trivia": "\n\n  "
-                },
                 "body": {
+                    "name": null,
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -62,11 +59,6 @@
                             "base": " "
                         }
                     },
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    },
-                    "name": null,
                     "arguments": [
                         {
                             "optional": null,
@@ -95,20 +87,25 @@
                             "escapedName": "propertyName",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "getter",
+                    "trivia": "\n\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": {
-                    "value": "setter",
-                    "trivia": "\n  "
-                },
                 "body": {
+                    "name": null,
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -125,11 +122,6 @@
                             "base": " "
                         }
                     },
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    },
-                    "name": null,
                     "arguments": [
                         {
                             "optional": null,
@@ -188,12 +180,20 @@
                             "escapedName": "propertyValue",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": " ",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": {
+                    "value": "setter",
+                    "trivia": "\n  "
                 },
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

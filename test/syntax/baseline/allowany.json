@@ -7,8 +7,12 @@
         "members": [
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "g",
+                        "escaped": "g",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -25,26 +29,26 @@
                             "base": "\n  "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": "",
                         "close": ""
-                    },
-                    "name": {
-                        "value": "g",
-                        "escaped": "g",
-                        "trivia": " "
-                    },
-                    "arguments": []
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "g",
+                        "escaped": "g",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -60,15 +64,6 @@
                         "trivia": {
                             "base": "\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "g",
-                        "escaped": "g",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -98,17 +93,26 @@
                             "escapedName": "b",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "g",
+                        "escaped": "g",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -124,15 +128,6 @@
                         "trivia": {
                             "base": "\n  "
                         }
-                    },
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    },
-                    "name": {
-                        "value": "g",
-                        "escaped": "g",
-                        "trivia": " "
                     },
                     "arguments": [
                         {
@@ -179,12 +174,17 @@
                             "escapedName": "s",
                             "separator": null
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,

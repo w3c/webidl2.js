@@ -7,13 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n    ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "meow",
+                "escapedName": "meow",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": {
@@ -53,9 +48,14 @@
                         "base": " "
                     }
                 },
-                "name": "meow",
-                "escapedName": "meow",
-                "extAttrs": null
+                "extAttrs": null,
+                "special": null,
+                "readonly": null,
+                "trivia": {
+                    "base": "\n    ",
+                    "name": " ",
+                    "termination": ""
+                }
             }
         ],
         "extAttrs": null,

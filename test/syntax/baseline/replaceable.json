@@ -7,15 +7,8 @@
         "members": [
             {
                 "type": "attribute",
-                "special": null,
-                "readonly": {
-                    "trivia": " "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                },
+                "name": "value",
+                "escapedName": "value",
                 "idlType": {
                     "type": "attribute-type",
                     "generic": null,
@@ -35,8 +28,6 @@
                         "base": " "
                     }
                 },
-                "name": "value",
-                "escapedName": "value",
                 "extAttrs": {
                     "trivia": {
                         "open": "\n  ",
@@ -54,12 +45,25 @@
                             "separator": null
                         }
                     ]
+                },
+                "special": null,
+                "readonly": {
+                    "trivia": " "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
                 }
             },
             {
                 "type": "operation",
-                "special": null,
                 "body": {
+                    "name": {
+                        "value": "increment",
+                        "escaped": "increment",
+                        "trivia": " "
+                    },
                     "idlType": {
                         "type": "return-type",
                         "generic": null,
@@ -76,21 +80,17 @@
                             "base": "\n  "
                         }
                     },
+                    "arguments": [],
                     "trivia": {
                         "open": "",
                         "close": ""
-                    },
-                    "name": {
-                        "value": "increment",
-                        "escaped": "increment",
-                        "trivia": " "
-                    },
-                    "arguments": []
+                    }
                 },
+                "extAttrs": null,
+                "special": null,
                 "trivia": {
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
