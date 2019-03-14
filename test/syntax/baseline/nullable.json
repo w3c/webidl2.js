@@ -7,6 +7,7 @@
         "members": [
             {
                 "type": "const",
+                "name": "ARE_WE_THERE_YET",
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
@@ -25,7 +26,7 @@
                         "base": " "
                     }
                 },
-                "name": "ARE_WE_THERE_YET",
+                "extAttrs": null,
                 "value": {
                     "type": "boolean",
                     "value": false
@@ -36,11 +37,11 @@
                     "assign": " ",
                     "value": " ",
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             },
             {
                 "type": "const",
+                "name": "MY_NULL",
                 "idlType": {
                     "type": "const-type",
                     "generic": null,
@@ -59,7 +60,7 @@
                         "base": " "
                     }
                 },
-                "name": "MY_NULL",
+                "extAttrs": null,
                 "value": {
                     "type": "null"
                 },
@@ -69,8 +70,7 @@
                     "assign": " ",
                     "value": " ",
                     "termination": ""
-                },
-                "extAttrs": null
+                }
             }
         ],
         "extAttrs": null,
