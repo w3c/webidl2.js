@@ -60,6 +60,9 @@ describe("Writer template functions", () => {
 
     const operation = rewriteName("namespace Console { void log(); };");
     expect(operation).toBe("namespace <Console> { void <log>(); };");
+
+    const constant = rewriteName("interface Misaki { const short MICHELLE = 1; };");
+    expect(constant).toBe("interface <Misaki> { const short <MICHELLE> = 1; };");
   });
 
   it("catches references", () => {
@@ -91,13 +94,6 @@ describe("Writer template functions", () => {
       type: bracket
     });
     expect(result).toBe("interface Momo { attribute< Promise<unsigned long>> iro; };");
-  });
-
-  it("catches value literals", () => {
-    const result = rewrite("dictionary Nene { DOMString cpp = \"high\"; };", {
-      valueLiteral: bracket
-    });
-    expect(result).toBe("dictionary Nene { DOMString cpp = <\"high\">; };");
   });
 
   it("catches inheritances", () => {
@@ -158,5 +154,8 @@ describe("Writer template functions", () => {
 
     const attribute = rewriteDefinition("interface X { attribute short x; };");
     expect(attribute).toBe("interface[interface X {interface:attribute[ attribute short x;] };]");
+
+    const constant = rewriteDefinition("interface Misaki { const short MICHELLE = 1; };");
+    expect(constant).toBe("interface[interface Misaki {interface:const[ const short MICHELLE = 1;] };]");
   });
 });
