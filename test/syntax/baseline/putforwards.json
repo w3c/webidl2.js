@@ -32,9 +32,8 @@
                     },
                     "items": [
                         {
-                            "name": "PutForwards",
-                            "signature": null,
                             "type": "extended-attribute",
+                            "name": "PutForwards",
                             "rhs": {
                                 "type": "identifier",
                                 "value": "full",
@@ -43,10 +42,11 @@
                                     "value": ""
                                 }
                             },
+                            "signature": null,
+                            "separator": null,
                             "trivia": {
                                 "name": ""
-                            },
-                            "separator": null
+                            }
                         }
                     ]
                 },

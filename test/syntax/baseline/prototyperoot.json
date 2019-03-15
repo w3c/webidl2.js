@@ -47,14 +47,14 @@
             },
             "items": [
                 {
-                    "name": "PrototypeRoot",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "PrototypeRoot",
                     "rhs": null,
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": ""
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },

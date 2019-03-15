@@ -197,14 +197,14 @@
                                 },
                                 "items": [
                                     {
-                                        "name": "EnforceRange",
-                                        "signature": null,
                                         "type": "extended-attribute",
+                                        "name": "EnforceRange",
                                         "rhs": null,
+                                        "signature": null,
+                                        "separator": null,
                                         "trivia": {
                                             "name": ""
-                                        },
-                                        "separator": null
+                                        }
                                     }
                                 ]
                             },

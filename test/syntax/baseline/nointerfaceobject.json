@@ -80,14 +80,14 @@
             },
             "items": [
                 {
-                    "name": "NoInterfaceObject",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "NoInterfaceObject",
                     "rhs": null,
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": ""
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },

@@ -161,14 +161,14 @@
                             },
                             "items": [
                                 {
-                                    "name": "XAttr2",
-                                    "signature": null,
                                     "type": "extended-attribute",
+                                    "name": "XAttr2",
                                     "rhs": null,
+                                    "signature": null,
+                                    "separator": null,
                                     "trivia": {
                                         "name": ""
-                                    },
-                                    "separator": null
+                                    }
                                 }
                             ]
                         },
@@ -194,14 +194,14 @@
                             },
                             "items": [
                                 {
-                                    "name": "XAttr3",
-                                    "signature": null,
                                     "type": "extended-attribute",
+                                    "name": "XAttr3",
                                     "rhs": null,
+                                    "signature": null,
+                                    "separator": null,
                                     "trivia": {
                                         "name": ""
-                                    },
-                                    "separator": null
+                                    }
                                 }
                             ]
                         },
