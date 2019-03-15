@@ -65,12 +65,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "key",
+                            "escapedName": "key",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -87,9 +83,13 @@
                                     "base": ""
                                 }
                             },
-                            "name": "key",
-                            "escapedName": "key",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {

@@ -89,12 +89,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "breedName",
+                            "escapedName": "breedName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -135,9 +131,13 @@
                                     "base": " "
                                 }
                             },
-                            "name": "breedName",
-                            "escapedName": "breedName",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
