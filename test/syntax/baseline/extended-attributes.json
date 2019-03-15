@@ -13,10 +13,6 @@
         },
         "members": [],
         "extAttrs": {
-            "trivia": {
-                "open": "// Extracted from http://www.w3.org/TR/2015/WD-service-workers-20150205/\n\n",
-                "close": ""
-            },
             "items": [
                 {
                     "type": "extended-attribute",
@@ -70,7 +66,11 @@
                         "name": " "
                     }
                 }
-            ]
+            ],
+            "trivia": {
+                "open": "// Extracted from http://www.w3.org/TR/2015/WD-service-workers-20150205/\n\n",
+                "close": ""
+            }
         },
         "partial": null,
         "trivia": {
@@ -88,10 +88,6 @@
         "inheritance": null,
         "members": [],
         "extAttrs": {
-            "trivia": {
-                "open": "\n\n// Conformance with ExtendedAttributeList grammar in http://www.w3.org/TR/WebIDL/#idl-extended-attributes\n// Section 3.11\n",
-                "close": ""
-            },
             "items": [
                 {
                     "type": "extended-attribute",
@@ -150,7 +146,11 @@
                         "name": " "
                     }
                 }
-            ]
+            ],
+            "trivia": {
+                "open": "\n\n// Conformance with ExtendedAttributeList grammar in http://www.w3.org/TR/WebIDL/#idl-extended-attributes\n// Section 3.11\n",
+                "close": ""
+            }
         },
         "partial": null,
         "trivia": {
@@ -287,10 +287,6 @@
             }
         ],
         "extAttrs": {
-            "trivia": {
-                "open": "\n\n// Extracted from http://www.w3.org/TR/2016/REC-WebIDL-1-20161215/#Constructor on 2017-5-18 with whitespace differences\n",
-                "close": "\n"
-            },
             "items": [
                 {
                     "type": "extended-attribute",
@@ -349,7 +345,11 @@
                         "name": "\n  "
                     }
                 }
-            ]
+            ],
+            "trivia": {
+                "open": "\n\n// Extracted from http://www.w3.org/TR/2016/REC-WebIDL-1-20161215/#Constructor on 2017-5-18 with whitespace differences\n",
+                "close": "\n"
+            }
         },
         "partial": null,
         "trivia": {
@@ -418,10 +418,6 @@
                     "postfix": null,
                     "separator": null,
                     "extAttrs": {
-                        "trivia": {
-                            "open": " ",
-                            "close": ""
-                        },
                         "items": [
                             {
                                 "type": "extended-attribute",
@@ -433,7 +429,11 @@
                                     "name": ""
                                 }
                             }
-                        ]
+                        ],
+                        "trivia": {
+                            "open": " ",
+                            "close": ""
+                        }
                     },
                     "trivia": {
                         "open": " ",
@@ -451,10 +451,6 @@
             }
         ],
         "extAttrs": {
-            "trivia": {
-                "open": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-annotated-types on 2017-12-15\n",
-                "close": ""
-            },
             "items": [
                 {
                     "type": "extended-attribute",
@@ -473,7 +469,11 @@
                         "name": ""
                     }
                 }
-            ]
+            ],
+            "trivia": {
+                "open": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-annotated-types on 2017-12-15\n",
+                "close": ""
+            }
         },
         "partial": null,
         "trivia": {

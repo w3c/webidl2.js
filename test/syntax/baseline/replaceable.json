@@ -29,10 +29,6 @@
                     }
                 },
                 "extAttrs": {
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    },
                     "items": [
                         {
                             "type": "extended-attribute",
@@ -44,7 +40,11 @@
                                 "name": ""
                             }
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "\n  ",
+                        "close": ""
+                    }
                 },
                 "special": null,
                 "readonly": {
