@@ -20,10 +20,6 @@
                     "postfix": null,
                     "separator": null,
                     "extAttrs": {
-                        "trivia": {
-                            "open": " ",
-                            "close": ""
-                        },
                         "items": [
                             {
                                 "type": "extended-attribute",
@@ -42,17 +38,17 @@
                                     "name": ""
                                 }
                             }
-                        ]
+                        ],
+                        "trivia": {
+                            "open": " ",
+                            "close": ""
+                        }
                     },
                     "trivia": {
                         "base": " "
                     }
                 },
                 "extAttrs": {
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    },
                     "items": [
                         {
                             "type": "extended-attribute",
@@ -64,7 +60,11 @@
                                 "name": ""
                             }
                         }
-                    ]
+                    ],
+                    "trivia": {
+                        "open": "\n  ",
+                        "close": ""
+                    }
                 },
                 "special": null,
                 "readonly": null,
