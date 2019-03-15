@@ -155,14 +155,14 @@
                                     },
                                     "items": [
                                         {
-                                            "name": "AllowAny",
-                                            "signature": null,
                                             "type": "extended-attribute",
+                                            "name": "AllowAny",
                                             "rhs": null,
+                                            "signature": null,
+                                            "separator": null,
                                             "trivia": {
                                                 "name": ""
-                                            },
-                                            "separator": null
+                                            }
                                         }
                                     ]
                                 },

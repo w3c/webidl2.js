@@ -19,9 +19,8 @@
             },
             "items": [
                 {
-                    "name": "NamedConstructor",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "NamedConstructor",
                     "rhs": {
                         "type": "identifier",
                         "value": "Audio",
@@ -30,16 +29,26 @@
                             "value": ""
                         }
                     },
-                    "trivia": {
-                        "name": ""
-                    },
+                    "signature": null,
                     "separator": {
                         "value": ",",
                         "trivia": ""
+                    },
+                    "trivia": {
+                        "name": ""
                     }
                 },
                 {
+                    "type": "extended-attribute",
                     "name": "NamedConstructor",
+                    "rhs": {
+                        "type": "identifier",
+                        "value": "Audio",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
                     "signature": {
                         "arguments": [
                             {
@@ -75,19 +84,10 @@
                             "close": ""
                         }
                     },
-                    "type": "extended-attribute",
-                    "rhs": {
-                        "type": "identifier",
-                        "value": "Audio",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
-                    },
+                    "separator": null,
                     "trivia": {
                         "name": "\n "
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },

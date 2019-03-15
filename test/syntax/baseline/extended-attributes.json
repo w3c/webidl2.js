@@ -19,9 +19,8 @@
             },
             "items": [
                 {
-                    "name": "Global",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "Global",
                     "rhs": {
                         "type": "identifier-list",
                         "value": [
@@ -45,18 +44,18 @@
                             "close": ""
                         }
                     },
-                    "trivia": {
-                        "name": ""
-                    },
+                    "signature": null,
                     "separator": {
                         "value": ",",
                         "trivia": ""
+                    },
+                    "trivia": {
+                        "name": ""
                     }
                 },
                 {
-                    "name": "Exposed",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "Exposed",
                     "rhs": {
                         "type": "identifier",
                         "value": "ServiceWorker",
@@ -65,10 +64,11 @@
                             "value": ""
                         }
                     },
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": " "
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },
@@ -94,9 +94,8 @@
             },
             "items": [
                 {
-                    "name": "IntAttr",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "IntAttr",
                     "rhs": {
                         "type": "integer",
                         "value": "0",
@@ -105,18 +104,18 @@
                             "value": ""
                         }
                     },
-                    "trivia": {
-                        "name": ""
-                    },
+                    "signature": null,
                     "separator": {
                         "value": ",",
                         "trivia": ""
+                    },
+                    "trivia": {
+                        "name": ""
                     }
                 },
                 {
-                    "name": "FloatAttr",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "FloatAttr",
                     "rhs": {
                         "type": "float",
                         "value": "3.14",
@@ -125,18 +124,18 @@
                             "value": ""
                         }
                     },
-                    "trivia": {
-                        "name": " "
-                    },
+                    "signature": null,
                     "separator": {
                         "value": ",",
                         "trivia": ""
+                    },
+                    "trivia": {
+                        "name": " "
                     }
                 },
                 {
-                    "name": "StringAttr",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "StringAttr",
                     "rhs": {
                         "type": "string",
                         "value": "\"abc\"",
@@ -145,10 +144,11 @@
                             "value": ""
                         }
                     },
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": " "
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },
@@ -293,20 +293,22 @@
             },
             "items": [
                 {
-                    "name": "Constructor",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "Constructor",
                     "rhs": null,
-                    "trivia": {
-                        "name": "\n  "
-                    },
+                    "signature": null,
                     "separator": {
                         "value": ",",
                         "trivia": ""
+                    },
+                    "trivia": {
+                        "name": "\n  "
                     }
                 },
                 {
+                    "type": "extended-attribute",
                     "name": "Constructor",
+                    "rhs": null,
                     "signature": {
                         "arguments": [
                             {
@@ -342,12 +344,10 @@
                             "close": ""
                         }
                     },
-                    "type": "extended-attribute",
-                    "rhs": null,
+                    "separator": null,
                     "trivia": {
                         "name": "\n  "
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },
@@ -424,14 +424,14 @@
                         },
                         "items": [
                             {
-                                "name": "XAttr",
-                                "signature": null,
                                 "type": "extended-attribute",
+                                "name": "XAttr",
                                 "rhs": null,
+                                "signature": null,
+                                "separator": null,
                                 "trivia": {
                                     "name": ""
-                                },
-                                "separator": null
+                                }
                             }
                         ]
                     },
@@ -457,9 +457,8 @@
             },
             "items": [
                 {
-                    "name": "Exposed",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "Exposed",
                     "rhs": {
                         "type": "identifier",
                         "value": "Window",
@@ -468,10 +467,11 @@
                             "value": ""
                         }
                     },
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": ""
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },

@@ -114,14 +114,14 @@
             },
             "items": [
                 {
-                    "name": "OverrideBuiltins",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "OverrideBuiltins",
                     "rhs": null,
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": ""
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },
