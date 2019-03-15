@@ -230,14 +230,14 @@
                                             },
                                             "items": [
                                                 {
-                                                    "name": "XAttr",
-                                                    "signature": null,
                                                     "type": "extended-attribute",
+                                                    "name": "XAttr",
                                                     "rhs": null,
+                                                    "signature": null,
+                                                    "separator": null,
                                                     "trivia": {
                                                         "name": ""
-                                                    },
-                                                    "separator": null
+                                                    }
                                                 }
                                             ]
                                         },

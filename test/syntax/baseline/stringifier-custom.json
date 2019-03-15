@@ -140,14 +140,14 @@
             },
             "items": [
                 {
-                    "name": "Constructor",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "Constructor",
                     "rhs": null,
+                    "signature": null,
+                    "separator": null,
                     "trivia": {
                         "name": ""
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },

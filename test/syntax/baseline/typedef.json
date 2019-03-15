@@ -397,14 +397,14 @@
                 },
                 "items": [
                     {
-                        "name": "Clamp",
-                        "signature": null,
                         "type": "extended-attribute",
+                        "name": "Clamp",
                         "rhs": null,
+                        "signature": null,
+                        "separator": null,
                         "trivia": {
                             "name": ""
-                        },
-                        "separator": null
+                        }
                     }
                 ]
             },

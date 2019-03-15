@@ -131,20 +131,22 @@
             },
             "items": [
                 {
-                    "name": "Constructor",
-                    "signature": null,
                     "type": "extended-attribute",
+                    "name": "Constructor",
                     "rhs": null,
-                    "trivia": {
-                        "name": ""
-                    },
+                    "signature": null,
                     "separator": {
                         "value": ",",
                         "trivia": ""
+                    },
+                    "trivia": {
+                        "name": ""
                     }
                 },
                 {
+                    "type": "extended-attribute",
                     "name": "Constructor",
+                    "rhs": null,
                     "signature": {
                         "arguments": [
                             {
@@ -180,12 +182,10 @@
                             "close": ""
                         }
                     },
-                    "type": "extended-attribute",
-                    "rhs": null,
+                    "separator": null,
                     "trivia": {
                         "name": "\n "
-                    },
-                    "separator": null
+                    }
                 }
             ]
         },
