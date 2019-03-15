@@ -134,10 +134,6 @@
             }
         ],
         "extAttrs": {
-            "trivia": {
-                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-                "close": ""
-            },
             "items": [
                 {
                     "type": "extended-attribute",
@@ -149,7 +145,11 @@
                         "name": ""
                     }
                 }
-            ]
+            ],
+            "trivia": {
+                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
+                "close": ""
+            }
         },
         "partial": null,
         "trivia": {
