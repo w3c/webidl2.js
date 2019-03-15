@@ -1,90 +1,6 @@
 [
     {
         "type": "interface",
-        "name": "MyConstants",
-        "escapedName": "MyConstants",
-        "inheritance": null,
-        "members": [
-            {
-                "type": "const",
-                "name": "ARE_WE_THERE_YET",
-                "idlType": {
-                    "type": "const-type",
-                    "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
-                    "union": false,
-                    "idlType": "boolean",
-                    "baseName": "boolean",
-                    "escapedBaseName": "boolean",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": null,
-                    "trivia": {
-                        "base": " "
-                    }
-                },
-                "extAttrs": null,
-                "value": {
-                    "type": "boolean",
-                    "value": false
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
-                }
-            },
-            {
-                "type": "const",
-                "name": "MY_NULL",
-                "idlType": {
-                    "type": "const-type",
-                    "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
-                    "union": false,
-                    "idlType": "MyPrimitive",
-                    "baseName": "MyPrimitive",
-                    "escapedBaseName": "MyPrimitive",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "extAttrs": null,
-                    "trivia": {
-                        "base": " "
-                    }
-                },
-                "extAttrs": null,
-                "value": {
-                    "type": "null"
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
-                }
-            }
-        ],
-        "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
-    },
-    {
-        "type": "interface",
         "name": "Node",
         "escapedName": "Node",
         "inheritance": null,
@@ -126,7 +42,7 @@
         "extAttrs": null,
         "partial": null,
         "trivia": {
-            "base": "\n\n",
+            "base": "",
             "name": " ",
             "open": " ",
             "close": "\n  // ...\n",
