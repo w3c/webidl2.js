@@ -11,9 +11,10 @@
                 "escapedName": "test",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
+                    "union": true,
                     "generic": null,
                     "nullable": null,
-                    "union": true,
                     "idlType": [
                         {
                             "type": null,
@@ -36,9 +37,10 @@
                         },
                         {
                             "type": null,
+                            "extAttrs": null,
+                            "union": true,
                             "generic": null,
                             "nullable": null,
-                            "union": true,
                             "idlType": [
                                 {
                                     "type": null,
@@ -84,7 +86,6 @@
                                 "value": "or",
                                 "trivia": " "
                             },
-                            "extAttrs": null,
                             "trivia": {
                                 "open": " ",
                                 "close": ""
@@ -92,11 +93,12 @@
                         },
                         {
                             "type": null,
+                            "extAttrs": null,
+                            "union": true,
                             "generic": null,
                             "nullable": {
                                 "trivia": ""
                             },
-                            "union": true,
                             "idlType": [
                                 {
                                     "type": null,
@@ -139,7 +141,6 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": null,
                             "trivia": {
                                 "open": " ",
                                 "close": ""
@@ -151,7 +152,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
@@ -172,9 +172,10 @@
                 "escapedName": "test2",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
+                    "union": true,
                     "generic": null,
                     "nullable": null,
-                    "union": true,
                     "idlType": [
                         {
                             "type": null,
@@ -234,7 +235,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
