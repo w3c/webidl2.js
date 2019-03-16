@@ -65,12 +65,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -87,9 +83,13 @@
                                     "base": ""
                                 }
                             },
-                            "name": "propertyName",
-                            "escapedName": "propertyName",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -132,12 +132,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -154,20 +150,20 @@
                                     "base": ""
                                 }
                             },
-                            "name": "propertyName",
-                            "escapedName": "propertyName",
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
                             }
                         },
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyValue",
+                            "escapedName": "propertyValue",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -184,9 +180,13 @@
                                     "base": " "
                                 }
                             },
-                            "name": "propertyValue",
-                            "escapedName": "propertyValue",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -280,12 +280,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -302,9 +298,13 @@
                                     "base": ""
                                 }
                             },
-                            "name": "propertyName",
-                            "escapedName": "propertyName",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -344,12 +344,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -366,20 +362,20 @@
                                     "base": ""
                                 }
                             },
-                            "name": "propertyName",
-                            "escapedName": "propertyName",
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
                             }
                         },
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyValue",
+                            "escapedName": "propertyValue",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -396,9 +392,13 @@
                                     "base": " "
                                 }
                             },
-                            "name": "propertyValue",
-                            "escapedName": "propertyValue",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -434,12 +434,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -456,9 +452,13 @@
                                     "base": ""
                                 }
                             },
-                            "name": "propertyName",
-                            "escapedName": "propertyName",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -497,12 +497,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyName",
+                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -519,20 +515,20 @@
                                     "base": ""
                                 }
                             },
-                            "name": "propertyName",
-                            "escapedName": "propertyName",
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
                             }
                         },
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "propertyValue",
+                            "escapedName": "propertyValue",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -549,9 +545,13 @@
                                     "base": " "
                                 }
                             },
-                            "name": "propertyValue",
-                            "escapedName": "propertyValue",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {

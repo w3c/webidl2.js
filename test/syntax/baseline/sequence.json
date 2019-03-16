@@ -31,12 +31,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "coordinates",
+                            "escapedName": "coordinates",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": {
@@ -76,9 +72,13 @@
                                     "base": ""
                                 }
                             },
-                            "name": "coordinates",
-                            "escapedName": "coordinates",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -194,12 +194,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "arg",
+                            "escapedName": "arg",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": {
@@ -256,9 +252,13 @@
                                     "base": ""
                                 }
                             },
-                            "name": "arg",
-                            "escapedName": "arg",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {

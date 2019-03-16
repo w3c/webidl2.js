@@ -168,12 +168,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "c1",
+                            "escapedName": "c1",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -190,50 +186,20 @@
                                     "base": ""
                                 }
                             },
-                            "name": "c1",
-                            "escapedName": "c1",
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
                             }
                         },
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
-                            "idlType": {
-                                "type": "argument-type",
-                                "generic": null,
-                                "nullable": null,
-                                "union": false,
-                                "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "extAttrs": null,
-                                "trivia": {
-                                    "base": " "
-                                }
-                            },
                             "name": "c2",
                             "escapedName": "c2",
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            }
-                        },
-                        {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -250,9 +216,43 @@
                                     "base": " "
                                 }
                             },
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": {
+                                "value": ",",
+                                "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
+                            }
+                        },
+                        {
                             "name": "c3",
                             "escapedName": "c3",
-                            "separator": null
+                            "idlType": {
+                                "type": "argument-type",
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "Circle",
+                                "baseName": "Circle",
+                                "escapedBaseName": "Circle",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
+                                "extAttrs": null,
+                                "trivia": {
+                                    "base": " "
+                                }
+                            },
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {

@@ -61,12 +61,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "x",
+                            "escapedName": "x",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -83,20 +79,20 @@
                                     "base": ""
                                 }
                             },
-                            "name": "x",
-                            "escapedName": "x",
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
                             }
                         },
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "y",
+                            "escapedName": "y",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -113,9 +109,13 @@
                                     "base": " "
                                 }
                             },
-                            "name": "y",
-                            "escapedName": "y",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -155,12 +155,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "x",
+                            "escapedName": "x",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -177,20 +173,20 @@
                                     "base": ""
                                 }
                             },
-                            "name": "x",
-                            "escapedName": "x",
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
+                            },
+                            "trivia": {
+                                "name": " "
                             }
                         },
                         {
-                            "optional": null,
-                            "variadic": null,
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "y",
+                            "escapedName": "y",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -207,9 +203,13 @@
                                     "base": " "
                                 }
                             },
-                            "name": "y",
-                            "escapedName": "y",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": null,
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {

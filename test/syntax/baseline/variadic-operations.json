@@ -65,14 +65,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": {
-                                "trivia": ""
-                            },
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "ints",
+                            "escapedName": "ints",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -89,9 +83,15 @@
                                     "base": ""
                                 }
                             },
-                            "name": "ints",
-                            "escapedName": "ints",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": {
+                                "trivia": ""
+                            },
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
@@ -131,14 +131,8 @@
                     },
                     "arguments": [
                         {
-                            "optional": null,
-                            "variadic": {
-                                "trivia": ""
-                            },
-                            "default": null,
-                            "trivia": {
-                                "name": " "
-                            },
+                            "name": "ints",
+                            "escapedName": "ints",
                             "idlType": {
                                 "type": "argument-type",
                                 "generic": null,
@@ -155,9 +149,15 @@
                                     "base": ""
                                 }
                             },
-                            "name": "ints",
-                            "escapedName": "ints",
-                            "separator": null
+                            "default": null,
+                            "optional": null,
+                            "variadic": {
+                                "trivia": ""
+                            },
+                            "separator": null,
+                            "trivia": {
+                                "name": " "
+                            }
                         }
                     ],
                     "trivia": {
