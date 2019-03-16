@@ -372,9 +372,27 @@
                 "escapedName": "attrib",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": {
+                        "items": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "XAttr",
+                                "rhs": null,
+                                "signature": null,
+                                "separator": null,
+                                "trivia": {
+                                    "name": ""
+                                }
+                            }
+                        ],
+                        "trivia": {
+                            "open": " ",
+                            "close": ""
+                        }
+                    },
+                    "union": true,
                     "generic": null,
                     "nullable": null,
-                    "union": true,
                     "idlType": [
                         {
                             "type": null,
@@ -417,24 +435,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": {
-                        "items": [
-                            {
-                                "type": "extended-attribute",
-                                "name": "XAttr",
-                                "rhs": null,
-                                "signature": null,
-                                "separator": null,
-                                "trivia": {
-                                    "name": ""
-                                }
-                            }
-                        ],
-                        "trivia": {
-                            "open": " ",
-                            "close": ""
-                        }
-                    },
                     "trivia": {
                         "open": " ",
                         "close": ""

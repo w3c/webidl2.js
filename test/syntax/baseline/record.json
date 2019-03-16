@@ -175,11 +175,12 @@
                             },
                             {
                                 "type": "return-type",
+                                "extAttrs": null,
+                                "union": true,
                                 "generic": null,
                                 "nullable": {
                                     "trivia": ""
                                 },
-                                "union": true,
                                 "idlType": [
                                     {
                                         "type": null,
@@ -222,7 +223,6 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
                                 "trivia": {
                                     "open": " ",
                                     "close": ""

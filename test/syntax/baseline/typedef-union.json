@@ -5,9 +5,10 @@
         "escapedName": "TexImageSource",
         "idlType": {
             "type": "typedef-type",
+            "extAttrs": null,
+            "union": true,
             "generic": null,
             "nullable": null,
-            "union": true,
             "idlType": [
                 {
                     "type": null,
@@ -88,7 +89,6 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": null,
             "trivia": {
                 "open": " ",
                 "close": ""
