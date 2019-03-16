@@ -48,12 +48,8 @@
                     "signature": {
                         "arguments": [
                             {
-                                "optional": null,
-                                "variadic": null,
-                                "default": null,
-                                "trivia": {
-                                    "name": " "
-                                },
+                                "name": "src",
+                                "escapedName": "src",
                                 "idlType": {
                                     "type": "argument-type",
                                     "generic": null,
@@ -70,9 +66,13 @@
                                         "base": ""
                                     }
                                 },
-                                "name": "src",
-                                "escapedName": "src",
-                                "separator": null
+                                "default": null,
+                                "optional": null,
+                                "variadic": null,
+                                "separator": null,
+                                "trivia": {
+                                    "name": " "
+                                }
                             }
                         ],
                         "trivia": {
