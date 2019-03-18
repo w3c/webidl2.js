@@ -4,6 +4,7 @@
         "name": "AsyncOperationCallback",
         "idlType": {
             "type": "return-type",
+            "extAttrs": null,
             "generic": null,
             "nullable": null,
             "union": false,
@@ -13,7 +14,6 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": null,
             "trivia": {
                 "base": " "
             }
@@ -24,6 +24,7 @@
                 "escapedName": "status",
                 "idlType": {
                     "type": "argument-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -33,7 +34,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": ""
                     }
@@ -73,6 +73,7 @@
                     },
                     "idlType": {
                         "type": "return-type",
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -82,7 +83,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -93,6 +93,7 @@
                             "escapedName": "details",
                             "idlType": {
                                 "type": "argument-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -102,7 +103,6 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -144,6 +144,7 @@
         "name": "SortCallback",
         "idlType": {
             "type": "return-type",
+            "extAttrs": null,
             "generic": null,
             "nullable": null,
             "union": false,
@@ -153,7 +154,6 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": null,
             "trivia": {
                 "base": " "
             }
@@ -164,6 +164,7 @@
                 "escapedName": "a",
                 "idlType": {
                     "type": "argument-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -173,7 +174,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": ""
                     }
@@ -194,6 +194,7 @@
                 "escapedName": "b",
                 "idlType": {
                     "type": "argument-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -203,7 +204,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }

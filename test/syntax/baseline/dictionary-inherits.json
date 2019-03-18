@@ -12,6 +12,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": {
                         "trivia": ""
@@ -23,7 +24,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -49,6 +49,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": {
                         "trivia": ""
@@ -60,7 +61,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -85,6 +85,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -94,7 +95,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -137,6 +137,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -146,7 +147,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
