@@ -59,6 +59,7 @@
                                         "idlType": [
                                             {
                                                 "type": "argument-type",
+                                                "extAttrs": null,
                                                 "generic": null,
                                                 "nullable": null,
                                                 "union": false,
@@ -71,7 +72,6 @@
                                                     "value": ",",
                                                     "trivia": ""
                                                 },
-                                                "extAttrs": null,
                                                 "trivia": {
                                                     "base": ""
                                                 }
@@ -156,6 +156,7 @@
                         "idlType": [
                             {
                                 "type": "return-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -168,7 +169,6 @@
                                     "value": ",",
                                     "trivia": ""
                                 },
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -277,6 +277,7 @@
                                     "idlType": [
                                         {
                                             "type": "argument-type",
+                                            "extAttrs": null,
                                             "generic": null,
                                             "nullable": null,
                                             "union": false,
@@ -289,7 +290,6 @@
                                                 "value": ",",
                                                 "trivia": ""
                                             },
-                                            "extAttrs": null,
                                             "trivia": {
                                                 "base": ""
                                             }
@@ -383,6 +383,7 @@
                         "idlType": [
                             {
                                 "type": "return-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -395,7 +396,6 @@
                                     "value": ",",
                                     "trivia": ""
                                 },
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
