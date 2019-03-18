@@ -27,6 +27,7 @@
                 "escapedName": "cx",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -36,7 +37,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -56,6 +56,7 @@
                 "escapedName": "cy",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -65,7 +66,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -85,6 +85,7 @@
                 "escapedName": "radius",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -94,7 +95,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -114,6 +114,7 @@
                 "escapedName": "triangulationCount",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -123,7 +124,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -152,6 +152,7 @@
                     },
                     "idlType": {
                         "type": "return-type",
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -161,7 +162,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": " "
                         }
@@ -172,6 +172,7 @@
                             "escapedName": "c1",
                             "idlType": {
                                 "type": "argument-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -181,7 +182,6 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -202,6 +202,7 @@
                             "escapedName": "c2",
                             "idlType": {
                                 "type": "argument-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -211,7 +212,6 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -232,6 +232,7 @@
                             "escapedName": "c3",
                             "idlType": {
                                 "type": "argument-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -241,7 +242,6 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": " "
                                 }

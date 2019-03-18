@@ -52,6 +52,7 @@
                                 "escapedName": "src",
                                 "idlType": {
                                     "type": "argument-type",
+                                    "extAttrs": null,
                                     "generic": null,
                                     "nullable": null,
                                     "union": false,
@@ -61,7 +62,6 @@
                                     "prefix": null,
                                     "postfix": null,
                                     "separator": null,
-                                    "extAttrs": null,
                                     "trivia": {
                                         "base": ""
                                     }

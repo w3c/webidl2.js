@@ -12,6 +12,7 @@
             "idlType": [
                 {
                     "type": null,
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -24,13 +25,13 @@
                         "value": "or",
                         "trivia": " "
                     },
-                    "extAttrs": null,
                     "trivia": {
                         "base": ""
                     }
                 },
                 {
                     "type": null,
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -43,13 +44,13 @@
                         "value": "or",
                         "trivia": " "
                     },
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n           "
                     }
                 },
                 {
                     "type": null,
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -62,13 +63,13 @@
                         "value": "or",
                         "trivia": " "
                     },
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n           "
                     }
                 },
                 {
                     "type": null,
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -78,7 +79,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n           "
                     }

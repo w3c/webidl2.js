@@ -12,6 +12,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": {
                         "trivia": ""
@@ -23,7 +24,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -49,6 +49,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": {
                         "trivia": ""
@@ -60,7 +61,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -85,6 +85,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -94,7 +95,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -113,6 +113,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": {
                         "value": "sequence",
                         "trivia": {
@@ -125,6 +126,7 @@
                     "idlType": [
                         {
                             "type": "dictionary-type",
+                            "extAttrs": null,
                             "generic": null,
                             "nullable": null,
                             "union": false,
@@ -134,7 +136,6 @@
                             "prefix": null,
                             "postfix": null,
                             "separator": null,
-                            "extAttrs": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -145,7 +146,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to \"[]\".\n  "
                     }
@@ -172,6 +172,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -181,7 +182,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -218,6 +218,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -227,7 +228,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -246,6 +246,7 @@
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -255,7 +256,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": "\n  "
                     }

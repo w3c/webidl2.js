@@ -10,15 +10,6 @@
                 "escapedName": "-will-change",
                 "idlType": {
                     "type": "attribute-type",
-                    "generic": null,
-                    "nullable": null,
-                    "union": false,
-                    "idlType": "CSSOMString",
-                    "baseName": "CSSOMString",
-                    "escapedBaseName": "CSSOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "extAttrs": {
                         "items": [
                             {
@@ -44,6 +35,15 @@
                             "close": ""
                         }
                     },
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "CSSOMString",
+                    "baseName": "CSSOMString",
+                    "escapedBaseName": "CSSOMString",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
                     "trivia": {
                         "base": " "
                     }

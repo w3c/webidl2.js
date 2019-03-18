@@ -5,6 +5,7 @@
         "escapedName": "EscapedType",
         "idlType": {
             "type": "typedef-type",
+            "extAttrs": null,
             "generic": null,
             "nullable": null,
             "union": false,
@@ -14,7 +15,6 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": null,
             "trivia": {
                 "base": " "
             }
@@ -32,6 +32,7 @@
         "escapedName": "EscapedSequence",
         "idlType": {
             "type": "typedef-type",
+            "extAttrs": null,
             "generic": {
                 "value": "sequence",
                 "trivia": {
@@ -44,6 +45,7 @@
             "idlType": [
                 {
                     "type": "typedef-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -53,7 +55,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": ""
                     }
@@ -64,7 +65,6 @@
             "prefix": null,
             "postfix": null,
             "separator": null,
-            "extAttrs": null,
             "trivia": {
                 "base": " "
             }

@@ -11,6 +11,7 @@
                 "escapedName": "namespaceURI",
                 "idlType": {
                     "type": "attribute-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": {
                         "trivia": ""
@@ -22,7 +23,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }

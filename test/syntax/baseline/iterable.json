@@ -10,6 +10,7 @@
                 "idlType": [
                     {
                         "type": null,
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -19,7 +20,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": ""
                         }
@@ -56,6 +56,7 @@
                 "idlType": [
                     {
                         "type": null,
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -68,13 +69,13 @@
                             "value": ",",
                             "trivia": ""
                         },
-                        "extAttrs": null,
                         "trivia": {
                             "base": ""
                         }
                     },
                     {
                         "type": null,
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": {
                             "trivia": ""
@@ -86,7 +87,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": " "
                         }
@@ -123,15 +123,6 @@
                 "idlType": [
                     {
                         "type": null,
-                        "generic": null,
-                        "nullable": null,
-                        "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "extAttrs": {
                             "items": [
                                 {
@@ -150,6 +141,15 @@
                                 "close": ""
                             }
                         },
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "long",
+                        "baseName": "long",
+                        "escapedBaseName": "long",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
                         "trivia": {
                             "base": " "
                         }

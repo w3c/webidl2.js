@@ -15,6 +15,7 @@
                     },
                     "idlType": {
                         "type": "return-type",
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -24,7 +25,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -51,6 +51,7 @@
                     },
                     "idlType": {
                         "type": "return-type",
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -60,7 +61,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -71,6 +71,7 @@
                             "escapedName": "b",
                             "idlType": {
                                 "type": "argument-type",
+                                "extAttrs": null,
                                 "generic": null,
                                 "nullable": null,
                                 "union": false,
@@ -80,7 +81,6 @@
                                 "prefix": null,
                                 "postfix": null,
                                 "separator": null,
-                                "extAttrs": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -115,6 +115,7 @@
                     },
                     "idlType": {
                         "type": "return-type",
+                        "extAttrs": null,
                         "generic": null,
                         "nullable": null,
                         "union": false,
@@ -124,7 +125,6 @@
                         "prefix": null,
                         "postfix": null,
                         "separator": null,
-                        "extAttrs": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -135,15 +135,6 @@
                             "escapedName": "s",
                             "idlType": {
                                 "type": "argument-type",
-                                "generic": null,
-                                "nullable": null,
-                                "union": false,
-                                "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "extAttrs": {
                                     "items": [
                                         {
@@ -162,6 +153,15 @@
                                         "close": ""
                                     }
                                 },
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "DOMString",
+                                "baseName": "DOMString",
+                                "escapedBaseName": "DOMString",
+                                "prefix": null,
+                                "postfix": null,
+                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
