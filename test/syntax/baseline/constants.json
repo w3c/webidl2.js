@@ -10,6 +10,7 @@
                 "name": "DEBUG",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -19,7 +20,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -42,6 +42,7 @@
                 "name": "negative",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -51,7 +52,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -74,6 +74,7 @@
                 "name": "LF",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -83,7 +84,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -106,6 +106,7 @@
                 "name": "BIT_MASK",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -118,7 +119,6 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -141,6 +141,7 @@
                 "name": "AVOGADRO",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -150,7 +151,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -173,6 +173,7 @@
                 "name": "sobig",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -185,7 +186,6 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -208,6 +208,7 @@
                 "name": "minusonedividedbyzero",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -220,7 +221,6 @@
                     },
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
@@ -243,6 +243,7 @@
                 "name": "notanumber",
                 "idlType": {
                     "type": "const-type",
+                    "extAttrs": null,
                     "generic": null,
                     "nullable": null,
                     "union": false,
@@ -252,7 +253,6 @@
                     "prefix": null,
                     "postfix": null,
                     "separator": null,
-                    "extAttrs": null,
                     "trivia": {
                         "base": " "
                     }
