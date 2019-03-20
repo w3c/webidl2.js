@@ -1,16 +1,15 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const wp = require("..");
 const expect = require("expect");
-const webidl2 = require("..");
+const webidl2 = require("../dist/webidl2");
 
 describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
   for (const test of collect("syntax")) {
     it(`should produce the same AST for ${test.path}`, () => {
-      const rewritten = wp.write(test.ast);
+      const rewritten = webidl2.write(test.ast);
       expect(rewritten).toEqual(test.text);
-      const diff = test.diff(wp.parse(rewritten, test.opt));
+      const diff = test.diff(webidl2.parse(rewritten, test.opt));
       expect(diff).toBe(undefined);
     });
   }

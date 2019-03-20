@@ -15,5 +15,8 @@
         "no-trailing-spaces": "error",
         "prefer-const": "error",
         "semi": "error"
+    },
+    "parserOptions": {
+        "sourceType": "module"
     }
 }
