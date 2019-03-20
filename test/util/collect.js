@@ -1,6 +1,6 @@
 "use strict";
 
-const wp = require("../../index");
+const wp = require("../../dist/webidl2");
 const pth = require("path");
 const fs = require("fs");
 const jdp = require("jsondiffpatch");
