@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset='utf-8'>
 <title>WebIDL 2 Checker</title>
 
 <script src='../lib/webidl2.js'></script>
+<script src='../lib/validator.js'></script>
 <script>
-let parserResult = undefined;
-
-function formatParserOutput() {
+function formatParserOutput(parserResult) {
   const outputEl = document.getElementById('webidl-checker-output');
   if (parserResult) {
     const prettyPrintEl = document.getElementById('pretty-print');
@@ -19,16 +19,17 @@ function formatParserOutput() {
 
 function checkWebIDL(textToCheck) {
   const validation = document.getElementById('webidl-checker-validation');
-  parserResult = null;
+  let parserResult = null;
   try {
     parserResult = WebIDL2.parse(textToCheck);
-    validation.textContent = 'WebIDL parsed successfully!';
+    const validationResult = WebIDL2Validator.validate(parserResult);
+    validation.textContent = validationResult.join("\n") || 'WebIDL parsed successfully!';
   } catch (e) {
     validation.textContent = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
     // Pass it along to the JavaScript console.
     throw e;
   } finally {
-    formatParserOutput();
+    formatParserOutput(parserResult);
   }
 }
 </script>
