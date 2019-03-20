@@ -1,6 +1,6 @@
 "use strict";
 
-const wp = require("../../lib/webidl2");
+const wp = require("../../index");
 const pth = require("path");
 const fs = require("fs");
 const jdp = require("jsondiffpatch");
@@ -20,7 +20,12 @@ function* collect(base, { expectError, raw } = {}) {
     try {
       const text = fs.readFileSync(path, "utf8");
       const ast = wp.parse(text);
-      yield new TestItem({ text, ast, path, raw });
+      const validation = wp.validate(ast);
+      if (validation) {
+        yield new TestItem({ text, ast, path, validation, raw });
+      } else {
+        yield new TestItem({ text, ast, path, raw });
+      }
     }
     catch (error) {
       if (expectError) {
@@ -35,11 +40,12 @@ function* collect(base, { expectError, raw } = {}) {
 
 
 class TestItem {
-  constructor({ text, ast, path, error, raw }) {
+  constructor({ text, ast, path, error, validation, raw }) {
     this.text = text;
     this.ast = ast;
     this.path = path;
     this.error = error;
+    this.validation = validation;
     const fileExtension = raw ? ".txt" : ".json";
     this.baselinePath = pth.join(
       pth.dirname(path),

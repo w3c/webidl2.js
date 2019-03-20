@@ -1,0 +1,14 @@
+interface Base {
+  // Operations cannot be overloaded across partial interfaces and mixins
+  void unique();
+};
+
+partial interface Base {
+  void unique(short num);
+};
+
+interface mixin Extension {
+  void unique(string str);
+};
+Base includes Extension;
+Base includes Unknown;
