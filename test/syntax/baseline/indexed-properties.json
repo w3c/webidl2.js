@@ -41,6 +41,7 @@
             },
             {
                 "type": "operation",
+                "name": "getByIndex",
                 "body": {
                     "name": {
                         "value": "getByIndex",
@@ -111,6 +112,7 @@
             },
             {
                 "type": "operation",
+                "name": "setByIndex",
                 "body": {
                     "name": {
                         "value": "setByIndex",
@@ -211,6 +213,7 @@
             },
             {
                 "type": "operation",
+                "name": "removeByIndex",
                 "body": {
                     "name": {
                         "value": "removeByIndex",
@@ -281,6 +284,7 @@
             },
             {
                 "type": "operation",
+                "name": "get",
                 "body": {
                     "name": {
                         "value": "get",
@@ -348,6 +352,7 @@
             },
             {
                 "type": "operation",
+                "name": "set",
                 "body": {
                     "name": {
                         "value": "set",
@@ -445,6 +450,7 @@
             },
             {
                 "type": "operation",
+                "name": "remove",
                 "body": {
                     "name": {
                         "value": "remove",

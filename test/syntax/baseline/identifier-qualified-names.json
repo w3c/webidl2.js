@@ -34,6 +34,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "createObject",
                 "body": {
                     "name": {
                         "value": "createObject",
@@ -98,6 +99,7 @@
             },
             {
                 "type": "operation",
+                "name": "",
                 "body": {
                     "name": null,
                     "idlType": {
@@ -255,6 +257,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "addEventListener",
                 "body": {
                     "name": {
                         "value": "addEventListener",

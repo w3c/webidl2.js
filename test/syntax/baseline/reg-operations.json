@@ -88,6 +88,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "isMouseOver",
                 "body": {
                     "name": {
                         "value": "isMouseOver",
@@ -124,6 +125,7 @@
             },
             {
                 "type": "operation",
+                "name": "setDimensions",
                 "body": {
                     "name": {
                         "value": "setDimensions",
@@ -188,6 +190,7 @@
             },
             {
                 "type": "operation",
+                "name": "setDimensions",
                 "body": {
                     "name": {
                         "value": "setDimensions",

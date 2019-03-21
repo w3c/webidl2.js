@@ -37,6 +37,7 @@
             },
             {
                 "type": "operation",
+                "name": "dotProduct",
                 "body": {
                     "name": {
                         "value": "dotProduct",
@@ -131,6 +132,7 @@
             },
             {
                 "type": "operation",
+                "name": "crossProduct",
                 "body": {
                     "name": {
                         "value": "crossProduct",

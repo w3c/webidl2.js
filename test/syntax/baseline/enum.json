@@ -104,6 +104,7 @@
             },
             {
                 "type": "operation",
+                "name": "initialize",
                 "body": {
                     "name": {
                         "value": "initialize",

@@ -65,6 +65,7 @@
             },
             {
                 "type": "operation",
+                "name": "isMemberOfBreed",
                 "body": {
                     "name": {
                         "value": "isMemberOfBreed",

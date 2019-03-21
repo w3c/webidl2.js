@@ -41,6 +41,7 @@
             },
             {
                 "type": "operation",
+                "name": "",
                 "body": {
                     "name": null,
                     "idlType": {
@@ -104,6 +105,7 @@
             },
             {
                 "type": "operation",
+                "name": "",
                 "body": {
                     "name": null,
                     "idlType": {

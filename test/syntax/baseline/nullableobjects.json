@@ -39,6 +39,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "f",
                 "body": {
                     "name": {
                         "value": "f",
@@ -105,6 +106,7 @@
             },
             {
                 "type": "operation",
+                "name": "f",
                 "body": {
                     "name": {
                         "value": "f",

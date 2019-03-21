@@ -99,6 +99,7 @@
             },
             {
                 "type": "operation",
+                "name": "",
                 "body": {
                     "name": null,
                     "idlType": {

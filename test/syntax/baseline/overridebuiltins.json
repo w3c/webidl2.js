@@ -41,6 +41,7 @@
             },
             {
                 "type": "operation",
+                "name": "lookup",
                 "body": {
                     "name": {
                         "value": "lookup",
