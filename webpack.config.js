@@ -6,7 +6,6 @@ module.exports = {
     filename: "webidl2.js",
     path: path.resolve(__dirname, "dist"),
     library: "WebIDL2",
-    libraryExport: "default",
     libraryTarget: "umd",
     globalObject: "this"
   },

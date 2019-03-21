@@ -5,8 +5,9 @@
   <meta charset='utf-8'>
   <title>WebIDL 2 Checker</title>
 
-  <script src='../dist/webidl2.js'></script>
-  <script>
+  <script type='module'>
+    import { parse, validate } from '../index.js';
+
     function formatParserOutput(parserResult) {
       const outputEl = document.getElementById('webidl-checker-output');
       if (parserResult) {
@@ -21,8 +22,8 @@
       const validation = document.getElementById('webidl-checker-validation');
       let parserResult = null;
       try {
-        parserResult = WebIDL2.parse(textToCheck);
-        const validationResult = WebIDL2.validate(parserResult);
+        parserResult = parse(textToCheck);
+        const validationResult = validate(parserResult);
         validation.textContent = validationResult.join("\n") || 'WebIDL parsed successfully!';
       } catch (e) {
         validation.textContent = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
@@ -32,6 +33,13 @@
         formatParserOutput(parserResult);
       }
     }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.getElementById('check-idl').addEventListener('click', () => {
+        checkWebIDL(document.getElementById('webidl-to-check').value);
+      });
+      document.getElementById('pretty-print').addEventListener('change', formatParserOutput);
+    });
   </script>
   <style>
     textarea {
@@ -47,13 +55,13 @@
   <p>Enter your WebIDL to check below:</p>
   <textarea id='webidl-to-check' rows='20' cols='80'></textarea>
   <br>
-  <input type='button' value='Check WebIDL' onclick='checkWebIDL(document.getElementById("webidl-to-check").value)'>
+  <input type='button' id='check-idl' value='Check WebIDL'>
   <p>Validation results:</p>
   <textarea id='webidl-checker-validation' rows='20' cols='80'></textarea>
   <p>Parser output:</p>
   <textarea id='webidl-checker-output' rows='20' cols='80'></textarea>
   <br>
-  <input type='checkbox' id='pretty-print' checked='true' onchange='formatParserOutput()'>Pretty Print
+  <input type='checkbox' id='pretty-print' checked='true'>Pretty Print
 </body>
 
 </html>
