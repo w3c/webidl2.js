@@ -41,6 +41,7 @@
             },
             {
                 "type": "operation",
+                "name": "union",
                 "body": {
                     "name": {
                         "value": "union",
@@ -107,6 +108,7 @@
             },
             {
                 "type": "operation",
+                "name": "intersection",
                 "body": {
                     "name": {
                         "value": "intersection",

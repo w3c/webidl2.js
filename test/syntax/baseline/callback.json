@@ -65,6 +65,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "eventOccurred",
                 "body": {
                     "name": {
                         "value": "eventOccurred",

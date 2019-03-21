@@ -7,6 +7,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "g",
                 "body": {
                     "name": {
                         "value": "g",
@@ -43,6 +44,7 @@
             },
             {
                 "type": "operation",
+                "name": "g",
                 "body": {
                     "name": {
                         "value": "g",
@@ -107,6 +109,7 @@
             },
             {
                 "type": "operation",
+                "name": "g",
                 "body": {
                     "name": {
                         "value": "g",

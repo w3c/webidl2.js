@@ -7,6 +7,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "bar",
                 "body": {
                     "name": {
                         "value": "bar",
@@ -185,6 +186,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "getServiced",
                 "body": {
                     "name": {
                         "value": "getServiced",
@@ -246,6 +248,7 @@
             },
             {
                 "type": "operation",
+                "name": "reloadAll",
                 "body": {
                     "name": {
                         "value": "reloadAll",
@@ -329,6 +332,7 @@
         "members": [
             {
                 "type": "operation",
+                "name": "default",
                 "body": {
                     "name": {
                         "value": "default",
