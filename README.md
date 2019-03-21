@@ -18,10 +18,10 @@ Just the usual. For Node:
 npm install webidl2
 ```
 
-In the browser:
+In the browser without module support:
 
 ```HTML
-<script src='webidl2.js'></script>
+<script src='./webidl2/dist/webidl2.js'></script>
 ```
 
 ## Documentation
@@ -35,21 +35,26 @@ WebIDL2 provides two functions: `parse` and `write`.
 In Node, that happens with:
 
 ```JS
-var WebIDL2 = require("webidl2");
-var tree = WebIDL2.parse("string of WebIDL");
-var text = WebIDL2.write(tree);
+const { parse, write, validate } = require("webidl2");
+const tree = parse("string of WebIDL");
+const text = write(tree);
+const validation = validate(tree);
 ```
 
 In the browser:
 ```HTML
-<script src='webidl2.js'></script>
 <script>
-  var tree = WebIDL2.parse("string of WebIDL");
+  const tree = WebIDL2.parse("string of WebIDL");
+  const text = WebIDL2.write(tree);
+  const validation = WebIDL2.validate(tree);
 </script>
 
-<script src='writer.js'></script>
-<script>
-  var text = WebIDL2Writer.write(tree);
+<!-- Or when module is supported -->
+<script type="module">
+  import { parse, write, validate } from "./webidl2/index.js";
+  const tree = parse("string of WebIDL");
+  const text = write(tree);
+  const validation = validate(tree);
 </script>
 ```
 
@@ -90,11 +95,6 @@ var result = WebIDL2.write(tree, {
      */
     type: type => type,
     /**
-     * Called for each value literals, e.g. `"string"` or `3.12`.
-     * @param {string} lit The raw literal string.
-     */
-    valueLiteral: lit => lit,
-    /**
      * Receives the return value of `reference()`. String if it's absent.
      */
     inheritance: inh => inh,
@@ -120,6 +120,17 @@ var result = WebIDL2.write(tree, {
 ```
 
 "Wrapped value" here will all be raw strings when the `wrap()` callback is absent.
+
+`validate()` returns semantic errors in a string array form:
+
+```js
+const validations = validate(tree);
+for (const validation of validations) {
+  console.log(validation);
+}
+// Validation error on line X: ...
+// Validation error on line Y: ...
+```
 
 ### Errors
 
