@@ -5,8 +5,7 @@
   <meta charset='utf-8'>
   <title>WebIDL 2 Checker</title>
 
-  <script src='../lib/webidl2.js'></script>
-  <script src='../lib/validator.js'></script>
+  <script src='../dist/webidl2.js'></script>
   <script>
     function formatParserOutput(parserResult) {
       const outputEl = document.getElementById('webidl-checker-output');
@@ -23,7 +22,7 @@
       let parserResult = null;
       try {
         parserResult = WebIDL2.parse(textToCheck);
-        const validationResult = WebIDL2Validator.validate(parserResult);
+        const validationResult = WebIDL2.validate(parserResult);
         validation.textContent = validationResult.join("\n") || 'WebIDL parsed successfully!';
       } catch (e) {
         validation.textContent = 'Exception while parsing WebIDL. See JavaScript console for more details.\n\n' + e.toString();
