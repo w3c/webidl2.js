@@ -24,7 +24,7 @@
       try {
         parserResult = parse(textToCheck);
         const validationResult = validate(parserResult);
-        validation.textContent = validationResult.join("\n") || "WebIDL parsed successfully!";
+        validation.textContent = validationResult.join("\n\n") || "WebIDL parsed successfully!";
       } catch (e) {
         validation.textContent = "Exception while parsing WebIDL. See JavaScript console for more details.\n\n" + e.toString();
         // Pass it along to the JavaScript console.
