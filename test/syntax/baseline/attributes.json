@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
                     "baseName": "short",
@@ -30,7 +30,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n\n  // A simple attribute that can be set to any value the range an unsigned\n  // short can take.\n  ",
                     "name": " ",
@@ -45,7 +45,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "any",
                     "baseName": "any",
@@ -59,7 +59,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n\n  // required is an allowed attribute name\n  ",
                     "name": " ",
@@ -68,7 +68,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n\n",
             "name": " ",

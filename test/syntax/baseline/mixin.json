@@ -12,7 +12,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
                     "baseName": "Crypto",
@@ -26,9 +26,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -37,7 +35,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
             "mixin": " ",
@@ -88,7 +86,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
                     "baseName": "Crypto",
@@ -102,9 +100,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -113,9 +109,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": "\n\n"
-        },
+        "partial": true,
         "trivia": {
             "base": " ",
             "mixin": " ",
@@ -131,7 +125,7 @@
         "escapedName": "_LocalCrypto",
         "members": [],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n",
             "mixin": " ",

@@ -54,7 +54,7 @@
                                     "type": "argument-type",
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
                                     "baseName": "DOMString",
@@ -67,8 +67,8 @@
                                     }
                                 },
                                 "default": null,
-                                "optional": null,
-                                "variadic": null,
+                                "optional": false,
+                                "variadic": false,
                                 "separator": null,
                                 "trivia": {
                                     "name": " "
@@ -91,7 +91,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

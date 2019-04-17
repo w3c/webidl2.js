@@ -36,7 +36,7 @@
                         }
                     },
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "CSSOMString",
                     "baseName": "CSSOMString",
@@ -67,7 +67,7 @@
                     }
                 },
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -76,9 +76,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": ""
-        },
+        "partial": true,
         "trivia": {
             "base": " ",
             "name": " ",

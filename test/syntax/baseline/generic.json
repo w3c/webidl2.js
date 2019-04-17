@@ -24,7 +24,7 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
@@ -37,7 +37,7 @@
                                         "close": ""
                                     }
                                 },
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
@@ -50,16 +50,14 @@
                                                 "close": ""
                                             }
                                         },
-                                        "nullable": null,
+                                        "nullable": false,
                                         "union": false,
                                         "idlType": [
                                             {
                                                 "type": "return-type",
                                                 "extAttrs": null,
                                                 "generic": null,
-                                                "nullable": {
-                                                    "trivia": ""
-                                                },
+                                                "nullable": true,
                                                 "union": false,
                                                 "idlType": "DOMString",
                                                 "baseName": "DOMString",
@@ -127,14 +125,14 @@
                             "close": ""
                         }
                     },
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "attribute-type",
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
                             "baseName": "DOMString",
@@ -158,9 +156,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -169,7 +165,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",
@@ -203,16 +199,14 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "nullable": true,
                                 "union": false,
                                 "idlType": "Client",
                                 "baseName": "Client",
@@ -265,14 +259,14 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "any",
                                 "baseName": "any",
@@ -308,7 +302,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n// Extracted from https://slightlyoff.github.io/ServiceWorker/spec/service_worker/ on 2014-05-08\n\n",
             "name": " ",
@@ -349,14 +343,14 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "any",
                                 "baseName": "any",
@@ -392,7 +386,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n// Extracted from https://slightlyoff.github.io/ServiceWorker/spec/service_worker/ on 2014-05-13\n\n",
             "name": " ",

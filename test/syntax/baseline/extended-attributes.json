@@ -72,7 +72,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",
@@ -152,7 +152,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",
@@ -175,7 +175,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -189,7 +189,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -204,7 +204,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -218,7 +218,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -233,7 +233,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -247,7 +247,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -262,7 +262,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "double",
                     "baseName": "double",
@@ -276,9 +276,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -314,7 +312,7 @@
                                     "type": "argument-type",
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "double",
                                     "baseName": "double",
@@ -327,8 +325,8 @@
                                     }
                                 },
                                 "default": null,
-                                "optional": null,
-                                "variadic": null,
+                                "optional": false,
+                                "variadic": false,
                                 "separator": null,
                                 "trivia": {
                                     "name": " "
@@ -351,7 +349,7 @@
                 "close": "\n"
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",
@@ -392,13 +390,13 @@
                     },
                     "union": true,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "idlType": [
                         {
                             "type": null,
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
@@ -417,7 +415,7 @@
                             "type": null,
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "Node",
                             "baseName": "Node",
@@ -442,7 +440,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n    ",
                     "name": " ",
@@ -475,7 +473,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

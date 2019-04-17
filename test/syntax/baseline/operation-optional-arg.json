@@ -18,7 +18,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "object",
                         "baseName": "object",
@@ -38,7 +38,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
@@ -51,8 +51,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
@@ -68,7 +68,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
@@ -81,8 +81,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
@@ -98,7 +98,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
@@ -111,8 +111,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
@@ -128,7 +128,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
@@ -148,10 +148,8 @@
                                     "value": " "
                                 }
                             },
-                            "optional": {
-                                "trivia": " "
-                            },
-                            "variadic": null,
+                            "optional": true,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -171,7 +169,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
             "name": " ",

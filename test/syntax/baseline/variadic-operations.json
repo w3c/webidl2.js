@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
@@ -30,9 +30,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -52,7 +50,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -72,7 +70,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "long",
                                 "baseName": "long",
@@ -85,10 +83,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": {
-                                "trivia": ""
-                            },
+                            "optional": false,
+                            "variadic": true,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -119,7 +115,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -139,7 +135,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "long",
                                 "baseName": "long",
@@ -152,10 +148,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": {
-                                "trivia": ""
-                            },
+                            "optional": false,
+                            "variadic": true,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -175,7 +169,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
             "name": " ",

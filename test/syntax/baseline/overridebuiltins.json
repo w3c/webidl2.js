@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
@@ -30,9 +30,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -52,7 +50,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
@@ -72,7 +70,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
@@ -85,8 +83,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -126,7 +124,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

@@ -19,14 +19,14 @@
                             "close": ""
                         }
                     },
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "void",
                             "baseName": "void",
@@ -50,7 +50,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n    ",
                     "name": " ",
@@ -59,7 +59,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",

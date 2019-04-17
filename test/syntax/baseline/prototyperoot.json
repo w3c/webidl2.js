@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
                     "baseName": "short",
@@ -30,9 +30,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -58,7 +56,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

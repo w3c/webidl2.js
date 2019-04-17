@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
@@ -47,9 +47,7 @@
                     }
                 },
                 "special": null,
-                "readonly": {
-                    "trivia": " "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -69,7 +67,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -95,7 +93,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
             "name": " ",

@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -27,7 +27,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -42,7 +42,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -56,7 +56,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -71,7 +71,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -85,7 +85,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -100,7 +100,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "float",
                     "baseName": "float",
@@ -114,9 +114,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -152,7 +150,7 @@
                                     "type": "argument-type",
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "float",
                                     "baseName": "float",
@@ -165,8 +163,8 @@
                                     }
                                 },
                                 "default": null,
-                                "optional": null,
-                                "variadic": null,
+                                "optional": false,
+                                "variadic": false,
                                 "separator": null,
                                 "trivia": {
                                     "name": " "
@@ -189,7 +187,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
                     "baseName": "long",
@@ -30,7 +30,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -45,9 +45,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -61,7 +59,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -76,7 +74,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -90,7 +88,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -106,7 +104,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
@@ -152,7 +150,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

@@ -7,7 +7,7 @@
             "type": "typedef-type",
             "extAttrs": null,
             "generic": null,
-            "nullable": null,
+            "nullable": false,
             "union": false,
             "idlType": "float",
             "baseName": "float",
@@ -45,7 +45,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "object",
                         "baseName": "object",
@@ -65,7 +65,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
@@ -78,8 +78,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -106,7 +106,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
@@ -126,7 +126,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
@@ -139,8 +139,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -163,7 +163,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n  // Interface identifier: \"System\"\n  // Qualified name:       \"::framework::System\"\n  ",
             "name": " ",
@@ -186,7 +186,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "boolean",
                     "baseName": "boolean",
@@ -200,7 +200,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n\n      // Attribute identifier: \"const\"\n      ",
                     "name": " ",
@@ -215,9 +215,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -231,7 +229,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n\n      // Attribute identifier: \"value\"\n      ",
                     "name": " ",
@@ -240,7 +238,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n\n    // Interface identifier: \"TextField\"\n    // Qualified name:       \"::framework::gui::TextField\"\n    ",
             "name": " ",
@@ -268,7 +266,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -288,9 +286,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "nullable": true,
                                 "union": false,
                                 "idlType": "EventListener",
                                 "baseName": "EventListener",
@@ -303,8 +299,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -324,7 +320,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n",
             "name": " ",

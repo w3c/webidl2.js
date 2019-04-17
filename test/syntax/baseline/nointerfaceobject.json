@@ -18,7 +18,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "any",
                         "baseName": "any",
@@ -38,7 +38,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "unsigned long",
                                 "baseName": "long",
@@ -54,8 +54,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -92,7 +92,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

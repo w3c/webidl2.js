@@ -14,13 +14,13 @@
                     "extAttrs": null,
                     "union": true,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "idlType": [
                         {
                             "type": null,
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "float",
                             "baseName": "float",
@@ -40,13 +40,13 @@
                             "extAttrs": null,
                             "union": true,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "idlType": [
                                 {
                                     "type": null,
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "Date",
                                     "baseName": "Date",
@@ -65,7 +65,7 @@
                                     "type": null,
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "Event",
                                     "baseName": "Event",
@@ -96,15 +96,13 @@
                             "extAttrs": null,
                             "union": true,
                             "generic": null,
-                            "nullable": {
-                                "trivia": ""
-                            },
+                            "nullable": true,
                             "idlType": [
                                 {
                                     "type": null,
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "Node",
                                     "baseName": "Node",
@@ -123,7 +121,7 @@
                                     "type": null,
                                     "extAttrs": null,
                                     "generic": null,
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
                                     "baseName": "DOMString",
@@ -159,7 +157,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n ",
                     "name": " ",
@@ -175,7 +173,7 @@
                     "extAttrs": null,
                     "union": true,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "idlType": [
                         {
                             "type": null,
@@ -198,7 +196,7 @@
                                 }
                             },
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
@@ -217,7 +215,7 @@
                             "type": null,
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "Date",
                             "baseName": "Date",
@@ -242,7 +240,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n ",
                     "name": " ",
@@ -251,7 +249,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",
