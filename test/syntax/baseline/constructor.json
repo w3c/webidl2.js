@@ -56,6 +56,192 @@
                 }
             },
             {
+                "type": "constructor",
+                "arguments": [
+                    {
+                        "name": "str",
+                        "escapedName": "str",
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": null,
+                            "generic": null,
+                            "nullable": null,
+                            "union": false,
+                            "idlType": "string",
+                            "baseName": "string",
+                            "escapedBaseName": "string",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "trivia": {
+                                "base": " "
+                            }
+                        },
+                        "default": {
+                            "type": "string",
+                            "value": "",
+                            "trivia": {
+                                "assign": " ",
+                                "value": " "
+                            }
+                        },
+                        "optional": {
+                            "trivia": ""
+                        },
+                        "variadic": null,
+                        "separator": null,
+                        "trivia": {
+                            "name": " "
+                        }
+                    }
+                ],
+                "extAttrs": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "constructor",
+                "arguments": [
+                    {
+                        "name": "seq",
+                        "escapedName": "seq",
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": null,
+                            "generic": {
+                                "value": "sequence",
+                                "trivia": {
+                                    "open": "",
+                                    "close": ""
+                                }
+                            },
+                            "nullable": null,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": null,
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "string",
+                                    "baseName": "string",
+                                    "escapedBaseName": "string",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "trivia": {
+                                        "base": ""
+                                    }
+                                }
+                            ],
+                            "baseName": "sequence",
+                            "escapedBaseName": "sequence",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "trivia": {
+                                "base": ""
+                            }
+                        },
+                        "default": null,
+                        "optional": null,
+                        "variadic": null,
+                        "separator": null,
+                        "trivia": {
+                            "name": " "
+                        }
+                    }
+                ],
+                "extAttrs": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "constructor",
+                "arguments": [
+                    {
+                        "name": "union",
+                        "escapedName": "union",
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": null,
+                            "union": true,
+                            "generic": null,
+                            "nullable": null,
+                            "idlType": [
+                                {
+                                    "type": null,
+                                    "extAttrs": null,
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "Type1",
+                                    "baseName": "Type1",
+                                    "escapedBaseName": "Type1",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": {
+                                        "value": "or",
+                                        "trivia": " "
+                                    },
+                                    "trivia": {
+                                        "base": ""
+                                    }
+                                },
+                                {
+                                    "type": null,
+                                    "extAttrs": null,
+                                    "generic": null,
+                                    "nullable": null,
+                                    "union": false,
+                                    "idlType": "Type2",
+                                    "baseName": "Type2",
+                                    "escapedBaseName": "Type2",
+                                    "prefix": null,
+                                    "postfix": null,
+                                    "separator": null,
+                                    "trivia": {
+                                        "base": " "
+                                    }
+                                }
+                            ],
+                            "baseName": null,
+                            "escapedBaseName": null,
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "trivia": {
+                                "open": "",
+                                "close": ""
+                            }
+                        },
+                        "default": null,
+                        "optional": null,
+                        "variadic": null,
+                        "separator": null,
+                        "trivia": {
+                            "name": " "
+                        }
+                    }
+                ],
+                "extAttrs": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                }
+            },
+            {
                 "type": "attribute",
                 "name": "r",
                 "escapedName": "r",
