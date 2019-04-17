@@ -11,9 +11,6 @@
             "idlType": "void",
             "baseName": "void",
             "escapedBaseName": "void",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
             "trivia": {
                 "base": " "
             }
@@ -31,9 +28,6 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": ""
                     }
@@ -41,7 +35,6 @@
                 "default": null,
                 "optional": false,
                 "variadic": false,
-                "separator": null,
                 "trivia": {
                     "name": " "
                 }
@@ -81,9 +74,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -101,9 +91,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -111,7 +98,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -152,9 +138,6 @@
             "idlType": "boolean",
             "baseName": "boolean",
             "escapedBaseName": "boolean",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
             "trivia": {
                 "base": " "
             }
@@ -172,9 +155,6 @@
                     "idlType": "any",
                     "baseName": "any",
                     "escapedBaseName": "any",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": ""
                     }
@@ -182,10 +162,6 @@
                 "default": null,
                 "optional": false,
                 "variadic": false,
-                "separator": {
-                    "value": ",",
-                    "trivia": ""
-                },
                 "trivia": {
                     "name": " "
                 }
@@ -202,9 +178,6 @@
                     "idlType": "any",
                     "baseName": "any",
                     "escapedBaseName": "any",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -212,7 +185,6 @@
                 "default": null,
                 "optional": false,
                 "variadic": false,
-                "separator": null,
                 "trivia": {
                     "name": " "
                 }

@@ -12,9 +12,6 @@
             "idlType": "Type",
             "baseName": "Type",
             "escapedBaseName": "_Type",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
             "trivia": {
                 "base": " "
             }
@@ -52,9 +49,6 @@
                     "idlType": "Type",
                     "baseName": "Type",
                     "escapedBaseName": "_Type",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": ""
                     }
@@ -62,9 +56,6 @@
             ],
             "baseName": "sequence",
             "escapedBaseName": "sequence",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
             "trivia": {
                 "base": " "
             }

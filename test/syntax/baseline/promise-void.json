@@ -31,9 +31,6 @@
                             "idlType": "void",
                             "baseName": "void",
                             "escapedBaseName": "void",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -41,9 +38,6 @@
                     ],
                     "baseName": "Promise",
                     "escapedBaseName": "Promise",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }

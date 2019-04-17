@@ -18,9 +18,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -47,9 +44,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -76,9 +70,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -105,9 +96,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -129,10 +117,6 @@
                     "name": "Constructor",
                     "rhs": null,
                     "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
                     "trivia": {
                         "name": ""
                     }
@@ -155,9 +139,6 @@
                                     "idlType": "float",
                                     "baseName": "float",
                                     "escapedBaseName": "float",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
                                     "trivia": {
                                         "base": ""
                                     }
@@ -165,7 +146,6 @@
                                 "default": null,
                                 "optional": false,
                                 "variadic": false,
-                                "separator": null,
                                 "trivia": {
                                     "name": " "
                                 }
@@ -176,7 +156,6 @@
                             "close": ""
                         }
                     },
-                    "separator": null,
                     "trivia": {
                         "name": "\n "
                     }

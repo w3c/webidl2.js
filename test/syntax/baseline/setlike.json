@@ -17,9 +17,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": ""
                         }
@@ -63,9 +60,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": ""
                         }
@@ -109,7 +103,6 @@
                                     "name": "XAttr",
                                     "rhs": null,
                                     "signature": null,
-                                    "separator": null,
                                     "trivia": {
                                         "name": ""
                                     }
@@ -126,9 +119,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }

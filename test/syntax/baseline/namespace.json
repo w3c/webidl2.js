@@ -17,9 +17,6 @@
                     "idlType": "Vector",
                     "baseName": "Vector",
                     "escapedBaseName": "Vector",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -51,9 +48,6 @@
                         "idlType": "double",
                         "baseName": "double",
                         "escapedBaseName": "double",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -71,9 +65,6 @@
                                 "idlType": "Vector",
                                 "baseName": "Vector",
                                 "escapedBaseName": "Vector",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -81,10 +72,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -101,9 +88,6 @@
                                 "idlType": "Vector",
                                 "baseName": "Vector",
                                 "escapedBaseName": "Vector",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -111,7 +95,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -146,9 +129,6 @@
                         "idlType": "Vector",
                         "baseName": "Vector",
                         "escapedBaseName": "Vector",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -166,9 +146,6 @@
                                 "idlType": "Vector",
                                 "baseName": "Vector",
                                 "escapedBaseName": "Vector",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -176,10 +153,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -196,9 +169,6 @@
                                 "idlType": "Vector",
                                 "baseName": "Vector",
                                 "escapedBaseName": "Vector",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -206,7 +176,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

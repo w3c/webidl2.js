@@ -7,26 +7,17 @@
             {
                 "type": "enum-value",
                 "value": "rice",
-                "trivia": " ",
-                "separator": {
-                    "value": ",",
-                    "trivia": ""
-                }
+                "trivia": " "
             },
             {
                 "type": "enum-value",
                 "value": "noodles",
-                "trivia": " ",
-                "separator": {
-                    "value": ",",
-                    "trivia": ""
-                }
+                "trivia": " "
             },
             {
                 "type": "enum-value",
                 "value": "other",
-                "trivia": " ",
-                "separator": null
+                "trivia": " "
             }
         ],
         "extAttrs": null,
@@ -57,9 +48,6 @@
                     "idlType": "MealType",
                     "baseName": "MealType",
                     "escapedBaseName": "MealType",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -86,9 +74,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -120,9 +105,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "     // in grams\n\n  "
                         }
@@ -140,9 +122,6 @@
                                 "idlType": "MealType",
                                 "baseName": "MealType",
                                 "escapedBaseName": "MealType",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -150,10 +129,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -170,9 +145,6 @@
                                 "idlType": "float",
                                 "baseName": "float",
                                 "escapedBaseName": "float",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -180,7 +152,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -216,29 +187,17 @@
             {
                 "type": "enum-value",
                 "value": "rice",
-                "trivia": " ",
-                "separator": {
-                    "value": ",",
-                    "trivia": ""
-                }
+                "trivia": " "
             },
             {
                 "type": "enum-value",
                 "value": "noodles",
-                "trivia": " ",
-                "separator": {
-                    "value": ",",
-                    "trivia": ""
-                }
+                "trivia": " "
             },
             {
                 "type": "enum-value",
                 "value": "other",
-                "trivia": " ",
-                "separator": {
-                    "value": ",",
-                    "trivia": ""
-                }
+                "trivia": " "
             }
         ],
         "extAttrs": null,

@@ -19,9 +19,6 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -54,9 +51,6 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -88,9 +82,6 @@
                     "idlType": "Point",
                     "baseName": "Point",
                     "escapedBaseName": "Point",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -129,9 +120,6 @@
                             "idlType": "long",
                             "baseName": "long",
                             "escapedBaseName": "long",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
                             "trivia": {
                                 "base": ""
                             }
@@ -139,9 +127,6 @@
                     ],
                     "baseName": "sequence",
                     "escapedBaseName": "sequence",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to \"[]\".\n  "
                     }
@@ -175,9 +160,6 @@
                     "idlType": "long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -219,9 +201,6 @@
                     "idlType": "long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n  "
                     }
@@ -247,9 +226,6 @@
                     "idlType": "long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n  "
                     }

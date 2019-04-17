@@ -23,9 +23,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -56,9 +53,6 @@
                                         "idlType": "DOMString",
                                         "baseName": "DOMString",
                                         "escapedBaseName": "DOMString",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
                                         "trivia": {
                                             "base": ""
                                         }
@@ -66,9 +60,6 @@
                                 ],
                                 "baseName": "sequence",
                                 "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -76,7 +67,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

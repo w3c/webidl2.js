@@ -18,9 +18,6 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -71,12 +68,6 @@
                     "idlType": "unsigned short",
                     "baseName": "short",
                     "escapedBaseName": "short",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -103,18 +94,12 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "inherit",
-                    "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
-                },
+                "special": "inherit",
                 "readonly": false,
                 "trivia": {
                     "base": " ",
@@ -159,18 +144,12 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "inherit",
-                    "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
-                },
+                "special": "inherit",
                 "readonly": true,
                 "trivia": {
                     "base": " ",

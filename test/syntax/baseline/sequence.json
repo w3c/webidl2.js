@@ -23,9 +23,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -56,9 +53,6 @@
                                         "idlType": "float",
                                         "baseName": "float",
                                         "escapedBaseName": "float",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
                                         "trivia": {
                                             "base": ""
                                         }
@@ -66,9 +60,6 @@
                                 ],
                                 "baseName": "sequence",
                                 "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -76,7 +67,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -124,9 +114,6 @@
                                 "idlType": "float",
                                 "baseName": "float",
                                 "escapedBaseName": "float",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -134,9 +121,6 @@
                         ],
                         "baseName": "sequence",
                         "escapedBaseName": "sequence",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -188,9 +172,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n    "
                         }
@@ -221,7 +202,6 @@
                                                     "name": "XAttr",
                                                     "rhs": null,
                                                     "signature": null,
-                                                    "separator": null,
                                                     "trivia": {
                                                         "name": ""
                                                     }
@@ -238,9 +218,6 @@
                                         "idlType": "long",
                                         "baseName": "long",
                                         "escapedBaseName": "long",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
                                         "trivia": {
                                             "base": " "
                                         }
@@ -248,9 +225,6 @@
                                 ],
                                 "baseName": "sequence",
                                 "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -258,7 +232,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

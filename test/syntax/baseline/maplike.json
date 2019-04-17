@@ -17,12 +17,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
                         "trivia": {
                             "base": ""
                         }
@@ -36,9 +30,6 @@
                         "idlType": "float",
                         "baseName": "float",
                         "escapedBaseName": "float",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
@@ -82,12 +73,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
                         "trivia": {
                             "base": ""
                         }
@@ -101,9 +86,6 @@
                         "idlType": "float",
                         "baseName": "float",
                         "escapedBaseName": "float",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
@@ -147,7 +129,6 @@
                                     "name": "XAttr2",
                                     "rhs": null,
                                     "signature": null,
-                                    "separator": null,
                                     "trivia": {
                                         "name": ""
                                     }
@@ -164,12 +145,6 @@
                         "idlType": "DOMString",
                         "baseName": "DOMString",
                         "escapedBaseName": "DOMString",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
                         "trivia": {
                             "base": " "
                         }
@@ -183,7 +158,6 @@
                                     "name": "XAttr3",
                                     "rhs": null,
                                     "signature": null,
-                                    "separator": null,
                                     "trivia": {
                                         "name": ""
                                     }
@@ -200,9 +174,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
