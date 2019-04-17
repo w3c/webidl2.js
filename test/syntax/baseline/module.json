@@ -33,7 +33,7 @@
                         "extAttrs": null,
                         "special": null,
                         "readonly": {
-                            "trivia": "\r\n    "
+                            "trivia": "\n    "
                         },
                         "trivia": {
                             "base": " ",
@@ -66,7 +66,7 @@
                                 },
                                 "separator": null,
                                 "trivia": {
-                                    "base": "\r\n    "
+                                    "base": "\n    "
                                 }
                             },
                             "arguments": [
@@ -116,10 +116,10 @@
                 "extAttrs": null,
                 "partial": null,
                 "trivia": {
-                    "base": "\r\n  ",
+                    "base": "\n  ",
                     "name": " ",
                     "open": " ",
-                    "close": "\r\n  ",
+                    "close": "\n  ",
                     "termination": ""
                 }
             },
@@ -145,7 +145,7 @@
                         "postfix": null,
                         "separator": null,
                         "trivia": {
-                            "base": "\r\n  "
+                            "base": "\n  "
                         }
                     },
                     "arguments": [],
@@ -183,7 +183,7 @@
                 "extAttrs": null,
                 "special": null,
                 "readonly": {
-                    "trivia": "\r\n  "
+                    "trivia": "\n  "
                 },
                 "trivia": {
                     "base": " ",
@@ -226,16 +226,16 @@
                 }
             ],
             "trivia": {
-                "open": "// Copied from https://github.com/heycam/webidl/pull/675\r\n\r\n",
+                "open": "// Copied from https://github.com/heycam/webidl/pull/675\n\n",
                 "close": ""
             }
         },
         "partial": null,
         "trivia": {
-            "base": "\r\n",
+            "base": "\n",
             "name": " ",
             "open": " ",
-            "close": "\r\n",
+            "close": "\n",
             "termination": ""
         }
     },
@@ -273,7 +273,7 @@
                         "special": null,
                         "readonly": null,
                         "trivia": {
-                            "base": "\r\n    ",
+                            "base": "\n    ",
                             "name": " ",
                             "termination": ""
                         }
@@ -281,33 +281,33 @@
                 ],
                 "extAttrs": null,
                 "partial": {
-                    "trivia": "\r\n  "
+                    "trivia": "\n  "
                 },
                 "trivia": {
-                    "partial": "\r\n  ",
+                    "partial": "\n  ",
                     "base": " ",
                     "name": " ",
                     "open": " ",
-                    "close": "\r\n  ",
+                    "close": "\n  ",
                     "termination": ""
                 }
             }
         ],
         "extAttrs": null,
         "partial": {
-            "trivia": "\r\n\r\n"
+            "trivia": "\n\n"
         },
         "trivia": {
             "base": " ",
             "name": " ",
             "open": " ",
-            "close": "\r\n",
+            "close": "\n",
             "termination": ""
         }
     },
     {
         "type": "eof",
         "value": "",
-        "trivia": "\r\n"
+        "trivia": "\n"
     }
 ]
