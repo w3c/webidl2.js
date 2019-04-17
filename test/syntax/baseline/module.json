@@ -1,0 +1,313 @@
+[
+    {
+        "type": "module",
+        "name": "temporal",
+        "escapedName": "temporal",
+        "members": [
+            {
+                "type": "interface",
+                "name": "Timezone",
+                "escapedName": "Timezone",
+                "inheritance": null,
+                "members": [
+                    {
+                        "type": "attribute",
+                        "name": "name",
+                        "escapedName": "name",
+                        "idlType": {
+                            "type": "attribute-type",
+                            "extAttrs": null,
+                            "generic": null,
+                            "nullable": null,
+                            "union": false,
+                            "idlType": "USVString",
+                            "baseName": "USVString",
+                            "escapedBaseName": "USVString",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "trivia": {
+                                "base": " "
+                            }
+                        },
+                        "extAttrs": null,
+                        "special": null,
+                        "readonly": {
+                            "trivia": "\r\n    "
+                        },
+                        "trivia": {
+                            "base": " ",
+                            "name": " ",
+                            "termination": ""
+                        }
+                    },
+                    {
+                        "type": "operation",
+                        "name": "offsetMs",
+                        "body": {
+                            "name": {
+                                "value": "offsetMs",
+                                "escaped": "offsetMs",
+                                "trivia": " "
+                            },
+                            "idlType": {
+                                "type": "return-type",
+                                "extAttrs": null,
+                                "generic": null,
+                                "nullable": null,
+                                "union": false,
+                                "idlType": "long long",
+                                "baseName": "long",
+                                "escapedBaseName": "long",
+                                "prefix": null,
+                                "postfix": {
+                                    "value": "long",
+                                    "trivia": " "
+                                },
+                                "separator": null,
+                                "trivia": {
+                                    "base": "\r\n    "
+                                }
+                            },
+                            "arguments": [
+                                {
+                                    "name": "unixTime",
+                                    "escapedName": "unixTime",
+                                    "idlType": {
+                                        "type": "argument-type",
+                                        "extAttrs": null,
+                                        "generic": null,
+                                        "nullable": null,
+                                        "union": false,
+                                        "idlType": "long long",
+                                        "baseName": "long",
+                                        "escapedBaseName": "long",
+                                        "prefix": null,
+                                        "postfix": {
+                                            "value": "long",
+                                            "trivia": " "
+                                        },
+                                        "separator": null,
+                                        "trivia": {
+                                            "base": ""
+                                        }
+                                    },
+                                    "default": null,
+                                    "optional": null,
+                                    "variadic": null,
+                                    "separator": null,
+                                    "trivia": {
+                                        "name": " "
+                                    }
+                                }
+                            ],
+                            "trivia": {
+                                "open": "",
+                                "close": ""
+                            }
+                        },
+                        "extAttrs": null,
+                        "special": null,
+                        "trivia": {
+                            "termination": ""
+                        }
+                    }
+                ],
+                "extAttrs": null,
+                "partial": null,
+                "trivia": {
+                    "base": "\r\n  ",
+                    "name": " ",
+                    "open": " ",
+                    "close": "\r\n  ",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "operation",
+                "name": "getCurrentTimezone",
+                "body": {
+                    "name": {
+                        "value": "getCurrentTimezone",
+                        "escaped": "getCurrentTimezone",
+                        "trivia": " "
+                    },
+                    "idlType": {
+                        "type": "return-type",
+                        "extAttrs": null,
+                        "generic": null,
+                        "nullable": null,
+                        "union": false,
+                        "idlType": "temporal.Timezone",
+                        "baseName": "temporal.Timezone",
+                        "escapedBaseName": "temporal.Timezone",
+                        "prefix": null,
+                        "postfix": null,
+                        "separator": null,
+                        "trivia": {
+                            "base": "\r\n  "
+                        }
+                    },
+                    "arguments": [],
+                    "trivia": {
+                        "open": "",
+                        "close": ""
+                    }
+                },
+                "extAttrs": null,
+                "special": null,
+                "trivia": {
+                    "termination": ""
+                }
+            },
+            {
+                "type": "attribute",
+                "name": "initialTimezone",
+                "escapedName": "initialTimezone",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": null,
+                    "generic": null,
+                    "nullable": null,
+                    "union": false,
+                    "idlType": "temporal.Timezone",
+                    "baseName": "temporal.Timezone",
+                    "escapedBaseName": "temporal.Timezone",
+                    "prefix": null,
+                    "postfix": null,
+                    "separator": null,
+                    "trivia": {
+                        "base": " "
+                    }
+                },
+                "extAttrs": null,
+                "special": null,
+                "readonly": {
+                    "trivia": "\r\n  "
+                },
+                "trivia": {
+                    "base": " ",
+                    "name": " ",
+                    "termination": ""
+                }
+            }
+        ],
+        "extAttrs": {
+            "items": [
+                {
+                    "type": "extended-attribute",
+                    "name": "Exposed",
+                    "rhs": {
+                        "type": "identifier",
+                        "value": "Window",
+                        "trivia": {
+                            "assign": "",
+                            "value": ""
+                        }
+                    },
+                    "signature": null,
+                    "separator": {
+                        "value": ",",
+                        "trivia": ""
+                    },
+                    "trivia": {
+                        "name": ""
+                    }
+                },
+                {
+                    "type": "extended-attribute",
+                    "name": "SecureContext",
+                    "rhs": null,
+                    "signature": null,
+                    "separator": null,
+                    "trivia": {
+                        "name": " "
+                    }
+                }
+            ],
+            "trivia": {
+                "open": "// Copied from https://github.com/heycam/webidl/pull/675\r\n\r\n",
+                "close": ""
+            }
+        },
+        "partial": null,
+        "trivia": {
+            "base": "\r\n",
+            "name": " ",
+            "open": " ",
+            "close": "\r\n",
+            "termination": ""
+        }
+    },
+    {
+        "type": "module",
+        "name": "temporal",
+        "escapedName": "temporal",
+        "members": [
+            {
+                "type": "interface",
+                "name": "Timezone",
+                "escapedName": "Timezone",
+                "members": [
+                    {
+                        "type": "attribute",
+                        "name": "zero",
+                        "escapedName": "zero",
+                        "idlType": {
+                            "type": "attribute-type",
+                            "extAttrs": null,
+                            "generic": null,
+                            "nullable": null,
+                            "union": false,
+                            "idlType": "float",
+                            "baseName": "float",
+                            "escapedBaseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "trivia": {
+                                "base": " "
+                            }
+                        },
+                        "extAttrs": null,
+                        "special": null,
+                        "readonly": null,
+                        "trivia": {
+                            "base": "\r\n    ",
+                            "name": " ",
+                            "termination": ""
+                        }
+                    }
+                ],
+                "extAttrs": null,
+                "partial": {
+                    "trivia": "\r\n  "
+                },
+                "trivia": {
+                    "partial": "\r\n  ",
+                    "base": " ",
+                    "name": " ",
+                    "open": " ",
+                    "close": "\r\n  ",
+                    "termination": ""
+                }
+            }
+        ],
+        "extAttrs": null,
+        "partial": {
+            "trivia": "\r\n\r\n"
+        },
+        "trivia": {
+            "base": " ",
+            "name": " ",
+            "open": " ",
+            "close": "\r\n",
+            "termination": ""
+        }
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\r\n"
+    }
+]

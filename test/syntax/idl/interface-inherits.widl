@@ -10,3 +10,7 @@ interface Human : Animal {
 interface Dog : Animal {
   attribute Human owner;
 };
+
+interface Bonsai : Tree.Art {
+  attribute DOMString name;
+};

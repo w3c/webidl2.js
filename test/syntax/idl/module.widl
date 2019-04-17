@@ -1,0 +1,17 @@
+// Copied from https://github.com/heycam/webidl/pull/675
+
+[Exposed=Window, SecureContext]
+module temporal {
+  interface Timezone {
+    readonly attribute USVString name;
+    long long offsetMs(long long unixTime);
+  };
+  temporal.Timezone getCurrentTimezone();
+  readonly attribute temporal.Timezone initialTimezone;
+};
+
+partial module temporal {
+  partial interface Timezone {
+    attribute float zero;
+  };
+};
