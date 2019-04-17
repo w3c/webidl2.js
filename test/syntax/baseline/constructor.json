@@ -6,6 +6,56 @@
         "inheritance": null,
         "members": [
             {
+                "type": "constructor",
+                "arguments": [],
+                "extAttrs": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                }
+            },
+            {
+                "type": "constructor",
+                "arguments": [
+                    {
+                        "name": "radius",
+                        "escapedName": "radius",
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": null,
+                            "generic": null,
+                            "nullable": null,
+                            "union": false,
+                            "idlType": "float",
+                            "baseName": "float",
+                            "escapedBaseName": "float",
+                            "prefix": null,
+                            "postfix": null,
+                            "separator": null,
+                            "trivia": {
+                                "base": ""
+                            }
+                        },
+                        "default": null,
+                        "optional": null,
+                        "variadic": null,
+                        "separator": null,
+                        "trivia": {
+                            "name": " "
+                        }
+                    }
+                ],
+                "extAttrs": null,
+                "trivia": {
+                    "base": "\n  ",
+                    "open": "",
+                    "close": "",
+                    "termination": ""
+                }
+            },
+            {
                 "type": "attribute",
                 "name": "r",
                 "escapedName": "r",
@@ -124,74 +174,10 @@
                 }
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Constructor",
-                    "rhs": null,
-                    "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
-                    "trivia": {
-                        "name": ""
-                    }
-                },
-                {
-                    "type": "extended-attribute",
-                    "name": "Constructor",
-                    "rhs": null,
-                    "signature": {
-                        "arguments": [
-                            {
-                                "name": "radius",
-                                "escapedName": "radius",
-                                "idlType": {
-                                    "type": "argument-type",
-                                    "extAttrs": null,
-                                    "generic": null,
-                                    "nullable": null,
-                                    "union": false,
-                                    "idlType": "float",
-                                    "baseName": "float",
-                                    "escapedBaseName": "float",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
-                                    "trivia": {
-                                        "base": ""
-                                    }
-                                },
-                                "default": null,
-                                "optional": null,
-                                "variadic": null,
-                                "separator": null,
-                                "trivia": {
-                                    "name": " "
-                                }
-                            }
-                        ],
-                        "trivia": {
-                            "open": "",
-                            "close": ""
-                        }
-                    },
-                    "separator": null,
-                    "trivia": {
-                        "name": "\n "
-                    }
-                }
-            ],
-            "trivia": {
-                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-                "close": ""
-            }
-        },
+        "extAttrs": null,
         "partial": null,
         "trivia": {
-            "base": "\n",
+            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
             "name": " ",
             "open": " ",
             "close": "\n",
@@ -201,6 +187,6 @@
     {
         "type": "eof",
         "value": "",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]
