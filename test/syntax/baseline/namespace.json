@@ -12,7 +12,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "Vector",
                     "baseName": "Vector",
@@ -26,9 +26,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -48,7 +46,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "double",
                         "baseName": "double",
@@ -68,7 +66,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
                                 "baseName": "Vector",
@@ -81,8 +79,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
@@ -98,7 +96,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
                                 "baseName": "Vector",
@@ -111,8 +109,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -143,7 +141,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "Vector",
                         "baseName": "Vector",
@@ -163,7 +161,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
                                 "baseName": "Vector",
@@ -176,8 +174,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": {
                                 "value": ",",
                                 "trivia": ""
@@ -193,7 +191,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
                                 "baseName": "Vector",
@@ -206,8 +204,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -227,7 +225,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from Web IDL editors draft March 27 2017\n",
             "name": " ",
@@ -242,9 +240,7 @@
         "escapedName": "SomeNamespace",
         "members": [],
         "extAttrs": null,
-        "partial": {
-            "trivia": "\n\n"
-        },
+        "partial": true,
         "trivia": {
             "base": " ",
             "name": " ",
@@ -259,7 +255,7 @@
         "escapedName": "_ScalarUtils",
         "members": [],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n",
             "name": " ",

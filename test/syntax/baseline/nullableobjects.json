@@ -6,7 +6,7 @@
         "inheritance": null,
         "members": [],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from WebIDL spec 2011-05-23\n\n",
             "name": " ",
@@ -22,7 +22,7 @@
         "inheritance": null,
         "members": [],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",
@@ -50,7 +50,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -70,9 +70,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "nullable": true,
                                 "union": false,
                                 "idlType": "A",
                                 "baseName": "A",
@@ -85,8 +83,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -117,7 +115,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -137,9 +135,7 @@
                                 "type": "argument-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "nullable": true,
                                 "union": false,
                                 "idlType": "B",
                                 "baseName": "B",
@@ -152,8 +148,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -173,7 +169,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",

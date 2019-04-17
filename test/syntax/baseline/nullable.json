@@ -13,9 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -29,9 +27,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "name": " ",
@@ -40,7 +36,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",

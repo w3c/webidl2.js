@@ -18,7 +18,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -44,14 +44,14 @@
                                         "close": ""
                                     }
                                 },
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
                                         "extAttrs": null,
                                         "generic": null,
-                                        "nullable": null,
+                                        "nullable": false,
                                         "union": false,
                                         "idlType": "float",
                                         "baseName": "float",
@@ -74,8 +74,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -112,14 +112,14 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
@@ -155,7 +155,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n// edited to remove sequence as attributes, now invalid\n",
             "name": " ",
@@ -183,7 +183,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -209,7 +209,7 @@
                                         "close": ""
                                     }
                                 },
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
@@ -233,7 +233,7 @@
                                             }
                                         },
                                         "generic": null,
-                                        "nullable": null,
+                                        "nullable": false,
                                         "union": false,
                                         "idlType": "long",
                                         "baseName": "long",
@@ -256,8 +256,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -277,7 +277,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
             "name": " ",

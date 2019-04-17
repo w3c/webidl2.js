@@ -18,7 +18,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -44,7 +44,7 @@
                                         "close": ""
                                     }
                                 },
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
@@ -57,14 +57,14 @@
                                                 "close": ""
                                             }
                                         },
-                                        "nullable": null,
+                                        "nullable": false,
                                         "union": false,
                                         "idlType": [
                                             {
                                                 "type": "argument-type",
                                                 "extAttrs": null,
                                                 "generic": null,
-                                                "nullable": null,
+                                                "nullable": false,
                                                 "union": false,
                                                 "idlType": "ByteString",
                                                 "baseName": "ByteString",
@@ -83,7 +83,7 @@
                                                 "type": "argument-type",
                                                 "extAttrs": null,
                                                 "generic": null,
-                                                "nullable": null,
+                                                "nullable": false,
                                                 "union": false,
                                                 "idlType": "any",
                                                 "baseName": "any",
@@ -116,8 +116,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -154,14 +154,14 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
@@ -181,15 +181,13 @@
                                 "extAttrs": null,
                                 "union": true,
                                 "generic": null,
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "nullable": true,
                                 "idlType": [
                                     {
                                         "type": null,
                                         "extAttrs": null,
                                         "generic": null,
-                                        "nullable": null,
+                                        "nullable": false,
                                         "union": false,
                                         "idlType": "float",
                                         "baseName": "float",
@@ -208,7 +206,7 @@
                                         "type": null,
                                         "extAttrs": null,
                                         "generic": null,
-                                        "nullable": null,
+                                        "nullable": false,
                                         "union": false,
                                         "idlType": "DOMString",
                                         "baseName": "DOMString",
@@ -275,14 +273,14 @@
                                             "close": ""
                                         }
                                     },
-                                    "nullable": null,
+                                    "nullable": false,
                                     "union": false,
                                     "idlType": [
                                         {
                                             "type": "argument-type",
                                             "extAttrs": null,
                                             "generic": null,
-                                            "nullable": null,
+                                            "nullable": false,
                                             "union": false,
                                             "idlType": "USVString",
                                             "baseName": "USVString",
@@ -301,7 +299,7 @@
                                             "type": "argument-type",
                                             "extAttrs": null,
                                             "generic": null,
-                                            "nullable": null,
+                                            "nullable": false,
                                             "union": false,
                                             "idlType": "USVString",
                                             "baseName": "USVString",
@@ -324,8 +322,8 @@
                                     }
                                 },
                                 "default": null,
-                                "optional": null,
-                                "variadic": null,
+                                "optional": false,
+                                "variadic": false,
                                 "separator": null,
                                 "trivia": {
                                     "name": " "
@@ -348,7 +346,7 @@
                 "close": ""
             }
         },
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n",
             "name": " ",
@@ -382,14 +380,14 @@
                                 "close": ""
                             }
                         },
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
@@ -425,7 +423,7 @@
                                     }
                                 },
                                 "generic": null,
-                                "nullable": null,
+                                "nullable": false,
                                 "union": false,
                                 "idlType": "float",
                                 "baseName": "float",
@@ -461,7 +459,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n",
             "name": " ",

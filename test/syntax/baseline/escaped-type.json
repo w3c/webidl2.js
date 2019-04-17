@@ -7,7 +7,7 @@
             "type": "typedef-type",
             "extAttrs": null,
             "generic": null,
-            "nullable": null,
+            "nullable": false,
             "union": false,
             "idlType": "Type",
             "baseName": "Type",
@@ -40,14 +40,14 @@
                     "close": ""
                 }
             },
-            "nullable": null,
+            "nullable": false,
             "union": false,
             "idlType": [
                 {
                     "type": "typedef-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "Type",
                     "baseName": "Type",

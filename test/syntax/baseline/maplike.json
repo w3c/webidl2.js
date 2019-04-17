@@ -12,7 +12,7 @@
                         "type": null,
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
@@ -31,7 +31,7 @@
                         "type": null,
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "float",
                         "baseName": "float",
@@ -45,7 +45,7 @@
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "open": "",
@@ -55,7 +55,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",
@@ -77,7 +77,7 @@
                         "type": null,
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
@@ -96,7 +96,7 @@
                         "type": null,
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "float",
                         "baseName": "float",
@@ -110,9 +110,7 @@
                     }
                 ],
                 "extAttrs": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
+                "readonly": true,
                 "trivia": {
                     "base": " ",
                     "open": "",
@@ -122,7 +120,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n",
             "name": " ",
@@ -161,7 +159,7 @@
                             }
                         },
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
                         "baseName": "DOMString",
@@ -197,7 +195,7 @@
                             }
                         },
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "long",
                         "baseName": "long",
@@ -211,7 +209,7 @@
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n    ",
                     "open": "",
@@ -221,7 +219,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
             "name": " ",

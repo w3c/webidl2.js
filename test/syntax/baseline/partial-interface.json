@@ -13,7 +13,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -27,7 +27,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -36,7 +36,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",
@@ -58,7 +58,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -72,7 +72,7 @@
                 },
                 "extAttrs": null,
                 "special": null,
-                "readonly": null,
+                "readonly": false,
                 "trivia": {
                     "base": "\n  ",
                     "name": " ",
@@ -81,9 +81,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": "\n\n"
-        },
+        "partial": true,
         "trivia": {
             "base": " ",
             "name": " ",

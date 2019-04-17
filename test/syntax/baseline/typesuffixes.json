@@ -18,7 +18,7 @@
                         "type": "return-type",
                         "extAttrs": null,
                         "generic": null,
-                        "nullable": null,
+                        "nullable": false,
                         "union": false,
                         "idlType": "void",
                         "baseName": "void",
@@ -44,18 +44,14 @@
                                         "close": ""
                                     }
                                 },
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "nullable": true,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
                                         "extAttrs": null,
                                         "generic": null,
-                                        "nullable": {
-                                            "trivia": ""
-                                        },
+                                        "nullable": true,
                                         "union": false,
                                         "idlType": "DOMString",
                                         "baseName": "DOMString",
@@ -78,8 +74,8 @@
                                 }
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
+                            "optional": false,
+                            "variadic": false,
                             "separator": null,
                             "trivia": {
                                 "name": " "
@@ -99,7 +95,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",

@@ -13,7 +13,7 @@
         },
         "members": [],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "",
             "name": " ",

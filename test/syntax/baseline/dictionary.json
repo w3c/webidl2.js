@@ -14,9 +14,7 @@
                     "type": "dictionary-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -36,7 +34,7 @@
                         "value": " "
                     }
                 },
-                "required": null,
+                "required": false,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -51,9 +49,7 @@
                     "type": "dictionary-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
                     "baseName": "DOMString",
@@ -72,7 +68,7 @@
                         "value": " "
                     }
                 },
-                "required": null,
+                "required": false,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -87,7 +83,7 @@
                     "type": "dictionary-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "Point",
                     "baseName": "Point",
@@ -100,7 +96,7 @@
                     }
                 },
                 "default": null,
-                "required": null,
+                "required": false,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -121,14 +117,14 @@
                             "close": ""
                         }
                     },
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "dictionary-type",
                             "extAttrs": null,
                             "generic": null,
-                            "nullable": null,
+                            "nullable": false,
                             "union": false,
                             "idlType": "long",
                             "baseName": "long",
@@ -159,7 +155,7 @@
                         "close": ""
                     }
                 },
-                "required": null,
+                "required": false,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -174,7 +170,7 @@
                     "type": "dictionary-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "long",
                     "baseName": "long",
@@ -187,9 +183,7 @@
                     }
                 },
                 "default": null,
-                "required": {
-                    "trivia": "\n  // https://heycam.github.io/webidl/#required-dictionary-member\n  "
-                },
+                "required": true,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -197,7 +191,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": null,
+        "partial": false,
         "trivia": {
             "base": "// Extracted from Web IDL editors draft May 31 2011\n",
             "name": " ",
@@ -220,7 +214,7 @@
                     "type": "dictionary-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "long",
                     "baseName": "long",
@@ -233,7 +227,7 @@
                     }
                 },
                 "default": null,
-                "required": null,
+                "required": false,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -248,7 +242,7 @@
                     "type": "dictionary-type",
                     "extAttrs": null,
                     "generic": null,
-                    "nullable": null,
+                    "nullable": false,
                     "union": false,
                     "idlType": "long",
                     "baseName": "long",
@@ -261,7 +255,7 @@
                     }
                 },
                 "default": null,
-                "required": null,
+                "required": false,
                 "trivia": {
                     "name": " ",
                     "termination": ""
@@ -269,9 +263,7 @@
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": "\n\n"
-        },
+        "partial": true,
         "trivia": {
             "base": " ",
             "name": " ",

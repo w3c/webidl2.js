@@ -166,7 +166,7 @@ attached to a field called `idlType`:
   "type": "attribute-type",
   "generic": null,
   "idlType": "unsigned short",
-  "nullable": null,
+  "nullable": false,
   "union": false,
   "baseName": "short",
   "prefix": {
@@ -207,7 +207,7 @@ Where the fields are as follows:
 * `separator`: An object with the following fields if a separator follows:
   * `value`: String indicating the separator token value, e.g. "," or "or".
   * `trivia`: Whitespaces or comments preceding separator token.
-* `nullable`: An object with a string type field `trivia` if the type is nullable.
+* `nullable`: `true` if the type is nullable.
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
 
@@ -235,7 +235,7 @@ Interfaces look like this:
 {
   "type": "interface",
   "name": "Animal",
-  "partial": null,
+  "partial": false,
   "members": [...],
   "trivia": {
     "base": "",
@@ -249,7 +249,7 @@ Interfaces look like this:
 }, {
   "type": "interface",
   "name": "Human",
-  "partial": null,
+  "partial": false,
   "members": [...],
   "trivia": {
     "base": "\n\n",
@@ -279,7 +279,7 @@ The fields are as follows:
 
 * `type`: Always "interface".
 * `name`: The name of the interface.
-* `partial`: If a partial interface, an object with a string type field `trivia`. Otherwise, `null`.
+* `partial`: `true` if the type is a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
@@ -293,7 +293,7 @@ Interfaces mixins look like this:
 {
   "type": "interface mixin",
   "name": "Animal",
-  "partial": null,
+  "partial": false,
   "members": [...],
   "trivia": {
     "base": "",
@@ -307,7 +307,7 @@ Interfaces mixins look like this:
 }, {
   "type": "interface mixin",
   "name": "Human",
-  "partial": null,
+  "partial": false,
   "members": [...],
   "trivia": {
     "base": "",
@@ -331,7 +331,7 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
-* `partial`: If a partial interface mixin, an object with a string type field `trivia`. Otherwise, `null`.
+* `partial`: `true if the type is a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
@@ -344,7 +344,7 @@ Namespaces look like this:
 {
   "type": "namespace",
   "name": "console",
-  "partial": null,
+  "partial": false,
   "members": [...],
   "trivia": {
     "base": "",
@@ -367,7 +367,7 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
-* `partial`: If a partial namespace, an object with a string type field `trivia`. Otherwise, `null`.
+* `partial`: `true if the type is a partial namespace.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `trivia`: A trivia object.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
@@ -389,7 +389,7 @@ A callback looks like this:
   "idlType": {
     "type": "return-type",
     "generic": null,
-    "nullable": null,
+    "nullable": false,
     "union": false,
     "idlType": "void",
     "baseName": "void",
@@ -431,18 +431,16 @@ A dictionary looks like this:
 {
   "type": "dictionary",
   "name": "PaintOptions",
-  "partial": null,
+  "partial": false,
   "members": [{
     "type": "field",
     "name": "fillPattern",
     "escapedName": "fillPattern",
-    "required": null,
+    "required": false,
     "idlType": {
       "type": "dictionary-type",
       "generic": null,
-      "nullable": {
-        "trivia": ""
-      },
+      "nullable": true
       "union": false,
       "idlType": "DOMString",
       "baseName": "DOMString",
@@ -481,7 +479,7 @@ The fields are as follows:
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
 * `escapedName`: The dictionary name including possible escaping underscore.
-* `partial`: If the type is a partial dictionary, an object with a string type field `trivia`. Otherwise, `null`.
+* `partial`: `true` if the type is a partial dictionary.
 * `members`: An array of members (see below).
 * `trivia`: A trivia object.
 * `inheritance`: An object indicating which dictionary is being inherited from, `null` otherwise.
@@ -491,7 +489,7 @@ All the members are fields as follows:
 
 * `type`: Always "field".
 * `name`: The name of the field.
-* `required`: If the field is required, an object with a string type field `trivia`. Otherwise, `null`.
+* `required`: `true` if the field is required.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
 * `default`: A [default value](#default-and-const-values), absent if there is none.
@@ -565,7 +563,7 @@ A typedef looks like this:
       {
         "type": "typedef-type",
         "generic": null,
-        "nullable": null,
+        "nullable": false,
         "union": false,
         "idlType": "Point",
         "baseName": "Point",
@@ -635,7 +633,7 @@ An operation looks like this:
     "idlType": {
       "type": "return-type",
       "generic": null,
-      "nullable": null,
+      "nullable": false,
       "union": false,
       "idlType": "void",
       "baseName": "void",
@@ -707,7 +705,7 @@ An attribute member looks like this:
   "static": null,
   "stringifier": null,
   "inherit": null,
-  "readonly": null,
+  "readonly": false,
   "trivia": {
     "base": "",
     "name": " ",
@@ -716,7 +714,7 @@ An attribute member looks like this:
   "idlType": {
     "type": "attribute-type",
     "generic": null,
-    "nullable": null,
+    "nullable": false,
     "union": false,
     "idlType": "any",
     "baseName": "any",
@@ -742,7 +740,7 @@ The fields are as follows:
 * `static`: If it's a static attribute, an object with a string type field `trivia`. Otherwise, `null`.
 * `stringifier`: If it's a stringifier attribute, an object with a string type field `trivia`. Otherwise, `null`.
 * `inherit`: If it's an inherit attribute, an object with a string type field `trivia`. Otherwise, `null`.
-* `readonly`: If it's a read-only attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `readonly`: `true` if the attribute is read-only.
 * `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
@@ -757,7 +755,7 @@ A constant member looks like this:
   "idlType": {
     "type": "const-type",
     "generic": null,
-    "nullable": null,
+    "nullable": false,
     "union": false,
     "idlType": "boolean",
     "baseName": "boolean",
@@ -801,10 +799,8 @@ The arguments (e.g. for an operation) look like this:
 ```JS
 {
   "arguments": [{
-    "optional": null,
-    "variadic": {
-      "trivia": ""
-    },
+    "optional": false,
+    "variadic": true
     "extAttrs": null,
     "trivia": {
       "name": " "
@@ -812,7 +808,7 @@ The arguments (e.g. for an operation) look like this:
     "idlType": {
       "type": "argument-type",
       "generic": null,
-      "nullable": null,
+      "nullable": false,
       "union": false,
       "idlType": "float",
       "baseName": "float",
@@ -836,8 +832,8 @@ The arguments (e.g. for an operation) look like this:
 
 The fields are as follows:
 
-* `optional`: If the argument is optional, an object with a string type field `trivia`. Otherwise, `null`.
-* `variadic`: If the argument is variadic, an object with a string type field `trivia`. Otherwise, `null`.
+* `optional`: `true` if the argument is optional.
+* `variadic`: `true` if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `escapedName`: The argument's name including possible escaping underscore.
@@ -927,7 +923,7 @@ These appear as members of interfaces that look like this:
 {
   "type": "maplike", // or "iterable" / "setlike"
   "idlType": /* One or two types */ ,
-  "readonly": null, // only for maplike and setlike
+  "readonly": false, // only for maplike and setlike
   "trivia": {
     "base": " ",
     "open": "",
@@ -942,7 +938,7 @@ The fields are as follows:
 
 * `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
-* `readonly`: If the maplike or setlike is declared as read only, an object with a string type field `trivia`. Otherwise, `null`.
+* `readonly`: `true` if the maplike or setlike is declared as read only.
 * `trivia`: A trivia object.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
 
