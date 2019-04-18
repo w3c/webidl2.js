@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Foo",
-        "escapedName": "Foo",
         "inheritance": null,
         "members": [
             {
@@ -11,7 +10,6 @@
                 "body": {
                     "name": {
                         "value": "bar",
-                        "escaped": "bar",
                         "trivia": " "
                     },
                     "idlType": {
@@ -60,29 +58,21 @@
                                                 "nullable": true,
                                                 "union": false,
                                                 "idlType": "DOMString",
-                                                "baseName": "DOMString",
-                                                "escapedBaseName": "DOMString",
                                                 "trivia": {
                                                     "base": ""
                                                 }
                                             }
                                         ],
-                                        "baseName": "sequence",
-                                        "escapedBaseName": "sequence",
                                         "trivia": {
                                             "base": ""
                                         }
                                     }
                                 ],
-                                "baseName": "Promise",
-                                "escapedBaseName": "Promise",
                                 "trivia": {
                                     "base": ""
                                 }
                             }
                         ],
-                        "baseName": "Promise",
-                        "escapedBaseName": "Promise",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -102,7 +92,6 @@
             {
                 "type": "attribute",
                 "name": "baz",
-                "escapedName": "baz",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -123,15 +112,11 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "DOMString",
-                            "baseName": "DOMString",
-                            "escapedBaseName": "DOMString",
                             "trivia": {
                                 "base": ""
                             }
                         }
                     ],
-                    "baseName": "Promise",
-                    "escapedBaseName": "Promise",
                     "trivia": {
                         "base": " "
                     }
@@ -159,7 +144,6 @@
     {
         "type": "interface",
         "name": "ServiceWorkerClients",
-        "escapedName": "ServiceWorkerClients",
         "inheritance": null,
         "members": [
             {
@@ -168,7 +152,6 @@
                 "body": {
                     "name": {
                         "value": "getServiced",
-                        "escaped": "getServiced",
                         "trivia": " "
                     },
                     "idlType": {
@@ -191,15 +174,11 @@
                                 "nullable": true,
                                 "union": false,
                                 "idlType": "Client",
-                                "baseName": "Client",
-                                "escapedBaseName": "Client",
                                 "trivia": {
                                     "base": ""
                                 }
                             }
                         ],
-                        "baseName": "Promise",
-                        "escapedBaseName": "Promise",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -222,7 +201,6 @@
                 "body": {
                     "name": {
                         "value": "reloadAll",
-                        "escaped": "reloadAll",
                         "trivia": " "
                     },
                     "idlType": {
@@ -245,15 +223,11 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "any",
-                                "baseName": "any",
-                                "escapedBaseName": "any",
                                 "trivia": {
                                     "base": ""
                                 }
                             }
                         ],
-                        "baseName": "Promise",
-                        "escapedBaseName": "Promise",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -284,10 +258,8 @@
     {
         "type": "interface",
         "name": "FetchEvent",
-        "escapedName": "FetchEvent",
         "inheritance": {
             "name": "Event",
-            "escapedName": "Event",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -300,7 +272,6 @@
                 "body": {
                     "name": {
                         "value": "default",
-                        "escaped": "default",
                         "trivia": " "
                     },
                     "idlType": {
@@ -323,15 +294,11 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "any",
-                                "baseName": "any",
-                                "escapedBaseName": "any",
                                 "trivia": {
                                     "base": ""
                                 }
                             }
                         ],
-                        "baseName": "Promise",
-                        "escapedBaseName": "Promise",
                         "trivia": {
                             "base": "\n  "
                         }

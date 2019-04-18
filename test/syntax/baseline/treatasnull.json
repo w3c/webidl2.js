@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Dog",
-        "escapedName": "Dog",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -34,7 +30,6 @@
             {
                 "type": "attribute",
                 "name": "owner",
-                "escapedName": "owner",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -42,8 +37,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -63,7 +56,6 @@
                 "body": {
                     "name": {
                         "value": "isMemberOfBreed",
-                        "escaped": "isMemberOfBreed",
                         "trivia": " "
                     },
                     "idlType": {
@@ -73,8 +65,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "boolean",
-                        "baseName": "boolean",
-                        "escapedBaseName": "boolean",
                         "trivia": {
                             "base": "\n\n  "
                         }
@@ -82,7 +72,6 @@
                     "arguments": [
                         {
                             "name": "breedName",
-                            "escapedName": "breedName",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": {
@@ -113,8 +102,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": " "
                                 }

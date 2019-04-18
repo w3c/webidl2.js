@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "MapLike",
-        "escapedName": "MapLike",
         "inheritance": null,
         "members": [
             {
@@ -15,8 +14,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": ""
                         }
@@ -28,8 +25,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "float",
-                        "baseName": "float",
-                        "escapedBaseName": "float",
                         "trivia": {
                             "base": " "
                         }
@@ -58,7 +53,6 @@
     {
         "type": "interface",
         "name": "ReadOnlyMapLike",
-        "escapedName": "ReadOnlyMapLike",
         "inheritance": null,
         "members": [
             {
@@ -71,8 +65,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": ""
                         }
@@ -84,8 +76,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "float",
-                        "baseName": "float",
-                        "escapedBaseName": "float",
                         "trivia": {
                             "base": " "
                         }
@@ -114,7 +104,6 @@
     {
         "type": "interface",
         "name": "I",
-        "escapedName": "I",
         "inheritance": null,
         "members": [
             {
@@ -143,8 +132,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
-                        "baseName": "DOMString",
-                        "escapedBaseName": "DOMString",
                         "trivia": {
                             "base": " "
                         }
@@ -172,8 +159,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": " "
                         }

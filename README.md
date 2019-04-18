@@ -168,7 +168,6 @@ attached to a field called `idlType`:
   "idlType": "unsigned short",
   "nullable": false,
   "union": false,
-  "baseName": "short",
   "trivia": {
     "base": " "
   },
@@ -386,7 +385,6 @@ A callback looks like this:
     "nullable": false,
     "union": false,
     "idlType": "void",
-    "baseName": "void",
     "extAttrs": null,
     "trivia": {
       "base": " "
@@ -426,7 +424,6 @@ A dictionary looks like this:
   "members": [{
     "type": "field",
     "name": "fillPattern",
-    "escapedName": "fillPattern",
     "required": false,
     "idlType": {
       "type": "dictionary-type",
@@ -434,7 +431,6 @@ A dictionary looks like this:
       "nullable": true
       "union": false,
       "idlType": "DOMString",
-      "baseName": "DOMString",
       "extAttrs": [...],
       "trivia": {
         "base": "\n  "
@@ -466,7 +462,6 @@ The fields are as follows:
 
 * `type`: Always "dictionary".
 * `name`: The dictionary name.
-* `escapedName`: The dictionary name including possible escaping underscore.
 * `partial`: `true` if the type is a partial dictionary.
 * `members`: An array of members (see below).
 * `trivia`: A trivia object.
@@ -545,7 +540,6 @@ A typedef looks like this:
         "nullable": false,
         "union": false,
         "idlType": "Point",
-        "baseName": "Point",
         "extAttrs": [...]
         "trivia": {
             "base": ""
@@ -608,7 +602,6 @@ An operation looks like this:
       "nullable": false,
       "union": false,
       "idlType": "void",
-      "baseName": "void",
       "extAttrs": null,
       "trivia": {
         "base": "\n  "
@@ -620,7 +613,6 @@ An operation looks like this:
     },
     "name": {
       "value": "intersection",
-      "escaped": "intersection",
       "trivia": " "
     },
     "arguments": [{
@@ -682,14 +674,12 @@ An attribute member looks like this:
     "nullable": false,
     "union": false,
     "idlType": "any",
-    "baseName": "any",
     "extAttrs": [...],
     "trivia": {
       "base": " "
     }
   },
   "name": "regexp",
-  "escapedName": "regexp",
   "extAttrs": null
 }
 ```
@@ -698,7 +688,6 @@ The fields are as follows:
 
 * `type`: Always "attribute".
 * `name`: The attribute's name.
-* `escapedName`: The attribute's name including possible escaping underscore.
 * `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `null`.
 * `readonly`: `true` if the attribute is read-only.
 * `trivia`: A trivia object.
@@ -718,7 +707,6 @@ A constant member looks like this:
     "nullable": false,
     "union": false,
     "idlType": "boolean",
-    "baseName": "boolean",
     "extAttrs": null,
     "trivia": {
       "base": " "
@@ -768,14 +756,12 @@ The arguments (e.g. for an operation) look like this:
       "nullable": false,
       "union": false,
       "idlType": "float",
-      "baseName": "float",
       "extAttrs": [...],
       "trivia": {
         "base": " "
       }
     },
     "name": "ints",
-    "escapedName": "ints"
   }]
 }
 ```
@@ -786,7 +772,6 @@ The fields are as follows:
 * `variadic`: `true` if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
-* `escapedName`: The argument's name including possible escaping underscore.
 * `separator`: An object with the following fields if a separator follows:
   * `value`: Always ",".
   * `trivia`: Whitespaces or comments preceding separator token.

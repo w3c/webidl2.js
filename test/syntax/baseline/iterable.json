@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "IterableOne",
-        "escapedName": "IterableOne",
         "inheritance": null,
         "members": [
             {
@@ -15,8 +14,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": ""
                         }
@@ -45,7 +42,6 @@
     {
         "type": "interface",
         "name": "IterableTwo",
-        "escapedName": "IterableTwo",
         "inheritance": null,
         "members": [
             {
@@ -58,8 +54,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "short",
-                        "baseName": "short",
-                        "escapedBaseName": "short",
                         "trivia": {
                             "base": ""
                         }
@@ -71,8 +65,6 @@
                         "nullable": true,
                         "union": false,
                         "idlType": "double",
-                        "baseName": "double",
-                        "escapedBaseName": "double",
                         "trivia": {
                             "base": " "
                         }
@@ -101,7 +93,6 @@
     {
         "type": "interface",
         "name": "IterableThree",
-        "escapedName": "IterableThree",
         "inheritance": null,
         "members": [
             {
@@ -130,8 +121,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": " "
                         }

@@ -2,7 +2,6 @@
     {
         "type": "typedef",
         "name": "TexImageSource",
-        "escapedName": "TexImageSource",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
@@ -17,8 +16,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "ImageData",
-                    "baseName": "ImageData",
-                    "escapedBaseName": "ImageData",
                     "trivia": {
                         "base": ""
                     }
@@ -30,8 +27,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLImageElement",
-                    "baseName": "HTMLImageElement",
-                    "escapedBaseName": "HTMLImageElement",
                     "trivia": {
                         "base": "\n           "
                     }
@@ -43,8 +38,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLCanvasElement",
-                    "baseName": "HTMLCanvasElement",
-                    "escapedBaseName": "HTMLCanvasElement",
                     "trivia": {
                         "base": "\n           "
                     }
@@ -56,15 +49,11 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "HTMLVideoElement",
-                    "baseName": "HTMLVideoElement",
-                    "escapedBaseName": "HTMLVideoElement",
                     "trivia": {
                         "base": "\n           "
                     }
                 }
             ],
-            "baseName": null,
-            "escapedBaseName": null,
             "trivia": {
                 "open": " ",
                 "close": ""

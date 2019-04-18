@@ -2,10 +2,8 @@
     {
         "type": "interface",
         "name": "HTMLAudioElement",
-        "escapedName": "HTMLAudioElement",
         "inheritance": {
             "name": "HTMLMediaElement",
-            "escapedName": "HTMLMediaElement",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -45,7 +43,6 @@
                         "arguments": [
                             {
                                 "name": "src",
-                                "escapedName": "src",
                                 "idlType": {
                                     "type": "argument-type",
                                     "extAttrs": null,
@@ -53,8 +50,6 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
-                                    "baseName": "DOMString",
-                                    "escapedBaseName": "DOMString",
                                     "trivia": {
                                         "base": ""
                                     }

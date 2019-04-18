@@ -2,10 +2,8 @@
     {
         "type": "interface",
         "name": "Iroha",
-        "escapedName": "_Iroha",
         "inheritance": {
             "name": "Magic",
-            "escapedName": "_Magic",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -26,9 +24,7 @@
         "type": "includes",
         "extAttrs": null,
         "target": "Iroha",
-        "escapedTarget": "_Iroha",
         "includes": "Color",
-        "escapedIncludes": "_Color",
         "trivia": {
             "target": "\n",
             "includes": " ",

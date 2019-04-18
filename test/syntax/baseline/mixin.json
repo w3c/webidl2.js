@@ -2,12 +2,10 @@
     {
         "type": "interface mixin",
         "name": "GlobalCrypto",
-        "escapedName": "GlobalCrypto",
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
-                "escapedName": "crypto",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -15,8 +13,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
-                    "baseName": "Crypto",
-                    "escapedBaseName": "Crypto",
                     "trivia": {
                         "base": " "
                     }
@@ -46,9 +42,7 @@
         "type": "includes",
         "extAttrs": null,
         "target": "Window",
-        "escapedTarget": "Window",
         "includes": "GlobalCrypto",
-        "escapedIncludes": "GlobalCrypto",
         "trivia": {
             "target": "\n\n",
             "includes": " ",
@@ -60,9 +54,7 @@
         "type": "includes",
         "extAttrs": null,
         "target": "WorkerGlobalScope",
-        "escapedTarget": "WorkerGlobalScope",
         "includes": "GlobalCrypto",
-        "escapedIncludes": "GlobalCrypto",
         "trivia": {
             "target": "\n",
             "includes": " ",
@@ -73,12 +65,10 @@
     {
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
-        "escapedName": "WindowOrWorkerGlobalScope",
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
-                "escapedName": "crypto",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -86,8 +76,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto",
-                    "baseName": "Crypto",
-                    "escapedBaseName": "Crypto",
                     "trivia": {
                         "base": " "
                     }
@@ -116,7 +104,6 @@
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
-        "escapedName": "_LocalCrypto",
         "members": [],
         "extAttrs": null,
         "partial": false,

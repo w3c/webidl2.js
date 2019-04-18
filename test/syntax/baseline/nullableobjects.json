@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "A",
-        "escapedName": "A",
         "inheritance": null,
         "members": [],
         "extAttrs": null,
@@ -18,7 +17,6 @@
     {
         "type": "interface",
         "name": "B",
-        "escapedName": "B",
         "inheritance": null,
         "members": [],
         "extAttrs": null,
@@ -34,7 +32,6 @@
     {
         "type": "interface",
         "name": "C",
-        "escapedName": "C",
         "inheritance": null,
         "members": [
             {
@@ -43,7 +40,6 @@
                 "body": {
                     "name": {
                         "value": "f",
-                        "escaped": "f",
                         "trivia": " "
                     },
                     "idlType": {
@@ -53,8 +49,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -62,7 +56,6 @@
                     "arguments": [
                         {
                             "name": "x",
-                            "escapedName": "x",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -70,8 +63,6 @@
                                 "nullable": true,
                                 "union": false,
                                 "idlType": "A",
-                                "baseName": "A",
-                                "escapedBaseName": "A",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -101,7 +92,6 @@
                 "body": {
                     "name": {
                         "value": "f",
-                        "escaped": "f",
                         "trivia": " "
                     },
                     "idlType": {
@@ -111,8 +101,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -120,7 +108,6 @@
                     "arguments": [
                         {
                             "name": "x",
-                            "escapedName": "x",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -128,8 +115,6 @@
                                 "nullable": true,
                                 "union": false,
                                 "idlType": "B",
-                                "baseName": "B",
-                                "escapedBaseName": "B",
                                 "trivia": {
                                     "base": ""
                                 }

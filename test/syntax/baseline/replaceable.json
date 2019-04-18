@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Counter",
-        "escapedName": "Counter",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "value",
-                "escapedName": "value",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -53,7 +49,6 @@
                 "body": {
                     "name": {
                         "value": "increment",
-                        "escaped": "increment",
                         "trivia": " "
                     },
                     "idlType": {
@@ -63,8 +58,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }

@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Foo",
-        "escapedName": "Foo",
         "inheritance": null,
         "members": [
             {
@@ -11,7 +10,6 @@
                 "body": {
                     "name": {
                         "value": "foo",
-                        "escaped": "foo",
                         "trivia": " "
                     },
                     "idlType": {
@@ -21,8 +19,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -30,7 +26,6 @@
                     "arguments": [
                         {
                             "name": "param",
-                            "escapedName": "param",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -64,8 +59,6 @@
                                                 "nullable": false,
                                                 "union": false,
                                                 "idlType": "ByteString",
-                                                "baseName": "ByteString",
-                                                "escapedBaseName": "ByteString",
                                                 "trivia": {
                                                     "base": ""
                                                 }
@@ -77,22 +70,16 @@
                                                 "nullable": false,
                                                 "union": false,
                                                 "idlType": "any",
-                                                "baseName": "any",
-                                                "escapedBaseName": "any",
                                                 "trivia": {
                                                     "base": " "
                                                 }
                                             }
                                         ],
-                                        "baseName": "record",
-                                        "escapedBaseName": "record",
                                         "trivia": {
                                             "base": ""
                                         }
                                     }
                                 ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -122,7 +109,6 @@
                 "body": {
                     "name": {
                         "value": "bar",
-                        "escaped": "bar",
                         "trivia": " "
                     },
                     "idlType": {
@@ -145,8 +131,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -165,8 +149,6 @@
                                         "nullable": false,
                                         "union": false,
                                         "idlType": "float",
-                                        "baseName": "float",
-                                        "escapedBaseName": "float",
                                         "trivia": {
                                             "base": ""
                                         }
@@ -178,23 +160,17 @@
                                         "nullable": false,
                                         "union": false,
                                         "idlType": "DOMString",
-                                        "baseName": "DOMString",
-                                        "escapedBaseName": "DOMString",
                                         "trivia": {
                                             "base": " "
                                         }
                                     }
                                 ],
-                                "baseName": null,
-                                "escapedBaseName": null,
                                 "trivia": {
                                     "open": " ",
                                     "close": ""
                                 }
                             }
                         ],
-                        "baseName": "record",
-                        "escapedBaseName": "record",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -222,7 +198,6 @@
                         "arguments": [
                             {
                                 "name": "init",
-                                "escapedName": "init",
                                 "idlType": {
                                     "type": "argument-type",
                                     "extAttrs": null,
@@ -243,8 +218,6 @@
                                             "nullable": false,
                                             "union": false,
                                             "idlType": "USVString",
-                                            "baseName": "USVString",
-                                            "escapedBaseName": "USVString",
                                             "trivia": {
                                                 "base": ""
                                             }
@@ -256,15 +229,11 @@
                                             "nullable": false,
                                             "union": false,
                                             "idlType": "USVString",
-                                            "baseName": "USVString",
-                                            "escapedBaseName": "USVString",
                                             "trivia": {
                                                 "base": " "
                                             }
                                         }
                                     ],
-                                    "baseName": "record",
-                                    "escapedBaseName": "record",
                                     "trivia": {
                                         "base": ""
                                     }
@@ -304,7 +273,6 @@
     {
         "type": "interface",
         "name": "Bar",
-        "escapedName": "Bar",
         "inheritance": null,
         "members": [
             {
@@ -313,7 +281,6 @@
                 "body": {
                     "name": {
                         "value": "bar",
-                        "escaped": "bar",
                         "trivia": " "
                     },
                     "idlType": {
@@ -336,8 +303,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -365,15 +330,11 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": " "
                                 }
                             }
                         ],
-                        "baseName": "record",
-                        "escapedBaseName": "record",
                         "trivia": {
                             "base": "\n  "
                         }

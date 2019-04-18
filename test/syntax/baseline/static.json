@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Point",
-        "escapedName": "Point",
         "inheritance": null,
         "members": [],
         "extAttrs": null,
@@ -18,13 +17,11 @@
     {
         "type": "interface",
         "name": "Circle",
-        "escapedName": "Circle",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "cx",
-                "escapedName": "cx",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -32,8 +29,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -50,7 +45,6 @@
             {
                 "type": "attribute",
                 "name": "cy",
-                "escapedName": "cy",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -58,8 +52,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -76,7 +68,6 @@
             {
                 "type": "attribute",
                 "name": "radius",
-                "escapedName": "radius",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -84,8 +75,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -102,7 +91,6 @@
             {
                 "type": "attribute",
                 "name": "triangulationCount",
-                "escapedName": "triangulationCount",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -110,8 +98,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -131,7 +117,6 @@
                 "body": {
                     "name": {
                         "value": "triangulate",
-                        "escaped": "triangulate",
                         "trivia": " "
                     },
                     "idlType": {
@@ -141,8 +126,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "Point",
-                        "baseName": "Point",
-                        "escapedBaseName": "Point",
                         "trivia": {
                             "base": " "
                         }
@@ -150,7 +133,6 @@
                     "arguments": [
                         {
                             "name": "c1",
-                            "escapedName": "c1",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -158,8 +140,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -173,7 +153,6 @@
                         },
                         {
                             "name": "c2",
-                            "escapedName": "c2",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -181,8 +160,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -196,7 +173,6 @@
                         },
                         {
                             "name": "c3",
-                            "escapedName": "c3",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -204,8 +180,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
                                 "trivia": {
                                     "base": " "
                                 }

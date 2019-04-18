@@ -2,13 +2,11 @@
     {
         "type": "dictionary",
         "name": "PaintOptions",
-        "escapedName": "PaintOptions",
         "inheritance": null,
         "members": [
             {
                 "type": "field",
                 "name": "fillPattern",
-                "escapedName": "fillPattern",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -17,8 +15,6 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -40,7 +36,6 @@
             {
                 "type": "field",
                 "name": "strokePattern",
-                "escapedName": "strokePattern",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -49,8 +44,6 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -71,7 +64,6 @@
             {
                 "type": "field",
                 "name": "position",
-                "escapedName": "position",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -80,8 +72,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": "Point",
-                    "escapedBaseName": "Point",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -107,10 +97,8 @@
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
-        "escapedName": "WetPaintOptions",
         "inheritance": {
             "name": "PaintOptions",
-            "escapedName": "PaintOptions",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -120,7 +108,6 @@
             {
                 "type": "field",
                 "name": "hydrometry",
-                "escapedName": "hydrometry",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -129,8 +116,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": "\n  "
                     }

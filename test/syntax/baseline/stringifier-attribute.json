@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Student",
-        "escapedName": "Student",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "id",
-                "escapedName": "id",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -34,7 +30,6 @@
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -42,8 +37,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }

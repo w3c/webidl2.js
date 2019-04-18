@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Query",
-        "escapedName": "Query",
         "inheritance": null,
         "members": [
             {
@@ -11,7 +10,6 @@
                 "body": {
                     "name": {
                         "value": "lookupEntry",
-                        "escaped": "lookupEntry",
                         "trivia": " "
                     },
                     "idlType": {
@@ -21,8 +19,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "any",
-                        "baseName": "any",
-                        "escapedBaseName": "any",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -30,7 +26,6 @@
                     "arguments": [
                         {
                             "name": "key",
-                            "escapedName": "key",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -38,8 +33,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
                                 "trivia": {
                                     "base": " "
                                 }

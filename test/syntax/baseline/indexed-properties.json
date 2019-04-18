@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "OrderedMap",
-        "escapedName": "OrderedMap",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "size",
-                "escapedName": "size",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -37,7 +33,6 @@
                 "body": {
                     "name": {
                         "value": "getByIndex",
-                        "escaped": "getByIndex",
                         "trivia": " "
                     },
                     "idlType": {
@@ -47,8 +42,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "any",
-                        "baseName": "any",
-                        "escapedBaseName": "any",
                         "trivia": {
                             "base": " "
                         }
@@ -56,7 +49,6 @@
                     "arguments": [
                         {
                             "name": "index",
-                            "escapedName": "index",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -64,8 +56,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -95,7 +85,6 @@
                 "body": {
                     "name": {
                         "value": "setByIndex",
-                        "escaped": "setByIndex",
                         "trivia": " "
                     },
                     "idlType": {
@@ -105,8 +94,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": " "
                         }
@@ -114,7 +101,6 @@
                     "arguments": [
                         {
                             "name": "index",
-                            "escapedName": "index",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -122,8 +108,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -137,7 +121,6 @@
                         },
                         {
                             "name": "value",
-                            "escapedName": "value",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -145,8 +128,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "any",
-                                "baseName": "any",
-                                "escapedBaseName": "any",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -176,7 +157,6 @@
                 "body": {
                     "name": {
                         "value": "removeByIndex",
-                        "escaped": "removeByIndex",
                         "trivia": " "
                     },
                     "idlType": {
@@ -186,8 +166,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": " "
                         }
@@ -195,7 +173,6 @@
                     "arguments": [
                         {
                             "name": "index",
-                            "escapedName": "index",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -203,8 +180,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -234,7 +209,6 @@
                 "body": {
                     "name": {
                         "value": "get",
-                        "escaped": "get",
                         "trivia": " "
                     },
                     "idlType": {
@@ -244,8 +218,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "any",
-                        "baseName": "any",
-                        "escapedBaseName": "any",
                         "trivia": {
                             "base": " "
                         }
@@ -253,7 +225,6 @@
                     "arguments": [
                         {
                             "name": "name",
-                            "escapedName": "name",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -261,8 +232,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -292,7 +261,6 @@
                 "body": {
                     "name": {
                         "value": "set",
-                        "escaped": "set",
                         "trivia": " "
                     },
                     "idlType": {
@@ -302,8 +270,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": " "
                         }
@@ -311,7 +277,6 @@
                     "arguments": [
                         {
                             "name": "name",
-                            "escapedName": "name",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -319,8 +284,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -334,7 +297,6 @@
                         },
                         {
                             "name": "value",
-                            "escapedName": "value",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -342,8 +304,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "any",
-                                "baseName": "any",
-                                "escapedBaseName": "any",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -373,7 +333,6 @@
                 "body": {
                     "name": {
                         "value": "remove",
-                        "escaped": "remove",
                         "trivia": " "
                     },
                     "idlType": {
@@ -383,8 +342,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": " "
                         }
@@ -392,7 +349,6 @@
                     "arguments": [
                         {
                             "name": "name",
-                            "escapedName": "name",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -400,8 +356,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }

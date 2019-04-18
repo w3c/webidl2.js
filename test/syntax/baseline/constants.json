@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Util",
-        "escapedName": "Util",
         "inheritance": null,
         "members": [
             {
@@ -15,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "baseName": "boolean",
-                    "escapedBaseName": "boolean",
                     "trivia": {
                         "base": " "
                     }
@@ -44,8 +41,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
                     "trivia": {
                         "base": " "
                     }
@@ -73,8 +68,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "octet",
-                    "baseName": "octet",
-                    "escapedBaseName": "octet",
                     "trivia": {
                         "base": " "
                     }
@@ -102,8 +95,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -131,8 +122,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -160,8 +149,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -189,8 +176,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -218,8 +203,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
                     "trivia": {
                         "base": " "
                     }

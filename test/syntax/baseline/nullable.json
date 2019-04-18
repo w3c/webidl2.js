@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Node",
-        "escapedName": "Node",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "namespaceURI",
-                "escapedName": "namespaceURI",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }

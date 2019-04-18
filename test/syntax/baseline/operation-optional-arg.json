@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "ColorCreator",
-        "escapedName": "ColorCreator",
         "inheritance": null,
         "members": [
             {
@@ -11,7 +10,6 @@
                 "body": {
                     "name": {
                         "value": "createColor",
-                        "escaped": "createColor",
                         "trivia": " "
                     },
                     "idlType": {
@@ -21,8 +19,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "object",
-                        "baseName": "object",
-                        "escapedBaseName": "object",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -30,7 +26,6 @@
                     "arguments": [
                         {
                             "name": "v1",
-                            "escapedName": "v1",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -38,8 +33,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -53,7 +46,6 @@
                         },
                         {
                             "name": "v2",
-                            "escapedName": "v2",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -61,8 +53,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -76,7 +66,6 @@
                         },
                         {
                             "name": "v3",
-                            "escapedName": "v3",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -84,8 +73,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -99,7 +86,6 @@
                         },
                         {
                             "name": "alpha",
-                            "escapedName": "alpha",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -107,8 +93,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": " "
                                 }

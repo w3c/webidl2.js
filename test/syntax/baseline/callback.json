@@ -9,8 +9,6 @@
             "nullable": false,
             "union": false,
             "idlType": "void",
-            "baseName": "void",
-            "escapedBaseName": "void",
             "trivia": {
                 "base": " "
             }
@@ -18,7 +16,6 @@
         "arguments": [
             {
                 "name": "status",
-                "escapedName": "status",
                 "idlType": {
                     "type": "argument-type",
                     "extAttrs": null,
@@ -26,8 +23,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": ""
                     }
@@ -53,7 +48,6 @@
     {
         "type": "callback interface",
         "name": "EventHandler",
-        "escapedName": "EventHandler",
         "inheritance": null,
         "members": [
             {
@@ -62,7 +56,6 @@
                 "body": {
                     "name": {
                         "value": "eventOccurred",
-                        "escaped": "eventOccurred",
                         "trivia": " "
                     },
                     "idlType": {
@@ -72,8 +65,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -81,7 +72,6 @@
                     "arguments": [
                         {
                             "name": "details",
-                            "escapedName": "details",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -89,8 +79,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -136,8 +124,6 @@
             "nullable": false,
             "union": false,
             "idlType": "boolean",
-            "baseName": "boolean",
-            "escapedBaseName": "boolean",
             "trivia": {
                 "base": " "
             }
@@ -145,7 +131,6 @@
         "arguments": [
             {
                 "name": "a",
-                "escapedName": "a",
                 "idlType": {
                     "type": "argument-type",
                     "extAttrs": null,
@@ -153,8 +138,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
-                    "baseName": "any",
-                    "escapedBaseName": "any",
                     "trivia": {
                         "base": ""
                     }
@@ -168,7 +151,6 @@
             },
             {
                 "name": "b",
-                "escapedName": "b",
                 "idlType": {
                     "type": "argument-type",
                     "extAttrs": null,
@@ -176,8 +158,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "any",
-                    "baseName": "any",
-                    "escapedBaseName": "any",
                     "trivia": {
                         "base": " "
                     }

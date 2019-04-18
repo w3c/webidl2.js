@@ -2,13 +2,11 @@
     {
         "type": "dictionary",
         "name": "PaintOptions",
-        "escapedName": "PaintOptions",
         "inheritance": null,
         "members": [
             {
                 "type": "field",
                 "name": "fillPattern",
-                "escapedName": "fillPattern",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -17,8 +15,6 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -40,7 +36,6 @@
             {
                 "type": "field",
                 "name": "strokePattern",
-                "escapedName": "strokePattern",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -49,8 +44,6 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -71,7 +64,6 @@
             {
                 "type": "field",
                 "name": "position",
-                "escapedName": "position",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -80,8 +72,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Point",
-                    "baseName": "Point",
-                    "escapedBaseName": "Point",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -96,7 +86,6 @@
             {
                 "type": "field",
                 "name": "seq",
-                "escapedName": "seq",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -118,15 +107,11 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "long",
-                            "baseName": "long",
-                            "escapedBaseName": "long",
                             "trivia": {
                                 "base": ""
                             }
                         }
                     ],
-                    "baseName": "sequence",
-                    "escapedBaseName": "sequence",
                     "trivia": {
                         "base": "\n  // https://heycam.github.io/webidl/#dfn-optional-argument-default-value allows sequences to default to \"[]\".\n  "
                     }
@@ -149,7 +134,6 @@
             {
                 "type": "field",
                 "name": "reqSeq",
-                "escapedName": "reqSeq",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -158,8 +142,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -185,12 +167,10 @@
     {
         "type": "dictionary",
         "name": "A",
-        "escapedName": "_A",
         "members": [
             {
                 "type": "field",
                 "name": "h",
-                "escapedName": "h",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -199,8 +179,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": "\n  "
                     }
@@ -215,7 +193,6 @@
             {
                 "type": "field",
                 "name": "d",
-                "escapedName": "d",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
@@ -224,8 +201,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": "\n  "
                     }

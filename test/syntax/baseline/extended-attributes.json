@@ -2,10 +2,8 @@
     {
         "type": "interface",
         "name": "ServiceWorkerGlobalScope",
-        "escapedName": "ServiceWorkerGlobalScope",
         "inheritance": {
             "name": "WorkerGlobalScope",
-            "escapedName": "WorkerGlobalScope",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -74,7 +72,6 @@
     {
         "type": "interface",
         "name": "IdInterface",
-        "escapedName": "IdInterface",
         "inheritance": null,
         "members": [],
         "extAttrs": {
@@ -145,13 +142,11 @@
     {
         "type": "interface",
         "name": "Circle",
-        "escapedName": "Circle",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "r",
-                "escapedName": "r",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -159,8 +154,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -177,7 +170,6 @@
             {
                 "type": "attribute",
                 "name": "cx",
-                "escapedName": "cx",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -185,8 +177,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -203,7 +193,6 @@
             {
                 "type": "attribute",
                 "name": "cy",
-                "escapedName": "cy",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -211,8 +200,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -229,7 +216,6 @@
             {
                 "type": "attribute",
                 "name": "circumference",
-                "escapedName": "circumference",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -237,8 +223,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -272,7 +256,6 @@
                         "arguments": [
                             {
                                 "name": "radius",
-                                "escapedName": "radius",
                                 "idlType": {
                                     "type": "argument-type",
                                     "extAttrs": null,
@@ -280,8 +263,6 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "double",
-                                    "baseName": "double",
-                                    "escapedBaseName": "double",
                                     "trivia": {
                                         "base": ""
                                     }
@@ -321,13 +302,11 @@
     {
         "type": "interface",
         "name": "I",
-        "escapedName": "I",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "attrib",
-                "escapedName": "attrib",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": {
@@ -358,8 +337,6 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "long",
-                            "baseName": "long",
-                            "escapedBaseName": "long",
                             "trivia": {
                                 "base": ""
                             }
@@ -371,15 +348,11 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Node",
-                            "baseName": "Node",
-                            "escapedBaseName": "Node",
                             "trivia": {
                                 "base": " "
                             }
                         }
                     ],
-                    "baseName": null,
-                    "escapedBaseName": null,
                     "trivia": {
                         "open": " ",
                         "close": ""

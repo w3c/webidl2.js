@@ -2,12 +2,10 @@
     {
         "type": "namespace",
         "name": "VectorUtils",
-        "escapedName": "VectorUtils",
         "members": [
             {
                 "type": "attribute",
                 "name": "unit",
-                "escapedName": "unit",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -15,8 +13,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Vector",
-                    "baseName": "Vector",
-                    "escapedBaseName": "Vector",
                     "trivia": {
                         "base": " "
                     }
@@ -36,7 +32,6 @@
                 "body": {
                     "name": {
                         "value": "dotProduct",
-                        "escaped": "dotProduct",
                         "trivia": " "
                     },
                     "idlType": {
@@ -46,8 +41,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "double",
-                        "baseName": "double",
-                        "escapedBaseName": "double",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -55,7 +48,6 @@
                     "arguments": [
                         {
                             "name": "x",
-                            "escapedName": "x",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -63,8 +55,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
-                                "baseName": "Vector",
-                                "escapedBaseName": "Vector",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -78,7 +68,6 @@
                         },
                         {
                             "name": "y",
-                            "escapedName": "y",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -86,8 +75,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
-                                "baseName": "Vector",
-                                "escapedBaseName": "Vector",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -117,7 +104,6 @@
                 "body": {
                     "name": {
                         "value": "crossProduct",
-                        "escaped": "crossProduct",
                         "trivia": " "
                     },
                     "idlType": {
@@ -127,8 +113,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "Vector",
-                        "baseName": "Vector",
-                        "escapedBaseName": "Vector",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -136,7 +120,6 @@
                     "arguments": [
                         {
                             "name": "x",
-                            "escapedName": "x",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -144,8 +127,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
-                                "baseName": "Vector",
-                                "escapedBaseName": "Vector",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -159,7 +140,6 @@
                         },
                         {
                             "name": "y",
-                            "escapedName": "y",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -167,8 +147,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "Vector",
-                                "baseName": "Vector",
-                                "escapedBaseName": "Vector",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -206,7 +184,6 @@
     {
         "type": "namespace",
         "name": "SomeNamespace",
-        "escapedName": "SomeNamespace",
         "members": [],
         "extAttrs": null,
         "partial": true,
@@ -221,7 +198,6 @@
     {
         "type": "namespace",
         "name": "ScalarUtils",
-        "escapedName": "_ScalarUtils",
         "members": [],
         "extAttrs": null,
         "partial": false,

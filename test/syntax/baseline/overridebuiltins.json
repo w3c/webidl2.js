@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "StringMap2",
-        "escapedName": "StringMap2",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "length",
-                "escapedName": "length",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -37,7 +33,6 @@
                 "body": {
                     "name": {
                         "value": "lookup",
-                        "escaped": "lookup",
                         "trivia": " "
                     },
                     "idlType": {
@@ -47,8 +42,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
-                        "baseName": "DOMString",
-                        "escapedBaseName": "DOMString",
                         "trivia": {
                             "base": " "
                         }
@@ -56,7 +49,6 @@
                     "arguments": [
                         {
                             "name": "key",
-                            "escapedName": "key",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -64,8 +56,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }

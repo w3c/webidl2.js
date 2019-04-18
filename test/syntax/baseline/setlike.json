@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "SetLike",
-        "escapedName": "SetLike",
         "inheritance": null,
         "members": [
             {
@@ -15,8 +14,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": ""
                         }
@@ -45,7 +42,6 @@
     {
         "type": "interface",
         "name": "ReadOnlySetLike",
-        "escapedName": "ReadOnlySetLike",
         "inheritance": null,
         "members": [
             {
@@ -58,8 +54,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": ""
                         }
@@ -88,7 +82,6 @@
     {
         "type": "interface",
         "name": "SetLikeExt",
-        "escapedName": "SetLikeExt",
         "inheritance": null,
         "members": [
             {
@@ -117,8 +110,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
                         "trivia": {
                             "base": " "
                         }

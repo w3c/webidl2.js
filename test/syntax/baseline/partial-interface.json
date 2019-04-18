@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Foo",
-        "escapedName": "Foo",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "bar",
-                "escapedName": "bar",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -45,12 +41,10 @@
     {
         "type": "interface",
         "name": "Foo",
-        "escapedName": "Foo",
         "members": [
             {
                 "type": "attribute",
                 "name": "quux",
-                "escapedName": "quux",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -58,8 +52,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
