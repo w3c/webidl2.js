@@ -57,7 +57,7 @@
                     "type": "extended-attribute",
                     "name": "FloatAttr",
                     "rhs": {
-                        "type": "float",
+                        "type": "decimal",
                         "value": "3.14"
                     },
                     "arguments": []
