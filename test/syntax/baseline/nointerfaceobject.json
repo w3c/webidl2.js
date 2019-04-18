@@ -23,9 +23,6 @@
                         "idlType": "any",
                         "baseName": "any",
                         "escapedBaseName": "any",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -43,12 +40,6 @@
                                 "idlType": "unsigned long",
                                 "baseName": "long",
                                 "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": ""
-                                },
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -56,7 +47,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -81,7 +71,6 @@
                     "name": "NoInterfaceObject",
                     "rhs": null,
                     "signature": null,
-                    "separator": null,
                     "trivia": {
                         "name": ""
                     }

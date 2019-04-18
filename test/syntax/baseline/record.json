@@ -23,9 +23,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -69,12 +66,6 @@
                                                 "idlType": "ByteString",
                                                 "baseName": "ByteString",
                                                 "escapedBaseName": "ByteString",
-                                                "prefix": null,
-                                                "postfix": null,
-                                                "separator": {
-                                                    "value": ",",
-                                                    "trivia": ""
-                                                },
                                                 "trivia": {
                                                     "base": ""
                                                 }
@@ -88,9 +79,6 @@
                                                 "idlType": "any",
                                                 "baseName": "any",
                                                 "escapedBaseName": "any",
-                                                "prefix": null,
-                                                "postfix": null,
-                                                "separator": null,
                                                 "trivia": {
                                                     "base": " "
                                                 }
@@ -98,9 +86,6 @@
                                         ],
                                         "baseName": "record",
                                         "escapedBaseName": "record",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
                                         "trivia": {
                                             "base": ""
                                         }
@@ -108,9 +93,6 @@
                                 ],
                                 "baseName": "sequence",
                                 "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -118,7 +100,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -166,12 +147,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": {
-                                    "value": ",",
-                                    "trivia": ""
-                                },
                                 "trivia": {
                                     "base": ""
                                 }
@@ -192,12 +167,6 @@
                                         "idlType": "float",
                                         "baseName": "float",
                                         "escapedBaseName": "float",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": {
-                                            "value": "or",
-                                            "trivia": " "
-                                        },
                                         "trivia": {
                                             "base": ""
                                         }
@@ -211,9 +180,6 @@
                                         "idlType": "DOMString",
                                         "baseName": "DOMString",
                                         "escapedBaseName": "DOMString",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
                                         "trivia": {
                                             "base": " "
                                         }
@@ -221,9 +187,6 @@
                                 ],
                                 "baseName": null,
                                 "escapedBaseName": null,
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "open": " ",
                                     "close": ""
@@ -232,9 +195,6 @@
                         ],
                         "baseName": "record",
                         "escapedBaseName": "record",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -285,12 +245,6 @@
                                             "idlType": "USVString",
                                             "baseName": "USVString",
                                             "escapedBaseName": "USVString",
-                                            "prefix": null,
-                                            "postfix": null,
-                                            "separator": {
-                                                "value": ",",
-                                                "trivia": ""
-                                            },
                                             "trivia": {
                                                 "base": ""
                                             }
@@ -304,9 +258,6 @@
                                             "idlType": "USVString",
                                             "baseName": "USVString",
                                             "escapedBaseName": "USVString",
-                                            "prefix": null,
-                                            "postfix": null,
-                                            "separator": null,
                                             "trivia": {
                                                 "base": " "
                                             }
@@ -314,9 +265,6 @@
                                     ],
                                     "baseName": "record",
                                     "escapedBaseName": "record",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
                                     "trivia": {
                                         "base": ""
                                     }
@@ -324,7 +272,6 @@
                                 "default": null,
                                 "optional": false,
                                 "variadic": false,
-                                "separator": null,
                                 "trivia": {
                                     "name": " "
                                 }
@@ -335,7 +282,6 @@
                             "close": ""
                         }
                     },
-                    "separator": null,
                     "trivia": {
                         "name": ""
                     }
@@ -392,12 +338,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": {
-                                    "value": ",",
-                                    "trivia": ""
-                                },
                                 "trivia": {
                                     "base": ""
                                 }
@@ -411,7 +351,6 @@
                                             "name": "XAttr",
                                             "rhs": null,
                                             "signature": null,
-                                            "separator": null,
                                             "trivia": {
                                                 "name": ""
                                             }
@@ -428,9 +367,6 @@
                                 "idlType": "float",
                                 "baseName": "float",
                                 "escapedBaseName": "float",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -438,9 +374,6 @@
                         ],
                         "baseName": "record",
                         "escapedBaseName": "record",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }

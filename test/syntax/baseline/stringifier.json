@@ -19,9 +19,6 @@
                         "idlType": "DOMString",
                         "baseName": "DOMString",
                         "escapedBaseName": "DOMString",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
@@ -33,10 +30,7 @@
                     }
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
+                "special": "stringifier",
                 "trivia": {
                     "termination": ""
                 }
@@ -63,10 +57,7 @@
                 "name": "",
                 "body": null,
                 "extAttrs": null,
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
+                "special": "stringifier",
                 "trivia": {
                     "termination": ""
                 }

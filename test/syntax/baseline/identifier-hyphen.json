@@ -24,7 +24,6 @@
                                     }
                                 },
                                 "signature": null,
-                                "separator": null,
                                 "trivia": {
                                     "name": ""
                                 }
@@ -41,9 +40,6 @@
                     "idlType": "CSSOMString",
                     "baseName": "CSSOMString",
                     "escapedBaseName": "CSSOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -55,7 +51,6 @@
                             "name": "CEReactions",
                             "rhs": null,
                             "signature": null,
-                            "separator": null,
                             "trivia": {
                                 "name": ""
                             }

@@ -17,9 +17,6 @@
                     "idlType": "Crypto",
                     "baseName": "Crypto",
                     "escapedBaseName": "Crypto",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -91,9 +88,6 @@
                     "idlType": "Crypto",
                     "baseName": "Crypto",
                     "escapedBaseName": "Crypto",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }

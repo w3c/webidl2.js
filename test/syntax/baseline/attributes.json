@@ -18,12 +18,6 @@
                     "idlType": "unsigned short",
                     "baseName": "short",
                     "escapedBaseName": "short",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -50,9 +44,6 @@
                     "idlType": "any",
                     "baseName": "any",
                     "escapedBaseName": "any",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }

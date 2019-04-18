@@ -12,9 +12,6 @@
             "idlType": "float",
             "baseName": "float",
             "escapedBaseName": "float",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
             "trivia": {
                 "base": " "
             }
@@ -50,9 +47,6 @@
                         "idlType": "object",
                         "baseName": "object",
                         "escapedBaseName": "object",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
                         }
@@ -70,9 +64,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -80,7 +71,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -111,9 +101,6 @@
                         "idlType": "DOMString",
                         "baseName": "DOMString",
                         "escapedBaseName": "DOMString",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
@@ -131,9 +118,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -141,7 +125,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -153,10 +136,7 @@
                     }
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "getter",
-                    "trivia": "\n\n    // Operation has no identifier; it declares a getter.\n    "
-                },
+                "special": "getter",
                 "trivia": {
                     "termination": ""
                 }
@@ -191,9 +171,6 @@
                     "idlType": "boolean",
                     "baseName": "boolean",
                     "escapedBaseName": "boolean",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -220,9 +197,6 @@
                     "idlType": "DOMString",
                     "baseName": "DOMString",
                     "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -271,9 +245,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  // Argument names allow some selected keywords\n  "
                         }
@@ -291,9 +262,6 @@
                                 "idlType": "EventListener",
                                 "baseName": "EventListener",
                                 "escapedBaseName": "EventListener",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -301,7 +269,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

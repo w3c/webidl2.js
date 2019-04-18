@@ -19,12 +19,6 @@
                     "idlType": "ImageData",
                     "baseName": "ImageData",
                     "escapedBaseName": "ImageData",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": {
-                        "value": "or",
-                        "trivia": " "
-                    },
                     "trivia": {
                         "base": ""
                     }
@@ -38,12 +32,6 @@
                     "idlType": "HTMLImageElement",
                     "baseName": "HTMLImageElement",
                     "escapedBaseName": "HTMLImageElement",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": {
-                        "value": "or",
-                        "trivia": " "
-                    },
                     "trivia": {
                         "base": "\n           "
                     }
@@ -57,12 +45,6 @@
                     "idlType": "HTMLCanvasElement",
                     "baseName": "HTMLCanvasElement",
                     "escapedBaseName": "HTMLCanvasElement",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": {
-                        "value": "or",
-                        "trivia": " "
-                    },
                     "trivia": {
                         "base": "\n           "
                     }
@@ -76,9 +58,6 @@
                     "idlType": "HTMLVideoElement",
                     "baseName": "HTMLVideoElement",
                     "escapedBaseName": "HTMLVideoElement",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": "\n           "
                     }
@@ -86,9 +65,6 @@
             ],
             "baseName": null,
             "escapedBaseName": null,
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
             "trivia": {
                 "open": " ",
                 "close": ""

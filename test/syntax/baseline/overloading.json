@@ -55,9 +55,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -75,9 +72,6 @@
                                 "idlType": "A",
                                 "baseName": "A",
                                 "escapedBaseName": "A",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -85,7 +79,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -120,9 +113,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -140,9 +130,6 @@
                                 "idlType": "B",
                                 "baseName": "B",
                                 "escapedBaseName": "B",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -150,7 +137,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -202,9 +188,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  /* f1 */ "
                         }
@@ -222,9 +205,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -232,7 +212,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -267,9 +246,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  /* f2 */ "
                         }
@@ -287,7 +263,6 @@
                                             "name": "AllowAny",
                                             "rhs": null,
                                             "signature": null,
-                                            "separator": null,
                                             "trivia": {
                                                 "name": ""
                                             }
@@ -304,9 +279,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -314,10 +286,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -334,9 +302,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -344,10 +309,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -364,9 +325,6 @@
                                 "idlType": "float",
                                 "baseName": "float",
                                 "escapedBaseName": "float",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -374,7 +332,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": true,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -409,9 +366,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  /* f3 */ "
                         }
@@ -446,9 +400,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  /* f4 */ "
                         }
@@ -466,9 +417,6 @@
                                 "idlType": "long",
                                 "baseName": "long",
                                 "escapedBaseName": "long",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -476,10 +424,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -496,9 +440,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -506,10 +447,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -526,9 +463,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -536,10 +470,6 @@
                             "default": null,
                             "optional": true,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -556,9 +486,6 @@
                                 "idlType": "float",
                                 "baseName": "float",
                                 "escapedBaseName": "float",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -566,7 +493,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": true,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

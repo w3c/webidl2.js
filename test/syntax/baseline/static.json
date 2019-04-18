@@ -34,9 +34,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -63,9 +60,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -92,9 +86,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -121,18 +112,12 @@
                     "idlType": "long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "static",
-                    "trivia": "\n\n  "
-                },
+                "special": "static",
                 "readonly": true,
                 "trivia": {
                     "base": " ",
@@ -158,9 +143,6 @@
                         "idlType": "Point",
                         "baseName": "Point",
                         "escapedBaseName": "Point",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
@@ -178,9 +160,6 @@
                                 "idlType": "Circle",
                                 "baseName": "Circle",
                                 "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -188,10 +167,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -208,9 +183,6 @@
                                 "idlType": "Circle",
                                 "baseName": "Circle",
                                 "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -218,10 +190,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -238,9 +206,6 @@
                                 "idlType": "Circle",
                                 "baseName": "Circle",
                                 "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -248,7 +213,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -260,10 +224,7 @@
                     }
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "static",
-                    "trivia": "\n  "
-                },
+                "special": "static",
                 "trivia": {
                     "termination": ""
                 }

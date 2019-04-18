@@ -17,9 +17,6 @@
                     "idlType": "boolean",
                     "baseName": "boolean",
                     "escapedBaseName": "boolean",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -49,9 +46,6 @@
                     "idlType": "short",
                     "baseName": "short",
                     "escapedBaseName": "short",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -81,9 +75,6 @@
                     "idlType": "octet",
                     "baseName": "octet",
                     "escapedBaseName": "octet",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -113,12 +104,6 @@
                     "idlType": "unsigned long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -148,9 +133,6 @@
                     "idlType": "float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -180,12 +162,6 @@
                     "idlType": "unrestricted float",
                     "baseName": "float",
                     "escapedBaseName": "float",
-                    "prefix": {
-                        "value": "unrestricted",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -215,12 +191,6 @@
                     "idlType": "unrestricted double",
                     "baseName": "double",
                     "escapedBaseName": "double",
-                    "prefix": {
-                        "value": "unrestricted",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -250,9 +220,6 @@
                     "idlType": "short",
                     "baseName": "short",
                     "escapedBaseName": "short",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }

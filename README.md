@@ -169,12 +169,6 @@ attached to a field called `idlType`:
   "nullable": false,
   "union": false,
   "baseName": "short",
-  "prefix": {
-    "value": "unsigned",
-    "trivia": " "
-  },
-  "postfix": null,
-  "separator": null,
   "trivia": {
     "base": " "
   },
@@ -393,9 +387,6 @@ A callback looks like this:
     "union": false,
     "idlType": "void",
     "baseName": "void",
-    "prefix": null,
-    "postfix": null,
-    "separator": null,
     "extAttrs": null,
     "trivia": {
       "base": " "
@@ -444,9 +435,6 @@ A dictionary looks like this:
       "union": false,
       "idlType": "DOMString",
       "baseName": "DOMString",
-      "prefix": null,
-      "postfix": null,
-      "separator": null,
       "extAttrs": [...],
       "trivia": {
         "base": "\n  "
@@ -506,26 +494,17 @@ An enum looks like this:
     {
       "type": "enum-value",
       "value": "rice",
-      "trivia": " ",
-      "separator": {
-        "value": ",",
-        "trivia": ""
-      }
+      "trivia": " "
     },
     {
       "type": "enum-value",
       "value": "noodles",
-      "trivia": " ",
-      "separator": {
-        "value": ",",
-        "trivia": ""
-      }
+      "trivia": " "
     },
     {
       "type": "enum-value",
       "value": "other",
-      "trivia": " ",
-      "separator": null
+      "trivia": " "
     }
   ],
   "trivia": {
@@ -567,9 +546,6 @@ A typedef looks like this:
         "union": false,
         "idlType": "Point",
         "baseName": "Point",
-        "prefix": null,
-        "postfix": null,
-        "separator": null,
         "extAttrs": [...]
         "trivia": {
             "base": ""
@@ -624,11 +600,7 @@ An operation looks like this:
 ```JS
 {
   "type": "operation",
-  "getter": null,
-  "setter": null,
-  "deleter": null,
-  "static": null,
-  "stringifier": null,
+  "special": null,
   "body": {
     "idlType": {
       "type": "return-type",
@@ -637,9 +609,6 @@ An operation looks like this:
       "union": false,
       "idlType": "void",
       "baseName": "void",
-      "prefix": null,
-      "postfix": null,
-      "separator": null,
       "extAttrs": null,
       "trivia": {
         "base": "\n  "
@@ -679,11 +648,7 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `getter`: If a getter operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `setter`: If a setter operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `deleter`: If a deleter operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `static`: If a static operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `stringifier`: If a stringifier operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
 * `trivia`: A trivia object.
 * `body`: The operation body. Can be null if bodyless `stringifier`.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
@@ -718,9 +683,6 @@ An attribute member looks like this:
     "union": false,
     "idlType": "any",
     "baseName": "any",
-    "prefix": null,
-    "postfix": null,
-    "separator": null,
     "extAttrs": [...],
     "trivia": {
       "base": " "
@@ -737,9 +699,7 @@ The fields are as follows:
 * `type`: Always "attribute".
 * `name`: The attribute's name.
 * `escapedName`: The attribute's name including possible escaping underscore.
-* `static`: If it's a static attribute, an object with a string type field `trivia`. Otherwise, `null`.
-* `stringifier`: If it's a stringifier attribute, an object with a string type field `trivia`. Otherwise, `null`.
-* `inherit`: If it's an inherit attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `null`.
 * `readonly`: `true` if the attribute is read-only.
 * `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
@@ -759,9 +719,6 @@ A constant member looks like this:
     "union": false,
     "idlType": "boolean",
     "baseName": "boolean",
-    "prefix": null,
-    "postfix": null,
-    "separator": null,
     "extAttrs": null,
     "trivia": {
       "base": " "
@@ -812,20 +769,13 @@ The arguments (e.g. for an operation) look like this:
       "union": false,
       "idlType": "float",
       "baseName": "float",
-      "prefix": null,
-      "postfix": null,
-      "separator": null,
       "extAttrs": [...],
       "trivia": {
         "base": " "
       }
     },
     "name": "ints",
-    "escapedName": "ints",
-    "separator": {
-      "value": ",",
-      "trivia": ""
-    }
+    "escapedName": "ints"
   }]
 }
 ```
@@ -874,8 +824,7 @@ Extended attribute container look like this:
       },
       "trivia": {
         "name": ""
-      },
-      "separator": null
+      }
     }]
   }
 }

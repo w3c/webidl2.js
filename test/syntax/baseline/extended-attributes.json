@@ -22,16 +22,11 @@
                         "value": [
                             {
                                 "value": "Worker",
-                                "trivia": "",
-                                "separator": {
-                                    "value": ",",
-                                    "trivia": ""
-                                }
+                                "trivia": ""
                             },
                             {
                                 "value": "ServiceWorker",
-                                "trivia": "",
-                                "separator": null
+                                "trivia": ""
                             }
                         ],
                         "trivia": {
@@ -41,10 +36,6 @@
                         }
                     },
                     "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
                     "trivia": {
                         "name": ""
                     }
@@ -61,7 +52,6 @@
                         }
                     },
                     "signature": null,
-                    "separator": null,
                     "trivia": {
                         "name": " "
                     }
@@ -101,10 +91,6 @@
                         }
                     },
                     "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
                     "trivia": {
                         "name": ""
                     }
@@ -121,10 +107,6 @@
                         }
                     },
                     "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
                     "trivia": {
                         "name": " "
                     }
@@ -141,7 +123,6 @@
                         }
                     },
                     "signature": null,
-                    "separator": null,
                     "trivia": {
                         "name": " "
                     }
@@ -180,9 +161,6 @@
                     "idlType": "double",
                     "baseName": "double",
                     "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -209,9 +187,6 @@
                     "idlType": "double",
                     "baseName": "double",
                     "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -238,9 +213,6 @@
                     "idlType": "double",
                     "baseName": "double",
                     "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -267,9 +239,6 @@
                     "idlType": "double",
                     "baseName": "double",
                     "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -291,10 +260,6 @@
                     "name": "Constructor",
                     "rhs": null,
                     "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
                     "trivia": {
                         "name": "\n  "
                     }
@@ -317,9 +282,6 @@
                                     "idlType": "double",
                                     "baseName": "double",
                                     "escapedBaseName": "double",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
                                     "trivia": {
                                         "base": ""
                                     }
@@ -327,7 +289,6 @@
                                 "default": null,
                                 "optional": false,
                                 "variadic": false,
-                                "separator": null,
                                 "trivia": {
                                     "name": " "
                                 }
@@ -338,7 +299,6 @@
                             "close": ""
                         }
                     },
-                    "separator": null,
                     "trivia": {
                         "name": "\n  "
                     }
@@ -377,7 +337,6 @@
                                 "name": "XAttr",
                                 "rhs": null,
                                 "signature": null,
-                                "separator": null,
                                 "trivia": {
                                     "name": ""
                                 }
@@ -401,12 +360,6 @@
                             "idlType": "long",
                             "baseName": "long",
                             "escapedBaseName": "long",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": {
-                                "value": "or",
-                                "trivia": " "
-                            },
                             "trivia": {
                                 "base": ""
                             }
@@ -420,9 +373,6 @@
                             "idlType": "Node",
                             "baseName": "Node",
                             "escapedBaseName": "Node",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
                             "trivia": {
                                 "base": " "
                             }
@@ -430,9 +380,6 @@
                     ],
                     "baseName": null,
                     "escapedBaseName": null,
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
@@ -462,7 +409,6 @@
                         }
                     },
                     "signature": null,
-                    "separator": null,
                     "trivia": {
                         "name": ""
                     }

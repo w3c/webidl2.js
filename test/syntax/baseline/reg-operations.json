@@ -18,12 +18,6 @@
                     "idlType": "unsigned long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -50,12 +44,6 @@
                     "idlType": "unsigned long",
                     "baseName": "long",
                     "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
                     "trivia": {
                         "base": " "
                     }
@@ -104,9 +92,6 @@
                         "idlType": "boolean",
                         "baseName": "boolean",
                         "escapedBaseName": "boolean",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n\n  // An operation that takes no arguments, returns a boolean\n  "
                         }
@@ -141,9 +126,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n\n  // Overloaded operations.\n  "
                         }
@@ -161,9 +143,6 @@
                                 "idlType": "Dimensions",
                                 "baseName": "Dimensions",
                                 "escapedBaseName": "Dimensions",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -171,7 +150,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -206,9 +184,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -226,12 +201,6 @@
                                 "idlType": "unsigned long",
                                 "baseName": "long",
                                 "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": ""
-                                },
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -239,10 +208,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
                             "trivia": {
                                 "name": " "
                             }
@@ -259,12 +224,6 @@
                                 "idlType": "unsigned long",
                                 "baseName": "long",
                                 "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": " "
-                                },
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -272,7 +231,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

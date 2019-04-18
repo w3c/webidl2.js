@@ -23,9 +23,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -60,9 +57,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -80,9 +74,6 @@
                                 "idlType": "B",
                                 "baseName": "B",
                                 "escapedBaseName": "B",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": ""
                                 }
@@ -90,7 +81,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }
@@ -125,9 +115,6 @@
                         "idlType": "void",
                         "baseName": "void",
                         "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": "\n  "
                         }
@@ -145,7 +132,6 @@
                                             "name": "AllowAny",
                                             "rhs": null,
                                             "signature": null,
-                                            "separator": null,
                                             "trivia": {
                                                 "name": ""
                                             }
@@ -162,9 +148,6 @@
                                 "idlType": "DOMString",
                                 "baseName": "DOMString",
                                 "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
                                 "trivia": {
                                     "base": " "
                                 }
@@ -172,7 +155,6 @@
                             "default": null,
                             "optional": false,
                             "variadic": false,
-                            "separator": null,
                             "trivia": {
                                 "name": " "
                             }

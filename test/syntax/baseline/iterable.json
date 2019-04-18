@@ -17,9 +17,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": ""
                         }
@@ -63,12 +60,6 @@
                         "idlType": "short",
                         "baseName": "short",
                         "escapedBaseName": "short",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
                         "trivia": {
                             "base": ""
                         }
@@ -82,9 +73,6 @@
                         "idlType": "double",
                         "baseName": "double",
                         "escapedBaseName": "double",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
@@ -128,7 +116,6 @@
                                     "name": "XAttr",
                                     "rhs": null,
                                     "signature": null,
-                                    "separator": null,
                                     "trivia": {
                                         "name": ""
                                     }
@@ -145,9 +132,6 @@
                         "idlType": "long",
                         "baseName": "long",
                         "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
                         "trivia": {
                             "base": " "
                         }
