@@ -169,12 +169,6 @@ attached to a field called `idlType`:
   "nullable": false,
   "union": false,
   "baseName": "short",
-  "prefix": {
-    "value": "unsigned",
-    "trivia": " "
-  },
-  "postfix": null,
-  "separator": null,
   "trivia": {
     "base": " "
   },
@@ -393,9 +387,6 @@ A callback looks like this:
     "union": false,
     "idlType": "void",
     "baseName": "void",
-    "prefix": null,
-    "postfix": null,
-    "separator": null,
     "extAttrs": null,
     "trivia": {
       "base": " "
@@ -444,9 +435,6 @@ A dictionary looks like this:
       "union": false,
       "idlType": "DOMString",
       "baseName": "DOMString",
-      "prefix": null,
-      "postfix": null,
-      "separator": null,
       "extAttrs": [...],
       "trivia": {
         "base": "\n  "
@@ -506,26 +494,17 @@ An enum looks like this:
     {
       "type": "enum-value",
       "value": "rice",
-      "trivia": " ",
-      "separator": {
-        "value": ",",
-        "trivia": ""
-      }
+      "trivia": " "
     },
     {
       "type": "enum-value",
       "value": "noodles",
-      "trivia": " ",
-      "separator": {
-        "value": ",",
-        "trivia": ""
-      }
+      "trivia": " "
     },
     {
       "type": "enum-value",
       "value": "other",
-      "trivia": " ",
-      "separator": null
+      "trivia": " "
     }
   ],
   "trivia": {
@@ -567,9 +546,6 @@ A typedef looks like this:
         "union": false,
         "idlType": "Point",
         "baseName": "Point",
-        "prefix": null,
-        "postfix": null,
-        "separator": null,
         "extAttrs": [...]
         "trivia": {
             "base": ""
@@ -637,9 +613,6 @@ An operation looks like this:
       "union": false,
       "idlType": "void",
       "baseName": "void",
-      "prefix": null,
-      "postfix": null,
-      "separator": null,
       "extAttrs": null,
       "trivia": {
         "base": "\n  "
@@ -718,9 +691,6 @@ An attribute member looks like this:
     "union": false,
     "idlType": "any",
     "baseName": "any",
-    "prefix": null,
-    "postfix": null,
-    "separator": null,
     "extAttrs": [...],
     "trivia": {
       "base": " "
@@ -759,9 +729,6 @@ A constant member looks like this:
     "union": false,
     "idlType": "boolean",
     "baseName": "boolean",
-    "prefix": null,
-    "postfix": null,
-    "separator": null,
     "extAttrs": null,
     "trivia": {
       "base": " "
@@ -812,20 +779,13 @@ The arguments (e.g. for an operation) look like this:
       "union": false,
       "idlType": "float",
       "baseName": "float",
-      "prefix": null,
-      "postfix": null,
-      "separator": null,
       "extAttrs": [...],
       "trivia": {
         "base": " "
       }
     },
     "name": "ints",
-    "escapedName": "ints",
-    "separator": {
-      "value": ",",
-      "trivia": ""
-    }
+    "escapedName": "ints"
   }]
 }
 ```
@@ -874,8 +834,7 @@ Extended attribute container look like this:
       },
       "trivia": {
         "name": ""
-      },
-      "separator": null
+      }
     }]
   }
 }
