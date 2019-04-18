@@ -10,51 +10,27 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": {
-                        "value": "Promise",
-                        "trivia": {
-                            "open": "",
-                            "close": ""
-                        }
-                    },
+                    "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
                             "extAttrs": null,
-                            "generic": null,
+                            "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "void",
-                            "trivia": {
-                                "base": ""
-                            }
+                            "idlType": "void"
                         }
-                    ],
-                    "trivia": {
-                        "base": " "
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n    ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

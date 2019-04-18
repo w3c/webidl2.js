@@ -11,104 +11,72 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "union": true,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "idlType": [
                         {
                             "type": null,
                             "extAttrs": null,
-                            "generic": null,
+                            "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "float",
-                            "trivia": {
-                                "base": ""
-                            }
+                            "idlType": "float"
                         },
                         {
                             "type": null,
                             "extAttrs": null,
                             "union": true,
-                            "generic": null,
+                            "generic": "",
                             "nullable": false,
                             "idlType": [
                                 {
                                     "type": null,
                                     "extAttrs": null,
-                                    "generic": null,
+                                    "generic": "",
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "Date",
-                                    "trivia": {
-                                        "base": ""
-                                    }
+                                    "idlType": "Date"
                                 },
                                 {
                                     "type": null,
                                     "extAttrs": null,
-                                    "generic": null,
+                                    "generic": "",
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "Event",
-                                    "trivia": {
-                                        "base": " "
-                                    }
+                                    "idlType": "Event"
                                 }
-                            ],
-                            "trivia": {
-                                "open": " ",
-                                "close": ""
-                            }
+                            ]
                         },
                         {
                             "type": null,
                             "extAttrs": null,
                             "union": true,
-                            "generic": null,
+                            "generic": "",
                             "nullable": true,
                             "idlType": [
                                 {
                                     "type": null,
                                     "extAttrs": null,
-                                    "generic": null,
+                                    "generic": "",
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "Node",
-                                    "trivia": {
-                                        "base": ""
-                                    }
+                                    "idlType": "Node"
                                 },
                                 {
                                     "type": null,
                                     "extAttrs": null,
-                                    "generic": null,
+                                    "generic": "",
                                     "nullable": false,
                                     "union": false,
-                                    "idlType": "DOMString",
-                                    "trivia": {
-                                        "base": " "
-                                    }
+                                    "idlType": "DOMString"
                                 }
-                            ],
-                            "trivia": {
-                                "open": " ",
-                                "close": ""
-                            }
+                            ]
                         }
-                    ],
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
@@ -117,7 +85,7 @@
                     "type": "attribute-type",
                     "extAttrs": null,
                     "union": true,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "idlType": [
                         {
@@ -128,61 +96,32 @@
                                         "type": "extended-attribute",
                                         "name": "EnforceRange",
                                         "rhs": null,
-                                        "signature": null,
-                                        "trivia": {
-                                            "name": ""
-                                        }
+                                        "arguments": []
                                     }
-                                ],
-                                "trivia": {
-                                    "open": "",
-                                    "close": ""
-                                }
+                                ]
                             },
-                            "generic": null,
+                            "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "long",
-                            "trivia": {
-                                "base": " "
-                            }
+                            "idlType": "long"
                         },
                         {
                             "type": null,
                             "extAttrs": null,
-                            "generic": null,
+                            "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "Date",
-                            "trivia": {
-                                "base": " "
-                            }
+                            "idlType": "Date"
                         }
-                    ],
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

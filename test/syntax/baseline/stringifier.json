@@ -8,40 +8,23 @@
                 "type": "operation",
                 "name": "",
                 "body": {
-                    "name": null,
+                    "name": "",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "DOMString",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "DOMString"
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": "stringifier",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "stringifier"
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -53,21 +36,11 @@
                 "name": "",
                 "body": null,
                 "extAttrs": null,
-                "special": "stringifier",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "stringifier"
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

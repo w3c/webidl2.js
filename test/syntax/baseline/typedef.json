@@ -10,22 +10,14 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
@@ -33,33 +25,18 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n      ",
-            "name": " ",
-            "open": " ",
-            "close": "\n      ",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "typedef",
@@ -67,38 +44,21 @@
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
-            "generic": {
-                "value": "sequence",
-                "trivia": {
-                    "open": "",
-                    "close": ""
-                }
-            },
+            "generic": "sequence",
             "nullable": false,
             "union": false,
             "idlType": [
                 {
                     "type": "typedef-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point",
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "Point"
                 }
-            ],
-            "trivia": {
-                "base": " "
-            }
+            ]
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "\n\n      ",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -111,22 +71,14 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Point"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
@@ -134,33 +86,18 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Point"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n        ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n      ",
-            "name": " ",
-            "open": " ",
-            "close": "\n      ",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -173,41 +110,27 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Rect",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Rect"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "pointWithinBounds",
                 "body": {
-                    "name": {
-                        "value": "pointWithinBounds",
-                        "trivia": " "
-                    },
+                    "name": "pointWithinBounds",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "boolean",
-                        "trivia": {
-                            "base": "\n\n    "
-                        }
+                        "idlType": "boolean"
                     },
                     "arguments": [
                         {
@@ -215,51 +138,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "Point",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "Point"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "allPointsWithinBounds",
                 "body": {
-                    "name": {
-                        "value": "allPointsWithinBounds",
-                        "trivia": " "
-                    },
+                    "name": "allPointsWithinBounds",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "boolean",
-                        "trivia": {
-                            "base": "\n    "
-                        }
+                        "idlType": "boolean"
                     },
                     "arguments": [
                         {
@@ -267,43 +171,23 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "PointSequence",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "PointSequence"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n  ",
-            "name": " ",
-            "open": " ",
-            "close": "\n  ",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "typedef",
@@ -316,31 +200,16 @@
                         "type": "extended-attribute",
                         "name": "Clamp",
                         "rhs": null,
-                        "signature": null,
-                        "trivia": {
-                            "name": ""
-                        }
+                        "arguments": []
                     }
-                ],
-                "trivia": {
-                    "open": " ",
-                    "close": ""
-                }
+                ]
             },
-            "generic": null,
+            "generic": "",
             "nullable": false,
             "union": false,
-            "idlType": "octet",
-            "trivia": {
-                "base": " "
-            }
+            "idlType": "octet"
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "\n\n  ",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",

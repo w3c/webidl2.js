@@ -5,28 +5,18 @@
         "values": [
             {
                 "type": "enum-value",
-                "value": "rice",
-                "trivia": " "
+                "value": "rice"
             },
             {
                 "type": "enum-value",
-                "value": "noodles",
-                "trivia": " "
+                "value": "noodles"
             },
             {
                 "type": "enum-value",
-                "value": "other",
-                "trivia": " "
+                "value": "other"
             }
         ],
-        "extAttrs": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -39,22 +29,14 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "MealType",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "MealType"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
@@ -62,41 +44,27 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "operation",
                 "name": "initialize",
                 "body": {
-                    "name": {
-                        "value": "initialize",
-                        "trivia": " "
-                    },
+                    "name": "initialize",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "     // in grams\n\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -104,63 +72,37 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "MealType",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "MealType"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         },
                         {
                             "name": "size",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "float"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "enum",
@@ -168,28 +110,18 @@
         "values": [
             {
                 "type": "enum-value",
-                "value": "rice",
-                "trivia": " "
+                "value": "rice"
             },
             {
                 "type": "enum-value",
-                "value": "noodles",
-                "trivia": " "
+                "value": "noodles"
             },
             {
                 "type": "enum-value",
-                "value": "other",
-                "trivia": " "
+                "value": "other"
             }
         ],
-        "extAttrs": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",

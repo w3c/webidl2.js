@@ -5,13 +5,10 @@
         "idlType": {
             "type": "return-type",
             "extAttrs": null,
-            "generic": null,
+            "generic": "",
             "nullable": false,
             "union": false,
-            "idlType": "void",
-            "trivia": {
-                "base": " "
-            }
+            "idlType": "void"
         },
         "arguments": [
             {
@@ -19,31 +16,17 @@
                 "idlType": {
                     "type": "argument-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "DOMString"
                 },
                 "default": null,
                 "optional": false,
-                "variadic": false,
-                "trivia": {
-                    "name": " "
-                }
+                "variadic": false
             }
         ],
-        "extAttrs": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "assign": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "callback interface",
@@ -54,20 +37,14 @@
                 "type": "operation",
                 "name": "eventOccurred",
                 "body": {
-                    "name": {
-                        "value": "eventOccurred",
-                        "trivia": " "
-                    },
+                    "name": "eventOccurred",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -75,44 +52,23 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "callback": "\n\n",
-            "base": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "callback",
@@ -120,13 +76,10 @@
         "idlType": {
             "type": "return-type",
             "extAttrs": null,
-            "generic": null,
+            "generic": "",
             "nullable": false,
             "union": false,
-            "idlType": "boolean",
-            "trivia": {
-                "base": " "
-            }
+            "idlType": "boolean"
         },
         "arguments": [
             {
@@ -134,51 +87,31 @@
                 "idlType": {
                     "type": "argument-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "any",
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "any"
                 },
                 "default": null,
                 "optional": false,
-                "variadic": false,
-                "trivia": {
-                    "name": " "
-                }
+                "variadic": false
             },
             {
                 "name": "b",
                 "idlType": {
                     "type": "argument-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "any",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "any"
                 },
                 "default": null,
                 "optional": false,
-                "variadic": false,
-                "trivia": {
-                    "name": " "
-                }
+                "variadic": false
             }
         ],
-        "extAttrs": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "assign": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",
