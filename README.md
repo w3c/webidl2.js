@@ -600,11 +600,7 @@ An operation looks like this:
 ```JS
 {
   "type": "operation",
-  "getter": null,
-  "setter": null,
-  "deleter": null,
-  "static": null,
-  "stringifier": null,
+  "special": null,
   "body": {
     "idlType": {
       "type": "return-type",
@@ -652,11 +648,7 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `getter`: If a getter operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `setter`: If a setter operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `deleter`: If a deleter operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `static`: If a static operation, an object with a string type field `trivia`. Otherwise, `null`.
-* `stringifier`: If a stringifier operation, an object with a string type field `trivia`. Otherwise, `null`.
+* `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
 * `trivia`: A trivia object.
 * `body`: The operation body. Can be null if bodyless `stringifier`.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
@@ -707,9 +699,7 @@ The fields are as follows:
 * `type`: Always "attribute".
 * `name`: The attribute's name.
 * `escapedName`: The attribute's name including possible escaping underscore.
-* `static`: If it's a static attribute, an object with a string type field `trivia`. Otherwise, `null`.
-* `stringifier`: If it's a stringifier attribute, an object with a string type field `trivia`. Otherwise, `null`.
-* `inherit`: If it's an inherit attribute, an object with a string type field `trivia`. Otherwise, `null`.
+* `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `null`.
 * `readonly`: `true` if the attribute is read-only.
 * `trivia`: A trivia object.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
