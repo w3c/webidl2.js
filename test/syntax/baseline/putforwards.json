@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Person",
-        "escapedName": "Person",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Name",
-                    "baseName": "Name",
-                    "escapedBaseName": "Name",
                     "trivia": {
                         "base": " "
                     }
@@ -57,7 +53,6 @@
             {
                 "type": "attribute",
                 "name": "age",
-                "escapedName": "age",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -65,8 +60,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
                     "trivia": {
                         "base": " "
                     }

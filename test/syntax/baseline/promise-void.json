@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Cat",
-        "escapedName": "Cat",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "meow",
-                "escapedName": "meow",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -29,15 +27,11 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "void",
-                            "baseName": "void",
-                            "escapedBaseName": "void",
                             "trivia": {
                                 "base": ""
                             }
                         }
                     ],
-                    "baseName": "Promise",
-                    "escapedBaseName": "Promise",
                     "trivia": {
                         "base": " "
                     }

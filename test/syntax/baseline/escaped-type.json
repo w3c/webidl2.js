@@ -2,7 +2,6 @@
     {
         "type": "typedef",
         "name": "EscapedType",
-        "escapedName": "EscapedType",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
@@ -10,8 +9,6 @@
             "nullable": false,
             "union": false,
             "idlType": "Type",
-            "baseName": "Type",
-            "escapedBaseName": "_Type",
             "trivia": {
                 "base": " "
             }
@@ -26,7 +23,6 @@
     {
         "type": "typedef",
         "name": "EscapedSequence",
-        "escapedName": "EscapedSequence",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
@@ -47,15 +43,11 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Type",
-                    "baseName": "Type",
-                    "escapedBaseName": "_Type",
                     "trivia": {
                         "base": ""
                     }
                 }
             ],
-            "baseName": "sequence",
-            "escapedBaseName": "sequence",
             "trivia": {
                 "base": " "
             }

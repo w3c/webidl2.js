@@ -2,7 +2,6 @@
     {
         "type": "enum",
         "name": "MealType",
-        "escapedName": "MealType",
         "values": [
             {
                 "type": "enum-value",
@@ -32,13 +31,11 @@
     {
         "type": "interface",
         "name": "Meal",
-        "escapedName": "Meal",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "type",
-                "escapedName": "type",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -46,8 +43,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "MealType",
-                    "baseName": "MealType",
-                    "escapedBaseName": "MealType",
                     "trivia": {
                         "base": " "
                     }
@@ -64,7 +59,6 @@
             {
                 "type": "attribute",
                 "name": "size",
-                "escapedName": "size",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -72,8 +66,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -93,7 +85,6 @@
                 "body": {
                     "name": {
                         "value": "initialize",
-                        "escaped": "initialize",
                         "trivia": " "
                     },
                     "idlType": {
@@ -103,8 +94,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "     // in grams\n\n  "
                         }
@@ -112,7 +101,6 @@
                     "arguments": [
                         {
                             "name": "type",
-                            "escapedName": "type",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -120,8 +108,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "MealType",
-                                "baseName": "MealType",
-                                "escapedBaseName": "MealType",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -135,7 +121,6 @@
                         },
                         {
                             "name": "size",
-                            "escapedName": "size",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -143,8 +128,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": " "
                                 }
@@ -182,7 +165,6 @@
     {
         "type": "enum",
         "name": "AltMealType",
-        "escapedName": "_AltMealType",
         "values": [
             {
                 "type": "enum-value",

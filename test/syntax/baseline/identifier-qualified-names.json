@@ -2,7 +2,6 @@
     {
         "type": "typedef",
         "name": "number",
-        "escapedName": "number",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
@@ -10,8 +9,6 @@
             "nullable": false,
             "union": false,
             "idlType": "float",
-            "baseName": "float",
-            "escapedBaseName": "float",
             "trivia": {
                 "base": " "
             }
@@ -26,7 +23,6 @@
     {
         "type": "interface",
         "name": "System",
-        "escapedName": "System",
         "inheritance": null,
         "members": [
             {
@@ -35,7 +31,6 @@
                 "body": {
                     "name": {
                         "value": "createObject",
-                        "escaped": "createObject",
                         "trivia": " "
                     },
                     "idlType": {
@@ -45,8 +40,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "object",
-                        "baseName": "object",
-                        "escapedBaseName": "object",
                         "trivia": {
                             "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
                         }
@@ -54,7 +47,6 @@
                     "arguments": [
                         {
                             "name": "interface",
-                            "escapedName": "_interface",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -62,8 +54,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -99,8 +89,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
-                        "baseName": "DOMString",
-                        "escapedBaseName": "DOMString",
                         "trivia": {
                             "base": " "
                         }
@@ -108,7 +96,6 @@
                     "arguments": [
                         {
                             "name": "keyName",
-                            "escapedName": "keyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -116,8 +103,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -155,13 +140,11 @@
     {
         "type": "interface",
         "name": "TextField",
-        "escapedName": "TextField",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "const",
-                "escapedName": "_const",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -169,8 +152,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "baseName": "boolean",
-                    "escapedBaseName": "boolean",
                     "trivia": {
                         "base": " "
                     }
@@ -187,7 +168,6 @@
             {
                 "type": "attribute",
                 "name": "value",
-                "escapedName": "_value",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -195,8 +175,6 @@
                     "nullable": true,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -224,7 +202,6 @@
     {
         "type": "interface",
         "name": "FooEventTarget",
-        "escapedName": "FooEventTarget",
         "inheritance": null,
         "members": [
             {
@@ -233,7 +210,6 @@
                 "body": {
                     "name": {
                         "value": "addEventListener",
-                        "escaped": "addEventListener",
                         "trivia": " "
                     },
                     "idlType": {
@@ -243,8 +219,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  // Argument names allow some selected keywords\n  "
                         }
@@ -252,7 +226,6 @@
                     "arguments": [
                         {
                             "name": "callback",
-                            "escapedName": "callback",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -260,8 +233,6 @@
                                 "nullable": true,
                                 "union": false,
                                 "idlType": "EventListener",
-                                "baseName": "EventListener",
-                                "escapedBaseName": "EventListener",
                                 "trivia": {
                                     "base": ""
                                 }

@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Suffixes",
-        "escapedName": "Suffixes",
         "inheritance": null,
         "members": [
             {
@@ -11,7 +10,6 @@
                 "body": {
                     "name": {
                         "value": "test",
-                        "escaped": "test",
                         "trivia": " "
                     },
                     "idlType": {
@@ -21,8 +19,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -30,7 +26,6 @@
                     "arguments": [
                         {
                             "name": "foo",
-                            "escapedName": "foo",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -51,15 +46,11 @@
                                         "nullable": true,
                                         "union": false,
                                         "idlType": "DOMString",
-                                        "baseName": "DOMString",
-                                        "escapedBaseName": "DOMString",
                                         "trivia": {
                                             "base": ""
                                         }
                                     }
                                 ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
                                 "trivia": {
                                     "base": ""
                                 }

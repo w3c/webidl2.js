@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "A",
-        "escapedName": "A",
         "inheritance": null,
         "members": [
             {
@@ -17,8 +16,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "DOMString",
-                        "baseName": "DOMString",
-                        "escapedBaseName": "DOMString",
                         "trivia": {
                             "base": " "
                         }
@@ -49,7 +46,6 @@
     {
         "type": "interface",
         "name": "B",
-        "escapedName": "B",
         "inheritance": null,
         "members": [
             {

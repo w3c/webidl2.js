@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "IntegerSet",
-        "escapedName": "IntegerSet",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "cardinality",
-                "escapedName": "cardinality",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -37,7 +33,6 @@
                 "body": {
                     "name": {
                         "value": "union",
-                        "escaped": "union",
                         "trivia": " "
                     },
                     "idlType": {
@@ -47,8 +42,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n\n  "
                         }
@@ -56,7 +49,6 @@
                     "arguments": [
                         {
                             "name": "ints",
-                            "escapedName": "ints",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -64,8 +56,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -95,7 +85,6 @@
                 "body": {
                     "name": {
                         "value": "intersection",
-                        "escaped": "intersection",
                         "trivia": " "
                     },
                     "idlType": {
@@ -105,8 +94,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -114,7 +101,6 @@
                     "arguments": [
                         {
                             "name": "ints",
-                            "escapedName": "ints",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -122,8 +108,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
                                 "trivia": {
                                     "base": ""
                                 }

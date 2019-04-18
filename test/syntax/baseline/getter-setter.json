@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Dictionary",
-        "escapedName": "Dictionary",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "propertyCount",
-                "escapedName": "propertyCount",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -43,8 +39,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "float",
-                        "baseName": "float",
-                        "escapedBaseName": "float",
                         "trivia": {
                             "base": " "
                         }
@@ -52,7 +46,6 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -60,8 +53,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -97,8 +88,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": " "
                         }
@@ -106,7 +95,6 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "escapedName": "propertyName",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -114,8 +102,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -129,7 +115,6 @@
                         },
                         {
                             "name": "propertyValue",
-                            "escapedName": "propertyValue",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -137,8 +122,6 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": " "
                                 }

@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Animal",
-        "escapedName": "Animal",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -45,10 +41,8 @@
     {
         "type": "interface",
         "name": "Human",
-        "escapedName": "Human",
         "inheritance": {
             "name": "Animal",
-            "escapedName": "Animal",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -58,7 +52,6 @@
             {
                 "type": "attribute",
                 "name": "pet",
-                "escapedName": "pet",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -66,8 +59,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Dog",
-                    "baseName": "Dog",
-                    "escapedBaseName": "Dog",
                     "trivia": {
                         "base": " "
                     }
@@ -95,10 +86,8 @@
     {
         "type": "interface",
         "name": "Dog",
-        "escapedName": "Dog",
         "inheritance": {
             "name": "Animal",
-            "escapedName": "Animal",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -108,7 +97,6 @@
             {
                 "type": "attribute",
                 "name": "owner",
-                "escapedName": "owner",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -116,8 +104,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Human",
-                    "baseName": "Human",
-                    "escapedBaseName": "Human",
                     "trivia": {
                         "base": " "
                     }

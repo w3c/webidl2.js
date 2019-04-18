@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Primitives",
-        "escapedName": "Primitives",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "truth",
-                "escapedName": "truth",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean",
-                    "baseName": "boolean",
-                    "escapedBaseName": "boolean",
                     "trivia": {
                         "base": " "
                     }
@@ -34,7 +30,6 @@
             {
                 "type": "attribute",
                 "name": "character",
-                "escapedName": "character",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -42,8 +37,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "byte",
-                    "baseName": "byte",
-                    "escapedBaseName": "byte",
                     "trivia": {
                         "base": " "
                     }
@@ -60,7 +53,6 @@
             {
                 "type": "attribute",
                 "name": "value",
-                "escapedName": "value",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -68,8 +60,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "octet",
-                    "baseName": "octet",
-                    "escapedBaseName": "octet",
                     "trivia": {
                         "base": " "
                     }
@@ -86,7 +76,6 @@
             {
                 "type": "attribute",
                 "name": "number",
-                "escapedName": "number",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -94,8 +83,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
                     "trivia": {
                         "base": " "
                     }
@@ -112,7 +99,6 @@
             {
                 "type": "attribute",
                 "name": "positive",
-                "escapedName": "positive",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -120,8 +106,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
                     "trivia": {
                         "base": " "
                     }
@@ -138,7 +122,6 @@
             {
                 "type": "attribute",
                 "name": "big",
-                "escapedName": "big",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -146,8 +129,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -164,7 +145,6 @@
             {
                 "type": "attribute",
                 "name": "bigpositive",
-                "escapedName": "bigpositive",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -172,8 +152,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -190,7 +168,6 @@
             {
                 "type": "attribute",
                 "name": "bigbig",
-                "escapedName": "bigbig",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -198,8 +175,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "long long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -216,7 +191,6 @@
             {
                 "type": "attribute",
                 "name": "bigbigpositive",
-                "escapedName": "bigbigpositive",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -224,8 +198,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
                     "trivia": {
                         "base": " "
                     }
@@ -242,7 +214,6 @@
             {
                 "type": "attribute",
                 "name": "real",
-                "escapedName": "real",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -250,8 +221,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -268,7 +237,6 @@
             {
                 "type": "attribute",
                 "name": "bigreal",
-                "escapedName": "bigreal",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -276,8 +244,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -294,7 +260,6 @@
             {
                 "type": "attribute",
                 "name": "realwithinfinity",
-                "escapedName": "realwithinfinity",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -302,8 +267,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -320,7 +283,6 @@
             {
                 "type": "attribute",
                 "name": "bigrealwithinfinity",
-                "escapedName": "bigrealwithinfinity",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -328,8 +290,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
                     "trivia": {
                         "base": " "
                     }
@@ -346,7 +306,6 @@
             {
                 "type": "attribute",
                 "name": "string",
-                "escapedName": "string",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -354,8 +313,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -372,7 +329,6 @@
             {
                 "type": "attribute",
                 "name": "bytes",
-                "escapedName": "bytes",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -380,8 +336,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "ByteString",
-                    "baseName": "ByteString",
-                    "escapedBaseName": "ByteString",
                     "trivia": {
                         "base": " "
                     }
@@ -398,7 +352,6 @@
             {
                 "type": "attribute",
                 "name": "date",
-                "escapedName": "date",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -406,8 +359,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "Date",
-                    "baseName": "Date",
-                    "escapedBaseName": "Date",
                     "trivia": {
                         "base": " "
                     }
@@ -424,7 +375,6 @@
             {
                 "type": "attribute",
                 "name": "regexp",
-                "escapedName": "regexp",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -432,8 +382,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "RegExp",
-                    "baseName": "RegExp",
-                    "escapedBaseName": "RegExp",
                     "trivia": {
                         "base": " "
                     }

@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Canvas",
-        "escapedName": "Canvas",
         "inheritance": null,
         "members": [
             {
@@ -11,7 +10,6 @@
                 "body": {
                     "name": {
                         "value": "drawPolygon",
-                        "escaped": "drawPolygon",
                         "trivia": " "
                     },
                     "idlType": {
@@ -21,8 +19,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -30,7 +26,6 @@
                     "arguments": [
                         {
                             "name": "coordinates",
-                            "escapedName": "coordinates",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -51,15 +46,11 @@
                                         "nullable": false,
                                         "union": false,
                                         "idlType": "float",
-                                        "baseName": "float",
-                                        "escapedBaseName": "float",
                                         "trivia": {
                                             "base": ""
                                         }
                                     }
                                 ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
                                 "trivia": {
                                     "base": ""
                                 }
@@ -89,7 +80,6 @@
                 "body": {
                     "name": {
                         "value": "getInflectionPoints",
-                        "escaped": "getInflectionPoints",
                         "trivia": " "
                     },
                     "idlType": {
@@ -112,15 +102,11 @@
                                 "nullable": false,
                                 "union": false,
                                 "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
                                 "trivia": {
                                     "base": ""
                                 }
                             }
                         ],
-                        "baseName": "sequence",
-                        "escapedBaseName": "sequence",
                         "trivia": {
                             "base": "\n  "
                         }
@@ -151,7 +137,6 @@
     {
         "type": "interface",
         "name": "I",
-        "escapedName": "I",
         "inheritance": null,
         "members": [
             {
@@ -160,7 +145,6 @@
                 "body": {
                     "name": {
                         "value": "f1",
-                        "escaped": "f1",
                         "trivia": " "
                     },
                     "idlType": {
@@ -170,8 +154,6 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
                         "trivia": {
                             "base": "\n    "
                         }
@@ -179,7 +161,6 @@
                     "arguments": [
                         {
                             "name": "arg",
-                            "escapedName": "arg",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -216,15 +197,11 @@
                                         "nullable": false,
                                         "union": false,
                                         "idlType": "long",
-                                        "baseName": "long",
-                                        "escapedBaseName": "long",
                                         "trivia": {
                                             "base": " "
                                         }
                                     }
                                 ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
                                 "trivia": {
                                     "base": ""
                                 }

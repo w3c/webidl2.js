@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Circle",
-        "escapedName": "Circle",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "r",
-                "escapedName": "r",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -34,7 +30,6 @@
             {
                 "type": "attribute",
                 "name": "cx",
-                "escapedName": "cx",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -42,8 +37,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -60,7 +53,6 @@
             {
                 "type": "attribute",
                 "name": "cy",
-                "escapedName": "cy",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -68,8 +60,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -86,7 +76,6 @@
             {
                 "type": "attribute",
                 "name": "circumference",
-                "escapedName": "circumference",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -94,8 +83,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
                     "trivia": {
                         "base": " "
                     }
@@ -129,7 +116,6 @@
                         "arguments": [
                             {
                                 "name": "radius",
-                                "escapedName": "radius",
                                 "idlType": {
                                     "type": "argument-type",
                                     "extAttrs": null,
@@ -137,8 +123,6 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "float",
-                                    "baseName": "float",
-                                    "escapedBaseName": "float",
                                     "trivia": {
                                         "base": ""
                                     }

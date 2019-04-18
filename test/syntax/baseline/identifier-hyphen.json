@@ -2,12 +2,10 @@
     {
         "type": "interface",
         "name": "CSSStyleDeclaration",
-        "escapedName": "CSSStyleDeclaration",
         "members": [
             {
                 "type": "attribute",
                 "name": "-will-change",
-                "escapedName": "-will-change",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": {
@@ -38,8 +36,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "CSSOMString",
-                    "baseName": "CSSOMString",
-                    "escapedBaseName": "CSSOMString",
                     "trivia": {
                         "base": " "
                     }

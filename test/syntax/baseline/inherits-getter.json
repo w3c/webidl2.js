@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Animal",
-        "escapedName": "Animal",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -16,8 +14,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -45,10 +41,8 @@
     {
         "type": "interface",
         "name": "Person",
-        "escapedName": "Person",
         "inheritance": {
             "name": "Animal",
-            "escapedName": "Animal",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -58,7 +52,6 @@
             {
                 "type": "attribute",
                 "name": "age",
-                "escapedName": "age",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -66,8 +59,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
                     "trivia": {
                         "base": " "
                     }
@@ -84,7 +75,6 @@
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -92,8 +82,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }
@@ -121,10 +109,8 @@
     {
         "type": "interface",
         "name": "Ghost",
-        "escapedName": "Ghost",
         "inheritance": {
             "name": "Person",
-            "escapedName": "Person",
             "trivia": {
                 "colon": " ",
                 "name": " "
@@ -134,7 +120,6 @@
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -142,8 +127,6 @@
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
                     "trivia": {
                         "base": " "
                     }

@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "Documentation",
-        "escapedName": "Documentation",
         "inheritance": null,
         "members": [],
         "extAttrs": null,

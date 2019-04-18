@@ -2,13 +2,11 @@
     {
         "type": "interface",
         "name": "Union",
-        "escapedName": "Union",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "test",
-                "escapedName": "test",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -23,8 +21,6 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "float",
-                            "baseName": "float",
-                            "escapedBaseName": "float",
                             "trivia": {
                                 "base": ""
                             }
@@ -43,8 +39,6 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Date",
-                                    "baseName": "Date",
-                                    "escapedBaseName": "Date",
                                     "trivia": {
                                         "base": ""
                                     }
@@ -56,15 +50,11 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Event",
-                                    "baseName": "Event",
-                                    "escapedBaseName": "Event",
                                     "trivia": {
                                         "base": " "
                                     }
                                 }
                             ],
-                            "baseName": null,
-                            "escapedBaseName": null,
                             "trivia": {
                                 "open": " ",
                                 "close": ""
@@ -84,8 +74,6 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "Node",
-                                    "baseName": "Node",
-                                    "escapedBaseName": "Node",
                                     "trivia": {
                                         "base": ""
                                     }
@@ -97,23 +85,17 @@
                                     "nullable": false,
                                     "union": false,
                                     "idlType": "DOMString",
-                                    "baseName": "DOMString",
-                                    "escapedBaseName": "DOMString",
                                     "trivia": {
                                         "base": " "
                                     }
                                 }
                             ],
-                            "baseName": null,
-                            "escapedBaseName": null,
                             "trivia": {
                                 "open": " ",
                                 "close": ""
                             }
                         }
                     ],
-                    "baseName": null,
-                    "escapedBaseName": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
@@ -131,7 +113,6 @@
             {
                 "type": "attribute",
                 "name": "test2",
-                "escapedName": "test2",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
@@ -162,8 +143,6 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "long",
-                            "baseName": "long",
-                            "escapedBaseName": "long",
                             "trivia": {
                                 "base": " "
                             }
@@ -175,15 +154,11 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "Date",
-                            "baseName": "Date",
-                            "escapedBaseName": "Date",
                             "trivia": {
                                 "base": " "
                             }
                         }
                     ],
-                    "baseName": null,
-                    "escapedBaseName": null,
                     "trivia": {
                         "open": " ",
                         "close": ""
