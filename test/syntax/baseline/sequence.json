@@ -8,20 +8,14 @@
                 "type": "operation",
                 "name": "drawPolygon",
                 "body": {
-                    "name": {
-                        "value": "drawPolygon",
-                        "trivia": " "
-                    },
+                    "name": "drawPolygon",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -29,110 +23,59 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "sequence",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
+                                "generic": "sequence",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
                                         "extAttrs": null,
-                                        "generic": null,
+                                        "generic": "",
                                         "nullable": false,
                                         "union": false,
-                                        "idlType": "float",
-                                        "trivia": {
-                                            "base": ""
-                                        }
+                                        "idlType": "float"
                                     }
-                                ],
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "getInflectionPoints",
                 "body": {
-                    "name": {
-                        "value": "getInflectionPoints",
-                        "trivia": " "
-                    },
+                    "name": "getInflectionPoints",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": {
-                            "value": "sequence",
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
-                        },
+                        "generic": "sequence",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "float"
                             }
-                        ],
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        ]
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n// edited to remove sequence as attributes, now invalid\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n  // ...\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -143,20 +86,14 @@
                 "type": "operation",
                 "name": "f1",
                 "body": {
-                    "name": {
-                        "value": "f1",
-                        "trivia": " "
-                    },
+                    "name": "f1",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n    "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -164,13 +101,7 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "sequence",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
+                                "generic": "sequence",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
@@ -182,59 +113,29 @@
                                                     "type": "extended-attribute",
                                                     "name": "XAttr",
                                                     "rhs": null,
-                                                    "signature": null,
-                                                    "trivia": {
-                                                        "name": ""
-                                                    }
+                                                    "arguments": []
                                                 }
-                                            ],
-                                            "trivia": {
-                                                "open": "",
-                                                "close": ""
-                                            }
+                                            ]
                                         },
-                                        "generic": null,
+                                        "generic": "",
                                         "nullable": false,
                                         "union": false,
-                                        "idlType": "long",
-                                        "trivia": {
-                                            "base": " "
-                                        }
+                                        "idlType": "long"
                                     }
-                                ],
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

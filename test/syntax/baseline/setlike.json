@@ -10,34 +10,18 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -50,34 +34,18 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -95,45 +63,22 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr",
                                     "rhs": null,
-                                    "signature": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

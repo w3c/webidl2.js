@@ -10,13 +10,10 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": {
                     "items": [
@@ -24,66 +21,34 @@
                             "type": "extended-attribute",
                             "name": "Replaceable",
                             "rhs": null,
-                            "signature": null,
-                            "trivia": {
-                                "name": ""
-                            }
+                            "arguments": []
                         }
-                    ],
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    }
+                    ]
                 },
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "increment",
                 "body": {
-                    "name": {
-                        "value": "increment",
-                        "trivia": " "
-                    },
+                    "name": "increment",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

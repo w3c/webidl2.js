@@ -10,13 +10,10 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Name",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Name"
                 },
                 "extAttrs": {
                     "items": [
@@ -25,30 +22,14 @@
                             "name": "PutForwards",
                             "rhs": {
                                 "type": "identifier",
-                                "value": "full",
-                                "trivia": {
-                                    "assign": "",
-                                    "value": ""
-                                }
+                                "value": "full"
                             },
-                            "signature": null,
-                            "trivia": {
-                                "name": ""
-                            }
+                            "arguments": []
                         }
-                    ],
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    }
+                    ]
                 },
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "attribute",
@@ -56,33 +37,18 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned short"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -5,20 +5,12 @@
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
-            "generic": null,
+            "generic": "",
             "nullable": false,
             "union": false,
-            "idlType": "float",
-            "trivia": {
-                "base": " "
-            }
+            "idlType": "float"
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n  // Typedef identifier: \"number\"\n  // Qualified name:    \"::framework::number\"\n  ",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "interface",
@@ -29,20 +21,14 @@
                 "type": "operation",
                 "name": "createObject",
                 "body": {
-                    "name": {
-                        "value": "createObject",
-                        "trivia": " "
-                    },
+                    "name": "createObject",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "object",
-                        "trivia": {
-                            "base": "\n\n    // Operation identifier:          \"createObject\"\n    // Operation argument identifier: \"interface\"\n    "
-                        }
+                        "idlType": "object"
                     },
                     "arguments": [
                         {
@@ -50,48 +36,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "",
                 "body": {
-                    "name": null,
+                    "name": "",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "DOMString",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "DOMString"
                     },
                     "arguments": [
                         {
@@ -99,43 +69,23 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "getter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "getter"
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n  // Interface identifier: \"System\"\n  // Qualified name:       \"::framework::System\"\n  ",
-            "name": " ",
-            "open": " ",
-            "close": "\n  ",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -148,22 +98,14 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "boolean"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n\n      // Attribute identifier: \"const\"\n      ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
@@ -171,33 +113,18 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n\n      // Attribute identifier: \"value\"\n      ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n\n    // Interface identifier: \"TextField\"\n    // Qualified name:       \"::framework::gui::TextField\"\n    ",
-            "name": " ",
-            "open": " ",
-            "close": "\n    ",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -208,20 +135,14 @@
                 "type": "operation",
                 "name": "addEventListener",
                 "body": {
-                    "name": {
-                        "value": "addEventListener",
-                        "trivia": " "
-                    },
+                    "name": "addEventListener",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n  // Argument names allow some selected keywords\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -229,43 +150,23 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": true,
                                 "union": false,
-                                "idlType": "EventListener",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "EventListener"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -10,41 +10,27 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "union",
                 "body": {
-                    "name": {
-                        "value": "union",
-                        "trivia": " "
-                    },
+                    "name": "union",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -52,51 +38,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "long",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "long"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": true,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": true
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "intersection",
                 "body": {
-                    "name": {
-                        "value": "intersection",
-                        "trivia": " "
-                    },
+                    "name": "intersection",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -104,43 +71,23 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "long",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "long"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": true,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": true
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

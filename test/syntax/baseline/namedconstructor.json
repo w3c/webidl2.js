@@ -3,11 +3,7 @@
         "type": "interface",
         "name": "HTMLAudioElement",
         "inheritance": {
-            "name": "HTMLMediaElement",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "HTMLMediaElement"
         },
         "members": [],
         "extAttrs": {
@@ -17,74 +13,37 @@
                     "name": "NamedConstructor",
                     "rhs": {
                         "type": "identifier",
-                        "value": "Audio",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "value": "Audio"
                     },
-                    "signature": null,
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 },
                 {
                     "type": "extended-attribute",
                     "name": "NamedConstructor",
                     "rhs": {
                         "type": "identifier",
-                        "value": "Audio",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "value": "Audio"
                     },
-                    "signature": {
-                        "arguments": [
-                            {
-                                "name": "src",
-                                "idlType": {
-                                    "type": "argument-type",
-                                    "extAttrs": null,
-                                    "generic": null,
-                                    "nullable": false,
-                                    "union": false,
-                                    "idlType": "DOMString",
-                                    "trivia": {
-                                        "base": ""
-                                    }
-                                },
-                                "default": null,
-                                "optional": false,
-                                "variadic": false,
-                                "trivia": {
-                                    "name": " "
-                                }
-                            }
-                        ],
-                        "trivia": {
-                            "open": "",
-                            "close": ""
+                    "arguments": [
+                        {
+                            "name": "src",
+                            "idlType": {
+                                "type": "argument-type",
+                                "extAttrs": null,
+                                "generic": "",
+                                "nullable": false,
+                                "union": false,
+                                "idlType": "DOMString"
+                            },
+                            "default": null,
+                            "optional": false,
+                            "variadic": false
                         }
-                    },
-                    "trivia": {
-                        "name": "\n "
-                    }
+                    ]
                 }
-            ],
-            "trivia": {
-                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": false,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n  // ...\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -8,86 +8,46 @@
                 "type": "operation",
                 "name": "bar",
                 "body": {
-                    "name": {
-                        "value": "bar",
-                        "trivia": " "
-                    },
+                    "name": "bar",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": {
-                            "value": "Promise",
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
-                        },
+                        "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "Promise",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
+                                "generic": "Promise",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "return-type",
                                         "extAttrs": null,
-                                        "generic": {
-                                            "value": "sequence",
-                                            "trivia": {
-                                                "open": "",
-                                                "close": ""
-                                            }
-                                        },
+                                        "generic": "sequence",
                                         "nullable": false,
                                         "union": false,
                                         "idlType": [
                                             {
                                                 "type": "return-type",
                                                 "extAttrs": null,
-                                                "generic": null,
+                                                "generic": "",
                                                 "nullable": true,
                                                 "union": false,
-                                                "idlType": "DOMString",
-                                                "trivia": {
-                                                    "base": ""
-                                                }
+                                                "idlType": "DOMString"
                                             }
-                                        ],
-                                        "trivia": {
-                                            "base": ""
-                                        }
+                                        ]
                                     }
-                                ],
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             }
-                        ],
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        ]
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "attribute",
@@ -95,51 +55,27 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": {
-                        "value": "Promise",
-                        "trivia": {
-                            "open": "",
-                            "close": ""
-                        }
-                    },
+                    "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "attribute-type",
                             "extAttrs": null,
-                            "generic": null,
+                            "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "DOMString",
-                            "trivia": {
-                                "base": ""
-                            }
+                            "idlType": "DOMString"
                         }
-                    ],
-                    "trivia": {
-                        "base": " "
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -150,181 +86,97 @@
                 "type": "operation",
                 "name": "getServiced",
                 "body": {
-                    "name": {
-                        "value": "getServiced",
-                        "trivia": " "
-                    },
+                    "name": "getServiced",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": {
-                            "value": "Promise",
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
-                        },
+                        "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": true,
                                 "union": false,
-                                "idlType": "Client",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "Client"
                             }
-                        ],
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        ]
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "reloadAll",
                 "body": {
-                    "name": {
-                        "value": "reloadAll",
-                        "trivia": " "
-                    },
+                    "name": "reloadAll",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": {
-                            "value": "Promise",
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
-                        },
+                        "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "any",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "any"
                             }
-                        ],
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        ]
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n// Extracted from https://slightlyoff.github.io/ServiceWorker/spec/service_worker/ on 2014-05-08\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "FetchEvent",
         "inheritance": {
-            "name": "Event",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "Event"
         },
         "members": [
             {
                 "type": "operation",
                 "name": "default",
                 "body": {
-                    "name": {
-                        "value": "default",
-                        "trivia": " "
-                    },
+                    "name": "default",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": {
-                            "value": "Promise",
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
-                        },
+                        "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "any",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "any"
                             }
-                        ],
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        ]
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n// Extracted from https://slightlyoff.github.io/ServiceWorker/spec/service_worker/ on 2014-05-13\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -8,20 +8,14 @@
                 "type": "operation",
                 "name": "test",
                 "body": {
-                    "name": {
-                        "value": "test",
-                        "trivia": " "
-                    },
+                    "name": "test",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -29,61 +23,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "sequence",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
+                                "generic": "sequence",
                                 "nullable": true,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
                                         "extAttrs": null,
-                                        "generic": null,
+                                        "generic": "",
                                         "nullable": true,
                                         "union": false,
-                                        "idlType": "DOMString",
-                                        "trivia": {
-                                            "base": ""
-                                        }
+                                        "idlType": "DOMString"
                                     }
-                                ],
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

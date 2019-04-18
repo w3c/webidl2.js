@@ -9,58 +9,30 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Crypto",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Crypto"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
-            "mixin": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "includes",
         "extAttrs": null,
         "target": "Window",
-        "includes": "GlobalCrypto",
-        "trivia": {
-            "target": "\n\n",
-            "includes": " ",
-            "mixin": " ",
-            "termination": ""
-        }
+        "includes": "GlobalCrypto"
     },
     {
         "type": "includes",
         "extAttrs": null,
         "target": "WorkerGlobalScope",
-        "includes": "GlobalCrypto",
-        "trivia": {
-            "target": "\n",
-            "includes": " ",
-            "mixin": " ",
-            "termination": ""
-        }
+        "includes": "GlobalCrypto"
     },
     {
         "type": "interface mixin",
@@ -72,49 +44,25 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Crypto",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Crypto"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": true,
-        "trivia": {
-            "base": " ",
-            "mixin": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": true
     },
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
         "members": [],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "mixin": " ",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -11,27 +11,16 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString",
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "DOMString"
                 },
                 "default": {
                     "type": "string",
-                    "value": "black",
-                    "trivia": {
-                        "assign": " ",
-                        "value": " "
-                    }
+                    "value": "black"
                 },
-                "required": false,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             },
             {
                 "type": "field",
@@ -40,26 +29,15 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": true,
                     "union": false,
-                    "idlType": "DOMString",
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "DOMString"
                 },
                 "default": {
-                    "type": "null",
-                    "trivia": {
-                        "assign": " ",
-                        "value": " "
-                    }
+                    "type": "null"
                 },
-                "required": false,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             },
             {
                 "type": "field",
@@ -68,41 +46,23 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Point",
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "Point"
                 },
                 "default": null,
-                "required": false,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
         "inheritance": {
-            "name": "PaintOptions",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "PaintOptions"
         },
         "members": [
             {
@@ -112,31 +72,17 @@
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "float"
                 },
                 "default": null,
-                "required": false,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

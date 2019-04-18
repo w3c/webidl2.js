@@ -10,41 +10,27 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "getByIndex",
                 "body": {
-                    "name": {
-                        "value": "getByIndex",
-                        "trivia": " "
-                    },
+                    "name": "getByIndex",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "any",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "any"
                     },
                     "arguments": [
                         {
@@ -52,51 +38,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "getter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "setByIndex",
                 "body": {
-                    "name": {
-                        "value": "setByIndex",
-                        "trivia": " "
-                    },
+                    "name": "setByIndex",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -104,71 +71,46 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         },
                         {
                             "name": "value",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "any",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "any"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "setter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "setter"
             },
             {
                 "type": "operation",
                 "name": "removeByIndex",
                 "body": {
-                    "name": {
-                        "value": "removeByIndex",
-                        "trivia": " "
-                    },
+                    "name": "removeByIndex",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -176,51 +118,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "deleter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "deleter"
             },
             {
                 "type": "operation",
                 "name": "get",
                 "body": {
-                    "name": {
-                        "value": "get",
-                        "trivia": " "
-                    },
+                    "name": "get",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "any",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "any"
                     },
                     "arguments": [
                         {
@@ -228,51 +151,32 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "getter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "set",
                 "body": {
-                    "name": {
-                        "value": "set",
-                        "trivia": " "
-                    },
+                    "name": "set",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -280,71 +184,46 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         },
                         {
                             "name": "value",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "any",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "any"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "setter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "setter"
             },
             {
                 "type": "operation",
                 "name": "remove",
                 "body": {
-                    "name": {
-                        "value": "remove",
-                        "trivia": " "
-                    },
+                    "name": "remove",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
@@ -352,43 +231,23 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": "deleter",
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "deleter"
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

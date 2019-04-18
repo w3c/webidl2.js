@@ -6,65 +6,44 @@
             "type": "typedef-type",
             "extAttrs": null,
             "union": true,
-            "generic": null,
+            "generic": "",
             "nullable": false,
             "idlType": [
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "ImageData",
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "ImageData"
                 },
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "HTMLImageElement",
-                    "trivia": {
-                        "base": "\n           "
-                    }
+                    "idlType": "HTMLImageElement"
                 },
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "HTMLCanvasElement",
-                    "trivia": {
-                        "base": "\n           "
-                    }
+                    "idlType": "HTMLCanvasElement"
                 },
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "HTMLVideoElement",
-                    "trivia": {
-                        "base": "\n           "
-                    }
+                    "idlType": "HTMLVideoElement"
                 }
-            ],
-            "trivia": {
-                "open": " ",
-                "close": ""
-            }
+            ]
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "  ",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",

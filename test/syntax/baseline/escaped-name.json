@@ -3,34 +3,17 @@
         "type": "interface",
         "name": "Iroha",
         "inheritance": {
-            "name": "Magic",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "Magic"
         },
         "members": [],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "includes",
         "extAttrs": null,
         "target": "Iroha",
-        "includes": "Color",
-        "trivia": {
-            "target": "\n",
-            "includes": " ",
-            "mixin": " ",
-            "termination": ""
-        }
+        "includes": "Color"
     },
     {
         "type": "eof",

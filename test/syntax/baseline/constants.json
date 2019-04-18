@@ -10,25 +10,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "boolean",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "boolean"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "boolean",
                     "value": false
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -37,25 +27,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "short",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "short"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "number",
                     "value": "-1"
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -64,25 +44,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "octet",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "octet"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "number",
                     "value": "10"
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -91,25 +61,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "number",
                     "value": "0x0000fc00"
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -118,25 +78,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "number",
                     "value": "6.022e23"
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -145,25 +95,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unrestricted float",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unrestricted float"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "Infinity",
                     "negative": false
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -172,25 +112,15 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unrestricted double",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unrestricted double"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "Infinity",
                     "negative": true
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             },
             {
@@ -199,36 +129,19 @@
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "short",
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "short"
                 },
                 "extAttrs": null,
                 "value": {
                     "type": "NaN"
-                },
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "assign": " ",
-                    "value": " ",
-                    "termination": ""
                 }
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

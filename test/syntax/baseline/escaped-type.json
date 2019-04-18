@@ -5,20 +5,12 @@
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
-            "generic": null,
+            "generic": "",
             "nullable": false,
             "union": false,
-            "idlType": "Type",
-            "trivia": {
-                "base": " "
-            }
+            "idlType": "Type"
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "typedef",
@@ -26,38 +18,21 @@
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
-            "generic": {
-                "value": "sequence",
-                "trivia": {
-                    "open": "",
-                    "close": ""
-                }
-            },
+            "generic": "sequence",
             "nullable": false,
             "union": false,
             "idlType": [
                 {
                     "type": "typedef-type",
                     "extAttrs": null,
-                    "generic": null,
+                    "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "Type",
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "Type"
                 }
-            ],
-            "trivia": {
-                "base": " "
-            }
+            ]
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",

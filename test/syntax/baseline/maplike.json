@@ -10,45 +10,26 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     },
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "float",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "float"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -61,45 +42,26 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     },
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "float",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "float"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": true,
-                "trivia": {
-                    "base": " ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
@@ -117,24 +79,14 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr2",
                                     "rhs": null,
-                                    "signature": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "DOMString",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "DOMString"
                     },
                     {
                         "type": null,
@@ -144,45 +96,22 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr3",
                                     "rhs": null,
-                                    "signature": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": " ",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": false,
-                "trivia": {
-                    "base": "\n    ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

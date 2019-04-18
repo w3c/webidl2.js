@@ -8,20 +8,14 @@
                 "type": "operation",
                 "name": "createColor",
                 "body": {
-                    "name": {
-                        "value": "createColor",
-                        "trivia": " "
-                    },
+                    "name": "createColor",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
+                        "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "object",
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "object"
                     },
                     "arguments": [
                         {
@@ -29,110 +23,68 @@
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "float"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         },
                         {
                             "name": "v2",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "float"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         },
                         {
                             "name": "v3",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "float"
                             },
                             "default": null,
                             "optional": false,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         },
                         {
                             "name": "alpha",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
+                                "generic": "",
                                 "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "float"
                             },
                             "default": {
                                 "type": "number",
-                                "value": "3.5",
-                                "trivia": {
-                                    "assign": " ",
-                                    "value": " "
-                                }
+                                "value": "3.5"
                             },
                             "optional": true,
-                            "variadic": false,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": false,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",
