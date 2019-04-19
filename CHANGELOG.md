@@ -1,5 +1,12 @@
 # Change Log
 
+## [v19.0.1](https://github.com/w3c/webidl2.js/tree/v19.0.1) (2019-04-19)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v19.0.0...v19.0.1)
+
+**Merged pull requests:**
+
+- fix\(lib/writer\): call ts.trivia with actual string [\#309](https://github.com/w3c/webidl2.js/pull/309) ([saschanaz](https://github.com/saschanaz))
+
 ## [v19.0.0](https://github.com/w3c/webidl2.js/tree/v19.0.0) (2019-04-18)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v18.0.1...v19.0.0)
 
