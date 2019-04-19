@@ -34,10 +34,10 @@ describe("Writer template functions", () => {
   });
 
   it("catches trivia", () => {
-    const result = rewrite("/* longcat is long */ interface X {};", {
+    const result = rewrite("/* longcat is long */ [Exposed=( Window )] interface X {};", {
       trivia: bracket
     });
-    expect(result).toBe("</* longcat is long */ >interface< >X< >{<>}<>;<>");
+    expect(result).toBe("</* longcat is long */ >[<>Exposed<>=<>(< >Window< >)<>]< >interface< >X< >{<>}<>;<>");
   });
 
   it("catches names", () => {
