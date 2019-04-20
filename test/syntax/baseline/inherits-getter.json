@@ -2,198 +2,93 @@
     {
         "type": "interface",
         "name": "Animal",
-        "escapedName": "Animal",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n\n  // A simple attribute that can be set to any string value.\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "Person",
-        "escapedName": "Person",
         "inheritance": {
-            "name": "Animal",
-            "escapedName": "Animal",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "Animal"
         },
         "members": [
             {
                 "type": "attribute",
                 "name": "age",
-                "escapedName": "age",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned short"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n\n  // An attribute whose value cannot be assigned to.\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "inherit",
-                    "trivia": "\n\n  // An attribute that can raise an exception if it is set to an invalid value.\n  // Its getter behavior is inherited from Animal, and need not be specified\n  // the description of Person.\n  "
-                },
-                "readonly": null,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "inherit",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "Ghost",
-        "escapedName": "Ghost",
         "inheritance": {
-            "name": "Person",
-            "escapedName": "Person",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "Person"
         },
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "inherit",
-                    "trivia": "\n\n  // An attribute that only inherits the getter behavior\n  "
-                },
-                "readonly": {
-                    "trivia": " "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "inherit",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

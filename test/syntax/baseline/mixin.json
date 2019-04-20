@@ -2,144 +2,67 @@
     {
         "type": "interface mixin",
         "name": "GlobalCrypto",
-        "escapedName": "GlobalCrypto",
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
-                "escapedName": "crypto",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "Crypto",
-                    "baseName": "Crypto",
-                    "escapedBaseName": "Crypto",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Crypto"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from https://heycam.github.io/webidl/#using-mixins-and-partials on 2017-11-02\n\n",
-            "mixin": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "includes",
         "extAttrs": null,
         "target": "Window",
-        "escapedTarget": "Window",
-        "includes": "GlobalCrypto",
-        "escapedIncludes": "GlobalCrypto",
-        "trivia": {
-            "target": "\n\n",
-            "includes": " ",
-            "mixin": " ",
-            "termination": ""
-        }
+        "includes": "GlobalCrypto"
     },
     {
         "type": "includes",
         "extAttrs": null,
         "target": "WorkerGlobalScope",
-        "escapedTarget": "WorkerGlobalScope",
-        "includes": "GlobalCrypto",
-        "escapedIncludes": "GlobalCrypto",
-        "trivia": {
-            "target": "\n",
-            "includes": " ",
-            "mixin": " ",
-            "termination": ""
-        }
+        "includes": "GlobalCrypto"
     },
     {
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
-        "escapedName": "WindowOrWorkerGlobalScope",
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
-                "escapedName": "crypto",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "Crypto",
-                    "baseName": "Crypto",
-                    "escapedBaseName": "Crypto",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Crypto"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": "\n\n"
-        },
-        "trivia": {
-            "base": " ",
-            "mixin": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": true
     },
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
-        "escapedName": "_LocalCrypto",
         "members": [],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "mixin": " ",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

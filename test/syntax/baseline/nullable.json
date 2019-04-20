@@ -2,52 +2,26 @@
     {
         "type": "interface",
         "name": "Node",
-        "escapedName": "Node",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "namespaceURI",
-                "escapedName": "namespaceURI",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "generic": "",
+                    "nullable": true,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n  // ...\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

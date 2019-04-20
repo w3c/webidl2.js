@@ -2,172 +2,87 @@
     {
         "type": "dictionary",
         "name": "PaintOptions",
-        "escapedName": "PaintOptions",
         "inheritance": null,
         "members": [
             {
                 "type": "field",
                 "name": "fillPattern",
-                "escapedName": "fillPattern",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "generic": "",
+                    "nullable": true,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "DOMString"
                 },
                 "default": {
                     "type": "string",
-                    "value": "black",
-                    "trivia": {
-                        "assign": " ",
-                        "value": " "
-                    }
+                    "value": "black"
                 },
-                "required": null,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             },
             {
                 "type": "field",
                 "name": "strokePattern",
-                "escapedName": "strokePattern",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": {
-                        "trivia": ""
-                    },
+                    "generic": "",
+                    "nullable": true,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "DOMString"
                 },
                 "default": {
-                    "type": "null",
-                    "trivia": {
-                        "assign": " ",
-                        "value": " "
-                    }
+                    "type": "null"
                 },
-                "required": null,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             },
             {
                 "type": "field",
                 "name": "position",
-                "escapedName": "position",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "Point",
-                    "baseName": "Point",
-                    "escapedBaseName": "Point",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "Point"
                 },
                 "default": null,
-                "required": null,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
-        "escapedName": "WetPaintOptions",
         "inheritance": {
-            "name": "PaintOptions",
-            "escapedName": "PaintOptions",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "PaintOptions"
         },
         "members": [
             {
                 "type": "field",
                 "name": "hydrometry",
-                "escapedName": "hydrometry",
                 "extAttrs": null,
                 "idlType": {
                     "type": "dictionary-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": "\n  "
-                    }
+                    "idlType": "float"
                 },
                 "default": null,
-                "required": null,
-                "trivia": {
-                    "name": " ",
-                    "termination": ""
-                }
+                "required": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

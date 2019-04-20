@@ -2,42 +2,22 @@
     {
         "type": "interface",
         "name": "Node",
-        "escapedName": "Node",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "nodeType",
-                "escapedName": "nodeType",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned short"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": {
@@ -46,26 +26,11 @@
                     "type": "extended-attribute",
                     "name": "PrototypeRoot",
                     "rhs": null,
-                    "signature": null,
-                    "separator": null,
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 }
-            ],
-            "trivia": {
-                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

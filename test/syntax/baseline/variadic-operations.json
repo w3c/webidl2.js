@@ -2,187 +2,92 @@
     {
         "type": "interface",
         "name": "IntegerSet",
-        "escapedName": "IntegerSet",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "cardinality",
-                "escapedName": "cardinality",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "union",
                 "body": {
-                    "name": {
-                        "value": "union",
-                        "escaped": "union",
-                        "trivia": " "
-                    },
+                    "name": "union",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "ints",
-                            "escapedName": "ints",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "long"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": {
-                                "trivia": ""
-                            },
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": true
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "intersection",
                 "body": {
-                    "name": {
-                        "value": "intersection",
-                        "escaped": "intersection",
-                        "trivia": " "
-                    },
+                    "name": "intersection",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "ints",
-                            "escapedName": "ints",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "long"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": {
-                                "trivia": ""
-                            },
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": true
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

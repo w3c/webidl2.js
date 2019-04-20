@@ -2,95 +2,49 @@
     {
         "type": "interface",
         "name": "Foo",
-        "escapedName": "Foo",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "bar",
-                "escapedName": "bar",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "Foo",
-        "escapedName": "Foo",
         "members": [
             {
                 "type": "attribute",
                 "name": "quux",
-                "escapedName": "quux",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": "\n\n"
-        },
-        "trivia": {
-            "base": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": true
     },
     {
         "type": "eof",

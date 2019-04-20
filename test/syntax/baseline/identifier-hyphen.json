@@ -2,12 +2,10 @@
     {
         "type": "interface",
         "name": "CSSStyleDeclaration",
-        "escapedName": "CSSStyleDeclaration",
         "members": [
             {
                 "type": "attribute",
                 "name": "-will-change",
-                "escapedName": "-will-change",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": {
@@ -17,36 +15,16 @@
                                 "name": "TreatNullAs",
                                 "rhs": {
                                     "type": "identifier",
-                                    "value": "EmptyString",
-                                    "trivia": {
-                                        "assign": "",
-                                        "value": ""
-                                    }
+                                    "value": "EmptyString"
                                 },
-                                "signature": null,
-                                "separator": null,
-                                "trivia": {
-                                    "name": ""
-                                }
+                                "arguments": []
                             }
-                        ],
-                        "trivia": {
-                            "open": " ",
-                            "close": ""
-                        }
+                        ]
                     },
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "CSSOMString",
-                    "baseName": "CSSOMString",
-                    "escapedBaseName": "CSSOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "CSSOMString"
                 },
                 "extAttrs": {
                     "items": [
@@ -54,38 +32,16 @@
                             "type": "extended-attribute",
                             "name": "CEReactions",
                             "rhs": null,
-                            "signature": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": ""
-                            }
+                            "arguments": []
                         }
-                    ],
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    }
+                    ]
                 },
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": {
-            "trivia": ""
-        },
-        "trivia": {
-            "base": " ",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": true
     },
     {
         "type": "eof",

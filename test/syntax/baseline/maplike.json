@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "MapLike",
-        "escapedName": "MapLike",
         "inheritance": null,
         "members": [
             {
@@ -11,63 +10,30 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     },
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "float",
-                        "baseName": "float",
-                        "escapedBaseName": "float",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "float"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "ReadOnlyMapLike",
-        "escapedName": "ReadOnlyMapLike",
         "inheritance": null,
         "members": [
             {
@@ -76,65 +42,30 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     },
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "float",
-                        "baseName": "float",
-                        "escapedBaseName": "float",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "float"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "I",
-        "escapedName": "I",
         "inheritance": null,
         "members": [
             {
@@ -148,33 +79,14 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr2",
                                     "rhs": null,
-                                    "signature": null,
-                                    "separator": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "DOMString",
-                        "baseName": "DOMString",
-                        "escapedBaseName": "DOMString",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "DOMString"
                     },
                     {
                         "type": null,
@@ -184,51 +96,22 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr3",
                                     "rhs": null,
-                                    "signature": null,
-                                    "separator": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": " ",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n    ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -2,31 +2,18 @@
     {
         "type": "interface",
         "name": "Counter",
-        "escapedName": "Counter",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "value",
-                "escapedName": "value",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": {
                     "items": [
@@ -34,75 +21,34 @@
                             "type": "extended-attribute",
                             "name": "Replaceable",
                             "rhs": null,
-                            "signature": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": ""
-                            }
+                            "arguments": []
                         }
-                    ],
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    }
+                    ]
                 },
-                "special": null,
-                "readonly": {
-                    "trivia": " "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "increment",
                 "body": {
-                    "name": {
-                        "value": "increment",
-                        "escaped": "increment",
-                        "trivia": " "
-                    },
+                    "name": "increment",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

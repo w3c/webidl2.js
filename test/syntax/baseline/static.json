@@ -2,284 +2,140 @@
     {
         "type": "interface",
         "name": "Point",
-        "escapedName": "Point",
         "inheritance": null,
         "members": [],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": " /* ... */ ",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "Circle",
-        "escapedName": "Circle",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "cx",
-                "escapedName": "cx",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "cy",
-                "escapedName": "cy",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "radius",
-                "escapedName": "radius",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "float",
-                    "baseName": "float",
-                    "escapedBaseName": "float",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "float"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "triangulationCount",
-                "escapedName": "triangulationCount",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "long"
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "static",
-                    "trivia": "\n\n  "
-                },
-                "readonly": {
-                    "trivia": " "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "static",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "triangulate",
                 "body": {
-                    "name": {
-                        "value": "triangulate",
-                        "escaped": "triangulate",
-                        "trivia": " "
-                    },
+                    "name": "triangulate",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "Point",
-                        "baseName": "Point",
-                        "escapedBaseName": "Point",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "Point"
                     },
                     "arguments": [
                         {
                             "name": "c1",
-                            "escapedName": "c1",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "Circle"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         },
                         {
                             "name": "c2",
-                            "escapedName": "c2",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "Circle"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         },
                         {
                             "name": "c3",
-                            "escapedName": "c3",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "Circle",
-                                "baseName": "Circle",
-                                "escapedBaseName": "Circle",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "Circle"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "static",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "static"
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

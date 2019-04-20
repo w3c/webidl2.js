@@ -2,214 +2,107 @@
     {
         "type": "interface",
         "name": "Canvas",
-        "escapedName": "Canvas",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
                 "name": "drawPolygon",
                 "body": {
-                    "name": {
-                        "value": "drawPolygon",
-                        "escaped": "drawPolygon",
-                        "trivia": " "
-                    },
+                    "name": "drawPolygon",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "coordinates",
-                            "escapedName": "coordinates",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "sequence",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
-                                "nullable": null,
+                                "generic": "sequence",
+                                "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
                                         "extAttrs": null,
-                                        "generic": null,
-                                        "nullable": null,
+                                        "generic": "",
+                                        "nullable": false,
                                         "union": false,
-                                        "idlType": "float",
-                                        "baseName": "float",
-                                        "escapedBaseName": "float",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
-                                        "trivia": {
-                                            "base": ""
-                                        }
+                                        "idlType": "float"
                                     }
-                                ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             },
             {
                 "type": "operation",
                 "name": "getInflectionPoints",
                 "body": {
-                    "name": {
-                        "value": "getInflectionPoints",
-                        "escaped": "getInflectionPoints",
-                        "trivia": " "
-                    },
+                    "name": "getInflectionPoints",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": {
-                            "value": "sequence",
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
-                        },
-                        "nullable": null,
+                        "generic": "sequence",
+                        "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "float",
-                                "baseName": "float",
-                                "escapedBaseName": "float",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "float"
                             }
-                        ],
-                        "baseName": "sequence",
-                        "escapedBaseName": "sequence",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        ]
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n// edited to remove sequence as attributes, now invalid\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n  // ...\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "I",
-        "escapedName": "I",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
                 "name": "f1",
                 "body": {
-                    "name": {
-                        "value": "f1",
-                        "escaped": "f1",
-                        "trivia": " "
-                    },
+                    "name": "f1",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n    "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "arg",
-                            "escapedName": "arg",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "sequence",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
-                                "nullable": null,
+                                "generic": "sequence",
+                                "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
@@ -220,71 +113,29 @@
                                                     "type": "extended-attribute",
                                                     "name": "XAttr",
                                                     "rhs": null,
-                                                    "signature": null,
-                                                    "separator": null,
-                                                    "trivia": {
-                                                        "name": ""
-                                                    }
+                                                    "arguments": []
                                                 }
-                                            ],
-                                            "trivia": {
-                                                "open": "",
-                                                "close": ""
-                                            }
+                                            ]
                                         },
-                                        "generic": null,
-                                        "nullable": null,
+                                        "generic": "",
+                                        "nullable": false,
                                         "union": false,
-                                        "idlType": "long",
-                                        "baseName": "long",
-                                        "escapedBaseName": "long",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
-                                        "trivia": {
-                                            "base": " "
-                                        }
+                                        "idlType": "long"
                                     }
-                                ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-type-extended-attribute-associated-with on 2017-07-01\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

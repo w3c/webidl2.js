@@ -2,104 +2,48 @@
     {
         "type": "typedef",
         "name": "TexImageSource",
-        "escapedName": "TexImageSource",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
             "union": true,
-            "generic": null,
-            "nullable": null,
+            "generic": "",
+            "nullable": false,
             "idlType": [
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "ImageData",
-                    "baseName": "ImageData",
-                    "escapedBaseName": "ImageData",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": {
-                        "value": "or",
-                        "trivia": " "
-                    },
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "ImageData"
                 },
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "HTMLImageElement",
-                    "baseName": "HTMLImageElement",
-                    "escapedBaseName": "HTMLImageElement",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": {
-                        "value": "or",
-                        "trivia": " "
-                    },
-                    "trivia": {
-                        "base": "\n           "
-                    }
+                    "idlType": "HTMLImageElement"
                 },
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "HTMLCanvasElement",
-                    "baseName": "HTMLCanvasElement",
-                    "escapedBaseName": "HTMLCanvasElement",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": {
-                        "value": "or",
-                        "trivia": " "
-                    },
-                    "trivia": {
-                        "base": "\n           "
-                    }
+                    "idlType": "HTMLCanvasElement"
                 },
                 {
                     "type": null,
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "HTMLVideoElement",
-                    "baseName": "HTMLVideoElement",
-                    "escapedBaseName": "HTMLVideoElement",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": "\n           "
-                    }
+                    "idlType": "HTMLVideoElement"
                 }
-            ],
-            "baseName": null,
-            "escapedBaseName": null,
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
-            "trivia": {
-                "open": " ",
-                "close": ""
-            }
+            ]
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "  ",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",

@@ -2,530 +2,252 @@
     {
         "type": "interface",
         "name": "OrderedMap",
-        "escapedName": "OrderedMap",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "size",
-                "escapedName": "size",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "operation",
                 "name": "getByIndex",
                 "body": {
-                    "name": {
-                        "value": "getByIndex",
-                        "escaped": "getByIndex",
-                        "trivia": " "
-                    },
+                    "name": "getByIndex",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "any",
-                        "baseName": "any",
-                        "escapedBaseName": "any",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "any"
                     },
                     "arguments": [
                         {
                             "name": "index",
-                            "escapedName": "index",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": ""
-                                },
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "getter",
-                    "trivia": "\n\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "setByIndex",
                 "body": {
-                    "name": {
-                        "value": "setByIndex",
-                        "escaped": "setByIndex",
-                        "trivia": " "
-                    },
+                    "name": "setByIndex",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "index",
-                            "escapedName": "index",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": ""
-                                },
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         },
                         {
                             "name": "value",
-                            "escapedName": "value",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "any",
-                                "baseName": "any",
-                                "escapedBaseName": "any",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "any"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "setter",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "setter"
             },
             {
                 "type": "operation",
                 "name": "removeByIndex",
                 "body": {
-                    "name": {
-                        "value": "removeByIndex",
-                        "escaped": "removeByIndex",
-                        "trivia": " "
-                    },
+                    "name": "removeByIndex",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "index",
-                            "escapedName": "index",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": ""
-                                },
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "deleter",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "deleter"
             },
             {
                 "type": "operation",
                 "name": "get",
                 "body": {
-                    "name": {
-                        "value": "get",
-                        "escaped": "get",
-                        "trivia": " "
-                    },
+                    "name": "get",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "any",
-                        "baseName": "any",
-                        "escapedBaseName": "any",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "any"
                     },
                     "arguments": [
                         {
                             "name": "name",
-                            "escapedName": "name",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "getter",
-                    "trivia": "\n\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "set",
                 "body": {
-                    "name": {
-                        "value": "set",
-                        "escaped": "set",
-                        "trivia": " "
-                    },
+                    "name": "set",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "name",
-                            "escapedName": "name",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": {
-                                "value": ",",
-                                "trivia": ""
-                            },
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         },
                         {
                             "name": "value",
-                            "escapedName": "value",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "any",
-                                "baseName": "any",
-                                "escapedBaseName": "any",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "any"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "setter",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "setter"
             },
             {
                 "type": "operation",
                 "name": "remove",
                 "body": {
-                    "name": {
-                        "value": "remove",
-                        "escaped": "remove",
-                        "trivia": " "
-                    },
+                    "name": "remove",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "name",
-                            "escapedName": "name",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "deleter",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "deleter"
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

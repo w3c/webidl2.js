@@ -2,14 +2,8 @@
     {
         "type": "interface",
         "name": "ServiceWorkerGlobalScope",
-        "escapedName": "ServiceWorkerGlobalScope",
         "inheritance": {
-            "name": "WorkerGlobalScope",
-            "escapedName": "WorkerGlobalScope",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "WorkerGlobalScope"
         },
         "members": [],
         "extAttrs": {
@@ -21,70 +15,31 @@
                         "type": "identifier-list",
                         "value": [
                             {
-                                "value": "Worker",
-                                "trivia": "",
-                                "separator": {
-                                    "value": ",",
-                                    "trivia": ""
-                                }
+                                "value": "Worker"
                             },
                             {
-                                "value": "ServiceWorker",
-                                "trivia": "",
-                                "separator": null
+                                "value": "ServiceWorker"
                             }
-                        ],
-                        "trivia": {
-                            "assign": "",
-                            "open": "",
-                            "close": ""
-                        }
+                        ]
                     },
-                    "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 },
                 {
                     "type": "extended-attribute",
                     "name": "Exposed",
                     "rhs": {
                         "type": "identifier",
-                        "value": "ServiceWorker",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "value": "ServiceWorker"
                     },
-                    "signature": null,
-                    "separator": null,
-                    "trivia": {
-                        "name": " "
-                    }
+                    "arguments": []
                 }
-            ],
-            "trivia": {
-                "open": "// Extracted from http://www.w3.org/TR/2015/WD-service-workers-20150205/\n\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "IdInterface",
-        "escapedName": "IdInterface",
         "inheritance": null,
         "members": [],
         "extAttrs": {
@@ -94,196 +49,96 @@
                     "name": "IntAttr",
                     "rhs": {
                         "type": "integer",
-                        "value": "0",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "value": "0"
                     },
-                    "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 },
                 {
                     "type": "extended-attribute",
                     "name": "FloatAttr",
                     "rhs": {
-                        "type": "float",
-                        "value": "3.14",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "type": "decimal",
+                        "value": "3.14"
                     },
-                    "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
-                    "trivia": {
-                        "name": " "
-                    }
+                    "arguments": []
                 },
                 {
                     "type": "extended-attribute",
                     "name": "StringAttr",
                     "rhs": {
                         "type": "string",
-                        "value": "\"abc\"",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "value": "\"abc\""
                     },
-                    "signature": null,
-                    "separator": null,
-                    "trivia": {
-                        "name": " "
-                    }
+                    "arguments": []
                 }
-            ],
-            "trivia": {
-                "open": "\n\n// Conformance with ExtendedAttributeList grammar in http://www.w3.org/TR/WebIDL/#idl-extended-attributes\n// Section 3.11\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "Circle",
-        "escapedName": "Circle",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "r",
-                "escapedName": "r",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "double"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "cx",
-                "escapedName": "cx",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "double"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "cy",
-                "escapedName": "cy",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "double"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "circumference",
-                "escapedName": "circumference",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "double",
-                    "baseName": "double",
-                    "escapedBaseName": "double",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "double"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": {
@@ -292,84 +147,41 @@
                     "type": "extended-attribute",
                     "name": "Constructor",
                     "rhs": null,
-                    "signature": null,
-                    "separator": {
-                        "value": ",",
-                        "trivia": ""
-                    },
-                    "trivia": {
-                        "name": "\n  "
-                    }
+                    "arguments": []
                 },
                 {
                     "type": "extended-attribute",
                     "name": "Constructor",
                     "rhs": null,
-                    "signature": {
-                        "arguments": [
-                            {
-                                "name": "radius",
-                                "escapedName": "radius",
-                                "idlType": {
-                                    "type": "argument-type",
-                                    "extAttrs": null,
-                                    "generic": null,
-                                    "nullable": null,
-                                    "union": false,
-                                    "idlType": "double",
-                                    "baseName": "double",
-                                    "escapedBaseName": "double",
-                                    "prefix": null,
-                                    "postfix": null,
-                                    "separator": null,
-                                    "trivia": {
-                                        "base": ""
-                                    }
-                                },
-                                "default": null,
-                                "optional": null,
-                                "variadic": null,
-                                "separator": null,
-                                "trivia": {
-                                    "name": " "
-                                }
-                            }
-                        ],
-                        "trivia": {
-                            "open": "",
-                            "close": ""
+                    "arguments": [
+                        {
+                            "name": "radius",
+                            "idlType": {
+                                "type": "argument-type",
+                                "extAttrs": null,
+                                "generic": "",
+                                "nullable": false,
+                                "union": false,
+                                "idlType": "double"
+                            },
+                            "default": null,
+                            "optional": false,
+                            "variadic": false
                         }
-                    },
-                    "separator": null,
-                    "trivia": {
-                        "name": "\n  "
-                    }
+                    ]
                 }
-            ],
-            "trivia": {
-                "open": "\n\n// Extracted from http://www.w3.org/TR/2016/REC-WebIDL-1-20161215/#Constructor on 2017-5-18 with whitespace differences\n",
-                "close": "\n"
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "I",
-        "escapedName": "I",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "attrib",
-                "escapedName": "attrib",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": {
@@ -378,76 +190,35 @@
                                 "type": "extended-attribute",
                                 "name": "XAttr",
                                 "rhs": null,
-                                "signature": null,
-                                "separator": null,
-                                "trivia": {
-                                    "name": ""
-                                }
+                                "arguments": []
                             }
-                        ],
-                        "trivia": {
-                            "open": " ",
-                            "close": ""
-                        }
+                        ]
                     },
                     "union": true,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "idlType": [
                         {
                             "type": null,
                             "extAttrs": null,
-                            "generic": null,
-                            "nullable": null,
+                            "generic": "",
+                            "nullable": false,
                             "union": false,
-                            "idlType": "long",
-                            "baseName": "long",
-                            "escapedBaseName": "long",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": {
-                                "value": "or",
-                                "trivia": " "
-                            },
-                            "trivia": {
-                                "base": ""
-                            }
+                            "idlType": "long"
                         },
                         {
                             "type": null,
                             "extAttrs": null,
-                            "generic": null,
-                            "nullable": null,
+                            "generic": "",
+                            "nullable": false,
                             "union": false,
-                            "idlType": "Node",
-                            "baseName": "Node",
-                            "escapedBaseName": "Node",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "trivia": {
-                                "base": " "
-                            }
+                            "idlType": "Node"
                         }
-                    ],
-                    "baseName": null,
-                    "escapedBaseName": null,
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n    ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": {
@@ -457,32 +228,13 @@
                     "name": "Exposed",
                     "rhs": {
                         "type": "identifier",
-                        "value": "Window",
-                        "trivia": {
-                            "assign": "",
-                            "value": ""
-                        }
+                        "value": "Window"
                     },
-                    "signature": null,
-                    "separator": null,
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 }
-            ],
-            "trivia": {
-                "open": "\n\n// Extracted from https://heycam.github.io/webidl/#idl-annotated-types on 2017-12-15\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

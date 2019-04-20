@@ -2,71 +2,35 @@
     {
         "type": "interface",
         "name": "Cat",
-        "escapedName": "Cat",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "meow",
-                "escapedName": "meow",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": {
-                        "value": "Promise",
-                        "trivia": {
-                            "open": "",
-                            "close": ""
-                        }
-                    },
-                    "nullable": null,
+                    "generic": "Promise",
+                    "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "return-type",
                             "extAttrs": null,
-                            "generic": null,
-                            "nullable": null,
+                            "generic": "",
+                            "nullable": false,
                             "union": false,
-                            "idlType": "void",
-                            "baseName": "void",
-                            "escapedBaseName": "void",
-                            "prefix": null,
-                            "postfix": null,
-                            "separator": null,
-                            "trivia": {
-                                "base": ""
-                            }
+                            "idlType": "void"
                         }
-                    ],
-                    "baseName": "Promise",
-                    "escapedBaseName": "Promise",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n    ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

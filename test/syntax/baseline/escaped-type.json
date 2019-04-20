@@ -2,79 +2,37 @@
     {
         "type": "typedef",
         "name": "EscapedType",
-        "escapedName": "EscapedType",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
-            "generic": null,
-            "nullable": null,
+            "generic": "",
+            "nullable": false,
             "union": false,
-            "idlType": "Type",
-            "baseName": "Type",
-            "escapedBaseName": "_Type",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
-            "trivia": {
-                "base": " "
-            }
+            "idlType": "Type"
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "typedef",
         "name": "EscapedSequence",
-        "escapedName": "EscapedSequence",
         "idlType": {
             "type": "typedef-type",
             "extAttrs": null,
-            "generic": {
-                "value": "sequence",
-                "trivia": {
-                    "open": "",
-                    "close": ""
-                }
-            },
-            "nullable": null,
+            "generic": "sequence",
+            "nullable": false,
             "union": false,
             "idlType": [
                 {
                     "type": "typedef-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "Type",
-                    "baseName": "Type",
-                    "escapedBaseName": "_Type",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": ""
-                    }
+                    "idlType": "Type"
                 }
-            ],
-            "baseName": "sequence",
-            "escapedBaseName": "sequence",
-            "prefix": null,
-            "postfix": null,
-            "separator": null,
-            "trivia": {
-                "base": " "
-            }
+            ]
         },
-        "extAttrs": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "termination": ""
-        }
+        "extAttrs": null
     },
     {
         "type": "eof",

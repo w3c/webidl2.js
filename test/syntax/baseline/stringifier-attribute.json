@@ -2,72 +2,37 @@
     {
         "type": "interface",
         "name": "Student",
-        "escapedName": "Student",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "id",
-                "escapedName": "id",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long",
-                    "baseName": "long",
-                    "escapedBaseName": "long",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned long"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
-                "readonly": null,
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "stringifier",
+                "readonly": false
             }
         ],
         "extAttrs": {
@@ -76,26 +41,11 @@
                     "type": "extended-attribute",
                     "name": "Constructor",
                     "rhs": null,
-                    "signature": null,
-                    "separator": null,
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 }
-            ],
-            "trivia": {
-                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",
