@@ -78,55 +78,28 @@
     {
         "type": "interface",
         "name": "Bonsai",
-        "escapedName": "Bonsai",
         "inheritance": {
-            "name": "Tree.Art",
-            "escapedName": "Tree.Art",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "Tree.Art"
         },
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",
