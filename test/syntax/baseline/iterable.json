@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "IterableOne",
-        "escapedName": "IterableOne",
         "inheritance": null,
         "members": [
             {
@@ -11,44 +10,22 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "IterableTwo",
-        "escapedName": "IterableTwo",
         "inheritance": null,
         "members": [
             {
@@ -57,65 +34,30 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "short",
-                        "baseName": "short",
-                        "escapedBaseName": "short",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": {
-                            "value": ",",
-                            "trivia": ""
-                        },
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "short"
                     },
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": {
-                            "trivia": ""
-                        },
+                        "generic": "",
+                        "nullable": true,
                         "union": false,
-                        "idlType": "double",
-                        "baseName": "double",
-                        "escapedBaseName": "double",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "double"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "IterableThree",
-        "escapedName": "IterableThree",
         "inheritance": null,
         "members": [
             {
@@ -129,51 +71,22 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr",
                                     "rhs": null,
-                                    "signature": null,
-                                    "separator": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

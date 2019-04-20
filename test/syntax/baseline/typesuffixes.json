@@ -2,111 +2,53 @@
     {
         "type": "interface",
         "name": "Suffixes",
-        "escapedName": "Suffixes",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
                 "name": "test",
                 "body": {
-                    "name": {
-                        "value": "test",
-                        "escaped": "test",
-                        "trivia": " "
-                    },
+                    "name": "test",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "void",
-                        "baseName": "void",
-                        "escapedBaseName": "void",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "void"
                     },
                     "arguments": [
                         {
                             "name": "foo",
-                            "escapedName": "foo",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": {
-                                    "value": "sequence",
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
-                                },
-                                "nullable": {
-                                    "trivia": ""
-                                },
+                                "generic": "sequence",
+                                "nullable": true,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
                                         "extAttrs": null,
-                                        "generic": null,
-                                        "nullable": {
-                                            "trivia": ""
-                                        },
+                                        "generic": "",
+                                        "nullable": true,
                                         "union": false,
-                                        "idlType": "DOMString",
-                                        "baseName": "DOMString",
-                                        "escapedBaseName": "DOMString",
-                                        "prefix": null,
-                                        "postfix": null,
-                                        "separator": null,
-                                        "trivia": {
-                                            "base": ""
-                                        }
+                                        "idlType": "DOMString"
                                     }
-                                ],
-                                "baseName": "sequence",
-                                "escapedBaseName": "sequence",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": ""
-                                }
+                                ]
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

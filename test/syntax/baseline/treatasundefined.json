@@ -2,96 +2,54 @@
     {
         "type": "interface",
         "name": "Cat",
-        "escapedName": "Cat",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "owner",
-                "escapedName": "owner",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "DOMString",
-                    "baseName": "DOMString",
-                    "escapedBaseName": "DOMString",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "DOMString"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             },
             {
                 "type": "operation",
                 "name": "isMemberOfBreed",
                 "body": {
-                    "name": {
-                        "value": "isMemberOfBreed",
-                        "escaped": "isMemberOfBreed",
-                        "trivia": " "
-                    },
+                    "name": "isMemberOfBreed",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "boolean",
-                        "baseName": "boolean",
-                        "escapedBaseName": "boolean",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n\n  "
-                        }
+                        "idlType": "boolean"
                     },
                     "arguments": [
                         {
                             "name": "breedName",
-                            "escapedName": "breedName",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": {
@@ -101,67 +59,29 @@
                                             "name": "TreatUndefinedAs",
                                             "rhs": {
                                                 "type": "identifier",
-                                                "value": "EmptyString",
-                                                "trivia": {
-                                                    "assign": "",
-                                                    "value": ""
-                                                }
+                                                "value": "EmptyString"
                                             },
-                                            "signature": null,
-                                            "separator": null,
-                                            "trivia": {
-                                                "name": ""
-                                            }
+                                            "arguments": []
                                         }
-                                    ],
-                                    "trivia": {
-                                        "open": "",
-                                        "close": ""
-                                    }
+                                    ]
                                 },
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "DOMString",
-                                "baseName": "DOMString",
-                                "escapedBaseName": "DOMString",
-                                "prefix": null,
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "DOMString"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

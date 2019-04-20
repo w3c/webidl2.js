@@ -2,28 +2,18 @@
     {
         "type": "interface",
         "name": "Person",
-        "escapedName": "Person",
         "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "escapedName": "name",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "Name",
-                    "baseName": "Name",
-                    "escapedBaseName": "Name",
-                    "prefix": null,
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "Name"
                 },
                 "extAttrs": {
                     "items": [
@@ -32,76 +22,33 @@
                             "name": "PutForwards",
                             "rhs": {
                                 "type": "identifier",
-                                "value": "full",
-                                "trivia": {
-                                    "assign": "",
-                                    "value": ""
-                                }
+                                "value": "full"
                             },
-                            "signature": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": ""
-                            }
+                            "arguments": []
                         }
-                    ],
-                    "trivia": {
-                        "open": "\n  ",
-                        "close": ""
-                    }
+                    ]
                 },
-                "special": null,
-                "readonly": {
-                    "trivia": " "
-                },
-                "trivia": {
-                    "base": " ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": true
             },
             {
                 "type": "attribute",
                 "name": "age",
-                "escapedName": "age",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": null,
-                    "generic": null,
-                    "nullable": null,
+                    "generic": "",
+                    "nullable": false,
                     "union": false,
-                    "idlType": "unsigned short",
-                    "baseName": "short",
-                    "escapedBaseName": "short",
-                    "prefix": {
-                        "value": "unsigned",
-                        "trivia": " "
-                    },
-                    "postfix": null,
-                    "separator": null,
-                    "trivia": {
-                        "base": " "
-                    }
+                    "idlType": "unsigned short"
                 },
                 "extAttrs": null,
-                "special": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "name": " ",
-                    "termination": ""
-                }
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

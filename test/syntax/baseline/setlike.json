@@ -2,7 +2,6 @@
     {
         "type": "interface",
         "name": "SetLike",
-        "escapedName": "SetLike",
         "inheritance": null,
         "members": [
             {
@@ -11,44 +10,22 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "ReadOnlySetLike",
-        "escapedName": "ReadOnlySetLike",
         "inheritance": null,
         "members": [
             {
@@ -57,46 +34,22 @@
                     {
                         "type": null,
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": ""
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": {
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "base": " ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": true
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "SetLikeExt",
-        "escapedName": "SetLikeExt",
         "inheritance": null,
         "members": [
             {
@@ -110,51 +63,22 @@
                                     "type": "extended-attribute",
                                     "name": "XAttr",
                                     "rhs": null,
-                                    "signature": null,
-                                    "separator": null,
-                                    "trivia": {
-                                        "name": ""
-                                    }
+                                    "arguments": []
                                 }
-                            ],
-                            "trivia": {
-                                "open": "",
-                                "close": ""
-                            }
+                            ]
                         },
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "long",
-                        "baseName": "long",
-                        "escapedBaseName": "long",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "long"
                     }
                 ],
                 "extAttrs": null,
-                "readonly": null,
-                "trivia": {
-                    "base": "\n  ",
-                    "open": "",
-                    "close": "",
-                    "termination": ""
-                }
+                "readonly": false
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

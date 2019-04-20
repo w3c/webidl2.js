@@ -2,76 +2,40 @@
     {
         "type": "interface",
         "name": "Query",
-        "escapedName": "Query",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
                 "name": "lookupEntry",
                 "body": {
-                    "name": {
-                        "value": "lookupEntry",
-                        "escaped": "lookupEntry",
-                        "trivia": " "
-                    },
+                    "name": "lookupEntry",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "any",
-                        "baseName": "any",
-                        "escapedBaseName": "any",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": "\n  "
-                        }
+                        "idlType": "any"
                     },
                     "arguments": [
                         {
                             "name": "key",
-                            "escapedName": "key",
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
-                                "generic": null,
-                                "nullable": null,
+                                "generic": "",
+                                "nullable": false,
                                 "union": false,
-                                "idlType": "unsigned long",
-                                "baseName": "long",
-                                "escapedBaseName": "long",
-                                "prefix": {
-                                    "value": "unsigned",
-                                    "trivia": ""
-                                },
-                                "postfix": null,
-                                "separator": null,
-                                "trivia": {
-                                    "base": " "
-                                }
+                                "idlType": "unsigned long"
                             },
                             "default": null,
-                            "optional": null,
-                            "variadic": null,
-                            "separator": null,
-                            "trivia": {
-                                "name": " "
-                            }
+                            "optional": false,
+                            "variadic": false
                         }
-                    ],
-                    "trivia": {
-                        "open": "",
-                        "close": ""
-                    }
+                    ]
                 },
                 "extAttrs": null,
-                "special": null,
-                "trivia": {
-                    "termination": ""
-                }
+                "special": ""
             }
         ],
         "extAttrs": {
@@ -80,26 +44,11 @@
                     "type": "extended-attribute",
                     "name": "NoInterfaceObject",
                     "rhs": null,
-                    "signature": null,
-                    "separator": null,
-                    "trivia": {
-                        "name": ""
-                    }
+                    "arguments": []
                 }
-            ],
-            "trivia": {
-                "open": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-                "close": ""
-            }
+            ]
         },
-        "partial": null,
-        "trivia": {
-            "base": "\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

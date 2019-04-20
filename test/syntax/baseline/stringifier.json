@@ -2,60 +2,33 @@
     {
         "type": "interface",
         "name": "A",
-        "escapedName": "A",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
                 "name": "",
                 "body": {
-                    "name": null,
+                    "name": "",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": null,
-                        "generic": null,
-                        "nullable": null,
+                        "generic": "",
+                        "nullable": false,
                         "union": false,
-                        "idlType": "DOMString",
-                        "baseName": "DOMString",
-                        "escapedBaseName": "DOMString",
-                        "prefix": null,
-                        "postfix": null,
-                        "separator": null,
-                        "trivia": {
-                            "base": " "
-                        }
+                        "idlType": "DOMString"
                     },
-                    "arguments": [],
-                    "trivia": {
-                        "open": " ",
-                        "close": ""
-                    }
+                    "arguments": []
                 },
                 "extAttrs": null,
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "stringifier"
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "// Extracted from http://dev.w3.org/2006/webapi/WebIDL/ on 2011-05-06\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "interface",
         "name": "B",
-        "escapedName": "B",
         "inheritance": null,
         "members": [
             {
@@ -63,24 +36,11 @@
                 "name": "",
                 "body": null,
                 "extAttrs": null,
-                "special": {
-                    "value": "stringifier",
-                    "trivia": "\n  "
-                },
-                "trivia": {
-                    "termination": ""
-                }
+                "special": "stringifier"
             }
         ],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "\n\n",
-            "name": " ",
-            "open": " ",
-            "close": "\n",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "eof",

@@ -2,39 +2,18 @@
     {
         "type": "interface",
         "name": "Iroha",
-        "escapedName": "_Iroha",
         "inheritance": {
-            "name": "Magic",
-            "escapedName": "_Magic",
-            "trivia": {
-                "colon": " ",
-                "name": " "
-            }
+            "name": "Magic"
         },
         "members": [],
         "extAttrs": null,
-        "partial": null,
-        "trivia": {
-            "base": "",
-            "name": " ",
-            "open": " ",
-            "close": "",
-            "termination": ""
-        }
+        "partial": false
     },
     {
         "type": "includes",
         "extAttrs": null,
         "target": "Iroha",
-        "escapedTarget": "_Iroha",
-        "includes": "Color",
-        "escapedIncludes": "_Color",
-        "trivia": {
-            "target": "\n",
-            "includes": " ",
-            "mixin": " ",
-            "termination": ""
-        }
+        "includes": "Color"
     },
     {
         "type": "eof",
