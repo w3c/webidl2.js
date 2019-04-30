@@ -114,7 +114,7 @@ var result = WebIDL2.write(tree, {
      * Called for each extended attribute annotation.
      * @param content The wrapped value of everything the annotation contains.
      */
-    extendedAttribute: content => contents.join(""),
+    extendedAttribute: content => content,
     /**
      * The `Foo` part of `[Foo=Whatever]`.
      * @param ref The name of the referenced extended attribute name.
