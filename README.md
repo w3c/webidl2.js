@@ -222,9 +222,7 @@ Interfaces look like this:
   "name": "Human",
   "partial": false,
   "members": [...],
-  "inheritance": {
-    "name": "Animal"
-  },
+  "inheritance": "Animal",
   "extAttrs": {
     "items": [...]
   }
@@ -237,7 +235,7 @@ The fields are as follows:
 * `name`: The name of the interface.
 * `partial`: `true` if the type is a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
-* `inheritance`: An object giving the name of an interface this one inherits from, `null` otherwise.
+* `inheritance`: The name of an interface this one inherits from, `null` otherwise.
 * `extAttrs`: An [extended attributes](#extended-attributes) container.
 
 ### Interface mixins

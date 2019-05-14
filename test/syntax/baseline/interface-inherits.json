@@ -26,9 +26,7 @@
     {
         "type": "interface",
         "name": "Human",
-        "inheritance": {
-            "name": "Animal"
-        },
+        "inheritance": "Animal",
         "members": [
             {
                 "type": "attribute",
@@ -52,9 +50,7 @@
     {
         "type": "interface",
         "name": "Dog",
-        "inheritance": {
-            "name": "Animal"
-        },
+        "inheritance": "Animal",
         "members": [
             {
                 "type": "attribute",

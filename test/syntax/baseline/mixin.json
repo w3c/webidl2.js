@@ -2,6 +2,7 @@
     {
         "type": "interface mixin",
         "name": "GlobalCrypto",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -37,6 +38,7 @@
     {
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -60,6 +62,7 @@
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
+        "inheritance": null,
         "members": [],
         "extAttrs": [],
         "partial": false

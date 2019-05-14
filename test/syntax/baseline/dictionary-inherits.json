@@ -61,9 +61,7 @@
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
-        "inheritance": {
-            "name": "PaintOptions"
-        },
+        "inheritance": "PaintOptions",
         "members": [
             {
                 "type": "field",

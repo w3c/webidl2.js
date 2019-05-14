@@ -2,6 +2,7 @@
     {
         "type": "interface",
         "name": "CSSStyleDeclaration",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
