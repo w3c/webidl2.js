@@ -2,9 +2,7 @@
     {
         "type": "interface",
         "name": "Iroha",
-        "inheritance": {
-            "name": "Magic"
-        },
+        "inheritance": "Magic",
         "members": [],
         "extAttrs": null,
         "partial": false

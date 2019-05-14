@@ -143,9 +143,7 @@
     {
         "type": "interface",
         "name": "FetchEvent",
-        "inheritance": {
-            "name": "Event"
-        },
+        "inheritance": "Event",
         "members": [
             {
                 "type": "operation",

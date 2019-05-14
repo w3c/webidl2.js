@@ -2,9 +2,7 @@
     {
         "type": "interface",
         "name": "ServiceWorkerGlobalScope",
-        "inheritance": {
-            "name": "WorkerGlobalScope"
-        },
+        "inheritance": "WorkerGlobalScope",
         "members": [],
         "extAttrs": {
             "items": [
