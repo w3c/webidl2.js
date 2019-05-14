@@ -9,18 +9,18 @@
                 "name": "bar",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -33,18 +33,18 @@
                 "name": "quux",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": true
     },
     {

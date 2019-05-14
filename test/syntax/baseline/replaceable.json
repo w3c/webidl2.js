@@ -9,22 +9,20 @@
                 "name": "value",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": {
-                    "items": [
-                        {
-                            "type": "extended-attribute",
-                            "name": "Replaceable",
-                            "rhs": null,
-                            "arguments": []
-                        }
-                    ]
-                },
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "Replaceable",
+                        "rhs": null,
+                        "arguments": []
+                    }
+                ],
                 "special": "",
                 "readonly": true
             },
@@ -35,7 +33,7 @@
                     "name": "increment",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -43,11 +41,11 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

@@ -9,25 +9,23 @@
                 "name": "name",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "Name"
                 },
-                "extAttrs": {
-                    "items": [
-                        {
-                            "type": "extended-attribute",
-                            "name": "PutForwards",
-                            "rhs": {
-                                "type": "identifier",
-                                "value": "full"
-                            },
-                            "arguments": []
-                        }
-                    ]
-                },
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "PutForwards",
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "full"
+                        },
+                        "arguments": []
+                    }
+                ],
                 "special": "",
                 "readonly": true
             },
@@ -36,18 +34,18 @@
                 "name": "age",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

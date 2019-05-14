@@ -9,13 +9,13 @@
                 "name": "name",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -24,13 +24,13 @@
                 "name": "owner",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -41,7 +41,7 @@
                     "name": "isMemberOfBreed",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -50,22 +50,20 @@
                     "arguments": [
                         {
                             "name": "breedName",
-                            "extAttrs": {
-                                "items": [
-                                    {
-                                        "type": "extended-attribute",
-                                        "name": "TreatUndefinedAs",
-                                        "rhs": {
-                                            "type": "identifier",
-                                            "value": "EmptyString"
-                                        },
-                                        "arguments": []
-                                    }
-                                ]
-                            },
+                            "extAttrs": [
+                                {
+                                    "type": "extended-attribute",
+                                    "name": "TreatUndefinedAs",
+                                    "rhs": {
+                                        "type": "identifier",
+                                        "value": "EmptyString"
+                                    },
+                                    "arguments": []
+                                }
+                            ],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -77,11 +75,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

@@ -4,35 +4,33 @@
         "name": "ServiceWorkerGlobalScope",
         "inheritance": "WorkerGlobalScope",
         "members": [],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Global",
-                    "rhs": {
-                        "type": "identifier-list",
-                        "value": [
-                            {
-                                "value": "Worker"
-                            },
-                            {
-                                "value": "ServiceWorker"
-                            }
-                        ]
-                    },
-                    "arguments": []
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Global",
+                "rhs": {
+                    "type": "identifier-list",
+                    "value": [
+                        {
+                            "value": "Worker"
+                        },
+                        {
+                            "value": "ServiceWorker"
+                        }
+                    ]
                 },
-                {
-                    "type": "extended-attribute",
-                    "name": "Exposed",
-                    "rhs": {
-                        "type": "identifier",
-                        "value": "ServiceWorker"
-                    },
-                    "arguments": []
-                }
-            ]
-        },
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "ServiceWorker"
+                },
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {
@@ -40,37 +38,35 @@
         "name": "IdInterface",
         "inheritance": null,
         "members": [],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "IntAttr",
-                    "rhs": {
-                        "type": "integer",
-                        "value": "0"
-                    },
-                    "arguments": []
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "IntAttr",
+                "rhs": {
+                    "type": "integer",
+                    "value": "0"
                 },
-                {
-                    "type": "extended-attribute",
-                    "name": "FloatAttr",
-                    "rhs": {
-                        "type": "decimal",
-                        "value": "3.14"
-                    },
-                    "arguments": []
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "FloatAttr",
+                "rhs": {
+                    "type": "decimal",
+                    "value": "3.14"
                 },
-                {
-                    "type": "extended-attribute",
-                    "name": "StringAttr",
-                    "rhs": {
-                        "type": "string",
-                        "value": "\"abc\""
-                    },
-                    "arguments": []
-                }
-            ]
-        },
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "StringAttr",
+                "rhs": {
+                    "type": "string",
+                    "value": "\"abc\""
+                },
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {
@@ -83,13 +79,13 @@
                 "name": "r",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "double"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -98,13 +94,13 @@
                 "name": "cx",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "double"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -113,13 +109,13 @@
                 "name": "cy",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "double"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -128,49 +124,47 @@
                 "name": "circumference",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "double"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Constructor",
-                    "rhs": null,
-                    "arguments": []
-                },
-                {
-                    "type": "extended-attribute",
-                    "name": "Constructor",
-                    "rhs": null,
-                    "arguments": [
-                        {
-                            "name": "radius",
-                            "extAttrs": null,
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": null,
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "double"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
-                }
-            ]
-        },
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": [
+                    {
+                        "name": "radius",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "double"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ]
+            }
+        ],
         "partial": false
     },
     {
@@ -183,23 +177,21 @@
                 "name": "attrib",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": {
-                        "items": [
-                            {
-                                "type": "extended-attribute",
-                                "name": "XAttr",
-                                "rhs": null,
-                                "arguments": []
-                            }
-                        ]
-                    },
+                    "extAttrs": [
+                        {
+                            "type": "extended-attribute",
+                            "name": "XAttr",
+                            "rhs": null,
+                            "arguments": []
+                        }
+                    ],
                     "union": true,
                     "generic": "",
                     "nullable": false,
                     "idlType": [
                         {
                             "type": null,
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -207,7 +199,7 @@
                         },
                         {
                             "type": null,
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -215,24 +207,22 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Exposed",
-                    "rhs": {
-                        "type": "identifier",
-                        "value": "Window"
-                    },
-                    "arguments": []
-                }
-            ]
-        },
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {

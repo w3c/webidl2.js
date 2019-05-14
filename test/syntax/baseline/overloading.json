@@ -4,7 +4,7 @@
         "name": "A",
         "inheritance": null,
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -12,7 +12,7 @@
         "name": "B",
         "inheritance": null,
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -27,7 +27,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -36,10 +36,10 @@
                     "arguments": [
                         {
                             "name": "x",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -51,7 +51,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -61,7 +61,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -70,10 +70,10 @@
                     "arguments": [
                         {
                             "name": "x",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -85,11 +85,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -104,7 +104,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -113,10 +113,10 @@
                     "arguments": [
                         {
                             "name": "a",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -128,7 +128,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -138,7 +138,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -147,19 +147,17 @@
                     "arguments": [
                         {
                             "name": "a",
-                            "extAttrs": {
-                                "items": [
-                                    {
-                                        "type": "extended-attribute",
-                                        "name": "AllowAny",
-                                        "rhs": null,
-                                        "arguments": []
-                                    }
-                                ]
-                            },
+                            "extAttrs": [
+                                {
+                                    "type": "extended-attribute",
+                                    "name": "AllowAny",
+                                    "rhs": null,
+                                    "arguments": []
+                                }
+                            ],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -171,10 +169,10 @@
                         },
                         {
                             "name": "b",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -186,10 +184,10 @@
                         },
                         {
                             "name": "c",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -201,7 +199,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -211,7 +209,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -219,7 +217,7 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -229,7 +227,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -238,10 +236,10 @@
                     "arguments": [
                         {
                             "name": "a",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -253,10 +251,10 @@
                         },
                         {
                             "name": "b",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -268,10 +266,10 @@
                         },
                         {
                             "name": "c",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -283,10 +281,10 @@
                         },
                         {
                             "name": "d",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -298,11 +296,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

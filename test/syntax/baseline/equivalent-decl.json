@@ -9,13 +9,13 @@
                 "name": "propertyCount",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
@@ -26,7 +26,7 @@
                     "name": "getProperty",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -35,10 +35,10 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -50,7 +50,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "getter"
             },
             {
@@ -60,7 +60,7 @@
                     "name": "setProperty",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -69,10 +69,10 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -84,10 +84,10 @@
                         },
                         {
                             "name": "propertyValue",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -99,11 +99,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "setter"
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -116,13 +116,13 @@
                 "name": "propertyCount",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
@@ -133,7 +133,7 @@
                     "name": "getProperty",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -142,10 +142,10 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -157,7 +157,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -167,7 +167,7 @@
                     "name": "setProperty",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -176,10 +176,10 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -191,10 +191,10 @@
                         },
                         {
                             "name": "propertyValue",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -206,7 +206,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -216,7 +216,7 @@
                     "name": "",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -225,10 +225,10 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -240,7 +240,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "getter"
             },
             {
@@ -250,7 +250,7 @@
                     "name": "",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -259,10 +259,10 @@
                     "arguments": [
                         {
                             "name": "propertyName",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -274,10 +274,10 @@
                         },
                         {
                             "name": "propertyValue",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -289,11 +289,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "setter"
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

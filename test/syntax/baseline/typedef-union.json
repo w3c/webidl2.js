@@ -4,14 +4,14 @@
         "name": "TexImageSource",
         "idlType": {
             "type": "typedef-type",
-            "extAttrs": null,
+            "extAttrs": [],
             "union": true,
             "generic": "",
             "nullable": false,
             "idlType": [
                 {
                     "type": null,
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -19,7 +19,7 @@
                 },
                 {
                     "type": null,
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -27,7 +27,7 @@
                 },
                 {
                     "type": null,
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -35,7 +35,7 @@
                 },
                 {
                     "type": null,
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -43,7 +43,7 @@
                 }
             ]
         },
-        "extAttrs": null
+        "extAttrs": []
     },
     {
         "type": "eof",

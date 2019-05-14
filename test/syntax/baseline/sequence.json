@@ -11,7 +11,7 @@
                     "name": "drawPolygon",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -20,17 +20,17 @@
                     "arguments": [
                         {
                             "name": "coordinates",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "sequence",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "",
                                         "nullable": false,
                                         "union": false,
@@ -44,7 +44,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -54,14 +54,14 @@
                     "name": "getInflectionPoints",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "sequence",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -71,11 +71,11 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -90,7 +90,7 @@
                     "name": "f1",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -99,26 +99,24 @@
                     "arguments": [
                         {
                             "name": "arg",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "sequence",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
-                                        "extAttrs": {
-                                            "items": [
-                                                {
-                                                    "type": "extended-attribute",
-                                                    "name": "XAttr",
-                                                    "rhs": null,
-                                                    "arguments": []
-                                                }
-                                            ]
-                                        },
+                                        "extAttrs": [
+                                            {
+                                                "type": "extended-attribute",
+                                                "name": "XAttr",
+                                                "rhs": null,
+                                                "arguments": []
+                                            }
+                                        ],
                                         "generic": "",
                                         "nullable": false,
                                         "union": false,
@@ -132,11 +130,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
