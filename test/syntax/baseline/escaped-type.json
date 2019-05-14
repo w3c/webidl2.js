@@ -4,27 +4,27 @@
         "name": "EscapedType",
         "idlType": {
             "type": "typedef-type",
-            "extAttrs": null,
+            "extAttrs": [],
             "generic": "",
             "nullable": false,
             "union": false,
             "idlType": "Type"
         },
-        "extAttrs": null
+        "extAttrs": []
     },
     {
         "type": "typedef",
         "name": "EscapedSequence",
         "idlType": {
             "type": "typedef-type",
-            "extAttrs": null,
+            "extAttrs": [],
             "generic": "sequence",
             "nullable": false,
             "union": false,
             "idlType": [
                 {
                     "type": "typedef-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -32,7 +32,7 @@
                 }
             ]
         },
-        "extAttrs": null
+        "extAttrs": []
     },
     {
         "type": "eof",

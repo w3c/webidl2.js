@@ -1,14 +1,14 @@
 [
     {
         "type": "interface",
-        "name": "Suffixes",
+        "name": "Foo",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
-                "name": "test",
+                "name": "foo",
                 "body": {
-                    "name": "test",
+                    "name": "foo",
                     "idlType": {
                         "type": "return-type",
                         "extAttrs": [],
@@ -19,27 +19,32 @@
                     },
                     "arguments": [
                         {
-                            "name": "foo",
-                            "extAttrs": [],
+                            "name": "argname",
+                            "extAttrs": [
+                                {
+                                    "type": "extended-attribute",
+                                    "name": "ExtAttr",
+                                    "rhs": null,
+                                    "arguments": []
+                                }
+                            ],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "sequence",
-                                "nullable": true,
-                                "union": false,
-                                "idlType": [
+                                "extAttrs": [
                                     {
-                                        "type": "argument-type",
-                                        "extAttrs": [],
-                                        "generic": "",
-                                        "nullable": true,
-                                        "union": false,
-                                        "idlType": "DOMString"
+                                        "type": "extended-attribute",
+                                        "name": "Clamp",
+                                        "rhs": null,
+                                        "arguments": []
                                     }
-                                ]
+                                ],
+                                "generic": "",
+                                "nullable": false,
+                                "union": false,
+                                "idlType": "short"
                             },
                             "default": null,
-                            "optional": false,
+                            "optional": true,
                             "variadic": false
                         }
                     ]

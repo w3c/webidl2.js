@@ -2,66 +2,69 @@
     {
         "type": "interface mixin",
         "name": "GlobalCrypto",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
         "type": "includes",
-        "extAttrs": null,
+        "extAttrs": [],
         "target": "Window",
         "includes": "GlobalCrypto"
     },
     {
         "type": "includes",
-        "extAttrs": null,
+        "extAttrs": [],
         "target": "WorkerGlobalScope",
         "includes": "GlobalCrypto"
     },
     {
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "Crypto"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": true
     },
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
+        "inheritance": null,
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

@@ -9,13 +9,13 @@
                 "name": "length",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
@@ -26,7 +26,7 @@
                     "name": "lookup",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -35,9 +35,10 @@
                     "arguments": [
                         {
                             "name": "key",
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -49,20 +50,18 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "getter"
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "OverrideBuiltins",
-                    "rhs": null,
-                    "arguments": []
-                }
-            ]
-        },
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "OverrideBuiltins",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {
