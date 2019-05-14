@@ -88,6 +88,7 @@
                     "arguments": [
                         {
                             "name": "c1",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -102,6 +103,7 @@
                         },
                         {
                             "name": "c2",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -116,6 +118,7 @@
                         },
                         {
                             "name": "c3",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

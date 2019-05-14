@@ -50,21 +50,22 @@
                     "arguments": [
                         {
                             "name": "breedName",
+                            "extAttrs": {
+                                "items": [
+                                    {
+                                        "type": "extended-attribute",
+                                        "name": "TreatNullAs",
+                                        "rhs": {
+                                            "type": "identifier",
+                                            "value": "EmptyString"
+                                        },
+                                        "arguments": []
+                                    }
+                                ]
+                            },
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": {
-                                    "items": [
-                                        {
-                                            "type": "extended-attribute",
-                                            "name": "TreatNullAs",
-                                            "rhs": {
-                                                "type": "identifier",
-                                                "value": "EmptyString"
-                                            },
-                                            "arguments": []
-                                        }
-                                    ]
-                                },
+                                "extAttrs": null,
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,

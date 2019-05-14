@@ -20,6 +20,7 @@
                     "arguments": [
                         {
                             "name": "coordinates",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -98,6 +99,7 @@
                     "arguments": [
                         {
                             "name": "arg",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

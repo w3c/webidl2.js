@@ -34,6 +34,7 @@
                     "arguments": [
                         {
                             "name": "x",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -48,6 +49,7 @@
                         },
                         {
                             "name": "y",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -81,6 +83,7 @@
                     "arguments": [
                         {
                             "name": "x",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -95,6 +98,7 @@
                         },
                         {
                             "name": "y",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

@@ -80,6 +80,7 @@
                     "arguments": [
                         {
                             "name": "radius",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

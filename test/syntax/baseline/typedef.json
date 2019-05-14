@@ -135,6 +135,7 @@
                     "arguments": [
                         {
                             "name": "p",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -168,6 +169,7 @@
                     "arguments": [
                         {
                             "name": "ps",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

@@ -20,6 +20,7 @@
                     "arguments": [
                         {
                             "name": "param",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -125,6 +126,7 @@
                     "arguments": [
                         {
                             "name": "init",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

@@ -33,6 +33,7 @@
                     "arguments": [
                         {
                             "name": "interface",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -66,6 +67,7 @@
                     "arguments": [
                         {
                             "name": "keyName",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -147,6 +149,7 @@
                     "arguments": [
                         {
                             "name": "callback",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

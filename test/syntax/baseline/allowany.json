@@ -38,6 +38,7 @@
                     "arguments": [
                         {
                             "name": "b",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -71,18 +72,19 @@
                     "arguments": [
                         {
                             "name": "s",
+                            "extAttrs": {
+                                "items": [
+                                    {
+                                        "type": "extended-attribute",
+                                        "name": "AllowAny",
+                                        "rhs": null,
+                                        "arguments": []
+                                    }
+                                ]
+                            },
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": {
-                                    "items": [
-                                        {
-                                            "type": "extended-attribute",
-                                            "name": "AllowAny",
-                                            "rhs": null,
-                                            "arguments": []
-                                        }
-                                    ]
-                                },
+                                "extAttrs": null,
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
