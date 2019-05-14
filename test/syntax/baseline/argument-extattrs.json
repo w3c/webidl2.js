@@ -1,0 +1,68 @@
+[
+    {
+        "type": "interface",
+        "name": "Foo",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "foo",
+                "body": {
+                    "name": "foo",
+                    "idlType": {
+                        "type": "return-type",
+                        "extAttrs": null,
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "void"
+                    },
+                    "arguments": [
+                        {
+                            "name": "argname",
+                            "extAttrs": {
+                                "items": [
+                                    {
+                                        "type": "extended-attribute",
+                                        "name": "ExtAttr",
+                                        "rhs": null,
+                                        "arguments": []
+                                    }
+                                ]
+                            },
+                            "idlType": {
+                                "type": "argument-type",
+                                "extAttrs": {
+                                    "items": [
+                                        {
+                                            "type": "extended-attribute",
+                                            "name": "Clamp",
+                                            "rhs": null,
+                                            "arguments": []
+                                        }
+                                    ]
+                                },
+                                "generic": "",
+                                "nullable": false,
+                                "union": false,
+                                "idlType": "short"
+                            },
+                            "default": null,
+                            "optional": true,
+                            "variadic": false
+                        }
+                    ]
+                },
+                "extAttrs": null,
+                "special": ""
+            }
+        ],
+        "extAttrs": null,
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

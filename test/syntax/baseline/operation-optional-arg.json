@@ -20,6 +20,7 @@
                     "arguments": [
                         {
                             "name": "v1",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -34,6 +35,7 @@
                         },
                         {
                             "name": "v2",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -48,6 +50,7 @@
                         },
                         {
                             "name": "v3",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -62,6 +65,7 @@
                         },
                         {
                             "name": "alpha",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

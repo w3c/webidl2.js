@@ -20,6 +20,7 @@
                     "arguments": [
                         {
                             "name": "foo",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

@@ -27,6 +27,7 @@
                     "arguments": [
                         {
                             "name": "src",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

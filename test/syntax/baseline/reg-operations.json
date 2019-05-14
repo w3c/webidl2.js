@@ -77,6 +77,7 @@
                     "arguments": [
                         {
                             "name": "size",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -110,6 +111,7 @@
                     "arguments": [
                         {
                             "name": "width",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -124,6 +126,7 @@
                         },
                         {
                             "name": "height",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,

@@ -36,6 +36,7 @@
                     "arguments": [
                         {
                             "name": "x",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -69,6 +70,7 @@
                     "arguments": [
                         {
                             "name": "x",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -111,6 +113,7 @@
                     "arguments": [
                         {
                             "name": "a",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -144,18 +147,19 @@
                     "arguments": [
                         {
                             "name": "a",
+                            "extAttrs": {
+                                "items": [
+                                    {
+                                        "type": "extended-attribute",
+                                        "name": "AllowAny",
+                                        "rhs": null,
+                                        "arguments": []
+                                    }
+                                ]
+                            },
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": {
-                                    "items": [
-                                        {
-                                            "type": "extended-attribute",
-                                            "name": "AllowAny",
-                                            "rhs": null,
-                                            "arguments": []
-                                        }
-                                    ]
-                                },
+                                "extAttrs": null,
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -167,6 +171,7 @@
                         },
                         {
                             "name": "b",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -181,6 +186,7 @@
                         },
                         {
                             "name": "c",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -232,6 +238,7 @@
                     "arguments": [
                         {
                             "name": "a",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -246,6 +253,7 @@
                         },
                         {
                             "name": "b",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -260,6 +268,7 @@
                         },
                         {
                             "name": "c",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
@@ -274,6 +283,7 @@
                         },
                         {
                             "name": "d",
+                            "extAttrs": null,
                             "idlType": {
                                 "type": "argument-type",
                                 "extAttrs": null,
