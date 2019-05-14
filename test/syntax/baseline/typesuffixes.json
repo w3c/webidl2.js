@@ -11,7 +11,7 @@
                     "name": "test",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -20,17 +20,17 @@
                     "arguments": [
                         {
                             "name": "foo",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "sequence",
                                 "nullable": true,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "",
                                         "nullable": true,
                                         "union": false,
@@ -44,11 +44,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

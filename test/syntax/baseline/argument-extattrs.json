@@ -11,7 +11,7 @@
                     "name": "foo",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -20,28 +20,24 @@
                     "arguments": [
                         {
                             "name": "argname",
-                            "extAttrs": {
-                                "items": [
+                            "extAttrs": [
+                                {
+                                    "type": "extended-attribute",
+                                    "name": "ExtAttr",
+                                    "rhs": null,
+                                    "arguments": []
+                                }
+                            ],
+                            "idlType": {
+                                "type": "argument-type",
+                                "extAttrs": [
                                     {
                                         "type": "extended-attribute",
-                                        "name": "ExtAttr",
+                                        "name": "Clamp",
                                         "rhs": null,
                                         "arguments": []
                                     }
-                                ]
-                            },
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": {
-                                    "items": [
-                                        {
-                                            "type": "extended-attribute",
-                                            "name": "Clamp",
-                                            "rhs": null,
-                                            "arguments": []
-                                        }
-                                    ]
-                                },
+                                ],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -53,11 +49,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

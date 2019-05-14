@@ -9,7 +9,7 @@
                 "idlType": [
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -17,18 +17,18 @@
                     },
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
                         "idlType": "float"
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -41,7 +41,7 @@
                 "idlType": [
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -49,18 +49,18 @@
                     },
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
                         "idlType": "float"
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "readonly": true
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -73,16 +73,14 @@
                 "idlType": [
                     {
                         "type": null,
-                        "extAttrs": {
-                            "items": [
-                                {
-                                    "type": "extended-attribute",
-                                    "name": "XAttr2",
-                                    "rhs": null,
-                                    "arguments": []
-                                }
-                            ]
-                        },
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "XAttr2",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -90,27 +88,25 @@
                     },
                     {
                         "type": null,
-                        "extAttrs": {
-                            "items": [
-                                {
-                                    "type": "extended-attribute",
-                                    "name": "XAttr3",
-                                    "rhs": null,
-                                    "arguments": []
-                                }
-                            ]
-                        },
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "XAttr3",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
                         "generic": "",
                         "nullable": false,
                         "union": false,
                         "idlType": "long"
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

@@ -7,10 +7,10 @@
             {
                 "type": "field",
                 "name": "fillPattern",
-                "extAttrs": null,
+                "extAttrs": [],
                 "idlType": {
                     "type": "dictionary-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": true,
                     "union": false,
@@ -25,10 +25,10 @@
             {
                 "type": "field",
                 "name": "strokePattern",
-                "extAttrs": null,
+                "extAttrs": [],
                 "idlType": {
                     "type": "dictionary-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": true,
                     "union": false,
@@ -42,10 +42,10 @@
             {
                 "type": "field",
                 "name": "position",
-                "extAttrs": null,
+                "extAttrs": [],
                 "idlType": {
                     "type": "dictionary-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -55,7 +55,7 @@
                 "required": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -68,10 +68,10 @@
             {
                 "type": "field",
                 "name": "hydrometry",
-                "extAttrs": null,
+                "extAttrs": [],
                 "idlType": {
                     "type": "dictionary-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
@@ -81,7 +81,7 @@
                 "required": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

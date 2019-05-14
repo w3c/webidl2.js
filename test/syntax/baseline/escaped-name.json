@@ -6,12 +6,12 @@
             "name": "Magic"
         },
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
         "type": "includes",
-        "extAttrs": null,
+        "extAttrs": [],
         "target": "Iroha",
         "includes": "Color"
     },

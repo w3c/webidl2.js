@@ -11,7 +11,7 @@
                     "name": "foo",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -20,24 +20,24 @@
                     "arguments": [
                         {
                             "name": "param",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "sequence",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "argument-type",
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "record",
                                         "nullable": false,
                                         "union": false,
                                         "idlType": [
                                             {
                                                 "type": "argument-type",
-                                                "extAttrs": null,
+                                                "extAttrs": [],
                                                 "generic": "",
                                                 "nullable": false,
                                                 "union": false,
@@ -45,7 +45,7 @@
                                             },
                                             {
                                                 "type": "argument-type",
-                                                "extAttrs": null,
+                                                "extAttrs": [],
                                                 "generic": "",
                                                 "nullable": false,
                                                 "union": false,
@@ -61,7 +61,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -71,14 +71,14 @@
                     "name": "bar",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "record",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -86,14 +86,14 @@
                             },
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "union": true,
                                 "generic": "",
                                 "nullable": true,
                                 "idlType": [
                                     {
                                         "type": null,
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "",
                                         "nullable": false,
                                         "union": false,
@@ -101,7 +101,7 @@
                                     },
                                     {
                                         "type": null,
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "",
                                         "nullable": false,
                                         "union": false,
@@ -113,53 +113,51 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Constructor",
-                    "rhs": null,
-                    "arguments": [
-                        {
-                            "name": "init",
-                            "extAttrs": null,
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": null,
-                                "generic": "record",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": [
-                                    {
-                                        "type": "argument-type",
-                                        "extAttrs": null,
-                                        "generic": "",
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": "USVString"
-                                    },
-                                    {
-                                        "type": "argument-type",
-                                        "extAttrs": null,
-                                        "generic": "",
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": "USVString"
-                                    }
-                                ]
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
-                }
-            ]
-        },
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": [
+                    {
+                        "name": "init",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "record",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "USVString"
+                                },
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "USVString"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ]
+            }
+        ],
         "partial": false
     },
     {
@@ -174,14 +172,14 @@
                     "name": "bar",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "record",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -189,16 +187,14 @@
                             },
                             {
                                 "type": "return-type",
-                                "extAttrs": {
-                                    "items": [
-                                        {
-                                            "type": "extended-attribute",
-                                            "name": "XAttr",
-                                            "rhs": null,
-                                            "arguments": []
-                                        }
-                                    ]
-                                },
+                                "extAttrs": [
+                                    {
+                                        "type": "extended-attribute",
+                                        "name": "XAttr",
+                                        "rhs": null,
+                                        "arguments": []
+                                    }
+                                ],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -208,11 +204,11 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
