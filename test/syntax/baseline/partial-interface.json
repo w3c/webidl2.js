@@ -26,6 +26,7 @@
     {
         "type": "interface",
         "name": "Foo",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",

@@ -103,6 +103,7 @@
     {
         "type": "dictionary",
         "name": "A",
+        "inheritance": null,
         "members": [
             {
                 "type": "field",

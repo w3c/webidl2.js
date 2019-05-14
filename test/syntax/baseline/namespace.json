@@ -2,6 +2,7 @@
     {
         "type": "namespace",
         "name": "VectorUtils",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
@@ -123,6 +124,7 @@
     {
         "type": "namespace",
         "name": "SomeNamespace",
+        "inheritance": null,
         "members": [],
         "extAttrs": null,
         "partial": true
@@ -130,6 +132,7 @@
     {
         "type": "namespace",
         "name": "ScalarUtils",
+        "inheritance": null,
         "members": [],
         "extAttrs": null,
         "partial": false

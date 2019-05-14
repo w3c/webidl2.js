@@ -26,9 +26,7 @@
     {
         "type": "interface",
         "name": "Person",
-        "inheritance": {
-            "name": "Animal"
-        },
+        "inheritance": "Animal",
         "members": [
             {
                 "type": "attribute",
@@ -67,9 +65,7 @@
     {
         "type": "interface",
         "name": "Ghost",
-        "inheritance": {
-            "name": "Person"
-        },
+        "inheritance": "Person",
         "members": [
             {
                 "type": "attribute",
