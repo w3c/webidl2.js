@@ -1,3 +1,3 @@
 Syntax error at line 1:
 Constructor([Clamp] [Clamp] unsigned long
-                    ^ Illegal double extended attribute list, consider merging them
+                    ^ Illegal double extended attribute lists, consider merging them
