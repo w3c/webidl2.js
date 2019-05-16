@@ -7,48 +7,45 @@
             {
                 "type": "operation",
                 "name": "foo",
-                "body": {
-                    "name": "foo",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "argname",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [
+                    {
+                        "name": "argname",
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "ExtAttr",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
+                        "idlType": {
+                            "type": "argument-type",
                             "extAttrs": [
                                 {
                                     "type": "extended-attribute",
-                                    "name": "ExtAttr",
+                                    "name": "Clamp",
                                     "rhs": null,
                                     "arguments": []
                                 }
                             ],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [
-                                    {
-                                        "type": "extended-attribute",
-                                        "name": "Clamp",
-                                        "rhs": null,
-                                        "arguments": []
-                                    }
-                                ],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "short"
-                            },
-                            "default": null,
-                            "optional": true,
-                            "variadic": false
-                        }
-                    ]
-                },
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "short"
+                        },
+                        "default": null,
+                        "optional": true,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }
