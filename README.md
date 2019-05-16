@@ -173,9 +173,7 @@ attached to a field called `idlType`:
   "idlType": "unsigned short",
   "nullable": false,
   "union": false,
-  "extAttrs": {
-    "items": [...]
-  }
+  "extAttrs": [...]
 }
 ```
 
@@ -187,7 +185,7 @@ Where the fields are as follows:
   generic or a union.
 * `nullable`: `true` if the type is nullable.
 * `union`: Boolean indicating whether this is a union type or not.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Trivia
 
@@ -223,9 +221,7 @@ Interfaces look like this:
   "partial": false,
   "members": [...],
   "inheritance": "Animal",
-  "extAttrs": {
-    "items": [...]
-  }
+  "extAttrs": [...]
 }
 ```
 
@@ -236,7 +232,7 @@ The fields are as follows:
 * `partial`: `true` if the type is a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `inheritance`: The name of an interface this one inherits from, `null` otherwise.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Interface mixins
 
@@ -254,9 +250,7 @@ Interfaces mixins look like this:
   "name": "Human",
   "partial": false,
   "members": [...],
-  "extAttrs": {
-    "items": [...]
-  }
+  "extAttrs": [...]
 }
 ```
 
@@ -266,7 +260,7 @@ The fields are as follows:
 * `name`: The name of the interface mixin.
 * `partial`: `true if the type is a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Namespace
 
@@ -278,9 +272,7 @@ Namespaces look like this:
   "name": "console",
   "partial": false,
   "members": [...],
-  "extAttrs": {
-    "items": [...]
-  }
+  "extAttrs": [...]
 }
 ```
 
@@ -290,7 +282,7 @@ The fields are as follows:
 * `name`: The name of the namespace.
 * `partial`: `true if the type is a partial namespace.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
 
@@ -312,10 +304,10 @@ A callback looks like this:
     "nullable": false,
     "union": false,
     "idlType": "void",
-    "extAttrs": null
+    "extAttrs": []
   },
   "arguments": [...],
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -325,7 +317,7 @@ The fields are as follows:
 * `name`: The name of the callback.
 * `idlType`: An [IDL Type](#idl-type) describing what the callback returns.
 * `arguments`: A list of [arguments](#arguments), as in function paramters.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Dictionary
 
@@ -346,16 +338,16 @@ A dictionary looks like this:
       "nullable": true
       "union": false,
       "idlType": "DOMString",
-      "extAttrs": [...]
+      "extAttrs": []
     },
-    "extAttrs": null,
+    "extAttrs": [],
     "default": {
       "type": "string",
       "value": "black"
     }
   }],
   "inheritance": null,
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -366,7 +358,7 @@ The fields are as follows:
 * `partial`: `true` if the type is a partial dictionary.
 * `members`: An array of members (see below).
 * `inheritance`: An object indicating which dictionary is being inherited from, `null` otherwise.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 All the members are fields as follows:
 
@@ -374,7 +366,7 @@ All the members are fields as follows:
 * `name`: The name of the field.
 * `required`: `true` if the field is required.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 * `default`: A [default value](#default-and-const-values), absent if there is none.
 
 ### Enum
@@ -399,7 +391,7 @@ An enum looks like this:
       "value": "other"
     }
   ]
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -408,7 +400,7 @@ The fields are as follows:
 * `type`: Always "enum".
 * `name`: The enum's name.
 * `values`: An array of values. The type of value is "enum-value".
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Typedef
 
@@ -435,7 +427,7 @@ A typedef looks like this:
     "extAttrs": [...]
   },
   "name": "PointSequence",
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -445,7 +437,7 @@ The fields are as follows:
 * `type`: Always "typedef".
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Includes
 
@@ -456,7 +448,7 @@ An includes definition looks like this:
   "type": "includes",
   "target": "Node",
   "includes": "EventTarget",
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -465,7 +457,7 @@ The fields are as follows:
 * `type`: Always "includes".
 * `target`: The interface that includes an interface mixin.
 * `includes`: The interface mixin that is being included by the target.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Operation Member
 
@@ -481,13 +473,13 @@ An operation looks like this:
       "nullable": false,
       "union": false,
       "idlType": "void",
-      "extAttrs": null
+      "extAttrs": []
     },
     "name": "intersection",
     "arguments": [{
       "optional": false,
       "variadic": true,
-      "extAttrs": null,
+      "extAttrs": [],
       "idlType": {
         "type": "argument-type",
         "generic": "",
@@ -499,7 +491,7 @@ An operation looks like this:
       "name": "ints"
     }],
   },
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -508,7 +500,7 @@ The fields are as follows:
 * `type`: Always "operation".
 * `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
 * `body`: The operation body. Can be null if bodyless `stringifier`.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 The operation body fields are as follows:
 
@@ -536,7 +528,7 @@ An attribute member looks like this:
     "extAttrs": [...]
   },
   "name": "regexp",
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -547,7 +539,7 @@ The fields are as follows:
 * `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `null`.
 * `readonly`: `true` if the attribute is read-only.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Constant Member
 
@@ -562,14 +554,14 @@ A constant member looks like this:
     "nullable": false,
     "union": false,
     "idlType": "boolean",
-    "extAttrs": null
+    "extAttrs": []
   },
   "name": "DEBUG",
   "value": {
     "type": "boolean",
     "value": false
   },
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -579,7 +571,7 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Arguments
 
@@ -590,7 +582,7 @@ The arguments (e.g. for an operation) look like this:
   "arguments": [{
     "optional": false,
     "variadic": true
-    "extAttrs": null
+    "extAttrs": []
     "idlType": {
       "type": "argument-type",
       "generic": "",
@@ -610,7 +602,7 @@ The fields are as follows:
 * `variadic`: `true` if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Extended Attributes
 
@@ -618,17 +610,15 @@ Extended attribute container look like this:
 
 ```JS
 {
-  "extAttrs": {
-    "items": [{
-      "name": "TreatNullAs",
-      "arguments": [...],
-      "type": "extended-attribute",
-      "rhs": {
-        "type": "identifier",
-        "value": "EmptyString"
-      }
-    }]
-  }
+  "extAttrs": [{
+    "name": "TreatNullAs",
+    "arguments": [...],
+    "type": "extended-attribute",
+    "rhs": {
+      "type": "identifier",
+      "value": "EmptyString"
+    }
+  }]
 }
 ```
 
@@ -670,7 +660,7 @@ These appear as members of interfaces that look like this:
   "type": "maplike", // or "iterable" / "setlike"
   "idlType": /* One or two types */ ,
   "readonly": false, // only for maplike and setlike
-  "extAttrs": null
+  "extAttrs": []
 }
 ```
 
@@ -679,7 +669,7 @@ The fields are as follows:
 * `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: `true` if the maplike or setlike is declared as read only.
-* `extAttrs`: An [extended attributes](#extended-attributes) container.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ## Testing
 
