@@ -2,47 +2,44 @@
     {
         "type": "interface",
         "name": "HTMLAudioElement",
-        "inheritance": {
-            "name": "HTMLMediaElement"
-        },
+        "inheritance": "HTMLMediaElement",
         "members": [],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "NamedConstructor",
-                    "rhs": {
-                        "type": "identifier",
-                        "value": "Audio"
-                    },
-                    "arguments": []
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "NamedConstructor",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Audio"
                 },
-                {
-                    "type": "extended-attribute",
-                    "name": "NamedConstructor",
-                    "rhs": {
-                        "type": "identifier",
-                        "value": "Audio"
-                    },
-                    "arguments": [
-                        {
-                            "name": "src",
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": null,
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "DOMString"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
-                }
-            ]
-        },
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "NamedConstructor",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Audio"
+                },
+                "arguments": [
+                    {
+                        "name": "src",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ]
+            }
+        ],
         "partial": false
     },
     {

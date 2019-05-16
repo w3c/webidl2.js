@@ -4,7 +4,7 @@
         "name": "A",
         "inheritance": null,
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -12,7 +12,7 @@
         "name": "B",
         "inheritance": null,
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -27,7 +27,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -36,9 +36,10 @@
                     "arguments": [
                         {
                             "name": "x",
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": true,
                                 "union": false,
@@ -50,7 +51,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -60,7 +61,7 @@
                     "name": "f",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -69,9 +70,10 @@
                     "arguments": [
                         {
                             "name": "x",
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": true,
                                 "union": false,
@@ -83,11 +85,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

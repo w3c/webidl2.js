@@ -9,27 +9,25 @@
                 "name": "nodeType",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "PrototypeRoot",
-                    "rhs": null,
-                    "arguments": []
-                }
-            ]
-        },
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "PrototypeRoot",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {

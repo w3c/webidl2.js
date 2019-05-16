@@ -7,16 +7,17 @@
             {
                 "type": "constructor",
                 "arguments": [],
-                "extAttrs": null
+                "extAttrs": []
             },
             {
                 "type": "constructor",
                 "arguments": [
                     {
                         "name": "radius",
+                        "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -27,16 +28,17 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": null
+                "extAttrs": []
             },
             {
                 "type": "constructor",
                 "arguments": [
                     {
                         "name": "str",
+                        "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -50,23 +52,24 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": null
+                "extAttrs": []
             },
             {
                 "type": "constructor",
                 "arguments": [
                     {
                         "name": "seq",
+                        "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
                                     "type": "argument-type",
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -79,23 +82,24 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": null
+                "extAttrs": []
             },
             {
                 "type": "constructor",
                 "arguments": [
                     {
                         "name": "union",
+                        "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "union": true,
                             "generic": "",
                             "nullable": false,
                             "idlType": [
                                 {
                                     "type": null,
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -103,7 +107,7 @@
                                 },
                                 {
                                     "type": null,
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -116,20 +120,20 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": null
+                "extAttrs": []
             },
             {
                 "type": "attribute",
                 "name": "r",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -138,13 +142,13 @@
                 "name": "cx",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -153,13 +157,13 @@
                 "name": "cy",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -168,18 +172,18 @@
                 "name": "circumference",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

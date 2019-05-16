@@ -9,13 +9,13 @@
                 "name": "width",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -24,18 +24,18 @@
                 "name": "height",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -50,7 +50,7 @@
                     "name": "isMouseOver",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -58,7 +58,7 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -68,7 +68,7 @@
                     "name": "setDimensions",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -77,9 +77,10 @@
                     "arguments": [
                         {
                             "name": "size",
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -91,7 +92,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -101,7 +102,7 @@
                     "name": "setDimensions",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -110,9 +111,10 @@
                     "arguments": [
                         {
                             "name": "width",
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -124,9 +126,10 @@
                         },
                         {
                             "name": "height",
+                            "extAttrs": [],
                             "idlType": {
                                 "type": "argument-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -138,11 +141,11 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

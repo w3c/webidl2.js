@@ -9,14 +9,14 @@
                 "name": "test",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "union": true,
                     "generic": "",
                     "nullable": false,
                     "idlType": [
                         {
                             "type": null,
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -24,14 +24,14 @@
                         },
                         {
                             "type": null,
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "union": true,
                             "generic": "",
                             "nullable": false,
                             "idlType": [
                                 {
                                     "type": null,
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -39,7 +39,7 @@
                                 },
                                 {
                                     "type": null,
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -49,14 +49,14 @@
                         },
                         {
                             "type": null,
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "union": true,
                             "generic": "",
                             "nullable": true,
                             "idlType": [
                                 {
                                     "type": null,
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -64,7 +64,7 @@
                                 },
                                 {
                                     "type": null,
-                                    "extAttrs": null,
+                                    "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
                                     "union": false,
@@ -74,7 +74,7 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -83,23 +83,21 @@
                 "name": "test2",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "union": true,
                     "generic": "",
                     "nullable": false,
                     "idlType": [
                         {
                             "type": null,
-                            "extAttrs": {
-                                "items": [
-                                    {
-                                        "type": "extended-attribute",
-                                        "name": "EnforceRange",
-                                        "rhs": null,
-                                        "arguments": []
-                                    }
-                                ]
-                            },
+                            "extAttrs": [
+                                {
+                                    "type": "extended-attribute",
+                                    "name": "EnforceRange",
+                                    "rhs": null,
+                                    "arguments": []
+                                }
+                            ],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -107,7 +105,7 @@
                         },
                         {
                             "type": null,
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -115,12 +113,12 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

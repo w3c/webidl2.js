@@ -9,13 +9,13 @@
                 "name": "truth",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "boolean"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -24,13 +24,13 @@
                 "name": "character",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "byte"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -39,13 +39,13 @@
                 "name": "value",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "octet"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -54,13 +54,13 @@
                 "name": "number",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "short"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -69,13 +69,13 @@
                 "name": "positive",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned short"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -84,13 +84,13 @@
                 "name": "big",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -99,13 +99,13 @@
                 "name": "bigpositive",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -114,13 +114,13 @@
                 "name": "bigbig",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "long long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -129,13 +129,13 @@
                 "name": "bigbigpositive",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -144,13 +144,13 @@
                 "name": "real",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -159,13 +159,13 @@
                 "name": "bigreal",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "double"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -174,13 +174,13 @@
                 "name": "realwithinfinity",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted float"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -189,13 +189,13 @@
                 "name": "bigrealwithinfinity",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unrestricted double"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -204,13 +204,13 @@
                 "name": "string",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -219,13 +219,13 @@
                 "name": "bytes",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "ByteString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -234,13 +234,13 @@
                 "name": "date",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "Date"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -249,18 +249,18 @@
                 "name": "regexp",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "RegExp"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
