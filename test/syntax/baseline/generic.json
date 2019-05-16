@@ -11,28 +11,28 @@
                     "name": "bar",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "Promise",
                                 "nullable": false,
                                 "union": false,
                                 "idlType": [
                                     {
                                         "type": "return-type",
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "sequence",
                                         "nullable": false,
                                         "union": false,
                                         "idlType": [
                                             {
                                                 "type": "return-type",
-                                                "extAttrs": null,
+                                                "extAttrs": [],
                                                 "generic": "",
                                                 "nullable": true,
                                                 "union": false,
@@ -46,7 +46,7 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -54,14 +54,14 @@
                 "name": "baz",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
                             "type": "attribute-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
@@ -69,12 +69,12 @@
                         }
                     ]
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -89,14 +89,14 @@
                     "name": "getServiced",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": true,
                                 "union": false,
@@ -106,7 +106,7 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -116,14 +116,14 @@
                     "name": "reloadAll",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -133,19 +133,17 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "FetchEvent",
-        "inheritance": {
-            "name": "Event"
-        },
+        "inheritance": "Event",
         "members": [
             {
                 "type": "operation",
@@ -154,14 +152,14 @@
                     "name": "default",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "Promise",
                         "nullable": false,
                         "union": false,
                         "idlType": [
                             {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -171,11 +169,11 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {

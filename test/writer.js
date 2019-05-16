@@ -70,7 +70,7 @@ describe("Writer template functions", () => {
     }
 
     const result = rewriteReference("[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned long> iro; };");
-    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<unsigned long>> iro; };");
+    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute Promise<<unsigned long>> iro; };");
 
     const includes = rewriteReference("_A includes _B;");
     expect(includes).toBe("<_A> includes <_B>;");
@@ -82,10 +82,19 @@ describe("Writer template functions", () => {
     }
 
     const result = rewriteReference("[Exposed=Window] interface Momo : _Kudamono { attribute Promise<_Type> iro; attribute _Type sugar; };");
-    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute <Promise><<Type>> iro; attribute <Type> sugar; };");
+    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute Promise<<Type>> iro; attribute <Type> sugar; };");
 
     const includes = rewriteReference("_A includes _B;");
     expect(includes).toBe("<A> includes <B>;");
+  });
+
+  it("catches generics", () => {
+    function rewriteGeneric(text) {
+      return rewrite(text, { generic: bracket });
+    }
+
+    const result = rewriteGeneric("[Exposed=Window] interface Momo : Kudamono { attribute Promise<Type> iro; iterable<float>; };");
+    expect(result).toBe("[Exposed=Window] interface Momo : Kudamono { attribute <Promise><Type> iro; <iterable><float>; };");
   });
 
   it("catches types", () => {

@@ -1,5 +1,28 @@
 # Change Log
 
+## [v20.0.1](https://github.com/w3c/webidl2.js/tree/v20.0.1) (2019-05-01)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.0...v20.0.1)
+
+**Closed issues:**
+
+- Is this the reference parser implementation for the latest webidl spec? [\#316](https://github.com/w3c/webidl2.js/issues/316)
+
+**Merged pull requests:**
+
+- refactor\(lib/webidl2\): enum as a module [\#318](https://github.com/w3c/webidl2.js/pull/318) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): emit error message correctly [\#317](https://github.com/w3c/webidl2.js/pull/317) ([saschanaz](https://github.com/saschanaz))
+- docs\(lib/writer\): document generic\(\) [\#315](https://github.com/w3c/webidl2.js/pull/315) ([saschanaz](https://github.com/saschanaz))
+
+## [v20.0.0](https://github.com/w3c/webidl2.js/tree/v20.0.0) (2019-04-30)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v19.0.1...v20.0.0)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: introduce `generic\(\)` writer hook [\#314](https://github.com/w3c/webidl2.js/pull/314) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize Default [\#312](https://github.com/w3c/webidl2.js/pull/312) ([saschanaz](https://github.com/saschanaz))
+- refactor: modularize Token and list\(\) [\#311](https://github.com/w3c/webidl2.js/pull/311) ([saschanaz](https://github.com/saschanaz))
+- refactor: modularize Includes [\#310](https://github.com/w3c/webidl2.js/pull/310) ([saschanaz](https://github.com/saschanaz))
+
 ## [v19.0.1](https://github.com/w3c/webidl2.js/tree/v19.0.1) (2019-04-19)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v19.0.0...v19.0.1)
 

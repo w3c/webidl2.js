@@ -9,13 +9,13 @@
                 "name": "id",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
@@ -24,27 +24,25 @@
                 "name": "name",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "stringifier",
                 "readonly": false
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Constructor",
-                    "rhs": null,
-                    "arguments": []
-                }
-            ]
-        },
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {

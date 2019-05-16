@@ -2,45 +2,42 @@
     {
         "type": "interface",
         "name": "CSSStyleDeclaration",
+        "inheritance": null,
         "members": [
             {
                 "type": "attribute",
                 "name": "-will-change",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": {
-                        "items": [
-                            {
-                                "type": "extended-attribute",
-                                "name": "TreatNullAs",
-                                "rhs": {
-                                    "type": "identifier",
-                                    "value": "EmptyString"
-                                },
-                                "arguments": []
-                            }
-                        ]
-                    },
+                    "extAttrs": [
+                        {
+                            "type": "extended-attribute",
+                            "name": "TreatNullAs",
+                            "rhs": {
+                                "type": "identifier",
+                                "value": "EmptyString"
+                            },
+                            "arguments": []
+                        }
+                    ],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "CSSOMString"
                 },
-                "extAttrs": {
-                    "items": [
-                        {
-                            "type": "extended-attribute",
-                            "name": "CEReactions",
-                            "rhs": null,
-                            "arguments": []
-                        }
-                    ]
-                },
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "CEReactions",
+                        "rhs": null,
+                        "arguments": []
+                    }
+                ],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": true
     },
     {

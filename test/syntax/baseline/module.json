@@ -2,6 +2,7 @@
     {
         "type": "module",
         "name": "temporal",
+        "inheritance": null,
         "members": [
             {
                 "type": "interface",
@@ -13,13 +14,13 @@
                         "name": "name",
                         "idlType": {
                             "type": "attribute-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
                             "idlType": "USVString"
                         },
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "special": "",
                         "readonly": true
                     },
@@ -30,7 +31,7 @@
                             "name": "offsetMs",
                             "idlType": {
                                 "type": "return-type",
-                                "extAttrs": null,
+                                "extAttrs": [],
                                 "generic": "",
                                 "nullable": false,
                                 "union": false,
@@ -39,9 +40,10 @@
                             "arguments": [
                                 {
                                     "name": "unixTime",
+                                    "extAttrs": [],
                                     "idlType": {
                                         "type": "argument-type",
-                                        "extAttrs": null,
+                                        "extAttrs": [],
                                         "generic": "",
                                         "nullable": false,
                                         "union": false,
@@ -53,11 +55,11 @@
                                 }
                             ]
                         },
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "special": ""
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "partial": false
             },
             {
@@ -67,7 +69,7 @@
                     "name": "getCurrentTimezone",
                     "idlType": {
                         "type": "return-type",
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -75,7 +77,7 @@
                     },
                     "arguments": []
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": ""
             },
             {
@@ -83,67 +85,67 @@
                 "name": "initialTimezone",
                 "idlType": {
                     "type": "attribute-type",
-                    "extAttrs": null,
+                    "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
                     "idlType": "temporal.Timezone"
                 },
-                "extAttrs": null,
+                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": {
-            "items": [
-                {
-                    "type": "extended-attribute",
-                    "name": "Exposed",
-                    "rhs": {
-                        "type": "identifier",
-                        "value": "Window"
-                    },
-                    "arguments": []
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
                 },
-                {
-                    "type": "extended-attribute",
-                    "name": "SecureContext",
-                    "rhs": null,
-                    "arguments": []
-                }
-            ]
-        },
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "SecureContext",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {
         "type": "module",
         "name": "temporal",
+        "inheritance": null,
         "members": [
             {
                 "type": "interface",
                 "name": "Timezone",
+                "inheritance": null,
                 "members": [
                     {
                         "type": "attribute",
                         "name": "zero",
                         "idlType": {
                             "type": "attribute-type",
-                            "extAttrs": null,
+                            "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": false,
                             "idlType": "float"
                         },
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "special": "",
                         "readonly": false
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "partial": true
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": true
     },
     {

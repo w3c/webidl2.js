@@ -2,16 +2,14 @@
     {
         "type": "interface",
         "name": "Iroha",
-        "inheritance": {
-            "name": "Magic"
-        },
+        "inheritance": "Magic",
         "members": [],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
         "type": "includes",
-        "extAttrs": null,
+        "extAttrs": [],
         "target": "Iroha",
         "includes": "Color"
     },

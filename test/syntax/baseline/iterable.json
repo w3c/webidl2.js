@@ -9,18 +9,18 @@
                 "idlType": [
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
                         "idlType": "long"
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -33,7 +33,7 @@
                 "idlType": [
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
@@ -41,18 +41,18 @@
                     },
                     {
                         "type": null,
-                        "extAttrs": null,
+                        "extAttrs": [],
                         "generic": "",
                         "nullable": true,
                         "union": false,
                         "idlType": "double"
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
@@ -65,27 +65,25 @@
                 "idlType": [
                     {
                         "type": null,
-                        "extAttrs": {
-                            "items": [
-                                {
-                                    "type": "extended-attribute",
-                                    "name": "XAttr",
-                                    "rhs": null,
-                                    "arguments": []
-                                }
-                            ]
-                        },
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "XAttr",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
                         "generic": "",
                         "nullable": false,
                         "union": false,
                         "idlType": "long"
                     }
                 ],
-                "extAttrs": null,
+                "extAttrs": [],
                 "readonly": false
             }
         ],
-        "extAttrs": null,
+        "extAttrs": [],
         "partial": false
     },
     {
