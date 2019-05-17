@@ -1,5 +1,21 @@
 # Change Log
 
+## [v21.0.0](https://github.com/w3c/webidl2.js/tree/v21.0.0) (2019-05-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.1...HEAD)
+
+**Closed issues:**
+
+- Unable to parse CSSOM IDL \(extended attribute on optional argument\) [\#320](https://github.com/w3c/webidl2.js/issues/320)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: merge operation body to the parent object [\#326](https://github.com/w3c/webidl2.js/pull/326) ([saschanaz](https://github.com/saschanaz))
+- docs\(lib/webidl2\): represent `extAttrs` as an array [\#325](https://github.com/w3c/webidl2.js/pull/325) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: restore `extAttrs` as array [\#324](https://github.com/w3c/webidl2.js/pull/324) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: restore `inheritance` as a string [\#323](https://github.com/w3c/webidl2.js/pull/323) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE\(lib/webidl2\): allow argument-wise extended attributes [\#322](https://github.com/w3c/webidl2.js/pull/322) ([saschanaz](https://github.com/saschanaz))
+- Fix JS error on productions/default.js bracket errors [\#321](https://github.com/w3c/webidl2.js/pull/321) ([kainino0x](https://github.com/kainino0x))
+
 ## [v20.0.1](https://github.com/w3c/webidl2.js/tree/v20.0.1) (2019-05-01)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.0...v20.0.1)
 
@@ -232,7 +248,7 @@
 - Add trivia for dictionaries [\#204](https://github.com/w3c/webidl2.js/pull/204) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for mixins and namespaces [\#203](https://github.com/w3c/webidl2.js/pull/203) ([saschanaz](https://github.com/saschanaz))
 - Use eslint minimally [\#202](https://github.com/w3c/webidl2.js/pull/202) ([saschanaz](https://github.com/saschanaz))
-- Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for extended attribute identifiers [\#200](https://github.com/w3c/webidl2.js/pull/200) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for const member type [\#199](https://github.com/w3c/webidl2.js/pull/199) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for arguments [\#198](https://github.com/w3c/webidl2.js/pull/198) ([saschanaz](https://github.com/saschanaz))
