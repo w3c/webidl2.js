@@ -466,31 +466,29 @@ An operation looks like this:
 {
   "type": "operation",
   "special": "",
-  "body": {
+  "idlType": {
+    "type": "return-type",
+    "generic": "",
+    "nullable": false,
+    "union": false,
+    "idlType": "void",
+    "extAttrs": []
+  },
+  "name": "intersection",
+  "arguments": [{
+    "optional": false,
+    "variadic": true,
+    "extAttrs": [],
     "idlType": {
-      "type": "return-type",
+      "type": "argument-type",
       "generic": "",
       "nullable": false,
       "union": false,
-      "idlType": "void",
-      "extAttrs": []
+      "idlType": "long",
+      "extAttrs": [...]
     },
-    "name": "intersection",
-    "arguments": [{
-      "optional": false,
-      "variadic": true,
-      "extAttrs": [],
-      "idlType": {
-        "type": "argument-type",
-        "generic": "",
-        "nullable": false,
-        "union": false,
-        "idlType": "long",
-        "extAttrs": [...]
-      },
-      "name": "ints"
-    }],
-  },
+    "name": "ints"
+  }],
   "extAttrs": []
 }
 ```
@@ -499,14 +497,10 @@ The fields are as follows:
 
 * `type`: Always "operation".
 * `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
-* `body`: The operation body. Can be null if bodyless `stringifier`.
-* `extAttrs`: An array of [extended attributes](#extended-attributes).
-
-The operation body fields are as follows:
-
-* `idlType`: An [IDL Type](#idl-type) of what the operation returns.
+* `idlType`: An [IDL Type](#idl-type) of what the operation returns, if exists.
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Attribute Member
 

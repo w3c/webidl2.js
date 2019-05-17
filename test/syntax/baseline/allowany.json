@@ -7,93 +7,84 @@
             {
                 "type": "operation",
                 "name": "g",
-                "body": {
-                    "name": "g",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "g",
-                "body": {
-                    "name": "g",
-                    "idlType": {
-                        "type": "return-type",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [
+                    {
+                        "name": "b",
                         "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "b",
+                        "idlType": {
+                            "type": "argument-type",
                             "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "B"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
-                },
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "B"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "g",
-                "body": {
-                    "name": "g",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "s",
-                            "extAttrs": [
-                                {
-                                    "type": "extended-attribute",
-                                    "name": "AllowAny",
-                                    "rhs": null,
-                                    "arguments": []
-                                }
-                            ],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "DOMString"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [
+                    {
+                        "name": "s",
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "AllowAny",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }
