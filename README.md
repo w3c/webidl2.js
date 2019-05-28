@@ -665,6 +665,22 @@ The fields are as follows:
 * `readonly`: `true` if the maplike or setlike is declared as read only.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 
+### End of file
+
+```js
+{
+  "type": "eof",
+  "value": "",
+  "trivia": "\n"
+}
+```
+
+The fields are as follows:
+
+* `type`: Always "eof"
+* `value`: Always an empty string.
+* `trivia`: Any whitespaces and comments after the last token and before the EOF.
+
 ## Testing
 
 ### Running
