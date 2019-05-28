@@ -66,14 +66,18 @@ describe("Writer template functions", () => {
 
   it("catches references", () => {
     function rewriteReference(text) {
-      return rewrite(text, { reference: bracket });
+      return rewrite(text, {
+        reference(text, unescaped, context) {
+          return `<${text}|${unescaped}|${context.type}>`;
+        }
+      });
     }
 
     const result = rewriteReference("[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned long> iro; };");
-    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute Promise<<unsigned long>> iro; };");
+    expect(result).toBe("[Exposed=<Window|Window|extended-attribute>] interface Momo : <Kudamono|Kudamono|interface> { attribute Promise<<unsigned long|unsigned long|attribute-type>> iro; };");
 
     const includes = rewriteReference("_A includes _B;");
-    expect(includes).toBe("<_A> includes <_B>;");
+    expect(includes).toBe("<_A|A|includes> includes <_B|B|includes>;");
   });
 
   it("catches references as unescaped", () => {
