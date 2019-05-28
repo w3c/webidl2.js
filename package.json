@@ -19,7 +19,7 @@
     "webpack-cli": "^3.3.0"
   },
   "scripts": {
-    "lint": "eslint lib/*.js test/*.js test/util/*.js",
+    "lint": "eslint lib/**/*.js test/*.js test/util/*.js",
     "test": "npm run lint && webpack && mocha",
     "acquire": "node test/util/acquire.js"
   },
