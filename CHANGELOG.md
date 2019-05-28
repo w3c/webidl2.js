@@ -1,7 +1,16 @@
 # Change Log
 
+## [21.1.0](https://github.com/w3c/webidl2.js/tree/21.1.0) (2019-05-28)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.0.0...21.1.0)
+
+**Merged pull requests:**
+
+- docs\(lib/webidl2\): document `eof` [\#331](https://github.com/w3c/webidl2.js/pull/331) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/writer\): provide context for reference\(\) [\#330](https://github.com/w3c/webidl2.js/pull/330) ([saschanaz](https://github.com/saschanaz))
+- Remove trailing whitespace in lib/productions/helpers.js [\#329](https://github.com/w3c/webidl2.js/pull/329) ([foolip](https://github.com/foolip))
+
 ## [v21.0.0](https://github.com/w3c/webidl2.js/tree/v21.0.0) (2019-05-17)
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.1...HEAD)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.1...v21.0.0)
 
 **Closed issues:**
 
