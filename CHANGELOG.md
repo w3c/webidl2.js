@@ -1,7 +1,14 @@
 # Change Log
 
-## [21.1.0](https://github.com/w3c/webidl2.js/tree/21.1.0) (2019-05-28)
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.0.0...21.1.0)
+## [21.1.1](https://github.com/w3c/webidl2.js/tree/21.1.1) (2019-06-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.0...21.1.1)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): inherited attributes cannot be readonly [\#332](https://github.com/w3c/webidl2.js/pull/332) ([saschanaz](https://github.com/saschanaz))
+
+## [v21.1.0](https://github.com/w3c/webidl2.js/tree/v21.1.0) (2019-05-28)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.0.0...v21.1.0)
 
 **Merged pull requests:**
 
