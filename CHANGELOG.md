@@ -1,7 +1,18 @@
 # Change Log
 
-## [21.1.1](https://github.com/w3c/webidl2.js/tree/21.1.1) (2019-06-02)
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.0...21.1.1)
+## [v22.0.0](https://github.com/w3c/webidl2.js/tree/v22.0.0) (2019-06-04)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.1...v22.0.0)
+
+**Closed issues:**
+
+- eof nodes [\#327](https://github.com/w3c/webidl2.js/issues/327)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: emit eof only if options.concrete=true [\#333](https://github.com/w3c/webidl2.js/pull/333) ([saschanaz](https://github.com/saschanaz))
+
+## [v21.1.1](https://github.com/w3c/webidl2.js/tree/v21.1.1) (2019-06-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.0...v21.1.1)
 
 **Merged pull requests:**
 
