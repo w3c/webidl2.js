@@ -1,6 +1,6 @@
 "use strict";
 
-const { collect } = require("./collect");
+const { collect } = require("./collect.js");
 const fs = require("fs");
 
 for (const test of collect("syntax")) {

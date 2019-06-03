@@ -58,6 +58,8 @@ In the browser:
 </script>
 ```
 
+`parse()` optionally takes an option bag with a boolean field `concrete`. Currently all it does is emitting [EOF](#end-of-file) node.
+
 `write()` optionally takes a "templates" object, whose properties are functions that process input in different ways (depending on what is needed for output). Every property is optional. Each property is documented below:
 
 ```js
@@ -674,6 +676,9 @@ The fields are as follows:
   "trivia": "\n"
 }
 ```
+
+This type only appears as the last item of parser results, only if options.concrete is `true`.
+This is needed for the writer to keep any comments or whitespaces at the end of file.
 
 The fields are as follows:
 
