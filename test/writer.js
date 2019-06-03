@@ -9,7 +9,7 @@ describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
     it(`should produce the same AST for ${test.path}`, () => {
       const rewritten = webidl2.write(test.ast);
       expect(rewritten).toEqual(test.text);
-      const diff = test.diff(webidl2.parse(rewritten, test.opt));
+      const diff = test.diff(webidl2.parse(rewritten, { concrete: true }));
       expect(diff).toBe(undefined);
     });
   }
@@ -17,7 +17,8 @@ describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
 
 describe("Writer template functions", () => {
   function rewrite(text, templates) {
-    return webidl2.write(webidl2.parse(text), { templates });
+    const parsed = webidl2.parse(text, { concrete: true });
+    return webidl2.write(parsed, { templates });
   }
   function bracket(str) {
     return `<${str}>`;

@@ -1,6 +1,6 @@
 "use strict";
 
-const wp = require("../../dist/webidl2");
+const wp = require("../../dist/webidl2.js");
 const pth = require("path");
 const fs = require("fs");
 const jdp = require("jsondiffpatch");
@@ -19,7 +19,7 @@ function* collect(base, { expectError, raw } = {}) {
   for (const path of idls) {
     try {
       const text = fs.readFileSync(path, "utf8");
-      const ast = wp.parse(text);
+      const ast = wp.parse(text, { concrete: true });
       const validation = wp.validate(ast);
       if (validation) {
         yield new TestItem({ text, ast, path, validation, raw });
