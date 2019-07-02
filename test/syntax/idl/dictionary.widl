@@ -7,6 +7,7 @@ dictionary PaintOptions {
   sequence<long> seq = [];
   // https://heycam.github.io/webidl/#required-dictionary-member
   required long reqSeq;
+  Dictionary dict = {};
 };
 
 partial dictionary _A {
