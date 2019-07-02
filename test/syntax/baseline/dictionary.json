@@ -95,6 +95,23 @@
                 },
                 "default": null,
                 "required": true
+            },
+            {
+                "type": "field",
+                "name": "dict",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "dictionary-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "Dictionary"
+                },
+                "default": {
+                    "type": "dictionary"
+                },
+                "required": false
             }
         ],
         "extAttrs": [],
