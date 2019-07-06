@@ -185,9 +185,9 @@
                             "arguments": []
                         }
                     ],
-                    "union": true,
                     "generic": "",
                     "nullable": false,
+                    "union": true,
                     "idlType": [
                         {
                             "type": null,

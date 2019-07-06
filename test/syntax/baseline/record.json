@@ -82,9 +82,9 @@
                         {
                             "type": "return-type",
                             "extAttrs": [],
-                            "union": true,
                             "generic": "",
                             "nullable": true,
+                            "union": true,
                             "idlType": [
                                 {
                                     "type": null,
