@@ -1,6 +1,20 @@
 # Change Log
 
-## [v22.0.0](https://github.com/w3c/webidl2.js/tree/v22.0.0) (2019-06-04)
+## [v22.1.0](https://github.com/w3c/webidl2.js/tree/v22.1.0) (2019-07-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.0.0...v22.1.0)
+
+**Closed issues:**
+
+- Hard to upgrade to the latest version [\#328](https://github.com/w3c/webidl2.js/issues/328)
+
+**Merged pull requests:**
+
+- refactor\(lib/webidl2\): modularize types+extattrs  [\#339](https://github.com/w3c/webidl2.js/pull/339) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/default\): support {} as a default value [\#338](https://github.com/w3c/webidl2.js/pull/338) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize Type [\#335](https://github.com/w3c/webidl2.js/pull/335) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): update dependencies [\#334](https://github.com/w3c/webidl2.js/pull/334) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.0.0](https://github.com/w3c/webidl2.js/tree/v22.0.0) (2019-06-03)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.1...v22.0.0)
 
 **Closed issues:**
