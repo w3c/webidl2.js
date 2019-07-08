@@ -21,7 +21,9 @@
   "scripts": {
     "lint": "eslint lib/**/*.js test/*.js test/util/*.js",
     "test": "npm run lint && webpack && mocha",
-    "acquire": "node test/util/acquire.js"
+    "acquire": "node test/util/acquire.js",
+    "build": "npx webpack",
+    "build-debug": "npx webpack --mode none"
   },
   "repository": "git://github.com/w3c/webidl2.js",
   "main": "dist/webidl2.js",
