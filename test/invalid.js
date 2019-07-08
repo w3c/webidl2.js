@@ -5,7 +5,7 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const { parse } = require("..");
+const { parse, validate } = require("..");
 const expect = require("expect");
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
@@ -81,5 +81,12 @@ describe("Error object structure", () => {
       expect(fileName).toBeUndefined();
       expect(message).not.toContain(` in undefined`);
     }
+  });
+
+  it("should contain correct fileName field for validation position", () => {
+    const x = parse("dictionary X {};", { fileName: "dict.webidl" });
+    const y = parse("interface Y { void y(optional X x); };", { fileName: "interface.webidl" });
+    const validation = validate([x, y]);
+    expect(validation[0]).toContain("interface.webidl");
   });
 });
