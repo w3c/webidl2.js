@@ -1,3 +1,3 @@
-Syntax error at line 2, since `interface SetLikeTwoTypes`:
+Syntax error at line 2 in setlike-2types.widl, since `interface SetLikeTwoTypes`:
   setlike<long, long>;
               ^ Missing greater-than sign `>` in setlike declaration

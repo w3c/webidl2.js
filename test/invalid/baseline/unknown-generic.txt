@@ -1,3 +1,3 @@
-Syntax error at line 2, since `interface FetchEvent`:
+Syntax error at line 2 in unknown-generic.widl, since `interface FetchEvent`:
   ResponsePromise<any> default(
                  ^ Unsupported generic type ResponsePromise

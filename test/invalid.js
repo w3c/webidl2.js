@@ -61,4 +61,25 @@ describe("Error object structure", () => {
       expect(tokens[0].value).toBe("cannot");
     }
   });
+
+  it("should contain fileName field when specified", () => {
+    const cat = "cat.webidl";
+    try {
+      parse("how's your cat nowadays", { fileName: cat });
+      throw new Error("Shouldn't reach here");
+    } catch ({ fileName, message }) {
+      expect(fileName).toBe(cat);
+      expect(message).toContain(` in ${cat}`);
+    }
+  });
+
+  it("should not contain fileName field if nonexistent", () => {
+    try {
+      parse("Answer to the Ultimate Question of Life, the Universe, and Everything");
+      throw new Error("Shouldn't reach here");
+    } catch ({ fileName, message }) {
+      expect(fileName).toBeUndefined();
+      expect(message).not.toContain(` in undefined`);
+    }
+  });
 });

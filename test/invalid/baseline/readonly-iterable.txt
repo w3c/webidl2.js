@@ -1,3 +1,3 @@
-Syntax error at line 2, since `interface ReadonlyIterable`:
+Syntax error at line 2 in readonly-iterable.widl, since `interface ReadonlyIterable`:
   readonly iterable<long>
   ^ Missing return type
