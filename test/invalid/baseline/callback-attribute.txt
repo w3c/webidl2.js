@@ -1,0 +1,3 @@
+Syntax error at line 2, since `callback interface Attribute`:
+  attribute boolean attr;
+  ^ Missing return type
