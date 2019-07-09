@@ -90,3 +90,16 @@ describe("Error object structure", () => {
     expect(validation[0]).toContain("interface.webidl");
   });
 });
+
+describe("Validation", () => {
+  it("should supprt array of ASTs", () => {
+    const x = parse("interface X {};");
+    const y = parse("interface Y {};");
+    const validationX = validate(x);
+    const validationY = validate(y);
+    const validations = validate([x, y]);
+    expect(validationX.length).toBe(1);
+    expect(validationY.length).toBe(1);
+    expect(validations.length).toBe(2);
+  });
+});
