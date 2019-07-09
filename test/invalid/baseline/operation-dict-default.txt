@@ -1,9 +1,9 @@
-Validation error at line 8, inside `operation x`:
+Validation error at line 9, inside `operation x`:
   void x(optional Dict dict);
                        ^ Optional dictionary arguments must have a default value of `{}`.
-Validation error at line 10, inside `operation y`:
+Validation error at line 11, inside `operation y`:
  (boolean or Dict) union);
                    ^ Optional dictionary arguments must have a default value of `{}`.
-Validation error at line 12, inside `operation z`:
+Validation error at line 13, inside `operation z`:
   void z(optional Union union);
                         ^ Optional dictionary arguments must have a default value of `{}`.
