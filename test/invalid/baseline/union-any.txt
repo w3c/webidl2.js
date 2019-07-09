@@ -1,3 +1,3 @@
-Syntax error at line 1 in union-any.widl:
+Syntax error at line 1 in union-any.webidl:
 typedef (any or DOMString or any)
              ^ Type `any` cannot be included in a union type

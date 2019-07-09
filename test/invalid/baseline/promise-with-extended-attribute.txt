@@ -1,3 +1,3 @@
-Syntax error at line 2 in promise-with-extended-attribute.widl, since `interface Foo`:
+Syntax error at line 2 in promise-with-extended-attribute.webidl, since `interface Foo`:
   Promise<[XAttr] DOMString>
           ^ Promise type cannot have extended attribute

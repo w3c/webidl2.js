@@ -1,3 +1,3 @@
-Syntax error at line 2 in dict-no-default.widl, since `dictionary GPUColorStateDescriptor`:
+Syntax error at line 2 in dict-no-default.webidl, since `dictionary GPUColorStateDescriptor`:
     GPUColorWriteFlags writeMask = GPUColorWriteBits.ALL;
                                    ^ No value for default

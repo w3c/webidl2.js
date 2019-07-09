@@ -1,3 +1,3 @@
-Syntax error at line 14 in typedef-nested.widl, since `interface Widget`:
+Syntax error at line 14 in typedef-nested.webidl, since `interface Widget`:
     typedef sequence<Point>
     ^ Missing return type

@@ -1,9 +1,9 @@
-Validation error at line 9 in operation-dict-default.widl, inside `operation x`:
+Validation error at line 9 in operation-dict-default.webidl, inside `operation x`:
   void x(optional Dict dict);
                        ^ Optional dictionary arguments must have a default value of `{}`.
-Validation error at line 11 in operation-dict-default.widl, inside `operation y`:
+Validation error at line 11 in operation-dict-default.webidl, inside `operation y`:
  (boolean or Dict) union);
                    ^ Optional dictionary arguments must have a default value of `{}`.
-Validation error at line 13 in operation-dict-default.widl, inside `operation z`:
+Validation error at line 13 in operation-dict-default.webidl, inside `operation z`:
   void z(optional Union union);
                         ^ Optional dictionary arguments must have a default value of `{}`.

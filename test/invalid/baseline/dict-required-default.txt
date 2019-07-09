@@ -1,3 +1,3 @@
-Syntax error at line 4 in dict-required-default.widl, since `dictionary Dict`:
+Syntax error at line 4 in dict-required-default.webidl, since `dictionary Dict`:
   required long member = 0;
                           ^ Required member must not have a default

@@ -1,3 +1,3 @@
-Syntax error at line 2 in spaced-variadic.widl, since `interface X`:
+Syntax error at line 2 in spaced-variadic.webidl, since `interface X`:
     void operation(object . . . args
                    ^ Unterminated operation

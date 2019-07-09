@@ -1,3 +1,3 @@
-Syntax error at line 2 in namespace-readwrite.widl, since `namespace CSS`:
+Syntax error at line 2 in namespace-readwrite.webidl, since `namespace CSS`:
   attribute object readwrite;
   ^ Attributes must be readonly in this context
