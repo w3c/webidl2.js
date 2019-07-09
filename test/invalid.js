@@ -5,7 +5,7 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const { parse } = require("..");
+const { parse, validate } = require("..");
 const expect = require("expect");
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
@@ -60,5 +60,18 @@ describe("Error object structure", () => {
       expect(tokens[0].type).toBe("identifier");
       expect(tokens[0].value).toBe("cannot");
     }
+  });
+});
+
+describe("Validation", () => {
+  it("should supprt array of ASTs", () => {
+    const x = parse("interface X {};");
+    const y = parse("interface Y {};");
+    const validationX = validate(x);
+    const validationY = validate(y);
+    const validations = validate([x, y]);
+    expect(validationX.length).toBe(1);
+    expect(validationY.length).toBe(1);
+    expect(validations.length).toBe(2);
   });
 });
