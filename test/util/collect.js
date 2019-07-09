@@ -13,7 +13,7 @@ function* collect(base, { expectError, raw } = {}) {
   base = pth.join(__dirname, "..", base);
   const dir = pth.join(base, "idl");
   const idls = fs.readdirSync(dir)
-    .filter(it => (/\.widl$/).test(it))
+    .filter(it => (/\.webidl$/).test(it))
     .map(it => pth.join(dir, it));
 
   for (const path of idls) {
@@ -50,7 +50,7 @@ class TestItem {
     this.baselinePath = pth.join(
       pth.dirname(path),
       "../baseline",
-      pth.basename(path).replace(".widl", fileExtension)
+      pth.basename(path).replace(".webidl", fileExtension)
     );
   }
 
