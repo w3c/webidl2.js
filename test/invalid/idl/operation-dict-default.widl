@@ -4,6 +4,7 @@ dictionary Dict {
 
 typedef (short or Dict) Union;
 
+[Exposed=Window]
 interface X {
   void x(optional Dict dict);
   void x2(optional Dict dict = {});

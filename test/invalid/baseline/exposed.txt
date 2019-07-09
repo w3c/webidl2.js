@@ -1,0 +1,6 @@
+Validation error at line 1, inside `interface UnexposedInterface`:
+interface UnexposedInterface {};
+          ^ Non-partial interfaces must have [Exposed] extended attribute.
+Validation error at line 3, inside `namespace UnexposedNamespace`:
+namespace UnexposedNamespace {};
+          ^ Non-partial namespaces must have [Exposed] extended attribute.

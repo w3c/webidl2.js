@@ -1,3 +1,4 @@
+[Exposed=Window]
 interface Base {
   // Operations cannot be overloaded across partial interfaces and mixins
   void unique();
