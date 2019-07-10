@@ -1,5 +1,27 @@
 # Change Log
 
+## [v22.2.0](https://github.com/w3c/webidl2.js/tree/v22.2.0) (2019-07-10)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.1.0...v22.2.0)
+
+**Closed issues:**
+
+- Check existence of \[Exposed\] in validator [\#342](https://github.com/w3c/webidl2.js/issues/342)
+- Breaking change from \#201 not noted as such in changelog [\#319](https://github.com/w3c/webidl2.js/issues/319)
+
+**Merged pull requests:**
+
+- refactor\(lib/validator\): modularize checkInterfaceMemberDuplication [\#353](https://github.com/w3c/webidl2.js/pull/353) ([saschanaz](https://github.com/saschanaz))
+- feat\(validation\): support batch validation [\#352](https://github.com/w3c/webidl2.js/pull/352) ([saschanaz](https://github.com/saschanaz))
+- chore\(test\): change .widl to .webidl [\#351](https://github.com/w3c/webidl2.js/pull/351) ([saschanaz](https://github.com/saschanaz))
+- feat\(validation\): require \[Exposed\] [\#350](https://github.com/w3c/webidl2.js/pull/350) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): add build commands [\#348](https://github.com/w3c/webidl2.js/pull/348) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize container types [\#346](https://github.com/w3c/webidl2.js/pull/346) ([saschanaz](https://github.com/saschanaz))
+- fix\(callback-interface\): apply member type restriction  [\#345](https://github.com/w3c/webidl2.js/pull/345) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/operation\): require default value for dictionary arguments [\#344](https://github.com/w3c/webidl2.js/pull/344) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize callback+iterable [\#343](https://github.com/w3c/webidl2.js/pull/343) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize const/field/typedef [\#341](https://github.com/w3c/webidl2.js/pull/341) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize attributes/operations [\#340](https://github.com/w3c/webidl2.js/pull/340) ([saschanaz](https://github.com/saschanaz))
+
 ## [v22.1.0](https://github.com/w3c/webidl2.js/tree/v22.1.0) (2019-07-02)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.0.0...v22.1.0)
 
