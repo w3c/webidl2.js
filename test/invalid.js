@@ -61,6 +61,34 @@ describe("Error object structure", () => {
       expect(tokens[0].value).toBe("cannot");
     }
   });
+
+  it("should contain sourceName field when specified", () => {
+    const cat = "cat.webidl";
+    try {
+      parse("how's your cat nowadays", { sourceName: cat });
+      throw new Error("Shouldn't reach here");
+    } catch ({ sourceName, message }) {
+      expect(sourceName).toBe(cat);
+      expect(message).toContain(` in ${cat}`);
+    }
+  });
+
+  it("should not contain sourceName field if nonexistent", () => {
+    try {
+      parse("Answer to the Ultimate Question of Life, the Universe, and Everything");
+      throw new Error("Shouldn't reach here");
+    } catch ({ sourceName, message }) {
+      expect(sourceName).toBeUndefined();
+      expect(message).not.toContain(` in undefined`);
+    }
+  });
+
+  it("should contain correct sourceName field for validation position", () => {
+    const x = parse("dictionary X {};", { name: "dict.webidl" });
+    const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
+    const validation = validate([x, y]);
+    expect(validation[0]).toContain("interface.webidl");
+  });
 });
 
 describe("Validation", () => {
