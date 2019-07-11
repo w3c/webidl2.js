@@ -13,9 +13,9 @@ describe("Parses all of the invalid IDLs to check that they blow up correctly", 
     it(`should produce the right error for ${test.path}`, () => {
       const err = test.readText();
       if (test.error) {
-        expect(test.error.message + "\n").toEqual(err);
+        expect(test.error.message + "\n").toBe(err);
       } else if (test.validation) {
-        expect(test.validation.join("\n") + "\n").toEqual(err);
+        expect(test.validation.map(v => v.message).join("\n") + "\n").toBe(err);
       } else {
         throw new Error("This test unexpectedly had no error");
       }
@@ -87,7 +87,8 @@ describe("Error object structure", () => {
     const x = parse("dictionary X {};", { name: "dict.webidl" });
     const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
     const validation = validate([x, y]);
-    expect(validation[0]).toContain("interface.webidl");
+    expect(validation[0].sourceName).toContain("interface.webidl");
+    expect(validation[0].message).toContain("interface.webidl");
   });
 });
 
