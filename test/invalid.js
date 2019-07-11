@@ -84,17 +84,23 @@ describe("Error object structure", () => {
   });
 
   it("should contain correct sourceName field for validation position", () => {
-    const x = parse("dictionary X {};", { name: "dict.webidl" });
+    const x = parse("dictionary X {};");
     const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
     const validation = validate([x, y]);
     expect(validation[0].line).toBe(1);
-    expect(validation[0].sourceName).toContain("interface.webidl");
+    expect(validation[0].sourceName).toBe("interface.webidl");
     expect(validation[0].message).toContain("interface.webidl");
+  });
+
+  it("should respect falsy source names", () => {
+    const x = parse("interface X {};", { sourceName: 0 });
+    const validation = validate(x);
+    expect(validation[0].sourceName).toBe(0);
   });
 });
 
 describe("Validation", () => {
-  it("should supprt array of ASTs", () => {
+  it("should support array of ASTs", () => {
     const x = parse("interface X {};");
     const y = parse("interface Y {};");
     const validationX = validate(x);
