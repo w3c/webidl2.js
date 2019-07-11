@@ -1,5 +1,12 @@
 # Change Log
 
+## [v22.3.0](https://github.com/w3c/webidl2.js/tree/v22.3.0) (2019-07-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.2.0...v22.3.0)
+
+**Merged pull requests:**
+
+- feat: show filename when throwing [\#347](https://github.com/w3c/webidl2.js/pull/347) ([saschanaz](https://github.com/saschanaz))
+
 ## [v22.2.0](https://github.com/w3c/webidl2.js/tree/v22.2.0) (2019-07-10)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.1.0...v22.2.0)
 
