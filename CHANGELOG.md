@@ -1,5 +1,12 @@
 # Change Log
 
+## [v23.0.0](https://github.com/w3c/webidl2.js/tree/v23.0.0) (2019-07-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.3.0...v23.0.0)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: emit validation objects [\#354](https://github.com/w3c/webidl2.js/pull/354) ([saschanaz](https://github.com/saschanaz))
+
 ## [v22.3.0](https://github.com/w3c/webidl2.js/tree/v22.3.0) (2019-07-11)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.2.0...v22.3.0)
 
