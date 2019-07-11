@@ -62,30 +62,30 @@ describe("Error object structure", () => {
     }
   });
 
-  it("should contain fileName field when specified", () => {
+  it("should contain sourceName field when specified", () => {
     const cat = "cat.webidl";
     try {
-      parse("how's your cat nowadays", { fileName: cat });
+      parse("how's your cat nowadays", { sourceName: cat });
       throw new Error("Shouldn't reach here");
-    } catch ({ fileName, message }) {
-      expect(fileName).toBe(cat);
+    } catch ({ sourceName, message }) {
+      expect(sourceName).toBe(cat);
       expect(message).toContain(` in ${cat}`);
     }
   });
 
-  it("should not contain fileName field if nonexistent", () => {
+  it("should not contain sourceName field if nonexistent", () => {
     try {
       parse("Answer to the Ultimate Question of Life, the Universe, and Everything");
       throw new Error("Shouldn't reach here");
-    } catch ({ fileName, message }) {
-      expect(fileName).toBeUndefined();
+    } catch ({ sourceName, message }) {
+      expect(sourceName).toBeUndefined();
       expect(message).not.toContain(` in undefined`);
     }
   });
 
-  it("should contain correct fileName field for validation position", () => {
-    const x = parse("dictionary X {};", { fileName: "dict.webidl" });
-    const y = parse("interface Y { void y(optional X x); };", { fileName: "interface.webidl" });
+  it("should contain correct sourceName field for validation position", () => {
+    const x = parse("dictionary X {};", { name: "dict.webidl" });
+    const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
     const validation = validate([x, y]);
     expect(validation[0]).toContain("interface.webidl");
   });

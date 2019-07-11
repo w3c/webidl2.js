@@ -19,7 +19,7 @@ function* collect(base, { expectError, raw } = {}) {
   for (const path of idls) {
     try {
       const text = fs.readFileSync(path, "utf8");
-      const ast = wp.parse(text, { concrete: true, fileName: pth.basename(path) });
+      const ast = wp.parse(text, { concrete: true, sourceName: pth.basename(path) });
       const validation = wp.validate(ast);
       if (validation) {
         yield new TestItem({ text, ast, path, validation, raw });
