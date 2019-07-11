@@ -87,6 +87,7 @@ describe("Error object structure", () => {
     const x = parse("dictionary X {};", { name: "dict.webidl" });
     const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
     const validation = validate([x, y]);
+    expect(validation[0].line).toBe(1);
     expect(validation[0].sourceName).toContain("interface.webidl");
     expect(validation[0].message).toContain("interface.webidl");
   });
