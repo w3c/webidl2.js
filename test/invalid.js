@@ -97,6 +97,21 @@ describe("Error object structure", () => {
     const validation = validate(x);
     expect(validation[0].sourceName).toBe(0);
   });
+
+  it("should contain bareMessage field", () => {
+    const x = parse("interface X {};");
+    const validation = validate(x);
+    expect(validation[0].bareMessage).toContain("Exposed");
+    expect(validation[0].message.endsWith(validation[0].bareMessage)).toBe(true);
+  });
+
+  it("should contain context field", () => {
+    const x = parse("interface X {};", { sourceName: "Biblia" });
+    const validation = validate(x);
+    expect(validation[0].context).toContain("Biblia");
+    expect(validation[0].context.endsWith("^")).toBe(true);
+    expect(validation[0].message.startsWith(validation[0].context)).toBe(true);
+  });
 });
 
 describe("Validation", () => {
