@@ -1,5 +1,14 @@
 # Change Log
 
+## [v23.1.0](https://github.com/w3c/webidl2.js/tree/v23.1.0) (2019-07-12)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.0.0...v23.1.0)
+
+**Merged pull requests:**
+
+- chore\(package\): update eslint [\#357](https://github.com/w3c/webidl2.js/pull/357) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/error\): add .bareMessage and .context [\#356](https://github.com/w3c/webidl2.js/pull/356) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): respect falsy source names [\#355](https://github.com/w3c/webidl2.js/pull/355) ([saschanaz](https://github.com/saschanaz))
+
 ## [v23.0.0](https://github.com/w3c/webidl2.js/tree/v23.0.0) (2019-07-11)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.3.0...v23.0.0)
 
