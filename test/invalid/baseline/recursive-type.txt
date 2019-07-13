@@ -1,3 +1,6 @@
-Validation error at line 7 in recursive-type.webidl, inside `argument r`:
+Validation error at line 9 in recursive-type.webidl, inside `argument r`:
   void recursive(optional Recursive r);
                                     ^ Optional dictionary arguments must have a default value of `{}`.
+Validation error at line 10 in recursive-type.webidl, inside `argument f`:
+  void recursive2(optional FriendX f);
+                                   ^ Optional dictionary arguments must have a default value of `{}`.
