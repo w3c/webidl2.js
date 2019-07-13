@@ -32,6 +32,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "propertyName",
                         "extAttrs": [],
                         "idlType": {
@@ -63,6 +64,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "propertyName",
                         "extAttrs": [],
                         "idlType": {
@@ -78,6 +80,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "propertyValue",
                         "extAttrs": [],
                         "idlType": {
@@ -133,6 +136,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "propertyName",
                         "extAttrs": [],
                         "idlType": {
@@ -164,6 +168,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "propertyName",
                         "extAttrs": [],
                         "idlType": {
@@ -179,6 +184,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "propertyValue",
                         "extAttrs": [],
                         "idlType": {
@@ -210,6 +216,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "propertyName",
                         "extAttrs": [],
                         "idlType": {
@@ -241,6 +248,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "propertyName",
                         "extAttrs": [],
                         "idlType": {
@@ -256,6 +264,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "propertyValue",
                         "extAttrs": [],
                         "idlType": {

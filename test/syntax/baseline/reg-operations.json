@@ -71,6 +71,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "size",
                         "extAttrs": [],
                         "idlType": {
@@ -102,6 +103,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "width",
                         "extAttrs": [],
                         "idlType": {
@@ -117,6 +119,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "height",
                         "extAttrs": [],
                         "idlType": {

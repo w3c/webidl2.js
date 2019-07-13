@@ -66,6 +66,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "type",
                         "extAttrs": [],
                         "idlType": {
@@ -81,6 +82,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "size",
                         "extAttrs": [],
                         "idlType": {
