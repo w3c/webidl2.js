@@ -17,6 +17,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "v1",
                         "extAttrs": [],
                         "idlType": {
@@ -32,6 +33,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "v2",
                         "extAttrs": [],
                         "idlType": {
@@ -47,6 +49,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "v3",
                         "extAttrs": [],
                         "idlType": {
@@ -62,6 +65,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "alpha",
                         "extAttrs": [],
                         "idlType": {

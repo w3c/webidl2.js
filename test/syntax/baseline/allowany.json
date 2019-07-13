@@ -32,6 +32,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "b",
                         "extAttrs": [],
                         "idlType": {
@@ -63,6 +64,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "s",
                         "extAttrs": [
                             {

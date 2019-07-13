@@ -17,6 +17,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "coordinates",
                         "extAttrs": [],
                         "idlType": {
@@ -90,6 +91,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "arg",
                         "extAttrs": [],
                         "idlType": {

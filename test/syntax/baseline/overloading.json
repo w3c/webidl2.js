@@ -33,6 +33,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "x",
                         "extAttrs": [],
                         "idlType": {
@@ -64,6 +65,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "x",
                         "extAttrs": [],
                         "idlType": {
@@ -104,6 +106,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "a",
                         "extAttrs": [],
                         "idlType": {
@@ -135,6 +138,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "a",
                         "extAttrs": [
                             {
@@ -157,6 +161,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "b",
                         "extAttrs": [],
                         "idlType": {
@@ -172,6 +177,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "c",
                         "extAttrs": [],
                         "idlType": {
@@ -218,6 +224,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "a",
                         "extAttrs": [],
                         "idlType": {
@@ -233,6 +240,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "b",
                         "extAttrs": [],
                         "idlType": {
@@ -248,6 +256,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "c",
                         "extAttrs": [],
                         "idlType": {
@@ -263,6 +272,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "d",
                         "extAttrs": [],
                         "idlType": {

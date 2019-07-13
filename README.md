@@ -576,6 +576,7 @@ The arguments (e.g. for an operation) look like this:
 ```JS
 {
   "arguments": [{
+    "type": "argument",
     "optional": false,
     "variadic": true
     "extAttrs": []

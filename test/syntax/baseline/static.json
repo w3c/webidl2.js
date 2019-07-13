@@ -85,6 +85,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "c1",
                         "extAttrs": [],
                         "idlType": {
@@ -100,6 +101,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "c2",
                         "extAttrs": [],
                         "idlType": {
@@ -115,6 +117,7 @@
                         "variadic": false
                     },
                     {
+                        "type": "argument",
                         "name": "c3",
                         "extAttrs": [],
                         "idlType": {

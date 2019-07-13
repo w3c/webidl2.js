@@ -23,6 +23,7 @@
                 },
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "src",
                         "extAttrs": [],
                         "idlType": {
