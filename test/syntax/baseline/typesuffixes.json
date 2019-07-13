@@ -7,43 +7,41 @@
             {
                 "type": "operation",
                 "name": "test",
-                "body": {
-                    "name": "test",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "foo",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "sequence",
-                                "nullable": true,
-                                "union": false,
-                                "idlType": [
-                                    {
-                                        "type": "argument-type",
-                                        "extAttrs": [],
-                                        "generic": "",
-                                        "nullable": true,
-                                        "union": false,
-                                        "idlType": "DOMString"
-                                    }
-                                ]
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "foo",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "sequence",
+                            "nullable": true,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": true,
+                                    "union": false,
+                                    "idlType": "DOMString"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }

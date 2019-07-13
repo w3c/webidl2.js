@@ -148,6 +148,7 @@
                 "rhs": null,
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "radius",
                         "extAttrs": [],
                         "idlType": {
@@ -185,9 +186,9 @@
                             "arguments": []
                         }
                     ],
-                    "union": true,
                     "generic": "",
                     "nullable": false,
+                    "union": true,
                     "idlType": [
                         {
                             "type": null,

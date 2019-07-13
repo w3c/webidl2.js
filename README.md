@@ -58,6 +58,8 @@ In the browser:
 </script>
 ```
 
+`parse()` optionally takes an option bag with a boolean field `concrete`. Currently all it does is emitting [EOF](#end-of-file) node.
+
 `write()` optionally takes a "templates" object, whose properties are functions that process input in different ways (depending on what is needed for output). Every property is optional. Each property is documented below:
 
 ```js
@@ -466,31 +468,29 @@ An operation looks like this:
 {
   "type": "operation",
   "special": "",
-  "body": {
+  "idlType": {
+    "type": "return-type",
+    "generic": "",
+    "nullable": false,
+    "union": false,
+    "idlType": "void",
+    "extAttrs": []
+  },
+  "name": "intersection",
+  "arguments": [{
+    "optional": false,
+    "variadic": true,
+    "extAttrs": [],
     "idlType": {
-      "type": "return-type",
+      "type": "argument-type",
       "generic": "",
       "nullable": false,
       "union": false,
-      "idlType": "void",
-      "extAttrs": []
+      "idlType": "long",
+      "extAttrs": [...]
     },
-    "name": "intersection",
-    "arguments": [{
-      "optional": false,
-      "variadic": true,
-      "extAttrs": [],
-      "idlType": {
-        "type": "argument-type",
-        "generic": "",
-        "nullable": false,
-        "union": false,
-        "idlType": "long",
-        "extAttrs": [...]
-      },
-      "name": "ints"
-    }],
-  },
+    "name": "ints"
+  }],
   "extAttrs": []
 }
 ```
@@ -499,14 +499,10 @@ The fields are as follows:
 
 * `type`: Always "operation".
 * `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
-* `body`: The operation body. Can be null if bodyless `stringifier`.
-* `extAttrs`: An array of [extended attributes](#extended-attributes).
-
-The operation body fields are as follows:
-
-* `idlType`: An [IDL Type](#idl-type) of what the operation returns.
+* `idlType`: An [IDL Type](#idl-type) of what the operation returns, if exists.
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Attribute Member
 
@@ -580,6 +576,7 @@ The arguments (e.g. for an operation) look like this:
 ```JS
 {
   "arguments": [{
+    "type": "argument",
     "optional": false,
     "variadic": true
     "extAttrs": []
@@ -670,6 +667,25 @@ The fields are as follows:
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: `true` if the maplike or setlike is declared as read only.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
+
+### End of file
+
+```js
+{
+  "type": "eof",
+  "value": "",
+  "trivia": "\n"
+}
+```
+
+This type only appears as the last item of parser results, only if options.concrete is `true`.
+This is needed for the writer to keep any comments or whitespaces at the end of file.
+
+The fields are as follows:
+
+* `type`: Always "eof"
+* `value`: Always an empty string.
+* `trivia`: Any whitespaces and comments after the last token and before the EOF.
 
 ## Testing
 

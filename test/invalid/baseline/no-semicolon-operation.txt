@@ -1,0 +1,3 @@
+Syntax error at line 3 in no-semicolon-operation.webidl, since `interface Waka`:
+  void eve()
+  ^ Unterminated operation, expected `;`

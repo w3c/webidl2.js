@@ -1,0 +1,3 @@
+Syntax error at line 1 in callback-noreturn.webidl, since `callback MyCall`:
+callback MyCall = ;
+                  ^ Callback lacks a return type

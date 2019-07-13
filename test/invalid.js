@@ -5,7 +5,7 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const { parse } = require("..");
+const { parse, validate } = require("..");
 const expect = require("expect");
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
@@ -13,9 +13,9 @@ describe("Parses all of the invalid IDLs to check that they blow up correctly", 
     it(`should produce the right error for ${test.path}`, () => {
       const err = test.readText();
       if (test.error) {
-        expect(test.error.message + "\n").toEqual(err);
+        expect(test.error.message + "\n").toBe(err);
       } else if (test.validation) {
-        expect(test.validation.join("\n") + "\n").toEqual(err);
+        expect(test.validation.map(v => v.message).join("\n") + "\n").toBe(err);
       } else {
         throw new Error("This test unexpectedly had no error");
       }
@@ -60,5 +60,71 @@ describe("Error object structure", () => {
       expect(tokens[0].type).toBe("identifier");
       expect(tokens[0].value).toBe("cannot");
     }
+  });
+
+  it("should contain sourceName field when specified", () => {
+    const cat = "cat.webidl";
+    try {
+      parse("how's your cat nowadays", { sourceName: cat });
+      throw new Error("Shouldn't reach here");
+    } catch ({ sourceName, message }) {
+      expect(sourceName).toBe(cat);
+      expect(message).toContain(` in ${cat}`);
+    }
+  });
+
+  it("should not contain sourceName field if nonexistent", () => {
+    try {
+      parse("Answer to the Ultimate Question of Life, the Universe, and Everything");
+      throw new Error("Shouldn't reach here");
+    } catch ({ sourceName, message }) {
+      expect(sourceName).toBeUndefined();
+      expect(message).not.toContain(` in undefined`);
+    }
+  });
+
+  it("should contain correct sourceName field for validation position", () => {
+    const x = parse("dictionary X {};");
+    const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
+    const validation = validate([x, y]);
+    expect(validation[0].line).toBe(1);
+    expect(validation[0].sourceName).toBe("interface.webidl");
+    expect(validation[0].message).toContain("interface.webidl");
+  });
+
+  it("should respect falsy source names", () => {
+    const x = parse("interface X {};", { sourceName: 0 });
+    const validation = validate(x);
+    expect(validation[0].sourceName).toBe(0);
+  });
+
+  it("should contain bareMessage field", () => {
+    const x = parse("interface X {};");
+    const validation = validate(x);
+    const { bareMessage, message } = validation[0];
+    expect(bareMessage).toContain("Exposed");
+    expect(message.endsWith(bareMessage)).toBe(true);
+  });
+
+  it("should contain context field", () => {
+    const x = parse("interface X {};", { sourceName: "Biblia" });
+    const validation = validate(x);
+    const { context, message } = validation[0];
+    expect(context).toContain("Biblia");
+    expect(context.endsWith("^")).toBe(true);
+    expect(message.startsWith(context)).toBe(true);
+  });
+});
+
+describe("Validation", () => {
+  it("should support array of ASTs", () => {
+    const x = parse("interface X {};");
+    const y = parse("interface Y {};");
+    const validationX = validate(x);
+    const validationY = validate(y);
+    const validations = validate([x, y]);
+    expect(validationX.length).toBe(1);
+    expect(validationY.length).toBe(1);
+    expect(validations.length).toBe(2);
   });
 });

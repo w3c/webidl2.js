@@ -37,44 +37,42 @@
             {
                 "type": "operation",
                 "name": "isMemberOfBreed",
-                "body": {
-                    "name": "isMemberOfBreed",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "boolean"
-                    },
-                    "arguments": [
-                        {
-                            "name": "breedName",
-                            "extAttrs": [
-                                {
-                                    "type": "extended-attribute",
-                                    "name": "TreatNullAs",
-                                    "rhs": {
-                                        "type": "identifier",
-                                        "value": "EmptyString"
-                                    },
-                                    "arguments": []
-                                }
-                            ],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "DOMString"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "boolean"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "breedName",
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "TreatNullAs",
+                                "rhs": {
+                                    "type": "identifier",
+                                    "value": "EmptyString"
+                                },
+                                "arguments": []
+                            }
+                        ],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }

@@ -5,9 +5,9 @@
         "idlType": {
             "type": "typedef-type",
             "extAttrs": [],
-            "union": true,
             "generic": "",
             "nullable": false,
+            "union": true,
             "idlType": [
                 {
                     "type": null,

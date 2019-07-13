@@ -1,0 +1,3 @@
+Syntax error at line 2 in iterable-notype.webidl, since `interface X`:
+    iterable;
+            ^ Missing less-than sign `<` in iterable declaration

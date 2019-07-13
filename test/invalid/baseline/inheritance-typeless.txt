@@ -1,0 +1,3 @@
+Syntax error at line 1 in inheritance-typeless.webidl, since `interface X`:
+interface X: {};
+             ^ Inheritance lacks a type

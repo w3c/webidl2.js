@@ -1,5 +1,5 @@
 callback interface NoSemicolon {
-  attribute boolean noSemiColon;
+  void noSemiColon();
 }
 
 enum YouNeedOne {
