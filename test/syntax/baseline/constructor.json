@@ -13,6 +13,7 @@
                 "type": "constructor",
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "radius",
                         "extAttrs": [],
                         "idlType": {
@@ -34,6 +35,7 @@
                 "type": "constructor",
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "str",
                         "extAttrs": [],
                         "idlType": {
@@ -58,6 +60,7 @@
                 "type": "constructor",
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "seq",
                         "extAttrs": [],
                         "idlType": {
@@ -88,14 +91,15 @@
                 "type": "constructor",
                 "arguments": [
                     {
+                        "type": "argument",
                         "name": "union",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
                             "extAttrs": [],
-                            "union": true,
                             "generic": "",
                             "nullable": false,
+                            "union": true,
                             "idlType": [
                                 {
                                     "type": null,
