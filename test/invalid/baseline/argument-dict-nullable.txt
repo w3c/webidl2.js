@@ -1,0 +1,12 @@
+Validation error at line 13 in argument-dict-nullable.webidl, inside `argument dict`:
+ x2(optional Dict? dict = {})
+                   ^ Dictionary arguments cannot be nullable.
+Validation error at line 14 in argument-dict-nullable.webidl, inside `argument union`:
+boolean or Dict)? union = {})
+                  ^ Dictionary arguments cannot be nullable.
+Validation error at line 15 in argument-dict-nullable.webidl, inside `argument union`:
+ z2(optional Union? union = {})
+                    ^ Dictionary arguments cannot be nullable.
+Validation error at line 16 in argument-dict-nullable.webidl, inside `argument req`:
+  void r(Required? req);
+                   ^ Dictionary arguments cannot be nullable.
