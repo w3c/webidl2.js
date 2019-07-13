@@ -7,70 +7,65 @@
             {
                 "type": "operation",
                 "name": "drawPolygon",
-                "body": {
-                    "name": "drawPolygon",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "coordinates",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "sequence",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": [
-                                    {
-                                        "type": "argument-type",
-                                        "extAttrs": [],
-                                        "generic": "",
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": "float"
-                                    }
-                                ]
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "coordinates",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "sequence",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "float"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "getInflectionPoints",
-                "body": {
-                    "name": "getInflectionPoints",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "sequence",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": [
-                            {
-                                "type": "return-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "float"
-                            }
-                        ]
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "sequence",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "float"
+                        }
+                    ]
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             }
@@ -86,50 +81,48 @@
             {
                 "type": "operation",
                 "name": "f1",
-                "body": {
-                    "name": "f1",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "arg",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "sequence",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": [
-                                    {
-                                        "type": "argument-type",
-                                        "extAttrs": [
-                                            {
-                                                "type": "extended-attribute",
-                                                "name": "XAttr",
-                                                "rhs": null,
-                                                "arguments": []
-                                            }
-                                        ],
-                                        "generic": "",
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": "long"
-                                    }
-                                ]
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "arg",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "sequence",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [
+                                        {
+                                            "type": "extended-attribute",
+                                            "name": "XAttr",
+                                            "rhs": null,
+                                            "arguments": []
+                                        }
+                                    ],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "long"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }

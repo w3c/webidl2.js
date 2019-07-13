@@ -1,0 +1,3 @@
+Syntax error at line 1 in callback-noassign.webidl, since `callback MyCallback`:
+callback MyCallback;
+                   ^ Callback lacks an assignment

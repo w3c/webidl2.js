@@ -1,6 +1,6 @@
 "use strict";
 
-const { collect } = require("./collect");
+const { collect } = require("./collect.js");
 const fs = require("fs");
 
 for (const test of collect("syntax")) {
@@ -10,7 +10,7 @@ for (const test of collect("syntax")) {
 for (const test of collect("invalid", { expectError: true, raw: true })) {
   const content =
     test.error ? test.error.message :
-    test.validation ? test.validation.join("\n") :
+    test.validation ? test.validation.map(v => v.message).join("\n") :
     "";
 
   fs.writeFileSync(test.baselinePath, `${content}\n`);

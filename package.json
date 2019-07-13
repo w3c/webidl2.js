@@ -1,7 +1,7 @@
 {
   "name": "webidl2",
   "description": "A WebIDL Parser",
-  "version": "20.0.1",
+  "version": "23.2.0",
   "contributors": [
     "Robin Berjon <robin@berjon.com> (https://berjon.com)",
     "Marcos Caceres <marcos@marcosc.com> (https://marcosc.com)",
@@ -11,17 +11,19 @@
   "license": "W3C",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^5.9.0",
-    "expect": "23.6.0",
+    "eslint": "^6.0.1",
+    "expect": "^24.8.0",
     "jsondiffpatch": "0.3.11",
     "mocha": "5.2.0",
-    "webpack": "^4.29.6",
-    "webpack-cli": "^3.3.0"
+    "webpack": "^4.33.0",
+    "webpack-cli": "^3.3.2"
   },
   "scripts": {
-    "lint": "eslint lib/*.js test/*.js test/util/*.js",
+    "lint": "eslint lib/**/*.js test/*.js test/util/*.js",
     "test": "npm run lint && webpack && mocha",
-    "acquire": "node test/util/acquire.js"
+    "acquire": "node test/util/acquire.js",
+    "build": "npx webpack",
+    "build-debug": "npx webpack --mode none"
   },
   "repository": "git://github.com/w3c/webidl2.js",
   "main": "dist/webidl2.js",

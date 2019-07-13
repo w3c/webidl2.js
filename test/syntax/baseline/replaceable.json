@@ -29,18 +29,15 @@
             {
                 "type": "operation",
                 "name": "increment",
-                "body": {
-                    "name": "increment",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             }

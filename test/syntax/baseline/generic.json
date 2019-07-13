@@ -7,45 +7,42 @@
             {
                 "type": "operation",
                 "name": "bar",
-                "body": {
-                    "name": "bar",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "Promise",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": [
-                            {
-                                "type": "return-type",
-                                "extAttrs": [],
-                                "generic": "Promise",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": [
-                                    {
-                                        "type": "return-type",
-                                        "extAttrs": [],
-                                        "generic": "sequence",
-                                        "nullable": false,
-                                        "union": false,
-                                        "idlType": [
-                                            {
-                                                "type": "return-type",
-                                                "extAttrs": [],
-                                                "generic": "",
-                                                "nullable": true,
-                                                "union": false,
-                                                "idlType": "DOMString"
-                                            }
-                                        ]
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "Promise",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "return-type",
+                                    "extAttrs": [],
+                                    "generic": "sequence",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": [
+                                        {
+                                            "type": "return-type",
+                                            "extAttrs": [],
+                                            "generic": "",
+                                            "nullable": true,
+                                            "union": false,
+                                            "idlType": "DOMString"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             },
@@ -85,54 +82,48 @@
             {
                 "type": "operation",
                 "name": "getServiced",
-                "body": {
-                    "name": "getServiced",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "Promise",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": [
-                            {
-                                "type": "return-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": true,
-                                "union": false,
-                                "idlType": "Client"
-                            }
-                        ]
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": true,
+                            "union": false,
+                            "idlType": "Client"
+                        }
+                    ]
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "reloadAll",
-                "body": {
-                    "name": "reloadAll",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "Promise",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": [
-                            {
-                                "type": "return-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "any"
-                            }
-                        ]
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "any"
+                        }
+                    ]
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             }
@@ -148,27 +139,24 @@
             {
                 "type": "operation",
                 "name": "default",
-                "body": {
-                    "name": "default",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "Promise",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": [
-                            {
-                                "type": "return-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "any"
-                            }
-                        ]
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "any"
+                        }
+                    ]
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             }

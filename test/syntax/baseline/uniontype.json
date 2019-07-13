@@ -10,9 +10,9 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
-                    "union": true,
                     "generic": "",
                     "nullable": false,
+                    "union": true,
                     "idlType": [
                         {
                             "type": null,
@@ -25,9 +25,9 @@
                         {
                             "type": null,
                             "extAttrs": [],
-                            "union": true,
                             "generic": "",
                             "nullable": false,
+                            "union": true,
                             "idlType": [
                                 {
                                     "type": null,
@@ -50,9 +50,9 @@
                         {
                             "type": null,
                             "extAttrs": [],
-                            "union": true,
                             "generic": "",
                             "nullable": true,
+                            "union": true,
                             "idlType": [
                                 {
                                     "type": null,
@@ -84,9 +84,9 @@
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
-                    "union": true,
                     "generic": "",
                     "nullable": false,
+                    "union": true,
                     "idlType": [
                         {
                             "type": null,

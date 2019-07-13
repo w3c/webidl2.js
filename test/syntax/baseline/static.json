@@ -75,64 +75,64 @@
             {
                 "type": "operation",
                 "name": "triangulate",
-                "body": {
-                    "name": "triangulate",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "Point"
-                    },
-                    "arguments": [
-                        {
-                            "name": "c1",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "Circle"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        },
-                        {
-                            "name": "c2",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "Circle"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        },
-                        {
-                            "name": "c3",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "Circle"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "Point"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "c1",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "Circle"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    },
+                    {
+                        "type": "argument",
+                        "name": "c2",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "Circle"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    },
+                    {
+                        "type": "argument",
+                        "name": "c3",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "Circle"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": "static"
             }

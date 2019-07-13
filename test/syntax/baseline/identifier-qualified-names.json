@@ -20,68 +20,64 @@
             {
                 "type": "operation",
                 "name": "createObject",
-                "body": {
-                    "name": "createObject",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "object"
-                    },
-                    "arguments": [
-                        {
-                            "name": "interface",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "DOMString"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "object"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "interface",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "",
-                "body": {
-                    "name": "",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "DOMString"
-                    },
-                    "arguments": [
-                        {
-                            "name": "keyName",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "DOMString"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "DOMString"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "keyName",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": "getter"
             }
@@ -136,34 +132,32 @@
             {
                 "type": "operation",
                 "name": "addEventListener",
-                "body": {
-                    "name": "addEventListener",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "callback",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": true,
-                                "union": false,
-                                "idlType": "EventListener"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "callback",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": true,
+                            "union": false,
+                            "idlType": "EventListener"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }

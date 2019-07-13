@@ -46,101 +46,95 @@
             {
                 "type": "operation",
                 "name": "isMouseOver",
-                "body": {
-                    "name": "isMouseOver",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "boolean"
-                    },
-                    "arguments": []
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "boolean"
                 },
+                "arguments": [],
                 "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "setDimensions",
-                "body": {
-                    "name": "setDimensions",
-                    "idlType": {
-                        "type": "return-type",
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "size",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "Dimensions"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
-                "extAttrs": [],
-                "special": ""
-            },
-            {
-                "type": "operation",
-                "name": "setDimensions",
-                "body": {
-                    "name": "setDimensions",
-                    "idlType": {
-                        "type": "return-type",
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "size",
                         "extAttrs": [],
-                        "generic": "",
-                        "nullable": false,
-                        "union": false,
-                        "idlType": "void"
-                    },
-                    "arguments": [
-                        {
-                            "name": "width",
+                        "idlType": {
+                            "type": "argument-type",
                             "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "unsigned long"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "Dimensions"
                         },
-                        {
-                            "name": "height",
-                            "extAttrs": [],
-                            "idlType": {
-                                "type": "argument-type",
-                                "extAttrs": [],
-                                "generic": "",
-                                "nullable": false,
-                                "union": false,
-                                "idlType": "unsigned long"
-                            },
-                            "default": null,
-                            "optional": false,
-                            "variadic": false
-                        }
-                    ]
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "setDimensions",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
                 },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "width",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "unsigned long"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    },
+                    {
+                        "type": "argument",
+                        "name": "height",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "unsigned long"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }

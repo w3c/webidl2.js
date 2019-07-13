@@ -1,5 +1,107 @@
 # Change Log
 
+## [v23.1.0](https://github.com/w3c/webidl2.js/tree/v23.1.0) (2019-07-12)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.0.0...v23.1.0)
+
+**Merged pull requests:**
+
+- chore\(package\): update eslint [\#357](https://github.com/w3c/webidl2.js/pull/357) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/error\): add .bareMessage and .context [\#356](https://github.com/w3c/webidl2.js/pull/356) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): respect falsy source names [\#355](https://github.com/w3c/webidl2.js/pull/355) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.0.0](https://github.com/w3c/webidl2.js/tree/v23.0.0) (2019-07-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.3.0...v23.0.0)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: emit validation objects [\#354](https://github.com/w3c/webidl2.js/pull/354) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.3.0](https://github.com/w3c/webidl2.js/tree/v22.3.0) (2019-07-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.2.0...v22.3.0)
+
+**Merged pull requests:**
+
+- feat: show filename when throwing [\#347](https://github.com/w3c/webidl2.js/pull/347) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.2.0](https://github.com/w3c/webidl2.js/tree/v22.2.0) (2019-07-10)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.1.0...v22.2.0)
+
+**Closed issues:**
+
+- Check existence of \[Exposed\] in validator [\#342](https://github.com/w3c/webidl2.js/issues/342)
+- Breaking change from \#201 not noted as such in changelog [\#319](https://github.com/w3c/webidl2.js/issues/319)
+
+**Merged pull requests:**
+
+- refactor\(lib/validator\): modularize checkInterfaceMemberDuplication [\#353](https://github.com/w3c/webidl2.js/pull/353) ([saschanaz](https://github.com/saschanaz))
+- feat\(validation\): support batch validation [\#352](https://github.com/w3c/webidl2.js/pull/352) ([saschanaz](https://github.com/saschanaz))
+- chore\(test\): change .widl to .webidl [\#351](https://github.com/w3c/webidl2.js/pull/351) ([saschanaz](https://github.com/saschanaz))
+- feat\(validation\): require \[Exposed\] [\#350](https://github.com/w3c/webidl2.js/pull/350) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): add build commands [\#348](https://github.com/w3c/webidl2.js/pull/348) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize container types [\#346](https://github.com/w3c/webidl2.js/pull/346) ([saschanaz](https://github.com/saschanaz))
+- fix\(callback-interface\): apply member type restriction  [\#345](https://github.com/w3c/webidl2.js/pull/345) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/operation\): require default value for dictionary arguments [\#344](https://github.com/w3c/webidl2.js/pull/344) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize callback+iterable [\#343](https://github.com/w3c/webidl2.js/pull/343) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize const/field/typedef [\#341](https://github.com/w3c/webidl2.js/pull/341) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize attributes/operations [\#340](https://github.com/w3c/webidl2.js/pull/340) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.1.0](https://github.com/w3c/webidl2.js/tree/v22.1.0) (2019-07-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.0.0...v22.1.0)
+
+**Closed issues:**
+
+- Hard to upgrade to the latest version [\#328](https://github.com/w3c/webidl2.js/issues/328)
+
+**Merged pull requests:**
+
+- refactor\(lib/webidl2\): modularize types+extattrs  [\#339](https://github.com/w3c/webidl2.js/pull/339) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/default\): support {} as a default value [\#338](https://github.com/w3c/webidl2.js/pull/338) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize Type [\#335](https://github.com/w3c/webidl2.js/pull/335) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): update dependencies [\#334](https://github.com/w3c/webidl2.js/pull/334) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.0.0](https://github.com/w3c/webidl2.js/tree/v22.0.0) (2019-06-03)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.1...v22.0.0)
+
+**Closed issues:**
+
+- eof nodes [\#327](https://github.com/w3c/webidl2.js/issues/327)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: emit eof only if options.concrete=true [\#333](https://github.com/w3c/webidl2.js/pull/333) ([saschanaz](https://github.com/saschanaz))
+
+## [v21.1.1](https://github.com/w3c/webidl2.js/tree/v21.1.1) (2019-06-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.0...v21.1.1)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): inherited attributes cannot be readonly [\#332](https://github.com/w3c/webidl2.js/pull/332) ([saschanaz](https://github.com/saschanaz))
+
+## [v21.1.0](https://github.com/w3c/webidl2.js/tree/v21.1.0) (2019-05-28)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.0.0...v21.1.0)
+
+**Merged pull requests:**
+
+- docs\(lib/webidl2\): document `eof` [\#331](https://github.com/w3c/webidl2.js/pull/331) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/writer\): provide context for reference\(\) [\#330](https://github.com/w3c/webidl2.js/pull/330) ([saschanaz](https://github.com/saschanaz))
+- Remove trailing whitespace in lib/productions/helpers.js [\#329](https://github.com/w3c/webidl2.js/pull/329) ([foolip](https://github.com/foolip))
+
+## [v21.0.0](https://github.com/w3c/webidl2.js/tree/v21.0.0) (2019-05-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.1...v21.0.0)
+
+**Closed issues:**
+
+- Unable to parse CSSOM IDL \(extended attribute on optional argument\) [\#320](https://github.com/w3c/webidl2.js/issues/320)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: merge operation body to the parent object [\#326](https://github.com/w3c/webidl2.js/pull/326) ([saschanaz](https://github.com/saschanaz))
+- docs\(lib/webidl2\): represent `extAttrs` as an array [\#325](https://github.com/w3c/webidl2.js/pull/325) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: restore `extAttrs` as array [\#324](https://github.com/w3c/webidl2.js/pull/324) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: restore `inheritance` as a string [\#323](https://github.com/w3c/webidl2.js/pull/323) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE\(lib/webidl2\): allow argument-wise extended attributes [\#322](https://github.com/w3c/webidl2.js/pull/322) ([saschanaz](https://github.com/saschanaz))
+- Fix JS error on productions/default.js bracket errors [\#321](https://github.com/w3c/webidl2.js/pull/321) ([kainino0x](https://github.com/kainino0x))
+
 ## [v20.0.1](https://github.com/w3c/webidl2.js/tree/v20.0.1) (2019-05-01)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.0...v20.0.1)
 
@@ -232,7 +334,7 @@
 - Add trivia for dictionaries [\#204](https://github.com/w3c/webidl2.js/pull/204) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for mixins and namespaces [\#203](https://github.com/w3c/webidl2.js/pull/203) ([saschanaz](https://github.com/saschanaz))
 - Use eslint minimally [\#202](https://github.com/w3c/webidl2.js/pull/202) ([saschanaz](https://github.com/saschanaz))
-- Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for extended attribute identifiers [\#200](https://github.com/w3c/webidl2.js/pull/200) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for const member type [\#199](https://github.com/w3c/webidl2.js/pull/199) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for arguments [\#198](https://github.com/w3c/webidl2.js/pull/198) ([saschanaz](https://github.com/saschanaz))

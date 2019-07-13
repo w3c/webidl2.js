@@ -9,7 +9,7 @@ describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
     it(`should produce the same AST for ${test.path}`, () => {
       const rewritten = webidl2.write(test.ast);
       expect(rewritten).toEqual(test.text);
-      const diff = test.diff(webidl2.parse(rewritten, test.opt));
+      const diff = test.diff(webidl2.parse(rewritten, { concrete: true }));
       expect(diff).toBe(undefined);
     });
   }
@@ -17,7 +17,8 @@ describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
 
 describe("Writer template functions", () => {
   function rewrite(text, templates) {
-    return webidl2.write(webidl2.parse(text), { templates });
+    const parsed = webidl2.parse(text, { concrete: true });
+    return webidl2.write(parsed, { templates });
   }
   function bracket(str) {
     return `<${str}>`;
@@ -66,14 +67,18 @@ describe("Writer template functions", () => {
 
   it("catches references", () => {
     function rewriteReference(text) {
-      return rewrite(text, { reference: bracket });
+      return rewrite(text, {
+        reference(text, unescaped, context) {
+          return `<${text}|${unescaped}|${context.type}>`;
+        }
+      });
     }
 
-    const result = rewriteReference("[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned long> iro; };");
-    expect(result).toBe("[Exposed=<Window>] interface Momo : <Kudamono> { attribute Promise<<unsigned long>> iro; };");
+    const result = rewriteReference("[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned  long> iro; };");
+    expect(result).toBe("[Exposed=<Window|Window|extended-attribute>] interface Momo : <Kudamono|Kudamono|interface> { attribute Promise<<unsigned  long|unsigned long|attribute-type>> iro; };");
 
     const includes = rewriteReference("_A includes _B;");
-    expect(includes).toBe("<_A> includes <_B>;");
+    expect(includes).toBe("<_A|A|includes> includes <_B|B|includes>;");
   });
 
   it("catches references as unescaped", () => {

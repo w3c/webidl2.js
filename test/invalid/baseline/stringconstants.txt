@@ -1,3 +1,3 @@
-Syntax error at line 2, since `interface Util`:
+Syntax error at line 2 in stringconstants.webidl, since `interface Util`:
   const DOMString hello = "world";
-        ^ No type for const
+        ^ Const lacks a type
