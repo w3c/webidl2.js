@@ -1,4 +1,4 @@
-typedef (boolean or Y or Recursive) Recursive;
+typedef (boolean or Recursive or Y) Recursive;
 
 dictionary Y {};
 
