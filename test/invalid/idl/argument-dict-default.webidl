@@ -8,7 +8,8 @@ dictionary Required {
 
 typedef (short or Dict) Union;
 
-[Exposed=Window]
+[Exposed=Window,
+ Constructor(optional Union union)]
 interface X {
   void x(optional Dict dict);
   void x2(optional Dict dict = {});
