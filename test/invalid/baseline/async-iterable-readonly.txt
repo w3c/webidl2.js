@@ -1,0 +1,3 @@
+Syntax error at line 3 in async-iterable-readonly.webidl, since `interface AsyncIterable`:
+  readonly async iterable<long
+  ^ Missing return type

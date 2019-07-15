@@ -1,0 +1,46 @@
+[
+    {
+        "type": "interface",
+        "name": "Keywords",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "implements",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "legacyiterable",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]

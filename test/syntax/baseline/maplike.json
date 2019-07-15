@@ -25,7 +25,8 @@
                     }
                 ],
                 "extAttrs": [],
-                "readonly": false
+                "readonly": false,
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -57,7 +58,8 @@
                     }
                 ],
                 "extAttrs": [],
-                "readonly": true
+                "readonly": true,
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -103,7 +105,8 @@
                     }
                 ],
                 "extAttrs": [],
-                "readonly": false
+                "readonly": false,
+                "async": false
             }
         ],
         "extAttrs": [],
