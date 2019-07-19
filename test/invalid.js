@@ -118,15 +118,15 @@ describe("Error object structure", () => {
   it("should mark severity as normal", () => {
     const x = parse("interface X {};");
     const validation = validate(x);
-    const { severity } = validation[0];
-    expect(severity).toBe("normal");
+    const { level } = validation[0];
+    expect(level).toBe("error");
   });
 
   it("should mark severity as weak", () => {
     const x = parse("[NoInterfaceObject] interface X {};");
     const validation = validate(x);
-    const { severity } = validation[0];
-    expect(severity).toBe("weak");
+    const { level } = validation[0];
+    expect(level).toBe("warning");
   });
 });
 
