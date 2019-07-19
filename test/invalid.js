@@ -125,7 +125,7 @@ describe("Error object structure", () => {
   it("should mark severity as weak", () => {
     const x = parse("[NoInterfaceObject] interface X {};");
     const validation = validate(x);
-    const { context, severity } = validation[0];
+    const { severity } = validation[0];
     expect(severity).toBe("weak");
   });
 });
