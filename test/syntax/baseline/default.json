@@ -1,0 +1,103 @@
+[
+    {
+        "type": "dictionary",
+        "name": "LookupOptions",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "field",
+                "name": "caseSensitive",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "dictionary-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "default": {
+                    "type": "boolean",
+                    "value": false
+                },
+                "required": false
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "AddressBook",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "hasAddressForName",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "name",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "USVString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    },
+                    {
+                        "type": "argument",
+                        "name": "options",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "LookupOptions"
+                        },
+                        "default": {
+                            "type": "dictionary"
+                        },
+                        "optional": true,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]
