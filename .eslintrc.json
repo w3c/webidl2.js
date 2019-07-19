@@ -9,6 +9,7 @@
     },
     "extends": "eslint:recommended",
     "rules": {
+        "no-console": "error",
         "no-constant-condition": ["error", { "checkLoops": false }],
         "no-eval": "error",
         "no-implied-eval": "error",
