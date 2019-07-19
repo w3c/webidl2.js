@@ -6,6 +6,7 @@ typedef (boolean or (short or Dict)) NestedBooleanDict;
 typedef (boolean or (short or Dict))? NullableNestedBooleanDict;
 typedef (boolean or (short or Dict)?) NestedNullableBooleanDict;
 typedef BooleanDict? ReferencingNullableBooleanDict;
+typedef (boolean or RecursiveBooleanDict? or Dict) RecursiveBooleanDict;
 
 callback Callback = (boolean or Dict)? ();
 [Exposed=Window]
