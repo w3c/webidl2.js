@@ -126,7 +126,6 @@ describe("Error object structure", () => {
     const x = parse("[NoInterfaceObject] interface X {};");
     const validation = validate(x);
     const { context, severity } = validation[0];
-    expect(context).toContain(", with severity \"weak\"");
     expect(severity).toBe("weak");
   });
 });
