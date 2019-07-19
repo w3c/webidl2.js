@@ -114,6 +114,21 @@ describe("Error object structure", () => {
     expect(context.endsWith("^")).toBe(true);
     expect(message.startsWith(context)).toBe(true);
   });
+
+  it("should mark severity as normal", () => {
+    const x = parse("interface X {};");
+    const validation = validate(x);
+    const { severity } = validation[0];
+    expect(severity).toBe("normal");
+  });
+
+  it("should mark severity as weak", () => {
+    const x = parse("[NoInterfaceObject] interface X {};");
+    const validation = validate(x);
+    const { context, severity } = validation[0];
+    expect(context).toContain(", with severity \"weak\"");
+    expect(severity).toBe("weak");
+  });
 });
 
 describe("Validation", () => {
