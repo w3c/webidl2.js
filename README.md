@@ -638,13 +638,13 @@ Extended attributes look like this:
 Dictionary fields and operation arguments can take default values, and constants take
 values, all of which have the following fields:
 
-* `type`: One of string, number, boolean, null, Infinity, NaN, or sequence.
+* `type`: One of `"string"`, `"number"`, `"boolean"`, `"null"`, `"Infinity"`, `"NaN"`, `"sequence"` or `"dictionary"`.
 
-For string, number, boolean, and sequence:
+For `"string"`, `"number"`, `"boolean"`, and `"sequence"`:
 
 * `value`: The value of the given type, as a string. For sequence, the only possible value is `[]`.
 
-For Infinity:
+For `"Infinity"`:
 
 * `negative`: Boolean indicating whether this is negative Infinity or not.
 
@@ -693,10 +693,3 @@ The fields are as follows:
 
 The test runs with mocha and expect.js. Normally, running `npm test` in the root directory
 should be enough once you're set up.
-
-### Browser tests
-
-In order to test in the browser, get inside `test/web` and run `make-web-tests.js`. This
-will generate a `browser-tests.html` file that you can open in a browser. As of this
-writing tests pass in the latest Firefox, Chrome, Opera, and Safari. Testing on IE
-and older versions will happen progressively.
