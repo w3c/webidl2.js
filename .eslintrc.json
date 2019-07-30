@@ -8,7 +8,9 @@
         "mocha": true
     },
     "extends": "eslint:recommended",
+    "plugins": ["import"],
     "rules": {
+        "import/extensions": ["error", "always"],
         "no-console": "error",
         "no-constant-condition": ["error", { "checkLoops": false }],
         "no-eval": "error",

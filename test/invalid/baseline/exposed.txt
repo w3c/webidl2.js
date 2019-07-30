@@ -1,6 +1,9 @@
 Validation error at line 1 in exposed.webidl, inside `interface UnexposedInterface`:
 interface UnexposedInterface {};
           ^ Interfaces must have `[Exposed]` extended attribute. To fix, add, for example, `[Exposed=Window]`. Please also consider carefully if your interface should also be exposed in a Worker scope. Refer to the [WebIDL spec section on Exposed](https://heycam.github.io/webidl/#Exposed) for more information.
+Validation error at line 3 in exposed.webidl, inside `extended-attribute NoInterfaceObject`:
+[NoInterfaceObject]
+ ^ `[NoInterfaceObject]` extended attribute is an undesirable feature that may be removed from Web IDL in the future. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/609) for more information.
 Validation error at line 5 in exposed.webidl, inside `namespace UnexposedNamespace`:
 namespace UnexposedNamespace {};
           ^ Namespaces must have [Exposed] extended attribute. To fix, add, for example, [Exposed=Window]. Please also consider carefully if your namespace should also be exposed in a Worker scope. Refer to the [WebIDL spec section on Exposed](https://heycam.github.io/webidl/#Exposed) for more information.
