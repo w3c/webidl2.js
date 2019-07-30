@@ -693,10 +693,3 @@ The fields are as follows:
 
 The test runs with mocha and expect.js. Normally, running `npm test` in the root directory
 should be enough once you're set up.
-
-### Browser tests
-
-In order to test in the browser, get inside `test/web` and run `make-web-tests.js`. This
-will generate a `browser-tests.html` file that you can open in a browser. As of this
-writing tests pass in the latest Firefox, Chrome, Opera, and Safari. Testing on IE
-and older versions will happen progressively.
