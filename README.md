@@ -58,7 +58,12 @@ In the browser:
 </script>
 ```
 
-`parse()` optionally takes an option bag with a boolean field `concrete`. Currently all it does is emitting [EOF](#end-of-file) node.
+`parse()` optionally takes an option bag with the following fields:
+
+* `concrete`: Boolean indicating whether the result should include [EOF](#end-of-file)
+   node or not.
+* `sourceName`: The source name, typically a filename. [Errors](#errors) and validation
+   objects can indicate their origin if you pass a value.
 
 `write()` optionally takes a "templates" object, whose properties are functions that process input in different ways (depending on what is needed for output). Every property is optional. Each property is documented below:
 
@@ -128,12 +133,15 @@ var result = WebIDL2.write(tree, {
 
 "Wrapped value" here will all be raw strings when the `wrap()` callback is absent.
 
-`validate()` returns semantic errors in a string array form:
+`validate()` receives an AST or an array of AST, and returns semantic errors as an
+array of objects. Their fields are same as [errors](#errors) have, with one addition:
+
+* `level`: `"error"` or `"warning"`.
 
 ```js
 const validations = validate(tree);
 for (const validation of validations) {
-  console.log(validation);
+  console.log(validation.message);
 }
 // Validation error on line X: ...
 // Validation error on line Y: ...
@@ -144,8 +152,18 @@ for (const validation of validations) {
 When there is a syntax error in the WebIDL, it throws an exception object with the following
 properties:
 
-* `message`: the error message
+* `message`: the error message with its context. Below is what it looks like.
+   ```
+   Syntax error at line 1 in callback-noparen.webidl, since `callback YourCall`:
+   callback YourCall = void;
+                           ^ Callback lacks parentheses for arguments
+   ```
+* `bareMessage`: the error message without any context description like below.
+   ```
+   Callback lacks parentheses for arguments
+   ```
 * `line`: the line at which the error occurred.
+* `sourceName`: the source name you passed to `parse()`.
 * `input`: a short peek at the text at the point where the error happened
 * `tokens`: the five tokens at the point of error, as understood by the tokeniser
   (this is the same content as `input`, but seen from the tokeniser's point of view)
