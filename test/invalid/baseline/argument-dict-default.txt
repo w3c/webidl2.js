@@ -1,9 +1,12 @@
-Validation error at line 13 in argument-dict-default.webidl, inside `argument dict`:
+Validation error at line 12 in argument-dict-default.webidl, inside `argument union`:
+ Constructor(optional Union union)]
+                            ^ Optional dictionary arguments must have a default value of `{}`.
+Validation error at line 14 in argument-dict-default.webidl, inside `argument dict`:
   void x(optional Dict dict);
                        ^ Optional dictionary arguments must have a default value of `{}`.
-Validation error at line 15 in argument-dict-default.webidl, inside `argument union`:
+Validation error at line 16 in argument-dict-default.webidl, inside `argument union`:
  (boolean or Dict) union);
                    ^ Optional dictionary arguments must have a default value of `{}`.
-Validation error at line 17 in argument-dict-default.webidl, inside `argument union`:
+Validation error at line 18 in argument-dict-default.webidl, inside `argument union`:
   void z(optional Union union);
                         ^ Optional dictionary arguments must have a default value of `{}`.
