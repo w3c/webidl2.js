@@ -1,7 +1,7 @@
 [
     {
         "type": "interface",
-        "name": "IterableOne",
+        "name": "AsyncIterable",
         "inheritance": null,
         "members": [
             {
@@ -14,44 +14,19 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "long"
-                    }
-                ],
-                "extAttrs": [],
-                "readonly": false,
-                "async": false
-            }
-        ],
-        "extAttrs": [],
-        "partial": false
-    },
-    {
-        "type": "interface",
-        "name": "IterableTwo",
-        "inheritance": null,
-        "members": [
-            {
-                "type": "iterable",
-                "idlType": [
+                    },
                     {
                         "type": null,
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
                         "union": false,
-                        "idlType": "short"
-                    },
-                    {
-                        "type": null,
-                        "extAttrs": [],
-                        "generic": "",
-                        "nullable": true,
-                        "union": false,
-                        "idlType": "double"
+                        "idlType": "float"
                     }
                 ],
                 "extAttrs": [],
                 "readonly": false,
-                "async": false
+                "async": true
             }
         ],
         "extAttrs": [],
@@ -59,7 +34,7 @@
     },
     {
         "type": "interface",
-        "name": "IterableThree",
+        "name": "AsyncIterableWithExtAttr",
         "inheritance": null,
         "members": [
             {
@@ -70,7 +45,22 @@
                         "extAttrs": [
                             {
                                 "type": "extended-attribute",
-                                "name": "XAttr",
+                                "name": "XAttr2",
+                                "rhs": null,
+                                "arguments": []
+                            }
+                        ],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "DOMString"
+                    },
+                    {
+                        "type": null,
+                        "extAttrs": [
+                            {
+                                "type": "extended-attribute",
+                                "name": "XAttr3",
                                 "rhs": null,
                                 "arguments": []
                             }
@@ -83,7 +73,7 @@
                 ],
                 "extAttrs": [],
                 "readonly": false,
-                "async": false
+                "async": true
             }
         ],
         "extAttrs": [],
@@ -92,6 +82,6 @@
     {
         "type": "eof",
         "value": "",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]
