@@ -1,0 +1,3 @@
+Syntax error at line 3 in async-maplike.webidl, since `interface AsyncIterable`:
+  async maplike<DOMString,
+  ^ Missing return type
