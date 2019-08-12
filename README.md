@@ -5,7 +5,7 @@
 
 ## Purpose
 
-This is a parser for the [WebIDL](http://dev.w3.org/2006/webapi/WebIDL/) language. If
+This is a parser for the [Web IDL](https://heycam.github.io/webidl/) language. If
 you don't know what that is, then you probably don't need it. It is meant to be used
 both in Node and in the browser (the parser likely works in other JS environments, but
 not the test suite).
