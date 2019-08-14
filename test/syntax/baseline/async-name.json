@@ -1,0 +1,73 @@
+[
+    {
+        "type": "interface",
+        "name": "Async",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "attribute",
+                "name": "async",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "extAttrs": [],
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "operation",
+                "name": "asyncOp",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "async",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "boolean"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]
