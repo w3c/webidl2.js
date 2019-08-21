@@ -1,7 +1,7 @@
 {
   "name": "webidl2",
   "description": "A WebIDL Parser",
-  "version": "23.3.0",
+  "version": "23.5.1",
   "contributors": [
     "Robin Berjon <robin@berjon.com> (https://berjon.com)",
     "Marcos Caceres <marcos@marcosc.com> (https://marcosc.com)",
@@ -31,6 +31,7 @@
   "module": "index.js",
   "files": [
     "dist/*",
-    "lib/*"
+    "lib/*",
+    "index.js"
   ]
 }
