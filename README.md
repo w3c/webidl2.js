@@ -5,7 +5,7 @@
 
 ## Purpose
 
-This is a parser for the [WebIDL](http://dev.w3.org/2006/webapi/WebIDL/) language. If
+This is a parser for the [Web IDL](https://heycam.github.io/webidl/) language. If
 you don't know what that is, then you probably don't need it. It is meant to be used
 both in Node and in the browser (the parser likely works in other JS environments, but
 not the test suite).
@@ -145,6 +145,19 @@ for (const validation of validations) {
 }
 // Validation error on line X: ...
 // Validation error on line Y: ...
+```
+
+The validator function may provide an autofix function that modifies AST. You can
+optionally call it to skip manual fixes, but make sure you review the result.
+
+```js
+const validations = validate(tree);
+for (const validation of validations) {
+  if (validation.autofix) {
+    validation.autofix();
+  }
+}
+write(tree); // magic!
 ```
 
 ### Errors

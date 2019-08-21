@@ -1,0 +1,41 @@
+[
+    {
+        "type": "interface",
+        "name": "Includes",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "includes",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]
