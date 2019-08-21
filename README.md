@@ -147,6 +147,19 @@ for (const validation of validations) {
 // Validation error on line Y: ...
 ```
 
+The validator function may provide an autofix function that modifies AST. You can
+optionally call it to skip manual fixes, but make sure you review the result.
+
+```js
+const validations = validate(tree);
+for (const validation of validations) {
+  if (validation.autofix) {
+    validation.autofix();
+  }
+}
+write(tree); // magic!
+```
+
 ### Errors
 
 When there is a syntax error in the WebIDL, it throws an exception object with the following
