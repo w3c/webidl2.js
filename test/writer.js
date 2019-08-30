@@ -102,6 +102,15 @@ describe("Writer template functions", () => {
     expect(result).toBe("[Exposed=Window] interface Momo : Kudamono { attribute <Promise><Type> iro; <iterable><float>; };");
   });
 
+  it("catches nameless members", () => {
+    function rewriteNameless(text) {
+      return rewrite(text, { nameless: bracket });
+    }
+
+    const result = rewriteNameless("[Exposed=Window] interface Momo { stringifier; constructor(); getter DOMString (); getter DOMString something(); };");
+    expect(result).toBe("[Exposed=Window] interface Momo { <stringifier>; <constructor>(); <getter> DOMString (); getter DOMString something(); };");
+  });
+
   it("catches types", () => {
     const result = rewrite("interface Momo { attribute Promise<unsigned long> iro; };", {
       type: bracket
