@@ -1,5 +1,424 @@
 # Change Log
 
+## [Unreleased](https://github.com/w3c/webidl2.js/tree/HEAD)
+
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.5.1...HEAD)
+
+**Closed issues:**
+
+- also mozilla  webidl: Attributes cannot accept sequence types [\#392](https://github.com/w3c/webidl2.js/issues/392)
+- WebIDLParseError:  namespace  Missing return type [\#390](https://github.com/w3c/webidl2.js/issues/390)
+- Consider using GitHub Actions [\#373](https://github.com/w3c/webidl2.js/issues/373)
+- Add quickfix feature? [\#349](https://github.com/w3c/webidl2.js/issues/349)
+
+**Merged pull requests:**
+
+- Create pull\_request\_template.md [\#397](https://github.com/w3c/webidl2.js/pull/397) ([saschanaz](https://github.com/saschanaz))
+- fix\(validators\): treat only non-nullables [\#396](https://github.com/w3c/webidl2.js/pull/396) ([saschanaz](https://github.com/saschanaz))
+- fix\(productions/argument\): no default for nullable dictionary args [\#395](https://github.com/w3c/webidl2.js/pull/395) ([saschanaz](https://github.com/saschanaz))
+- chore\(package.json\): update deps [\#394](https://github.com/w3c/webidl2.js/pull/394) ([saschanaz](https://github.com/saschanaz))
+- chore\(deps\): bump eslint-utils from 1.3.1 to 1.4.2 [\#393](https://github.com/w3c/webidl2.js/pull/393) ([dependabot[bot]](https://github.com/apps/dependabot))
+- chore\(workflow\): add pull\_request to GitHub Actions [\#391](https://github.com/w3c/webidl2.js/pull/391) ([sidvishnoi](https://github.com/sidvishnoi))
+- feat: support constructor as a member [\#300](https://github.com/w3c/webidl2.js/pull/300) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.5.1](https://github.com/w3c/webidl2.js/tree/v23.5.1) (2019-08-21)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.5.0...v23.5.1)
+
+**Merged pull requests:**
+
+- docs\(README\): describe autofix\(\) [\#389](https://github.com/w3c/webidl2.js/pull/389) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.5.0](https://github.com/w3c/webidl2.js/tree/v23.5.0) (2019-08-21)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.4.1...v23.5.0)
+
+**Merged pull requests:**
+
+- feat\(extAttrs\): add autofix for Exposed=Window [\#388](https://github.com/w3c/webidl2.js/pull/388) ([saschanaz](https://github.com/saschanaz))
+- feat\(checker\): add autofix API [\#387](https://github.com/w3c/webidl2.js/pull/387) ([saschanaz](https://github.com/saschanaz))
+- Setup GitHub Actions [\#386](https://github.com/w3c/webidl2.js/pull/386) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.4.1](https://github.com/w3c/webidl2.js/tree/v23.4.1) (2019-08-14)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.4.0...v23.4.1)
+
+**Merged pull requests:**
+
+- Allow `async` and `includes` as member names [\#385](https://github.com/w3c/webidl2.js/pull/385) ([saschanaz](https://github.com/saschanaz))
+- docs\(README\): update link to webidl spec [\#384](https://github.com/w3c/webidl2.js/pull/384) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.4.0](https://github.com/w3c/webidl2.js/tree/v23.4.0) (2019-08-12)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.3.0...v23.4.0)
+
+**Closed issues:**
+
+- loveubylulu@gmail.com [\#383](https://github.com/w3c/webidl2.js/issues/383)
+- error parsing IDL files [\#381](https://github.com/w3c/webidl2.js/issues/381)
+- In-browser tests from make-web-tests.js are broken [\#366](https://github.com/w3c/webidl2.js/issues/366)
+
+**Merged pull requests:**
+
+- docs\(error\): add new fields [\#382](https://github.com/w3c/webidl2.js/pull/382) ([saschanaz](https://github.com/saschanaz))
+- chore\(eslint\): force file extensions for import statements [\#380](https://github.com/w3c/webidl2.js/pull/380) ([saschanaz](https://github.com/saschanaz))
+- Add missing file extensions [\#379](https://github.com/w3c/webidl2.js/pull/379) ([munchkinhalfling](https://github.com/munchkinhalfling))
+- Add missing file extensions [\#378](https://github.com/w3c/webidl2.js/pull/378) ([munchkinhalfling](https://github.com/munchkinhalfling))
+- Add file extensions [\#377](https://github.com/w3c/webidl2.js/pull/377) ([munchkinhalfling](https://github.com/munchkinhalfling))
+- feat\(validation\): no dictionary in nullable union types [\#376](https://github.com/w3c/webidl2.js/pull/376) ([saschanaz](https://github.com/saschanaz))
+- chore\(test/web\): remove browser tests [\#375](https://github.com/w3c/webidl2.js/pull/375) ([saschanaz](https://github.com/saschanaz))
+- feat: support async iterable\<\> [\#365](https://github.com/w3c/webidl2.js/pull/365) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.3.0](https://github.com/w3c/webidl2.js/tree/v23.3.0) (2019-07-24)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.2.2...v23.3.0)
+
+**Closed issues:**
+
+- Add severity field for validations [\#372](https://github.com/w3c/webidl2.js/issues/372)
+- Adding `\[NoInterfaceObject\]` must suppress `\[Exposed\]` requirement [\#370](https://github.com/w3c/webidl2.js/issues/370)
+- Validating Constructors as argument-types [\#363](https://github.com/w3c/webidl2.js/issues/363)
+
+**Merged pull requests:**
+
+- feat\(validation\): warn about NoInterfaceObject [\#374](https://github.com/w3c/webidl2.js/pull/374) ([saschanaz](https://github.com/saschanaz))
+- fix: suppress Exposed requirement when NoInterfaceObject [\#371](https://github.com/w3c/webidl2.js/pull/371) ([saschanaz](https://github.com/saschanaz))
+- fix: allow `legacyiterable` and `implements` to be identifiers [\#369](https://github.com/w3c/webidl2.js/pull/369) ([saschanaz](https://github.com/saschanaz))
+- docs\(productions/default\): add `dictionary` [\#368](https://github.com/w3c/webidl2.js/pull/368) ([saschanaz](https://github.com/saschanaz))
+- Add test case for default-initialized example [\#367](https://github.com/w3c/webidl2.js/pull/367) ([lukebjerring](https://github.com/lukebjerring))
+
+## [v23.2.2](https://github.com/w3c/webidl2.js/tree/v23.2.2) (2019-07-14)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.2.1...v23.2.2)
+
+**Merged pull requests:**
+
+- fix: enable extattr argument validation [\#364](https://github.com/w3c/webidl2.js/pull/364) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.2.1](https://github.com/w3c/webidl2.js/tree/v23.2.1) (2019-07-13)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.2.0...v23.2.1)
+
+**Closed issues:**
+
+- Maximum call stack size exceeded [\#361](https://github.com/w3c/webidl2.js/issues/361)
+
+**Merged pull requests:**
+
+- fix\(validation\): prevent infinite recursion [\#362](https://github.com/w3c/webidl2.js/pull/362) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.2.0](https://github.com/w3c/webidl2.js/tree/v23.2.0) (2019-07-13)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.1.0...v23.2.0)
+
+**Merged pull requests:**
+
+- feat: require dictionary arguments not to be nullable [\#360](https://github.com/w3c/webidl2.js/pull/360) ([saschanaz](https://github.com/saschanaz))
+- fix: require dictionary default value only when optional [\#359](https://github.com/w3c/webidl2.js/pull/359) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.1.0](https://github.com/w3c/webidl2.js/tree/v23.1.0) (2019-07-12)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.0.0...v23.1.0)
+
+**Merged pull requests:**
+
+- chore\(package\): update eslint [\#357](https://github.com/w3c/webidl2.js/pull/357) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/error\): add .bareMessage and .context [\#356](https://github.com/w3c/webidl2.js/pull/356) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): respect falsy source names [\#355](https://github.com/w3c/webidl2.js/pull/355) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.0.0](https://github.com/w3c/webidl2.js/tree/v23.0.0) (2019-07-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.3.0...v23.0.0)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: emit validation objects [\#354](https://github.com/w3c/webidl2.js/pull/354) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.3.0](https://github.com/w3c/webidl2.js/tree/v22.3.0) (2019-07-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.2.0...v22.3.0)
+
+**Merged pull requests:**
+
+- feat: show filename when throwing [\#347](https://github.com/w3c/webidl2.js/pull/347) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.2.0](https://github.com/w3c/webidl2.js/tree/v22.2.0) (2019-07-10)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.1.0...v22.2.0)
+
+**Closed issues:**
+
+- Check existence of \[Exposed\] in validator [\#342](https://github.com/w3c/webidl2.js/issues/342)
+- Breaking change from \#201 not noted as such in changelog [\#319](https://github.com/w3c/webidl2.js/issues/319)
+
+**Merged pull requests:**
+
+- refactor\(lib/validator\): modularize checkInterfaceMemberDuplication [\#353](https://github.com/w3c/webidl2.js/pull/353) ([saschanaz](https://github.com/saschanaz))
+- feat\(validation\): support batch validation [\#352](https://github.com/w3c/webidl2.js/pull/352) ([saschanaz](https://github.com/saschanaz))
+- chore\(test\): change .widl to .webidl [\#351](https://github.com/w3c/webidl2.js/pull/351) ([saschanaz](https://github.com/saschanaz))
+- feat\(validation\): require \[Exposed\] [\#350](https://github.com/w3c/webidl2.js/pull/350) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): add build commands [\#348](https://github.com/w3c/webidl2.js/pull/348) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize container types [\#346](https://github.com/w3c/webidl2.js/pull/346) ([saschanaz](https://github.com/saschanaz))
+- fix\(callback-interface\): apply member type restriction  [\#345](https://github.com/w3c/webidl2.js/pull/345) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/operation\): require default value for dictionary arguments [\#344](https://github.com/w3c/webidl2.js/pull/344) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize callback+iterable [\#343](https://github.com/w3c/webidl2.js/pull/343) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize const/field/typedef [\#341](https://github.com/w3c/webidl2.js/pull/341) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize attributes/operations [\#340](https://github.com/w3c/webidl2.js/pull/340) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.1.0](https://github.com/w3c/webidl2.js/tree/v22.1.0) (2019-07-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v22.0.0...v22.1.0)
+
+**Closed issues:**
+
+- Hard to upgrade to the latest version [\#328](https://github.com/w3c/webidl2.js/issues/328)
+
+**Merged pull requests:**
+
+- refactor\(lib/webidl2\): modularize types+extattrs  [\#339](https://github.com/w3c/webidl2.js/pull/339) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/default\): support {} as a default value [\#338](https://github.com/w3c/webidl2.js/pull/338) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize Type [\#335](https://github.com/w3c/webidl2.js/pull/335) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): update dependencies [\#334](https://github.com/w3c/webidl2.js/pull/334) ([saschanaz](https://github.com/saschanaz))
+
+## [v22.0.0](https://github.com/w3c/webidl2.js/tree/v22.0.0) (2019-06-03)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.1...v22.0.0)
+
+**Closed issues:**
+
+- eof nodes [\#327](https://github.com/w3c/webidl2.js/issues/327)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: emit eof only if options.concrete=true [\#333](https://github.com/w3c/webidl2.js/pull/333) ([saschanaz](https://github.com/saschanaz))
+
+## [v21.1.1](https://github.com/w3c/webidl2.js/tree/v21.1.1) (2019-06-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.1.0...v21.1.1)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): inherited attributes cannot be readonly [\#332](https://github.com/w3c/webidl2.js/pull/332) ([saschanaz](https://github.com/saschanaz))
+
+## [v21.1.0](https://github.com/w3c/webidl2.js/tree/v21.1.0) (2019-05-28)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v21.0.0...v21.1.0)
+
+**Merged pull requests:**
+
+- docs\(lib/webidl2\): document `eof` [\#331](https://github.com/w3c/webidl2.js/pull/331) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/writer\): provide context for reference\(\) [\#330](https://github.com/w3c/webidl2.js/pull/330) ([saschanaz](https://github.com/saschanaz))
+- Remove trailing whitespace in lib/productions/helpers.js [\#329](https://github.com/w3c/webidl2.js/pull/329) ([foolip](https://github.com/foolip))
+
+## [v21.0.0](https://github.com/w3c/webidl2.js/tree/v21.0.0) (2019-05-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.1...v21.0.0)
+
+**Closed issues:**
+
+- Unable to parse CSSOM IDL \(extended attribute on optional argument\) [\#320](https://github.com/w3c/webidl2.js/issues/320)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: merge operation body to the parent object [\#326](https://github.com/w3c/webidl2.js/pull/326) ([saschanaz](https://github.com/saschanaz))
+- docs\(lib/webidl2\): represent `extAttrs` as an array [\#325](https://github.com/w3c/webidl2.js/pull/325) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: restore `extAttrs` as array [\#324](https://github.com/w3c/webidl2.js/pull/324) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: restore `inheritance` as a string [\#323](https://github.com/w3c/webidl2.js/pull/323) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE\(lib/webidl2\): allow argument-wise extended attributes [\#322](https://github.com/w3c/webidl2.js/pull/322) ([saschanaz](https://github.com/saschanaz))
+- Fix JS error on productions/default.js bracket errors [\#321](https://github.com/w3c/webidl2.js/pull/321) ([kainino0x](https://github.com/kainino0x))
+
+## [v20.0.1](https://github.com/w3c/webidl2.js/tree/v20.0.1) (2019-05-01)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v20.0.0...v20.0.1)
+
+**Closed issues:**
+
+- Is this the reference parser implementation for the latest webidl spec? [\#316](https://github.com/w3c/webidl2.js/issues/316)
+
+**Merged pull requests:**
+
+- refactor\(lib/webidl2\): enum as a module [\#318](https://github.com/w3c/webidl2.js/pull/318) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): emit error message correctly [\#317](https://github.com/w3c/webidl2.js/pull/317) ([saschanaz](https://github.com/saschanaz))
+- docs\(lib/writer\): document generic\(\) [\#315](https://github.com/w3c/webidl2.js/pull/315) ([saschanaz](https://github.com/saschanaz))
+
+## [v20.0.0](https://github.com/w3c/webidl2.js/tree/v20.0.0) (2019-04-30)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v19.0.1...v20.0.0)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: introduce `generic\(\)` writer hook [\#314](https://github.com/w3c/webidl2.js/pull/314) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): modularize Default [\#312](https://github.com/w3c/webidl2.js/pull/312) ([saschanaz](https://github.com/saschanaz))
+- refactor: modularize Token and list\(\) [\#311](https://github.com/w3c/webidl2.js/pull/311) ([saschanaz](https://github.com/saschanaz))
+- refactor: modularize Includes [\#310](https://github.com/w3c/webidl2.js/pull/310) ([saschanaz](https://github.com/saschanaz))
+
+## [v19.0.1](https://github.com/w3c/webidl2.js/tree/v19.0.1) (2019-04-19)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v19.0.0...v19.0.1)
+
+**Merged pull requests:**
+
+- fix\(lib/writer\): call ts.trivia with actual string [\#309](https://github.com/w3c/webidl2.js/pull/309) ([saschanaz](https://github.com/saschanaz))
+
+## [v19.0.0](https://github.com/w3c/webidl2.js/tree/v19.0.0) (2019-04-18)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v18.0.1...v19.0.0)
+
+**Closed issues:**
+
+- Keyword `float` and type `float` is ambiguous [\#302](https://github.com/w3c/webidl2.js/issues/302)
+- Docs: Trivia object not well defined [\#225](https://github.com/w3c/webidl2.js/issues/225)
+- Meta - conforming Web IDL validator [\#138](https://github.com/w3c/webidl2.js/issues/138)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): restore error fields [\#308](https://github.com/w3c/webidl2.js/pull/308) ([saschanaz](https://github.com/saschanaz))
+- fix\(webidl2\): rename float as decimal [\#307](https://github.com/w3c/webidl2.js/pull/307) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove all trivia fields [\#306](https://github.com/w3c/webidl2.js/pull/306) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove baseName and escaped\* fields [\#305](https://github.com/w3c/webidl2.js/pull/305) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove token fields [\#304](https://github.com/w3c/webidl2.js/pull/304) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: remove trivia from boolean fields [\#303](https://github.com/w3c/webidl2.js/pull/303) ([saschanaz](https://github.com/saschanaz))
+- refactor: merge error functions [\#299](https://github.com/w3c/webidl2.js/pull/299) ([saschanaz](https://github.com/saschanaz))
+- fix\(checker\): add an empty line between messages [\#298](https://github.com/w3c/webidl2.js/pull/298) ([saschanaz](https://github.com/saschanaz))
+
+## [v18.0.1](https://github.com/w3c/webidl2.js/tree/v18.0.1) (2019-03-22)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v18.0.0...v18.0.1)
+
+## [v18.0.0](https://github.com/w3c/webidl2.js/tree/v18.0.0) (2019-03-22)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v17.0.2...v18.0.0)
+
+**Closed issues:**
+
+- Argument cannot have double extended attributes [\#191](https://github.com/w3c/webidl2.js/issues/191)
+- Rename idlType.idlType [\#136](https://github.com/w3c/webidl2.js/issues/136)
+
+**Merged pull requests:**
+
+- fix\(lib/validator\): validate when overloads are all from mixins [\#296](https://github.com/w3c/webidl2.js/pull/296) ([saschanaz](https://github.com/saschanaz))
+- refactor: use module for checker [\#295](https://github.com/w3c/webidl2.js/pull/295) ([saschanaz](https://github.com/saschanaz))
+- fix: update checker to use webpack build result [\#294](https://github.com/w3c/webidl2.js/pull/294) ([saschanaz](https://github.com/saschanaz))
+- refactor: use ES module syntax and bundle by webpack [\#293](https://github.com/w3c/webidl2.js/pull/293) ([saschanaz](https://github.com/saschanaz))
+- feat: add validation feature to the checker page [\#292](https://github.com/w3c/webidl2.js/pull/292) ([saschanaz](https://github.com/saschanaz))
+- refactor: remove remaining JSON idlTypes [\#291](https://github.com/w3c/webidl2.js/pull/291) ([saschanaz](https://github.com/saschanaz))
+- refactor: use Type for primitive types [\#290](https://github.com/w3c/webidl2.js/pull/290) ([saschanaz](https://github.com/saschanaz))
+- refactor: generic type as a class [\#289](https://github.com/w3c/webidl2.js/pull/289) ([saschanaz](https://github.com/saschanaz))
+- refactor: union type as a class [\#288](https://github.com/w3c/webidl2.js/pull/288) ([saschanaz](https://github.com/saschanaz))
+- refactor: argument as a class [\#287](https://github.com/w3c/webidl2.js/pull/287) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): disallow empty generic type [\#286](https://github.com/w3c/webidl2.js/pull/286) ([saschanaz](https://github.com/saschanaz))
+- refactor: use list\(\) in identifiers\(\)/enums [\#285](https://github.com/w3c/webidl2.js/pull/285) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): disallow null on constants [\#284](https://github.com/w3c/webidl2.js/pull/284) ([saschanaz](https://github.com/saschanaz))
+- refactor: extended attributes as a class [\#283](https://github.com/w3c/webidl2.js/pull/283) ([saschanaz](https://github.com/saschanaz))
+- refactor: extended attribute as a class [\#282](https://github.com/w3c/webidl2.js/pull/282) ([saschanaz](https://github.com/saschanaz))
+- refactor: default value as a class [\#281](https://github.com/w3c/webidl2.js/pull/281) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: constant as a class [\#280](https://github.com/w3c/webidl2.js/pull/280) ([saschanaz](https://github.com/saschanaz))
+- test\(lib/webidl2\): nullable constant with typedef identifiers [\#279](https://github.com/w3c/webidl2.js/pull/279) ([saschanaz](https://github.com/saschanaz))
+- refactor: callback function as a class  [\#278](https://github.com/w3c/webidl2.js/pull/278) ([saschanaz](https://github.com/saschanaz))
+- test\(lib/webidl2\): case for double extended attributes in arguments [\#277](https://github.com/w3c/webidl2.js/pull/277) ([saschanaz](https://github.com/saschanaz))
+- refactor: attribute as a class [\#276](https://github.com/w3c/webidl2.js/pull/276) ([saschanaz](https://github.com/saschanaz))
+- refactor: operation as a class [\#275](https://github.com/w3c/webidl2.js/pull/275) ([saschanaz](https://github.com/saschanaz))
+- refactor: iterable as a class [\#274](https://github.com/w3c/webidl2.js/pull/274) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): use tokens object in container\(\) [\#273](https://github.com/w3c/webidl2.js/pull/273) ([saschanaz](https://github.com/saschanaz))
+- refactor: interface/mixin as classes [\#272](https://github.com/w3c/webidl2.js/pull/272) ([saschanaz](https://github.com/saschanaz))
+- refactor: namespace as a class [\#271](https://github.com/w3c/webidl2.js/pull/271) ([saschanaz](https://github.com/saschanaz))
+- refactor: dictionary as a class [\#270](https://github.com/w3c/webidl2.js/pull/270) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/webidl2\): move toJSON to Definition [\#269](https://github.com/w3c/webidl2.js/pull/269) ([saschanaz](https://github.com/saschanaz))
+- refactor: field as a class [\#268](https://github.com/w3c/webidl2.js/pull/268) ([saschanaz](https://github.com/saschanaz))
+- refactor: enum as a class [\#267](https://github.com/w3c/webidl2.js/pull/267) ([saschanaz](https://github.com/saschanaz))
+- refactor: typedef as a class [\#266](https://github.com/w3c/webidl2.js/pull/266) ([saschanaz](https://github.com/saschanaz))
+- refactor: includes as a class [\#265](https://github.com/w3c/webidl2.js/pull/265) ([saschanaz](https://github.com/saschanaz))
+- chore: add .gitattributes [\#264](https://github.com/w3c/webidl2.js/pull/264) ([saschanaz](https://github.com/saschanaz))
+- style: apply no-trailing-spaces [\#263](https://github.com/w3c/webidl2.js/pull/263) ([saschanaz](https://github.com/saschanaz))
+- refactor: self-containing classes [\#262](https://github.com/w3c/webidl2.js/pull/262) ([saschanaz](https://github.com/saschanaz))
+
+## [v17.0.2](https://github.com/w3c/webidl2.js/tree/v17.0.2) (2019-02-15)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v17.0.1...v17.0.2)
+
+**Closed issues:**
+
+- Point GitHub Pages at the master branch so the checker can be used online [\#259](https://github.com/w3c/webidl2.js/issues/259)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): allow a preceding hyphen for identifiers [\#261](https://github.com/w3c/webidl2.js/pull/261) ([saschanaz](https://github.com/saschanaz))
+- fix\(checker\): avoid using innerText [\#260](https://github.com/w3c/webidl2.js/pull/260) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl2\): restore enum value string form in error [\#258](https://github.com/w3c/webidl2.js/pull/258) ([saschanaz](https://github.com/saschanaz))
+- Lowercase the example namespace "Console" [\#257](https://github.com/w3c/webidl2.js/pull/257) ([foolip](https://github.com/foolip))
+
+## [v17.0.1](https://github.com/w3c/webidl2.js/tree/v17.0.1) (2018-12-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v17.0.0...v17.0.1)
+
+**Closed issues:**
+
+- idlTypes should unescape type name [\#252](https://github.com/w3c/webidl2.js/issues/252)
+- Union type must not allow `any` type [\#250](https://github.com/w3c/webidl2.js/issues/250)
+- Include statements do not unescape type names [\#249](https://github.com/w3c/webidl2.js/issues/249)
+
+**Merged pull requests:**
+
+- fix\(lib/webidl2\): prevent any in a union type [\#254](https://github.com/w3c/webidl2.js/pull/254) ([saschanaz](https://github.com/saschanaz))
+- fix: unescape includes/idlTypes/inheritances [\#253](https://github.com/w3c/webidl2.js/pull/253) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/webidl\): subclass standard error [\#247](https://github.com/w3c/webidl2.js/pull/247) ([saschanaz](https://github.com/saschanaz))
+
+## [v17.0.0](https://github.com/w3c/webidl2.js/tree/v17.0.0) (2018-12-08)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v16.1.0...v17.0.0)
+
+**Closed issues:**
+
+- Arguments shouldn't get its own extended attributes [\#246](https://github.com/w3c/webidl2.js/issues/246)
+- Modify writer to be ReSpec compatible [\#210](https://github.com/w3c/webidl2.js/issues/210)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: remove .extAttrs from arguments [\#248](https://github.com/w3c/webidl2.js/pull/248) ([saschanaz](https://github.com/saschanaz))
+
+## [v16.1.0](https://github.com/w3c/webidl2.js/tree/v16.1.0) (2018-12-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v16.0.0...v16.1.0)
+
+**Closed issues:**
+
+- Emit preceding tokens for error messages [\#180](https://github.com/w3c/webidl2.js/issues/180)
+
+**Merged pull requests:**
+
+- Add unit tests for writer template functions [\#245](https://github.com/w3c/webidl2.js/pull/245) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/webidl2\): better error messages  [\#244](https://github.com/w3c/webidl2.js/pull/244) ([saschanaz](https://github.com/saschanaz))
+- Add docs for template feature [\#243](https://github.com/w3c/webidl2.js/pull/243) ([saschanaz](https://github.com/saschanaz))
+- \[WIP\] write\(\) with optional templates [\#241](https://github.com/w3c/webidl2.js/pull/241) ([saschanaz](https://github.com/saschanaz))
+
+## [v16.0.0](https://github.com/w3c/webidl2.js/tree/v16.0.0) (2018-11-24)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v15.0.0...v16.0.0)
+
+**Implemented enhancements:**
+
+- eslint: prevent eval\(\) [\#234](https://github.com/w3c/webidl2.js/pull/234) ([tripu](https://github.com/tripu))
+
+**Closed issues:**
+
+- Revise README document about testing [\#164](https://github.com/w3c/webidl2.js/issues/164)
+- document white space [\#97](https://github.com/w3c/webidl2.js/issues/97)
+- types of types [\#93](https://github.com/w3c/webidl2.js/issues/93)
+
+**Merged pull requests:**
+
+- BREAKING CHANGE: merge modifier fields [\#240](https://github.com/w3c/webidl2.js/pull/240) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): use interface\_like\(\) [\#239](https://github.com/w3c/webidl2.js/pull/239) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): use token\(\) [\#238](https://github.com/w3c/webidl2.js/pull/238) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): reduce conditional constructs [\#237](https://github.com/w3c/webidl2.js/pull/237) ([saschanaz](https://github.com/saschanaz))
+- Remove jscoverage file and guide [\#236](https://github.com/w3c/webidl2.js/pull/236) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): update eslint [\#235](https://github.com/w3c/webidl2.js/pull/235) ([saschanaz](https://github.com/saschanaz))
+
+## [v15.0.0](https://github.com/w3c/webidl2.js/tree/v15.0.0) (2018-10-11)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v14.0.1...v15.0.0)
+
+**Fixed bugs:**
+
+- Some leading underscores are no longer removed [\#228](https://github.com/w3c/webidl2.js/issues/228)
+
+**Closed issues:**
+
+- Enum value type should be "enum-value" not "string" [\#231](https://github.com/w3c/webidl2.js/issues/231)
+- \[ExtendedAttribute=null\] no longer parses [\#227](https://github.com/w3c/webidl2.js/issues/227)
+- Promise\<void\> doesn't parse [\#226](https://github.com/w3c/webidl2.js/issues/226)
+- Extended attributes parser is too permissive [\#222](https://github.com/w3c/webidl2.js/issues/222)
+- Update changelog [\#215](https://github.com/w3c/webidl2.js/issues/215)
+- Remove implements statement support [\#98](https://github.com/w3c/webidl2.js/issues/98)
+
+**Merged pull requests:**
+
+- docs\(README\): enum value's type is now enum-value [\#233](https://github.com/w3c/webidl2.js/pull/233) ([marcoscaceres](https://github.com/marcoscaceres))
+- fix: enum values should be of type enum-value [\#232](https://github.com/w3c/webidl2.js/pull/232) ([marcoscaceres](https://github.com/marcoscaceres))
+- fix: escape non-member top identifiers [\#229](https://github.com/w3c/webidl2.js/pull/229) ([saschanaz](https://github.com/saschanaz))
+- fix\(lib/webidl\): disallow multiple special keywords [\#224](https://github.com/w3c/webidl2.js/pull/224) ([saschanaz](https://github.com/saschanaz))
+- refactor\(lib/writer\): horizontally shorter type\(\) [\#221](https://github.com/w3c/webidl2.js/pull/221) ([saschanaz](https://github.com/saschanaz))
+- chore\(README\): operation body always has idlType [\#218](https://github.com/w3c/webidl2.js/pull/218) ([saschanaz](https://github.com/saschanaz))
+- DO NOT MERGE YET: Drop support for implements statement [\#106](https://github.com/w3c/webidl2.js/pull/106) ([saschanaz](https://github.com/saschanaz))
+
+## [v14.0.1](https://github.com/w3c/webidl2.js/tree/v14.0.1) (2018-06-20)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v14.0.0...v14.0.1)
+
+**Merged pull requests:**
+
+- fix\(index\): import writer from index [\#219](https://github.com/w3c/webidl2.js/pull/219) ([saschanaz](https://github.com/saschanaz))
+
 ## [v14.0.0](https://github.com/w3c/webidl2.js/tree/v14.0.0) (2018-06-19)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v13.0.3...v14.0.0)
 
@@ -23,7 +442,7 @@
 - Add trivia for dictionaries [\#204](https://github.com/w3c/webidl2.js/pull/204) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for mixins and namespaces [\#203](https://github.com/w3c/webidl2.js/pull/203) ([saschanaz](https://github.com/saschanaz))
 - Use eslint minimally [\#202](https://github.com/w3c/webidl2.js/pull/202) ([saschanaz](https://github.com/saschanaz))
-- Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
+- BREAKING CHANGE: Add trivia for extended attributes [\#201](https://github.com/w3c/webidl2.js/pull/201) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for extended attribute identifiers [\#200](https://github.com/w3c/webidl2.js/pull/200) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for const member type [\#199](https://github.com/w3c/webidl2.js/pull/199) ([saschanaz](https://github.com/saschanaz))
 - Add trivia for arguments [\#198](https://github.com/w3c/webidl2.js/pull/198) ([saschanaz](https://github.com/saschanaz))
@@ -166,14 +585,26 @@
 - Add a web page implementing a simple WebIDL checker. [\#146](https://github.com/w3c/webidl2.js/pull/146) ([kenrussell](https://github.com/kenrussell))
 
 ## [v10.3.2](https://github.com/w3c/webidl2.js/tree/v10.3.2) (2018-04-16)
-[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.2.1...v10.3.2)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.3.1...v10.3.2)
 
 **Merged pull requests:**
 
 - Fix whitespace handling of implements and includes. [\#145](https://github.com/w3c/webidl2.js/pull/145) ([kenrussell](https://github.com/kenrussell))
 - refactor: remove eas.length check [\#144](https://github.com/w3c/webidl2.js/pull/144) ([saschanaz](https://github.com/saschanaz))
 - refactor: one-to-one match for token matcher [\#143](https://github.com/w3c/webidl2.js/pull/143) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.3.1](https://github.com/w3c/webidl2.js/tree/v10.3.1) (2018-03-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.3.0...v10.3.1)
+
+**Merged pull requests:**
+
 - const-type as full IDL Type [\#142](https://github.com/w3c/webidl2.js/pull/142) ([saschanaz](https://github.com/saschanaz))
+
+## [v10.3.0](https://github.com/w3c/webidl2.js/tree/v10.3.0) (2018-03-17)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v10.2.1...v10.3.0)
+
+**Merged pull requests:**
+
 - Always add extAttrs for .idlType [\#141](https://github.com/w3c/webidl2.js/pull/141) ([saschanaz](https://github.com/saschanaz))
 - docs\(README\): add types of types \[ci skip\] [\#140](https://github.com/w3c/webidl2.js/pull/140) ([saschanaz](https://github.com/saschanaz))
 
