@@ -1,0 +1,3 @@
+Syntax error at line 2:
+  DOMString toString
+            ^ toString is a reserved identifier and must not be used.
