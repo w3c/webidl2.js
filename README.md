@@ -102,6 +102,11 @@ var result = WebIDL2.write(tree, {
      */
     generic: name => name,
     /**
+     * Called for each nameless members, e.g. `stringifier` for `stringifier;` and `constructor` for `constructor();`
+     * @param {string} name The keyword for syntax
+     */
+    nameless: (keyword, { data, parent }) => keyword,
+    /**
      * Called only once for each types, e.g. `Document`, `Promise<DOMString>`, or `sequence<long>`.
      * @param type The `wrap()`ed result of references and syntatic bracket strings.
      */
