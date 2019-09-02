@@ -8,9 +8,9 @@ dictionary Required {
 
 typedef (short or Dict) Union;
 
-[Exposed=Window,
- Constructor(optional Union union)]
+[Exposed=Window]
 interface X {
+  constructor(optional Union union);
   void x(optional Dict dict);
   void x2(optional Dict dict = {});
   void y(optional (boolean or Dict) union);
