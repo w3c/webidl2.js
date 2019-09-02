@@ -104,4 +104,19 @@ describe("Writer template functions", () => {
     `;
     expect(autofix(input)).toBe(output);
   });
+
+  it("should add `constructor()` for interfaces with [Constructor]", () => {
+    const input = `
+      [Exposed=Window, Constructor(object arg)]
+      interface B {
+      };
+    `;
+    const output = `
+      [Exposed=Window]
+      interface B {
+constructor(object arg);
+      };
+    `;
+    expect(autofix(input)).toBe(output);
+  });
 });
