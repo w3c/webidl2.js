@@ -1,6 +1,6 @@
 Validation error at line 3 in operation-nameless.webidl:
   copy();
-      ^ Regular or static operations need a proper identifier.
+      ^ Regular or static operations must have both a return type and an identifier.
 Validation error at line 4 in operation-nameless.webidl:
   static create();
-               ^ Regular or static operations need a proper identifier.
+               ^ Regular or static operations must have both a return type and an identifier.
