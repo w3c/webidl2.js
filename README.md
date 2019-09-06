@@ -500,6 +500,7 @@ The fields are as follows:
 ### Operation Member
 
 An operation looks like this:
+
 ```JS
 {
   "type": "operation",
@@ -538,6 +539,37 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns, if exists.
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
+
+### Constructor Operation Member
+
+A constructor operation member looks like this:
+
+```JS
+{
+  "type": "constructor",
+  "arguments": [{
+    "optional": false,
+    "variadic": true,
+    "extAttrs": [],
+    "idlType": {
+      "type": "argument-type",
+      "generic": "",
+      "nullable": false,
+      "union": false,
+      "idlType": "long",
+      "extAttrs": [...]
+    },
+    "name": "ints"
+  }],
+  "extAttrs": []
+}
+```
+
+The fields are as follows:
+
+* `type`: Always "constructor".
+* `arguments`: An array of [arguments](#arguments) for the constructor operation.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Attribute Member
