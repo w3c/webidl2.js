@@ -115,7 +115,7 @@ describe("Writer template functions", () => {
     const output = `
       [Exposed=Window]
       interface B {
-constructor(object arg);
+        constructor(object arg);
         attribute any attr;
       };
     `;
