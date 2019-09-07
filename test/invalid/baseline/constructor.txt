@@ -1,3 +1,3 @@
 Validation error at line 2 in constructor.webidl, inside `interface X`:
  Constructor(optional Union union
- ^ Constructors should now be represented as constructor operations instead of `[Constructor]`. Refer to the [WebIDL spec section on constructor operations](https://heycam.github.io/webidl/#idl-constructors) for more information.
+ ^ Constructors should now be represented as a `constructor()` operation on the interface instead of `[Constructor]` extended attribute. Refer to the [WebIDL spec section on constructor operations](https://heycam.github.io/webidl/#idl-constructors) for more information.
