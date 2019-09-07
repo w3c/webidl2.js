@@ -109,12 +109,14 @@ describe("Writer template functions", () => {
     const input = `
       [Exposed=Window, Constructor(object arg)]
       interface B {
+        attribute any attr;
       };
     `;
     const output = `
       [Exposed=Window]
       interface B {
-constructor(object arg);
+        constructor(object arg);
+        attribute any attr;
       };
     `;
     expect(autofix(input)).toBe(output);
