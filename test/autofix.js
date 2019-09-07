@@ -107,13 +107,16 @@ describe("Writer template functions", () => {
 
   it("should add `constructor()` for interfaces with [Constructor]", () => {
     const input = `
-      [Exposed=Window, Constructor(object arg)]
+      [SecureContext, // secure context
+       Constructor(object arg),
+       Exposed=Window]
       interface B {
         attribute any attr;
       };
     `;
     const output = `
-      [Exposed=Window]
+      [SecureContext, // secure context
+       Exposed=Window]
       interface B {
         constructor(object arg);
         attribute any attr;
