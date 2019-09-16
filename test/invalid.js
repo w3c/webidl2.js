@@ -15,7 +15,8 @@ describe("Parses all of the invalid IDLs to check that they blow up correctly", 
       if (test.error) {
         expect(test.error.message + "\n").toBe(err);
       } else if (test.validation) {
-        expect(test.validation.map(v => v.message).join("\n") + "\n").toBe(err);
+        const messages = test.validation.map(v => `(${v.ruleName}) ${v.message}`).join("\n");
+        expect(messages + "\n").toBe(err);
       } else {
         throw new Error("This test unexpectedly had no error");
       }
