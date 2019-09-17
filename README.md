@@ -190,7 +190,7 @@ properties:
    * `constructor-member`: Constructors must use newer `constructor()` syntax.
    * `no-dulpicate`: Types cannot have identical names.
    * `require-exposed`: Interfaces must explicitly expose themselves to specific contexts by `[Exposed]`.
-   * `deficient-op`: Regular or static operations must have both a return type and an identifier.
+   * `incomplete-op`: Regular or static operations must have both a return type and an identifier.
    * `no-cross-overload`: Overloading must be done within a single interface or namespace.
 * `input`: a short peek at the text at the point where the error happened
 * `tokens`: the five tokens at the point of error, as understood by the tokeniser
