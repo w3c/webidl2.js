@@ -182,6 +182,16 @@ properties:
    ```
 * `line`: the line at which the error occurred.
 * `sourceName`: the source name you passed to `parse()`.
+* `level`: `"error"` by default, can be `"warning"` for some validations for e.g. potential future deprecations.
+* `ruleName`: Only for validations. Currently the followings are supported:
+   * `dict-arg-default`: Optional dictionary type arguments must have a default value of `{}`.
+   * `no-nullable-dict-arg`: Dictionary arguments cannot be nullable.
+   * `no-nullable-union-dict`: Nullable unions cannot include a dictionary type.
+   * `constructor-member`: Constructors must use newer `constructor()` syntax.
+   * `no-dulpicate`: Types cannot have identical names.
+   * `require-exposed`: Interfaces must explicitly expose themselves to specific contexts by `[Exposed]`.
+   * `incomplete-op`: Regular or static operations must have both a return type and an identifier.
+   * `no-cross-overload`: Overloading must be done within a single interface or namespace.
 * `input`: a short peek at the text at the point where the error happened
 * `tokens`: the five tokens at the point of error, as understood by the tokeniser
   (this is the same content as `input`, but seen from the tokeniser's point of view)

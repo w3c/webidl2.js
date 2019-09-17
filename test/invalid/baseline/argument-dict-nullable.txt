@@ -1,21 +1,21 @@
-Validation error at line 13 in argument-dict-nullable.webidl, inside `argument dict`:
+(no-nullable-dict-arg) Validation error at line 13 in argument-dict-nullable.webidl, inside `argument dict`:
  x1(optional Dict? dict);
                    ^ Dictionary arguments cannot be nullable.
-Validation error at line 14 in argument-dict-nullable.webidl, inside `argument dict`:
+(no-nullable-dict-arg) Validation error at line 14 in argument-dict-nullable.webidl, inside `argument dict`:
  x2(optional Dict? dict = {})
                    ^ Dictionary arguments cannot be nullable.
-Validation error at line 15 in argument-dict-nullable.webidl:
+(no-nullable-union-dict) Validation error at line 15 in argument-dict-nullable.webidl:
 (optional (boolean or Dict)? union =
                       ^ Nullable union cannot include a dictionary type
-Validation error at line 15 in argument-dict-nullable.webidl, inside `argument union`:
+(no-nullable-dict-arg) Validation error at line 15 in argument-dict-nullable.webidl, inside `argument union`:
 boolean or Dict)? union = {})
                   ^ Dictionary arguments cannot be nullable.
-Validation error at line 16 in argument-dict-nullable.webidl:
+(no-nullable-union-dict) Validation error at line 16 in argument-dict-nullable.webidl:
   void z2(optional Union? union = {
                    ^ Nullable union cannot include a dictionary type
-Validation error at line 16 in argument-dict-nullable.webidl, inside `argument union`:
+(no-nullable-dict-arg) Validation error at line 16 in argument-dict-nullable.webidl, inside `argument union`:
  z2(optional Union? union = {})
                     ^ Dictionary arguments cannot be nullable.
-Validation error at line 17 in argument-dict-nullable.webidl, inside `argument req`:
+(no-nullable-dict-arg) Validation error at line 17 in argument-dict-nullable.webidl, inside `argument req`:
   void r(Required? req);
                    ^ Dictionary arguments cannot be nullable.

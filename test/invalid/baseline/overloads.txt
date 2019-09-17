@@ -1,18 +1,18 @@
-Validation error at line 8 in overloads.webidl, inside `partial interface Base`:
+(no-cross-overload) Validation error at line 8 in overloads.webidl, inside `partial interface Base`:
   void unique(short num)
        ^ The operation "unique" has already been defined for the base interface "Base" either in itself or in a mixin
-Validation error at line 12 in overloads.webidl, inside `interface mixin Extension`:
+(no-cross-overload) Validation error at line 12 in overloads.webidl, inside `interface mixin Extension`:
   void unique(string str)
        ^ The operation "unique" has already been defined for the base interface "Base" either in itself or in a mixin
-Validation error at line 22 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
+(no-cross-overload) Validation error at line 22 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
   void bufferData(GLenum target,
        ^ The operation "bufferData" has already been defined for the base interface "WebGL2RenderingContext" either in itself or in a mixin
-Validation error at line 23 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
+(no-cross-overload) Validation error at line 23 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
   void bufferData(GLenum target,
        ^ The operation "bufferData" has already been defined for the base interface "WebGL2RenderingContext" either in itself or in a mixin
-Validation error at line 24 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
+(no-cross-overload) Validation error at line 24 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
   void bufferData(GLenum target,
        ^ The operation "bufferData" has already been defined for the base interface "WebGL2RenderingContext" either in itself or in a mixin
-Validation error at line 26 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
+(no-cross-overload) Validation error at line 26 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
   void bufferData(GLenum target,
        ^ The operation "bufferData" has already been defined for the base interface "WebGL2RenderingContext" either in itself or in a mixin
