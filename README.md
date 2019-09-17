@@ -1,5 +1,5 @@
 
-# WebIDL 2
+# webidl2.js
 
 [![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2)
 
