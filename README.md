@@ -1,5 +1,5 @@
 
-# WebIDL 2
+# webidl2.js
 
 [![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2)
 
@@ -188,7 +188,7 @@ properties:
    * `no-nullable-dict-arg`: Dictionary arguments cannot be nullable.
    * `no-nullable-union-dict`: Nullable unions cannot include a dictionary type.
    * `constructor-member`: Constructors must use newer `constructor()` syntax.
-   * `no-dulpicate`: Types cannot have identical names.
+   * `no-duplicate`: Types cannot have identical names.
    * `require-exposed`: Interfaces must explicitly expose themselves to specific contexts by `[Exposed]`.
    * `incomplete-op`: Regular or static operations must have both a return type and an identifier.
    * `no-cross-overload`: Overloading must be done within a single interface or namespace.
