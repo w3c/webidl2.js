@@ -139,5 +139,22 @@ describe("Writer template functions", () => {
       };
     `;
     expect(autofix(inputEmpty)).toBe(outputEmpty);
+
+    const input4space = `
+      [Exposed=Window, Constructor]
+      interface C {
+          // more indentation
+          attribute any koala;
+      };
+    `;
+    const output4space = `
+      [Exposed=Window]
+      interface C {
+          constructor();
+          // more indentation
+          attribute any koala;
+      };
+    `;
+    expect(autofix(input4space)).toBe(output4space);
   });
 });
