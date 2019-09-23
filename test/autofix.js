@@ -112,6 +112,7 @@ describe("Writer template functions", () => {
        Exposed=Window]
       interface B {
         attribute any attr;
+        // attribute any popipa;
       };
     `;
     const output = `
@@ -120,8 +121,21 @@ describe("Writer template functions", () => {
       interface B {
         constructor(object arg);
         attribute any attr;
+        // attribute any popipa;
       };
     `;
     expect(autofix(input)).toBe(output);
+
+    const inputEmpty = `
+      [Exposed=Window, Constructor]
+      interface C {};
+    `;
+    const outputEmpty = `
+      [Exposed=Window]
+      interface C {
+        constructor();
+      };
+    `;
+    expect(autofix(inputEmpty)).toBe(outputEmpty);
   });
 });
