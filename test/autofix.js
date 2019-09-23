@@ -40,7 +40,8 @@ describe("Writer template functions", () => {
     `;
     const output = `
       // hello
-      [Exposed=Window] interface B {};
+      [Exposed=Window]
+      interface B {};
     `;
     expect(autofix(input)).toBe(output);
   });
@@ -76,7 +77,8 @@ describe("Writer template functions", () => {
     `;
     const output = `
       // hello
-      [Exposed=Window] namespace B {};
+      [Exposed=Window]
+      namespace B {};
     `;
     expect(autofix(input)).toBe(output);
   });
