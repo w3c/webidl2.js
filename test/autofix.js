@@ -190,5 +190,22 @@ describe("Writer template functions", () => {
       };
     `;
     expect(autofix(inputTab)).toBe(outputTab);
+
+    const inputMixedIndent = `
+      [Exposed=Window, Constructor]
+      interface C {
+        attribute any koala;
+          attribute any elephant;
+      };
+    `;
+    const outputMixedIndent = `
+      [Exposed=Window]
+      interface C {
+        constructor();
+        attribute any koala;
+          attribute any elephant;
+      };
+    `;
+    expect(autofix(inputMixedIndent)).toBe(outputMixedIndent);
   });
 });
