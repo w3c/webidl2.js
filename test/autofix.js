@@ -208,6 +208,23 @@ describe("Writer template functions", () => {
     `;
     expect(autofix(inputTabOp)).toBe(outputTabOp);
 
+    const inputTabSpecialOp = `
+      [Exposed=Window, Constructor]
+      interface C {
+      \t// tabbed indentation
+      \tstatic void koala();
+      };
+    `;
+    const outputTabSpecialOp = `
+      [Exposed=Window]
+      interface C {
+      \tconstructor();
+      \t// tabbed indentation
+      \tstatic void koala();
+      };
+    `;
+    expect(autofix(inputTabSpecialOp)).toBe(outputTabSpecialOp);
+
     const inputMixedIndent = `
       [Exposed=Window, Constructor]
       interface C {
