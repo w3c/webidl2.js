@@ -207,5 +207,21 @@ describe("Writer template functions", () => {
       };
     `;
     expect(autofix(inputMixedIndent)).toBe(outputMixedIndent);
+
+    const inputMultiple = `
+      [Exposed=Window, Constructor, Constructor(any chocolate)]
+      interface C {
+        attribute any koala;
+      };
+    `;
+    const outputMultiple = `
+      [Exposed=Window]
+      interface C {
+        constructor();
+        constructor(any chocolate);
+        attribute any koala;
+      };
+    `;
+    expect(autofix(inputMultiple)).toBe(outputMultiple);
   });
 });
