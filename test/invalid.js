@@ -129,6 +129,7 @@ describe("Error object structure", () => {
     const { level } = validation[0];
     expect(level).toBe("warning");
   });
+
   it("allows `instanceof WebIDLParseError`", () => {
     try {
       parse("throwerror");
