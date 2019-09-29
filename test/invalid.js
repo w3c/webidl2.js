@@ -138,7 +138,6 @@ describe("Error object structure", () => {
       expect(err).toBeInstanceOf(WebIDLParseError);
     }
   });
-
 });
 
 describe("Validation", () => {
