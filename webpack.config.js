@@ -19,7 +19,7 @@ module.exports = {
             keep_classnames: true
           }
         }
-      )
+      })
     ]
   }
 
