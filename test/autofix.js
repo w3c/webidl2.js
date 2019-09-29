@@ -139,5 +139,123 @@ describe("Writer template functions", () => {
       };
     `;
     expect(autofix(inputEmpty)).toBe(outputEmpty);
+
+    const input4space = `
+      [Exposed=Window, Constructor]
+      interface C {
+          // more indentation
+          attribute any koala;
+      };
+    `;
+    const output4space = `
+      [Exposed=Window]
+      interface C {
+          constructor();
+          // more indentation
+          attribute any koala;
+      };
+    `;
+    expect(autofix(input4space)).toBe(output4space);
+
+    const input1space = `
+      [Exposed=Window, Constructor]
+      interface C {
+       // less indentation
+       attribute any koala;
+      };
+    `;
+    const output1space = `
+      [Exposed=Window]
+      interface C {
+       constructor();
+       // less indentation
+       attribute any koala;
+      };
+    `;
+    expect(autofix(input1space)).toBe(output1space);
+
+    const inputTab = `
+      [Exposed=Window, Constructor]
+      interface C {
+      \t// tabbed indentation
+      \tattribute any koala;
+      };
+    `;
+    const outputTab = `
+      [Exposed=Window]
+      interface C {
+      \tconstructor();
+      \t// tabbed indentation
+      \tattribute any koala;
+      };
+    `;
+    expect(autofix(inputTab)).toBe(outputTab);
+
+    const inputTabOp = `
+      [Exposed=Window, Constructor]
+      interface C {
+      \t// tabbed indentation
+      \tvoid koala();
+      };
+    `;
+    const outputTabOp = `
+      [Exposed=Window]
+      interface C {
+      \tconstructor();
+      \t// tabbed indentation
+      \tvoid koala();
+      };
+    `;
+    expect(autofix(inputTabOp)).toBe(outputTabOp);
+
+    const inputTabSpecialOp = `
+      [Exposed=Window, Constructor]
+      interface C {
+      \t// tabbed indentation
+      \tstatic void koala();
+      };
+    `;
+    const outputTabSpecialOp = `
+      [Exposed=Window]
+      interface C {
+      \tconstructor();
+      \t// tabbed indentation
+      \tstatic void koala();
+      };
+    `;
+    expect(autofix(inputTabSpecialOp)).toBe(outputTabSpecialOp);
+
+    const inputMixedIndent = `
+      [Exposed=Window, Constructor]
+      interface C {
+        attribute any koala;
+          attribute any elephant;
+      };
+    `;
+    const outputMixedIndent = `
+      [Exposed=Window]
+      interface C {
+        constructor();
+        attribute any koala;
+          attribute any elephant;
+      };
+    `;
+    expect(autofix(inputMixedIndent)).toBe(outputMixedIndent);
+
+    const inputMultiple = `
+      [Exposed=Window, Constructor, Constructor(any chocolate)]
+      interface C {
+        attribute any koala;
+      };
+    `;
+    const outputMultiple = `
+      [Exposed=Window]
+      interface C {
+        constructor();
+        constructor(any chocolate);
+        attribute any koala;
+      };
+    `;
+    expect(autofix(inputMultiple)).toBe(outputMultiple);
   });
 });
