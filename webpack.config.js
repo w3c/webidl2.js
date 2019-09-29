@@ -11,7 +11,7 @@ module.exports = {
   },
   mode: "production",
   devtool: "source-map",
-    optimization: {
+  optimization: {
     minimizer: [
       new TerserPlugin({
         terserOptions: {
