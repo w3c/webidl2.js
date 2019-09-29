@@ -5,7 +5,7 @@
 "use strict";
 
 const { collect } = require("./util/collect");
-const { parse, validate } = require("..");
+const { parse, validate, WebIDLParseError } = require("..");
 const expect = require("expect");
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
@@ -129,6 +129,16 @@ describe("Error object structure", () => {
     const { level } = validation[0];
     expect(level).toBe("warning");
   });
+  
+  it("allows `instanceof WebIDLParseError`", () => {
+    try {
+      parse("throwerror");
+      throw new Error("Shouldn't reach here");
+    } catch ({err}) {
+      expect(err).toBeInstanceOf(WebIDLParseError)
+    }
+  });
+
 });
 
 describe("Validation", () => {
