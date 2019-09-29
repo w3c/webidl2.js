@@ -135,7 +135,7 @@ describe("Error object structure", () => {
       parse("throwerror");
       throw new Error("Shouldn't reach here");
     } catch ({err}) {
-      expect(err).toBeInstanceOf(WebIDLParseError)
+      expect(err).toBeInstanceOf(WebIDLParseError);
     }
   });
 
