@@ -16,7 +16,8 @@ module.exports = {
       new TerserPlugin({
         terserOptions: {
           keep_classnames: true
-        }
+        },
+        sourceMap: true
       })
     ]
   }
