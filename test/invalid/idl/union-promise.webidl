@@ -1,1 +1,1 @@
- typedef (Promise<DOMString> or boolean) Typedef; 
+typedef (Promise<DOMString> or boolean) Typedef;
