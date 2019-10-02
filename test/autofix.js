@@ -243,7 +243,10 @@ describe("Writer template functions", () => {
     expect(autofix(inputMixedIndent)).toBe(outputMixedIndent);
 
     const inputMultiple = `
-      [Exposed=Window, Constructor, Constructor(any chocolate)]
+      [Exposed=Window,
+       Constructor,
+       Constructor(short photo),
+       Constructor(any chocolate)]
       interface C {
         attribute any koala;
       };
@@ -252,6 +255,7 @@ describe("Writer template functions", () => {
       [Exposed=Window]
       interface C {
         constructor();
+        constructor(short photo);
         constructor(any chocolate);
         attribute any koala;
       };
