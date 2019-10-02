@@ -28,7 +28,7 @@ function* collect(base, { expectError, raw } = {}) {
       }
     }
     catch (error) {
-      if (expectError) {
+      if (expectError && error instanceof wp.WebIDLParseError) {
         yield new TestItem({ path, error, raw });
       }
       else {
