@@ -235,22 +235,6 @@ Where the fields are as follows:
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 
-### Trivia
-
-Structures often have `trivia` field that represents whitespaces and comments before tokens. It gives a string if the syntatic component is made of a single token or an object with multiple string type fields.
-
-A trivia object looks like the following example:
-
-```JS
-{
-  "base": "\n",
-  "name": " ",
-  "...": "..."
-}
-```
-
-Frequently, `base` is for type keywords, `name` is for identifiers, `open`/`close` are for brackets, and `termination` for semicolons.
-
 ### Interface
 
 Interfaces look like this:
