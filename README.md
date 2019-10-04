@@ -535,7 +535,7 @@ The fields are as follows:
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### Constructor Operation Member
 
@@ -568,7 +568,7 @@ The fields are as follows:
 * `type`: Always "constructor".
 * `arguments`: An array of [arguments](#arguments) for the constructor operation.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### Attribute Member
 
@@ -603,7 +603,7 @@ The fields are as follows:
 * `readonly`: `true` if the attribute is read-only.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### Constant Member
 
@@ -637,7 +637,7 @@ The fields are as follows:
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### Arguments
 
@@ -671,7 +671,7 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### Extended Attributes
 
@@ -705,7 +705,7 @@ Extended attributes look like this:
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` (which can be
   "identifier" or "identifier-list"), its `value`, and its preceding trivia.
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### Default and Const Values
 
@@ -742,7 +742,7 @@ The fields are as follows:
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: `true` if the maplike or setlike is declared as read only.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `parent`: The container of this type.
+* `parent`: The container of this type as an Object.
 
 ### End of file
 
