@@ -1,0 +1,1 @@
+interface Int32Array {};
