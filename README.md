@@ -185,6 +185,7 @@ properties:
 * `level`: `"error"` by default, can be `"warning"` for some validations for e.g. potential future deprecations.
 * `ruleName`: Only for validations. Currently the followings are supported:
    * `dict-arg-default`: Optional dictionary type arguments must have a default value of `{}`.
+   * `dict-arg-optional`: Dictionary type arguments must be optional if the type does not include a required field.
    * `no-nullable-dict-arg`: Dictionary arguments cannot be nullable.
    * `no-nullable-union-dict`: Nullable unions cannot include a dictionary type.
    * `constructor-member`: Constructors must use newer `constructor()` syntax.
