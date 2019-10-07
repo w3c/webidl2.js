@@ -1,5 +1,5 @@
 
-# WebIDL 2
+# webidl2.js
 
 [![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2)
 
@@ -182,6 +182,17 @@ properties:
    ```
 * `line`: the line at which the error occurred.
 * `sourceName`: the source name you passed to `parse()`.
+* `level`: `"error"` by default, can be `"warning"` for some validations for e.g. potential future deprecations.
+* `ruleName`: Only for validations. Currently the followings are supported:
+   * `dict-arg-default`: Optional dictionary type arguments must have a default value of `{}`.
+   * `no-nullable-dict-arg`: Dictionary arguments cannot be nullable.
+   * `no-nullable-union-dict`: Nullable unions cannot include a dictionary type.
+   * `constructor-member`: Constructors must use newer `constructor()` syntax.
+   * `no-duplicate`: Types cannot have identical names.
+   * `require-exposed`: Interfaces must explicitly expose themselves to specific contexts by `[Exposed]`.
+   * `incomplete-op`: Regular or static operations must have both a return type and an identifier.
+   * `no-cross-overload`: Overloading must be done within a single interface or namespace.
+   * `no-constructible-global`: Interfaces with `[Global]` cannot have constructors.
 * `input`: a short peek at the text at the point where the error happened
 * `tokens`: the five tokens at the point of error, as understood by the tokeniser
   (this is the same content as `input`, but seen from the tokeniser's point of view)
@@ -224,22 +235,6 @@ Where the fields are as follows:
 * `nullable`: `true` if the type is nullable.
 * `union`: Boolean indicating whether this is a union type or not.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-
-### Trivia
-
-Structures often have `trivia` field that represents whitespaces and comments before tokens. It gives a string if the syntatic component is made of a single token or an object with multiple string type fields.
-
-A trivia object looks like the following example:
-
-```JS
-{
-  "base": "\n",
-  "name": " ",
-  "...": "..."
-}
-```
-
-Frequently, `base` is for type keywords, `name` is for identifiers, `open`/`close` are for brackets, and `termination` for semicolons.
 
 ### Interface
 
@@ -500,6 +495,7 @@ The fields are as follows:
 ### Operation Member
 
 An operation looks like this:
+
 ```JS
 {
   "type": "operation",
@@ -527,7 +523,8 @@ An operation looks like this:
     },
     "name": "ints"
   }],
-  "extAttrs": []
+  "extAttrs": [],
+  "parent": { ... }
 }
 ```
 
@@ -539,6 +536,40 @@ The fields are as follows:
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
+* `parent`: The container of this type as an Object.
+
+### Constructor Operation Member
+
+A constructor operation member looks like this:
+
+```JS
+{
+  "type": "constructor",
+  "arguments": [{
+    "optional": false,
+    "variadic": true,
+    "extAttrs": [],
+    "idlType": {
+      "type": "argument-type",
+      "generic": "",
+      "nullable": false,
+      "union": false,
+      "idlType": "long",
+      "extAttrs": [...]
+    },
+    "name": "ints"
+  }],
+  "extAttrs": [],
+  "parent": { ... }
+}
+```
+
+The fields are as follows:
+
+* `type`: Always "constructor".
+* `arguments`: An array of [arguments](#arguments) for the constructor operation.
+* `extAttrs`: An array of [extended attributes](#extended-attributes).
+* `parent`: The container of this type as an Object.
 
 ### Attribute Member
 
@@ -560,7 +591,8 @@ An attribute member looks like this:
     "extAttrs": [...]
   },
   "name": "regexp",
-  "extAttrs": []
+  "extAttrs": [],
+  "parent": { ... }
 }
 ```
 
@@ -572,6 +604,7 @@ The fields are as follows:
 * `readonly`: `true` if the attribute is read-only.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
+* `parent`: The container of this type as an Object.
 
 ### Constant Member
 
@@ -593,7 +626,8 @@ A constant member looks like this:
     "type": "boolean",
     "value": false
   },
-  "extAttrs": []
+  "extAttrs": [],
+  "parent": { ... }
 }
 ```
 
@@ -604,6 +638,7 @@ The fields are as follows:
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
+* `parent`: The container of this type as an Object.
 
 ### Arguments
 
@@ -625,6 +660,7 @@ The arguments (e.g. for an operation) look like this:
       "extAttrs": [...]
     },
     "name": "ints",
+    "parent": { ... }
   }]
 }
 ```
@@ -636,6 +672,7 @@ The fields are as follows:
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
 * `name`: The argument's name.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
+* `parent`: The container of this type as an Object.
 
 ### Extended Attributes
 
@@ -650,7 +687,8 @@ Extended attribute container look like this:
     "rhs": {
       "type": "identifier",
       "value": "EmptyString"
-    }
+    },
+    "parent": { ... }
   }]
 }
 ```
@@ -668,6 +706,7 @@ Extended attributes look like this:
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` (which can be
   "identifier" or "identifier-list"), its `value`, and its preceding trivia.
+* `parent`: The container of this type as an Object.
 
 ### Default and Const Values
 
@@ -693,7 +732,8 @@ These appear as members of interfaces that look like this:
   "type": "maplike", // or "iterable" / "setlike"
   "idlType": /* One or two types */ ,
   "readonly": false, // only for maplike and setlike
-  "extAttrs": []
+  "extAttrs": [],
+  "parent": { ... }
 }
 ```
 
@@ -703,6 +743,7 @@ The fields are as follows:
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: `true` if the maplike or setlike is declared as read only.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
+* `parent`: The container of this type as an Object.
 
 ### End of file
 

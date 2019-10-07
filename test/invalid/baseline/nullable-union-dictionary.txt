@@ -1,33 +1,33 @@
-Validation error at line 4 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 4 in nullable-union-dictionary.webidl:
 typedef (boolean or Dict)? NullableBooleanDict;
                     ^ Nullable union cannot include a dictionary type
-Validation error at line 6 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 6 in nullable-union-dictionary.webidl:
 boolean or (short or Dict))? NullableNestedBooleanDict
                      ^ Nullable union cannot include a dictionary type
-Validation error at line 7 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 7 in nullable-union-dictionary.webidl:
 boolean or (short or Dict)?) NestedNullableBooleanDict
                      ^ Nullable union cannot include a dictionary type
-Validation error at line 8 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 8 in nullable-union-dictionary.webidl:
 typedef BooleanDict? ReferencingNullableBooleanDict;
         ^ Nullable union cannot include a dictionary type
-Validation error at line 9 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 9 in nullable-union-dictionary.webidl:
 typedef (boolean or RecursiveBooleanDict? or Dict)
                     ^ Nullable union cannot include a dictionary type
-Validation error at line 16 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 16 in nullable-union-dictionary.webidl:
  Callback = (boolean or Dict)? ()
                         ^ Nullable union cannot include a dictionary type
-Validation error at line 19 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 19 in nullable-union-dictionary.webidl:
   (boolean or Dict)? op(
               ^ Nullable union cannot include a dictionary type
-Validation error at line 20 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 20 in nullable-union-dictionary.webidl:
  voidOp((boolean or Dict)? arg)
                     ^ Nullable union cannot include a dictionary type
-Validation error at line 20 in nullable-union-dictionary.webidl, inside `argument arg`:
+(no-nullable-dict-arg) Validation error at line 20 in nullable-union-dictionary.webidl, inside `argument arg`:
 boolean or Dict)? arg);
                   ^ Dictionary arguments cannot be nullable.
-Validation error at line 21 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 21 in nullable-union-dictionary.webidl:
   attribute (boolean or Dict)? attr;
                         ^ Nullable union cannot include a dictionary type
-Validation error at line 25 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 25 in nullable-union-dictionary.webidl:
   (boolean or Dict)? dict;
               ^ Nullable union cannot include a dictionary type

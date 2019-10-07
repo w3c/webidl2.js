@@ -1,0 +1,3 @@
+Syntax error at line 1 in int32array-keyword.webidl:
+interface Int32Array {};
+          ^ Missing name in interface

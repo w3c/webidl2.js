@@ -1,0 +1,3 @@
+Syntax error at line 1 in any-keyword.webidl:
+interface any {};
+          ^ Missing name in interface
