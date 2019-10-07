@@ -1,0 +1,6 @@
+(no-constructible-global) Validation error at line 1 in constructible-global.webidl, inside `interface YayImGlobal`:
+, Exposed=YayImGlobal, NamedConstructor()]
+                       ^ Interfaces marked as `[Global]` cannot have named constructors.
+(no-constructible-global) Validation error at line 6 in constructible-global.webidl, inside `interface YayYoureGlobal`:
+  constructor();
+  ^ Interfaces marked as `[Global]` cannot have constructors.

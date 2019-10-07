@@ -193,6 +193,7 @@ properties:
    * `require-exposed`: Interfaces must explicitly expose themselves to specific contexts by `[Exposed]`.
    * `incomplete-op`: Regular or static operations must have both a return type and an identifier.
    * `no-cross-overload`: Overloading must be done within a single interface or namespace.
+   * `no-constructible-global`: Interfaces with `[Global]` cannot have constructors.
 * `input`: a short peek at the text at the point where the error happened
 * `tokens`: the five tokens at the point of error, as understood by the tokeniser
   (this is the same content as `input`, but seen from the tokeniser's point of view)
