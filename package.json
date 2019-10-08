@@ -22,7 +22,7 @@
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "eslint": "eslint lib/**/*.js test/*.js test/util/*.js",
+    "eslint": "eslint lib test",
     "typecheck": "tsc -p jsconfig.json",
     "lint": "npm run eslint && npm run typecheck",
     "test": "npm run lint && webpack && mocha",
