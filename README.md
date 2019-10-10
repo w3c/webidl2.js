@@ -1,7 +1,7 @@
 
 # webidl2.js
 
-[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2)
+[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Greenkeeper badge](https://badges.greenkeeper.io/w3c/webidl2.js.svg)](https://greenkeeper.io/)
 
 ## Purpose
 
