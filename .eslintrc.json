@@ -10,6 +10,7 @@
     "extends": "eslint:recommended",
     "plugins": ["import"],
     "rules": {
+        "eol-last": "error",
         "import/extensions": ["error", "always"],
         "no-console": "error",
         "no-constant-condition": ["error", { "checkLoops": false }],
