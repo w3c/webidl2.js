@@ -1,3 +1,0 @@
-Syntax error at line 4 in reflector-interface.webidl, since `interface mixin Reflector`:
-q, ReflectOnly=("anonymous", "use-credentials")]
-                ^ Expected identifiers but none found
