@@ -704,8 +704,8 @@ Extended attributes look like this:
   attribute has a signature (e.g. `[Foo()]`) or if its right-hand side does (e.g.
   `[NamedConstructor=Name(DOMString blah)]`).
 * `type`: Always `"extended-attribute"`.
-* `rhs`: If there is a right-hand side, this will capture its `type`, its `value`, and
-  its preceding trivia. The type can be one of the following:
+* `rhs`: If there is a right-hand side, this will capture its `type` and `value`. The
+  type can be one of the following:
    * `"identifier"`
    * `"identifier-list"`
    * `"string"`
