@@ -60,13 +60,13 @@
                         "type": "extended-attribute",
                         "name": "ReflectOnly",
                         "rhs": {
-                            "type": "identifier-list",
+                            "type": "string-list",
                             "value": [
                                 {
-                                    "value": "\"anonymous\""
+                                    "value": "anonymous"
                                 },
                                 {
-                                    "value": "\"use-credentials\""
+                                    "value": "use-credentials"
                                 }
                             ]
                         },
