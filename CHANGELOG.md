@@ -1,5 +1,119 @@
 # Change Log
 
+## [v23.10.0](https://github.com/w3c/webidl2.js/tree/v23.10.0) (2019-10-14)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.9.0...v23.10.0)
+
+**Implemented enhancements:**
+
+- Validate optionality of dictionary arguments [\#407](https://github.com/w3c/webidl2.js/issues/407)
+
+**Closed issues:**
+
+- `any` is not a keyword [\#436](https://github.com/w3c/webidl2.js/issues/436)
+- Add greenkeeper support [\#433](https://github.com/w3c/webidl2.js/issues/433)
+- Disallow Promise types inside unions [\#430](https://github.com/w3c/webidl2.js/issues/430)
+- Base\#toJSON fails when global `Object` is substituted [\#426](https://github.com/w3c/webidl2.js/issues/426)
+- augument parser for mozilla IDL files [\#418](https://github.com/w3c/webidl2.js/issues/418)
+- `\[Global\]` and `constructor\(\)` can't coexist  [\#337](https://github.com/w3c/webidl2.js/issues/337)
+- parse\(\) throws error on valid ReflectOnly Blink extended attributes [\#256](https://github.com/w3c/webidl2.js/issues/256)
+- BufferRelatedType shouldn't be read as identifiers [\#251](https://github.com/w3c/webidl2.js/issues/251)
+- parent of things [\#85](https://github.com/w3c/webidl2.js/issues/85)
+
+**Merged pull requests:**
+
+- fix\(productions/extended-attributes\): unescape identifier values [\#447](https://github.com/w3c/webidl2.js/pull/447) ([saschanaz](https://github.com/saschanaz))
+- fix\(productions/extended-attributes\): introduce string-list [\#446](https://github.com/w3c/webidl2.js/pull/446) ([saschanaz](https://github.com/saschanaz))
+- feat\(productions/extended-attributes\): support string lists [\#445](https://github.com/w3c/webidl2.js/pull/445) ([TG1999](https://github.com/TG1999))
+- chore\(.eslintrc\): force newline at the end of files [\#444](https://github.com/w3c/webidl2.js/pull/444) ([saschanaz](https://github.com/saschanaz))
+- Add Greenkeeper badge 🌴 [\#442](https://github.com/w3c/webidl2.js/pull/442) ([greenkeeper[bot]](https://github.com/apps/greenkeeper))
+- refactor: add ts-check [\#441](https://github.com/w3c/webidl2.js/pull/441) ([saschanaz](https://github.com/saschanaz))
+- feat\(validators\): warns about constructible globals [\#440](https://github.com/w3c/webidl2.js/pull/440) ([saschanaz](https://github.com/saschanaz))
+- fix: `any` not a keyword [\#439](https://github.com/w3c/webidl2.js/pull/439) ([TG1999](https://github.com/TG1999))
+- chore\(.github\): add issue number placeholder [\#438](https://github.com/w3c/webidl2.js/pull/438) ([saschanaz](https://github.com/saschanaz))
+- fix\(autofix\): correct constructor ordering 2 [\#437](https://github.com/w3c/webidl2.js/pull/437) ([saschanaz](https://github.com/saschanaz))
+- fix\(productions/type\): disallow Promises to be included in unions [\#435](https://github.com/w3c/webidl2.js/pull/435) ([TG1999](https://github.com/TG1999))
+- feat\(validator\): check dictionary argument optionality [\#434](https://github.com/w3c/webidl2.js/pull/434) ([saschanaz](https://github.com/saschanaz))
+- chore\(package\): update deps [\#432](https://github.com/w3c/webidl2.js/pull/432) ([saschanaz](https://github.com/saschanaz))
+- feat: add `.parent` field [\#425](https://github.com/w3c/webidl2.js/pull/425) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.9.0](https://github.com/w3c/webidl2.js/tree/v23.9.0) (2019-09-30)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.8.3...v23.9.0)
+
+**Closed issues:**
+
+- Export error constructor [\#220](https://github.com/w3c/webidl2.js/issues/220)
+
+**Merged pull requests:**
+
+- fix\(webpack.config\): keep class names intact [\#429](https://github.com/w3c/webidl2.js/pull/429) ([TG1999](https://github.com/TG1999))
+- feat: expose WebIDLParseError [\#428](https://github.com/w3c/webidl2.js/pull/428) ([TG1999](https://github.com/TG1999))
+- fix\(autofix\): propely detect special op indentation [\#424](https://github.com/w3c/webidl2.js/pull/424) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.8.3](https://github.com/w3c/webidl2.js/tree/v23.8.3) (2019-09-24)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.8.2...v23.8.3)
+
+**Closed issues:**
+
+- Support opt-out for validations [\#413](https://github.com/w3c/webidl2.js/issues/413)
+
+**Merged pull requests:**
+
+- fix\(autofix\): properly detect operation indentation [\#423](https://github.com/w3c/webidl2.js/pull/423) ([saschanaz](https://github.com/saschanaz))
+- fix\(autofix\): correct constructor ordering [\#422](https://github.com/w3c/webidl2.js/pull/422) ([saschanaz](https://github.com/saschanaz))
+- fix\(autofix\): support arbitrary indentation [\#421](https://github.com/w3c/webidl2.js/pull/421) ([saschanaz](https://github.com/saschanaz))
+- fix\(productions/helpers\): emit newline after \[Exposed\] [\#420](https://github.com/w3c/webidl2.js/pull/420) ([saschanaz](https://github.com/saschanaz))
+- fix\(productions/interface\): correct constructor indentation [\#419](https://github.com/w3c/webidl2.js/pull/419) ([saschanaz](https://github.com/saschanaz))
+- docs\(README\): change the title [\#417](https://github.com/w3c/webidl2.js/pull/417) ([saschanaz](https://github.com/saschanaz))
+- feat\(validations\): add rule name [\#416](https://github.com/w3c/webidl2.js/pull/416) ([saschanaz](https://github.com/saschanaz))
+- feat\(lib/writer\): add hook for nameless members [\#401](https://github.com/w3c/webidl2.js/pull/401) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.8.2](https://github.com/w3c/webidl2.js/tree/v23.8.2) (2019-09-15)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.8.1...v23.8.2)
+
+**Closed issues:**
+
+- Question [\#414](https://github.com/w3c/webidl2.js/issues/414)
+
+**Merged pull requests:**
+
+- fix\(productions/interface\): whitespace cleanup after autofix [\#412](https://github.com/w3c/webidl2.js/pull/412) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.8.1](https://github.com/w3c/webidl2.js/tree/v23.8.1) (2019-09-07)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.8.0...v23.8.1)
+
+**Closed issues:**
+
+- Incorrect "Trailing comma in arguments list" when parsing HTML's IDL [\#402](https://github.com/w3c/webidl2.js/issues/402)
+
+**Merged pull requests:**
+
+- fix\(productions/interface\): put constructor on the top position [\#411](https://github.com/w3c/webidl2.js/pull/411) ([saschanaz](https://github.com/saschanaz))
+- refactor\(validator\): reduce parameter count [\#410](https://github.com/w3c/webidl2.js/pull/410) ([saschanaz](https://github.com/saschanaz))
+- docs\(README\): describe constructor operations [\#409](https://github.com/w3c/webidl2.js/pull/409) ([saschanaz](https://github.com/saschanaz))
+
+## [v23.8.0](https://github.com/w3c/webidl2.js/tree/v23.8.0) (2019-09-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.7.0...v23.8.0)
+
+**Merged pull requests:**
+
+- feat\(validator\): recommend constructor operations [\#405](https://github.com/w3c/webidl2.js/pull/405) ([saschanaz](https://github.com/saschanaz))
+- Allow "constructor" as an argument name [\#404](https://github.com/w3c/webidl2.js/pull/404) ([Ms2ger](https://github.com/Ms2ger))
+
+## [v23.7.0](https://github.com/w3c/webidl2.js/tree/v23.7.0) (2019-09-02)
+[Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.6.0...v23.7.0)
+
+**Closed issues:**
+
+- Consider using GitHub Actions [\#373](https://github.com/w3c/webidl2.js/issues/373)
+- Reserved identifiers must be prevented [\#230](https://github.com/w3c/webidl2.js/issues/230)
+
+**Merged pull requests:**
+
+- fix\(tokeniser\): prevent escaping reserved identifiers [\#403](https://github.com/w3c/webidl2.js/pull/403) ([saschanaz](https://github.com/saschanaz))
+- fix\(productions/operation\): warn if no operation identifier [\#400](https://github.com/w3c/webidl2.js/pull/400) ([saschanaz](https://github.com/saschanaz))
+- fix\(tokeniser\): prevent any use of toString [\#399](https://github.com/w3c/webidl2.js/pull/399) ([saschanaz](https://github.com/saschanaz))
+- Create pull\_request\_template.md [\#397](https://github.com/w3c/webidl2.js/pull/397) ([saschanaz](https://github.com/saschanaz))
+
 ## [v23.6.0](https://github.com/w3c/webidl2.js/tree/v23.6.0) (2019-08-28)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v23.5.1...v23.6.0)
 
@@ -305,7 +419,6 @@
 - chore: add .gitattributes [\#264](https://github.com/w3c/webidl2.js/pull/264) ([saschanaz](https://github.com/saschanaz))
 - style: apply no-trailing-spaces [\#263](https://github.com/w3c/webidl2.js/pull/263) ([saschanaz](https://github.com/saschanaz))
 - refactor: self-containing classes [\#262](https://github.com/w3c/webidl2.js/pull/262) ([saschanaz](https://github.com/saschanaz))
-- fix\(lib/webidl2\): prevent any in a union type [\#254](https://github.com/w3c/webidl2.js/pull/254) ([saschanaz](https://github.com/saschanaz))
 
 ## [v17.0.2](https://github.com/w3c/webidl2.js/tree/v17.0.2) (2019-02-15)
 [Full Changelog](https://github.com/w3c/webidl2.js/compare/v17.0.1...v17.0.2)
@@ -332,6 +445,7 @@
 
 **Merged pull requests:**
 
+- fix\(lib/webidl2\): prevent any in a union type [\#254](https://github.com/w3c/webidl2.js/pull/254) ([saschanaz](https://github.com/saschanaz))
 - fix: unescape includes/idlTypes/inheritances [\#253](https://github.com/w3c/webidl2.js/pull/253) ([saschanaz](https://github.com/saschanaz))
 - feat\(lib/webidl\): subclass standard error [\#247](https://github.com/w3c/webidl2.js/pull/247) ([saschanaz](https://github.com/saschanaz))
 
