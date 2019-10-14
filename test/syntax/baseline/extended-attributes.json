@@ -65,6 +65,31 @@
                     "value": "\"abc\""
                 },
                 "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "IdentifierAttr",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "null"
+                },
+                "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "IdentifiersAttr",
+                "rhs": {
+                    "type": "identifier-list",
+                    "value": [
+                        {
+                            "value": "null"
+                        },
+                        {
+                            "value": "const"
+                        }
+                    ]
+                },
+                "arguments": []
             }
         ],
         "partial": false
