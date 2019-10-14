@@ -17,11 +17,14 @@
     "jsondiffpatch": "0.3.11",
     "mocha": "^6.2.1",
     "terser-webpack-plugin": "^2.1.2",
+    "typescript": "^3.6.3",
     "webpack": "^4.41.0",
     "webpack-cli": "^3.3.9"
   },
   "scripts": {
-    "lint": "eslint lib/**/*.js test/*.js test/util/*.js",
+    "eslint": "eslint lib test",
+    "typecheck": "tsc -p jsconfig.json",
+    "lint": "npm run eslint && npm run typecheck",
     "test": "npm run lint && webpack && mocha",
     "acquire": "node test/util/acquire.js",
     "build": "npx webpack",
