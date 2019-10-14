@@ -138,6 +138,23 @@
                 "value": {
                     "type": "NaN"
                 }
+            },
+            {
+                "type": "const",
+                "name": "const",
+                "idlType": {
+                    "type": "const-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "boolean"
+                },
+                "extAttrs": [],
+                "value": {
+                    "type": "boolean",
+                    "value": true
+                }
             }
         ],
         "extAttrs": [],
@@ -146,6 +163,6 @@
     {
         "type": "eof",
         "value": "",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]
