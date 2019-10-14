@@ -63,10 +63,10 @@
                             "type": "string-list",
                             "value": [
                                 {
-                                    "value": "anonymous"
+                                    "value": "\"anonymous\""
                                 },
                                 {
-                                    "value": "use-credentials"
+                                    "value": "\"use-credentials\""
                                 }
                             ]
                         },
