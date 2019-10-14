@@ -60,7 +60,7 @@
                         "type": "extended-attribute",
                         "name": "ReflectOnly",
                         "rhs": {
-                            "type": "identifier-list",
+                            "type": "string-list",
                             "value": [
                                 {
                                     "value": "\"anonymous\""
