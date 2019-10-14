@@ -23,6 +23,7 @@ declare module "./productions/base.js" {
     source: Token[];
     extAttrs: ExtendedAttributes | undefined;
     this: this;
+    parent: any;
   }
 }
 
