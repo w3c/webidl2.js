@@ -262,4 +262,32 @@ describe("Writer template functions", () => {
     `;
     expect(autofix(inputMultiple)).toBe(outputMultiple);
   });
+
+  it("should add `optional` for non-required dictionary arguments", () => {
+    const input = `
+      dictionary Optional {
+        long long loooongInterviewProcess;
+      };
+
+      interface mixin Container {
+        void op(
+          DOMString str,
+          Optional arg
+        );
+      };
+    `;
+    const output = `
+      dictionary Optional {
+        long long loooongInterviewProcess;
+      };
+
+      interface mixin Container {
+        void op(
+          DOMString str,
+          optional Optional arg = {}
+        );
+      };
+    `;
+    expect(autofix(input)).toBe(output);
+  });
 });

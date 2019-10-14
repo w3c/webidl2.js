@@ -1,0 +1,15 @@
+(dict-arg-optional) Validation error at line 25 in argument-dict-optional.webidl, inside `argument shouldBeOptional`:
+  void op1(Optional shouldBeOptional);
+                    ^ Dictionary argument must be optional if it has no required fields
+(dict-arg-optional) Validation error at line 29 in argument-dict-optional.webidl, inside `argument union`:
+(Optional or boolean) union);
+                      ^ Dictionary argument must be optional if it has no required fields
+(dict-arg-optional) Validation error at line 30 in argument-dict-optional.webidl, inside `argument union`:
+  void op4(OptionalUnion union);
+                         ^ Dictionary argument must be optional if it has no required fields
+(dict-arg-optional) Validation error at line 33 in argument-dict-optional.webidl, inside `argument recursive`:
+  void op6(Recursive recursive);
+                     ^ Dictionary argument must be optional if it has no required fields
+(dict-arg-optional) Validation error at line 36 in argument-dict-optional.webidl, inside `argument lastRequired`:
+  void op8(Optional lastRequired, optional DOMString yay
+                    ^ Dictionary argument must be optional if it has no required fields
