@@ -1,7 +1,7 @@
 
 # webidl2.js
 
-[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2)
+[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Greenkeeper badge](https://badges.greenkeeper.io/w3c/webidl2.js.svg)](https://greenkeeper.io/)
 
 ## Purpose
 
@@ -705,8 +705,12 @@ Extended attributes look like this:
   attribute has a signature (e.g. `[Foo()]`) or if its right-hand side does (e.g.
   `[NamedConstructor=Name(DOMString blah)]`).
 * `type`: Always `"extended-attribute"`.
-* `rhs`: If there is a right-hand side, this will capture its `type` (which can be
-  "identifier" or "identifier-list"), its `value`, and its preceding trivia.
+* `rhs`: If there is a right-hand side, this will capture its `type` and `value`. The
+  type can be one of the following:
+   * `"identifier"`
+   * `"identifier-list"`
+   * `"string"`
+   * `"string-list"`
 * `parent`: The container of this type as an Object.
 
 ### Default and Const Values

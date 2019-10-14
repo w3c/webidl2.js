@@ -1,0 +1,88 @@
+[
+    {
+        "type": "interface mixin",
+        "name": "Reflector",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "attribute",
+                "name": "toggle",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "Reflect",
+                        "rhs": null,
+                        "arguments": []
+                    },
+                    {
+                        "type": "extended-attribute",
+                        "name": "ReflectOnly",
+                        "rhs": {
+                            "type": "string",
+                            "value": "\"on\""
+                        },
+                        "arguments": []
+                    }
+                ],
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "quarter",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "DOMString"
+                },
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "Reflect",
+                        "rhs": {
+                            "type": "identifier",
+                            "value": "q"
+                        },
+                        "arguments": []
+                    },
+                    {
+                        "type": "extended-attribute",
+                        "name": "ReflectOnly",
+                        "rhs": {
+                            "type": "string-list",
+                            "value": [
+                                {
+                                    "value": "\"anonymous\""
+                                },
+                                {
+                                    "value": "\"use-credentials\""
+                                }
+                            ]
+                        },
+                        "arguments": []
+                    }
+                ],
+                "special": "",
+                "readonly": false
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]
