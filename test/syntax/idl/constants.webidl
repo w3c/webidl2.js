@@ -8,4 +8,5 @@ interface Util {
   const unrestricted float sobig = Infinity;
   const unrestricted double minusonedividedbyzero = -Infinity;
   const short notanumber = NaN;
+  const boolean _const = true;
 };
