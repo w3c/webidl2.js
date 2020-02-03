@@ -90,6 +90,19 @@
                     ]
                 },
                 "arguments": []
+            },
+            {
+                "type": "extended-attribute",
+                "name": "FloatList",
+                "rhs": {
+                    "type": "decimal-list",
+                    "value": [
+                        {
+                            "value": "3.14"
+                        }
+                    ]
+                },
+                "arguments": []
             }
         ],
         "partial": false
