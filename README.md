@@ -711,6 +711,10 @@ Extended attributes look like this:
    * `"identifier-list"`
    * `"string"`
    * `"string-list"`
+   * `"decimal"`
+   * `"decimal-list"`
+   * `"integer"`
+   * `"integer-list"`
 * `parent`: The container of this type as an Object.
 
 ### Default and Const Values
