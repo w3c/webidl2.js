@@ -31,7 +31,6 @@
     "build-debug": "npx webpack --mode none"
   },
   "repository": "git://github.com/w3c/webidl2.js",
-  "type": "module",
   "main": "dist/webidl2.js",
   "module": "index.js",
   "files": [
