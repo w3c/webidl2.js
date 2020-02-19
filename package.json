@@ -25,12 +25,13 @@
     "eslint": "eslint lib test",
     "typecheck": "tsc -p jsconfig.json",
     "lint": "npm run eslint && npm run typecheck",
-    "test": "npm run lint && webpack && mocha",
+    "test": "npm run lint && npm run build-debug && mocha",
     "acquire": "node test/util/acquire.js",
-    "build": "npx webpack",
-    "build-debug": "npx webpack --mode none"
+    "build": "npx webpack --config webpack.config.cjs",
+    "build-debug": "npx webpack --config webpack.config.cjs --mode none"
   },
   "repository": "git://github.com/w3c/webidl2.js",
+  "type": "module",
   "main": "dist/webidl2.js",
   "module": "index.js",
   "files": [
