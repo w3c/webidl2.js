@@ -75,6 +75,44 @@
                 ],
                 "special": "",
                 "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "span",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "unsigned long"
+                },
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "Reflect",
+                        "rhs": null,
+                        "arguments": []
+                    },
+                    {
+                        "type": "extended-attribute",
+                        "name": "ReflectRange",
+                        "rhs": {
+                            "type": "integer-list",
+                            "value": [
+                                {
+                                    "value": "1"
+                                },
+                                {
+                                    "value": "4"
+                                }
+                            ]
+                        },
+                        "arguments": []
+                    }
+                ],
+                "special": "",
+                "readonly": false
             }
         ],
         "extAttrs": [],
