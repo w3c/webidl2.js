@@ -11,15 +11,15 @@
   "license": "W3C",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-plugin-import": "^2.18.2",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.1",
     "expect": "^25.1.0",
     "jsondiffpatch": "0.3.11",
     "mocha": "^7.0.1",
-    "terser-webpack-plugin": "^2.2.2",
-    "typescript": "^3.7.3",
-    "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10"
+    "terser-webpack-plugin": "^2.3.5",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   },
   "scripts": {
     "eslint": "eslint lib test",
