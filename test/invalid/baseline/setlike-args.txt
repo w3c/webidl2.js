@@ -1,0 +1,3 @@
+Syntax error at line 2 in setlike-args.webidl, since `interface X`:
+  setlike<DOMString>();
+                    ^ Arguments are only allowed for `async iterable`

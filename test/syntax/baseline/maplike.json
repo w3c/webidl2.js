@@ -24,6 +24,7 @@
                         "idlType": "float"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
                 "async": false
@@ -57,6 +58,7 @@
                         "idlType": "float"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": true,
                 "async": false
@@ -104,6 +106,7 @@
                         "idlType": "long"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
                 "async": false

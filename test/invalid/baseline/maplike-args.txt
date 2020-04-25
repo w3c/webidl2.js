@@ -1,0 +1,3 @@
+Syntax error at line 2 in maplike-args.webidl, since `interface X`:
+<DOMString, ByteString>();
+                       ^ Arguments are only allowed for `async iterable`
