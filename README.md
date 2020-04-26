@@ -682,12 +682,12 @@ Extended attribute container look like this:
 ```JS
 {
   "extAttrs": [{
-    "name": "TreatNullAs",
+    "name": "PutForwards",
     "arguments": [...],
     "type": "extended-attribute",
     "rhs": {
       "type": "identifier",
-      "value": "EmptyString"
+      "value": "foo"
     },
     "parent": { ... }
   }]
@@ -703,7 +703,7 @@ Extended attributes look like this:
 * `name`: The extended attribute's name.
 * `arguments`: An array of [arguments](#arguments), if the extended
   attribute has a signature (e.g. `[Foo()]`) or if its right-hand side does (e.g.
-  `[NamedConstructor=Name(DOMString blah)]`).
+  `[LegacyFactoryFunction=Name(DOMString blah)]`).
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` and `value`. The
   type can be one of the following:
