@@ -1,4 +1,4 @@
-[Global, Exposed=YayImGlobal, NamedConstructor()]
+[Global, Exposed=YayImGlobal, LegacyFactoryFunction=Legacy()]
 interface YayImGlobal {};
 
 [Global, Exposed=YayImGlobal]
