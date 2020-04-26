@@ -36,3 +36,8 @@ interface mixin Container {
   void op8(Optional lastRequired, optional DOMString yay);
   void op9(Optional notLast, DOMString yay);
 };
+
+[Exposed=Window]
+interface ContainerInterface {
+  async iterable<DOMString>(Optional shouldBeOptional);
+};
