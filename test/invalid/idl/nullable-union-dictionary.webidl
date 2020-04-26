@@ -19,6 +19,8 @@ interface Interface {
   (boolean or Dict)? op();
   void voidOp((boolean or Dict)? arg);
   attribute (boolean or Dict)? attr;
+
+  iterable<(boolean or Dict)?>;
 };
 
 dictionary AnotherDict {
