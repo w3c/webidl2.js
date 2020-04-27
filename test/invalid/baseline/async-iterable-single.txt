@@ -1,3 +1,0 @@
-Syntax error at line 3 in async-iterable-single.webidl, since `interface AsyncIterable`:
-  async iterable<long>;
-                     ^ Missing second type argument in iterable declaration

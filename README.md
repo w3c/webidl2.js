@@ -682,12 +682,12 @@ Extended attribute container look like this:
 ```JS
 {
   "extAttrs": [{
-    "name": "TreatNullAs",
+    "name": "PutForwards",
     "arguments": [...],
     "type": "extended-attribute",
     "rhs": {
       "type": "identifier",
-      "value": "EmptyString"
+      "value": "foo"
     },
     "parent": { ... }
   }]
@@ -703,7 +703,7 @@ Extended attributes look like this:
 * `name`: The extended attribute's name.
 * `arguments`: An array of [arguments](#arguments), if the extended
   attribute has a signature (e.g. `[Foo()]`) or if its right-hand side does (e.g.
-  `[NamedConstructor=Name(DOMString blah)]`).
+  `[LegacyFactoryFunction=Name(DOMString blah)]`).
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` and `value`. The
   type can be one of the following:
@@ -732,7 +732,7 @@ For `"Infinity"`:
 
 * `negative`: Boolean indicating whether this is negative Infinity or not.
 
-### `iterable<>`, `maplike<>`, `setlike<>` declarations
+### `iterable<>`, `async iterable<>`, `maplike<>`, and `setlike<>` declarations
 
 These appear as members of interfaces that look like this:
 
@@ -741,6 +741,7 @@ These appear as members of interfaces that look like this:
   "type": "maplike", // or "iterable" / "setlike"
   "idlType": /* One or two types */ ,
   "readonly": false, // only for maplike and setlike
+  "async": false, // iterable can be async
   "extAttrs": [],
   "parent": { ... }
 }
@@ -751,6 +752,7 @@ The fields are as follows:
 * `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: `true` if the maplike or setlike is declared as read only.
+* `async`: `true` if the type is async iterable.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 * `parent`: The container of this type as an Object.
 

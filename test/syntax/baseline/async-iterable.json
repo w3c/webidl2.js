@@ -80,6 +80,31 @@
         "partial": false
     },
     {
+        "type": "interface",
+        "name": "AsyncValueIterable",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "float"
+                    }
+                ],
+                "extAttrs": [],
+                "readonly": false,
+                "async": true
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
         "type": "eof",
         "value": "",
         "trivia": "\n"

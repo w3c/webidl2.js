@@ -290,4 +290,38 @@ describe("Writer template functions", () => {
     `;
     expect(autofix(input)).toBe(output);
   });
+
+  it("should rename legacy extended attributes", () => {
+    const input = `
+      [Exposed=Window,
+       NamedConstructor=TimeMachine(),
+       NoInterfaceObject,
+       OverrideBuiltins]
+      interface HTMLTimeCapsule : HTMLElement {
+        [LenientSetter] readonly attribute DOMString lenientSetter;
+        [LenientThis] readonly attribute DOMString lenientThis;
+        attribute [TreatNullAs] DOMString treatNullAs;
+        [Unforgeable] readonly attribute DOMString unforgeable;
+      };
+
+      [TreatNonObjectAsNull]
+      callback TreatsNonObjectAsNull = void (DOMString s);
+    `;
+    const output = `
+      [Exposed=Window,
+       LegacyFactoryFunction=TimeMachine(),
+       LegacyNoInterfaceObject,
+       LegacyOverrideBuiltIns]
+      interface HTMLTimeCapsule : HTMLElement {
+        [LegacyLenientSetter] readonly attribute DOMString lenientSetter;
+        [LegacyLenientThis] readonly attribute DOMString lenientThis;
+        attribute [LegacyNullToEmptyString] DOMString treatNullAs;
+        [LegacyUnforgeable] readonly attribute DOMString unforgeable;
+      };
+
+      [LegacyTreatNonObjectAsNull]
+      callback TreatsNonObjectAsNull = void (DOMString s);
+    `;
+    expect(autofix(input)).toBe(output);
+  });
 });
