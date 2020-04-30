@@ -3,5 +3,9 @@ interface AsyncIterable {
 };
 
 interface AsyncIterableWithExtAttr {
-    async iterable<[XAttr2] DOMString, [XAttr3] long>;
+  async iterable<[XAttr2] DOMString, [XAttr3] long>;
+};
+
+interface AsyncValueIterable {
+  async iterable<float>;
 };
