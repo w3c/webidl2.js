@@ -18,4 +18,6 @@ interface X {
   void z(optional Union union);
   void z2(optional Union union = {});
   void r(Required req);
+
+  async iterable<DOMString>(optional Union union);
 };

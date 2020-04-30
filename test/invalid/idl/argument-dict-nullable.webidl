@@ -15,4 +15,6 @@ interface X {
   void y2(optional (boolean or Dict)? union = {});
   void z2(optional Union? union = {});
   void r(Required? req);
+
+  async iterable<DOMString>(optional Dict? dict);
 };

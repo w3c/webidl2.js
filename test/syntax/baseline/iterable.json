@@ -16,6 +16,7 @@
                         "idlType": "long"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
                 "async": false
@@ -49,6 +50,7 @@
                         "idlType": "double"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
                 "async": false
@@ -81,6 +83,7 @@
                         "idlType": "long"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
                 "async": false

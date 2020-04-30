@@ -1,0 +1,3 @@
+Syntax error at line 3 in async-iterable-unterminated-args.webidl, since `interface X`:
+};
+^ Unterminated async iterable argument list

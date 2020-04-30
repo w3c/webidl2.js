@@ -10,3 +10,6 @@
 (dict-arg-default) Validation error at line 18 in argument-dict-default.webidl, inside `argument union`:
   void z(optional Union union);
                         ^ Optional dictionary arguments must have a default value of `{}`.
+(dict-arg-default) Validation error at line 22 in argument-dict-default.webidl, inside `argument union`:
+DOMString>(optional Union union);
+                          ^ Optional dictionary arguments must have a default value of `{}`.

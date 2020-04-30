@@ -24,6 +24,7 @@
                         "idlType": "float"
                     }
                 ],
+                "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
                 "async": true
@@ -71,6 +72,92 @@
                         "idlType": "long"
                     }
                 ],
+                "arguments": [],
+                "extAttrs": [],
+                "readonly": false,
+                "async": true
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "AsyncIterableWithNoParam",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "float"
+                    },
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "ByteString"
+                    }
+                ],
+                "arguments": [],
+                "extAttrs": [],
+                "readonly": false,
+                "async": true
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "AsyncIterableWithParam",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "float"
+                    },
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "ByteString"
+                    }
+                ],
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "str",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "USVString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "readonly": false,
                 "async": true
@@ -94,6 +181,92 @@
                         "nullable": false,
                         "union": false,
                         "idlType": "float"
+                    }
+                ],
+                "arguments": [],
+                "extAttrs": [],
+                "readonly": false,
+                "async": true
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "AsyncValueIterableWithNoParam",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "float"
+                    }
+                ],
+                "arguments": [],
+                "extAttrs": [],
+                "readonly": false,
+                "async": true
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "AsyncValueIterableWithParams",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "iterable",
+                "idlType": [
+                    {
+                        "type": null,
+                        "extAttrs": [],
+                        "generic": "",
+                        "nullable": false,
+                        "union": false,
+                        "idlType": "float"
+                    }
+                ],
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "str",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    },
+                    {
+                        "type": "argument",
+                        "name": "s",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "short"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
                     }
                 ],
                 "extAttrs": [],
