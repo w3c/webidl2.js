@@ -28,6 +28,9 @@ boolean or Dict)? arg);
 (no-nullable-union-dict) Validation error at line 21 in nullable-union-dictionary.webidl:
   attribute (boolean or Dict)? attr;
                         ^ Nullable union cannot include a dictionary type
-(no-nullable-union-dict) Validation error at line 25 in nullable-union-dictionary.webidl:
+(no-nullable-union-dict) Validation error at line 23 in nullable-union-dictionary.webidl:
+  iterable<(boolean or Dict)?>;
+                       ^ Nullable union cannot include a dictionary type
+(no-nullable-union-dict) Validation error at line 27 in nullable-union-dictionary.webidl:
   (boolean or Dict)? dict;
               ^ Nullable union cannot include a dictionary type
