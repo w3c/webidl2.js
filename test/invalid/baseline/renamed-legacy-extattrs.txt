@@ -1,24 +1,24 @@
-(renamed-legacy) Validation error at line 2 in renamed-legacy-extattrs.webidl, inside `extended-attribute NamedConstructor`:
+(renamed-legacy) Validation error at line 2 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> extended-attribute NamedConstructor`:
  NamedConstructor=TimeMachine()
  ^ `[NamedConstructor]` extended attribute is a legacy feature that is now renamed to `[LegacyFactoryFunction]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 3 in renamed-legacy-extattrs.webidl, inside `extended-attribute NoInterfaceObject`:
+(renamed-legacy) Validation error at line 3 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> extended-attribute NoInterfaceObject`:
  NoInterfaceObject,
  ^ `[NoInterfaceObject]` extended attribute is a legacy feature that is now renamed to `[LegacyNoInterfaceObject]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 4 in renamed-legacy-extattrs.webidl, inside `extended-attribute OverrideBuiltins`:
+(renamed-legacy) Validation error at line 4 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> extended-attribute OverrideBuiltins`:
  OverrideBuiltins]
  ^ `[OverrideBuiltins]` extended attribute is a legacy feature that is now renamed to `[LegacyOverrideBuiltIns]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 6 in renamed-legacy-extattrs.webidl, inside `extended-attribute LenientSetter`:
+(renamed-legacy) Validation error at line 6 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> attribute lenientSetter -> extended-attribute LenientSetter`:
   [LenientSetter] readonly attribute DOMString
    ^ `[LenientSetter]` extended attribute is a legacy feature that is now renamed to `[LegacyLenientSetter]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 7 in renamed-legacy-extattrs.webidl, inside `extended-attribute LenientThis`:
+(renamed-legacy) Validation error at line 7 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> attribute lenientThis -> extended-attribute LenientThis`:
   [LenientThis] readonly attribute DOMString
    ^ `[LenientThis]` extended attribute is a legacy feature that is now renamed to `[LegacyLenientThis]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 8 in renamed-legacy-extattrs.webidl, inside `extended-attribute TreatNullAs`:
+(renamed-legacy) Validation error at line 8 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> attribute treatNullAs -> attribute-type -> extended-attribute TreatNullAs`:
   attribute [TreatNullAs=EmptyString] DOMString
              ^ `[TreatNullAs]` extended attribute is a legacy feature that is now renamed to `[LegacyNullToEmptyString]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 9 in renamed-legacy-extattrs.webidl, inside `extended-attribute Unforgeable`:
+(renamed-legacy) Validation error at line 9 in renamed-legacy-extattrs.webidl, inside `interface HTMLTimeCapsule -> attribute unforgeable -> extended-attribute Unforgeable`:
   [Unforgeable] readonly attribute DOMString
    ^ `[Unforgeable]` extended attribute is a legacy feature that is now renamed to `[LegacyUnforgeable]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
-(renamed-legacy) Validation error at line 12 in renamed-legacy-extattrs.webidl, inside `extended-attribute TreatNonObjectAsNull`:
+(renamed-legacy) Validation error at line 12 in renamed-legacy-extattrs.webidl, inside `callback TreatsNonObjectAsNull -> extended-attribute TreatNonObjectAsNull`:
 [TreatNonObjectAsNull]
  ^ `[TreatNonObjectAsNull]` extended attribute is a legacy feature that is now renamed to `[LegacyTreatNonObjectAsNull]`. Refer to the [relevant upstream PR](https://github.com/heycam/webidl/pull/870) for more information.
