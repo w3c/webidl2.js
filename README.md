@@ -1,7 +1,7 @@
 
 # webidl2.js
 
-[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Greenkeeper badge](https://badges.greenkeeper.io/w3c/webidl2.js.svg)](https://greenkeeper.io/)
+[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Known Vulnerabilities](https://snyk.io/test/github/w3c/webidl2.js/badge.svg)
 [![Financial Contributors on Open Collective](https://opencollective.com/webidl2js/all/badge.svg?label=financial+contributors)](https://opencollective.com/webidl2js) 
 
 ## Purpose
@@ -816,4 +816,3 @@ Support this project with your organization. Your logo will show up here with a 
 <a href="https://opencollective.com/webidl2js/organization/7/website"><img src="https://opencollective.com/webidl2js/organization/7/avatar.svg"></a>
 <a href="https://opencollective.com/webidl2js/organization/8/website"><img src="https://opencollective.com/webidl2js/organization/8/avatar.svg"></a>
 <a href="https://opencollective.com/webidl2js/organization/9/website"><img src="https://opencollective.com/webidl2js/organization/9/avatar.svg"></a>
-
