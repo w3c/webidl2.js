@@ -1,7 +1,7 @@
 
 # webidl2.js
 
-[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Known Vulnerabilities](https://snyk.io/test/github/w3c/webidl2.js/badge.svg)
+[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Known Vulnerabilities](https://snyk.io/test/github/w3c/webidl2.js/badge.svg)](https://snyk.io/test/github/w3c/webidl2.js/)
 [![Financial Contributors on Open Collective](https://opencollective.com/webidl2js/all/badge.svg?label=financial+contributors)](https://opencollective.com/webidl2js) 
 
 ## Purpose
