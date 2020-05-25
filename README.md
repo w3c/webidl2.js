@@ -1,7 +1,8 @@
 
 # webidl2.js
 
-[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Greenkeeper badge](https://badges.greenkeeper.io/w3c/webidl2.js.svg)](https://greenkeeper.io/)
+[![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Known Vulnerabilities](https://snyk.io/test/github/w3c/webidl2.js/badge.svg)
+[![Financial Contributors on Open Collective](https://opencollective.com/webidl2js/all/badge.svg?label=financial+contributors)](https://opencollective.com/webidl2js) 
 
 ## Purpose
 
@@ -784,3 +785,34 @@ The fields are as follows:
 
 The test runs with mocha and expect.js. Normally, running `npm test` in the root directory
 should be enough once you're set up.
+
+
+## Contributors
+
+### Code Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/w3c/webidl2.js/graphs/contributors"><img src="https://opencollective.com/webidl2js/contributors.svg?width=890&button=false" /></a>
+
+### Financial Contributors
+
+Become a financial contributor and help us sustain our community. [[Contribute](https://opencollective.com/webidl2js/contribute)]
+
+#### Individuals
+
+<a href="https://opencollective.com/webidl2js"><img src="https://opencollective.com/webidl2js/individuals.svg?width=890"></a>
+
+#### Organizations
+
+Support this project with your organization. Your logo will show up here with a link to your website. [[Contribute](https://opencollective.com/webidl2js/contribute)]
+
+<a href="https://opencollective.com/webidl2js/organization/0/website"><img src="https://opencollective.com/webidl2js/organization/0/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/1/website"><img src="https://opencollective.com/webidl2js/organization/1/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/2/website"><img src="https://opencollective.com/webidl2js/organization/2/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/3/website"><img src="https://opencollective.com/webidl2js/organization/3/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/4/website"><img src="https://opencollective.com/webidl2js/organization/4/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/5/website"><img src="https://opencollective.com/webidl2js/organization/5/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/6/website"><img src="https://opencollective.com/webidl2js/organization/6/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/7/website"><img src="https://opencollective.com/webidl2js/organization/7/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/8/website"><img src="https://opencollective.com/webidl2js/organization/8/avatar.svg"></a>
+<a href="https://opencollective.com/webidl2js/organization/9/website"><img src="https://opencollective.com/webidl2js/organization/9/avatar.svg"></a>
