@@ -69,6 +69,54 @@
                 "extAttrs": [],
                 "special": "",
                 "readonly": true
+            },
+            {
+                "type": "attribute",
+                "name": "frozen",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "FrozenArray",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "attribute-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        }
+                    ]
+                },
+                "extAttrs": [],
+                "special": "",
+                "readonly": true
+            },
+            {
+                "type": "attribute",
+                "name": "observable",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "ObservableArray",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "attribute-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "DOMString"
+                        }
+                    ]
+                },
+                "extAttrs": [],
+                "special": "",
+                "readonly": true
             }
         ],
         "extAttrs": [],
