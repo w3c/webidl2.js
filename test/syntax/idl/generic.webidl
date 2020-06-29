@@ -1,6 +1,8 @@
 interface Foo {
   Promise<Promise<sequence<DOMString?>>> bar();
   readonly attribute Promise<DOMString> baz;
+  readonly attribute FrozenArray<DOMString> frozen;
+  readonly attribute ObservableArray<DOMString> observable;
 };
 
 // Extracted from https://slightlyoff.github.io/ServiceWorker/spec/service_worker/ on 2014-05-08
