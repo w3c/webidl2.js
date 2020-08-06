@@ -3,7 +3,7 @@ interface Dictionary {
   readonly attribute unsigned long propertyCount;
 
   getter float getProperty(DOMString propertyName);
-  setter void setProperty(DOMString propertyName, float propertyValue);
+  setter undefined setProperty(DOMString propertyName, float propertyValue);
 };
 
 
@@ -11,8 +11,8 @@ interface Dictionary2 {
   readonly attribute unsigned long propertyCount;
 
   float getProperty(DOMString propertyName);
-  void setProperty(DOMString propertyName, float propertyValue);
+  undefined setProperty(DOMString propertyName, float propertyValue);
 
   getter float (DOMString propertyName);
-  setter void (DOMString propertyName, float propertyValue);
+  setter undefined (DOMString propertyName, float propertyValue);
 };

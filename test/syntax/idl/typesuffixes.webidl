@@ -1,3 +1,3 @@
 interface Suffixes {
-  void test(sequence<DOMString?>? foo);
+  undefined test(sequence<DOMString?>? foo);
 };

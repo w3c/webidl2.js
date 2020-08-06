@@ -8,13 +8,13 @@ interface B {
 };
 
 interface C {
-  void f(A x);
-  void f(B x);
+  undefined f(A x);
+  undefined f(B x);
 };
 
 interface D {
-  /* f1 */ void f(DOMString a);
-  /* f2 */ void f([AllowAny] DOMString a, DOMString b, float... c);
-  /* f3 */ void f();
-  /* f4 */ void f(long a, DOMString b, optional DOMString c, float... d);
+  /* f1 */ undefined f(DOMString a);
+  /* f2 */ undefined f([AllowAny] DOMString a, DOMString b, float... c);
+  /* f3 */ undefined f();
+  /* f4 */ undefined f(long a, DOMString b, optional DOMString c, float... d);
 };

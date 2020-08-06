@@ -1,0 +1,3 @@
+(replace-void) Validation error at line 3 in void-keyword.webidl:
+  void foo();
+  ^ `void` is now replaced by `undefined`. Refer to the [relevant GitHub issue](https://github.com/heycam/webidl/issues/60) for more information.

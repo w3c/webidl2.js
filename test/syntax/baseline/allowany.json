@@ -13,7 +13,7 @@
                     "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "undefined"
                 },
                 "arguments": [],
                 "extAttrs": [],
@@ -28,7 +28,7 @@
                     "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "undefined"
                 },
                 "arguments": [
                     {
@@ -60,7 +60,7 @@
                     "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "undefined"
                 },
                 "arguments": [
                     {
@@ -97,6 +97,6 @@
     {
         "type": "eof",
         "value": "",
-        "trivia": ""
+        "trivia": "\n"
     }
 ]

@@ -6,19 +6,19 @@
                    ^ Dictionary arguments cannot be nullable.
 (no-nullable-union-dict) Validation error at line 15 in argument-dict-nullable.webidl:
 (optional (boolean or Dict)? union =
-                      ^ Nullable union cannot include a dictionary type
+                      ^ Nullable union cannot include a dictionary type.
 (no-nullable-dict-arg) Validation error at line 15 in argument-dict-nullable.webidl, inside `interface X -> operation y2 -> argument union`:
 boolean or Dict)? union = {})
                   ^ Dictionary arguments cannot be nullable.
 (no-nullable-union-dict) Validation error at line 16 in argument-dict-nullable.webidl:
-  void z2(optional Union? union = {
-                   ^ Nullable union cannot include a dictionary type
+  undefined z2(optional Union? union = {
+                        ^ Nullable union cannot include a dictionary type.
 (no-nullable-dict-arg) Validation error at line 16 in argument-dict-nullable.webidl, inside `interface X -> operation z2 -> argument union`:
  z2(optional Union? union = {})
                     ^ Dictionary arguments cannot be nullable.
 (no-nullable-dict-arg) Validation error at line 17 in argument-dict-nullable.webidl, inside `interface X -> operation r -> argument req`:
-  void r(Required? req);
-                   ^ Dictionary arguments cannot be nullable.
+  undefined r(Required? req);
+                        ^ Dictionary arguments cannot be nullable.
 (no-nullable-dict-arg) Validation error at line 19 in argument-dict-nullable.webidl, inside `interface X -> iterable -> argument dict`:
 >(optional Dict? dict);
                  ^ Dictionary arguments cannot be nullable.

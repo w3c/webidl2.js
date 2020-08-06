@@ -1,4 +1,4 @@
 [Exposed=Window]
 interface Includes {
-  void includes();
+  undefined includes();
 };

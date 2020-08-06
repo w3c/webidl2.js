@@ -22,19 +22,19 @@ typedef (DOMString or Optional) OptionalUnion;
 typedef (DOMString or Optional?) NullableUnion;
 
 interface mixin Container {
-  void op1(Optional shouldBeOptional);
-  void op2(Required noNeedToBeOptional);
-  void op22(Required2 noNeedToBeOptional);
+  undefined op1(Optional shouldBeOptional);
+  undefined op2(Required noNeedToBeOptional);
+  undefined op22(Required2 noNeedToBeOptional);
 
-  void op3((Optional or boolean) union);
-  void op4(OptionalUnion union);
-  void op5(NullableUnion union);
+  undefined op3((Optional or boolean) union);
+  undefined op4(OptionalUnion union);
+  undefined op5(NullableUnion union);
 
-  void op6(Recursive recursive);
-  void op7(SuperDictUnknown unknown);
+  undefined op6(Recursive recursive);
+  undefined op7(SuperDictUnknown unknown);
 
-  void op8(Optional lastRequired, optional DOMString yay);
-  void op9(Optional notLast, DOMString yay);
+  undefined op8(Optional lastRequired, optional DOMString yay);
+  undefined op9(Optional notLast, DOMString yay);
 };
 
 [Exposed=Window]

@@ -62,7 +62,7 @@
                     "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "void"
+                    "idlType": "undefined"
                 },
                 "arguments": [
                     {

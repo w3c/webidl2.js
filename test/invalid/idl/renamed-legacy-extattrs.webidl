@@ -10,4 +10,4 @@ interface HTMLTimeCapsule : HTMLElement {
 };
 
 [TreatNonObjectAsNull]
-callback TreatsNonObjectAsNull = void (DOMString s);
+callback TreatsNonObjectAsNull = undefined (DOMString s);

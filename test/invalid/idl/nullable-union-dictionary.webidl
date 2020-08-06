@@ -17,7 +17,7 @@ callback Callback = (boolean or Dict)? ();
 [Exposed=Window]
 interface Interface {
   (boolean or Dict)? op();
-  void voidOp((boolean or Dict)? arg);
+  undefined voidOp((boolean or Dict)? arg);
   attribute (boolean or Dict)? attr;
 
   iterable<(boolean or Dict)?>;

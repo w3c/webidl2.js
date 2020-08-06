@@ -29,5 +29,5 @@
 
 interface FooEventTarget {
   // Argument names allow some selected keywords
-  void addEventListener(EventListener? callback);
+  undefined addEventListener(EventListener? callback);
 };

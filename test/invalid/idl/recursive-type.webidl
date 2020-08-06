@@ -6,6 +6,6 @@ dictionary Y {};
 
 [Exposed=Window]
 interface X {
-  void recursive(optional Recursive r);
-  void recursive2(optional FriendX f);
+  undefined recursive(optional Recursive r);
+  undefined recursive2(optional FriendX f);
 };

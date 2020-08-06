@@ -1,3 +1,3 @@
 interface Foo {
-  void foo([ExtAttr] optional [Clamp] short argname);
+  undefined foo([ExtAttr] optional [Clamp] short argname);
 };

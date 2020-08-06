@@ -10,6 +10,6 @@ interface Button {
   boolean isMouseOver();
 
   // Overloaded operations.
-  void setDimensions(Dimensions size);
-  void setDimensions(unsigned long width, unsigned long height);
+  undefined setDimensions(Dimensions size);
+  undefined setDimensions(unsigned long width, unsigned long height);
 };

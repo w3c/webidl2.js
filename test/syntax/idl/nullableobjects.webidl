@@ -7,7 +7,7 @@ interface B {
   // ...
 };
 interface C {
-  void f(A? x);
-  void f(B? x);
+  undefined f(A? x);
+  undefined f(B? x);
 
 };
