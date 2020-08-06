@@ -2,7 +2,7 @@
 # webidl2.js
 
 [![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Known Vulnerabilities](https://snyk.io/test/github/w3c/webidl2.js/badge.svg)](https://snyk.io/test/github/w3c/webidl2.js/)
-[![Financial Contributors on Open Collective](https://opencollective.com/webidl2js/all/badge.svg?label=financial+contributors)](https://opencollective.com/webidl2js) 
+[![Financial Contributors on Open Collective](https://opencollective.com/webidl2js/all/badge.svg?label=financial+contributors)](https://opencollective.com/webidl2js)
 
 ## Purpose
 
@@ -174,8 +174,8 @@ properties:
 * `message`: the error message with its context. Below is what it looks like.
    ```
    Syntax error at line 1 in callback-noparen.webidl, since `callback YourCall`:
-   callback YourCall = void;
-                           ^ Callback lacks parentheses for arguments
+   callback YourCall = undefined;
+                                ^ Callback lacks parentheses for arguments
    ```
 * `bareMessage`: the error message without any context description like below.
    ```
@@ -196,6 +196,7 @@ properties:
    * `no-cross-overload`: Overloading must be done within a single interface or namespace.
    * `no-constructible-global`: Interfaces with `[Global]` cannot have constructors.
    * `renamed-legacy`: Legacy extended attributes must use their new names.
+   * `replace-void`: `void` type is replaced by `undefined` type.
 * `input`: a short peek at the text at the point where the error happened
 * `tokens`: the five tokens at the point of error, as understood by the tokeniser
   (this is the same content as `input`, but seen from the tokeniser's point of view)
@@ -339,7 +340,7 @@ A callback looks like this:
     "generic": "",
     "nullable": false,
     "union": false,
-    "idlType": "void",
+    "idlType": "undefined",
     "extAttrs": []
   },
   "arguments": [...],
@@ -508,7 +509,7 @@ An operation looks like this:
     "generic": "",
     "nullable": false,
     "union": false,
-    "idlType": "void",
+    "idlType": "undefined",
     "extAttrs": []
   },
   "name": "intersection",
