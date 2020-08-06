@@ -21,7 +21,7 @@
             },
             {
                 "type": "operation",
-                "name": "foo",
+                "name": "bar",
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -57,6 +57,38 @@
                     ]
                 },
                 "arguments": [],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "baz",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "float"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "boo",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "undefined"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
                 "extAttrs": [],
                 "special": ""
             }
