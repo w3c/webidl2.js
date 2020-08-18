@@ -3,5 +3,5 @@ interface Dictionary {
   readonly attribute unsigned long propertyCount;
 
   getter float (DOMString propertyName);
-  setter void (DOMString propertyName, float propertyValue);
+  setter undefined (DOMString propertyName, float propertyValue);
 };

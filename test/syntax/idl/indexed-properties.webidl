@@ -3,10 +3,10 @@ interface OrderedMap {
   readonly attribute unsigned long size;
 
   getter any getByIndex(unsigned long index);
-  setter void setByIndex(unsigned long index, any value);
-  deleter void removeByIndex(unsigned long index);
+  setter undefined setByIndex(unsigned long index, any value);
+  deleter undefined removeByIndex(unsigned long index);
 
   getter any get(DOMString name);
-  setter void set(DOMString name, any value);
-  deleter void remove(DOMString name);
+  setter undefined set(DOMString name, any value);
+  deleter undefined remove(DOMString name);
 };

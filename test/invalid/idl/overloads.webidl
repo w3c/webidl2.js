@@ -1,15 +1,15 @@
 [Exposed=Window]
 interface Base {
   // Operations cannot be overloaded across partial interfaces and mixins
-  void unique();
+  undefined unique();
 };
 
 partial interface Base {
-  void unique(short num);
+  undefined unique(short num);
 };
 
 interface mixin Extension {
-  void unique(string str);
+  undefined unique(string str);
 };
 Base includes Extension;
 Base includes Unknown;
@@ -19,19 +19,19 @@ Base includes Unknown;
 interface mixin WebGL2RenderingContextBase
 {
   // WebGL1:
-  void bufferData(GLenum target, GLsizeiptr size, GLenum usage);
-  void bufferData(GLenum target, ArrayBuffer? srcData, GLenum usage);
-  void bufferData(GLenum target, ArrayBufferView srcData, GLenum usage);
+  undefined bufferData(GLenum target, GLsizeiptr size, GLenum usage);
+  undefined bufferData(GLenum target, ArrayBuffer? srcData, GLenum usage);
+  undefined bufferData(GLenum target, ArrayBufferView srcData, GLenum usage);
   // WebGL2:
-  void bufferData(GLenum target, ArrayBufferView srcData, GLenum usage, GLuint srcOffset,
+  undefined bufferData(GLenum target, ArrayBufferView srcData, GLenum usage, GLuint srcOffset,
                   optional GLuint length = 0);
 };
 
 interface mixin WebGLRenderingContextBase
 {
-  void bufferData(GLenum target, GLsizeiptr size, GLenum usage);
-  void bufferData(GLenum target, ArrayBuffer? data, GLenum usage);
-  void bufferData(GLenum target, ArrayBufferView data, GLenum usage);
+  undefined bufferData(GLenum target, GLsizeiptr size, GLenum usage);
+  undefined bufferData(GLenum target, ArrayBuffer? data, GLenum usage);
+  undefined bufferData(GLenum target, ArrayBufferView data, GLenum usage);
 };
 
 [Exposed=(Window,Worker)]

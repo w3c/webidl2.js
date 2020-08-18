@@ -1,4 +1,4 @@
 [Exposed=Window]
 interface Foo {
-  void foo(object constructor);
+  undefined foo(object constructor);
 };

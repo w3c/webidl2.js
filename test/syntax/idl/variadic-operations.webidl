@@ -2,6 +2,6 @@
 interface IntegerSet {
   readonly attribute unsigned long cardinality;
 
-  void union(long... ints);
-  void intersection(long... ints);
+  undefined union(long... ints);
+  undefined intersection(long... ints);
 };

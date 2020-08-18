@@ -11,13 +11,13 @@ typedef (short or Dict) Union;
 [Exposed=Window]
 interface X {
   constructor(optional Union union);
-  void x(optional Dict dict);
-  void x2(optional Dict dict = {});
-  void y(optional (boolean or Dict) union);
-  void y2(optional (boolean or Dict) union = {});
-  void z(optional Union union);
-  void z2(optional Union union = {});
-  void r(Required req);
+  undefined x(optional Dict dict);
+  undefined x2(optional Dict dict = {});
+  undefined y(optional (boolean or Dict) union);
+  undefined y2(optional (boolean or Dict) union = {});
+  undefined z(optional Union union);
+  undefined z2(optional Union union = {});
+  undefined r(Required req);
 
   async iterable<DOMString>(optional Union union);
 };

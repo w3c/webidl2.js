@@ -1,6 +1,6 @@
 (dict-arg-default) Validation error at line 9 in recursive-type.webidl, inside `interface X -> operation recursive -> argument r`:
-  void recursive(optional Recursive r);
-                                    ^ Optional dictionary arguments must have a default value of `{}`.
+  undefined recursive(optional Recursive r);
+                                         ^ Optional dictionary arguments must have a default value of `{}`.
 (dict-arg-default) Validation error at line 10 in recursive-type.webidl, inside `interface X -> operation recursive2 -> argument f`:
-  void recursive2(optional FriendX f);
-                                   ^ Optional dictionary arguments must have a default value of `{}`.
+  undefined recursive2(optional FriendX f);
+                                        ^ Optional dictionary arguments must have a default value of `{}`.

@@ -1,7 +1,7 @@
-callback AsyncOperationCallback = void (DOMString status);
+callback AsyncOperationCallback = undefined (DOMString status);
 
 callback interface EventHandler {
-  void eventOccurred(DOMString details);
+  undefined eventOccurred(DOMString details);
 };
 
 callback SortCallback = boolean (any a, any b);

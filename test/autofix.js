@@ -20,14 +20,14 @@ describe("Writer template functions", () => {
       dictionary A {};
       [Exposed=Window]
       interface B {
-        void op(optional A a);
+        undefined op(optional A a);
       };
     `;
     const output = `
       dictionary A {};
       [Exposed=Window]
       interface B {
-        void op(optional A a = {});
+        undefined op(optional A a = {});
       };
     `;
     expect(autofix(input)).toBe(output);
@@ -195,7 +195,7 @@ describe("Writer template functions", () => {
       [Exposed=Window, Constructor]
       interface C {
       \t// tabbed indentation
-      \tvoid koala();
+      \tundefined koala();
       };
     `;
     const outputTabOp = `
@@ -203,7 +203,7 @@ describe("Writer template functions", () => {
       interface C {
       \tconstructor();
       \t// tabbed indentation
-      \tvoid koala();
+      \tundefined koala();
       };
     `;
     expect(autofix(inputTabOp)).toBe(outputTabOp);
@@ -212,7 +212,7 @@ describe("Writer template functions", () => {
       [Exposed=Window, Constructor]
       interface C {
       \t// tabbed indentation
-      \tstatic void koala();
+      \tstatic undefined koala();
       };
     `;
     const outputTabSpecialOp = `
@@ -220,7 +220,7 @@ describe("Writer template functions", () => {
       interface C {
       \tconstructor();
       \t// tabbed indentation
-      \tstatic void koala();
+      \tstatic undefined koala();
       };
     `;
     expect(autofix(inputTabSpecialOp)).toBe(outputTabSpecialOp);
@@ -270,7 +270,7 @@ describe("Writer template functions", () => {
       };
 
       interface mixin Container {
-        void op(
+        undefined op(
           DOMString str,
           Optional arg
         );
@@ -282,7 +282,7 @@ describe("Writer template functions", () => {
       };
 
       interface mixin Container {
-        void op(
+        undefined op(
           DOMString str,
           optional Optional arg = {}
         );
@@ -305,7 +305,7 @@ describe("Writer template functions", () => {
       };
 
       [TreatNonObjectAsNull]
-      callback TreatsNonObjectAsNull = void (DOMString s);
+      callback TreatsNonObjectAsNull = undefined (DOMString s);
     `;
     const output = `
       [Exposed=Window,
@@ -320,7 +320,23 @@ describe("Writer template functions", () => {
       };
 
       [LegacyTreatNonObjectAsNull]
-      callback TreatsNonObjectAsNull = void (DOMString s);
+      callback TreatsNonObjectAsNull = undefined (DOMString s);
+    `;
+    expect(autofix(input)).toBe(output);
+  });
+
+  it("should replace undefined into undefined", () => {
+    const input = `
+      [Exposed=Window]
+      interface Foo {
+        void foo();
+      };
+    `;
+    const output = `
+      [Exposed=Window]
+      interface Foo {
+        undefined foo();
+      };
     `;
     expect(autofix(input)).toBe(output);
   });

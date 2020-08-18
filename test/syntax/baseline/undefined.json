@@ -1,12 +1,12 @@
 [
     {
         "type": "interface",
-        "name": "B",
+        "name": "Foo",
         "inheritance": null,
         "members": [
             {
                 "type": "operation",
-                "name": "g",
+                "name": "foo",
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -21,19 +21,60 @@
             },
             {
                 "type": "operation",
-                "name": "g",
+                "name": "bar",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": true,
+                            "idlType": [
+                                {
+                                    "type": null,
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "DOMString"
+                                },
+                                {
+                                    "type": null,
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "undefined"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "arguments": [],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "baz",
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "undefined"
+                    "idlType": "float"
                 },
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "b",
+                        "name": "boo",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -41,46 +82,7 @@
                             "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "B"
-                        },
-                        "default": null,
-                        "optional": false,
-                        "variadic": false
-                    }
-                ],
-                "extAttrs": [],
-                "special": ""
-            },
-            {
-                "type": "operation",
-                "name": "g",
-                "idlType": {
-                    "type": "return-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "undefined"
-                },
-                "arguments": [
-                    {
-                        "type": "argument",
-                        "name": "s",
-                        "extAttrs": [
-                            {
-                                "type": "extended-attribute",
-                                "name": "AllowAny",
-                                "rhs": null,
-                                "arguments": []
-                            }
-                        ],
-                        "idlType": {
-                            "type": "argument-type",
-                            "extAttrs": [],
-                            "generic": "",
-                            "nullable": false,
-                            "union": false,
-                            "idlType": "DOMString"
+                            "idlType": "undefined"
                         },
                         "default": null,
                         "optional": false,
@@ -91,7 +93,17 @@
                 "special": ""
             }
         ],
-        "extAttrs": [],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "partial": false
     },
     {
