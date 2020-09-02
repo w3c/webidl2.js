@@ -1,7 +1,7 @@
 ---
 name: Web IDL Syntax Change
 about: Let us know if there are changes in WebIDL syntax
-title: ""
+title: "BREAKING CHANGE: "
 labels: syntax-update
 assignees: ""
 --- 
@@ -10,6 +10,6 @@ assignees: ""
 URL: 
 
 <!-- Add any further details as needed -->
-<!-- Please prefix the issue title with "BREAKING CHANGE: " for breaking changes -->
+
 
 cc: @marcoscaceres @sidvishnoi for ReSpec
