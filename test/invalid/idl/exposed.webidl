@@ -1,6 +1,6 @@
 interface UnexposedInterface {};
 partial interface UnexposedInterface {};
 [LegacyNoInterfaceObject]
-interface IntentionallyUnexposedInterface {};
+interface NoObjectInterface {};
 namespace UnexposedNamespace {};
 partial namespace UnexposedNamespace {};
