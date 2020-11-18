@@ -1,0 +1,157 @@
+[
+    {
+        "type": "interface",
+        "name": "Interface",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "attribute",
+                "name": "bigint",
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "bigint"
+                },
+                "extAttrs": [],
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "operation",
+                "name": "getBig",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "bigint"
+                },
+                "arguments": [],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "setBig",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "void"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "big",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "bigint"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
+        "partial": false
+    },
+    {
+        "type": "dictionary",
+        "name": "Dictionary",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "field",
+                "name": "big",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "dictionary-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "bigint"
+                },
+                "default": null,
+                "required": false
+            },
+            {
+                "type": "field",
+                "name": "another",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "dictionary-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "bigint"
+                },
+                "default": null,
+                "required": true
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "typedef",
+        "name": "allowed",
+        "idlType": {
+            "type": "typedef-type",
+            "extAttrs": [],
+            "generic": "",
+            "nullable": false,
+            "union": true,
+            "idlType": [
+                {
+                    "type": null,
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "bigint"
+                },
+                {
+                    "type": null,
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "short"
+                }
+            ]
+        },
+        "extAttrs": []
+    },
+    {
+        "type": "eof",
+        "value": "",
+        "trivia": "\n"
+    }
+]
