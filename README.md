@@ -11,6 +11,8 @@ you don't know what that is, then you probably don't need it. It is meant to be 
 both in Node and in the browser (the parser likely works in other JS environments, but
 not the test suite).
 
+Try the online checker [here](/checker).
+
 ## Installation
 
 Just the usual. For Node:
