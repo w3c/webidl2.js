@@ -11,7 +11,7 @@ jobs:
       - run: gem install github_changelog_generator
       - run: github_changelog_generator -u w3c -p "webidl2.js" --no-unreleased
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CHANGELOG_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: peter-evans/create-pull-request@v3
         with:
           commit-message: "chore(CHANGELOG): regenerate"
