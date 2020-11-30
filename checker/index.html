@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
   <title>WebIDL 2 Checker</title>
 
   <script type="module">
@@ -55,6 +56,15 @@
     });
   </script>
   <style>
+    html {
+      font-family: sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    body, textarea {
+      max-width: 100%;
+    }
     textarea {
       font-family: monospace;
     }
@@ -62,7 +72,7 @@
 </head>
 
 <body>
-  <h2>WebIDL Checker</h2>
+  <h1>WebIDL Checker</h1>
   <p>This is an online checker for WebIDL built on the <a href="https://github.com/w3c/webidl2.js">webidl2.js</a>
     project.</p>
   <p>Enter your WebIDL to check below:</p>
