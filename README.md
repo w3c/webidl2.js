@@ -728,9 +728,9 @@ values, all of which have the following fields:
 
 * `type`: One of `"string"`, `"number"`, `"boolean"`, `"null"`, `"Infinity"`, `"NaN"`, `"sequence"` or `"dictionary"`.
 
-For `"string"`, `"number"`, `"boolean"`, and `"sequence"`:
+For `"boolean"`, `"string"`, `"number"`, and `"sequence"`:
 
-* `value`: The value of the given type, as a string. For sequence, the only possible value is `[]`.
+* `value`: The value of the given type.  For string and number types, the value is given as a string.  For booleans, the possible values are `true` and `false`. For sequence, the only possible value is `[]`.
 
 For `"Infinity"`:
 
