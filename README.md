@@ -280,12 +280,14 @@ Interfaces mixins look like this:
 {
   "type": "interface mixin",
   "name": "Animal",
+  "inheritance": null,
   "partial": false,
   "members": [...],
   "extAttrs": [...]
 }, {
   "type": "interface mixin",
   "name": "Human",
+  "inheritance": null,
   "partial": false,
   "members": [...],
   "extAttrs": [...]
@@ -296,6 +298,7 @@ The fields are as follows:
 
 * `type`: Always "interface mixin".
 * `name`: The name of the interface mixin.
+* `inheritance`: Always `null`.
 * `partial`: `true if the type is a partial interface mixin.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
@@ -308,6 +311,7 @@ Namespaces look like this:
 {
   "type": "namespace",
   "name": "console",
+  "inheritance": null,
   "partial": false,
   "members": [...],
   "extAttrs": [...]
@@ -318,6 +322,7 @@ The fields are as follows:
 
 * `type`: Always "namespace".
 * `name`: The name of the namespace.
+* `inheritance`: Always `null`.
 * `partial`: `true if the type is a partial namespace.
 * `members`: An array of namespace members (attributes and operations). Empty if there are none.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
