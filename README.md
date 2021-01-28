@@ -410,7 +410,7 @@ All the members are fields as follows:
 * `required`: `true` if the field is required.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `default`: A [default value](#default-and-const-values), absent if there is none.
+* `default`: A [default value](#default-and-const-values), or `null` if there is none.
 
 ### Enum
 
@@ -520,6 +520,7 @@ An operation looks like this:
   },
   "name": "intersection",
   "arguments": [{
+    "default": null,
     "optional": false,
     "variadic": true,
     "extAttrs": [],
@@ -541,7 +542,7 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
+* `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `""`.
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns, if exists.
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
@@ -556,6 +557,7 @@ A constructor operation member looks like this:
 {
   "type": "constructor",
   "arguments": [{
+    "default": null,
     "optional": false,
     "variadic": true,
     "extAttrs": [],
@@ -588,9 +590,7 @@ An attribute member looks like this:
 ```JS
 {
   "type": "attribute",
-  "static": null,
-  "stringifier": null,
-  "inherit": null,
+  "special": "",
   "readonly": false,
   "idlType": {
     "type": "attribute-type",
@@ -610,7 +610,7 @@ The fields are as follows:
 
 * `type`: Always "attribute".
 * `name`: The attribute's name.
-* `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `null`.
+* `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `""`.
 * `readonly`: `true` if the attribute is read-only.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
@@ -658,6 +658,7 @@ The arguments (e.g. for an operation) look like this:
 {
   "arguments": [{
     "type": "argument",
+    "default": null,
     "optional": false,
     "variadic": true
     "extAttrs": []
@@ -677,6 +678,7 @@ The arguments (e.g. for an operation) look like this:
 
 The fields are as follows:
 
+* `default`: A [default value](#default-and-const-values), or `null` if there is none.
 * `optional`: `true` if the argument is optional.
 * `variadic`: `true` if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
@@ -733,9 +735,9 @@ values, all of which have the following fields:
 
 * `type`: One of `"string"`, `"number"`, `"boolean"`, `"null"`, `"Infinity"`, `"NaN"`, `"sequence"` or `"dictionary"`.
 
-For `"string"`, `"number"`, `"boolean"`, and `"sequence"`:
+For `"boolean"`, `"string"`, `"number"`, and `"sequence"`:
 
-* `value`: The value of the given type, as a string. For sequence, the only possible value is `[]`.
+* `value`: The value of the given type.  For string and number types, the value is given as a string.  For booleans, the possible values are `true` and `false`. For sequence, the only possible value is `[]`.
 
 For `"Infinity"`:
 
