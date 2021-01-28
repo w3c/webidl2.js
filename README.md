@@ -405,7 +405,7 @@ All the members are fields as follows:
 * `required`: `true` if the field is required.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
-* `default`: A [default value](#default-and-const-values), absent if there is none.
+* `default`: A [default value](#default-and-const-values), or `null` if there is none.
 
 ### Enum
 
@@ -515,6 +515,7 @@ An operation looks like this:
   },
   "name": "intersection",
   "arguments": [{
+    "default": null,
     "optional": false,
     "variadic": true,
     "extAttrs": [],
@@ -551,6 +552,7 @@ A constructor operation member looks like this:
 {
   "type": "constructor",
   "arguments": [{
+    "default": null,
     "optional": false,
     "variadic": true,
     "extAttrs": [],
@@ -651,6 +653,7 @@ The arguments (e.g. for an operation) look like this:
 {
   "arguments": [{
     "type": "argument",
+    "default": null,
     "optional": false,
     "variadic": true
     "extAttrs": []
@@ -670,6 +673,7 @@ The arguments (e.g. for an operation) look like this:
 
 The fields are as follows:
 
+* `default`: A [default value](#default-and-const-values), or `null` if there is none.
 * `optional`: `true` if the argument is optional.
 * `variadic`: `true` if the argument is variadic.
 * `idlType`: An [IDL Type](#idl-type) describing the type of the argument.
