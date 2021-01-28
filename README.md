@@ -536,7 +536,7 @@ An operation looks like this:
 The fields are as follows:
 
 * `type`: Always "operation".
-* `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `null`.
+* `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `""`.
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns, if exists.
 * `name`: The name of the operation if exists.
 * `arguments`: An array of [arguments](#arguments) for the operation.
@@ -583,9 +583,7 @@ An attribute member looks like this:
 ```JS
 {
   "type": "attribute",
-  "static": null,
-  "stringifier": null,
-  "inherit": null,
+  "special": "",
   "readonly": false,
   "idlType": {
     "type": "attribute-type",
@@ -605,7 +603,7 @@ The fields are as follows:
 
 * `type`: Always "attribute".
 * `name`: The attribute's name.
-* `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `null`.
+* `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `""`.
 * `readonly`: `true` if the attribute is read-only.
 * `idlType`: An [IDL Type](#idl-type) for the attribute.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
