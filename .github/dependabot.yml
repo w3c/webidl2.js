@@ -1,6 +1,6 @@
 # Basic dependabot.yml file with
 # minimum configuration for two package managers
-# https://docs.github.com/en/free-pro-team@latest/github/administering-a-repository/enabling-and-disabling-version-updates
+# https://docs.github.com/en/github/administering-a-repository/enabling-and-disabling-version-updates
 
 version: 2
 updates:
@@ -11,3 +11,7 @@ updates:
     # Check the npm registry for updates once a week
     schedule:
       interval: "monthly"
+    # Bump versions in package.json
+    # https://github.com/dependabot/dependabot-core/issues/3103
+    # https://docs.github.com/en/github/administering-a-repository/configuration-options-for-dependency-updates#versioning-strategy
+    versioning-strategy: "increase"
