@@ -11,7 +11,7 @@
   "license": "W3C",
   "dependencies": {},
   "devDependencies": {
-    "eslint": "^7.18.0",
+    "eslint": "^7.19.0",
     "eslint-plugin-import": "^2.22.1",
     "expect": "^26.6.2",
     "jsondiffpatch": "^0.4.1",
