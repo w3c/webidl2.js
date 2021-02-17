@@ -25,6 +25,8 @@ interface mixin Container {
   undefined op1(Optional shouldBeOptional);
   undefined op2(Required noNeedToBeOptional);
   undefined op22(Required2 noNeedToBeOptional);
+  // The same again to expose caching bug:
+  undefined op23(Required2 noNeedToBeOptional);
 
   undefined op3((Optional or boolean) union);
   undefined op4(OptionalUnion union);
