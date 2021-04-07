@@ -186,6 +186,7 @@ properties:
 * `sourceName`: the source name you passed to `parse()`.
 * `level`: `"error"` by default, can be `"warning"` for some validations for e.g. potential future deprecations.
 * `ruleName`: Only for validations. Currently the followings are supported:
+   * `attr-invalid-type`: Attributes cannot have sequences, records, nor dictionaries.
    * `dict-arg-default`: Optional dictionary type arguments must have a default value of `{}`.
    * `dict-arg-optional`: Dictionary type arguments must be optional if the type does not include a required field.
    * `no-nullable-dict-arg`: Dictionary arguments cannot be nullable.
