@@ -1,26 +1,23 @@
-"use strict";
-
-const wp = require("../../dist/webidl2.js");
-const pth = require("path");
-const fs = require("fs");
-const jdp = require("jsondiffpatch");
+import { parse, validate, WebIDLParseError } from "../../index.js";
+import { join, basename } from "path";
+import { readFileSync, readdirSync } from "fs";
+import { diff } from "jsondiffpatch";
 
 /**
  * Collects test items from the specified directory
  * @param {string} base
  */
-function* collect(base, { expectError, raw } = {}) {
-  base = pth.join(__dirname, "..", base);
-  const dir = pth.join(base, "idl");
-  const idls = fs.readdirSync(dir)
-    .filter(it => (/\.webidl$/).test(it))
-    .map(it => pth.join(dir, it));
+export function* collect(base, { expectError, raw } = {}) {
+  const dir = new URL(join("..", base, "idl/"), import.meta.url);
+  const idls = readdirSync(dir)
+    .filter((it) => it.endsWith(".webidl"))
+    .map((it) => new URL(it, dir));
 
   for (const path of idls) {
     try {
-      const text = fs.readFileSync(path, "utf8");
-      const ast = wp.parse(text, { concrete: true, sourceName: pth.basename(path) });
-      const validation = wp.validate(ast);
+      const text = readFileSync(path, "utf8");
+      const ast = parse(text, { concrete: true, sourceName: basename(path.pathname) });
+      const validation = validate(ast);
       if (validation) {
         yield new TestItem({ text, ast, path, validation, raw });
       } else {
@@ -28,7 +25,7 @@ function* collect(base, { expectError, raw } = {}) {
       }
     }
     catch (error) {
-      if (expectError && error instanceof wp.WebIDLParseError) {
+      if (expectError && error instanceof WebIDLParseError) {
         yield new TestItem({ path, error, raw });
       }
       else {
@@ -38,7 +35,6 @@ function* collect(base, { expectError, raw } = {}) {
   }
 }
 
-
 class TestItem {
   constructor({ text, ast, path, error, validation, raw }) {
     this.text = text;
@@ -47,10 +43,12 @@ class TestItem {
     this.error = error;
     this.validation = validation;
     const fileExtension = raw ? ".txt" : ".json";
-    this.baselinePath = pth.join(
-      pth.dirname(path),
-      "../baseline",
-      pth.basename(path).replace(".webidl", fileExtension)
+    this.baselinePath = new URL(
+      join(
+        "../baseline",
+        basename(path.pathname).replace(".webidl", fileExtension)
+      ),
+      path
     );
   }
 
@@ -59,12 +57,10 @@ class TestItem {
   }
 
   readText() {
-    return fs.readFileSync(this.baselinePath, "utf8");
+    return readFileSync(this.baselinePath, "utf8");
   }
 
   diff(target = this.readJSON()) {
-    return jdp.diff(target, this.ast);
+    return diff(target, this.ast);
   }
 }
-
-module.exports.collect = collect;

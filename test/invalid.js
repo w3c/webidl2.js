@@ -2,11 +2,9 @@
 //  - the errors actually still need to be reviewed to check that they
 //    are fully correct interpretations of the IDLs
 
-"use strict";
-
-const { collect } = require("./util/collect");
-const { parse, validate, WebIDLParseError } = require("..");
-const expect = require("expect");
+import { collect } from "./util/collect.js";
+import { parse, validate, WebIDLParseError } from "../index.js";
+import expect from "expect";
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
   for (const test of collect("invalid", { expectError: true, raw: true })) {

@@ -9,7 +9,6 @@
     "Timothy Gu <timothygu99@gmail.com>"
   ],
   "license": "W3C",
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.23.0",
     "eslint-plugin-import": "^2.22.1",
@@ -28,11 +27,13 @@
     "test": "npm run lint && webpack && mocha",
     "acquire": "node test/util/acquire.js",
     "build": "npx webpack",
-    "build-debug": "npx webpack --mode none"
+    "build-debug": "npx webpack --mode none",
+    "prepublishOnly": "npm run build"
   },
   "repository": "git://github.com/w3c/webidl2.js",
   "main": "dist/webidl2.js",
-  "module": "index.js",
+  "exports": "./index.js",
+  "type": "module",
   "files": [
     "dist/*",
     "lib/*",

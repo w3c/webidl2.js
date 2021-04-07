@@ -1,7 +1,5 @@
-"use strict";
-
-const expect = require("expect");
-const webidl2 = require("../dist/webidl2");
+import expect from "expect";
+import { parse } from "../index.js";
 
 function checkIdlType(idlType) {
   if (idlType.subtype) {
@@ -80,7 +78,7 @@ function checkParent(data) {
  * @param {string} idl
  */
 function parseAndCheck(idl) {
-  const tree = webidl2.parse(idl);
+  const tree = parse(idl);
   for (const item of tree) {
     checkParent(item);
   }
