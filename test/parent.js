@@ -1,5 +1,5 @@
 import expect from "expect";
-import { parse } from "../index.js";
+import { parse } from "webidl2";
 
 function checkIdlType(idlType) {
   if (idlType.subtype) {

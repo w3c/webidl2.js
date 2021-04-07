@@ -3,7 +3,7 @@
 //    are fully correct interpretations of the IDLs
 
 import { collect } from "./util/collect.js";
-import { parse, validate, WebIDLParseError } from "../index.js";
+import { parse, validate, WebIDLParseError } from "webidl2";
 import expect from "expect";
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {

@@ -1,6 +1,6 @@
 import { collect } from "./util/collect.js";
 import expect from "expect";
-import { write, parse } from "../index.js";
+import { write, parse } from "webidl2";
 
 describe("Rewrite and parses all of the IDLs to produce the same ASTs", () => {
   for (const test of collect("syntax")) {

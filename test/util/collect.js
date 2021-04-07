@@ -1,4 +1,4 @@
-import { parse, validate, WebIDLParseError } from "../../index.js";
+import { parse, validate, WebIDLParseError } from "webidl2";
 import { join, basename } from "path";
 import { readFileSync, readdirSync } from "fs";
 import { diff } from "jsondiffpatch";

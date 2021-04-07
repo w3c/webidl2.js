@@ -1,5 +1,5 @@
 import expect from "expect";
-import { parse, validate, write } from "../index.js";
+import { parse, validate, write } from "webidl2";
 
 describe("Writer template functions", () => {
   function autofix(idl) {
