@@ -1,4 +1,2 @@
-scratch
-node_modules
-lib-cov
-browser-tests.html
+node_modules/
+dist/
