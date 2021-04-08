@@ -1,4 +1,3 @@
-
 # webidl2.js
 
 [![NPM version](https://badge.fury.io/js/webidl2.svg)](http://badge.fury.io/js/webidl2) [![Known Vulnerabilities](https://snyk.io/test/github/w3c/webidl2.js/badge.svg)](https://snyk.io/test/github/w3c/webidl2.js/)
@@ -64,6 +63,7 @@ In the browser:
 
 * `concrete`: Boolean indicating whether the result should include [EOF](#end-of-file)
    node or not.
+* `productions`: An array with custom production functions. See [Custom productions](docs/custom-productions.md) for more information.
 * `sourceName`: The source name, typically a filename. [Errors](#errors) and validation
    objects can indicate their origin if you pass a value.
 
