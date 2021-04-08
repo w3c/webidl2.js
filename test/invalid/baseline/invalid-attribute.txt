@@ -1,0 +1,12 @@
+(attr-invalid-type) Validation error at line 3 in invalid-attribute.webidl, inside `interface sequenceAsAttribute -> attribute invalid`:
+  attribute sequence<short> invalid;
+                            ^ Attributes cannot accept sequence types.
+(attr-invalid-type) Validation error at line 9 in invalid-attribute.webidl, inside `interface recordAsAttribute -> attribute invalid`:
+<DOMString, DOMString> invalid;
+                       ^ Attributes cannot accept record types.
+(attr-invalid-type) Validation error at line 17 in invalid-attribute.webidl, inside `interface dictionaryAsAttribute -> attribute dict`:
+  attribute Dict dict;
+  ^ Attributes cannot accept dictionary types.
+(attr-invalid-type) Validation error at line 18 in invalid-attribute.webidl, inside `interface dictionaryAsAttribute -> attribute dictUnion`:
+  attribute (Dict or boolean
+  ^ Attributes cannot accept dictionary types.
