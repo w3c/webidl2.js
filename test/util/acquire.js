@@ -1,10 +1,8 @@
-"use strict";
-
-const { collect } = require("./collect.js");
-const fs = require("fs");
+import { collect } from "./collect.js";
+import { writeFileSync } from "fs";
 
 for (const test of collect("syntax")) {
-  fs.writeFileSync(test.baselinePath, `${JSON.stringify(test.ast, null, 4)}\n`);
+  writeFileSync(test.baselinePath, `${JSON.stringify(test.ast, null, 4)}\n`);
 }
 
 for (const test of collect("invalid", { expectError: true, raw: true })) {
@@ -13,5 +11,5 @@ for (const test of collect("invalid", { expectError: true, raw: true })) {
     test.validation ? test.validation.map(v => `(${v.ruleName}) ${v.message}`).join("\n") :
     "";
 
-  fs.writeFileSync(test.baselinePath, `${content}\n`);
+  writeFileSync(test.baselinePath, `${content}\n`);
 }
