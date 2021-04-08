@@ -1,18 +1,16 @@
-"use strict";
-
-const expect = require("expect");
-const webidl2 = require("../dist/webidl2.js");
+import expect from "expect";
+import { parse, validate, write } from "webidl2";
 
 describe("Writer template functions", () => {
   function autofix(idl) {
-    const ast = webidl2.parse(idl, { concrete: true });
-    const validations = webidl2.validate(ast);
+    const ast = parse(idl, { concrete: true });
+    const validations = validate(ast);
     for (const v of validations) {
       if (v.autofix) {
         v.autofix();
       }
     }
-    return webidl2.write(ast);
+    return write(ast);
   }
 
   it("should add `= {}`", () => {
