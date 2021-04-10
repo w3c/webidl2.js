@@ -13,7 +13,9 @@ describe("Parses all of the invalid IDLs to check that they blow up correctly", 
       if (test.error) {
         expect(test.error.message + "\n").toBe(err);
       } else if (test.validation) {
-        const messages = test.validation.map(v => `(${v.ruleName}) ${v.message}`).join("\n");
+        const messages = test.validation
+          .map((v) => `(${v.ruleName}) ${v.message}`)
+          .join("\n");
         expect(messages + "\n").toBe(err);
       } else {
         throw new Error("This test unexpectedly had no error");
@@ -74,7 +76,9 @@ describe("Error object structure", () => {
 
   it("should not contain sourceName field if nonexistent", () => {
     try {
-      parse("Answer to the Ultimate Question of Life, the Universe, and Everything");
+      parse(
+        "Answer to the Ultimate Question of Life, the Universe, and Everything"
+      );
       throw new Error("Shouldn't reach here");
     } catch ({ sourceName, message }) {
       expect(sourceName).toBeUndefined();
@@ -84,7 +88,9 @@ describe("Error object structure", () => {
 
   it("should contain correct sourceName field for validation position", () => {
     const x = parse("dictionary X {};");
-    const y = parse("interface Y { void y(optional X x); };", { sourceName: "interface.webidl" });
+    const y = parse("interface Y { void y(optional X x); };", {
+      sourceName: "interface.webidl",
+    });
     const validation = validate([x, y]);
     expect(validation[0].line).toBe(1);
     expect(validation[0].sourceName).toBe("interface.webidl");
