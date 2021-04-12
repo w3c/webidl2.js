@@ -16,19 +16,20 @@ export function* collect(base, { expectError, raw } = {}) {
   for (const path of idls) {
     try {
       const text = readFileSync(path, "utf8");
-      const ast = parse(text, { concrete: true, sourceName: basename(path.pathname) });
+      const ast = parse(text, {
+        concrete: true,
+        sourceName: basename(path.pathname),
+      });
       const validation = validate(ast);
       if (validation) {
         yield new TestItem({ text, ast, path, validation, raw });
       } else {
         yield new TestItem({ text, ast, path, raw });
       }
-    }
-    catch (error) {
+    } catch (error) {
       if (expectError && error instanceof WebIDLParseError) {
         yield new TestItem({ path, error, raw });
-      }
-      else {
+      } else {
         throw error;
       }
     }
