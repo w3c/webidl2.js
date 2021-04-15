@@ -35,7 +35,10 @@
   },
   "repository": "git://github.com/w3c/webidl2.js",
   "main": "dist/webidl2.js",
-  "exports": "./index.js",
+  "exports": {
+    "import": "./index.js",
+    "require": "./dist/webidl2.js"
+  },
   "type": "module",
   "files": [
     "dist/*",
