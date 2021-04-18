@@ -299,7 +299,9 @@ describe("Writer template functions", () => {
         [LenientSetter] readonly attribute DOMString lenientSetter;
         [LenientThis] readonly attribute DOMString lenientThis;
         attribute [TreatNullAs] DOMString treatNullAs;
+        undefined treatNullAsOp([TreatNullAs] DOMString str);
         [Unforgeable] readonly attribute DOMString unforgeable;
+        [Unforgeable] DOMString unforgeableOp();
       };
 
       [TreatNonObjectAsNull]
@@ -314,7 +316,9 @@ describe("Writer template functions", () => {
         [LegacyLenientSetter] readonly attribute DOMString lenientSetter;
         [LegacyLenientThis] readonly attribute DOMString lenientThis;
         attribute [LegacyNullToEmptyString] DOMString treatNullAs;
+        undefined treatNullAsOp([LegacyNullToEmptyString] DOMString str);
         [LegacyUnforgeable] readonly attribute DOMString unforgeable;
+        [LegacyUnforgeable] DOMString unforgeableOp();
       };
 
       [LegacyTreatNonObjectAsNull]
