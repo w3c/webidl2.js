@@ -1,24 +1,27 @@
-(no-nullable-dict-arg) Validation error at line 13 in argument-dict-nullable.webidl, inside `interface X -> operation x1 -> argument dict`:
+(no-nullable-union-dict) Validation error at line 13 in argument-dict-nullable.webidl, inside `interface X -> operation x1 -> argument dict -> argument-type`:
+  undefined x1(optional Dict? dict);
+                        ^ A dictionary type can never be nullable
+(dict-arg-default) Validation error at line 13 in argument-dict-nullable.webidl, inside `interface X -> operation x1 -> argument dict`:
  x1(optional Dict? dict);
-                   ^ Dictionary arguments cannot be nullable.
-(no-nullable-dict-arg) Validation error at line 14 in argument-dict-nullable.webidl, inside `interface X -> operation x2 -> argument dict`:
- x2(optional Dict? dict = {})
-                   ^ Dictionary arguments cannot be nullable.
-(no-nullable-union-dict) Validation error at line 15 in argument-dict-nullable.webidl:
+                   ^ Optional dictionary arguments must have a default value of `{}`.
+(no-nullable-union-dict) Validation error at line 14 in argument-dict-nullable.webidl, inside `interface X -> operation x2 -> argument dict -> argument-type`:
+  undefined x2(optional Dict? dict = {
+                        ^ A dictionary type can never be nullable
+(no-nullable-union-dict) Validation error at line 15 in argument-dict-nullable.webidl, inside `interface X -> operation y2 -> argument union -> argument-type`:
 (optional (boolean or Dict)? union =
-                      ^ Nullable union cannot include a dictionary type.
-(no-nullable-dict-arg) Validation error at line 15 in argument-dict-nullable.webidl, inside `interface X -> operation y2 -> argument union`:
-boolean or Dict)? union = {})
-                  ^ Dictionary arguments cannot be nullable.
-(no-nullable-union-dict) Validation error at line 16 in argument-dict-nullable.webidl:
+                      ^ A dictionary type can never be nullable
+(no-nullable-union-dict) Validation error at line 16 in argument-dict-nullable.webidl, inside `interface X -> operation y3 -> argument union -> argument-type`:
+(optional (boolean or Dict?) union)
+                      ^ A dictionary type can never be nullable
+(no-nullable-union-dict) Validation error at line 17 in argument-dict-nullable.webidl, inside `interface X -> operation z2 -> argument union -> argument-type`:
   undefined z2(optional Union? union = {
-                        ^ Nullable union cannot include a dictionary type.
-(no-nullable-dict-arg) Validation error at line 16 in argument-dict-nullable.webidl, inside `interface X -> operation z2 -> argument union`:
- z2(optional Union? union = {})
-                    ^ Dictionary arguments cannot be nullable.
-(no-nullable-dict-arg) Validation error at line 17 in argument-dict-nullable.webidl, inside `interface X -> operation r -> argument req`:
+                        ^ A dictionary type can never be nullable
+(no-nullable-union-dict) Validation error at line 18 in argument-dict-nullable.webidl, inside `interface X -> operation r -> argument req -> argument-type`:
   undefined r(Required? req);
-                        ^ Dictionary arguments cannot be nullable.
-(no-nullable-dict-arg) Validation error at line 19 in argument-dict-nullable.webidl, inside `interface X -> iterable -> argument dict`:
+              ^ A dictionary type can never be nullable
+(no-nullable-union-dict) Validation error at line 20 in argument-dict-nullable.webidl, inside `interface X -> iterable -> argument dict -> argument-type`:
+<DOMString>(optional Dict? dict);
+                     ^ A dictionary type can never be nullable
+(dict-arg-default) Validation error at line 20 in argument-dict-nullable.webidl, inside `interface X -> iterable -> argument dict`:
 >(optional Dict? dict);
-                 ^ Dictionary arguments cannot be nullable.
+                 ^ Optional dictionary arguments must have a default value of `{}`.

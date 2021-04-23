@@ -1,6 +1,6 @@
-(incomplete-op) Validation error at line 3 in operation-nameless.webidl:
+(incomplete-op) Validation error at line 3 in operation-nameless.webidl, inside `interface Anonymity -> operation`:
   copy();
       ^ Regular or static operations must have both a return type and an identifier.
-(incomplete-op) Validation error at line 4 in operation-nameless.webidl:
+(incomplete-op) Validation error at line 4 in operation-nameless.webidl, inside `interface Anonymity -> operation`:
   static create();
                ^ Regular or static operations must have both a return type and an identifier.
