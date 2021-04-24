@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "x",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -23,7 +23,7 @@
                 "type": "attribute",
                 "name": "y",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -42,14 +42,14 @@
         "type": "typedef",
         "name": "PointSequence",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "sequence",
             "nullable": false,
             "union": false,
             "idlType": [
                 {
-                    "type": "typedef-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -69,7 +69,7 @@
                 "type": "attribute",
                 "name": "topleft",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -84,7 +84,7 @@
                 "type": "attribute",
                 "name": "bottomright",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -108,7 +108,7 @@
                 "type": "attribute",
                 "name": "bounds",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -123,7 +123,7 @@
                 "type": "operation",
                 "name": "pointWithinBounds",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -136,7 +136,7 @@
                         "name": "p",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -155,7 +155,7 @@
                 "type": "operation",
                 "name": "allPointsWithinBounds",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -168,7 +168,7 @@
                         "name": "ps",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -191,7 +191,7 @@
         "type": "typedef",
         "name": "value",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [
                 {
                     "type": "extended-attribute",

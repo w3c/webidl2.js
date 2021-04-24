@@ -27,7 +27,7 @@
                 "type": "attribute",
                 "name": "type",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -42,7 +42,7 @@
                 "type": "attribute",
                 "name": "size",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -57,7 +57,7 @@
                 "type": "operation",
                 "name": "initialize",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -70,7 +70,7 @@
                         "name": "type",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -86,7 +86,7 @@
                         "name": "size",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

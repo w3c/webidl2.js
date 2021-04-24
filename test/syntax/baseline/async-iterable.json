@@ -8,7 +8,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -16,7 +16,7 @@
                         "idlType": "long"
                     },
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -42,7 +42,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [
                             {
                                 "type": "extended-attribute",
@@ -57,7 +57,7 @@
                         "idlType": "DOMString"
                     },
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [
                             {
                                 "type": "extended-attribute",
@@ -90,7 +90,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -98,7 +98,7 @@
                         "idlType": "float"
                     },
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -124,7 +124,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -132,7 +132,7 @@
                         "idlType": "float"
                     },
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -146,7 +146,7 @@
                         "name": "str",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -175,7 +175,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -201,7 +201,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -227,7 +227,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -241,7 +241,7 @@
                         "name": "str",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -257,7 +257,7 @@
                         "name": "s",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "unit",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -23,7 +23,7 @@
                 "type": "operation",
                 "name": "dotProduct",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -36,7 +36,7 @@
                         "name": "x",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -52,7 +52,7 @@
                         "name": "y",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -71,7 +71,7 @@
                 "type": "operation",
                 "name": "crossProduct",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -84,7 +84,7 @@
                         "name": "x",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -100,7 +100,7 @@
                         "name": "y",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

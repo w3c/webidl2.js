@@ -3,14 +3,14 @@
         "type": "typedef",
         "name": "TexImageSource",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "",
             "nullable": false,
             "union": true,
             "idlType": [
                 {
-                    "type": null,
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -18,7 +18,7 @@
                     "idlType": "ImageData"
                 },
                 {
-                    "type": null,
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -26,7 +26,7 @@
                     "idlType": "HTMLImageElement"
                 },
                 {
-                    "type": null,
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -34,7 +34,7 @@
                     "idlType": "HTMLCanvasElement"
                 },
                 {
-                    "type": null,
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

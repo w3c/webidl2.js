@@ -89,7 +89,7 @@ describe("Writer template functions", () => {
       "[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned  long> iro; };"
     );
     expect(result).toBe(
-      "[Exposed=<Window|Window|extended-attribute>] interface Momo : <Kudamono|Kudamono|interface> { attribute Promise<<unsigned  long|unsigned long|attribute-type>> iro; };"
+      "[Exposed=<Window|Window|extended-attribute>] interface Momo : <Kudamono|Kudamono|interface> { attribute Promise<<unsigned  long|unsigned long|idl-type>> iro; };"
     );
 
     const includes = rewriteReference("_A includes _B;");

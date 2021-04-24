@@ -8,7 +8,7 @@
                 "type": "setlike",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -34,7 +34,7 @@
                 "type": "setlike",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -60,7 +60,7 @@
                 "type": "setlike",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [
                             {
                                 "type": "extended-attribute",

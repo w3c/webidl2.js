@@ -223,7 +223,7 @@ attached to a field called `idlType`:
 
 ```JS
 {
-  "type": "attribute-type",
+  "type": "idl-type",
   "generic": "",
   "idlType": "unsigned short",
   "nullable": false,
@@ -234,7 +234,7 @@ attached to a field called `idlType`:
 
 Where the fields are as follows:
 
-* `type`: String indicating where this type is used. Can be `null` if not applicable.
+* `type`: Always `"idl-type"`.
 * `generic`: String indicating the generic type (e.g. "Promise", "sequence").
 * `idlType`: String indicating the type name, or array of subtypes if the type is
   generic or a union.
@@ -266,7 +266,7 @@ Interfaces look like this:
 
 The fields are as follows:
 
-* `type`: Always "interface".
+* `type`: Always `"interface"`.
 * `name`: The name of the interface.
 * `partial`: `true` if the type is a partial interface.
 * `members`: An array of interface members (attributes, operations, etc.). Empty if there are none.
@@ -297,7 +297,7 @@ Interfaces mixins look like this:
 
 The fields are as follows:
 
-* `type`: Always "interface mixin".
+* `type`: Always `"interface mixin"`.
 * `name`: The name of the interface mixin.
 * `inheritance`: Always `null`.
 * `partial`: `true if the type is a partial interface mixin.
@@ -321,7 +321,7 @@ Namespaces look like this:
 
 The fields are as follows:
 
-* `type`: Always "namespace".
+* `type`: Always `"namespace"`.
 * `name`: The name of the namespace.
 * `inheritance`: Always `null`.
 * `partial`: `true if the type is a partial namespace.
@@ -343,7 +343,7 @@ A callback looks like this:
   "type": "callback",
   "name": "AsyncOperationCallback",
   "idlType": {
-    "type": "return-type",
+    "type": "idl-type",
     "generic": "",
     "nullable": false,
     "union": false,
@@ -357,7 +357,7 @@ A callback looks like this:
 
 The fields are as follows:
 
-* `type`: Always "callback".
+* `type`: Always `"callback"`.
 * `name`: The name of the callback.
 * `idlType`: An [IDL Type](#idl-type) describing what the callback returns.
 * `arguments`: A list of [arguments](#arguments), as in function paramters.
@@ -377,7 +377,7 @@ A dictionary looks like this:
     "name": "fillPattern",
     "required": false,
     "idlType": {
-      "type": "dictionary-type",
+      "type": "idl-type",
       "generic": "",
       "nullable": true
       "union": false,
@@ -397,7 +397,7 @@ A dictionary looks like this:
 
 The fields are as follows:
 
-* `type`: Always "dictionary".
+* `type`: Always `"dictionary"`.
 * `name`: The dictionary name.
 * `partial`: `true` if the type is a partial dictionary.
 * `members`: An array of members (see below).
@@ -406,7 +406,7 @@ The fields are as follows:
 
 All the members are fields as follows:
 
-* `type`: Always "field".
+* `type`: Always `"field"`.
 * `name`: The name of the field.
 * `required`: `true` if the field is required.
 * `idlType`: An [IDL Type](#idl-type) describing what field's type.
@@ -441,7 +441,7 @@ An enum looks like this:
 
 The fields are as follows:
 
-* `type`: Always "enum".
+* `type`: Always `"enum"`.
 * `name`: The enum's name.
 * `values`: An array of values. The type of value is "enum-value".
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
@@ -454,13 +454,13 @@ A typedef looks like this:
 {
   "type": "typedef",
   "idlType": {
-    "type": "typedef-type",
+    "type": "idl-type",
     "generic": "sequence",
     "nullable": false,
     "union": false,
     "idlType": [
       {
-        "type": "typedef-type",
+        "type": "idl-type",
         "generic": "",
         "nullable": false,
         "union": false,
@@ -478,7 +478,7 @@ A typedef looks like this:
 
 The fields are as follows:
 
-* `type`: Always "typedef".
+* `type`: Always `"typedef"`.
 * `name`: The typedef's name.
 * `idlType`: An [IDL Type](#idl-type) describing what typedef's type.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
@@ -498,7 +498,7 @@ An includes definition looks like this:
 
 The fields are as follows:
 
-* `type`: Always "includes".
+* `type`: Always `"includes"`.
 * `target`: The interface that includes an interface mixin.
 * `includes`: The interface mixin that is being included by the target.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
@@ -512,7 +512,7 @@ An operation looks like this:
   "type": "operation",
   "special": "",
   "idlType": {
-    "type": "return-type",
+    "type": "idl-type",
     "generic": "",
     "nullable": false,
     "union": false,
@@ -526,7 +526,7 @@ An operation looks like this:
     "variadic": true,
     "extAttrs": [],
     "idlType": {
-      "type": "argument-type",
+      "type": "idl-type",
       "generic": "",
       "nullable": false,
       "union": false,
@@ -542,7 +542,7 @@ An operation looks like this:
 
 The fields are as follows:
 
-* `type`: Always "operation".
+* `type`: Always `"operation"`.
 * `special`: One of `"getter"`, `"setter"`, `"deleter"`, `"static"`, `"stringifier"`, or `""`.
 * `idlType`: An [IDL Type](#idl-type) of what the operation returns, if exists.
 * `name`: The name of the operation if exists.
@@ -563,7 +563,7 @@ A constructor operation member looks like this:
     "variadic": true,
     "extAttrs": [],
     "idlType": {
-      "type": "argument-type",
+      "type": "idl-type",
       "generic": "",
       "nullable": false,
       "union": false,
@@ -579,7 +579,7 @@ A constructor operation member looks like this:
 
 The fields are as follows:
 
-* `type`: Always "constructor".
+* `type`: Always `"constructor"`.
 * `arguments`: An array of [arguments](#arguments) for the constructor operation.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 * `parent`: The container of this type as an Object.
@@ -594,7 +594,7 @@ An attribute member looks like this:
   "special": "",
   "readonly": false,
   "idlType": {
-    "type": "attribute-type",
+    "type": "idl-type",
     "generic": "",
     "nullable": false,
     "union": false,
@@ -609,7 +609,7 @@ An attribute member looks like this:
 
 The fields are as follows:
 
-* `type`: Always "attribute".
+* `type`: Always `"attribute"`.
 * `name`: The attribute's name.
 * `special`: One of `"static"`, `"stringifier"`, `"inherit"`, or `""`.
 * `readonly`: `true` if the attribute is read-only.
@@ -625,7 +625,7 @@ A constant member looks like this:
 {
   "type": "const",
   "idlType": {
-    "type": "const-type",
+    "type": "idl-type",
     "generic": "",
     "nullable": false,
     "union": false,
@@ -644,7 +644,7 @@ A constant member looks like this:
 
 The fields are as follows:
 
-* `type`: Always "const".
+* `type`: Always `"const"`.
 * `idlType`: An [IDL Type](#idl-type) of the constant that represents a simple type, the type name.
 * `name`: The name of the constant.
 * `value`: The constant value as described by [Const Values](#default-and-const-values)
@@ -664,7 +664,7 @@ The arguments (e.g. for an operation) look like this:
     "variadic": true
     "extAttrs": []
     "idlType": {
-      "type": "argument-type",
+      "type": "idl-type",
       "generic": "",
       "nullable": false,
       "union": false,
@@ -785,7 +785,7 @@ This is needed for the writer to keep any comments or whitespaces at the end of 
 
 The fields are as follows:
 
-* `type`: Always "eof"
+* `type`: Always `"eof"`
 * `value`: Always an empty string.
 * `trivia`: Any whitespaces and comments after the last token and before the EOF.
 

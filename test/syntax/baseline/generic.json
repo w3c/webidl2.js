@@ -8,28 +8,28 @@
                 "type": "operation",
                 "name": "bar",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "Promise",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "return-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "sequence",
                                     "nullable": false,
                                     "union": false,
                                     "idlType": [
                                         {
-                                            "type": "return-type",
+                                            "type": "idl-type",
                                             "extAttrs": [],
                                             "generic": "",
                                             "nullable": true,
@@ -50,14 +50,14 @@
                 "type": "attribute",
                 "name": "baz",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "attribute-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -74,14 +74,14 @@
                 "type": "attribute",
                 "name": "frozen",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "FrozenArray",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "attribute-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -98,14 +98,14 @@
                 "type": "attribute",
                 "name": "observable",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "ObservableArray",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "attribute-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -131,14 +131,14 @@
                 "type": "operation",
                 "name": "getServiced",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": true,
@@ -155,14 +155,14 @@
                 "type": "operation",
                 "name": "reloadAll",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -188,14 +188,14 @@
                 "type": "operation",
                 "name": "default",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

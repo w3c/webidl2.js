@@ -116,7 +116,7 @@
                 "type": "attribute",
                 "name": "r",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -131,7 +131,7 @@
                 "type": "attribute",
                 "name": "cx",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -146,7 +146,7 @@
                 "type": "attribute",
                 "name": "cy",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -161,7 +161,7 @@
                 "type": "attribute",
                 "name": "circumference",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -190,7 +190,7 @@
                         "name": "radius",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -215,7 +215,7 @@
                 "type": "attribute",
                 "name": "attrib",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [
                         {
                             "type": "extended-attribute",
@@ -229,7 +229,7 @@
                     "union": true,
                     "idlType": [
                         {
-                            "type": null,
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -237,7 +237,7 @@
                             "idlType": "long"
                         },
                         {
-                            "type": null,
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

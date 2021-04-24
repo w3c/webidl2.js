@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "foo",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -21,21 +21,21 @@
                         "name": "param",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "record",
                                     "nullable": false,
                                     "union": false,
                                     "idlType": [
                                         {
-                                            "type": "argument-type",
+                                            "type": "idl-type",
                                             "extAttrs": [],
                                             "generic": "",
                                             "nullable": false,
@@ -43,7 +43,7 @@
                                             "idlType": "ByteString"
                                         },
                                         {
-                                            "type": "argument-type",
+                                            "type": "idl-type",
                                             "extAttrs": [],
                                             "generic": "",
                                             "nullable": false,
@@ -66,14 +66,14 @@
                 "type": "operation",
                 "name": "bar",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "record",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -81,14 +81,14 @@
                             "idlType": "DOMString"
                         },
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": true,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -96,7 +96,7 @@
                                     "idlType": "float"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -123,14 +123,14 @@
                         "name": "init",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "record",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -138,7 +138,7 @@
                                     "idlType": "USVString"
                                 },
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -165,14 +165,14 @@
                 "type": "operation",
                 "name": "bar",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "record",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -180,7 +180,7 @@
                             "idlType": "DOMString"
                         },
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [
                                 {
                                     "type": "extended-attribute",

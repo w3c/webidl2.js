@@ -17,7 +17,7 @@
                         "name": "radius",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -39,7 +39,7 @@
                         "name": "str",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -64,14 +64,14 @@
                         "name": "seq",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -95,14 +95,14 @@
                         "name": "union",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -110,7 +110,7 @@
                                     "idlType": "Type1"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -130,7 +130,7 @@
                 "type": "attribute",
                 "name": "r",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -145,7 +145,7 @@
                 "type": "attribute",
                 "name": "cx",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -160,7 +160,7 @@
                 "type": "attribute",
                 "name": "cy",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -175,7 +175,7 @@
                 "type": "attribute",
                 "name": "circumference",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

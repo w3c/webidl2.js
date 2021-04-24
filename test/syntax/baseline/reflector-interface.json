@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "toggle",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -39,7 +39,7 @@
                 "type": "attribute",
                 "name": "quarter",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -80,7 +80,7 @@
                 "type": "attribute",
                 "name": "span",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

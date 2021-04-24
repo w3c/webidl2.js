@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "includes",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

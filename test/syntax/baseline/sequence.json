@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "drawPolygon",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -21,14 +21,14 @@
                         "name": "coordinates",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -49,14 +49,14 @@
                 "type": "operation",
                 "name": "getInflectionPoints",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "sequence",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -82,7 +82,7 @@
                 "type": "operation",
                 "name": "f1",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -95,14 +95,14 @@
                         "name": "arg",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [
                                         {
                                             "type": "extended-attribute",

@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

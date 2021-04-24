@@ -9,7 +9,7 @@
                 "name": "fillPattern",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": true,
@@ -27,7 +27,7 @@
                 "name": "strokePattern",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": true,
@@ -44,7 +44,7 @@
                 "name": "position",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -68,7 +68,7 @@
                 "name": "hydrometry",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

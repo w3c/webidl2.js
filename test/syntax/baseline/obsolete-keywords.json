@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "implements",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -23,7 +23,7 @@
                 "type": "operation",
                 "name": "legacyiterable",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

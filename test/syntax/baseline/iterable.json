@@ -8,7 +8,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -34,7 +34,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": false,
@@ -42,7 +42,7 @@
                         "idlType": "short"
                     },
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [],
                         "generic": "",
                         "nullable": true,
@@ -68,7 +68,7 @@
                 "type": "iterable",
                 "idlType": [
                     {
-                        "type": null,
+                        "type": "idl-type",
                         "extAttrs": [
                             {
                                 "type": "extended-attribute",

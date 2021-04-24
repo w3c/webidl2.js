@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "bigint",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -23,7 +23,7 @@
                 "type": "operation",
                 "name": "getBig",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -38,7 +38,7 @@
                 "type": "operation",
                 "name": "setBig",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -51,7 +51,7 @@
                         "name": "big",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -90,7 +90,7 @@
                 "name": "big",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -105,7 +105,7 @@
                 "name": "another",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -123,14 +123,14 @@
         "type": "typedef",
         "name": "allowed",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "",
             "nullable": false,
             "union": true,
             "idlType": [
                 {
-                    "type": null,
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -138,7 +138,7 @@
                     "idlType": "bigint"
                 },
                 {
-                    "type": null,
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "-will-change",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [
                         {
                             "type": "extended-attribute",

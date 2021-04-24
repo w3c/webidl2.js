@@ -8,14 +8,14 @@
                 "type": "attribute",
                 "name": "meow",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

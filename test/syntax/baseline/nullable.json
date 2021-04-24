@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "namespaceURI",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": true,

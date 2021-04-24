@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "value",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -30,7 +30,7 @@
                 "type": "operation",
                 "name": "increment",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

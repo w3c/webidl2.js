@@ -9,7 +9,7 @@
                 "name": "fillPattern",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": true,
@@ -27,7 +27,7 @@
                 "name": "strokePattern",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": true,
@@ -44,7 +44,7 @@
                 "name": "position",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -59,14 +59,14 @@
                 "name": "seq",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "sequence",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "dictionary-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -86,7 +86,7 @@
                 "name": "reqSeq",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -101,7 +101,7 @@
                 "name": "dict",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -127,7 +127,7 @@
                 "name": "h",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -142,7 +142,7 @@
                 "name": "d",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

@@ -3,7 +3,7 @@
         "type": "typedef",
         "name": "number",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "",
             "nullable": false,
@@ -21,7 +21,7 @@
                 "type": "operation",
                 "name": "createObject",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -34,7 +34,7 @@
                         "name": "interface",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -53,7 +53,7 @@
                 "type": "operation",
                 "name": "",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -66,7 +66,7 @@
                         "name": "keyName",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -94,7 +94,7 @@
                 "type": "attribute",
                 "name": "const",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -109,7 +109,7 @@
                 "type": "attribute",
                 "name": "value",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": true,
@@ -133,7 +133,7 @@
                 "type": "operation",
                 "name": "addEventListener",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -146,7 +146,7 @@
                         "name": "callback",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": true,

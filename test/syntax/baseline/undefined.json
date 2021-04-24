@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "foo",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -23,21 +23,21 @@
                 "type": "operation",
                 "name": "bar",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "Promise",
                     "nullable": false,
                     "union": false,
                     "idlType": [
                         {
-                            "type": "return-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -45,7 +45,7 @@
                                     "idlType": "DOMString"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -64,7 +64,7 @@
                 "type": "operation",
                 "name": "baz",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -77,7 +77,7 @@
                         "name": "boo",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

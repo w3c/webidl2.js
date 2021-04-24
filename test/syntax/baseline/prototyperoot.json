@@ -8,7 +8,7 @@
                 "type": "attribute",
                 "name": "nodeType",
                 "idlType": {
-                    "type": "attribute-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

@@ -3,7 +3,7 @@
         "type": "typedef",
         "name": "EscapedType",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "",
             "nullable": false,
@@ -16,14 +16,14 @@
         "type": "typedef",
         "name": "EscapedSequence",
         "idlType": {
-            "type": "typedef-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "sequence",
             "nullable": false,
             "union": false,
             "idlType": [
                 {
-                    "type": "typedef-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

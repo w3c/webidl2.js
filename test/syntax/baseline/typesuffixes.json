@@ -8,7 +8,7 @@
                 "type": "operation",
                 "name": "test",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -21,14 +21,14 @@
                         "name": "foo",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "sequence",
                             "nullable": true,
                             "union": false,
                             "idlType": [
                                 {
-                                    "type": "argument-type",
+                                    "type": "idl-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": true,

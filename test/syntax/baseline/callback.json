@@ -3,7 +3,7 @@
         "type": "callback",
         "name": "AsyncOperationCallback",
         "idlType": {
-            "type": "return-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "",
             "nullable": false,
@@ -16,7 +16,7 @@
                 "name": "status",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "argument-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -39,7 +39,7 @@
                 "type": "operation",
                 "name": "eventOccurred",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -52,7 +52,7 @@
                         "name": "details",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -75,7 +75,7 @@
         "type": "callback",
         "name": "SortCallback",
         "idlType": {
-            "type": "return-type",
+            "type": "idl-type",
             "extAttrs": [],
             "generic": "",
             "nullable": false,
@@ -88,7 +88,7 @@
                 "name": "a",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "argument-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -104,7 +104,7 @@
                 "name": "b",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "argument-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,

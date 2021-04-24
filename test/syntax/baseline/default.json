@@ -9,7 +9,7 @@
                 "name": "caseSensitive",
                 "extAttrs": [],
                 "idlType": {
-                    "type": "dictionary-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -35,7 +35,7 @@
                 "type": "operation",
                 "name": "hasAddressForName",
                 "idlType": {
-                    "type": "return-type",
+                    "type": "idl-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
@@ -48,7 +48,7 @@
                         "name": "name",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -64,7 +64,7 @@
                         "name": "options",
                         "extAttrs": [],
                         "idlType": {
-                            "type": "argument-type",
+                            "type": "idl-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
