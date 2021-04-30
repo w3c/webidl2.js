@@ -1,3 +1,6 @@
+(no-nullable-union-dict) Validation error at line 22 in argument-dict-optional.webidl, inside `typedef NullableUnion -> typedef-type`:
+typedef (DOMString or Optional?) NullableUnion;
+                      ^ A dictionary type can never be nullable
 (dict-arg-optional) Validation error at line 25 in argument-dict-optional.webidl, inside `interface mixin Container -> operation op1 -> argument shouldBeOptional`:
   undefined op1(Optional shouldBeOptional);
                          ^ Dictionary argument must be optional if it has no required fields
