@@ -23,15 +23,14 @@ declare function factory(
 The tokeniser object has the following form:
 
 ```ts
-enum TokenType {
-  "decimal",
-  "integer",
-  "identifier",
-  "string",
-  "whitespace",
-  "comment",
-  "other",
-}
+type TokenType =
+  | "decimal"
+  | "integer"
+  | "identifier"
+  | "string"
+  | "whitespace"
+  | "comment"
+  | "other";
 
 interface Tokeniser {
   /**
