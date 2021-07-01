@@ -26,38 +26,6 @@
                             "generic": "",
                             "nullable": false,
                             "union": false,
-                            "idlType": "ArrayBuffer"
-                        },
-                        "default": null,
-                        "optional": false,
-                        "variadic": false
-                    }
-                ],
-                "extAttrs": [],
-                "special": ""
-            },
-            {
-                "type": "operation",
-                "name": "add",
-                "idlType": {
-                    "type": "return-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "undefined"
-                },
-                "arguments": [
-                    {
-                        "type": "argument",
-                        "name": "view",
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "extAttrs": [],
-                            "generic": "",
-                            "nullable": false,
-                            "union": false,
                             "idlType": "DataView"
                         },
                         "default": null,
@@ -82,7 +50,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -114,7 +82,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -146,7 +114,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -178,7 +146,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -210,7 +178,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -242,7 +210,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -274,7 +242,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -306,7 +274,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -338,7 +306,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -370,7 +338,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -402,7 +370,7 @@
                 "arguments": [
                     {
                         "type": "argument",
-                        "name": "view",
+                        "name": "array",
                         "extAttrs": [],
                         "idlType": {
                             "type": "argument-type",
@@ -443,6 +411,70 @@
                             "nullable": false,
                             "union": false,
                             "idlType": "BufferSource"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "addBuffer",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "undefined"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "buffer",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "ArrayBuffer"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "addView",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "undefined"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "view",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "ArrayBufferView"
                         },
                         "default": null,
                         "optional": false,
