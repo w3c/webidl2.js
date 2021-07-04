@@ -337,7 +337,7 @@ The fields are as follows:
 * `name`: The name of the namespace.
 * `inheritance`: Always `null`.
 * `partial`: `true if the type is a partial namespace.
-* `members`: An array of namespace members (attributes and operations). Empty if there are none.
+* `members`: An array of namespace members (attributes, constants, and operations). Empty if there are none.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
