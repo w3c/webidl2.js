@@ -3,6 +3,7 @@ namespace VectorUtils {
   readonly attribute Vector unit;
   double dotProduct(Vector x, Vector y);
   Vector crossProduct(Vector x, Vector y);
+  const short CONST = 3;
 };
 
 partial namespace SomeNamespace {
