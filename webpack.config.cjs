@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     library: "WebIDL2",
     libraryTarget: "umd",
-    globalObject: "this"
+    globalObject: "globalThis"
   },
   mode: "production",
   devtool: "source-map",

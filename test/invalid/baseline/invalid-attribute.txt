@@ -6,7 +6,7 @@
                        ^ Attributes cannot accept record types.
 (attr-invalid-type) Validation error at line 17 in invalid-attribute.webidl, inside `interface dictionaryAsAttribute -> attribute dict`:
   attribute Dict dict;
-  ^ Attributes cannot accept dictionary types.
+            ^ Attributes cannot accept dictionary types.
 (attr-invalid-type) Validation error at line 18 in invalid-attribute.webidl, inside `interface dictionaryAsAttribute -> attribute dictUnion`:
-  attribute (Dict or boolean
-  ^ Attributes cannot accept dictionary types.
+  attribute (Dict or boolean) dictUnion
+             ^ Attributes cannot accept dictionary types.
