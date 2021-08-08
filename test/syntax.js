@@ -27,6 +27,6 @@ describe("Newlines", () => {
   it("should match CRLF within a comment", () => {
     const comment = "/*\r\n * this comment is multiline with CRLF\r\n*/";
     const parsed = parse(comment, { concrete: true });
-    expect(parsed[0].trivia).toBe(comment);
+    expect(parsed[0].tokens.value.trivia).toBe(comment);
   });
 });
