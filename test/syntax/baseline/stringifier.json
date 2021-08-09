@@ -41,7 +41,6 @@
     },
     {
         "type": "eof",
-        "value": "",
-        "trivia": ""
+        "value": ""
     }
 ]
