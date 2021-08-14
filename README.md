@@ -325,14 +325,13 @@ The fields are as follows:
 * `name`: The name of the namespace.
 * `inheritance`: Always `null`.
 * `partial`: `true if the type is a partial namespace.
-* `members`: An array of namespace members (attributes and operations). Empty if there are none.
+* `members`: An array of namespace members (attributes, constants, and operations). Empty if there are none.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 
 ### Callback Interfaces
 
 These are captured by the same structure as [Interfaces](#interface) except that
-their `type` field is "callback interface". Its trivia object additionally
-includes a new field `callback`.
+their `type` field is "callback interface".
 
 ### Callback
 
@@ -775,8 +774,7 @@ The fields are as follows:
 ```js
 {
   "type": "eof",
-  "value": "",
-  "trivia": "\n"
+  "value": ""
 }
 ```
 
@@ -787,7 +785,6 @@ The fields are as follows:
 
 * `type`: Always "eof"
 * `value`: Always an empty string.
-* `trivia`: Any whitespaces and comments after the last token and before the EOF.
 
 ## Testing
 
