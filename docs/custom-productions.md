@@ -49,7 +49,7 @@ interface Tokeniser {
   /**
    * Checks whether a token exists without consuming it.
    */
-  probeType(type: TokenType): boolean;
+  probeKind(type: TokenType): boolean;
   /**
    * Checks whether an inline token exists without consuming it.
    * @example `probe("interface")`
