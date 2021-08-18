@@ -167,7 +167,6 @@
     },
     {
         "type": "eof",
-        "value": "",
-        "trivia": "\n"
+        "value": ""
     }
 ]
