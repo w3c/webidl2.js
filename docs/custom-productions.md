@@ -59,7 +59,7 @@ interface Tokeniser {
    * Consumes a token if exists, or returns null.
    * Pass multiple token types to consume one of them.
    */
-  consumeType(...candidates: TokenType[]);
+  consumeKind(...candidates: TokenType[]);
   /**
    * Consumes an inline token if exists, or returns null.
    * Pass multiple token types to consume one of them.

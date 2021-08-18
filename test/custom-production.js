@@ -19,7 +19,7 @@ describe("Writer template functions", () => {
       return;
     }
     const tokens = { base };
-    tokens.name = tokeniser.consumeType("identifier");
+    tokens.name = tokeniser.consumeKind("identifier");
     tokens.termination = tokeniser.consume(";");
     if (!tokens.name || !tokens.termination) {
       tokeniser.unconsume(position);
