@@ -1,0 +1,3 @@
+Syntax error at line 1 in bigint64array-keyword.webidl:
+interface BigInt64Array {};
+          ^ Missing name in interface

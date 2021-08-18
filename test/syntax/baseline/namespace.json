@@ -114,6 +114,23 @@
                 ],
                 "extAttrs": [],
                 "special": ""
+            },
+            {
+                "type": "const",
+                "name": "CONST",
+                "idlType": {
+                    "type": "const-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "short"
+                },
+                "extAttrs": [],
+                "value": {
+                    "type": "number",
+                    "value": "3"
+                }
             }
         ],
         "extAttrs": [],
@@ -137,7 +154,6 @@
     },
     {
         "type": "eof",
-        "value": "",
-        "trivia": "\n"
+        "value": ""
     }
 ]

@@ -94,6 +94,13 @@ describe("Writer template functions", () => {
 
     const includes = rewriteReference("_A includes _B;");
     expect(includes).toBe("<_A|A|includes> includes <_B|B|includes>;");
+
+    const extAttrList = rewriteReference(
+      "[Exposed=(Window, Worker)] interface Sekai {};"
+    );
+    expect(extAttrList).toBe(
+      "[Exposed=(<Window|Window|extended-attribute>, <Worker|Worker|extended-attribute>)] interface Sekai {};"
+    );
   });
 
   it("catches references as unescaped", () => {
