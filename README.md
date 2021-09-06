@@ -9,7 +9,7 @@ This is a parser for [Web IDL](https://heycam.github.io/webidl/), a language
 [to specify web APIs in interoperable way](https://heycam.github.io/webidl/#introduction).
 This library supports both Node.js and the browser environment.
 
-Try the online checker [here](/checker).
+Try the online checker [here](https://w3c.github.io/webidl2.js/checker/).
 
 ## Installation
 
