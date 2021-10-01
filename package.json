@@ -16,7 +16,7 @@
     "eslint-plugin-prettier": "^4.0.0",
     "expect": "^27.1.0",
     "jsondiffpatch": "^0.4.1",
-    "mocha": "^9.1.1",
+    "mocha": "^9.1.2",
     "prettier": "^2.3.2",
     "terser-webpack-plugin": "^5.2.0",
     "typescript": "^4.4.2",
