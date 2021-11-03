@@ -726,6 +726,7 @@ Extended attributes look like this:
    * `"decimal-list"`
    * `"integer"`
    * `"integer-list"`
+   * `"*"`
 * `parent`: The container of this type as an Object.
 
 ### Default and Const Values

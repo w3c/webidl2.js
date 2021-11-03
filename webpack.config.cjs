@@ -1,5 +1,5 @@
 const path = require("path");
-const TerserPlugin = require('terser-webpack-plugin');
+const TerserPlugin = require("terser-webpack-plugin");
 module.exports = {
   entry: "./index.js",
   output: {
@@ -7,7 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, "dist"),
     library: "WebIDL2",
     libraryTarget: "umd",
-    globalObject: "globalThis"
+    globalObject: "globalThis",
   },
   mode: "production",
   devtool: "source-map",
@@ -16,9 +16,9 @@ module.exports = {
       new TerserPlugin({
         terserOptions: {
           keep_classnames: true,
-          sourceMap: true
-        }
-      })
-    ]
-  }
+          sourceMap: true,
+        },
+      }),
+    ],
+  },
 };
