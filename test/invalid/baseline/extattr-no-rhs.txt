@@ -1,0 +1,3 @@
+Syntax error at line 1 in extattr-no-rhs.webidl:
+[Exposed=]
+         ^ No right hand side to extended attribute assignment
