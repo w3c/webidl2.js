@@ -1,91 +1,85 @@
 <!DOCTYPE html>
-<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>WebIDL 2 Checker</title>
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>WebIDL 2 Checker</title>
+<script type="module">
+  import { parse, validate, write } from "../index.js";
 
-  <script type="module">
-    import { parse, validate, write } from "../index.js";
-
-    function formatParserOutput(parserResult) {
-      const outputEl = document.getElementById("webidl-checker-output");
-      if (parserResult) {
-        const prettyPrintEl = document.getElementById("pretty-print");
-        outputEl.textContent = JSON.stringify(parserResult, null, prettyPrintEl.checked ? 2 : null);
-      } else {
-        outputEl.textContent = "";
-      }
+  function formatParserOutput(parserResult) {
+    const outputEl = document.getElementById("webidl-checker-output");
+    if (parserResult) {
+      const prettyPrintEl = document.getElementById("pretty-print");
+      outputEl.textContent = JSON.stringify(parserResult, null, prettyPrintEl.checked ? 2 : null);
+    } else {
+      outputEl.textContent = "";
     }
+  }
 
-    function checkWebIDL(textToCheck) {
-      const validation = document.getElementById("webidl-checker-validation");
-      const autofix = document.getElementById("webidl-checker-autofix");
-      let parserResult = null;
-      try {
-        parserResult = parse(textToCheck);
-        const validationResult = validate(parserResult);
-        validation.textContent = validationResult.map(v => v.message).join("\n\n") || "WebIDL parsed successfully!";
-        if (autofix.checked) {
-          for (const v of validationResult) {
-            if (v.autofix) {
-              v.autofix();
-            }
+  function checkWebIDL(textToCheck) {
+    const validation = document.getElementById("webidl-checker-validation");
+    const autofix = document.getElementById("webidl-checker-autofix");
+    let parserResult = null;
+    try {
+      parserResult = parse(textToCheck);
+      const validationResult = validate(parserResult);
+      validation.textContent = validationResult.map(v => v.message).join("\n\n") || "WebIDL parsed successfully!";
+      if (autofix.checked) {
+        for (const v of validationResult) {
+          if (v.autofix) {
+            v.autofix();
           }
-          return write(parserResult);
         }
-      } catch (e) {
-        validation.textContent = "Exception while parsing WebIDL. See JavaScript console for more details.\n\n" + e.toString();
-        // Pass it along to the JavaScript console.
-        throw e;
-      } finally {
-        formatParserOutput(parserResult);
+        return write(parserResult);
       }
+    } catch (e) {
+      validation.textContent = "Exception while parsing WebIDL. See JavaScript console for more details.\n\n" + e.toString();
+      // Pass it along to the JavaScript console.
+      throw e;
+    } finally {
+      formatParserOutput(parserResult);
     }
+  }
 
-    document.addEventListener("DOMContentLoaded", () => {
-      document.getElementById("check-idl").addEventListener("click", () => {
-        const inputElement = document.getElementById("webidl-to-check");
-        const autofixed = checkWebIDL(inputElement.value);
-        if (autofixed) {
-          inputElement.value = autofixed;
-        }
-      });
-      document.getElementById("pretty-print").addEventListener("change", formatParserOutput);
+  document.addEventListener("DOMContentLoaded", () => {
+    document.getElementById("check-idl").addEventListener("click", () => {
+      const inputElement = document.getElementById("webidl-to-check");
+      const autofixed = checkWebIDL(inputElement.value);
+      if (autofixed) {
+        inputElement.value = autofixed;
+      }
     });
-  </script>
-  <style>
-    html {
-      font-family: sans-serif;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    body, textarea {
-      max-width: 100%;
-    }
-    textarea {
-      font-family: monospace;
-    }
-  </style>
-</head>
+    document.getElementById("pretty-print").addEventListener("change", formatParserOutput);
+  });
+</script>
+<style>
+  html {
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-<body>
-  <h1>WebIDL Checker</h1>
-  <p>This is an online checker for WebIDL built on the <a href="https://github.com/w3c/webidl2.js">webidl2.js</a>
-    project.</p>
-  <p>Enter your WebIDL to check below:</p>
-  <textarea id="webidl-to-check" rows="20" cols="80" spellcheck="false"></textarea>
-  <br>
-  <input type="button" id="check-idl" value="Check WebIDL">
-  <label><input type="checkbox" id="webidl-checker-autofix"> Autofix WebIDL</label>
-  <p>Validation results:</p>
-  <textarea id="webidl-checker-validation" rows="20" cols="80" spellcheck="false"></textarea>
-  <p>Parser output:</p>
-  <textarea id="webidl-checker-output" rows="20" cols="80" spellcheck="false"></textarea>
-  <br>
-  <input type="checkbox" id="pretty-print" checked="true">Pretty Print
-</body>
+  body,
+  textarea {
+    max-width: 100%;
+  }
 
-</html>
+  textarea {
+    font-family: monospace;
+  }
+</style>
+<h1>WebIDL Checker</h1>
+<p>This is an online checker for WebIDL built on the <a href="https://github.com/w3c/webidl2.js">webidl2.js</a>
+  project.</p>
+<p>Enter your WebIDL to check below:</p>
+<textarea id="webidl-to-check" rows="20" cols="80" spellcheck="false"></textarea>
+<br>
+<input type="button" id="check-idl" value="Check WebIDL">
+<label><input type="checkbox" id="webidl-checker-autofix"> Autofix WebIDL</label>
+<p>Validation results:</p>
+<textarea id="webidl-checker-validation" rows="20" cols="80" spellcheck="false"></textarea>
+<p>Parser output:</p>
+<textarea id="webidl-checker-output" rows="20" cols="80" spellcheck="false"></textarea>
+<br>
+<input type="checkbox" id="pretty-print" checked="true">Pretty Print
