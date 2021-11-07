@@ -1,0 +1,3 @@
+Syntax error at line 1 in extattr-empty.webidl:
+[]
+ ^ An extended attribute list must not be empty
