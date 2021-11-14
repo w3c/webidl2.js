@@ -1,0 +1,3 @@
+Syntax error at line 1 in extattr-invalid-rhs.webidl:
+[Exposed=*/]
+          ^ Expected a closing token for the extended attribute list

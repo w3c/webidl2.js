@@ -1,0 +1,2 @@
+[Exposed=*/]
+interface Foo {};
