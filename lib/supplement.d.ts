@@ -3,6 +3,7 @@ import { Type } from "./productions/type.js";
 import { Default } from "./productions/default.js";
 import { Token } from "./tokeniser.js";
 import { Argument } from "./productions/argument.js";
+import { WrappedToken } from "./productions/token.js";
 import { Base } from "./productions/base.js";
 import { Definitions } from "./validator.js";
 import { Writer } from "./writer.js";
@@ -73,6 +74,15 @@ declare module "./productions/enum.js" {
   }
 }
 
+declare module "./productions/extended-attributes.js" {
+  interface ExtendedAttributeParameters {
+    list: WrappedToken[] | Argument[];
+  }
+  interface SimpleExtendedAttribute {
+    params: ExtendedAttributeParameters;
+  }
+}
+
 declare module "./productions/base.js" {
   interface Base {
     tokens: Record<string, Token | undefined>;
@@ -83,6 +93,14 @@ declare module "./productions/base.js" {
 
     validate?(defs: Definitions): IterableIterator<any>;
     write(w: Writer): any;
+  }
+}
+
+declare module "./productions/array-base.js" {
+  interface ArrayBase {
+    tokens: Record<string, Token | undefined>;
+    source: Token[];
+    parent?: any;
   }
 }
 
