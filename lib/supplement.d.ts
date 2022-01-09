@@ -56,9 +56,12 @@ declare module "./productions/constructor.js" {
 }
 
 declare module "./productions/container.js" {
+  interface TypedBase extends Base {
+    type: string
+  }
   interface Container {
     type: string;
-    members: Base[];
+    members: RootType[];
   }
 }
 
@@ -71,6 +74,33 @@ declare module "./productions/default.js" {
 declare module "./productions/enum.js" {
   interface Enum {
     values: EnumValue[];
+  }
+}
+
+declare module "./productions/field.js" {
+  interface Field {
+    idlType: Type;
+    default: Default | null;
+  }
+}
+
+declare module "./productions/iterable.js" {
+  interface IterableLike {
+    idlType: Type[];
+    arguments: Argument[];
+  }
+}
+
+declare module "./productions/operation.js" {
+  interface Operation {
+    idlType: Type;
+    arguments: Argument[];
+  }
+}
+
+declare module "./productions/typedef.js" {
+  interface Typedef {
+    idlType: Type;
   }
 }
 
@@ -111,6 +141,7 @@ declare module "./productions/type.js" {
      * See https://github.com/w3c/webidl2.js/issues/537 and https://github.com/w3c/webidl2.js/issues/297.
      */
     type: string | null;
+    subtype: Type[];
   }
 }
 
