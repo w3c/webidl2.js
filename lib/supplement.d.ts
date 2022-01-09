@@ -11,6 +11,8 @@ import { Writer } from "./writer.js";
 declare module "./tokeniser.js" {
   interface Tokeniser {
     current: any;
+    // TODO: This somehow causes fatal error on typescript
+    // source: Token[] & { name?: string };
   }
 }
 
