@@ -1,4 +1,4 @@
-import expect from "expect";
+import { expect } from "expect";
 import { parse, validate, write } from "webidl2";
 
 describe("Writer template functions", () => {

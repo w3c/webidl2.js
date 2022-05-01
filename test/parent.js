@@ -1,4 +1,4 @@
-import expect from "expect";
+import { expect } from "expect";
 import { parse } from "webidl2";
 
 function checkIdlType(idlType) {

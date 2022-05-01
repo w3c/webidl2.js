@@ -1,6 +1,6 @@
 "use strict";
 
-import expect from "expect";
+import { expect } from "expect";
 import { parse, write } from "webidl2";
 
 describe("Writer template functions", () => {

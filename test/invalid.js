@@ -4,7 +4,7 @@
 
 import { collect } from "./util/collect.js";
 import { parse, validate, WebIDLParseError } from "webidl2";
-import expect from "expect";
+import { expect } from "expect";
 
 describe("Parses all of the invalid IDLs to check that they blow up correctly", () => {
   for (const test of collect("invalid", { expectError: true, raw: true })) {
