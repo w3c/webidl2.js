@@ -40,3 +40,18 @@ interface WebGL2RenderingContext
 };
 WebGL2RenderingContext includes WebGLRenderingContextBase;
 WebGL2RenderingContext includes WebGL2RenderingContextBase;
+
+[Exposed=*]
+interface Test {
+  undefined valid();
+};
+
+partial interface Test {
+  static undefined valid();
+
+  static undefined invalid();
+};
+
+partial interface Test {
+  static undefined invalid();
+};
