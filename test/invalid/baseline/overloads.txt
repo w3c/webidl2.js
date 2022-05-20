@@ -16,3 +16,6 @@
 (no-cross-overload) Validation error at line 26 in overloads.webidl, inside `interface mixin WebGL2RenderingContextBase`:
   undefined bufferData(GLenum target,
             ^ The operation "bufferData" has already been defined for the base interface "WebGL2RenderingContext" either in itself or in a mixin
+(no-cross-overload) Validation error at line 56 in overloads.webidl, inside `partial interface Test`:
+  static undefined invalid();
+                   ^ The static operation "invalid" has already been defined for the base interface "Test" either in itself or in a mixin
