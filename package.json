@@ -8,6 +8,9 @@
     "Kagami Sascha Rosylight <saschaplas@outlook.com>",
     "Timothy Gu <timothygu99@gmail.com>"
   ],
+  "engines": {
+    "node": ">= 14"
+  },
   "license": "W3C",
   "devDependencies": {
     "eslint": "^8.24.0",
