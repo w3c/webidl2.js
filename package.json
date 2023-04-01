@@ -13,17 +13,17 @@
   },
   "license": "W3C",
   "devDependencies": {
-    "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint": "^8.37.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
-    "expect": "^29.4.3",
+    "expect": "^29.5.0",
     "jsondiffpatch": "^0.4.1",
     "mocha": "^10.2.0",
-    "prettier": "^2.8.4",
-    "terser-webpack-plugin": "^5.3.6",
+    "prettier": "^2.8.7",
+    "terser-webpack-plugin": "^5.3.7",
     "typescript": "^5.1.0-dev.20230305",
-    "webpack": "^5.75.0",
+    "webpack": "^5.77.0",
     "webpack-cli": "^5.0.1"
   },
   "scripts": {
