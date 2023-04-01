@@ -14,7 +14,7 @@
   "license": "W3C",
   "devDependencies": {
     "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "expect": "^29.4.3",
