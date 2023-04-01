@@ -20,7 +20,7 @@
     "expect": "^29.4.3",
     "jsondiffpatch": "^0.4.1",
     "mocha": "^10.2.0",
-    "prettier": "^2.8.4",
+    "prettier": "^2.8.7",
     "terser-webpack-plugin": "^5.3.6",
     "typescript": "^5.1.0-dev.20230305",
     "webpack": "^5.75.0",
