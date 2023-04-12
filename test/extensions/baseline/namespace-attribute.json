@@ -1,0 +1,30 @@
+[
+  {
+    "type": "namespace",
+    "name": "WebrtcGlobalInformation",
+    "inheritance": null,
+    "members": [
+      {
+        "type": "attribute",
+        "name": "debugLevel",
+        "idlType": {
+          "type": "attribute-type",
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "long"
+        },
+        "extAttrs": [],
+        "special": "",
+        "readonly": false
+      }
+    ],
+    "extAttrs": [],
+    "partial": false
+  },
+  {
+    "type": "eof",
+    "value": ""
+  }
+]
