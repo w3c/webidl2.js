@@ -1,0 +1,30 @@
+[
+  {
+    "type": "callback interface",
+    "name": "TestCallbackInterface",
+    "inheritance": null,
+    "members": [
+      {
+        "type": "attribute",
+        "name": "foo",
+        "idlType": {
+          "type": "attribute-type",
+          "extAttrs": [],
+          "generic": "",
+          "nullable": false,
+          "union": false,
+          "idlType": "long"
+        },
+        "extAttrs": [],
+        "special": "",
+        "readonly": true
+      }
+    ],
+    "extAttrs": [],
+    "partial": false
+  },
+  {
+    "type": "eof",
+    "value": ""
+  }
+]

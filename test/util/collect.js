@@ -7,7 +7,7 @@ import { diff } from "jsondiffpatch";
  * Collects test items from the specified directory
  * @param {string} base
  */
-export function* collect(base, { expectError, raw } = {}) {
+export function* collect(base, { expectError, raw, extensions = {} } = {}) {
   const dir = new URL(join("..", base, "idl/"), import.meta.url);
   const idls = readdirSync(dir)
     .filter((it) => it.endsWith(".webidl"))
@@ -19,6 +19,7 @@ export function* collect(base, { expectError, raw } = {}) {
       const ast = parse(text, {
         concrete: true,
         sourceName: basename(path.pathname),
+        extensions,
       });
       const validation = validate(ast);
       if (validation) {
