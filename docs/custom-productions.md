@@ -78,3 +78,22 @@ interface Tokeniser {
   unconsume(position: number);
 }
 ```
+
+## Using existing productions
+
+This library exposes member productions in `webidl2/productions`. (Note that this only works with ES module import)
+
+* `Argument`
+* `Attribute`
+* `Base`
+* `Constant`
+* `Constructor`
+* `Container`
+* `Default`
+* `ExtendedAttributes` / `SimpleExtendedAttribute`
+* `Field`
+* `IterableLike`
+* `Operation`
+* `Type`
+
+You can call `Argument.parse(tokeniser)` inside your custom production to reuse it.
