@@ -34,53 +34,34 @@ class CustomAttribute extends Base {
   get type() {
     return "custom attribute";
   }
+
+  write(w) {
+    const { parent } = this;
+    return w.ts.definition(
+      w.ts.wrap([
+        this.extAttrs.write(w),
+        w.token(this.tokens.base),
+        w.ts.type(this.idlType.write(w)),
+        w.name_token(this.tokens.name, { data: this, parent }),
+        w.token(this.tokens.termination),
+      ]),
+      { data: this, parent }
+    );
+  }
 }
 
-describe("Writer template functions", () => {
-  const customIdl = `
-    interface X {};
-    custom Y;
-  `;
+describe("Parse IDLs using custom productions", () => {
+  it("Parse and rewrite top-level custom attribute", () => {
+    const customIdl = "custom long bar;";
+    const result = parse(customIdl, {
+      productions: [CustomAttribute.parse],
+      concrete: true,
+    });
+    expect(result[0].type).toBe("custom attribute");
 
-  /**
-   * @param {import("../lib/tokeniser").Tokeniser} tokeniser
-   */
-  const customProduction = (tokeniser) => {
-    const { position } = tokeniser;
-    const base = tokeniser.consumeIdentifier("custom");
-    if (!base) {
-      return;
-    }
-    const tokens = { base };
-    tokens.name = tokeniser.consumeKind("identifier");
-    tokens.termination = tokeniser.consume(";");
-    if (!tokens.name || !tokens.termination) {
-      tokeniser.unconsume(position);
-      return;
-    }
-    return {
-      type: "custom",
-      tokens,
-      /** @param {import("../lib/writer.js").Writer} w */
-      write(w) {
-        return w.ts.wrap([
-          w.token(this.tokens.base),
-          w.token(this.tokens.name),
-          w.token(this.tokens.termination),
-        ]);
-      },
-    };
-  };
-
-  const result = parse(customIdl, {
-    productions: [customProduction],
-    concrete: true,
+    const rewritten = write(result);
+    expect(rewritten).toBe(customIdl);
   });
-  expect(result[0].type).toBe("interface");
-  expect(result[1].type).toBe("custom");
-
-  const rewritten = write(result);
-  expect(rewritten).toBe(customIdl);
 });
 
 describe("Parse IDLs using custom extensions", () => {
