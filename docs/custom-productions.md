@@ -97,3 +97,16 @@ This library exposes member productions in `webidl2/productions`. (Note that thi
 * `Type`
 
 You can call `Argument.parse(tokeniser)` inside your custom production to reuse it.
+
+It also exposes some helper functions:
+
+* `autoParenter`: This wraps your object in a proxy that assigns any object's `parent` field to `this`. Useful when tracking the parent of member productions.
+
+   ```js
+   const ret = autoParenter(this);
+   ret.default = Default.parse(tokeniser);
+   default.parent // this
+   ```
+
+* `argument_list`: Receives a tokeniser object and parses arguments separated by commas. Can be used to implement function-like syntax.
+* `unescape`: Trims preceding underscore `_` if the string argument has one.
