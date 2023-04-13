@@ -1,4 +1,3 @@
-"use strict";
 import expect from "expect";
 
 import { Attribute } from "../lib/productions/attribute.js";
