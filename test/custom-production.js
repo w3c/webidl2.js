@@ -1,4 +1,4 @@
-import expect from "expect";
+import { expect } from "expect";
 
 import { parse, write } from "webidl2";
 import { Base } from "../lib/productions/base.js";
