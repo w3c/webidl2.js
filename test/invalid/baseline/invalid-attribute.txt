@@ -12,10 +12,10 @@
              ^ Attributes cannot accept dictionary types.
 (attr-invalid-type) Validation error at line 28 in invalid-attribute.webidl, inside `interface EnforceRangeInReadonlyAttribute -> attribute readOnlyAttr1`:
   readonly attribute [EnforceRange] long readOnlyAttr1;
-                                    ^ Readonly attributes cannot accept [EnforceRange]
+                                    ^ Readonly attributes cannot accept [EnforceRange] extended attribute.
 (attr-invalid-type) Validation error at line 29 in invalid-attribute.webidl, inside `interface EnforceRangeInReadonlyAttribute -> attribute readOnlyAttr2`:
   readonly attribute [EnforceRange] GPUInt32In readOnlyAttr2;
-                                    ^ Readonly attributes cannot accept [EnforceRange]
+                                    ^ Readonly attributes cannot accept [EnforceRange] extended attribute.
 (attr-invalid-type) Validation error at line 30 in invalid-attribute.webidl, inside `interface EnforceRangeInReadonlyAttribute -> attribute readOnlyAttr2`:
   readonly attribute GPUInt32 readOnlyAttr2;
-                     ^ Readonly attributes cannot accept [EnforceRange]
+                     ^ Readonly attributes cannot accept [EnforceRange] extended attribute.
