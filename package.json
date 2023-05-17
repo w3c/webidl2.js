@@ -1,7 +1,7 @@
 {
   "name": "webidl2",
   "description": "A WebIDL Parser",
-  "version": "24.2.2",
+  "version": "24.3.0",
   "contributors": [
     "Robin Berjon <robin@berjon.com> (https://berjon.com)",
     "Marcos Caceres <marcos@marcosc.com> (https://marcosc.com)",
@@ -13,18 +13,18 @@
   },
   "license": "W3C",
   "devDependencies": {
-    "eslint": "^8.37.0",
+    "eslint": "^8.40.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-prettier": "^4.2.1",
     "expect": "^29.5.0",
     "jsondiffpatch": "^0.4.1",
     "mocha": "^10.2.0",
-    "prettier": "^2.8.7",
-    "terser-webpack-plugin": "^5.3.7",
-    "typescript": "^5.1.0-dev.20230401",
-    "webpack": "^5.77.0",
-    "webpack-cli": "^5.0.1"
+    "prettier": "^2.8.8",
+    "terser-webpack-plugin": "^5.3.8",
+    "typescript": "^5.0.4",
+    "webpack": "^5.82.1",
+    "webpack-cli": "^5.1.1"
   },
   "scripts": {
     "eslint": "eslint lib test",
