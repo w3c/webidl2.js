@@ -342,4 +342,20 @@ describe("Writer template functions", () => {
     `;
     expect(autofix(input)).toBe(output);
   });
+
+  it("should replace [AllowShared] BufferSource into undefined", () => {
+    const input = `
+      [Exposed=Window]
+      interface Foo {
+        void foo([AllowShared] /* Accept SharedArrayBuffer */ BufferSource source);
+      };
+    `;
+    const output = `
+      [Exposed=Window]
+      interface Foo {
+        undefined foo(/* Accept SharedArrayBuffer */ AllowSharedBufferSource source);
+      };
+    `;
+    expect(autofix(input)).toBe(output);
+  });
 });

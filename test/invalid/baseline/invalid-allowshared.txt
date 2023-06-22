@@ -1,0 +1,3 @@
+(migrate-allowshared) Validation error at line 3 in invalid-allowshared.webidl:
+ foo([AllowShared] BufferSource source);
+                   ^ `[AllowShared] BufferSource` is now replaced with AllowSharedBufferSource.
