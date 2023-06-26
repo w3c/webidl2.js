@@ -1,0 +1,3 @@
+Syntax error at line 1 in sharedarraybuffer.webidl:
+interface SharedArrayBuffer {};
+          ^ Missing name in interface
