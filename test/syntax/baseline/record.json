@@ -88,7 +88,7 @@
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "return-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -96,7 +96,7 @@
                                     "idlType": "float"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "return-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,

@@ -102,7 +102,7 @@
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "argument-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -110,7 +110,7 @@
                                     "idlType": "Type1"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "argument-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
