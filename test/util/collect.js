@@ -47,9 +47,9 @@ class TestItem {
     this.baselinePath = new URL(
       join(
         "../baseline",
-        basename(path.pathname).replace(".webidl", fileExtension)
+        basename(path.pathname).replace(".webidl", fileExtension),
       ),
-      path
+      path,
     );
   }
 

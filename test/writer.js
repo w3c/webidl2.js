@@ -23,7 +23,7 @@ describe("Writer template functions", () => {
   }
   function flatten(array) {
     return [].concat(
-      ...array.map((item) => (Array.isArray(item) ? flatten(item) : item))
+      ...array.map((item) => (Array.isArray(item) ? flatten(item) : item)),
     );
   }
 
@@ -39,10 +39,10 @@ describe("Writer template functions", () => {
       "/* longcat is long */ [Exposed=( Window )] interface X {};",
       {
         trivia: bracket,
-      }
+      },
     );
     expect(result).toBe(
-      "</* longcat is long */ >[<>Exposed<>=<>(< >Window< >)<>]< >interface< >X< >{<>}<>;<>"
+      "</* longcat is long */ >[<>Exposed<>=<>(< >Window< >)<>]< >interface< >X< >{<>}<>;<>",
     );
   });
 
@@ -61,7 +61,7 @@ describe("Writer template functions", () => {
     expect(enumeration).toBe('enum <Enum> { "<item>", };');
 
     const dictionary = rewriteName(
-      "dictionary Dict { required short field; };"
+      "dictionary Dict { required short field; };",
     );
     expect(dictionary).toBe("dictionary <Dict> { required short <field>; };");
 
@@ -69,10 +69,10 @@ describe("Writer template functions", () => {
     expect(operation).toBe("namespace <Console> { void <log>(); };");
 
     const constant = rewriteName(
-      "interface Misaki { const short MICHELLE = 1; };"
+      "interface Misaki { const short MICHELLE = 1; };",
     );
     expect(constant).toBe(
-      "interface <Misaki> { const short <MICHELLE> = 1; };"
+      "interface <Misaki> { const short <MICHELLE> = 1; };",
     );
   });
 
@@ -86,20 +86,20 @@ describe("Writer template functions", () => {
     }
 
     const result = rewriteReference(
-      "[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned  long> iro; };"
+      "[Exposed=Window] interface Momo : Kudamono { attribute Promise<unsigned  long> iro; };",
     );
     expect(result).toBe(
-      "[Exposed=<Window|Window|extended-attribute>] interface Momo : <Kudamono|Kudamono|interface> { attribute Promise<<unsigned  long|unsigned long|attribute-type>> iro; };"
+      "[Exposed=<Window|Window|extended-attribute>] interface Momo : <Kudamono|Kudamono|interface> { attribute Promise<<unsigned  long|unsigned long|attribute-type>> iro; };",
     );
 
     const includes = rewriteReference("_A includes _B;");
     expect(includes).toBe("<_A|A|includes> includes <_B|B|includes>;");
 
     const extAttrList = rewriteReference(
-      "[Exposed=(Window, Worker)] interface Sekai {};"
+      "[Exposed=(Window, Worker)] interface Sekai {};",
     );
     expect(extAttrList).toBe(
-      "[Exposed=(<Window|Window|extended-attribute>, <Worker|Worker|extended-attribute>)] interface Sekai {};"
+      "[Exposed=(<Window|Window|extended-attribute>, <Worker|Worker|extended-attribute>)] interface Sekai {};",
     );
   });
 
@@ -109,10 +109,10 @@ describe("Writer template functions", () => {
     }
 
     const result = rewriteReference(
-      "[Exposed=Window] interface Momo : _Kudamono { attribute Promise<_Type> iro; attribute _Type sugar; };"
+      "[Exposed=Window] interface Momo : _Kudamono { attribute Promise<_Type> iro; attribute _Type sugar; };",
     );
     expect(result).toBe(
-      "[Exposed=<Window>] interface Momo : <Kudamono> { attribute Promise<<Type>> iro; attribute <Type> sugar; };"
+      "[Exposed=<Window>] interface Momo : <Kudamono> { attribute Promise<<Type>> iro; attribute <Type> sugar; };",
     );
 
     const includes = rewriteReference("_A includes _B;");
@@ -125,10 +125,10 @@ describe("Writer template functions", () => {
     }
 
     const result = rewriteGeneric(
-      "[Exposed=Window] interface Momo : Kudamono { attribute Promise<Type> iro; iterable<float>; };"
+      "[Exposed=Window] interface Momo : Kudamono { attribute Promise<Type> iro; iterable<float>; };",
     );
     expect(result).toBe(
-      "[Exposed=Window] interface Momo : Kudamono { attribute <Promise><Type> iro; <iterable><float>; };"
+      "[Exposed=Window] interface Momo : Kudamono { attribute <Promise><Type> iro; <iterable><float>; };",
     );
   });
 
@@ -138,10 +138,10 @@ describe("Writer template functions", () => {
     }
 
     const result = rewriteNameless(
-      "[Exposed=Window] interface Momo { stringifier; constructor(); getter DOMString (); getter DOMString something(); };"
+      "[Exposed=Window] interface Momo { stringifier; constructor(); getter DOMString (); getter DOMString something(); };",
     );
     expect(result).toBe(
-      "[Exposed=Window] interface Momo { <stringifier>; <constructor>(); <getter> DOMString (); getter DOMString something(); };"
+      "[Exposed=Window] interface Momo { <stringifier>; <constructor>(); <getter> DOMString (); getter DOMString something(); };",
     );
   });
 
@@ -150,10 +150,10 @@ describe("Writer template functions", () => {
       "interface Momo { attribute Promise<unsigned long> iro; };",
       {
         type: bracket,
-      }
+      },
     );
     expect(result).toBe(
-      "interface Momo { attribute< Promise<unsigned long>> iro; };"
+      "interface Momo { attribute< Promise<unsigned long>> iro; };",
     );
   });
 
@@ -162,10 +162,10 @@ describe("Writer template functions", () => {
       'dictionary Nene : Member { DOMString cpp = "high"; };',
       {
         inheritance: bracket,
-      }
+      },
     );
     expect(result).toBe(
-      'dictionary Nene : <Member> { DOMString cpp = "high"; };'
+      'dictionary Nene : <Member> { DOMString cpp = "high"; };',
     );
   });
 
@@ -181,10 +181,10 @@ describe("Writer template functions", () => {
       "[Exposed=Window, Constructor] interface EagleJump { void aoba([Clamp] long work); };",
       {
         extendedAttribute: bracket,
-      }
+      },
     );
     expect(result).toBe(
-      "[<Exposed=Window>, <Constructor>] interface EagleJump { void aoba([<Clamp>] long work); };"
+      "[<Exposed=Window>, <Constructor>] interface EagleJump { void aoba([<Clamp>] long work); };",
     );
   });
 
@@ -193,10 +193,10 @@ describe("Writer template functions", () => {
       "[Exposed=Window, Constructor] interface EagleJump { void aoba([Clamp] long work); };",
       {
         extendedAttributeReference: bracket,
-      }
+      },
     );
     expect(result).toBe(
-      "[<Exposed>=Window, <Constructor>] interface EagleJump { void aoba([<Clamp>] long work); };"
+      "[<Exposed>=Window, <Constructor>] interface EagleJump { void aoba([<Clamp>] long work); };",
     );
   });
 
@@ -218,38 +218,38 @@ describe("Writer template functions", () => {
 
     const enumeration = rewriteDefinition('enum A { "b", "c" };');
     expect(enumeration).toBe(
-      'enum[enum A { enum:enum-value["b"], enum:enum-value["c"] };]'
+      'enum[enum A { enum:enum-value["b"], enum:enum-value["c"] };]',
     );
 
     const dictionary = rewriteDefinition(
-      "dictionary X { required DOMString str; };"
+      "dictionary X { required DOMString str; };",
     );
     expect(dictionary).toBe(
-      "dictionary[dictionary X {dictionary:field[ required DOMString str;] };]"
+      "dictionary[dictionary X {dictionary:field[ required DOMString str;] };]",
     );
 
     const interface_ = rewriteDefinition(
-      "interface X { iterable<DOMString>; };"
+      "interface X { iterable<DOMString>; };",
     );
     expect(interface_).toBe(
-      "interface[interface X {interface:iterable[ iterable<DOMString>;] };]"
+      "interface[interface X {interface:iterable[ iterable<DOMString>;] };]",
     );
 
     const operation = rewriteDefinition("namespace X { void log(); };");
     expect(operation).toBe(
-      "namespace[namespace X {namespace:operation[ void log();] };]"
+      "namespace[namespace X {namespace:operation[ void log();] };]",
     );
 
     const attribute = rewriteDefinition("interface X { attribute short x; };");
     expect(attribute).toBe(
-      "interface[interface X {interface:attribute[ attribute short x;] };]"
+      "interface[interface X {interface:attribute[ attribute short x;] };]",
     );
 
     const constant = rewriteDefinition(
-      "interface Misaki { const short MICHELLE = 1; };"
+      "interface Misaki { const short MICHELLE = 1; };",
     );
     expect(constant).toBe(
-      "interface[interface Misaki {interface:const[ const short MICHELLE = 1;] };]"
+      "interface[interface Misaki {interface:const[ const short MICHELLE = 1;] };]",
     );
   });
 });
