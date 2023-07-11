@@ -15,7 +15,7 @@
                     "union": true,
                     "idlType": [
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -23,14 +23,14 @@
                             "idlType": "float"
                         },
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "attribute-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -38,7 +38,7 @@
                                     "idlType": "Date"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "attribute-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -48,14 +48,14 @@
                             ]
                         },
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": true,
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "attribute-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -63,7 +63,7 @@
                                     "idlType": "Node"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "attribute-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -89,7 +89,7 @@
                     "union": true,
                     "idlType": [
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [
                                 {
                                     "type": "extended-attribute",
@@ -104,7 +104,7 @@
                             "idlType": "long"
                         },
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,

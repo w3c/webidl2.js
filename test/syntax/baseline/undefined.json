@@ -37,7 +37,7 @@
                             "union": true,
                             "idlType": [
                                 {
-                                    "type": null,
+                                    "type": "return-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,
@@ -45,7 +45,7 @@
                                     "idlType": "DOMString"
                                 },
                                 {
-                                    "type": null,
+                                    "type": "return-type",
                                     "extAttrs": [],
                                     "generic": "",
                                     "nullable": false,

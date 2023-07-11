@@ -229,7 +229,7 @@
                     "union": true,
                     "idlType": [
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
@@ -237,7 +237,7 @@
                             "idlType": "long"
                         },
                         {
-                            "type": null,
+                            "type": "attribute-type",
                             "extAttrs": [],
                             "generic": "",
                             "nullable": false,
