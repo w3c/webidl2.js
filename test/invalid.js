@@ -77,7 +77,7 @@ describe("Error object structure", () => {
   it("should not contain sourceName field if nonexistent", () => {
     try {
       parse(
-        "Answer to the Ultimate Question of Life, the Universe, and Everything"
+        "Answer to the Ultimate Question of Life, the Universe, and Everything",
       );
       throw new Error("Shouldn't reach here");
     } catch ({ sourceName, message }) {

@@ -12,7 +12,7 @@ class CustomAttribute extends Base {
     const start_position = tokeniser.position;
     const tokens = {};
     const ret = autoParenter(
-      new CustomAttribute({ source: tokeniser.source, tokens })
+      new CustomAttribute({ source: tokeniser.source, tokens }),
     );
     tokens.base = tokeniser.consumeIdentifier("custom");
     if (!tokens.base) {
@@ -45,7 +45,7 @@ class CustomAttribute extends Base {
         w.name_token(this.tokens.name, { data: this, parent }),
         w.token(this.tokens.termination),
       ]),
-      { data: this, parent }
+      { data: this, parent },
     );
   }
 }
