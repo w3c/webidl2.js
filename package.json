@@ -16,7 +16,7 @@
     "eslint": "^8.48.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-import": "^2.28.1",
-    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
     "expect": "^29.6.4",
     "jsondiffpatch": "^0.5.0",
     "mocha": "^10.2.0",
