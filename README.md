@@ -112,7 +112,7 @@ var result = WebIDL2.write(tree, {
      * Called only once for each types, e.g. `Document`, `Promise<DOMString>`, or `sequence<long>`.
      * @param type The `wrap()`ed result of references and syntatic bracket strings.
      */
-    type: type => type,
+    type: (type, { data }) => type,
     /**
      * Receives the return value of `reference()`. String if it's absent.
      */
