@@ -9,8 +9,8 @@ for (const test of collect("invalid", { expectError: true, raw: true })) {
   const content = test.error
     ? test.error.message
     : test.validation
-    ? test.validation.map((v) => `(${v.ruleName}) ${v.message}`).join("\n")
-    : "";
+      ? test.validation.map((v) => `(${v.ruleName}) ${v.message}`).join("\n")
+      : "";
 
   writeFileSync(test.baselinePath, `${content}\n`);
 }
