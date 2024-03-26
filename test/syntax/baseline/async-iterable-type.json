@@ -1,0 +1,200 @@
+[
+    {
+        "type": "interface",
+        "name": "Canvas",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "drawPolygonAsync",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "undefined"
+                        }
+                    ]
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "coordinates",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "async iterable",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "float"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "I",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "f1",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "Promise",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "undefined"
+                        }
+                    ]
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "arg",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "async iterable",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [
+                                        {
+                                            "type": "extended-attribute",
+                                            "name": "XAttr",
+                                            "rhs": null,
+                                            "arguments": []
+                                        }
+                                    ],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "float"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [],
+        "partial": false
+    },
+    {
+        "type": "interface",
+        "name": "asyncIterableReturn",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "stream",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "async iterable",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "short"
+                        }
+                    ]
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "foo",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "async iterable",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "short"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
+        "partial": false
+    },
+    {
+        "type": "eof",
+        "value": ""
+    }
+]
