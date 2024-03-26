@@ -236,7 +236,7 @@ attached to a field called `idlType`:
 Where the fields are as follows:
 
 * `type`: String indicating where this type is used. Can be `null` if not applicable.
-* `generic`: String indicating the generic type (e.g. "Promise", "sequence").
+* `generic`: String indicating the generic type (e.g. "Promise", "sequence", "async iterable").
 * `idlType`: String indicating the type name, or array of subtypes if the type is
   generic or a union.
 * `nullable`: `true` if the type is nullable.
