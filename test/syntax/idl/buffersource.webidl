@@ -10,6 +10,7 @@ interface Buffer {
   undefined add(Uint8ClampedArray array);
   undefined add(BigInt64Array array);
   undefined add(BigUint64Array array);
+  undefined add(Float16Array array);
   undefined add(Float32Array array);
   undefined add(Float64Array array);
 

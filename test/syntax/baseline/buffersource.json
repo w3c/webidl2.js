@@ -346,6 +346,38 @@
                             "generic": "",
                             "nullable": false,
                             "union": false,
+                            "idlType": "Float16Array"
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            },
+            {
+                "type": "operation",
+                "name": "add",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "undefined"
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "array",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
                             "idlType": "Float32Array"
                         },
                         "default": null,
