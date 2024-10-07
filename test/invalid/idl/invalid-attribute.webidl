@@ -5,6 +5,12 @@ interface sequenceAsAttribute {
 };
 
 [Exposed=Window]
+interface asyncIterableAsAttribute {
+  attribute async iterable<short> invalid;
+  attribute (async iterable<short> or boolean) invalidUnion; // TODO
+};
+
+[Exposed=Window]
 interface recordAsAttribute {
   attribute record<DOMString, DOMString> invalid;
   attribute (record<DOMString, DOMString> or boolean) invalidUnion; // TODO
