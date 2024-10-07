@@ -9,7 +9,7 @@
     "Timothy Gu <timothygu99@gmail.com>"
   ],
   "engines": {
-    "node": ">= 14"
+    "node": ">= 16"
   },
   "license": "W3C",
   "devDependencies": {
