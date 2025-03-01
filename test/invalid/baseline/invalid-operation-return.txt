@@ -1,0 +1,3 @@
+(operation-return-invalid-type) Validation error at line 3 in invalid-operation-return.webidl, inside `interface asyncIterableReturn -> operation stream`:
+  async iterable<short> stream(async iterable<
+                        ^ Operations can not return async iterable types.
