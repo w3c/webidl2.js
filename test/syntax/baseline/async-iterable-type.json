@@ -125,6 +125,75 @@
         "partial": false
     },
     {
+        "type": "interface",
+        "name": "asyncIterableReturn",
+        "inheritance": null,
+        "members": [
+            {
+                "type": "operation",
+                "name": "stream",
+                "idlType": {
+                    "type": "return-type",
+                    "extAttrs": [],
+                    "generic": "async iterable",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": [
+                        {
+                            "type": "return-type",
+                            "extAttrs": [],
+                            "generic": "",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": "short"
+                        }
+                    ]
+                },
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "foo",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "async iterable",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "short"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ],
+                "extAttrs": [],
+                "special": ""
+            }
+        ],
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
+        "partial": false
+    },
+    {
         "type": "eof",
         "value": ""
     }
