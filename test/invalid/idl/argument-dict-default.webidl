@@ -19,5 +19,5 @@ interface X {
   undefined z2(optional Union union = {});
   undefined r(Required req);
 
-  async iterable<DOMString>(optional Union union);
+  async_iterable<DOMString>(optional Union union);
 };

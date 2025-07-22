@@ -1,0 +1,3 @@
+(obsolete-async-iterable-syntax) Validation error at line 3 in async-space-iterable.webidl:
+  async iterable<long,
+  ^ `async iterable` is now changed to `async_iterable`.

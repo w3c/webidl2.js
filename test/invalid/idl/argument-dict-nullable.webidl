@@ -16,5 +16,5 @@ interface X {
   undefined z2(optional Union? union = {});
   undefined r(Required? req);
 
-  async iterable<DOMString>(optional Dict? dict);
+  async_iterable<DOMString>(optional Dict? dict);
 };
