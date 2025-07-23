@@ -32,7 +32,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "extAttrs": [],
-                            "generic": "async iterable",
+                            "generic": "async_sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
@@ -91,7 +91,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "extAttrs": [],
-                            "generic": "async iterable",
+                            "generic": "async_sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [
@@ -135,7 +135,7 @@
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
-                    "generic": "async iterable",
+                    "generic": "async_sequence",
                     "nullable": false,
                     "union": false,
                     "idlType": [
@@ -157,7 +157,7 @@
                         "idlType": {
                             "type": "argument-type",
                             "extAttrs": [],
-                            "generic": "async iterable",
+                            "generic": "async_sequence",
                             "nullable": false,
                             "union": false,
                             "idlType": [

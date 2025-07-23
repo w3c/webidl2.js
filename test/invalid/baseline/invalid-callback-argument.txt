@@ -1,3 +1,0 @@
-(operation-return-invalid-type) Validation error at line 1 in invalid-callback-argument.webidl, inside `callback DoSomething -> argument bool`:
-async iterable<DOMString> bool);
-                          ^ Callback function arguments can not be async iterable types.
