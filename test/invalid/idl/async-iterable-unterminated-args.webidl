@@ -1,3 +1,3 @@
 interface X {
-  async iterable<DOMString>(
+  async_iterable<DOMString>(
 };

@@ -5,7 +5,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -27,7 +27,7 @@
                 "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -39,7 +39,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -75,7 +75,7 @@
                 "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -87,7 +87,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -109,7 +109,7 @@
                 "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -121,7 +121,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -160,7 +160,7 @@
                 ],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -172,7 +172,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -186,7 +186,7 @@
                 "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -198,7 +198,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -212,7 +212,7 @@
                 "arguments": [],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],
@@ -224,7 +224,7 @@
         "inheritance": null,
         "members": [
             {
-                "type": "iterable",
+                "type": "async_iterable",
                 "idlType": [
                     {
                         "type": null,
@@ -271,7 +271,7 @@
                 ],
                 "extAttrs": [],
                 "readonly": false,
-                "async": true
+                "async": false
             }
         ],
         "extAttrs": [],

@@ -360,4 +360,20 @@ describe("Writer template functions", () => {
     `;
     expect(autofix(input)).toBe(output);
   });
+
+  it("should replace `async iterable` to `async_iterable`", () => {
+    const input = `
+      [Exposed=Window]
+      interface AsyncIterable {
+        async iterable<long, short>;
+      };
+    `;
+    const output = `
+      [Exposed=Window]
+      interface AsyncIterable {
+        async_iterable<long, short>;
+      };
+    `;
+    expect(autofix(input)).toBe(output);
+  });
 });

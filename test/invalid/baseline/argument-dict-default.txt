@@ -10,6 +10,6 @@
 (dict-arg-default) Validation error at line 18 in argument-dict-default.webidl, inside `interface X -> operation z -> argument union`:
   undefined z(optional Union union);
                              ^ Optional dictionary arguments must have a default value of `{}`.
-(dict-arg-default) Validation error at line 22 in argument-dict-default.webidl, inside `interface X -> iterable -> argument union`:
+(dict-arg-default) Validation error at line 22 in argument-dict-default.webidl, inside `interface X -> async_iterable -> argument union`:
 DOMString>(optional Union union);
                           ^ Optional dictionary arguments must have a default value of `{}`.
