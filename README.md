@@ -186,6 +186,7 @@ properties:
 * `sourceName`: the source name you passed to `parse()`.
 * `level`: `"error"` by default, can be `"warning"` for some validations for e.g. potential future deprecations.
 * `ruleName`: Only for validations. Currently the followings are supported:
+   * `async-iterable-idl-to-js`: `async_iterable` types cannot be returned from the IDL to JS.
    * `attr-invalid-type`: Attributes cannot have sequences, records, nor dictionaries.
    * `dict-arg-default`: Optional dictionary type arguments must have a default value of `{}`.
    * `dict-arg-optional`: Dictionary type arguments must be optional if the type does not include a required field.
@@ -236,7 +237,7 @@ attached to a field called `idlType`:
 Where the fields are as follows:
 
 * `type`: String indicating where this type is used. Can be `null` if not applicable.
-* `generic`: String indicating the generic type (e.g. "Promise", "sequence").
+* `generic`: String indicating the generic type (e.g. "Promise", "sequence", "async_sequence").
 * `idlType`: String indicating the type name, or array of subtypes if the type is
   generic or a union.
 * `nullable`: `true` if the type is nullable.

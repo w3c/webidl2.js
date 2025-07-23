@@ -1,0 +1,3 @@
+Syntax error at line 3 in async-sequence-two-params.webidl, since `interface AsyncSequence`:
+  async_sequence<long, short> foo(
+                     ^ Missing closing bracket after async_sequence

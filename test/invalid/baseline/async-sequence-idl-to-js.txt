@@ -1,0 +1,9 @@
+(attr-invalid-type) Validation error at line 3 in async-sequence-idl-to-js.webidl, inside `interface asyncIterableAsAttribute -> attribute invalid`:
+  attribute async_sequence<short> invalid;
+                                  ^ Attributes cannot accept async_sequence types.
+(async-sequence-idl-to-js) Validation error at line 5 in async-sequence-idl-to-js.webidl, inside `interface asyncIterableAsAttribute -> operation invalidOp`:
+  async_sequence<DOMString> invalidOp
+  ^ async_sequence types cannot be returned by an operation.
+(async-sequence-idl-to-js) Validation error at line 8 in async-sequence-idl-to-js.webidl, inside `callback DoSomething -> argument bool`:
+ (async_sequence<DOMString> bool);
+                            ^ async_sequence types cannot be returned as a callback argument.
