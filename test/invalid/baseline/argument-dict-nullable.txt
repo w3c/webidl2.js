@@ -19,6 +19,6 @@ boolean or Dict)? union = {})
 (no-nullable-dict-arg) Validation error at line 17 in argument-dict-nullable.webidl, inside `interface X -> operation r -> argument req`:
   undefined r(Required? req);
                         ^ Dictionary arguments cannot be nullable.
-(no-nullable-dict-arg) Validation error at line 19 in argument-dict-nullable.webidl, inside `interface X -> iterable -> argument dict`:
+(no-nullable-dict-arg) Validation error at line 19 in argument-dict-nullable.webidl, inside `interface X -> async_iterable -> argument dict`:
 >(optional Dict? dict);
                  ^ Dictionary arguments cannot be nullable.

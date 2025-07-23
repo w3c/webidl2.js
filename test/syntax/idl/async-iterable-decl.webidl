@@ -1,27 +1,27 @@
 interface AsyncIterable {
-  async iterable<long, float>;
+  async_iterable<long, float>;
 };
 
 interface AsyncIterableWithExtAttr {
-  async iterable<[XAttr2] DOMString, [XAttr3] long>;
+  async_iterable<[XAttr2] DOMString, [XAttr3] long>;
 };
 
 interface AsyncIterableWithNoParam {
-  async iterable<float, ByteString>();
+  async_iterable<float, ByteString>();
 };
 
 interface AsyncIterableWithParam {
-  async iterable<float, ByteString>(USVString str);
+  async_iterable<float, ByteString>(USVString str);
 };
 
 interface AsyncValueIterable {
-  async iterable<float>;
+  async_iterable<float>;
 };
 
 interface AsyncValueIterableWithNoParam {
-  async iterable<float>();
+  async_iterable<float>();
 };
 
 interface AsyncValueIterableWithParams {
-  async iterable<float>(DOMString str, short s);
+  async_iterable<float>(DOMString str, short s);
 };

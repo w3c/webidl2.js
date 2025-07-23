@@ -745,7 +745,7 @@ For `"Infinity"`:
 
 * `negative`: Boolean indicating whether this is negative Infinity or not.
 
-### `iterable<>`, `async iterable<>`, `maplike<>`, and `setlike<>` declarations
+### `iterable<>`, `async_iterable<>`, `maplike<>`, and `setlike<>` declarations
 
 These appear as members of interfaces that look like this:
 
@@ -755,7 +755,7 @@ These appear as members of interfaces that look like this:
   "idlType": /* One or two types */ ,
   "readonly": false, // only for maplike and setlike
   "async": false, // iterable can be async
-  "arguments": [], // only for async iterable
+  "arguments": [], // only for async_iterable
   "extAttrs": [],
   "parent": { ... }
 }
@@ -766,8 +766,8 @@ The fields are as follows:
 * `type`: Always one of "iterable", "maplike" or "setlike".
 * `idlType`: An array with one or more [IDL Types](#idl-type) representing the declared type arguments.
 * `readonly`: `true` if the maplike or setlike is declared as read only.
-* `async`: `true` if the type is async iterable.
-* `arguments`: An array of arguments if exists, empty otherwise. Currently only `async iterable` supports the syntax.
+* `async`: `true` if the type is `async iterable`. Note that it's false for the new `async_iterable`.
+* `arguments`: An array of arguments if exists, empty otherwise. Currently only `async_iterable` supports the syntax.
 * `extAttrs`: An array of [extended attributes](#extended-attributes).
 * `parent`: The container of this type as an Object.
 

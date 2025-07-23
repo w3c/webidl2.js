@@ -41,5 +41,5 @@ interface mixin Container {
 
 [Exposed=Window]
 interface ContainerInterface {
-  async iterable<DOMString>(Optional shouldBeOptional);
+  async_iterable<DOMString>(Optional shouldBeOptional);
 };
