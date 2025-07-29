@@ -41,7 +41,7 @@ class CustomAttribute extends Base {
       w.ts.wrap([
         this.extAttrs.write(w),
         w.token(this.tokens.base),
-        w.ts.type(this.idlType.write(w)),
+        w.ts.type(this.idlType.write(w), { data: this.idlType }),
         w.name_token(this.tokens.name, { data: this, parent }),
         w.token(this.tokens.termination),
       ]),
