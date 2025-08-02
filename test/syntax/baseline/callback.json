@@ -2,6 +2,7 @@
     {
         "type": "callback",
         "name": "AsyncOperationCallback",
+        "extAttrs": [],
         "idlType": {
             "type": "return-type",
             "extAttrs": [],
@@ -27,17 +28,18 @@
                 "optional": false,
                 "variadic": false
             }
-        ],
-        "extAttrs": []
+        ]
     },
     {
         "type": "callback interface",
         "name": "EventHandler",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "eventOccurred",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -64,16 +66,15 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "callback",
         "name": "SortCallback",
+        "extAttrs": [],
         "idlType": {
             "type": "return-type",
             "extAttrs": [],
@@ -115,8 +116,7 @@
                 "optional": false,
                 "variadic": false
             }
-        ],
-        "extAttrs": []
+        ]
     },
     {
         "type": "eof",

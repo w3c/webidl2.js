@@ -3,18 +3,11 @@
         "type": "interface mixin",
         "name": "Reflector",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "toggle",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "DOMString"
-                },
                 "extAttrs": [
                     {
                         "type": "extended-attribute",
@@ -32,12 +25,6 @@
                         "arguments": []
                     }
                 ],
-                "special": "",
-                "readonly": false
-            },
-            {
-                "type": "attribute",
-                "name": "quarter",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -46,6 +33,12 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "quarter",
                 "extAttrs": [
                     {
                         "type": "extended-attribute",
@@ -73,20 +66,20 @@
                         "arguments": []
                     }
                 ],
-                "special": "",
-                "readonly": false
-            },
-            {
-                "type": "attribute",
-                "name": "span",
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
                     "generic": "",
                     "nullable": false,
                     "union": false,
-                    "idlType": "unsigned long"
+                    "idlType": "DOMString"
                 },
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "span",
                 "extAttrs": [
                     {
                         "type": "extended-attribute",
@@ -111,11 +104,18 @@
                         "arguments": []
                     }
                 ],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "unsigned long"
+                },
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

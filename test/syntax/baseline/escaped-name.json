@@ -3,8 +3,8 @@
         "type": "interface",
         "name": "Iroha",
         "inheritance": "Magic",
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {

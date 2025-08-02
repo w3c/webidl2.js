@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Animal",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,22 +17,22 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Person",
         "inheritance": "Animal",
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "age",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -39,13 +41,13 @@
                     "union": false,
                     "idlType": "unsigned short"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "attribute",
                 "name": "name",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -54,12 +56,10 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "inherit",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

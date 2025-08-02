@@ -3,9 +3,11 @@
         "type": "interface",
         "name": "SetLike",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "setlike",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -17,21 +19,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "ReadOnlySetLike",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "setlike",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -43,21 +45,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": true,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "SetLikeExt",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "setlike",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -76,12 +78,10 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

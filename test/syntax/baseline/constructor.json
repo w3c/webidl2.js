@@ -3,14 +3,16 @@
         "type": "interface",
         "name": "Circle",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "constructor",
-                "arguments": [],
-                "extAttrs": []
+                "extAttrs": [],
+                "arguments": []
             },
             {
                 "type": "constructor",
+                "extAttrs": [],
                 "arguments": [
                     {
                         "type": "argument",
@@ -28,11 +30,11 @@
                         "optional": false,
                         "variadic": false
                     }
-                ],
-                "extAttrs": []
+                ]
             },
             {
                 "type": "constructor",
+                "extAttrs": [],
                 "arguments": [
                     {
                         "type": "argument",
@@ -48,16 +50,25 @@
                         },
                         "default": {
                             "type": "string",
+                            "expression": [
+                                {
+                                    "type": "string",
+                                    "value": "\"\"",
+                                    "trivia": " ",
+                                    "line": 5,
+                                    "index": 19
+                                }
+                            ],
                             "value": ""
                         },
                         "optional": true,
                         "variadic": false
                     }
-                ],
-                "extAttrs": []
+                ]
             },
             {
                 "type": "constructor",
+                "extAttrs": [],
                 "arguments": [
                     {
                         "type": "argument",
@@ -84,11 +95,11 @@
                         "optional": false,
                         "variadic": false
                     }
-                ],
-                "extAttrs": []
+                ]
             },
             {
                 "type": "constructor",
+                "extAttrs": [],
                 "arguments": [
                     {
                         "type": "argument",
@@ -123,12 +134,12 @@
                         "optional": false,
                         "variadic": false
                     }
-                ],
-                "extAttrs": []
+                ]
             },
             {
                 "type": "attribute",
                 "name": "r",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -137,13 +148,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "cx",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -152,13 +163,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "cy",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -167,13 +178,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "circumference",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -182,12 +193,10 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

@@ -3,10 +3,22 @@
         "type": "interface",
         "name": "Foo",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "operation",
                 "name": "foo",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -33,12 +45,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "foo",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -65,19 +77,7 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Exposed",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Window"
-                },
-                "arguments": []
             }
         ],
         "partial": false
