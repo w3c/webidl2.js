@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "B",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "g",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -16,12 +18,12 @@
                     "idlType": "undefined"
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "g",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -48,12 +50,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "g",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -87,11 +89,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
