@@ -3,10 +3,12 @@
         "type": "interface mixin",
         "name": "GlobalCrypto",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,12 +17,10 @@
                     "union": false,
                     "idlType": "Crypto"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
@@ -39,10 +39,12 @@
         "type": "interface mixin",
         "name": "WindowOrWorkerGlobalScope",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "crypto",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -51,20 +53,18 @@
                     "union": false,
                     "idlType": "Crypto"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": [],
         "partial": true
     },
     {
         "type": "interface mixin",
         "name": "LocalCrypto",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {

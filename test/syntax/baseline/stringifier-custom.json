@@ -3,10 +3,19 @@
         "type": "interface",
         "name": "Student",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "id",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +24,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "familyName",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -30,13 +39,13 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "givenName",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -45,13 +54,13 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "operation",
                 "name": "",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -61,16 +70,7 @@
                     "idlType": "DOMString"
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": "stringifier"
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Constructor",
-                "rhs": null,
-                "arguments": []
             }
         ],
         "partial": false

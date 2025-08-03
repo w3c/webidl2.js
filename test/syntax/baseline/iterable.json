@@ -3,9 +3,11 @@
         "type": "interface",
         "name": "IterableOne",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -17,21 +19,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "IterableTwo",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -51,21 +53,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "IterableThree",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -84,12 +86,10 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

@@ -3,10 +3,22 @@
         "type": "interface",
         "name": "Async",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "async",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +27,13 @@
                     "union": false,
                     "idlType": "boolean"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "operation",
                 "name": "asyncOp",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -48,19 +60,7 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Exposed",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Window"
-                },
-                "arguments": []
             }
         ],
         "partial": false

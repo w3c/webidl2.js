@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Animal",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,22 +17,22 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Human",
         "inheritance": "Animal",
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "pet",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -39,22 +41,22 @@
                     "union": false,
                     "idlType": "Dog"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Dog",
         "inheritance": "Animal",
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "owner",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -63,12 +65,10 @@
                     "union": false,
                     "idlType": "Human"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
