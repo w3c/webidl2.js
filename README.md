@@ -720,6 +720,7 @@ Extended attributes look like this:
 * `type`: Always `"extended-attribute"`.
 * `rhs`: If there is a right-hand side, this will capture its `type` and `value`. The
   type can be one of the following:
+
    * `"identifier"`
    * `"identifier-list"`
    * `"string"`
@@ -729,6 +730,8 @@ Extended attributes look like this:
    * `"integer"`
    * `"integer-list"`
    * `"*"`
+
+   Each child of a list has its own `type` of `value`, e.g. `type: "identifier"` for `"identifier-list"`.
 * `parent`: The container of this type as an Object.
 
 ### Default and Const Values
