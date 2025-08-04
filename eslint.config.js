@@ -8,7 +8,7 @@ export default [
   js.configs.recommended,
   eslintPluginPrettierRecommended,
   importPlugin.flatConfigs.recommended,
-  ...tseslint.configs.recommendedTypeChecked.map((config) => {
+  ...tseslint.configs.recommendedTypeCheckedOnly.map((config) => {
     return {
       files: ["lib/**"],
       ...config,
@@ -41,9 +41,12 @@ export default [
       semi: "error",
 
       // For now we want to focus on the exposed types rather than the internals.
+      "@typescript-eslint/no-unsafe-argument": 0,
       "@typescript-eslint/no-unsafe-assignment": 0,
       "@typescript-eslint/no-unsafe-call": 0,
       "@typescript-eslint/no-unsafe-member-access": 0,
+      // Incorrectly yells at static functions
+      "@typescript-eslint/unbound-method": 0
     },
   },
 ];
