@@ -8,6 +8,12 @@ export default [
   js.configs.recommended,
   eslintPluginPrettierRecommended,
   importPlugin.flatConfigs.recommended,
+  ...tseslint.configs.recommendedTypeChecked.map((config) => {
+    return {
+      files: ["lib/**"],
+      ...config,
+    };
+  }),
   {
     languageOptions: {
       ecmaVersion: "latest",
@@ -33,12 +39,11 @@ export default [
       "no-trailing-spaces": "error",
       "prefer-const": "error",
       semi: "error",
+
+      // For now we want to focus on the exposed types rather than the internals.
+      "@typescript-eslint/no-unsafe-assignment": 0,
+      "@typescript-eslint/no-unsafe-call": 0,
+      "@typescript-eslint/no-unsafe-member-access": 0,
     },
   },
-  ...tseslint.configs.recommendedTypeChecked.map(config => {
-    return {
-      files: ["lib/**"],
-      ...config
-    }
-  })
 ];
