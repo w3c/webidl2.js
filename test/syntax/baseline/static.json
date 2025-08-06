@@ -3,18 +3,20 @@
         "type": "interface",
         "name": "Point",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Circle",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "cx",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -23,13 +25,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "cy",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -38,13 +40,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "radius",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -53,13 +55,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "triangulationCount",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -68,13 +70,13 @@
                     "union": false,
                     "idlType": "long"
                 },
-                "extAttrs": [],
                 "special": "static",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "triangulate",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -133,11 +135,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "static"
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

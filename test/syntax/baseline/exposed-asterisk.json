@@ -3,7 +3,6 @@
         "type": "interface",
         "name": "X",
         "inheritance": null,
-        "members": [],
         "extAttrs": [
             {
                 "type": "extended-attribute",
@@ -15,6 +14,7 @@
                 "arguments": []
             }
         ],
+        "members": [],
         "partial": false
     },
     {
