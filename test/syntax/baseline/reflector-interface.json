@@ -63,9 +63,11 @@
                             "type": "string-list",
                             "value": [
                                 {
+                                    "type": "string",
                                     "value": "\"anonymous\""
                                 },
                                 {
+                                    "type": "string",
                                     "value": "\"use-credentials\""
                                 }
                             ]
@@ -101,9 +103,11 @@
                             "type": "integer-list",
                             "value": [
                                 {
+                                    "type": "integer",
                                     "value": "1"
                                 },
                                 {
+                                    "type": "integer",
                                     "value": "4"
                                 }
                             ]
