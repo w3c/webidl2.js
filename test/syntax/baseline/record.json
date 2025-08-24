@@ -3,10 +3,53 @@
         "type": "interface",
         "name": "Foo",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": [
+                    {
+                        "type": "argument",
+                        "name": "init",
+                        "extAttrs": [],
+                        "idlType": {
+                            "type": "argument-type",
+                            "extAttrs": [],
+                            "generic": "record",
+                            "nullable": false,
+                            "union": false,
+                            "idlType": [
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "USVString"
+                                },
+                                {
+                                    "type": "argument-type",
+                                    "extAttrs": [],
+                                    "generic": "",
+                                    "nullable": false,
+                                    "union": false,
+                                    "idlType": "USVString"
+                                }
+                            ]
+                        },
+                        "default": null,
+                        "optional": false,
+                        "variadic": false
+                    }
+                ]
+            }
+        ],
         "members": [
             {
                 "type": "operation",
                 "name": "foo",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -59,12 +102,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "bar",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -108,50 +151,7 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Constructor",
-                "rhs": null,
-                "arguments": [
-                    {
-                        "type": "argument",
-                        "name": "init",
-                        "extAttrs": [],
-                        "idlType": {
-                            "type": "argument-type",
-                            "extAttrs": [],
-                            "generic": "record",
-                            "nullable": false,
-                            "union": false,
-                            "idlType": [
-                                {
-                                    "type": "argument-type",
-                                    "extAttrs": [],
-                                    "generic": "",
-                                    "nullable": false,
-                                    "union": false,
-                                    "idlType": "USVString"
-                                },
-                                {
-                                    "type": "argument-type",
-                                    "extAttrs": [],
-                                    "generic": "",
-                                    "nullable": false,
-                                    "union": false,
-                                    "idlType": "USVString"
-                                }
-                            ]
-                        },
-                        "default": null,
-                        "optional": false,
-                        "variadic": false
-                    }
-                ]
             }
         ],
         "partial": false
@@ -160,10 +160,12 @@
         "type": "interface",
         "name": "Bar",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "bar",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -197,11 +199,9 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

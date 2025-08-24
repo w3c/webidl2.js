@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "A",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -16,27 +18,25 @@
                     "idlType": "DOMString"
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": "stringifier"
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "B",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "",
-                "arguments": [],
                 "extAttrs": [],
+                "arguments": [],
                 "special": "stringifier"
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
