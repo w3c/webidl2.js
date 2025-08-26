@@ -3,10 +3,19 @@
         "type": "interface",
         "name": "StringMap2",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "OverrideBuiltins",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "length",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +24,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "lookup",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -48,16 +57,7 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "getter"
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "OverrideBuiltins",
-                "rhs": null,
-                "arguments": []
             }
         ],
         "partial": false

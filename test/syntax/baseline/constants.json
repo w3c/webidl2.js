@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Util",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "const",
                 "name": "DEBUG",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -15,7 +17,6 @@
                     "union": false,
                     "idlType": "boolean"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "boolean",
                     "value": false
@@ -24,6 +25,7 @@
             {
                 "type": "const",
                 "name": "negative",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -32,7 +34,6 @@
                     "union": false,
                     "idlType": "short"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "number",
                     "value": "-1"
@@ -41,6 +42,7 @@
             {
                 "type": "const",
                 "name": "LF",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -49,7 +51,6 @@
                     "union": false,
                     "idlType": "octet"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "number",
                     "value": "10"
@@ -58,6 +59,7 @@
             {
                 "type": "const",
                 "name": "BIT_MASK",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -66,7 +68,6 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "number",
                     "value": "0x0000fc00"
@@ -75,6 +76,7 @@
             {
                 "type": "const",
                 "name": "AVOGADRO",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -83,7 +85,6 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "number",
                     "value": "6.022e23"
@@ -92,6 +93,7 @@
             {
                 "type": "const",
                 "name": "sobig",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -100,7 +102,6 @@
                     "union": false,
                     "idlType": "unrestricted float"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "Infinity",
                     "negative": false
@@ -109,6 +110,7 @@
             {
                 "type": "const",
                 "name": "minusonedividedbyzero",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -117,7 +119,6 @@
                     "union": false,
                     "idlType": "unrestricted double"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "Infinity",
                     "negative": true
@@ -126,6 +127,7 @@
             {
                 "type": "const",
                 "name": "notanumber",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -134,7 +136,6 @@
                     "union": false,
                     "idlType": "short"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "NaN"
                 }
@@ -142,6 +143,7 @@
             {
                 "type": "const",
                 "name": "const",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -150,14 +152,12 @@
                     "union": false,
                     "idlType": "boolean"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "boolean",
                     "value": true
                 }
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

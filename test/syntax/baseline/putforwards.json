@@ -3,18 +3,11 @@
         "type": "interface",
         "name": "Person",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "Name"
-                },
                 "extAttrs": [
                     {
                         "type": "extended-attribute",
@@ -26,12 +19,21 @@
                         "arguments": []
                     }
                 ],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "Name"
+                },
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "attribute",
                 "name": "age",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -40,12 +42,10 @@
                     "union": false,
                     "idlType": "unsigned short"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

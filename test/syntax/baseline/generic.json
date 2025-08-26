@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Foo",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "bar",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -43,12 +45,12 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "attribute",
                 "name": "baz",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -66,13 +68,13 @@
                         }
                     ]
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "attribute",
                 "name": "frozen",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -90,13 +92,13 @@
                         }
                     ]
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "attribute",
                 "name": "observable",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -114,22 +116,22 @@
                         }
                     ]
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "ServiceWorkerClients",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "getServiced",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -148,12 +150,12 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "reloadAll",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -172,21 +174,21 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "FetchEvent",
         "inheritance": "Event",
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "default",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -205,11 +207,9 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

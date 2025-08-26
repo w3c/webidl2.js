@@ -3,8 +3,8 @@
         "type": "interface",
         "name": "Documentation",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {

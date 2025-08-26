@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Point",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "x",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +17,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "y",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -30,17 +32,16 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "typedef",
         "name": "PointSequence",
+        "extAttrs": [],
         "idlType": {
             "type": "typedef-type",
             "extAttrs": [],
@@ -57,17 +58,18 @@
                     "idlType": "Point"
                 }
             ]
-        },
-        "extAttrs": []
+        }
     },
     {
         "type": "interface",
         "name": "Rect",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "topleft",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -76,13 +78,13 @@
                     "union": false,
                     "idlType": "Point"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "bottomright",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -91,22 +93,22 @@
                     "union": false,
                     "idlType": "Point"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Widget",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "bounds",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -115,13 +117,13 @@
                     "union": false,
                     "idlType": "Rect"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "pointWithinBounds",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -148,12 +150,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "allPointsWithinBounds",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -180,16 +182,15 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "typedef",
         "name": "value",
+        "extAttrs": [],
         "idlType": {
             "type": "typedef-type",
             "extAttrs": [
@@ -204,8 +205,7 @@
             "nullable": false,
             "union": false,
             "idlType": "octet"
-        },
-        "extAttrs": []
+        }
     },
     {
         "type": "eof",
