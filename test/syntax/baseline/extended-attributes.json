@@ -11,9 +11,11 @@
                     "type": "identifier-list",
                     "value": [
                         {
+                            "type": "identifier",
                             "value": "Worker"
                         },
                         {
+                            "type": "identifier",
                             "value": "ServiceWorker"
                         }
                     ]
@@ -81,9 +83,11 @@
                     "type": "identifier-list",
                     "value": [
                         {
+                            "type": "identifier",
                             "value": "null"
                         },
                         {
+                            "type": "identifier",
                             "value": "const"
                         }
                     ]
@@ -97,6 +101,7 @@
                     "type": "decimal-list",
                     "value": [
                         {
+                            "type": "decimal",
                             "value": "3.14"
                         }
                     ]
