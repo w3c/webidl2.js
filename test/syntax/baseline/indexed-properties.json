@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "OrderedMap",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "size",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +17,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "getByIndex",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -48,12 +50,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "setByIndex",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -96,12 +98,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "setter"
             },
             {
                 "type": "operation",
                 "name": "removeByIndex",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -128,12 +130,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "deleter"
             },
             {
                 "type": "operation",
                 "name": "get",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -160,12 +162,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "set",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -208,12 +210,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "setter"
             },
             {
                 "type": "operation",
                 "name": "remove",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -240,11 +242,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "deleter"
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
