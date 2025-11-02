@@ -3,26 +3,28 @@
         "type": "interface",
         "name": "A",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "B",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "C",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "f",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -49,12 +51,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "f",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -81,21 +83,21 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "D",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "f",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -122,12 +124,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "f",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -193,12 +195,12 @@
                         "variadic": true
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "f",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -208,12 +210,12 @@
                     "idlType": "undefined"
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "f",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -288,11 +290,9 @@
                         "variadic": true
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
