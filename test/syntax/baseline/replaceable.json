@@ -3,18 +3,11 @@
         "type": "interface",
         "name": "Counter",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "value",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "unsigned long"
-                },
                 "extAttrs": [
                     {
                         "type": "extended-attribute",
@@ -23,12 +16,21 @@
                         "arguments": []
                     }
                 ],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "unsigned long"
+                },
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "increment",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -38,11 +40,9 @@
                     "idlType": "undefined"
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

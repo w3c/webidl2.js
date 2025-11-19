@@ -3,10 +3,19 @@
         "type": "interface",
         "name": "CSSStyleDeclaration",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "-will-change",
+                "extAttrs": [
+                    {
+                        "type": "extended-attribute",
+                        "name": "CEReactions",
+                        "rhs": null,
+                        "arguments": []
+                    }
+                ],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [
@@ -25,19 +34,10 @@
                     "union": false,
                     "idlType": "CSSOMString"
                 },
-                "extAttrs": [
-                    {
-                        "type": "extended-attribute",
-                        "name": "CEReactions",
-                        "rhs": null,
-                        "arguments": []
-                    }
-                ],
                 "special": "",
                 "readonly": false
             }
         ],
-        "extAttrs": [],
         "partial": true
     },
     {
