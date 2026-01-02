@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "IntegerSet",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "cardinality",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +17,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "union",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -48,12 +50,12 @@
                         "variadic": true
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "intersection",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -80,11 +82,9 @@
                         "variadic": true
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

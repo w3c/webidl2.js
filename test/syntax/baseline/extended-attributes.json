@@ -3,7 +3,6 @@
         "type": "interface",
         "name": "ServiceWorkerGlobalScope",
         "inheritance": "WorkerGlobalScope",
-        "members": [],
         "extAttrs": [
             {
                 "type": "extended-attribute",
@@ -33,13 +32,13 @@
                 "arguments": []
             }
         ],
+        "members": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "IdInterface",
         "inheritance": null,
-        "members": [],
         "extAttrs": [
             {
                 "type": "extended-attribute",
@@ -110,74 +109,13 @@
                 "arguments": []
             }
         ],
+        "members": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Circle",
         "inheritance": null,
-        "members": [
-            {
-                "type": "attribute",
-                "name": "r",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "double"
-                },
-                "extAttrs": [],
-                "special": "",
-                "readonly": false
-            },
-            {
-                "type": "attribute",
-                "name": "cx",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "double"
-                },
-                "extAttrs": [],
-                "special": "",
-                "readonly": false
-            },
-            {
-                "type": "attribute",
-                "name": "cy",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "double"
-                },
-                "extAttrs": [],
-                "special": "",
-                "readonly": false
-            },
-            {
-                "type": "attribute",
-                "name": "circumference",
-                "idlType": {
-                    "type": "attribute-type",
-                    "extAttrs": [],
-                    "generic": "",
-                    "nullable": false,
-                    "union": false,
-                    "idlType": "double"
-                },
-                "extAttrs": [],
-                "special": "",
-                "readonly": true
-            }
-        ],
         "extAttrs": [
             {
                 "type": "extended-attribute",
@@ -209,16 +147,90 @@
                 ]
             }
         ],
+        "members": [
+            {
+                "type": "attribute",
+                "name": "r",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "double"
+                },
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "cx",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "double"
+                },
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "cy",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "double"
+                },
+                "special": "",
+                "readonly": false
+            },
+            {
+                "type": "attribute",
+                "name": "circumference",
+                "extAttrs": [],
+                "idlType": {
+                    "type": "attribute-type",
+                    "extAttrs": [],
+                    "generic": "",
+                    "nullable": false,
+                    "union": false,
+                    "idlType": "double"
+                },
+                "special": "",
+                "readonly": true
+            }
+        ],
         "partial": false
     },
     {
         "type": "interface",
         "name": "I",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "attrib",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [
@@ -251,20 +263,8 @@
                         }
                     ]
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Exposed",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Window"
-                },
-                "arguments": []
             }
         ],
         "partial": false

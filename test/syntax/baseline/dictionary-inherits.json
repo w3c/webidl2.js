@@ -3,6 +3,7 @@
         "type": "dictionary",
         "name": "PaintOptions",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "field",
@@ -18,6 +19,15 @@
                 },
                 "default": {
                     "type": "string",
+                    "expression": [
+                        {
+                            "type": "string",
+                            "value": "\"black\"",
+                            "trivia": " ",
+                            "line": 2,
+                            "index": 7
+                        }
+                    ],
                     "value": "black"
                 },
                 "required": false
@@ -35,7 +45,16 @@
                     "idlType": "DOMString"
                 },
                 "default": {
-                    "type": "null"
+                    "type": "null",
+                    "expression": [
+                        {
+                            "type": "inline",
+                            "value": "null",
+                            "trivia": " ",
+                            "line": 3,
+                            "index": 13
+                        }
+                    ]
                 },
                 "required": false
             },
@@ -55,13 +74,13 @@
                 "required": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "dictionary",
         "name": "WetPaintOptions",
         "inheritance": "PaintOptions",
+        "extAttrs": [],
         "members": [
             {
                 "type": "field",
@@ -79,7 +98,6 @@
                 "required": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

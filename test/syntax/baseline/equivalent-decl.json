@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Dictionary",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "propertyCount",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +17,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "getProperty",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -48,12 +50,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "setProperty",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -96,21 +98,21 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "setter"
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "Dictionary2",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "propertyCount",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -119,13 +121,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "getProperty",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -152,12 +154,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "setProperty",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -200,12 +202,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -232,12 +234,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "getter"
             },
             {
                 "type": "operation",
                 "name": "",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -280,11 +282,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": "setter"
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

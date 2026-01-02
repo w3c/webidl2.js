@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Suffixes",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "test",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -42,11 +44,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

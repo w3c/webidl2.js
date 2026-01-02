@@ -3,9 +3,11 @@
         "type": "interface",
         "name": "AsyncIterable",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -25,21 +27,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AsyncIterableWithExtAttr",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -73,21 +75,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AsyncIterableWithNoParam",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -107,21 +109,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AsyncIterableWithParam",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -158,21 +160,21 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AsyncValueIterable",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -184,21 +186,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AsyncValueIterableWithNoParam",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -210,21 +212,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AsyncValueIterableWithParams",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "async_iterable",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -269,12 +271,10 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

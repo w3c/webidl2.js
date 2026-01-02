@@ -3,6 +3,7 @@
         "type": "dictionary",
         "name": "LookupOptions",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "field",
@@ -18,22 +19,42 @@
                 },
                 "default": {
                     "type": "boolean",
+                    "expression": [
+                        {
+                            "type": "inline",
+                            "value": "false",
+                            "trivia": " ",
+                            "line": 5,
+                            "index": 6
+                        }
+                    ],
                     "value": false
                 },
                 "required": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "AddressBook",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "operation",
                 "name": "hasAddressForName",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -72,25 +93,29 @@
                             "idlType": "LookupOptions"
                         },
                         "default": {
-                            "type": "dictionary"
+                            "type": "dictionary",
+                            "expression": [
+                                {
+                                    "type": "inline",
+                                    "value": "{",
+                                    "trivia": " ",
+                                    "line": 10,
+                                    "index": 28
+                                },
+                                {
+                                    "type": "inline",
+                                    "value": "}",
+                                    "trivia": "",
+                                    "line": 10,
+                                    "index": 29
+                                }
+                            ]
                         },
                         "optional": true,
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Exposed",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Window"
-                },
-                "arguments": []
             }
         ],
         "partial": false
