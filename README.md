@@ -27,18 +27,21 @@ In the browser without module support:
 
 ## Documentation
 
-WebIDL2 provides two functions: `parse` and `write`.
+WebIDL2 provides these functions:
 
 * `parse`: Converts a WebIDL string into a syntax tree.
 * `write`: Converts a syntax tree into a WebIDL string. Useful for programmatic code
   modification.
+* `merge`: Merges partial definitions and interface mixins.
+* `validate`: Validates that the parsed syntax against a number of rules.
 
 In Node, that happens with:
 
 ```JS
-const { parse, write, validate } = require("webidl2");
+const { parse, write, merge, validate } = require("webidl2");
 const tree = parse("string of WebIDL");
 const text = write(tree);
+const merged = merge(tree);
 const validation = validate(tree);
 ```
 
@@ -47,14 +50,16 @@ In the browser:
 <script>
   const tree = WebIDL2.parse("string of WebIDL");
   const text = WebIDL2.write(tree);
+  const merged = WebIDL2.merge(tree);
   const validation = WebIDL2.validate(tree);
 </script>
 
 <!-- Or when module is supported -->
 <script type="module">
-  import { parse, write, validate } from "./webidl2/index.js";
+  import { parse, write, merge, validate } from "./webidl2/index.js";
   const tree = parse("string of WebIDL");
   const text = write(tree);
+  const merged = merge(tree);
   const validation = validate(tree);
 </script>
 ```
@@ -139,6 +144,13 @@ var result = WebIDL2.write(tree, {
 ```
 
 "Wrapped value" here will all be raw strings when the `wrap()` callback is absent.
+
+`merge()` receives an AST or an array of AST, and TODO:
+
+```js
+const merged = merge(tree);
+// TODO example
+```
 
 `validate()` receives an AST or an array of AST, and returns semantic errors as an
 array of objects. Their fields are same as [errors](#errors) have, with one addition:
