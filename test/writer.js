@@ -252,4 +252,31 @@ describe("Writer template functions", () => {
       "interface[interface Misaki {interface:const[ const short MICHELLE = 1;] };]",
     );
   });
+
+  it("gives idlType object", () => {
+    const types = [];
+    rewrite(
+      `
+      interface Mizuki {
+        attribute long attr;
+        short? op(long long arg);
+      };
+      dictionary Ena {
+        sequence<unsigned short> mem;
+      };
+      `,
+      {
+        type(type, { data }) {
+          types.push(data);
+        },
+      },
+    );
+
+    expect(types[0].idlType).toBe("long");
+    expect(types[1].idlType).toBe("short");
+    expect(types[1].nullable).toBe(true);
+    expect(types[2].idlType).toBe("long long");
+    expect(types[3].generic).toBe("sequence");
+    expect(types[3].idlType[0].idlType).toBe("unsigned short");
+  });
 });
