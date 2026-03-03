@@ -2,6 +2,7 @@
     {
         "type": "typedef",
         "name": "TexImageSource",
+        "extAttrs": [],
         "idlType": {
             "type": "typedef-type",
             "extAttrs": [],
@@ -42,8 +43,7 @@
                     "idlType": "HTMLVideoElement"
                 }
             ]
-        },
-        "extAttrs": []
+        }
     },
     {
         "type": "eof",

@@ -3,10 +3,22 @@
         "type": "interface",
         "name": "Interface",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Exposed",
+                "rhs": {
+                    "type": "identifier",
+                    "value": "Window"
+                },
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "bigint",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +27,13 @@
                     "union": false,
                     "idlType": "bigint"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "operation",
                 "name": "getBig",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -31,12 +43,12 @@
                     "idlType": "bigint"
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "setBig",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -63,19 +75,7 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Exposed",
-                "rhs": {
-                    "type": "identifier",
-                    "value": "Window"
-                },
-                "arguments": []
             }
         ],
         "partial": false
@@ -84,6 +84,7 @@
         "type": "dictionary",
         "name": "Dictionary",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "field",
@@ -116,12 +117,12 @@
                 "required": true
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "typedef",
         "name": "allowed",
+        "extAttrs": [],
         "idlType": {
             "type": "typedef-type",
             "extAttrs": [],
@@ -146,8 +147,7 @@
                     "idlType": "short"
                 }
             ]
-        },
-        "extAttrs": []
+        }
     },
     {
         "type": "eof",

@@ -3,10 +3,12 @@
         "type": "namespace",
         "name": "VectorUtils",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "unit",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +17,13 @@
                     "union": false,
                     "idlType": "Vector"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             },
             {
                 "type": "operation",
                 "name": "dotProduct",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -64,12 +66,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "crossProduct",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -112,12 +114,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "const",
                 "name": "CONST",
+                "extAttrs": [],
                 "idlType": {
                     "type": "const-type",
                     "extAttrs": [],
@@ -126,30 +128,28 @@
                     "union": false,
                     "idlType": "short"
                 },
-                "extAttrs": [],
                 "value": {
                     "type": "number",
                     "value": "3"
                 }
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "namespace",
         "name": "SomeNamespace",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": true
     },
     {
         "type": "namespace",
         "name": "ScalarUtils",
         "inheritance": null,
-        "members": [],
         "extAttrs": [],
+        "members": [],
         "partial": false
     },
     {

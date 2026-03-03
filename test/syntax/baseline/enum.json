@@ -2,6 +2,7 @@
     {
         "type": "enum",
         "name": "MealType",
+        "extAttrs": [],
         "values": [
             {
                 "type": "enum-value",
@@ -15,17 +16,18 @@
                 "type": "enum-value",
                 "value": "other"
             }
-        ],
-        "extAttrs": []
+        ]
     },
     {
         "type": "interface",
         "name": "Meal",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "type",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -34,13 +36,13 @@
                     "union": false,
                     "idlType": "MealType"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "size",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -49,13 +51,13 @@
                     "union": false,
                     "idlType": "float"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "operation",
                 "name": "initialize",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -98,16 +100,15 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "enum",
         "name": "AltMealType",
+        "extAttrs": [],
         "values": [
             {
                 "type": "enum-value",
@@ -121,8 +122,7 @@
                 "type": "enum-value",
                 "value": "other"
             }
-        ],
-        "extAttrs": []
+        ]
     },
     {
         "type": "eof",

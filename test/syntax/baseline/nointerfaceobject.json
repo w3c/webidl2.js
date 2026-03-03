@@ -3,10 +3,19 @@
         "type": "interface",
         "name": "Query",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "NoInterfaceObject",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "operation",
                 "name": "lookupEntry",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -33,16 +42,7 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "NoInterfaceObject",
-                "rhs": null,
-                "arguments": []
             }
         ],
         "partial": false

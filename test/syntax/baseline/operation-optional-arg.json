@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "ColorCreator",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "createColor",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -78,17 +80,24 @@
                         },
                         "default": {
                             "type": "number",
+                            "expression": [
+                                {
+                                    "type": "decimal",
+                                    "value": "3.5",
+                                    "trivia": " ",
+                                    "line": 3,
+                                    "index": 19
+                                }
+                            ],
                             "value": "3.5"
                         },
                         "optional": true,
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
