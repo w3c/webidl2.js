@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Dog",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "name",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +17,13 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "owner",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -30,13 +32,13 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "operation",
                 "name": "isMemberOfBreed",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -73,11 +75,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

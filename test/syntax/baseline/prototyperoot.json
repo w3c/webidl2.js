@@ -3,10 +3,19 @@
         "type": "interface",
         "name": "Node",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "PrototypeRoot",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "nodeType",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,17 +24,8 @@
                     "union": false,
                     "idlType": "unsigned short"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "PrototypeRoot",
-                "rhs": null,
-                "arguments": []
             }
         ],
         "partial": false
