@@ -3,9 +3,11 @@
         "type": "interface",
         "name": "MapLike",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "maplike",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -25,21 +27,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "ReadOnlyMapLike",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "maplike",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -59,21 +61,21 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": true,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "I",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "maplike",
+                "extAttrs": [],
                 "idlType": [
                     {
                         "type": null,
@@ -107,12 +109,10 @@
                     }
                 ],
                 "arguments": [],
-                "extAttrs": [],
                 "readonly": false,
                 "async": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Node",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "attribute",
                 "name": "namespaceURI",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,12 +17,10 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": true
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

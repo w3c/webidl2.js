@@ -3,10 +3,12 @@
         "type": "interface",
         "name": "Canvas",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "drawPolygon",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -42,12 +44,12 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             },
             {
                 "type": "operation",
                 "name": "getInflectionPoints",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -66,21 +68,21 @@
                     ]
                 },
                 "arguments": [],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "interface",
         "name": "I",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "operation",
                 "name": "f1",
+                "extAttrs": [],
                 "idlType": {
                     "type": "return-type",
                     "extAttrs": [],
@@ -123,11 +125,9 @@
                         "variadic": false
                     }
                 ],
-                "extAttrs": [],
                 "special": ""
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {

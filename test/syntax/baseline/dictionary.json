@@ -3,6 +3,7 @@
         "type": "dictionary",
         "name": "PaintOptions",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "field",
@@ -18,6 +19,15 @@
                 },
                 "default": {
                     "type": "string",
+                    "expression": [
+                        {
+                            "type": "string",
+                            "value": "\"black\"",
+                            "trivia": " ",
+                            "line": 3,
+                            "index": 7
+                        }
+                    ],
                     "value": "black"
                 },
                 "required": false
@@ -35,7 +45,16 @@
                     "idlType": "DOMString"
                 },
                 "default": {
-                    "type": "null"
+                    "type": "null",
+                    "expression": [
+                        {
+                            "type": "inline",
+                            "value": "null",
+                            "trivia": " ",
+                            "line": 4,
+                            "index": 13
+                        }
+                    ]
                 },
                 "required": false
             },
@@ -77,6 +96,22 @@
                 },
                 "default": {
                     "type": "sequence",
+                    "expression": [
+                        {
+                            "type": "inline",
+                            "value": "[",
+                            "trivia": " ",
+                            "line": 7,
+                            "index": 24
+                        },
+                        {
+                            "type": "inline",
+                            "value": "]",
+                            "trivia": "",
+                            "line": 7,
+                            "index": 25
+                        }
+                    ],
                     "value": []
                 },
                 "required": false
@@ -109,18 +144,34 @@
                     "idlType": "Dictionary"
                 },
                 "default": {
-                    "type": "dictionary"
+                    "type": "dictionary",
+                    "expression": [
+                        {
+                            "type": "inline",
+                            "value": "{",
+                            "trivia": " ",
+                            "line": 10,
+                            "index": 34
+                        },
+                        {
+                            "type": "inline",
+                            "value": "}",
+                            "trivia": "",
+                            "line": 10,
+                            "index": 35
+                        }
+                    ]
                 },
                 "required": false
             }
         ],
-        "extAttrs": [],
         "partial": false
     },
     {
         "type": "dictionary",
         "name": "A",
         "inheritance": null,
+        "extAttrs": [],
         "members": [
             {
                 "type": "field",
@@ -153,7 +204,6 @@
                 "required": false
             }
         ],
-        "extAttrs": [],
         "partial": true
     },
     {

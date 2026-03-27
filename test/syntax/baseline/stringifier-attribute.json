@@ -3,10 +3,19 @@
         "type": "interface",
         "name": "Student",
         "inheritance": null,
+        "extAttrs": [
+            {
+                "type": "extended-attribute",
+                "name": "Constructor",
+                "rhs": null,
+                "arguments": []
+            }
+        ],
         "members": [
             {
                 "type": "attribute",
                 "name": "id",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -15,13 +24,13 @@
                     "union": false,
                     "idlType": "unsigned long"
                 },
-                "extAttrs": [],
                 "special": "",
                 "readonly": false
             },
             {
                 "type": "attribute",
                 "name": "name",
+                "extAttrs": [],
                 "idlType": {
                     "type": "attribute-type",
                     "extAttrs": [],
@@ -30,17 +39,8 @@
                     "union": false,
                     "idlType": "DOMString"
                 },
-                "extAttrs": [],
                 "special": "stringifier",
                 "readonly": false
-            }
-        ],
-        "extAttrs": [
-            {
-                "type": "extended-attribute",
-                "name": "Constructor",
-                "rhs": null,
-                "arguments": []
             }
         ],
         "partial": false
