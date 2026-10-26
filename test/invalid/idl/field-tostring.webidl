@@ -1,0 +1,3 @@
+dictionary FieldToString {
+  long toString;
+};
